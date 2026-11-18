@@ -812,6 +812,7 @@ WORDS.n99 = {
     lij: "dec",
     lld: "dec",
     nrf: "dec",
+    acf: "vig",
   },
   routes: {
     dec: {
@@ -1637,5 +1638,6 @@ WORDS.n99 = {
     lij: ["novanteneuve", "nuvaŋteˈnøːve"],
     lld: ["nonantenuef", "nonanteˈnwef"],
     nrf: ["nénante-neuf", "nenɑ̃tnœf"],
+    acf: ["katwiven diznèf", "katwivɛ̃ diznɛf"],
   }
 };

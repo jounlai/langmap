@@ -1179,5 +1179,6 @@ WORDS.mountain = {
     qxq: ["dağ", "dɑʁ"],
     gha: ["adurar", "adurar"],  // Recorded from the Ayt Welid.
     p_jpk: ["*yama", "jama"],
+    gcr: ["montangn", "mɔ̃tãɲ"],
   }
 };

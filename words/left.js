@@ -718,6 +718,11 @@ WORDS.left = {
     lij: "plain",
     mwl: "loan",
     vec: "plain",
+    acf: "bad",
+    djk: "bad",
+    gcr: "bad",
+    srm: "bad",
+    srn: "bad",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -1373,5 +1378,10 @@ WORDS.left = {
     lij: ["manciña", "maŋˈtʃiŋa"],
     mwl: ["squierdo", "ˈskjeɾðu"],
     vec: ["sanca", "ˈsaŋka"],  // No image is recorded for it, so it counts as a word of its own.
+    acf: ["gòch", "ɡɔʃ"],
+    djk: ["kukutu", "kukutu"],  // Also 'crooked'; the left hand is kukutu ana.
+    gcr: ["goch", "ɡɔʃ"],
+    srm: ["töö́tö", "tɔɔ́tɔ"],
+    srn: ["kruktu-anu", "kruktu anu"],
   },
 };

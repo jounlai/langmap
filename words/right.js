@@ -677,6 +677,12 @@ WORDS.right = {
     kea: "straight",
     lij: "straight",
     pms: "straight",
+    acf: "straight",
+    djk: "straight",
+    gcr: "straight",
+    pap: "straight",
+    srm: "straight",
+    srn: "straight",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1295,5 +1301,11 @@ WORDS.right = {
     kea: ["direta", "diˈɾetɐ"],
     lij: ["drita", "ˈdriːta"],
     pms: ["drita", "ˈdrita"],
+    acf: ["dwèt", "dwɛt"],
+    djk: ["leti", "leti"],  // The right hand is leti ana.
+    gcr: ["drèt", "dʁɛt"],
+    pap: ["drechi", "ˈdretʃi"],
+    srm: ["léti", "léti"],
+    srn: ["reti-anu", "reti anu"],
   },
 };

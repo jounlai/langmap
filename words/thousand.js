@@ -685,6 +685,10 @@ WORDS.thousand = {
     lij: "mille",
     pms: "mille",
     wa: "mille",
+    acf: "mille",
+    djk: "strong",
+    gcr: "mille",
+    srm: "strong",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मैनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -1311,5 +1315,9 @@ WORDS.thousand = {
     lij: ["mille", "ˈmille"],
     pms: ["mila", "ˈmila"],
     wa: ["meye", "mɛj"],
+    acf: ["mil", "mil"],
+    djk: ["dunsu", "dunsu"],
+    gcr: ["mil", "mil"],
+    srm: ["dúsu", "dúsu"],
   },
 };

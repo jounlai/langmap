@@ -610,5 +610,6 @@ WORDS.cockcrow = {
     fur: ["chichirichi", "kikiriˈki"],
     lij: ["cocorocô", "kukuruˈkuː"],
     wa: ["cocorico", "kɔkɔʀiˈkɔ"],
+    djk: ["kokoliyekee", "kokolijekeː"],
   },
 };

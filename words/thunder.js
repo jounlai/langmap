@@ -887,6 +887,7 @@ WORDS.thunder = {
     frr: "plain",
     nrf: "other",
     vec: "plain",
+    gcr: "other",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1720,5 +1721,6 @@ WORDS.thunder = {
     frr: ["tuner", "ˈtʊnər"],  // Route by resemblance to the neighbouring forms (German Donner, West Frisian tonger); no etymology of its own.
     nrf: ["ôrage", "oraʒ"],
     vec: ["ton", "toŋ"],  // Route by resemblance to the neighbouring forms (Friulian ton, Italian tuono); no etymology of its own.
+    gcr: ["loraj", "loʁaʒ"],
   },
 };

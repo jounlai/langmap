@@ -469,6 +469,8 @@ WORDS.chili = {
     fur: "pepper",
     lij: "pepper",
     pms: "pepper",
+    acf: "spice",
+    pap: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -554,7 +556,7 @@ WORDS.chili = {
     max: ["rica", "ˈritʃa"],  // From Malay merica, Sanskrit marica.
     iba: ["chabi", "tʃabiʔ"],  // Compare Malay cabai.
     kmb: ["ndungu", "ndunɡu"],  // Assis Júnior, Dicionário kimbundu-português: ndungu (pl. jindungu) "pimenta", the hot pepper; source of Angolan Portuguese gindungo. Replaces mufete, which is a grilled-fish dish (gap rally R12, 2026-11-18).
-    srm: ["pë́pë", "pë́pë"],
+    srm: ["pë́pë", "pɛ́pɛ"],
     pam: ["lara", "ˈlaɾəʔ"],  // From Malay lada.
     mak: ["lada", "ˈlada"],  // From Malay lada.
     tcy: ["ಮುಂಚಿ", "muɲtʃi"],
@@ -876,5 +878,7 @@ WORDS.chili = {
     fur: ["pevaroncin", "pevaronˈtʃin"],
     lij: ["pevionetto", "pevjuˈnettu"],
     pms: ["povronin", "puvruˈniŋ"],
+    acf: ["piman", "pimã"],
+    pap: ["promèntè", "proˈmɛntɛ"],
   },
 };

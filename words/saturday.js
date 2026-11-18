@@ -554,6 +554,10 @@ WORDS.saturday = {
     frr: "eve",
     lmo: "sabbath",
     pms: "sabbath",
+    acf: "sabbath",
+    djk: "saturn",
+    pap: "sabbath",
+    srm: "saturn",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1050,5 +1054,9 @@ WORDS.saturday = {
     frr: ["saneene", "saˈneːnə"],  // Route by resemblance to the neighbouring forms (West Frisian sneon); no etymology of its own.
     lmo: ["sabet", "ˈsabet"],
     pms: ["saba", "ˈsaba"],
+    acf: ["Sanmdi", "sãmdi"],
+    djk: ["sataa", "sataː"],
+    pap: ["djasabra", "dʒaˈsabra"],
+    srm: ["sata", "sata"],
   },
 };

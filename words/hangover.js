@@ -229,5 +229,6 @@ WORDS.hangover = {
     orv: ["похмелиѥ", "poxmelije"],
     an: ["resaca", "reˈsaka"],
     ast: ["resaca", "reˈsaka"],
+    pap: ["wayabá", "wajaˈba"],
   },
 };

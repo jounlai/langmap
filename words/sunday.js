@@ -597,6 +597,8 @@ WORDS.sunday = {
     aae: "sun",
     fra_jer: "lord",
     frr: "sun",
+    acf: "lord",
+    djk: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -712,7 +714,7 @@ WORDS.sunday = {
     or: ["ରବିବାର", "ɾɔbibaɾɔ"],
     ang: ["sunnandæġ", "ˈsunːɑndæj"],
     non: ["sunnudagr", "ˈsunːudaɣr"],
-    pap: ["diadomingu", "diadomiŋɡu"],
+    pap: ["djadumingu", "dʒadumiŋɡu"],  // Wiktionary djadumingu; JW Curaçao daily text "Djadumingu" (was diadomingu, gap rally R15 2026-11-18).
     ps: ["اتبار", "atbaːr"],
     pdc: ["Sunndaag", "ˈsʊndaːk"],
     pcd: ["diminche", "dimɛ̃ʃ"],
@@ -1134,5 +1136,7 @@ WORDS.sunday = {
     aae: ["e diellja", "e ˈdiɛɫja"],
     fra_jer: ["Dînmanche", "dĩˈmɑ̃ʃ"],
     frr: ["saandi", "ˈsaːndi"],
+    acf: ["Dimanch", "dimãʃ"],
+    djk: ["sonde", "sonde"],
   },
 };

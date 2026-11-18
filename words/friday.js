@@ -586,6 +586,9 @@ WORDS.friday = {
     aae: "goddess",
     fra_jer: "venus",
     frr: "goddess",
+    acf: "venus",
+    djk: "goddess",
+    srm: "goddess",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -700,7 +703,7 @@ WORDS.friday = {
     sq: ["e premte", "ɛˈprɛmtɛ"],  // From the name of Prenda, a goddess; probably a calque of Latin diēs Veneris.
     et: ["reede", "ˈreːde"],  // From Old Swedish frē(a)dagher, 'day of Frigg'.
     ht: ["vandredi", "vãdɣedi"],
-    pap: ["djabièrnè", "djabierne"],
+    pap: ["djabièrnè", "dʒabiɛrnɛ"],
     tpi: ["Fraide", "fraide"],  // From English Friday.
     se: ["bearjadat", "ˈpea̯rːjaðaht"],
     sma: ["bearjadahke", "ˈpeærjadahkɛ"],
@@ -1111,5 +1114,8 @@ WORDS.friday = {
     aae: ["e prëmtja", "e ˈpɾəmtja"],
     fra_jer: ["Véndrédi", "vɛ̃dreˈdi"],
     frr: ["fraidi", "ˈfraɪ̯di"],
+    acf: ["Vandwédi", "vãdwedi"],
+    djk: ["feeda", "feːda"],
+    srm: ["fééda", "féːda"],
   },
 };

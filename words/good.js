@@ -79,7 +79,7 @@ WORDS.good = {
       en_ng2: ["good", "ɡʊd"],
       pt_mo: ["bom", "bõ"],
       lb: ["gutt", "ɡut"],
-      gcr: ["bon", "bõ"],
+      gcr: ["bon", "bɔ̃"],
       acf: ["bon", "bɔ̃"],
       gan_yc: ["好", "xau˨˩"],
       gan_ja: ["好", "hau˥˧"],

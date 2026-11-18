@@ -79,7 +79,7 @@ WORDS.hello = {
       en_ng2: ["hello", "həˈloː"],
       pt_mo: ["olá", "ɔˈla"],
       lb: ["Moien", "ˈmoɪ̯ən"],
-      gcr: ["bonjou", "bõʒu"],
+      gcr: ["bonjou", "bɔ̃ʒu"],
       acf: ["bonjou", "bɔ̃ʒu"],
       gan_yc: ["—", "—"],
       gan_ja: ["你好", "ȵi˥˧ hau˥˧"],

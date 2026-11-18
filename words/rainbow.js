@@ -880,6 +880,7 @@ WORDS.rainbow = {
     ngl: "plain",
     vmw: "plain",
     pms: "bow",
+    gcr: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1368,7 +1369,7 @@ WORDS.rainbow = {
     tkl: ["nuanua", "nuanua"],  // The Tokelauan word for the rainbow, the same as Samoan nuanua. Route by resemblance to the neighbouring forms (sm(nuanua) wls(nuanua)); no etymology of its own.
     ess: ["аглюк", "aɡljuk"],  // The Central Siberian Yupik word for the rainbow in the Yupik New Testament; IPA from NorthEuraLex. Route by resemblance to the neighbouring forms (esu(agluryaq)); no etymology of its own.
     kw: ["kammneves", "kamˈnɛvɛs"],  // Built on kamm 'bent, crooked', the bent thing of the sky (nev 'heaven'), like Welsh enfys; IPA read from the Kernewek Kemmyn spelling.
-    acf: ["lakansyèl", "lakɑ̃sjɛl"],  // From French l'arc-en-ciel 'the arc in the sky', with the article fused on, as in Haitian Creole lakansyèl.
+    acf: ["lakansyèl", "lakãsjɛl"],  // From French l'arc-en-ciel 'the arc in the sky', with the article fused on, as in Haitian Creole lakansyèl.
     gun: ["karugua", "kaɾuˈɡʷa"],  // The Mbyá Guaraní word for the rainbow in the Mbyá Bible; IPA read from the spelling with final stress as in the row's other words.
     swb: ["mukakamba", "mukakamba"],  // The Shimaore word for the rainbow, used in the Shimaore New Testament. No image is recorded for it, so it counts as a word of its own.
     agt: ["hunglun", "huŋlun"],  // The Central Cagayan Agta New Testament's word for the rainbow round the throne and over the angel's head; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
@@ -1703,5 +1704,6 @@ WORDS.rainbow = {
     ngl: ["ekhwiini", "ekʰwiːni"],
     vmw: ["ekhweyi", "ekʰweji"],
     pms: ["arcansel", "arkanˈsel"],
+    gcr: ["arkansyèl", "aʁkãsjɛl"],
   },
 };

@@ -577,5 +577,6 @@ WORDS.cuckoo = {
     txb: ["𑀓𑁄𑀓𑀻𑀮𑁆", "kokiːl"],
     mnc: ["ᡴᡝᡴᡠᡥᡝ", "kəkuxə"],
     saq: ["palteko", "palteko"],
+    acf: ["koukou manyòk", "kuku mãjɔk"],  // The mangrove cuckoo, the island's cuckoo.
   },
 };

@@ -313,6 +313,32 @@ WORDS.cheers = {
     war: "other",
     xh: "health",
     ia: "health",
+    ang: "health",
+    ar_qur: "wish",
+    arc: "health",
+    de_lut: "other",
+    egy: "health",
+    el_grc: "other",
+    el_kath: "health",
+    en_em: "other",
+    es_sgl: "other",
+    fa_clas: "wish",
+    gmh: "drain",
+    got: "health",
+    h_tagalog: "other",
+    he_mis: "health",
+    ja_kanbun: "health",
+    ky: "health",
+    non: "health",
+    och: "health",
+    ojp: "drain",
+    ota: "other",
+    tg: "health",
+    tt: "health",
+    vi_han: "health",
+    zh_tang: "health",
+    zh_wenyan_edu: "health",
+    zh_yuan: "drain",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -571,5 +597,31 @@ WORDS.cheers = {
     war: ["tagay", "ˈtaɡaj"],  // Tagay is the round of drink itself, called out as the glasses go up, as in Tagalog and Cebuano.
     xh: ["impilo", "impilo"],  // Impilo means 'health, life'.
     ia: ["a vostre sanitate!", "a ˈvostre saniˈtate"],
+    ang: ["wes hāl", "wes hɑːl"],  // 'Be healthy!' was the Old English greeting; raised over a cup it became the wassail, answered drinc hǣl 'drink healthy'.
+    ar_qur: ["هنيئا", "haniːʔan"],  // The Quran has no toast (wine is forbidden), but the blessed in paradise are told 'eat and drink, hanīʾan', 'with good relish', the word Arabs still say to someone drinking.
+    arc: ["חַמְרָא וְחַיֵּי לְפוּם רַבָּנַן", "ħamraː wəħajjeː ləfuːm rabbaːnan"],  // 'Wine and life to the mouths of the rabbis!': Rabbi Akiva said it over every cup he poured at his son's wedding feast, an early form of l'chaim.
+    de_lut: ["es gilt", "ɛs ɡɪlt"],  // 'It counts!': the drinker's call as he drank to a friend, who answered ich halts 'I hold to it'; drinkers also said ich bring dirs 'I bring it to you'.
+    egy: ["𓈖𓂓𓍿", "en katʃ"],  // n kꜣ=ṯ 'for your ka (life-force)!' is what a servant says handing a guest the bowl at a banquet, followed by 'drink to drunkenness, make holiday'.
+    el_grc: ["προπίνω σοι", "propǐːnɔː soi"],  // Literally 'I drink to you'; a Thracian guest says it to King Seuthes as he raises a full drinking horn.
+    el_kath: ["εἰς ὑγείαν", "is iˈʝian"],  // "To health": the formal, old-fashioned version of στην υγειά.
+    en_em: ["I drink to you", "əi driŋk tə juː"],  // Shakespeare's characters toast with 'I drink to you' or 'Here is to …'; 'cheers' as a toast came later.
+    es_sgl: ["brindez", "brinˈdedz"],  // Borrowed from the German drinkers' ich bring dirs 'I bring it to you'; the man holding the cup said it to his companion, the source of today's brindis 'toast'.
+    fa_clas: ["نوش بادت", "noːʃ baːdat"],  // "May it be nectar to you": said to someone as they drink.
+    gmh: ["trinc daz ûz", "triŋk das uːs"],  // 'Drink that up (and I'll drink this)!': the drinking call the young Helmbrecht quotes as the new fashion at court.
+    got: ["𐌷𐌰𐌹𐌻𐍃", "hɛːls"],  // Hails 'be well!' is the Gothic shout a 6th-century Latin poem hears at a barbarian drinking feast: 'eils! skapjam matjan jah drinkan' ('hail! let's get food and drink').
+    h_tagalog: ["ᜆᜄᜌ᜔", "ˈtaɡaj"],  // Tagay was the measured round of wine handed to each guest in turn — 'Mana ang tagay mo', 'that one is yours' — and is still the Tagalog drinking shout; toasting itself was tudyo.
+    he_mis: ["חמרא לחייכון", "ħamˈra ləħajjeˈχon"],  // 'Wine, to your life!' — an Aramaic toast the Tosefta (c. 200 CE) allows at table; Rabbi Akiva toasted each barrel at his son's feast with lḥayyē rabbanan 'to the life of the rabbis', the ancestor of l'chaim.
+    ja_kanbun: ["壽を為す", "dʑɯ o nasɯ"],  // "To offer long life": you raise a cup and wish the host long life. This is the toast at the Hongmen banquet in the Shiji.
+    ky: ["ден соолук үчүн", "den soːluq ytʃyn"],  // Literally 'for health', like Kazakh денсаулығыңыз үшін.
+    non: ["heill ver þú", "hɛilː ver θuː"],  // "Be hale!": said while handing over a full cup of mead.
+    och: ["萬壽無疆", "*C.ma[n]-s [N-t]uʔ ma kaŋ"],  // 'Long life without limit!': in the Shijing, villagers raise the rhinoceros-horn cup in the hall and cry this to their lord.
+    ojp: ["阿佐受袁勢 佐佐", "asazu wose sasa"],  // "Drink it to the last drop, sasa!": the line that closes the Kojiki's sake-offering song.
+    ota: ["عشقكزه", "aʃkɯŋɯˈza"],  // Literally 'to your love!'; Redhouse's 1890 dictionary glosses it 'Here's to your health! (said on drinking)'.
+    tg: ["саломатии шумо", "salomatiji ʃumo"],  // Literally 'your health'.
+    tt: ["сәламәтлегегез өчен", "sælæmætleɡeɡez øtʃen"],  // Literally 'for your health'.
+    vi_han: ["上壽", "tʰɨəŋ˨˩˨ tʰɔ˨˩˨"],  // Thượng thọ 'to offer long life': in Classical Chinese one rose with a cup and wished the honoured person long life.
+    zh_tang: ["上壽", "dʑɨaŋ dʑuw"],  // "To offer long life": a Tang guest lifted his cup and wished the host long life.
+    zh_wenyan_edu: ["萬壽無疆", "maːn˨ sɐu˨ mou˨˩ kœːŋ˥"],  // 'Long life without limit!', cried as the cup is raised in the Shijing ode Qiyue; in the Cantonese literary reading.
+    zh_yuan: ["滿飲一杯", "muɔn iəm i pui"],  // 'Drink a full cup!' — what the host says as he offers the wine on the Yuan stage; Lu Su toasts Guan Yu with it in The Single Sword Meeting.
   },
 };

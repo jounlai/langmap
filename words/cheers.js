@@ -274,6 +274,44 @@ WORDS.cheers = {
     hsb: "health",
     nn: "other",
     smn: "other",
+    an: "health",
+    ar_ps: "health",
+    bbc: "other",
+    be: "other",
+    bew: "other",
+    bn: "other",
+    ceb: "other",
+    ckb: "wish",
+    co: "health",
+    crs: "health",
+    csb: "wish",
+    dtp: "other",
+    gu: "other",
+    haw: "drain",
+    hmn: "other",
+    ht: "health",
+    iba: "other",
+    kn: "other",
+    mfe: "other",
+    ml: "other",
+    mn: "health",
+    mr: "other",
+    mt: "health",
+    myv: "health",
+    ne: "other",
+    pa: "other",
+    pam: "other",
+    rw: "other",
+    sc: "wish",
+    si: "other",
+    sm: "wish",
+    ssw: "health",
+    ta: "other",
+    te: "other",
+    tn: "wish",
+    ty: "wish",
+    war: "other",
+    xh: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -493,5 +531,43 @@ WORDS.cheers = {
     hsb: ["k strowosći", "k strɔwɔstʃi"],
     nn: ["skål", "skoːl"],
     smn: ["skool", "skoːl"],  // From Swedish skål.
+    an: ["salut", "saˈlut"],  // Salut means 'health'.
+    ar_ps: ["بصحتك", "ˈbsˤaħtak"],  // Literally 'to your health'; صحة 'health!' alone is also said.
+    bbc: ["lissoi", "lisːoi"],  // Lissoi is the drinking shout of the tuak stalls, made famous by Nahum Situmorang's song of that name.
+    be: ["будзьма", "ˈbudzʲma"],  // Literally 'let us be!', the Belarusian twin of Ukrainian будьмо; вашае здароўе 'your health' is also said.
+    bew: ["cis", "tʃis"],  // Borrowed from English cheers.
+    bn: ["চিয়ার্স", "tʃi̯aɾs"],  // Borrowed from English cheers.
+    ceb: ["tagay", "ˈtaɡaj"],  // Tagay is the round of drink poured from one shared glass, called out as the glasses go up, as in Tagalog.
+    ckb: ["نۆش", "noʃ"],  // Noş wishes the drink well, as afiyet does food; from Persian nūš 'drink, sweet draught'.
+    co: ["a salute", "a saˈlute"],  // Literally 'to health'; salute is also the everyday hello.
+    crs: ["bon lasante", "bɔ̃ lasãte"],  // Literally 'good health', from French la santé.
+    csb: ["próst", "prost"],  // Borrowed from German prost, from Latin prosit 'may it do (you) good'.
+    dtp: ["aramaiti", "aramaiti"],  // Aramaiti means drinking happily together; it is shouted as the toast at Kaamatan.
+    gu: ["ચિયર્સ", "ˈtʃijəɾs"],  // Borrowed from English cheers, as in Hindi चियर्स.
+    haw: ["ʻōkole maluna", "ʔoːkole maluna"],  // A modern calque of English 'bottoms up', literally 'buttocks up'; older speakers find it crude. Hipahipa 'hurrah' is the cheer for a person.
+    hmn: ["zoo siab", "ʐɔ̃˧ ʂia˥"],  // Zoo siab means 'happy, glad' (literally 'good liver').
+    ht: ["sante", "sãte"],  // Sante means 'health', from French santé.
+    iba: ["oohaa", "oːhaː"],  // A drinking shout with no other meaning; at Gawai the toast is followed by the wish gayu guru, gerai nyamai 'long life, good health'.
+    kn: ["ಚಿಯರ್ಸ್", "tʃijaɾs"],  // Borrowed from English cheers, as in Hindi चियर्स.
+    mfe: ["chinn-chinn", "ʃin ʃin"],  // Like French tchin-tchin, it imitates the clink of glasses.
+    ml: ["ചിയേഴ്സ്", "tʃijeːɻs"],  // Borrowed from English cheers.
+    mn: ["эрүүл мэндийн төлөө", "eruːɮ mendiːŋ tʰɵɮɵː"],  // Literally 'for the sake of health'.
+    mr: ["चियर्स", "tʃijəɾs"],  // Borrowed from English cheers, as in Hindi चियर्स.
+    mt: ["saħħa", "ˈsaħħa"],  // Saħħa means 'health'; evviva 'long live' is also said.
+    myv: ["шумбрачис", "ʃumbratʃis"],  // Literally 'to health', from шумбрачи 'health'.
+    ne: ["चियर्स", "tsijʌrs"],  // Borrowed from English cheers, as in Hindi चियर्स.
+    pa: ["ਚੀਅਰਜ਼", "tʃiːəɾz"],  // Borrowed from English cheers, as in Hindi चियर्स.
+    pam: ["cheers", "tʃiɾs"],  // Kapampangan speakers use the English word.
+    rw: ["cheers", "tʃijaz"],  // Borrowed from English cheers.
+    sc: ["a chent'annos", "a kenˈtannos"],  // Literally '(may you live) to a hundred years'; the usual Sardinian toast where Italian says alla salute.
+    si: ["චියර්ස්", "tʃijərs"],  // Borrowed from English cheers.
+    sm: ["manuia", "manuia"],  // Manuia means 'fortunate, blessed', so the toast wishes good luck.
+    ssw: ["imphilo lenhle", "impʰilo leɬe"],  // Literally 'good health'.
+    ta: ["சியர்ஸ்", "tʃijaɾs"],  // Borrowed from English cheers; வாழ்த்துக்கள் 'good wishes' often goes with it.
+    te: ["చీర్స్", "tʃiːɾs"],  // Borrowed from English cheers, as in Hindi चियर्स.
+    tn: ["pula", "ˈpula"],  // Pula means 'rain', the blessing of a dry country; it is also Botswana's motto and currency.
+    ty: ["manuia", "manuia"],  // Manuia means 'to succeed, be lucky' (Lemaître: réussir; bonne chance!); the same word is the Samoan toast.
+    war: ["tagay", "ˈtaɡaj"],  // Tagay is the round of drink itself, called out as the glasses go up, as in Tagalog and Cebuano.
+    xh: ["impilo", "impilo"],  // Impilo means 'health, life'.
   },
 };

@@ -801,6 +801,14 @@ WORDS.right = {
     xh: "plain",
     roo: "plain",
     th_n: "loan",
+    bci: "plain",
+    chy: "plain",
+    co: "straight",
+    dje: "eat",
+    jbo: "plain",
+    mer: "eat",
+    mus: "plain",
+    nzi: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1543,5 +1551,13 @@ WORDS.right = {
     xh: ["ukunene", "ukuneːne"],
     roo: ["oirapapa", "oiɾapapa"],
     th_n: ["ขวา", "kʰwaː˩˧"],
+    bci: ["fama", "fama"],
+    chy: ["hestseamáxésto", "hestseamáxésto"],
+    co: ["diritta", "diˈritta"],  // From Latin dīrēctus 'straight'.
+    dje: ["kambe ŋwaari", "kambe ŋwaːri"],  // The hand you eat with.
+    jbo: ["pritu", "ˈpritu"],
+    mer: ["ũrĩo", "oɾeɔ"],
+    mus: ["akvperv", "akəpiɬə"],
+    nzi: ["fema", "fema"],
   },
 };

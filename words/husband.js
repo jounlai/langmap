@@ -913,6 +913,13 @@ WORDS.husband = {
     yao: "spouse",
     th_n: "own",
     ttj: "own",
+    bci: "own",
+    chy: "spouse",
+    co: "own",
+    mer: "own",
+    mus: "own",
+    nzi: "own",
+    tvl: "spouse",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1765,5 +1772,12 @@ WORDS.husband = {
     yao: ["msonogo", "msonoɡo"],  // The same word means wife.
     th_n: ["ผัว", "pʰua˩˧"],
     ttj: ["iba", "iβa"],
+    bci: ["wun", "wũ"],
+    chy: ["tsévéstoemo", "tsévéstoemo"],  // 'The one I sit with'; used for wife too.
+    co: ["maritu", "maˈritu"],
+    mer: ["mũkũrũ", "mokoɾo"],
+    mus: ["ehe", "ihi"],
+    nzi: ["kunli", "kunli"],
+    tvl: ["avaga", "avaŋa"],  // The same word as wife.
   },
 };

@@ -166,6 +166,8 @@ WORDS.jetlag = {
     vi_c: "timediff",
     vi_s: "timediff",
     pt_mo: "jetlag",
+    ca: "jetlag",
+    eu: "jetlag",
   },
   routes: {
     jetlag: {"color":"#2563eb","emoji":"✈️","en":"English jet lag, or the word borrowed (jet lag, Jetlag, джетлаг)","ja":"英語の jet lag とその借用（jet lag、Jetlag、джетлаг）","ko":"영어 jet lag와 그 차용어 (jet lag, Jetlag, джетлаг)","zh":"英语 jet lag 及其借词（jet lag、Jetlag、джетлаг）","yue":"英文 jet lag 同埋佢嘅借詞（jet lag、Jetlag、джетлаг）","vi":"jet lag của tiếng Anh và từ vay mượn (jet lag, Jetlag, джетлаг)","th":"jet lag ในภาษาอังกฤษและคำยืม (jet lag, Jetlag, джетлаг)","id":"jet lag dalam bahasa Inggris dan pinjamannya (jet lag, Jetlag, джетлаг)","hi":"अंग्रेज़ी jet lag और उससे लिए गए शब्द (jet lag, Jetlag, джетлаг)","de":"englisch jet lag und Entlehnungen davon (jet lag, Jetlag, джетлаг)","fr":"l'anglais jet lag et ses emprunts (jet lag, Jetlag, джетлаг)","it":"l'inglese jet lag e i suoi prestiti (jet lag, Jetlag, джетлаг)","es":"el inglés jet lag y sus préstamos (jet lag, Jetlag, джетлаг)","pt":"o inglês jet lag e os seus empréstimos (jet lag, Jetlag, джетлаг)","ru":"английское jet lag и заимствования (jet lag, Jetlag, джетлаг)","uk":"англійське jet lag і запозичення (jet lag, Jetlag, джетлаг)","ar":"الإنجليزية jet lag وما اقتُرض منها (jet lag, Jetlag, джетлаг)","he":"jet lag האנגלית והשאילות ממנה (jet lag, Jetlag, джетлаг)","sw":"jet lag ya Kiingereza na maneno yaliyokopwa (jet lag, Jetlag, джетлаг)"},
@@ -270,5 +272,7 @@ WORDS.jetlag = {
     vi_c: ["lệch múi giờ", "lət˧˩ mui˨˦ jəː˦˨"],  // Literally 'time-zone offset' (múi giờ 'time zone'), the same words as in the North; IPA from the dialect rules used for this row.
     vi_s: ["lệch múi giờ", "ləːt˨˩ mui˧˥ jəː˨˩"],  // Literally 'time-zone offset' (múi giờ 'time zone'), the same words as in the North; IPA from the dialect rules used for this row.
     pt_mo: ["jet lag", "dʒɛtˈlɛɡ"],
+    ca: ["jet lag", "dʒɛt lak"],  // The Institut d'Estudis Catalans recommends trastorn d'horari.
+    eu: ["jet lag", "dʒet laɡ"],
   },
 };

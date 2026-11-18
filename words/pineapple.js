@@ -480,6 +480,7 @@ WORDS.pineapple = {
     maw: "other",
     qwc: "other",
     tpn: "nanas",
+    lij: "nanas",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -904,5 +905,6 @@ WORDS.pineapple = {
     maw: ["aburabi", "aburabi"],  // Probably borrowed from Twi aborɔbɛ.
     qwc: ["achupalla", "atʃupaʎa"],  // Holguín glosses achupalla as 'la piña fruta'; today the name is used for the pineapple's wild bromeliad relatives.
     tpn: ["naná", "nãˈna"],  // The Tupi word behind Portuguese ananás.
+    lij: ["ananas", "anaˈnas"],
   },
 };

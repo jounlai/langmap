@@ -305,5 +305,6 @@ WORDS.woof = {
     bdq: ["kuh kuh", "kuh kuh"],
     ota: ["هاو هاو", "hav hav"],
     dnj: ["wáȕu-wáȕu", "wáȕu wáȕu"],
+    fur: ["vuac", "vwak"],
   },
 };

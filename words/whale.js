@@ -524,6 +524,10 @@ WORDS.whale = {
     p_tun: "plain",
     pmng: "plain",
     rw: "plain",
+    fra_jer: "plain",
+    io: "plain",
+    lmo: "plain",
+    nrf: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -993,5 +997,9 @@ WORDS.whale = {
     p_tun: ["*kalimu", "kalimu"],
     pmng: ["*kalimu", "kalimu"],
     rw: ["balene", "balene"],  // From French baleine.
+    fra_jer: ["baleine", "baˈlɛn"],
+    io: ["baleno", "baˈleno"],  // Route by resemblance to the neighbouring forms (Esperanto baleno, Italian balena); no etymology of its own.
+    lmo: ["balèna", "baˈlɛna"],  // Route by resemblance to the neighbouring forms (Italian balena, Romansh balena); no etymology of its own.
+    nrf: ["baleine", "balɛn"],
   },
 };

@@ -221,6 +221,9 @@ WORDS.blessyou = {
     ja_chu: "other",
     aii: "god",
     de_lut: "god",
+    ast: "god",
+    fur: "health",
+    lij: "other",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -386,5 +389,8 @@ WORDS.blessyou = {
     ja_chu: ["くさめ", "kusame"],  // Said as a charm when someone sneezed; Tsurezuregusa (c.1330) tells of a nun repeating it so that a sneeze would not bring death.
     aii: ["ܒܪܚܡܐ", "bəraxmeː"],  // Literally 'with mercies'.
     de_lut: ["helf Gott", "hɛlf ɡɔt"],
+    ast: ["santinos", "sanˈtinos"],  // 'little saints'
+    fur: ["salût", "saˈluːt"],
+    lij: ["feliçitæ", "felisiˈtɛː"],
   },
 };

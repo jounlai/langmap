@@ -879,6 +879,7 @@ WORDS.rainbow = {
     ndc: "bow",
     ngl: "plain",
     vmw: "plain",
+    pms: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1701,5 +1702,6 @@ WORDS.rainbow = {
     ndc: ["utawahumbe", "utawahumbe"],
     ngl: ["ekhwiini", "ekʰwiːni"],
     vmw: ["ekhweyi", "ekʰweji"],
+    pms: ["arcansel", "arkanˈsel"],
   },
 };

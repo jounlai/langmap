@@ -413,6 +413,10 @@ WORDS.milkyway = {
     ar_sd: "road",
     lez: "road",
     zza: "road",
+    an: "road",
+    fra_jer: "road",
+    fur: "road",
+    nrf: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -769,5 +773,9 @@ WORDS.milkyway = {
     ar_sd: ["جر الكبش", "ɟarr el kabʃ"],  // 'The dragging of the ram': the track an angel left dragging Abraham's ram across the sky.
     lez: ["Карванд Рехъ", "karwand reqʰ"],
     zza: ["ray karwani", "ɾaj kaɾwani"],  // Literally 'the caravan road'.
+    an: ["Carrera de San Chaime", "kaˈrera de san ˈtʃajme"],
+    fra_jer: ["C'mîns d'St. Jacques", "kmĩ d sɛ̃ ˈʒak"],
+    fur: ["Stradalbe", "straˈdalbe"],
+    nrf: ["C'mîns d'St. Jacques", "kmĩ d sɛ̃ ʒak"],
   },
 };

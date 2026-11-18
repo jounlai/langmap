@@ -738,5 +738,6 @@ WORDS.computer = {
     pmh: ["गणग", "ɡaɳaɡa"],  // There were no computers; a गणग was the reckoner, the astrologer or treasurer who did the calculating.
     fro: ["abaque", "aˈbakə"],  // There were no computers; the abaque was the counting board on which medieval clerks did their reckoning.
     mga: ["rímid", "ˈrʲiːvʲiðʲ"],  // There were no computers; a rímid was the reckoner who worked out dates and sums.
+    aae: ["kompjuteri", "kɔmˈpjutɛɾi"],
   },
 };

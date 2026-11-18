@@ -807,6 +807,11 @@ WORDS.n99 = {
     en_em: "dec",
     enm: "dec",
     gmh: "unit",
+    fra_jer: "dec",
+    io: "mult",
+    lij: "dec",
+    lld: "dec",
+    nrf: "dec",
   },
   routes: {
     dec: {
@@ -1627,5 +1632,10 @@ WORDS.n99 = {
     en_em: ["ninety and nine", "ˈnəinti and nəin"],
     enm: ["nynti and nyne", "ˈniːntiː and ˈniːnə"],
     gmh: ["niunundeniunzec", "ˈnyːnundəˌnyːntsɛk"],
+    fra_jer: ["nénante-neuf", "nenɑ̃tˈnœf"],
+    io: ["nonadek e non", "nonaˈdek e non"],  // nine-times-ten and nine, like Esperanto naŭdek naŭ
+    lij: ["novanteneuve", "nuvaŋteˈnøːve"],
+    lld: ["nonantenuef", "nonanteˈnwef"],
+    nrf: ["nénante-neuf", "nenɑ̃tnœf"],
   }
 };

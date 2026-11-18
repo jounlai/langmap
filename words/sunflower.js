@@ -373,6 +373,11 @@ WORDS.sunflower = {
     goh: "turn",
     fr_class: "turn",
     rw: "plain",
+    an: "turn",
+    fra_jer: "turn",
+    frr: "sun",
+    io: "sun",
+    pms: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -692,5 +697,10 @@ WORDS.sunflower = {
     goh: ["sunnawirbil", "ˈsunnawirbil"],  // Sunflowers came later from the Americas; sunnawirbil 'sun-whirl' was a flower (marigold or chicory) said to turn after the sun.
     fr_class: ["tournesol", "turnəsɔl"],
     rw: ["igihwagari", "iɡihwaɡaɾi"],
+    an: ["chirasol", "tʃiɾaˈsol"],
+    fra_jer: ["tournésol", "turneˈsɔl"],
+    frr: ["sanrous", "ˈsanrɔʊ̯s"],  // 'sun rose'; also sankröl
+    io: ["sunofloro", "sunoˈfloro"],  // 'sun flower'
+    pms: ["virassol", "viraˈsul"],
   },
 };

@@ -988,6 +988,8 @@ WORDS.bear = {
     sog: "inherited",
     xng: "taboo",
     h_goguryeo: "inherited",
+    aae: "loan",
+    nrf: "inherited",
   },
   routes: {
     inherited: { color: "#0d9f6e", emoji: "🐻", en: "the old word, kept", ja: "古い語のまま", ko: "옛말 그대로", zh: "沿用固有词", yue: "沿用固有詞", vi: "giữ từ cũ", th: "ยังใช้คำเดิม", id: "kata lama, tetap", hi: "पुराना शब्द, बरकरार", de: "das alte Wort, behalten", fr: "le mot ancien, gardé", it: "la parola antica, mantenuta", es: "la palabra antigua, conservada", pt: "a palavra antiga, mantida", ru: "старое слово, сохранено", uk: "давнє слово, збережене", ar: "الكلمة القديمة، محفوظة", he: "המילה הישנה, נשמרה", sw: "neno la zamani, limebaki" },
@@ -2010,5 +2012,7 @@ WORDS.bear = {
     sog: ["ʾššh", "əʃa"],
     xng: ["ᠥᠲᠡᠭᠡ", "øteɡe"],  // Literally 'old one': the bear was called by a respectful nickname.
     h_goguryeo: ["功木", "*komok"],  // From a place-name gloss: 功木達 was also called 熊閃山 'bear mountain'.
+    aae: ["ursi", "ˈuɾsi"],
+    nrf: ["ourse", "urs"],
   },
 };

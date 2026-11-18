@@ -256,6 +256,10 @@ WORDS.goosebumps = {
     myv: "plain",
     pmh: "hair",
     mt: "other",
+    eu: "bird",
+    frr: "plain",
+    lij: "bird",
+    wa: "bird",
   },
   family2: {
     ko: "bird",
@@ -460,5 +464,9 @@ WORDS.goosebumps = {
     myv: ["зуйть", "zujtʲ"],
     pmh: ["रोमंच", "romaɲtʃa"],
     mt: ["xewk", "ʃɛwk"],  // Literally 'thorns'
+    eu: ["oilo-ipurdi", "oi̯lo ipurdi"],
+    frr: ["grääse", "ˈɡrɛːsə"],  // No image is recorded for it, so it counts as a word of its own.
+    lij: ["pelle de galliña", "pelle de ɡaliŋa"],
+    wa: ["tchå d' poye", "tʃɔː d poj"],
   },
 };

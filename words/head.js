@@ -1230,5 +1230,6 @@ WORDS.head = {
     jpr: ["סר", "sær"],
     qxq: ["baş", "bɑʃ"],
     p_jpk: ["*kanpu", "kanpu"],
+    nrf_gg: ["tête", "tɛːt"],
   },
 };

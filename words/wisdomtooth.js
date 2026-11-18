@@ -267,6 +267,10 @@ WORDS.wisdomtooth = {
     zh_yuan: "other",
     fr_class: "wisdom",
     tpn: "age",
+    fra_jer: "wisdom",
+    io: "wisdom",
+    lij: "wisdom",
+    nrf: "wisdom",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -477,5 +481,9 @@ WORDS.wisdomtooth = {
     zh_yuan: ["真牙", "tʂiən ia"],
     fr_class: ["dent de sagesse", "dɑ̃ də saʒɛs"],
     tpn: ["agûeapopy", "awɛapɔˈpɨ"],  // Literally 'the tip molar', the last one in the row.
+    fra_jer: ["dent d'sagesse", "dɑ̃ d saˈʒɛs"],
+    io: ["dento di sajeso", "dento di saʒeso"],
+    lij: ["dente do giudiçio", "deŋte du dʒydisju"],
+    nrf: ["dent d'sagesse", "dɑ̃ d saʒɛs"],
   },
 };

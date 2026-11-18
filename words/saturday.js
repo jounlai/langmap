@@ -578,6 +578,20 @@ WORDS.saturday = {
     ess: "sabbath",
     jbo: "count",
     tsi: "other",
+    arn: "sabbath",
+    bor: "sabbath",
+    car: "sabbath",
+    crt: "sabbath",
+    jup: "sabbath",
+    mzh: "sabbath",
+    pbb: "sabbath",
+    rar: "other",
+    ter: "sabbath",
+    tob: "sabbath",
+    trn: "sabbath",
+    tue: "other",
+    ty: "other",
+    xav: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1098,5 +1112,19 @@ WORDS.saturday = {
     ess: ["суббота", "subbɔta"],
     jbo: ["xavdei", "ˈxavdej"],
     tsi: ["Haʼliyaayx", "haʔlijaːjχ"],
+    arn: ["safadu antü", "safaðu antɨ"],
+    bor: ["sábado", "ˈsabadu"],
+    car: ["samedi", "samdi"],  // Borrowed from French samedi.
+    crt: ["sawali", "sawali"],  // Borrowed from Spanish sábado.
+    jup: ["cáuru", "cáuru"],
+    mzh: ["sawulu", "sawulu"],
+    pbb: ["sapatu", "sapatu"],  // From Spanish sábado.
+    rar: ["Maʻanakai", "maʔanakai"],
+    ter: ["sâputu", "ˈsaːputu"],
+    tob: ["saabado", "saabado"],  // From Spanish sábado.
+    trn: ["sawaru", "ˈsawaɾu"],  // Borrowed from Spanish sábado.
+    tue: ["padeturibʉreko", "paˈdetuɾibɨɾeko"],  // Literally ‘the day work ends’.
+    ty: ["Mahana maʻa", "mahana maʔa"],
+    xav: ["sabadu", "sabaˈdu"],
   },
 };

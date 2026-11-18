@@ -769,6 +769,17 @@ WORDS.twenty = {
     tlh: "tens",
     tok: "other",
     tsi: "tens",
+    bor: "loan",
+    jup: "loan",
+    mbc: "person",
+    mzh: "loan",
+    plg: "loan",
+    quy: "tens",
+    quz: "tens",
+    rap: "tens",
+    ter: "loan",
+    tkl: "tens",
+    tob: "loan",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1477,5 +1488,16 @@ WORDS.twenty = {
     tlh: ["cha'maH", "tʃɑʔmɑx"],
     tok: ["mute", "ˈmute"],
     tsi: ["gupʼlwilkʼyep", "ɡupʼlwilkʲʼep"],
+    bor: ["vinte", "ˈvĩtʃi"],
+    jup: ["vĩ́ci", "vĩ́ci"],
+    mbc: ["tiwin pemonkon", "tiwin pemoŋkoŋ"],
+    mzh: ["wenti", "wenti"],
+    plg: ["weinte jʔaʁaik", "weinte jʔaʁaik"],
+    quy: ["iskay chunka", "iskaj tʃuŋka"],
+    quz: ["iskay chunka", "ˈiskaj ˈtʃunka"],
+    rap: ["piti ʻahuru", "piti ʔahuɾu"],  // Literally ‘two tens’.
+    ter: ["vinti", "ˈwinti"],
+    tkl: ["luahefulu", "luahefulu"],  // Literally ‘two tens’.
+    tob: ["vainte", "vainte"],  // From Spanish veinte.
   },
 };

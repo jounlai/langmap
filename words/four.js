@@ -1256,5 +1256,7 @@ WORDS.four = {
     xht: ["tūḫul", "tuːxul"],
     kho: ["𑀢𑁆𑀘𑀳𑁄𑀭", "tsahora"],
     p_jpk: ["*yə", "jə"],
+    bwi: ["koadáka", "koadáka"],
+    mzh: ["kwatlu", "kʷatlu"],
   },
 };

@@ -668,6 +668,20 @@ WORDS.east = {
     oj: "dawn",
     tlh: "plain",
     tsi: "rising",
+    agr: "rising",
+    ay: "rising",
+    cag: "dawn",
+    cak: "rising",
+    gn: "rising",
+    guu: "plain",
+    mbc: "rising",
+    moc: "plain",
+    pbb: "rising",
+    plg: "plain",
+    quz: "other",
+    rar: "rising",
+    shp: "rising",
+    ty: "rising",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1274,5 +1288,19 @@ WORDS.east = {
     oj: ["waabanong", "waːbanoŋ"],
     tlh: ["chan", "tʃɑn"],
     tsi: ["wilmanyaagyemk", "wilmanjaːɡʲemk"],
+    agr: ["etsa jiintai", "ɨˈtsa hiːntai"],  // Literally where the sun comes out.
+    ay: ["jalsu", "ˈxalsu"],
+    cag: ["ɬumʔakfinuk", "ɬumʔakfinuk"],
+    cak: ["relebʼal qʼij", "releɓal qʼix"],  // Literally 'where the sun comes out'.
+    gn: ["kuarahy resẽ", "kʷaɾahɨ ɾeˈsẽ"],  // Literally 'the sun comes out'.
+    guu: ["oɾa mɨsi", "oɾa mɨsi"],
+    mbc: ["wei epaʔka winɨ", "wei epaʔka winɨ"],
+    moc: ["lqodoige", "lqodoiɡe"],
+    pbb: ["sek kãani", "sek kãːni"],  // Literally ‘where the sun rises’.
+    plg: ["tajiɲi", "tajiɲi"],
+    quz: ["intichay", "inˈtitʃaj"],
+    rar: ["ʻitinga", "ʔitiŋa"],
+    shp: ["bari pikotai", "baɻi pikotai"],  // Literally where the sun comes out.
+    ty: ["hitiʻa o te rā", "hitiʔa o te ɾaː"],
   },
 };

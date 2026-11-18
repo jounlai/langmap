@@ -619,6 +619,21 @@ WORDS.sunday = {
     hai: "rest",
     tlh: "count",
     tsi: "other",
+    acu: "lord",
+    agr: "lord",
+    arn: "lord",
+    bor: "lord",
+    car: "sun",
+    cni: "lord",
+    mzh: "lord",
+    pbb: "other",
+    rap: "plain",
+    rar: "sabbath",
+    ter: "lord",
+    tob: "lord",
+    trn: "lord",
+    tue: "rest",
+    xav: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1178,5 +1193,20 @@ WORDS.sunday = {
     hai: ["án sáanjuudaa sangáay", "án sɑ́ːndʒuːdaː saŋɑ́ːj"],
     tlh: ["jaj wa'", "dʒɑdʒ wɑʔ"],
     tsi: ["Haʼlig̱a̱nuutk", "haʔliɢʌnuːtk"],
+    acu: ["tuming", "tumiŋ"],
+    agr: ["tumig", "tumiɡ"],
+    arn: ["domingu antü", "ðomiŋu antɨ"],
+    bor: ["domingo", "doˈmĩɡu"],
+    car: ["sonde", "sonde"],  // Borrowed from Dutch zondag or Sranan sonde.
+    cni: ["tominko", "tomiŋko"],  // From Spanish domingo.
+    mzh: ["luminku", "luminku"],
+    pbb: ["kiʼsen", "kiʔsen"],  // Literally ‘keeping day’.
+    rap: ["mahana tapati", "mahana tapati"],
+    rar: ["Tāpati", "taːpati"],
+    ter: ["lûmingu", "ˈluːmiŋɡu"],
+    tob: ["domiingo", "domiinɡo"],  // From Spanish domingo.
+    trn: ["rominko", "ɾominko"],  // Borrowed from Spanish domingo.
+    tue: ["yeerisãribʉreko", "jeːɾisãɾibɨɾeko"],  // Literally ‘rest day’.
+    xav: ["dumidu", "dumiˈdu"],
   },
 };

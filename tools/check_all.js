@@ -681,7 +681,9 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // gap rally R11 (2026-11-18): +1, spp — the Supyire Bible fill (tone-marked
 // cells) tipped the row, exposing the OLD n99 cell beecyɛɛre ná kɛ ná baacyɛɛre
 // that was written without tone marks; no new cell is toneless.
-const TONE_POLICY_DEBT = 57;   // ratcheted down 2026-10-14 after rounds 97–101 (was 74); +1 R11
+// gap rally R19 (2026-11-18): +1, tca — NT fill cells exposed the OLD mountain cell
+// mèxpǘne /meʔpɨne/ whose IPA drops the marked tones; no new cell is toneless.
+const TONE_POLICY_DEBT = 58;   // ratcheted down 2026-10-14 after rounds 97–101 (was 74); +1 R11, +1 R19
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

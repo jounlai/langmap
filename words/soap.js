@@ -554,6 +554,22 @@ WORDS.soap = {
     oj: "wash",
     tlh: "wash",
     tsi: "wash",
+    acu: "sapo",
+    agr: "sapo",
+    arn: "sapo",
+    cag: "sapo",
+    cak: "sapo",
+    jup: "sabao",
+    kgp: "sabao",
+    mzh: "sapo",
+    pbb: "sapo",
+    plg: "wash",
+    ppl: "sapo",
+    sm: "other",
+    tob: "wash",
+    trn: "sapo",
+    tue: "sapo",
+    ty: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1049,5 +1065,21 @@ WORDS.soap = {
     oj: ["giziibiigaʼigan", "ɡiziːbiːɡaʔiɡan"],
     tlh: ["Say'moHwI' tlhagh", "ʂɑjʔmoxwɪʔ tɬɑɣ"],
     tsi: ["hayiksʼontk", "hajiksʔontk"],
+    acu: ["japu", "hapu"],
+    agr: ["japug", "hapuɡ"],
+    arn: ["kafon", "kafon"],
+    cag: ["fawon", "fawon"],
+    cak: ["xabʼon", "ʃaɓon"],
+    jup: ["cabonéci", "cabonéci"],
+    kgp: ["samũm", "samũm"],
+    mzh: ["fwawun", "fʷawun"],
+    pbb: ["kpun", "kpun"],  // From Spanish jabón.
+    plg: ["lijoʁonaʁat", "lijoʁonaʁat"],
+    ppl: ["shapun", "ˈʃapuŋ"],  // Borrowed from Spanish jabón.
+    sm: ["moli", "moli"],  // The same word as orange.
+    tob: ["ljoʁonaʁat", "ljoʁonaʁat"],  // Literally ‘what one washes with’.
+    trn: ["jawono", "hawono"],  // Borrowed from Spanish jabón.
+    tue: ["sabo", "saˈbo"],  // From Portuguese sabão.
+    ty: ["puʻa", "puʔa"],
   },
 };

@@ -711,6 +711,34 @@ WORDS.right = {
     oj: "plain",
     tlh: "plain",
     tsi: "other",
+    acu: "plain",
+    agr: "plain",
+    cag: "plain",
+    cak: "plain",
+    car: "plain",
+    crt: "plain",
+    fud: "other",
+    gn: "plain",
+    gum: "plain",
+    guu: "plain",
+    jup: "good",
+    kgp: "plain",
+    moc: "plain",
+    mrq: "plain",
+    niu: "plain",
+    pbb: "plain",
+    pkp: "plain",
+    plg: "plain",
+    pmt: "plain",
+    quy: "plain",
+    quz: "plain",
+    rar: "plain",
+    tob: "plain",
+    tpy: "plain",
+    trn: "plain",
+    tue: "plain",
+    wls: "plain",
+    xav: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1363,5 +1391,33 @@ WORDS.right = {
     oj: ["gichinik", "ɡitʃinik"],
     tlh: ["nIH", "nɪx"],
     tsi: ["smyaʼwn", "smjaʔwn"],
+    acu: ["untsur", "untsuɾ"],
+    agr: ["untsug", "untsuɡ"],
+    cag: ["fajiʃ", "fajiʃ"],
+    cak: ["ajkiqʼaʼ", "axkiqʼaʔ"],
+    car: ["apotun", "apotun"],  // No image is recorded for it, so it counts as a word of its own.
+    crt: ["-fʷeje", "fʷeje"],  // No image is recorded for it, so it counts as a word of its own.
+    fud: ["ʻatamai", "ʔatamai"],
+    gn: ["akatúa", "akaˈtua"],  // No image is recorded for it, so it counts as a word of its own.
+    gum: ["kusrmay", "kuʂmaj"],  // No image is recorded for it, so it counts as a word of its own.
+    guu: ["timi poko", "timi poko"],
+    jup: ["pɨb cáʔah", "pɨb cáʔah"],  // Literally 'the strong side'.
+    kgp: ["pẽgja", "pɛ̃ŋja"],
+    moc: ["loik", "loik"],
+    mrq: ["ʻima ʻoko", "ʔima ʔoko"],
+    niu: ["matau", "matau"],  // No image is recorded for it, so it counts as a word of its own.
+    pbb: ["paçu", "patsu"],
+    pkp: ["mātau", "maːtau"],  // No image is recorded for it, so it counts as a word of its own.
+    plg: ["loik", "loik"],
+    pmt: ["katau", "katau"],  // No image is recorded for it, so it counts as a word of its own.
+    quy: ["paña", "paɲa"],
+    quz: ["paña", "ˈpaɲa"],
+    rar: ["katau", "katau"],
+    tob: ["aloik", "aloik"],
+    tpy: ["kiʔta ʃɨk", "kiʔta ʃɨk"],
+    trn: ["wowre", "wowɾe"],  // No image is recorded for it, so it counts as a word of its own.
+    tue: ["diabãkʉ̃", "diabãˈkɨ̃"],
+    wls: ["mataʻu", "mataʔu"],
+    xav: ["danhimire niwĩ", "daɲimiɾe niwĩ"],
   },
 };

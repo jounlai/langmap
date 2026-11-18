@@ -635,6 +635,20 @@ WORDS.week = {
     oj: "sunday",
     tlh: "plain",
     tsi: "plain",
+    acu: "seven",
+    cak: "seven",
+    car: "seven",
+    emp: "sunday",
+    gn: "seven",
+    jup: "seven",
+    mzh: "seven",
+    quy: "seven",
+    quz: "seven",
+    rap: "sunday",
+    rar: "seven",
+    to: "turn",
+    tob: "seven",
+    tue: "sabbath",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1211,5 +1225,19 @@ WORDS.week = {
     oj: ["anamaʼe-giizhik", "anamaʔe ɡiːʒik"],
     tlh: ["Hogh", "xoɣ"],
     tsi: ["g̱a̱nuutk", "ɢʌnuːtk"],
+    acu: ["seman", "seman"],
+    cak: ["wuquqʼij", "wuquqʼix"],
+    car: ["simenn", "simen"],  // Borrowed from French semaine.
+    emp: ["domia", "domiˈa"],
+    gn: ["arapokõindy", "aɾapokõiˈndɨ"],  // ára 'day' + pokõi 'seven' + -ndy 'collection'.
+    jup: ["camána", "camána"],
+    mzh: ["semanu", "semanu"],
+    quy: ["simana", "simana"],
+    quz: ["simana", "siˈmana"],
+    rap: ["tapati", "tapati"],  // The same word as Sunday.
+    rar: ["ʻepetoma", "ʔepetoma"],
+    to: ["uike", "uike"],  // Borrowed from English week.
+    tob: ["semaana", "semaana"],  // From Spanish semana.
+    tue: ["sabãdã", "saˈbãdã"],  // From Portuguese sábado ‘Saturday’.
   },
 };

@@ -431,6 +431,7 @@ WORDS.milkyway = {
     cr: "road",
     esu: "birds",
     ia: "milk",
+    tkl: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -805,5 +806,6 @@ WORDS.milkyway = {
     cr: ["ᒪᐦᐃᐦᑲᓂ ᒣᐢᑲᓇᐤ", "mahihkani meːskanaw"],
     esu: ["Tulukaruum Tanglurallri", "tulukaʁuːm taŋluʁaɬʁi"],
     ia: ["via lactee", "ˈvia lakˈtee"],
+    tkl: ["Kaniva", "kaniva"],
   },
 };

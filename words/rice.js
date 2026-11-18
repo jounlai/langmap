@@ -932,5 +932,6 @@ WORDS.rice = {
     p_viet: ["*r-koːʔ", "r-koːʔ"],
     rmy: ["herezo", "herezo"],
     sjd: ["рӣсс", "riːsː"],
+    car: ["areisi", "aɾeisi"],
   }
 };

@@ -848,6 +848,30 @@ WORDS.husband = {
     tok: "man",
     tsi: "spouse",
     yur: "own",
+    agr: "own",
+    ay: "man",
+    cag: "spouse",
+    cak: "own",
+    cni: "own",
+    cuk: "own",
+    emp: "spouse",
+    guc: "spouse",
+    gum: "own",
+    guu: "own",
+    kpj: "man",
+    niu: "man",
+    pbb: "own",
+    pkp: "man",
+    pmt: "man",
+    rar: "man",
+    shp: "own",
+    sm: "man",
+    tca: "own",
+    to: "spouse",
+    tpy: "own",
+    tue: "own",
+    ty: "man",
+    xav: "spouse",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1635,5 +1659,29 @@ WORDS.husband = {
     tok: ["mije", "ˈmije"],
     tsi: ["naks", "naks"],
     yur: ["ʼne-nos", "ʔnenɔʂ"],
+    agr: ["aishi", "aiʃi"],
+    ay: ["chacha", "ˈtʃatʃa"],
+    cag: ["tʃʼakfa", "tʃʼakfa"],
+    cak: ["achijilom", "atʃixilom"],
+    cni: ["nojime", "nohime"],  // Not the word for man (shirampari).
+    cuk: ["sui", "sui"],
+    emp: ["kima", "kiˈma"],
+    guc: ["aʼwayuuse", "aʔwajuːse"],  // The same word as wife.
+    gum: ["keg", "kek"],
+    guu: ["heãɾõjə", "heãɾõjə"],
+    kpj: ["hãbu", "hãbu"],  // The same word as man.
+    niu: ["taane", "taːne"],  // The same word as man, male.
+    pbb: ["nyu", "nju"],  // Not the word for man.
+    pkp: ["tāne", "taːne"],  // The same word as man, male.
+    pmt: ["tāne", "taːne"],  // The same word as man, male.
+    rar: ["tāne", "taːne"],
+    shp: ["bene", "bɨnɨ"],
+    sm: ["tāne", "taːne"],
+    tca: ["ngĩte", "ŋĩte"],  // Not the word for man (yatü).
+    to: ["mali", "mali"],  // The same word as wife.
+    tpy: ["eʃe", "eʃe"],
+    tue: ["bãdʉ̃", "bãˈdɨ̃"],  // Not the word for man.
+    ty: ["tāne", "taːne"],
+    xav: ["damro", "damˈɾɔ"],
   },
 };

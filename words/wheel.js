@@ -686,7 +686,7 @@ WORDS.wheel = {
     fj: ["yava", "jaβa"],
     to: ["veʻeteka", "veʔeteka"],
     tvl: ["teka", "teka"],
-    rap: ["—", "—"],
+    rap: ["tutu", "tutu"],
     rtm: ["tokiri", "tokiri"],
     pmt: ["huira", "huira"],
     ty: ["huira", "huiɾa"],

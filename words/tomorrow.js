@@ -1011,6 +1011,16 @@ WORDS.tomorrow = {
     tar: "plain",
     tsz: "plain",
     blc: "plain",
+    cag: "morning",
+    car: "plain",
+    cuk: "plain",
+    fud: "morning",
+    guu: "plain",
+    mbc: "plain",
+    mzh: "other",
+    plg: "morning",
+    trn: "plain",
+    wls: "morning",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1966,5 +1976,15 @@ WORDS.tomorrow = {
     tar: ["baʼarí", "baʔaɾi"],
     tsz: ["pauani", "pawani"],
     blc: ["kaynuxs", "kajnuxs"],
+    cag: ["ɬumʔaʃi", "ɬumʔaʃi"],
+    car: ["koropo", "koɾopo"],  // No image is recorded for it, so it counts as a word of its own.
+    cuk: ["bane", "pane"],
+    fud: ["apogipogi", "apoŋipoŋi"],
+    guu: ["henaha", "henaha"],
+    mbc: ["penane", "penane"],
+    mzh: ["chefwala", "tʃefʷala"],
+    plg: ["jʔoʁoɲi", "jʔoʁoɲi"],
+    trn: ["ʼchochu", "ʔtʃotʃu"],  // No image is recorded for it, so it counts as a word of its own.
+    wls: ["apogipogi", "apoŋipoŋi"],
   },
 };

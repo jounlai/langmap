@@ -720,7 +720,7 @@ WORDS.five = {
     mbc: ["miaʔtaikin", "miaʔtaikin"],
     kpj: ["iruɨre", "iruɨre"],
     guu: ["—", "—"],
-    bwi: ["—", "—"],
+    bwi: ["pempakapi", "pempakapi"],
     cag: ["weʔɬanɔxeʃ", "weʔɬanɔxeʃ"],
     crt: ["ifʷjenni sikjoj itifʷe", "ifʷjenni sikjoj itifʷe"],
     tpy: ["nekatkelan", "nekatkelan"],
@@ -1225,5 +1225,6 @@ WORDS.five = {
     egy_dem: ["tyw", "tiu"],
     vi_mid: ["năm", "nam˧"],
     p_jpk: ["*itu", "itu"],
+    mzh: ["sinku", "sinku"],
   },
 };

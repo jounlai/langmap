@@ -685,6 +685,23 @@ WORDS.mirror = {
     mic: "look",
     oj: "look",
     tsi: "look",
+    acu: "speculum",
+    agr: "speculum",
+    arn: "look",
+    cak: "plain",
+    car: "speculum",
+    emp: "speculum",
+    guc: "glass",
+    guu: "plain",
+    jiv: "speculum",
+    jup: "plain",
+    mzh: "shadow",
+    pbb: "speculum",
+    plg: "plain",
+    quy: "plain",
+    quz: "plain",
+    tkl: "shadow",
+    xav: "look",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -1309,5 +1326,22 @@ WORDS.mirror = {
     mic: ["angamsutiei", "aŋkamsudiej"],
     oj: ["waabamojichaagwaan", "waːbamodʒitʃaːɡwaːn"],
     tsi: ["naksuniisk", "naksuniːsk"],
+    acu: ["ispi", "ispi"],
+    agr: ["ispiju", "ispihu"],
+    arn: ["komütuwe", "komɨtuwe"],
+    cak: ["lem", "lem"],
+    car: ["supikiri", "supikiɾi"],  // Borrowed from Dutch spiegel.
+    emp: ["espeku", "esˈpeku"],
+    guc: ["rouya", "rouja"],  // The same word as glass.
+    guu: ["mɨɾe", "mɨɾe"],
+    jiv: ["íspik", "ˈispik"],  // From Spanish espejo.
+    jup: ["mɔjə̌k", "mɔjə̌k"],
+    mzh: ["topeyakhi", "topejakhi"],
+    pbb: ["speeju", "speːhu"],  // From Spanish espejo.
+    plg: ["talenaʁai", "talenaʁai"],
+    quy: ["rirpu", "ɾiɾpu"],
+    quz: ["rirpu", "ˈɾiɾpu"],
+    tkl: ["fakaata", "fakaata"],  // Built on ata ‘image, reflection’.
+    xav: ["dasiʼmadâʼâzé", "dasiʔmadəʔəˈzɛ"],
   },
 };

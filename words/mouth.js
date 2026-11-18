@@ -1258,5 +1258,6 @@ WORDS.mouth = {
     osn: ["sungut", "suŋut"],
     jpr: ["דהן", "dæhæn"],
     p_jpk: ["*kutui", "kutui"],
+    bor: ["ogwa", "oɡwa"],
   }
 };

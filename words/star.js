@@ -756,7 +756,7 @@ WORDS.star = {
       acu: ["yaa", "jaː"],
       car: ["siriko", "siɾiko"],
       pbb: ["ãʼ", "ãʔ"],
-      gum: ["—", "—"],
+      gum: ["kønchapig", "kəntʃapik"],
       arn: ["wangüḻen", "waŋɨl̪en"],
       cr: ["ᐊᒑᐦᑯᐢ", "atʃaːhkos"],
       chp: ["tthë́n", "tθén"],

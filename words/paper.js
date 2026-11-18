@@ -631,6 +631,21 @@ WORDS.paper = {
     tlh: "plain",
     tok: "other",
     tsi: "plain",
+    agr: "papyrus",
+    car: "charta",
+    crt: "plain",
+    gn: "plain",
+    guu: "papyrus",
+    jup: "leaf",
+    kgp: "other",
+    mbc: "charta",
+    moc: "papyrus",
+    pbb: "leaf",
+    plg: "other",
+    rar: "papyrus",
+    to: "papyrus",
+    tob: "papyrus",
+    tue: "papyrus",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -1202,5 +1217,20 @@ WORDS.paper = {
     tlh: ["nav", "nɑv"],
     tok: ["lipu", "ˈlipu"],
     tsi: ["saʼwinsk", "saʔwinsk"],
+    agr: ["papi", "paˈpi"],
+    car: ["kareta", "kaɾeta"],  // Borrowed from Spanish or Portuguese carta; the same word as book.
+    crt: ["xokinek", "xokinek"],  // The same word as book.
+    gn: ["kuatia", "kʷaˈtia"],  // No image is recorded for it, so it counts as a word of its own.
+    guu: ["papʰeo", "papʰeo"],
+    jup: ["cugʼæ̌t", "cuɡʼæ̌t"],
+    kgp: ["vẽnh rá", "wɛ̃ɲ ɾə"],
+    mbc: ["kaareta", "kaareta"],
+    moc: ["papel", "papel"],
+    pbb: ["ets", "ets"],  // The same word as leaf.
+    plg: ["nede", "nede"],
+    rar: ["pēpa", "peːpa"],
+    to: ["pepa", "pepa"],  // Borrowed from English paper.
+    tob: ["papel", "papel"],  // From Spanish papel.
+    tue: ["papera", "paˈpeɾa"],  // From Portuguese papel.
   },
 };

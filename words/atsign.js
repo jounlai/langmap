@@ -406,5 +406,6 @@ WORDS.atsign = {
     scn: ["a cummirciali", ""],
     sdh: ["ئەت", "æt"],
     oj: ["dazhibiiʼigan", "daʒibiːʔiɡan"],  // Built from dazhibiiʼ- 'write it in a certain place' and the noun suffix -gan.
+    cak: ["suritzʼibʼ", "suritsʼiɓ"],
   },
 };

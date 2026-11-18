@@ -537,6 +537,9 @@ WORDS.whale = {
     arp: "fish",
     jbo: "plain",
     tlh: "plain",
+    pkp: "plain",
+    wls: "plain",
+    yrl: "fish",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -1019,5 +1022,8 @@ WORDS.whale = {
     arp: ["ciitóó3einówoʼ", "tʃiːtóːθeinówoʔ"],
     jbo: ["cketake", "ʃkeˈtake"],
     tlh: ["SolbIS", "ʂolbɪʂ"],
+    pkp: ["tawolā", "tawolaː"],  // No image is recorded for it, so it counts as a word of its own.
+    wls: ["tafolaʻa", "tafolaʔa"],
+    yrl: ["pirawasú", "piɾawaˈsu"],
   },
 };

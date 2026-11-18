@@ -784,6 +784,26 @@ WORDS.gold = {
     oj: "yellow",
     tlh: "plain",
     tsi: "yellow",
+    acu: "plain",
+    agr: "plain",
+    arn: "plain",
+    ay: "plain",
+    bor: "other",
+    cak: "yellow",
+    cni: "aurum",
+    crt: "other",
+    cuk: "aurum",
+    guu: "aurum",
+    jiv: "plain",
+    mbc: "aurum",
+    pbb: "other",
+    rar: "aurum",
+    shp: "plain",
+    sm: "aurum",
+    tca: "aurum",
+    ter: "aurum",
+    to: "yellow",
+    tue: "aurum",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -1507,5 +1527,25 @@ WORDS.gold = {
     oj: ["ozaawaa-zhooniyaa", "ozaːwaː ʒoːnijaː"],
     tlh: ["qol'om", "qʰolʔom"],
     tsi: ["guul", "ɡuːl"],
+    acu: ["kuri", "kuɾi"],
+    agr: ["kuri", "kuri"],
+    arn: ["milla", "miʎa"],
+    ay: ["quri", "ˈquɾi"],
+    bor: ["tori kuieje", "toɾi kuiedʒe"],
+    cak: ["qʼanapwaq", "qʼanapwaq"],
+    cni: ["oro", "oɾo"],  // From Spanish oro.
+    crt: ["ot es", "ot es"],  // 'Good metal': ot 'silver, iron' + es 'good'.
+    cuk: ["olo", "olo"],
+    guu: ["oɾo", "oɾo"],
+    jiv: ["kuri", "kuɾi"],
+    mbc: ["ouro", "ouro"],
+    pbb: ["vxyuu beh", "βʲuː beh"],  // Built on beh ‘red’.
+    rar: ["ʻauro", "ʔauɾo"],
+    shp: ["kori", "koɻi"],
+    sm: ["auro", "auro"],
+    tca: ["uiru", "uiɾu"],  // From Portuguese ouro or Spanish oro.
+    ter: ["ôro", "ˈoːɾo"],
+    to: ["koula", "koula"],  // Borrowed from English gold.
+    tue: ["oro", "ˈoɾo"],  // From Portuguese ouro.
   },
 };

@@ -751,6 +751,10 @@ WORDS.bat = {
     lij: "mouse",
     nrf: "mouse",
     acf: "mouse",
+    fit: "other",
+    ie: "mouse",
+    rmy: "plain",
+    sjd: "mouse",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1447,5 +1451,9 @@ WORDS.bat = {
     lij: ["rattopennugo", "ratupeˈnyːɡu"],
     nrf: ["caûque-souothis", "koːk swɔði"],
     acf: ["sòlsouwi", "sɔlsuwi"],  // From French chauve-souris, literally 'bald mouse'.
+    fit: ["lepakko", "ˈlepɑkːo"],
+    ie: ["mus-volant", "musvoˈlant"],
+    rmy: ["liliako", "liliako"],
+    sjd: ["кыррьтэй-са̄һплиӈӈк", "kɨrʲːtej saːhpliŋːk"],  // Literally 'flying mouse'.
   },
 };

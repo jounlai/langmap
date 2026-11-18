@@ -508,6 +508,8 @@ WORDS.mobilephone = {
     dnj: "carry",
     frr: "hand",
     wa: "carry",
+    hsb: "hand",
+    vro: "carry",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -959,5 +961,7 @@ WORDS.mobilephone = {
     dnj: ["pɔ̄táblʌ̏", "pɔ̄táblʌ̏"],  // From French portable.
     frr: ["handy", "ˈhɛndi"],  // Route by resemblance to the neighbouring forms (German Handy); no etymology of its own.
     wa: ["poirtåve", "pwaʀˈtɔːf"],
+    hsb: ["handy", "ˈɦɛndi"],
+    vro: ["mobiil'telefoń", "ˈmobiːlʲtelefonʲ"],
   },
 };

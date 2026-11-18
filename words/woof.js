@@ -306,5 +306,7 @@ WORDS.woof = {
     ota: ["هاو هاو", "hav hav"],
     dnj: ["wáȕu-wáȕu", "wáȕu wáȕu"],
     fur: ["vuac", "vwak"],
+    hsb: ["haw haw", "ɦaw ɦaw"],
+    vro: ["hau hau", "hɑu hɑu"],
   },
 };

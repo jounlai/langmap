@@ -417,6 +417,14 @@ WORDS.milkyway = {
     fra_jer: "road",
     fur: "road",
     nrf: "road",
+    fit: "birds",
+    fkv: "birds",
+    fo: "road",
+    hsb: "milk",
+    ie: "milk",
+    krl: "birds",
+    smn: "birds",
+    vro: "birds",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -777,5 +785,13 @@ WORDS.milkyway = {
     fra_jer: ["C'mîns d'St. Jacques", "kmĩ d sɛ̃ ˈʒak"],
     fur: ["Stradalbe", "straˈdalbe"],
     nrf: ["C'mîns d'St. Jacques", "kmĩ d sɛ̃ ʒak"],
+    fit: ["linnunrata", "ˈlinːunrɑtɑ"],
+    fkv: ["Linnunrata", "ˈlinːunˌrɑtɑ"],
+    fo: ["vetrarbreyt", "ˈveːʰtɹaɹˌpɹɛiːt"],
+    hsb: ["Mlóčna dróha", "mlʊtʃna drʊɦa"],
+    ie: ["Via Galactic", "ˈvia ɡaˈlaktik"],
+    krl: ["Linnunrata", "ˈlʲinːunrɑtɑ"],
+    smn: ["loderaiđâlâs", "ˈloderaiðɐlɐs"],  // Literally 'the birds' path', like Finnish linnunrata.
+    vro: ["Tsirgurada", "ˈtsirɡurɑdɑ"],
   },
 };

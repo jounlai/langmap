@@ -930,5 +930,7 @@ WORDS.rice = {
     qxq: ["düge", "dyˈɟe"],
     p_jpk: ["*kəmai", "kəmai"],
     p_viet: ["*r-koːʔ", "r-koːʔ"],
+    rmy: ["herezo", "herezo"],
+    sjd: ["рӣсс", "riːsː"],
   }
 };

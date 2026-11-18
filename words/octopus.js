@@ -359,6 +359,10 @@ WORDS.octopus = {
     pms: "many",
     acf: "plain",
     pap: "plain",
+    fit: "other",
+    hsb: "plain",
+    lb: "eight",
+    smn: "other",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -662,5 +666,9 @@ WORDS.octopus = {
     pms: ["pòrpo", "ˈpɔrpu"],
     acf: ["chatou", "ʃatu"],
     pap: ["sekat", "seˈkat"],
+    fit: ["mustekala", "ˈmustekɑlɑ"],
+    hsb: ["kraka", "ˈkraka"],
+    lb: ["Oktopus", "ˈoktoːpus"],
+    smn: ["lekkâkyeli", "ˈlekːɐkyeli"],  // Literally 'ink fish', like Finnish mustekala.
   },
 };

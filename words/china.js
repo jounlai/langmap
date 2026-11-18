@@ -568,6 +568,10 @@ WORDS.china = {
     fr_class: "cina",
     it_dan: "khitan",
     gcr: "cina",
+    fit: "cina",
+    fkv: "cina",
+    ie: "cina",
+    lb: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1082,5 +1086,9 @@ WORDS.china = {
     fr_class: ["Chine", "ʃin"],
     it_dan: ["Cattaio", "katˈtajo"],  // Boccaccio's name for (northern) China, Marco Polo's Cathay.
     gcr: ["Lachin", "laʃin"],
+    fit: ["Kiina", "ˈkiːnɑ"],
+    fkv: ["Kiina", "ˈkiːnɑ"],
+    ie: ["China", "ˈʃina"],
+    lb: ["China", "ˈʃinaː"],
   },
 };

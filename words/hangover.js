@@ -230,5 +230,10 @@ WORDS.hangover = {
     an: ["resaca", "reˈsaka"],
     ast: ["resaca", "reˈsaka"],
     pap: ["wayabá", "wajaˈba"],
+    fit: ["kohmelo", "ˈkohmelo"],
+    fkv: ["rapukka", "ˈrɑpukːɑ"],
+    hsb: ["kocor", "ˈkɔtsɔr"],
+    krl: ["kohmelo", "ˈkohmelo"],
+    smn: ["kohmá", "ˈkohma"],
   },
 };

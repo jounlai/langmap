@@ -981,5 +981,6 @@ WORDS.poop = {
     p_hmx: ["*N-Kəjˣ", "N-Kəj"],
     p_jpk: ["*kuso", "kuso"],
     p_viet: ["*kəc ~ *kɨc", "kəc ~ kɨc"],
+    sjd: ["пэшшк", "peʃːk"],
   },
 };

@@ -580,6 +580,10 @@ WORDS.tuesday = {
     djk: "count",
     gcr: "mars",
     srm: "count",
+    fit: "god",
+    ie: "mars",
+    rmf: "count",
+    uby: "plain",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मैनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -1099,5 +1103,9 @@ WORDS.tuesday = {
     djk: ["tudewooko", "tudewoːko"],  // Literally 'second work day'.
     gcr: ["mardi", "maʁdi"],
     srm: ["féifídáka", "féifídáka"],
+    fit: ["tiistai", "ˈtiːstɑi"],
+    ie: ["mardí", "marˈdi"],
+    rmf: ["vauro diives", "vau̯ro diːves"],  // Literally 'second day'.
+    uby: ["atʷʼamśʷa", "atʼʷamɕʷa"],
   },
 };

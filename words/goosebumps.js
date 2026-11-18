@@ -260,6 +260,10 @@ WORDS.goosebumps = {
     frr: "plain",
     lij: "bird",
     wa: "bird",
+    fit: "bird",
+    hsb: "bird",
+    nn: "bird",
+    vro: "bird",
   },
   family2: {
     ko: "bird",
@@ -468,5 +472,9 @@ WORDS.goosebumps = {
     frr: ["grääse", "ˈɡrɛːsə"],  // No image is recorded for it, so it counts as a word of its own.
     lij: ["pelle de galliña", "pelle de ɡaliŋa"],
     wa: ["tchå d' poye", "tʃɔː d poj"],
+    fit: ["kananliha", "ˈkɑnɑnlihɑ"],
+    hsb: ["husaca koža", "ɦusatsa kɔʒa"],
+    nn: ["gåsehud", "ˈɡoːsəˌhʉːd"],  // Literally 'goose skin'.
+    vro: ["kananahk", "ˈkɑnɑnɑhk"],
   },
 };

@@ -856,5 +856,6 @@ WORDS.silk = {
     tig: ["ሐሪር", "ħarir"],
     nci: ["ocuilicpatl", "okʷiˈlikpatɬ"],  // Silk came with the Spanish; Molina's word is 'worm thread'.
     pmng: ["*torga", "torɡa"],
+    rmy: ["kez", "kez"],
   }
 };

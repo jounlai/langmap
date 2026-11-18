@@ -471,6 +471,11 @@ WORDS.chili = {
     pms: "pepper",
     acf: "spice",
     pap: "pepper",
+    fit: "chilli",
+    gd: "chilli",
+    se: "pepper",
+    sjd: "pepper",
+    vro: "chilli",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -880,5 +885,10 @@ WORDS.chili = {
     pms: ["povronin", "puvruˈniŋ"],
     acf: ["piman", "pimã"],
     pap: ["promèntè", "proˈmɛntɛ"],
+    fit: ["tjiili", "ˈtʃiːli"],
+    gd: ["tiolaidh", "ˈtʲil̪ˠɪ"],
+    se: ["bihppor", "ˈpihːpor"],
+    sjd: ["чо̄гк-пе̄рэц", "tʃoːɡk peːrets"],  // Literally 'sharp pepper'.
+    vro: ["tsilli", "ˈtsilːi"],
   },
 };

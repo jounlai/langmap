@@ -1091,5 +1091,6 @@ WORDS.green = {
     pafa: ["*waraḳ-", "warakʼ"],
     kmb: ["uisu", "wisu"],
     swb: ["mrututu", "mrututu"],
+    fit: ["vihriäinen", "ˈʋihriæinen"],
   }
 };

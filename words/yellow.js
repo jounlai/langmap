@@ -700,6 +700,11 @@ WORDS.yellow = {
     acf: "galbinus",
     gcr: "galbinus",
     srm: "plain",
+    fit: "ghel",
+    ie: "ghel",
+    pnt: "fruit",
+    prg: "ghel",
+    rmf: "ghel",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1339,5 +1344,10 @@ WORDS.yellow = {
     acf: ["jòn", "ʒɔn"],
     gcr: ["jonn", "ʒɔn"],
     srm: ["kóóko", "kóːko"],
+    fit: ["keltanen", "ˈkeltɑnen"],
+    ie: ["yelb", "jelb"],
+    pnt: ["κίτρινον", "ˈcitrinon"],
+    prg: ["gelatynan", "ˈɡeltainan"],
+    rmf: ["dželto", "ˈdʒelto"],  // From a Slavic word for yellow.
   },
 };

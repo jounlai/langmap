@@ -567,7 +567,7 @@ WORDS.star = {
       smn: ["täsni", "ˈtæsni"],
       sms: ["täʹsnn", "ˈtasʲnːʲɘ"],
       sjd: ["та̄ссьт", "taːɕːt"],
-      vro: ["täht", "tæht"],
+      vro: ["tähť", "tæhtʲ"],  // synaq.org (Võro–Estonian dictionary) writes tähť with final palatalisation (fixed in gap rally R16, 2026-11-18).
       gn: ["mbyja", "mbɨˈdʒa"],
       yrl: ["yasytatá", "jasɨtaˈta"],
       chr: ["ᏃᏈᏏ", "noˈkʷisi"],

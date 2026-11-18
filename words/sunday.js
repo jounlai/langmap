@@ -599,6 +599,9 @@ WORDS.sunday = {
     frr: "sun",
     acf: "lord",
     djk: "sun",
+    fit: "holy",
+    ie: "sun",
+    prg: "rest",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1138,5 +1141,8 @@ WORDS.sunday = {
     frr: ["saandi", "ˈsaːndi"],
     acf: ["Dimanch", "dimãʃ"],
     djk: ["sonde", "sonde"],
+    fit: ["pyhä", "ˈpyhæ"],
+    ie: ["soledí", "soleˈdi"],
+    prg: ["nadele", "ˈnadeːleː"],
   },
 };

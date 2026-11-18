@@ -847,6 +847,12 @@ WORDS.gold = {
     rki: "plain",
     sms: "plain",
     xed: "plain",
+    cr: "yellow",
+    fai: "yellow",
+    izz: "yellow",
+    roo: "yellow",
+    sma: "plain",
+    th_n: "jin",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -1633,5 +1639,11 @@ WORDS.gold = {
     rki: ["ရွှေ", "ʃwì"],
     sms: ["kåʹll", "ˈkɔlːʲɘ"],
     xed: ["dasu", "dasu"],
+    cr: ["ᐅᓵᐎᓲᓂᔮᐤ", "osaːwisoːnijaːw"],  // Literally 'yellow money'
+    fai: ["gol", "ɡol"],
+    izz: ["mkpọla-ododo", "mkpɔla ododo"],
+    roo: ["gol", "ɡol"],
+    sma: ["gullie", "ˈkʉlːiɛ"],
+    th_n: ["คำ", "kʰam˧"],
   },
 };

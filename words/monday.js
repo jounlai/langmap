@@ -724,6 +724,11 @@ WORDS.monday = {
     roo: "count",
     woe: "moon",
     ykg: "after",
+    bbl: "count",
+    huz: "count",
+    mos: "count",
+    rgn: "moon",
+    vls: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1390,5 +1395,10 @@ WORDS.monday = {
     roo: ["rovopa voki", "ɾoβopa βoki"],
     woe: ["Montaag", "montaːɡ"],  // From German Montag.
     ykg: ["понидьиэльник", "ponidʲeːlʲnik"],
+    bbl: ["ცჰʼანა", "tsħanaː"],
+    huz: ["итни", "itni"],
+    mos: ["tẽnɛ", "tẽnɛ"],
+    rgn: ["lôn", "lõː"],
+    vls: ["moandag", "ˈmɔːndɑx"],
   },
 };

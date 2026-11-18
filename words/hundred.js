@@ -1210,5 +1210,6 @@ WORDS.hundred = {
     jpr: ["צד", "sæd"],
     p_viet: ["*k-lam", "k-lam"],
     pban: ["*kámá", "kámá"],
+    har: ["bäqlä", "bəqlə"],
   },
 };

@@ -1173,5 +1173,7 @@ WORDS.horse = {
     qxq: ["at", "ɑt"],
     qwc: ["kawallu", "kawaʎu"],  // The horse came with the Spanish, and Quechua took their word caballo for it.
     p_jpk: ["*uma", "uma"],
+    dta: ["moŕ", "morʲ"],
+    har: ["färäz", "fərəz"],
   }
 };

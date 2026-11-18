@@ -1226,5 +1226,7 @@ WORDS.five = {
     vi_mid: ["năm", "nam˧"],
     p_jpk: ["*itu", "itu"],
     mzh: ["sinku", "sinku"],
+    har: ["ḥammisti", "ħɑmːisti"],
+    wrh: ["marra", "ˈmara"],
   },
 };

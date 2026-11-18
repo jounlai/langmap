@@ -455,6 +455,28 @@ WORDS.kiss = {
     to: "plain",
     tob: "plain",
     tue: "other",
+    bi: "kus",
+    bzh: "plain",
+    ch: "plain",
+    dbl: "plain",
+    gil: "mouth",
+    ho: "kus",
+    hwc: "kus",
+    max: "smell",
+    meu: "plain",
+    mi: "kus",
+    mpj: "plain",
+    nys: "other",
+    pcm: "kus",
+    pis: "kus",
+    pmy: "smell",
+    roo: "plain",
+    rtm: "plain",
+    sus: "plain",
+    tcs: "kus",
+    wbp: "plain",
+    wbt: "plain",
+    yap: "kus",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -847,5 +869,27 @@ WORDS.kiss = {
     to: ["ʻuma", "ʔuma"],  // No image is recorded for it, so it counts as a word of its own.
     tob: ["napigoq", "napiɡoq"],
     tue: ["ũpũ", "ũˈpũ"],  // Literally ‘suck’.
+    bi: ["kis", "kis"],  // From English kiss; kisim is the transitive form.
+    bzh: ["mul", "mul̪"],
+    ch: ["chiku", "ˈtʃiku"],
+    dbl: ["nyunyjal", "ˈɲuɲɟal"],
+    gil: ["kaboria", "kaboɾia"],  // Built on ria 'lips': lips made to meet.
+    ho: ["kisi", "kisi"],  // From English kiss.
+    hwc: ["kiss", "kɪs"],
+    max: ["ciong", "ˈtʃioŋ"],  // The same word means to sniff.
+    meu: ["harahu", "haɾahu"],
+    mi: ["kihi", "kihi"],  // Borrowed from English kiss.
+    mpj: ["nyunyjurnu", "ɲuɲcuɳu"],
+    nys: ["nindyan", "nindʒan"],  // The same word means to suck.
+    pcm: ["kiss", "kis"],
+    pis: ["kiskis", "kiskis"],  // From English kiss.
+    pmy: ["cium", "ˈtʃium"],  // Also means to smell.
+    roo: ["uugaa", "uːɡaː"],
+    rtm: ["aso", "aso"],
+    sus: ["sunbu", "sunbu"],
+    tcs: ["kis", "kis"],
+    wbp: ["nyunjirni", "ɲuɲɟiɳi"],
+    wbt: ["kunyjala", "kuɲɟala"],
+    yap: ["kiis", "kiːs"],
   },
 };

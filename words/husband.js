@@ -872,6 +872,35 @@ WORDS.husband = {
     tue: "own",
     ty: "man",
     xav: "spouse",
+    aau: "man",
+    abs: "other",
+    aer: "spouse",
+    bzh: "own",
+    ch: "spouse",
+    dbl: "own",
+    djr: "own",
+    emi: "man",
+    enq: "man",
+    fai: "own",
+    ho: "spouse",
+    hot: "own",
+    hui: "man",
+    mai: "lord",
+    meu: "spouse",
+    nys: "spouse",
+    pcm: "house",
+    pis: "house",
+    pmy: "lord",
+    pon: "spouse",
+    roo: "spouse",
+    rtm: "own",
+    syl: "own",
+    tiw: "spouse",
+    tpi: "man",
+    wbp: "spouse",
+    woe: "spouse",
+    yap: "own",
+    yle: "own",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1683,5 +1712,34 @@ WORDS.husband = {
     tue: ["bãdʉ̃", "bãˈdɨ̃"],  // Not the word for man.
     ty: ["tāne", "taːne"],
     xav: ["damro", "damˈɾɔ"],
+    aau: ["uwr", "uwɾ"],  // The same word as man.
+    abs: ["paitua", "paitua"],  // Pai plus tua 'old', the counterpart of maitua 'wife'.
+    aer: ["anewe", "anəwə"],  // The same word means wife.
+    bzh: ["regga", "ɾəɣa"],
+    ch: ["asagua", "aˈsaɡwa"],
+    dbl: ["wiru", "ˈwiɻu"],
+    djr: ["dhuway", "d̪uwaj"],  // Not the word for man (ḏirramu).
+    emi: ["taita", "taita"],
+    enq: ["akalingi", "akaliŋɡi"],
+    fai: ["kimak", "kimak"],  // Also means male; not the word for man or person (kinim).
+    ho: ["adavana", "adavana"],  // The same word means wife.
+    hot: ["yamalô", "jamalo"],  // Not the word for man (anyô).
+    hui: ["agali", "aɡali"],  // The same word as man.
+    mai: ["पति", "pəti"],
+    meu: ["adavana", "adavana"],
+    nys: ["koort-maat", "koːʈmaːt"],  // The same word means wife.
+    pcm: ["husband", "hɔzband"],
+    pis: ["hasban", "hasban"],  // From English husband.
+    pmy: ["suami", "ˈsuami"],
+    pon: ["werek", "wɛrɛk"],
+    roo: ["vatuato", "βatuato"],
+    rtm: ["väväne", "vævæne"],
+    syl: ["জামাই", "zamai"],
+    tiw: ["purnayi", "puɾnaji"],
+    tpi: ["man", "man"],
+    wbp: ["kali", "kali"],
+    woe: ["fitiya", "fitija"],  // The same word means wife.
+    yap: ["figir", "fiɡir"],
+    yle: ["moo", "mɔː"],
   },
 };

@@ -1181,5 +1181,6 @@ WORDS.mountain = {
     p_jpk: ["*yama", "jama"],
     gcr: ["montangn", "mɔ̃tãɲ"],
     fit: ["vaara", "ˈʋɑːrɑ"],
+    na: ["etowdudu", "etowdudu"],
   }
 };

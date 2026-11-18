@@ -651,6 +651,36 @@ WORDS.lion = {
     cak: "plain",
     gn: "leo",
     ter: "leo",
+    aau: "leo",
+    ake: "leo",
+    bbl: "plain",
+    bi: "leo",
+    byn: "plain",
+    bzh: "leo",
+    chk: "leo",
+    djr: "leo",
+    emi: "leo",
+    enq: "leo",
+    fai: "leo",
+    har: "plain",
+    ho: "leo",
+    hui: "leo",
+    huv: "leo",
+    hwc: "leo",
+    kmu: "leo",
+    kpf: "leo",
+    meu: "leo",
+    mxv: "plain",
+    pcm: "leo",
+    pmy: "simha",
+    pon: "leo",
+    roo: "leo",
+    syl: "simha",
+    tcs: "leo",
+    tet: "leo",
+    tpi: "leo",
+    wbp: "leo",
+    woe: "other",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシャ語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -1244,5 +1274,35 @@ WORDS.lion = {
     cak: ["köj", "kʊx"],
     gn: ["leõ", "leˈõ"],  // Borrowed from Spanish león.
     ter: ["líyaum", "ˈlijaum"],
+    aau: ["laion", "laion"],  // From English lion.
+    ake: ["rayan", "rajan"],
+    bbl: ["ლომ", "lom"],
+    bi: ["laeon", "laeon"],  // From English lion.
+    byn: ["ገመና", "ɡəməna"],
+    bzh: ["layon", "l̪ajon"],
+    chk: ["laion", "laion"],  // From English lion.
+    djr: ["läyin", "laːjin"],  // From English lion.
+    emi: ["laeoni", "laeoni"],
+    enq: ["laeyone", "laejone"],
+    fai: ["layon", "lajon"],  // From English lion.
+    har: ["wanāg", "wɑnaːɡ"],
+    ho: ["laiona", "laiona"],  // From English lion.
+    hui: ["laiono", "laiono"],  // From English lion.
+    huv: ["león", "leon"],
+    hwc: ["lion", "laɪən"],
+    kmu: ["laiyoni", "laijoni"],
+    kpf: ["laioŋ", "laioŋ"],
+    meu: ["leona", "leona"],
+    mxv: ["ndikaʼa", "ndikaʔa"],
+    pcm: ["lion", "laɪɔn"],
+    pmy: ["singa", "ˈsiŋa"],
+    pon: ["laion", "laion"],
+    roo: ["laion", "laion"],
+    syl: ["সিংহ", "ʃiŋɡo"],
+    tcs: ["laian", "laian"],
+    tet: ["liaun", "liaun"],  // From Portuguese leão.
+    tpi: ["laion", "laion"],
+    wbp: ["layini", "lajini"],
+    woe: ["gaatu", "ɡaːtu"],  // The same word means cat.
   },
 };

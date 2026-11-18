@@ -847,6 +847,42 @@ WORDS.wife = {
     trn: "own",
     tue: "own",
     xav: "spouse",
+    aau: "woman",
+    aer: "spouse",
+    agr: "woman",
+    bi: "own",
+    bzh: "own",
+    ch: "spouse",
+    dbl: "own",
+    djr: "own",
+    emi: "woman",
+    enq: "woman",
+    fai: "own",
+    ho: "spouse",
+    hot: "own",
+    hui: "own",
+    hwc: "own",
+    ktz: "woman",
+    max: "own",
+    meu: "spouse",
+    mi: "woman",
+    na: "own",
+    nha: "own",
+    nys: "spouse",
+    pcm: "own",
+    pis: "own",
+    pjt: "spouse",
+    pmy: "own",
+    pon: "spouse",
+    roo: "spouse",
+    rtm: "own",
+    syl: "own",
+    tiw: "spouse",
+    wbl: "woman",
+    wbp: "spouse",
+    woe: "spouse",
+    yap: "own",
+    yle: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1637,5 +1673,41 @@ WORDS.wife = {
     trn: ["-yeno", "jeno"],
     tue: ["dʉ̃bõ", "dɨ̃ˈbõ"],  // Not the word for woman.
     xav: ["damro", "damˈɾɔ"],
+    aau: ["sa", "sa"],  // The same word as woman.
+    aer: ["anewe", "anəwə"],  // The same word means husband.
+    agr: ["nuwa", "nuwa"],
+    bi: ["waef", "waef"],  // From English wife.
+    bzh: ["venë", "βəne"],
+    ch: ["asagua", "aˈsaɡwa"],
+    dbl: ["bulgu", "ˈbulɡu"],
+    djr: ["galay", "ɡalaj"],  // Not the word for woman (miyalk).
+    emi: ["vause", "vause"],
+    enq: ["enda", "enda"],
+    fai: ["kadel", "kadel"],  // Also means female; not the word for woman (wanang).
+    ho: ["adavana", "adavana"],  // The same word means husband.
+    hot: ["yanavi", "janavi"],  // Not the plain word for woman (avi).
+    hui: ["one", "one"],  // Not the word for woman (wali).
+    hwc: ["wife", "waɪf"],
+    ktz: ["dshàú", "dtsʰàú"],
+    max: ["bini", "bini"],  // Not the word for woman (nona).
+    meu: ["adavana", "adavana"],
+    mi: ["wahine", "wahine"],  // The same word as woman.
+    na: ["agen", "aŋen"],  // Not the word for woman (ån).
+    nha: ["artu", "aʈu"],  // Not the word for woman (nyarlu).
+    nys: ["koort-maat", "koːʈmaːt"],  // The same word means husband.
+    pcm: ["wife", "waɪf"],
+    pis: ["waef", "waef"],  // From English wife; mere, also 'woman', is used too.
+    pjt: ["kuri", "ˈkuri"],  // The same word means husband.
+    pmy: ["istri", "ˈistri"],
+    pon: ["werek", "wɛrɛk"],
+    roo: ["vatuava", "βatuaβa"],
+    rtm: ["hạina", "hɔina"],
+    syl: ["বউ", "bɔu"],
+    tiw: ["purnayinga", "puɾnajiŋa"],
+    wbl: ["кәнд", "kənd"],
+    wbp: ["kali", "kali"],
+    woe: ["fitiya", "fitija"],  // The same word means husband.
+    yap: ["leʼngiin", "leʔŋiːn"],
+    yle: ["kpâm", "k͡pɑm"],
   },
 };

@@ -1186,5 +1186,6 @@ WORDS.honey = {
     xng: ["ᠪᠠᠯ", "bal"],
     jpr: ["עסל", "æsæl"],
     emy: ["kab", "kaɓ"],  // The same word as kab, earth.
+    dbl: ["girnyjal", "ˈɡiɻɲɟal"],
   },
 };

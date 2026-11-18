@@ -1316,5 +1316,8 @@ WORDS.black = {
     h_goguryeo: ["今勿", "*kəməl"],  // From a place-name gloss: 黑壤 'black soil' county was originally 今勿奴.
     jpr: ["סיאה", "sijɒːh"],
     p_jpk: ["*kuro", "kuro"],
+    bbl: ["ჵარჭინ", "ʕaːrtʃʼin"],
+    har: ["ṭäy", "tʼəj"],
+    ktz: ["nǂu", "ᵑǂu"],
   },
 };

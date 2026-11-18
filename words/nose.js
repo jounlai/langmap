@@ -1211,5 +1211,6 @@ WORDS.nose = {
     spp: ["múnaani", "múnaːni"],
     p_jpk: ["*pana", "pana"],
     rwk: ["mbua", "mbua"],
+    ktz: ["tzun", "tsʼun"],
   },
 };

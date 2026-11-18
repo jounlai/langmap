@@ -793,6 +793,30 @@ WORDS.money = {
     tue: "coin",
     ty: "coin",
     xav: "other",
+    bbl: "silver",
+    bi: "coin",
+    bzh: "coin",
+    enq: "coin",
+    gil: "coin",
+    ho: "coin",
+    hui: "coin",
+    hwc: "coin",
+    iso: "plain",
+    kmu: "coin",
+    mai: "coin",
+    mbc: "silver",
+    meu: "coin",
+    mpj: "coin",
+    mxv: "plain",
+    nys: "other",
+    piu: "coin",
+    pmy: "plain",
+    pon: "coin",
+    roo: "coin",
+    tcs: "coin",
+    toj: "silver",
+    wbp: "coin",
+    yux: "plain",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -1526,5 +1550,29 @@ WORDS.money = {
     tue: ["dĩyeru", "dĩˈjeɾu"],  // From Portuguese dinheiro.
     ty: ["moni", "moni"],
     xav: ["robʼuiprazé", "ɾɔbʔuipɾaˈzɛ"],  // Literally 'thing for buying'.
+    bbl: ["ტათებ", "tʼateb"],  // The same word as 'silver'.
+    bi: ["mane", "mane"],  // From English money; vatu, the currency, is also used for money.
+    bzh: ["monë", "mone"],
+    enq: ["muni", "muni"],
+    gil: ["mwane", "mʷane"],  // Borrowed from English money.
+    ho: ["moni", "moni"],  // From English money.
+    hui: ["muni", "muni"],  // From English money, as Tok Pisin mani.
+    hwc: ["money", "mʌni"],
+    iso: ["ugho", "uɣo"],
+    kmu: ["mone", "mone"],
+    mai: ["पैसा", "pɛːsaː"],
+    mbc: ["pɨrata", "pɨrata"],
+    meu: ["moni", "moni"],
+    mpj: ["mani", "mani"],
+    mxv: ["xuʼun", "ʃuʔun"],
+    nys: ["boya", "boja"],  // The same word means stone.
+    piu: ["mani", "mani"],
+    pmy: ["uang", "ˈuaŋ"],
+    pon: ["mwohni", "mʷoːni"],
+    roo: ["moni", "moni"],
+    tcs: ["mani", "mani"],
+    toj: ["takʼin", "takʼin"],
+    wbp: ["tala", "tala"],
+    yux: ["поҥдэ", "poŋdə"],
   },
 };

@@ -570,6 +570,14 @@ WORDS.soap = {
     trn: "sapo",
     tue: "sapo",
     ty: "plain",
+    bi: "sapo",
+    gil: "sapo",
+    ho: "sapo",
+    pis: "sapo",
+    rtm: "sapo",
+    tet: "sabao",
+    woe: "sapo",
+    yap: "sapo",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1081,5 +1089,13 @@ WORDS.soap = {
     trn: ["jawono", "hawono"],  // Borrowed from Spanish jabón.
     tue: ["sabo", "saˈbo"],  // From Portuguese sabão.
     ty: ["puʻa", "puʔa"],
+    bi: ["sop", "sop"],  // From English soap.
+    gil: ["tobu", "tobu"],  // Borrowed from English soap.
+    ho: ["sopu", "sopu"],  // From English soap.
+    pis: ["sop", "sop"],  // From English soap.
+    rtm: ["sopo", "sopo"],
+    tet: ["sabaun", "sabaun"],  // From Portuguese sabão.
+    woe: ["soop", "soːp"],  // From English soap.
+    yap: ["soep", "søp"],
   },
 };

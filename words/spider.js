@@ -756,6 +756,21 @@ WORDS.spider = {
     tob: "plain",
     trn: "plain",
     tue: "plain",
+    abs: "plain",
+    aer: "plain",
+    bi: "spin",
+    byn: "other",
+    djr: "plain",
+    hot: "plain",
+    pau: "plain",
+    pcm: "spin",
+    pis: "spin",
+    rtm: "plain",
+    tiw: "plain",
+    wbt: "plain",
+    wmt: "plain",
+    wrh: "plain",
+    yap: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -1452,5 +1467,20 @@ WORDS.spider = {
     tob: ["palatʃidʒaʁa", "palatʃidʒaʁa"],
     trn: ["mtono", "mtono"],  // No image is recorded for it, so it counts as a word of its own.
     tue: ["bʉpʉ", "bɨˈpɨ"],
+    abs: ["lawa-lawa", "lawa lawa"],
+    aer: ["inurle", "inuɭə"],
+    bi: ["spaeda", "spaeda"],  // From English spider.
+    byn: ["ሳሪሮ", "sariro"],  // From a verb 'to dress oneself'.
+    djr: ["gärrʼ", "ɡaːrʔ"],  // No image is recorded for it, so it counts as a word of its own.
+    hot: ["lakalek", "lakalɛk"],  // No image is recorded for it, so it counts as a word of its own.
+    pau: ["bubuu", "bubuː"],
+    pcm: ["spider", "spaɪda"],
+    pis: ["spaeda", "spaeda"],  // From English spider.
+    rtm: ["fuʻfuʻu", "fuʔfuʔu"],
+    tiw: ["pwanga", "pʷaŋa"],
+    wbt: ["marapul", "maɻapul"],
+    wmt: ["purlkartu", "ˈpuɭkaʈu"],
+    wrh: ["gangga", "ˈɡaŋɡa"],
+    yap: ["goenöw", "ɡønøw"],
   },
 };

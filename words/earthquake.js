@@ -539,6 +539,19 @@ WORDS.earthquake = {
     tkl: "plain",
     tob: "shake",
     tue: "earth",
+    emi: "plain",
+    enq: "plain",
+    ho: "earth",
+    kmu: "plain",
+    mai: "earth",
+    pcm: "earth",
+    pis: "earth",
+    pmy: "earth",
+    pon: "earth",
+    tcs: "earth",
+    tet: "earth",
+    tiw: "plain",
+    yap: "plain",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -1021,5 +1034,18 @@ WORDS.earthquake = {
     tkl: ["māfuie", "maːfuie"],
     tob: ["natʃolaʁanaʁa", "natʃolaʁanaʁa"],  // Literally ‘trembling’.
     tue: ["ditayũbĩ", "diˈtajũbĩ"],  // Built on dita ‘earth’.
+    emi: ["rukeruke", "ɾukeɾuke"],
+    enq: ["titiwali", "titiwali"],
+    ho: ["tano mareremarere", "tano mareremarere"],  // Land and shaking.
+    kmu: ["imi", "imi"],
+    mai: ["भूकम्प", "bʱuːkəmp"],
+    pcm: ["eartkweke", "ɛtkwek"],
+    pis: ["atkuik", "atkuik"],  // From English earthquake.
+    pmy: ["gempa bumi", "ɡempa ˈbumi"],
+    pon: ["rerrer en sahpw", "rɛrːɛr ɛn saːpʷ"],
+    tcs: ["ertseik", "ertseik"],
+    tet: ["rai-nakdoko", "rainakdoko"],  // The land shakes: rai 'land' and nakdoko 'shake'.
+    tiw: ["karrarluputi", "kaɾaɭuputi"],
+    yap: ["durruʼ", "durːuʔ"],
   },
 };

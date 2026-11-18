@@ -959,5 +959,6 @@ WORDS.butterfly = {
     p_sit: ["*pur", "pur"],
     fit: ["pörhöinen", "ˈpørhøinen"],
     itz: ["pepem", "pepem"],
+    na: ["iyewaeoe", "ijewaeoe"],
   },
 };

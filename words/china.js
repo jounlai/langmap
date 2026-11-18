@@ -573,6 +573,8 @@ WORDS.china = {
     ie: "cina",
     lb: "cina",
     ia: "cina",
+    pau: "cina",
+    pis: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1092,5 +1094,7 @@ WORDS.china = {
     ie: ["China", "ˈʃina"],
     lb: ["China", "ˈʃinaː"],
     ia: ["China", "ˈʃina"],
+    pau: ["Sina", "sina"],
+    pis: ["Saena", "saena"],  // From English China.
   },
 };

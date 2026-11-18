@@ -933,5 +933,6 @@ WORDS.rice = {
     rmy: ["herezo", "herezo"],
     sjd: ["рӣсс", "riːsː"],
     car: ["areisi", "aɾeisi"],
+    har: ["rūz", "ruːz"],
   }
 };

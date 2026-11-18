@@ -900,6 +900,13 @@ WORDS.thunder = {
     mch: "plain",
     mrq: "plain",
     plg: "other",
+    enq: "sky",
+    kmu: "plain",
+    nha: "plain",
+    wbt: "plain",
+    woe: "plain",
+    xul: "plain",
+    yux: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1746,5 +1753,12 @@ WORDS.thunder = {
     mch: ["kademedu", "kaɾ̠eːmeɾ̠u"],
     mrq: ["hatitiʻi", "hatitiʔi"],
     plg: ["nalimaʁa", "nalimaʁa"],
+    enq: ["kaiti toka", "kaiti toka"],  // sky + noise
+    kmu: ["monage", "monaɡe"],
+    nha: ["pindari", "pindaɻi"],
+    wbt: ["ngangkarli", "ŋaŋkaɭi"],
+    woe: ["pach", "patʃ"],
+    xul: ["mirrabee", "miɻabeː"],
+    yux: ["йэдул", "jedul"],
   },
 };

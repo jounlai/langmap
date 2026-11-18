@@ -763,6 +763,34 @@ WORDS.king = {
     ter: "plain",
     to: "plain",
     xav: "plain",
+    aau: "kin",
+    aer: "other",
+    agr: "reg",
+    ake: "kin",
+    ch: "reg",
+    chk: "kin",
+    cuk: "reg",
+    emi: "kin",
+    enq: "kin",
+    gil: "kin",
+    har: "plain",
+    ho: "kin",
+    hot: "kin",
+    hui: "kin",
+    hwc: "kin",
+    meu: "plain",
+    mpj: "other",
+    mxv: "reg",
+    nag: "reg",
+    pcm: "kin",
+    pis: "kin",
+    pmy: "reg",
+    rtm: "plain",
+    tcs: "kin",
+    tet: "other",
+    toj: "reg",
+    wbp: "kin",
+    yap: "kin",
   },
   routes: {
     reg: {"color":"#7c3aed","emoji":"🏛️","en":"the old root of rēx and rājā (roi, rey, राजा, raja)","ja":"rēx・rājā の古い語根（roi, rey, राजा, raja）","ko":"rēx·rājā의 옛 어근 (roi, rey, राजा, raja)","zh":"rēx 与 rājā 的古老词根（roi、rey、राजा、raja）","yue":"rēx 同 rājā 嘅古老詞根（roi、rey、राजा、raja）","vi":"gốc cổ của rēx và rājā (roi, rey, राजा, raja)","th":"รากเก่าของ rēx และ rājā (roi, rey, राजा, raja)","id":"akar kuno rēx dan rājā (roi, rey, राजा, raja)","hi":"rēx और राजा का पुराना मूल (roi, rey, राजा, raja)","de":"die alte Wurzel von rēx und rājā (roi, rey, राजा, raja)","fr":"la vieille racine de rēx et rājā (roi, rey, राजा, raja)","it":"l’antica radice di rēx e rājā (roi, rey, राजा, raja)","es":"la vieja raíz de rēx y rājā (roi, rey, राजा, raja)","pt":"a velha raiz de rēx e rājā (roi, rey, राजा, raja)","ru":"древний корень rēx и rājā (roi, rey, राजा, raja)","uk":"давній корінь rēx і rājā (roi, rey, राजा, raja)","ar":"الجذر القديم لـ rēx وrājā (roi, rey, राजा, raja)","he":"השורש העתיק של rēx ו־rājā (roi, rey, राजा, raja)","sw":"mzizi wa kale wa rēx na rājā (roi, rey, राजा, raja)"},
@@ -1465,5 +1493,33 @@ WORDS.king = {
     ter: ["nâti", "ˈnaːti"],  // The word for a chief or ruler.
     to: ["tuʻi", "tuʔi"],  // No image is recorded for it, so it counts as a word of its own.
     xav: ["apito", "apiˈtɔ"],  // The word for a chief.
+    aau: ["king", "kiŋ"],  // From English king.
+    aer: ["akngerrepate", "akŋəɾəpatə"],  // Built on akngerre 'big': the boss.
+    agr: ["rey", "rei"],
+    ake: ["kin", "kin"],
+    ch: ["rai", "ɾai"],
+    chk: ["king", "kiŋ"],  // From English king.
+    cuk: ["rey", "rei"],
+    emi: ["kingi", "kiŋi"],
+    enq: ["kiŋi", "kiŋi"],
+    gil: ["king", "kiŋ"],  // Borrowed from English king.
+    har: ["nägāši", "nəɡaːʃi"],
+    ho: ["king", "kiŋ"],  // From English king.
+    hot: ["kiŋ", "kiŋ"],  // From English king.
+    hui: ["kini", "kini"],  // From English king.
+    hwc: ["king", "kɪŋ"],
+    meu: ["pavapava", "pavapava"],
+    mpj: ["maaja maju", "maːca macu"],
+    mxv: ["rey", "rej"],
+    nag: ["raja", "raja"],
+    pcm: ["king", "kiŋ"],
+    pis: ["king", "kiŋ"],  // From English king.
+    pmy: ["raja", "ˈradʒa"],
+    rtm: ["sau", "sau"],
+    tcs: ["king", "kiŋ"],
+    tet: ["liurai", "liurai"],  // Literally 'surpassing the earth' (liu + rai).
+    toj: ["rey", "rej"],
+    wbp: ["kingi", "kiŋi"],
+    yap: ["kiing", "kiːŋ"],
   },
 };

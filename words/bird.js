@@ -1223,5 +1223,7 @@ WORDS.bird = {
     jpr: ["פרנדה", "pærænde"],
     p_jpk: ["*təri", "təri"],
     pafa: ["*c̣ir", "tsʼir"],
+    bbl: ["ჰʼაწუკ", "ħatsʼukʼ"],
+    nha: ["marʼu", "maɻʔu"],
   },
 };

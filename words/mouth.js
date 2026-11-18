@@ -1259,5 +1259,6 @@ WORDS.mouth = {
     jpr: ["דהן", "dæhæn"],
     p_jpk: ["*kutui", "kutui"],
     bor: ["ogwa", "oɡwa"],
+    ktz: ["kxʼam", "kxʼam"],
   }
 };

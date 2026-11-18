@@ -367,6 +367,11 @@ WORDS.octopus = {
     tsi: "plain",
     quz: "many",
     tkl: "plain",
+    gil: "plain",
+    pau: "plain",
+    tiw: "plain",
+    woe: "plain",
+    yap: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -678,5 +683,10 @@ WORDS.octopus = {
     tsi: ["ha̱tsʼa̱l", "hʌtsʼʌl"],
     quz: ["pulpu", "ˈpulpu"],
     tkl: ["feke", "feke"],
+    gil: ["kika", "kika"],  // No image is recorded for it, so it counts as a word of its own.
+    pau: ["bukitang", "bukitaŋ"],
+    tiw: ["jukulurruka", "dʒukuluɾuka"],
+    woe: ["gius", "ɡʉs"],
+    yap: ["kʼaay", "kʼaːj"],
   },
 };

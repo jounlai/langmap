@@ -634,6 +634,18 @@ WORDS.sunday = {
     trn: "lord",
     tue: "rest",
     xav: "lord",
+    bi: "sun",
+    bzh: "sun",
+    mpj: "sun",
+    pcm: "sun",
+    pis: "sun",
+    piu: "sun",
+    pmy: "lord",
+    sus: "sun",
+    syl: "sun",
+    tcs: "sun",
+    toj: "lord",
+    woe: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1208,5 +1220,17 @@ WORDS.sunday = {
     trn: ["rominko", "ɾominko"],  // Borrowed from Spanish domingo.
     tue: ["yeerisãribʉreko", "jeːɾisãɾibɨɾeko"],  // Literally ‘rest day’.
     xav: ["dumidu", "dumiˈdu"],
+    bi: ["Sande", "sande"],  // From English Sunday.
+    bzh: ["Soda", "tʃoⁿda"],
+    mpj: ["Jaanti", "caːnti"],
+    pcm: ["Sunday", "sɔnde"],
+    pis: ["Sande", "sande"],  // From English Sunday.
+    piu: ["Tjuuntiyi", "cuːntiji"],
+    pmy: ["Minggu", "ˈmiŋɡu"],
+    sus: ["sande", "sande"],
+    syl: ["রবিবার", "robibar"],
+    tcs: ["Sandei", "sandei"],
+    toj: ["domingo", "domiŋɡo"],
+    woe: ["Santei", "santei"],  // From English Sunday.
   },
 };

@@ -1208,5 +1208,6 @@ WORDS.new = {
     ko_em: ["새", "sɛ"],
     qxq: ["yeŋi", "jeˈŋi"],
     p_jpk: ["*nipi-", "nipi-"],
+    ktz: ["zaqi", "zaˤi"],
   }
 };

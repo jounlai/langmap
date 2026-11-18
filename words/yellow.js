@@ -682,6 +682,12 @@ WORDS.yellow = {
     ptai: "plain",
     ptrk: "sari",
     pura: "plain",
+    dbq: "plain",
+    kam: "ghel",
+    kr: "plain",
+    luo: "other",
+    rw: "plain",
+    xed: "other",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1303,5 +1309,11 @@ WORDS.yellow = {
     ptai: ["*ʰlɯəŋ", "ʰlɯəŋ"],
     ptrk: ["*sārïg", "saːrɯɣ"],
     pura: ["*wiša", "wiʃa"],
+    dbq: ["mapùlòx", "mapùlòx"],
+    kam: ["yelo", "jɛlɔ"],  // From English yellow.
+    kr: ["kurnum", "kurnum"],
+    luo: ["ratongʼ gweno", "ratoŋ ɡweno"],  // Literally "egg-coloured" (tongʼ gweno "hen's egg").
+    rw: ["umuhondo", "umuhondo"],
+    xed: ["ghúv-à zwáŋ", "ɣúvà zwáŋ"],
   },
 };

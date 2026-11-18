@@ -529,6 +529,14 @@ WORDS.saturday = {
     maw: "sabbath",
     tem: "sabbath",
     nci: "count",
+    ach: "count",
+    kmb: "sabbath",
+    kr: "sabbath",
+    luo: "plain",
+    mas: "count",
+    rn: "count",
+    rw: "count",
+    sg: "plain",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1000,5 +1008,13 @@ WORDS.saturday = {
     maw: ["Asibri", "asibri"],  // From Arabic as-sabt 'the sabbath', like Hausa Asabar.
     tem: ["asimthi", "asimt̪i"],  // From Arabic as-sabt 'the sabbath'.
     nci: ["ic chicōmilhuitl in centetl semana", "iktʃikoːˈmiɬwitɬ in ˈsentetɬ ʃiˈmaːnaʔ"],
+    ach: ["ceng abicel", "tʃɛŋ abitʃɛl"],  // 'Day six'.
+    kmb: ["sabalu", "sabalu"],
+    kr: ["səbdə", "səbdə"],
+    luo: ["Chiengʼ Ngeso", "tʃiɛŋ ŋeso"],
+    mas: ["Jumamósi", "dʒumamosi"],
+    rn: ["ku wa gatandatu", "ku wa ɡataːndatu"],  // Day number six of the week, counted from Monday.
+    rw: ["kuwa gatandatu", "kuwa ɡatandatu"],  // "The sixth (day)".
+    sg: ["Lâpôso", "laposo"],
   },
 };

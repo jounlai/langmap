@@ -726,6 +726,32 @@ WORDS.wife = {
     pban: "woman",
     psem: "own",
     ptai: "own",
+    aa: "woman",
+    ach: "own",
+    bem: "own",
+    bum: "own",
+    cgg: "woman",
+    jmc: "woman",
+    kam: "own",
+    kde: "woman",
+    kg: "woman",
+    kmb: "woman",
+    kr: "woman",
+    lg: "woman",
+    lol: "own",
+    lua: "woman",
+    mas: "woman",
+    nyn: "woman",
+    nyo: "own",
+    rn: "woman",
+    saq: "own",
+    sg: "woman",
+    suk: "own",
+    tll: "own",
+    tum: "own",
+    xed: "woman",
+    xog: "own",
+    zdj: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1395,5 +1421,31 @@ WORDS.wife = {
     pban: ["*mʊ̀kádí", "mʊ̀kádí"],
     psem: ["*ʔanṯ-at-", "ʔanθat"],
     ptai: ["*miə", "miə"],
+    aa: ["barra", "barˈra"],  // Barra is also the word for 'woman'.
+    ach: ["ci", "tʃi"],
+    bem: ["umukashi", "umukaʃi"],
+    bum: ["ngal", "ŋɡal"],
+    cgg: ["omukazi", "omukazi"],
+    jmc: ["nka", "nka"],  // The same word as "woman" (TLS woman: nka).
+    kam: ["kĩveti", "keβɛti"],
+    kde: ["mmahe", "mːahe"],
+    kg: ["nkento", "nkento"],  // Also 'woman'.
+    kmb: ["muhatu", "muhatu"],  // Also 'woman'.
+    kr: ["kamu", "kamu"],  // The same word means woman: the WOLD Kanuri list gives kámú for both.
+    lg: ["omukazi", "omukazi"],
+    lol: ["waji", "wadʒi"],  // Not the word for woman, bómòtò.
+    lua: ["mukaji", "mukaʒi"],  // The same word means woman.
+    mas: ["enkitok", "eŋkitok"],  // Also 'woman'.
+    nyn: ["omukazi", "omukazi"],
+    nyo: ["omukyara", "omukjara"],
+    rn: ["umugore", "umuɡoɾe"],  // Umugore is also the word for 'woman'.
+    saq: ["mparatut", "mparatut"],  // The word for woman is nkitok (Payne & Ole-Kotikash).
+    sg: ["wâlï", "wali"],  // The same word means woman.
+    suk: ["nke", "nke"],
+    tll: ["wadi", "wadi"],
+    tum: ["muwoli", "muwoli"],  // The word for woman is mwanakazi.
+    xed: ["màràkw", "màràkʷ"],
+    xog: ["omukyala", "omukjala"],
+    zdj: ["mndru-mshe", "mndʳu mʃe"],  // Literally 'female person', also 'woman'.
   },
 };

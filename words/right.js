@@ -637,6 +637,27 @@ WORDS.right = {
     pmng: "compass",
     psem: "plain",
     ptrk: "good",
+    bum: "other",
+    ebu: "eat",
+    jmc: "good",
+    kam: "other",
+    kmb: "eat",
+    ksb: "other",
+    lg: "plain",
+    lue: "eat",
+    luo: "plain",
+    mas: "plain",
+    nym: "eat",
+    rn: "eat",
+    rw: "eat",
+    rwk: "good",
+    saq: "plain",
+    sbp: "eat",
+    sid: "plain",
+    suk: "eat",
+    tum: "eat",
+    wal: "plain",
+    xed: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1215,5 +1236,26 @@ WORDS.right = {
     pmng: ["*baraxun", "baraxun"],
     psem: ["*yamīn-", "jamiːn"],
     ptrk: ["*sag", "saɣ"],
+    bum: ["mbo nnôm", "mbo nnɔm"],  // Literally 'the husband's side'.
+    ebu: ["ũrĩo", "oɾeɔ"],  // Route by resemblance to the neighbouring forms (ki(ũrĩo)); no etymology of its own.
+    jmc: ["woko usha", "woko uʃa"],  // Literally "the good hand" (woko "hand" + -sha "good").
+    kam: ["kwʼoko kwa aũme", "kwɔkɔ kwa aomɛ"],  // Literally "the hand of men".
+    kmb: ["kadilu", "kadilu"],  // Built on -dia 'eat', like Swahili kulia.
+    ksb: ["kuume", "kuːme"],  // Literally "the male side", like Swahili kuume.
+    lg: ["ddyo", "dːjo"],
+    lue: ["chilyo", "tʃiljo"],  // Like Kikuyu ũrĩo and Swahili kulia.
+    luo: ["korachwich", "koratʃwitʃ"],
+    mas: ["tatɛnɛ", "tatɛnɛ"],
+    nym: ["kulila", "kʊlɪla"],
+    rn: ["iburyo", "ibuɾjo"],  // The right hand is ukuryo, on the stem of kurya 'to eat'.
+    rw: ["iburyo", "ibuɾjo"],  // Like Kikuyu ũrĩo and Swahili kulia.
+    rwk: ["ukoosha", "ukoːʃa"],  // Literally "the good hand" (uko "hand" + -sha "good").
+    saq: ["tetene", "tetene"],
+    sbp: ["kundio", "kundio"],  // Like Kikuyu ũrĩo and Swahili kulia.
+    sid: ["qiniiticho", "kʼiniːtitʃo"],
+    suk: ["kubulyo", "kubuljo"],  // Like Kikuyu ũrĩo and Swahili kulia.
+    tum: ["lamalyero", "lamaljeɾo"],  // Built on -lya 'eat', like Swahili kulia.
+    wal: ["ushachcha", "uʃatʃːa"],  // No image is recorded for it, so it counts as a word of its own.
+    xed: ["zéhwí", "zéhwí"],
   },
 };

@@ -575,6 +575,11 @@ WORDS.sunday = {
     nci: "lord",
     onw: "lord",
     tpn: "rest",
+    kde: "count",
+    luo: "count",
+    rw: "plain",
+    sg: "other",
+    xed: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1090,5 +1095,10 @@ WORDS.sunday = {
     nci: ["domingo", "toˈmiːŋkoʔ"],
     onw: ["ⲕⲩⲣⲓⲁⲕⲉ", "kiriake"],
     tpn: ["putuʼu", "putuˈʔu"],
+    kde: ["liduva lya Jumapili", "liduva lja dʒumapili"],
+    luo: ["Jumapil", "dʒumapil"],  // From Swahili Jumapili.
+    rw: ["ku cyumweru", "ku tʃumweɾu"],
+    sg: ["Lâyenga", "lajeŋɡa"],  // lâ "day" + yenga "week".
+    xed: ["dəmas", "dəmas"],
   },
 };

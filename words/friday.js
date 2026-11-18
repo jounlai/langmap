@@ -567,6 +567,13 @@ WORDS.friday = {
     maw: "assembly",
     tem: "assembly",
     nci: "count",
+    ach: "count",
+    kr: "assembly",
+    luo: "count",
+    mas: "assembly",
+    rn: "count",
+    sg: "count",
+    tum: "count",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -1073,5 +1080,12 @@ WORDS.friday = {
     maw: ["Azumma", "azumːa"],  // From Arabic jumʿa 'the gathering', like Mooré Arzũma.
     tem: ["ayuma", "ajuma"],  // From Arabic jumʿa 'the gathering'.
     nci: ["ic chicuacemilhuitl in cē semana", "iktʃikʷaseˈmiɬwitɬ in seː ʃiˈmaːnaʔ"],
+    ach: ["ceng abic", "tʃɛŋ abitʃ"],  // 'Day five'.
+    kr: ["jumma", "dʒumːa"],
+    luo: ["Tich Abich", "titʃ abitʃ"],  // "Work five".
+    mas: ["Jumáa", "dʒumaː"],
+    rn: ["ku wa gatanu", "ku wa ɡataːnu"],  // Day number five of the week, counted from Monday.
+    sg: ["Bïkua-okü", "bikua oku"],
+    tum: ["Cikhonde", "tʃikʰonde"],
   },
 };

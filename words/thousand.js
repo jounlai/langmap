@@ -668,6 +668,13 @@ WORDS.thousand = {
     p_jpn: "plain",
     p_sit: "plain",
     ptrk: "plain",
+    ach: "alf",
+    kde: "alf",
+    kr: "plain",
+    lg: "other",
+    mas: "plain",
+    rn: "plain",
+    xed: "plain",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मैनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -1277,5 +1284,12 @@ WORDS.thousand = {
     p_jpn: ["*ti", "ti"],
     p_sit: ["*s-tawŋ", "s-tawŋ"],
     ptrk: ["*bïŋ", "bɯŋ"],
+    ach: ["alip", "alip"],  // Route by resemblance to the neighbouring forms (sw(elfu) aa(alfi)); no etymology of its own.
+    kde: ["alufu", "alufu"],
+    kr: ["duwu", "duwu"],
+    lg: ["lukumi", "lukumi"],
+    mas: ["ɛnchata", "ɛntʃata"],
+    rn: ["igihumbi", "iɡihumbi"],
+    xed: ["dúmbuʼ", "dúmbuʔ"],
   },
 };

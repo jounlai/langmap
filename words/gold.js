@@ -715,6 +715,17 @@ WORDS.gold = {
     urh: "plain",
     chb: "plain",
     tpn: "yellow",
+    bem: "yellow",
+    kam: "dahab",
+    kde: "dahab",
+    kmb: "aurum",
+    kr: "other",
+    lun: "aurum",
+    luo: "dahab",
+    rn: "dahab",
+    rw: "dahab",
+    tum: "yellow",
+    wal: "plain",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -1369,5 +1380,16 @@ WORDS.gold = {
     urh: ["oro", "oɾo"],
     chb: ["nyia", "nɨia"],
     tpn: ["itaîuba", "itaˈjuβa"],
+    bem: ["golde", "ɡolde"],
+    kam: ["thaavu", "ðaːβu"],  // Like Swahili dhahabu, from Arabic ḏahab.
+    kde: ["zahabu", "zahabu"],
+    kmb: ["ulu", "ulu"],
+    kr: ["dinar", "dinar"],
+    lun: ["wuru", "wuru"],
+    luo: ["dhahabu", "ðahabu"],  // Through Swahili dhahabu, from Arabic ḏahab.
+    rn: ["inzahabu", "inzahabu"],
+    rw: ["zahabu", "zahabu"],  // Through Swahili dhahabu, from Arabic ḏahab.
+    tum: ["golide", "ɡolide"],
+    wal: ["worqqaa", "workʼːaː"],  // The same word as Amharic ወርቅ.
   },
 };

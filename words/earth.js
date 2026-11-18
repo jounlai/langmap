@@ -1230,5 +1230,6 @@ WORDS.earth = {
     jpr: ["כאך", "xɒːk"],
     qxq: ["yer", "jer"],
     p_jpk: ["*mita", "mita"],
+    zdj: ["ntsi", "ⁿtsi"],
   }
 };

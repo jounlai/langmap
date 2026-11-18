@@ -576,5 +576,6 @@ WORDS.cuckoo = {
     nmf: ["koktui", "koktui"],
     txb: ["𑀓𑁄𑀓𑀻𑀮𑁆", "kokiːl"],
     mnc: ["ᡴᡝᡴᡠᡥᡝ", "kəkuxə"],
+    saq: ["palteko", "palteko"],
   },
 };

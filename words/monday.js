@@ -1030,7 +1030,7 @@ WORDS.monday = {
     rif: ["ⵔⴻⵜⵏⴰⵢⴻⵏ", "rəθnajən"],  // From Moroccan Arabic letnayn, Arabic al-ithnayn "the two"; it also names the Monday market.
     mai: ["सोम दिन", "soːm din"],  // "Soma (moon) day", with Maithili din "day" in place of Sanskrit vāra.
     bgc: ["सोमवार", "soːmʋaːɾ"],  // From Sanskrit somavāra, "moon day".
-    sg: ["Bïkua-ûse", "bikua use"],  // "Bïkua two": Sango numbers the days from Sunday (Bikua-ôko "one").
+    sg: ["Bïkua-ôko", "bikua oko"],  // "Bïkua one": Sango numbers the working days from Monday; Bïkua-ûse "two" is Tuesday (French Wiktionary bïkwa-ôko "lundi", bïkwa-ûse "mardi"). Fixed in gap rally R12, 2026-11-18.
     luy: ["Jumatatu", "dʒumatatu"],  // Borrowed from Swahili Jumatatu: juma "week" + tatu "three".
     ki: ["Njumatatũ", "ɲdʒumatato"],  // From Swahili Jumatatu: juma "week" + tatu "three".
     rn: ["ku wa mbere", "ku wa mbeɾe"],  // "The first (day)": the week is counted from Monday, as in Kinyarwanda kuwa mbere.

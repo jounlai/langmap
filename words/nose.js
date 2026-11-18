@@ -1210,5 +1210,6 @@ WORDS.nose = {
     gha: ["tənzār", "tənˈzar"],  // Plural of tənzart; Lanfry notes the plural is what is used for 'nose'.
     spp: ["múnaani", "múnaːni"],
     p_jpk: ["*pana", "pana"],
+    rwk: ["mbua", "mbua"],
   },
 };

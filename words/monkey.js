@@ -626,6 +626,21 @@ WORDS.monkey = {
     emy: "plain",
     tpn: "plain",
     p_sit: "plain",
+    aa: "plain",
+    ebu: "plain",
+    jmc: "nkima",
+    ki: "nkima",
+    kr: "plain",
+    mas: "plain",
+    nyn: "plain",
+    nyo: "plain",
+    om: "plain",
+    rw: "plain",
+    rwk: "nkima",
+    tll: "nkima",
+    wal: "plain",
+    xed: "plain",
+    xog: "plain",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -1191,5 +1206,20 @@ WORDS.monkey = {
     emy: ["maax", "maːʃ"],
     tpn: ["kaʼi", "kaˈʔi"],
     p_sit: ["*m(y/r)uk", "m(j/r)uk"],
+    aa: ["wagaq", "waˈɡaʕ"],  // No image is recorded for it, so it counts as a word of its own.
+    ebu: ["nguyo", "ŋɡujɔ"],  // No image is recorded for it, so it counts as a word of its own.
+    jmc: ["ngimaa", "ŋɡimaː"],
+    ki: ["ngĩma", "ŋɡema"],
+    kr: ["dagəl", "daɡəl"],
+    mas: ["ɛnchɛrɛrɛt", "ɛntʃɛrɛrɛt"],
+    nyn: ["enkima", "eŋkima"],
+    nyo: ["enkende", "eŋkende"],
+    om: ["qamalee", "kʼamaleː"],
+    rw: ["inkende", "iŋkende"],
+    rwk: ["ngima", "ŋɡima"],
+    tll: ["nkema", "nkema"],  // From Proto-Bantu *nkɪ́mà 'monkey'.
+    wal: ["qaariya", "kʼaːrija"],  // No image is recorded for it, so it counts as a word of its own.
+    xed: ["vdzí", "vdzí"],
+    xog: ["enkembo", "eŋkembo"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

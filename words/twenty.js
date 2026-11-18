@@ -726,6 +726,13 @@ WORDS.twenty = {
     pmay: "person",
     pmng: "plain",
     ptrk: "plain",
+    kde: "loan",
+    ki: "tens",
+    lg: "tens",
+    ln: "tens",
+    luo: "tens",
+    mas: "plain",
+    rw: "fused",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1391,5 +1398,12 @@ WORDS.twenty = {
     pmay: ["*juun winaq", "juːn winaq"],  // Literally 'one person': all fingers and toes.
     pmng: ["*korin", "korin"],
     ptrk: ["*jẹgirmi", "jeɡirmi"],
+    kde: ["ishilini", "iʃilini"],
+    ki: ["mĩrongo ĩĩrĩ", "meɾɔŋɡɔ eːɾe"],
+    lg: ["amakumi abiri", "amakumi abiri"],
+    ln: ["tuku mibale", "tuku mibale"],
+    luo: ["piero ariyo", "piero arijo"],
+    mas: ["tikitam", "tikitam"],
+    rw: ["makumyabiri", "makumjabiɾi"],  // Two tens (makumyabiri), written as one word.
   },
 };

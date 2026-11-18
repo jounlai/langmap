@@ -1089,5 +1089,6 @@ WORDS.green = {
     p_jpk: ["*awo", "awo"],
     p_ryu: ["*ao", "ao"],
     pafa: ["*waraḳ-", "warakʼ"],
+    kmb: ["uisu", "wisu"],
   }
 };

@@ -211,7 +211,7 @@ WORDS.king = {
     fur: "reg",
     ast: "reg",
     an: "reg",
-    kpv: "plain",
+    kpv: "khan",
     udm: "other",
     mhr: "plain",
     mrj: "karl",
@@ -822,6 +822,7 @@ WORDS.king = {
     mos: "plain",
     sce: "other",
     wal: "plain",
+    bbl: "plain",
   },
   routes: {
     reg: {"color":"#7c3aed","emoji":"🏛️","en":"the old root of rēx and rājā (roi, rey, राजा, raja)","ja":"rēx・rājā の古い語根（roi, rey, राजा, raja）","ko":"rēx·rājā의 옛 어근 (roi, rey, राजा, raja)","zh":"rēx 与 rājā 的古老词根（roi、rey、राजा、raja）","yue":"rēx 同 rājā 嘅古老詞根（roi、rey、राजा、raja）","vi":"gốc cổ của rēx và rājā (roi, rey, राजा, raja)","th":"รากเก่าของ rēx และ rājā (roi, rey, राजा, raja)","id":"akar kuno rēx dan rājā (roi, rey, राजा, raja)","hi":"rēx और राजा का पुराना मूल (roi, rey, राजा, raja)","de":"die alte Wurzel von rēx und rājā (roi, rey, राजा, raja)","fr":"la vieille racine de rēx et rājā (roi, rey, राजा, raja)","it":"l’antica radice di rēx e rājā (roi, rey, राजा, raja)","es":"la vieja raíz de rēx y rājā (roi, rey, राजा, raja)","pt":"a velha raiz de rēx e rājā (roi, rey, राजा, raja)","ru":"древний корень rēx и rājā (roi, rey, राजा, raja)","uk":"давній корінь rēx і rājā (roi, rey, राजा, raja)","ar":"الجذر القديم لـ rēx وrājā (roi, rey, राजा, raja)","he":"השורש העתיק של rēx ו־rājā (roi, rey, राजा, raja)","sw":"mzizi wa kale wa rēx na rājā (roi, rey, राजा, raja)"},
@@ -972,7 +973,7 @@ WORDS.king = {
     fur: ["re", "rɛ"],
     ast: ["rei", "ˈrei"],
     an: ["rei", "ˈrei"],
-    kpv: ["кан", "kan"],
+    kpv: ["кан", "kan"],  // Route by resemblance to the neighbouring forms (Komi-Permyak кан, Mansi хо̄н, Kalmyk хан); the Turkic khan word.
     udm: ["эксэй", "eksej"],
     mhr: ["кугыжа", "kuɡəˈʒa"],
     mrj: ["король", "korolʲ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -1552,15 +1553,15 @@ WORDS.king = {
     toj: ["rey", "rej"],
     wbp: ["kingi", "kiŋi"],
     yap: ["kiing", "kiːŋ"],
-    acu: ["apu", "/apu/"],
+    acu: ["apu", "apu"],
     agu: ["rey", "rej"],  // From Spanish rey.
-    cak: ["rey", "/rej/"],
+    cak: ["rey", "rej"],
     chf: ["rey", "rej"],
-    cni: ["pinkatsari", "/piŋkatsaɾi/"],
-    gum: ["rey", "/rej/"],
-    kos: ["tokosra", "/tokoʂa/"],
+    cni: ["pinkatsari", "piŋkatsaɾi"],
+    gum: ["rey", "rej"],
+    kos: ["tokosra", "tokoʂa"],
     kxv: ["raja", "radʒa"],
-    maz: ["rey", "/rej/"],
+    maz: ["rey", "rej"],
     sms: ["koonǥõs", "ˈkoːnɣɘs"],
     ttj: ["omukama", "omukama"],
     bzd: ["bluʼ", "bluʔ"],
@@ -1583,5 +1584,6 @@ WORDS.king = {
     mos: ["naaba", "naːba"],
     sce: ["honshan", "xonˈʂɑn"],  // Borrowed from Chinese 皇上 huángshang 'emperor'.
     wal: ["kawuwa", "kawuwa"],
+    bbl: ["მეფ", "meːp"],  // From Georgian მეფე 'king'; also ხემწიპ, from Georgian ხელმწიფე 'sovereign'.
   },
 };

@@ -807,6 +807,8 @@ WORDS.twenty = {
     yrl: "other",
     agr: "loan",
     huz: "base",
+    gn: "tens",
+    niu: "tens",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1009,7 +1011,7 @@ WORDS.twenty = {
     rmy: ["biš", "biʃ"],
     jam: ["twɛntɩ", "twɛnti"],  // From English twenty. Route by resemblance to the neighbouring forms (en_jam(twenty) bi(twante) tpi(twenti)); no etymology of its own.
     fud: ["kaulua", "kaulua"],
-    rtm: ["ruaŋhulu", "ruaŋhulu"],
+    rtm: ["ruaghulu", "ruaŋhulu"],
     arn: ["epu mari", "epu maɾi"],
     crs: ["ven", "vɛ̃"],
     dsb: ["dwaźasća", "ˈdvaʑasʲtɕa"],
@@ -1540,7 +1542,7 @@ WORDS.twenty = {
     yap: ["ruliiwʼ", "ruliːwʼ"],
     bzj: ["tweni", "tweni"],
     ch: ["bente", "ˈbente"],
-    kos: ["longoul", "/loŋoul/"],
+    kos: ["longoul", "loŋoul"],
     nhe: ["sempoali", "sempoˈali"],
     nhw: ["sempoali", "sempoˈali"],
     wal: ["laatama", "laːtama"],
@@ -1553,5 +1555,7 @@ WORDS.twenty = {
     yrl: ["irundí-pú", "iɾũˌdiˈpu"],  // Literally 'four hands'
     agr: ["veinte", "beinte"],
     huz: ["хъоно", "qono"],
+    gn: ["mokõipa", "mokõiˈpa"],
+    niu: ["uafulu", "uafulu"],  // Two tens; the old counting word tekau is also recorded.
   },
 };

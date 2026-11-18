@@ -819,7 +819,7 @@ WORDS.friday = {
     gmh: ["vritac", "ˈvriːtak"],
     bsk: ["śúkuro", "ˈɕukorɔ"],
     srn: ["freida", "freida"],
-    tkl: ["Aho Falaile", "aho halaile"],
+    tkl: ["Aho Falaile", "aho falaile"],
     pam: ["Biernis", "ˈbjeɾnis"],
     pag: ["Biernes", "ˈbjeɾnes"],
     mdh: ["Jamat", "dʒaˈmat"],

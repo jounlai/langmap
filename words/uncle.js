@@ -525,6 +525,13 @@ WORDS.uncle = {
     quz: "split",
     tkl: "split",
     to: "split",
+    cag: "one",
+    emp: "one",
+    guc: "split",
+    moc: "one",
+    plg: "one",
+    tcs: "one",
+    tob: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -602,7 +609,7 @@ WORDS.uncle = {
     ka: ["ბიძა", "b̥idzä"],  // One word for both sides: Wiktionary adds დედის მხრიდან 'on the mother's side' or მამის მხრიდან 'on the father's side' when it matters, and ბიძაშვილი 'cousin' is the child of either uncle.
     kab: ["zizi", "zizi"],
     kea: ["tiu", "tiu"],
-    kgp: ["yɔŋ", "yɔŋ"],  // Father's brother; mother's brother is kakrã.
+    kgp: ["jóg", "jɔŋ"],  // Father's brother; mother's brother is kakrã.
     kha: ["kpa-nah", "kpa-nah"],  // Father's brother; mother's brother is ma-rit.
     khb: ["ᦟᦳᧂ", "luŋ˥˩"],
     ko: ["삼촌", "samtɕʰon"],  // Father's brother; mother's brother is 외삼촌.
@@ -992,5 +999,12 @@ WORDS.uncle = {
     quz: ["yaya", "ˈjaja"],
     tkl: ["tamana", "tamana"],  // The same word as father; the mother’s brother is tuātina.
     to: ["faʻētangata", "faʔeːtaŋata"],  // Mother's brother, 'male mother'; a father's brother is tamai, like a father.
+    cag: ["txoʔk", "txoʔk"],  // One word for the father's and the mother's brother.
+    emp: ["zrõã", "ˈzɾõã"],  // One word for the father's and the mother's brother.
+    guc: ["ashi", "aʃi"],  // The father's brother is called 'father'; the mother's brother is alaüla.
+    moc: ["neteesqoʔ", "neteesqoʔ"],  // One word for the father's and the mother's brother.
+    plg: ["netesoqoʔ", "netesoqoʔ"],  // One word for the father's and the mother's brother.
+    tcs: ["awa", "awa"],  // Used for both the father's and the mother's brother.
+    tob: ["ntesqoʔ", "ntesqoʔ"],  // One word for the father's and the mother's brother.
   },
 };

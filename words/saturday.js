@@ -971,7 +971,7 @@ WORDS.saturday = {
     li: ["Sammstech", "ˈzamstəç"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     shn: ["ၸၼေႇ", "tɕa˨˦neː˩"],  // From Burmese စနေ, ultimately from Sanskrit śani.
     tsg: ["Sabtuꞌ", "sabtuʔ"],
-    tkl: ["Aho Tōnai", "ahʲo toːnai"],  // A calque of Samoan Aso Toʻanaʻi, 'day of preparation'.
+    tkl: ["Aho Tōnai", "aho toːnai"],  // A calque of Samoan Aso Toʻanaʻi, 'day of preparation'.
     mak: ["Sattu", "ˈsattu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     lij_t: ["sàbbo", "ˈsabbu"],
     en_us: ["Saturday", "ˈsæɾɚdeɪ"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstɚdeɪ, butter ˈbʌɾɚ, Monday ˈmʌndeɪ).

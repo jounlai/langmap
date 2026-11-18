@@ -1066,11 +1066,11 @@ WORDS.earthquake = {
     tet: ["rai-nakdoko", "rainakdoko"],  // The land shakes: rai 'land' and nakdoko 'shake'.
     tiw: ["karrarluputi", "kaɾaɭuputi"],
     yap: ["durruʼ", "durːuʔ"],
-    ake: ["tïrïʼpïnï", "/tɨɾɨʔpɨnɨ/"],
+    ake: ["tïrïʼpïnï", "tɨɾɨʔpɨnɨ"],
     gun: ["yvy ryryi", "ɨˈvɨ ɾɨɾɨˈi"],  // Earth (yvy) and trembling (ryryi).
-    hot: ["duviaŋ", "/duviaŋ/"],
-    kos: ["kusrusr", "/kuʂuʂ/"],
-    ngu: ["tlalolinalistli", "/tɬalolinaˈlistɬi/"],
+    hot: ["duviaŋ", "duviaŋ"],
+    kos: ["kusrusr", "kuʂuʂ"],
+    ngu: ["tlalolinalistli", "tɬalolinaˈlistɬi"],
     quc: ["kabʼraqan", "kaɓɾaqan"],
     agt: ["lunig", "luniɡ"],
     bor: ["moto magadugodu", "moto maɡaduɡodu"],  // Earth (moto) and shaking.

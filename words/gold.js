@@ -1625,12 +1625,12 @@ WORDS.gold = {
     agu: ["oro", "oro"],  // From Spanish oro.
     chk: ["kolt", "kolt"],
     crn: ["oro", "oɽo"],  // From Spanish oro.
-    guc: ["ooro", "/oːro/"],
-    gum: ["oro", "/ˈoɾo/"],
+    guc: ["ooro", "oːro"],
+    gum: ["oro", "ˈoɾo"],
     gun: ["ouro", "ˈowɾu"],  // From Portuguese ouro.
-    gym: ["oro", "/oɾo/"],
-    hot: ["gol", "/ɡɔl/"],
-    xav: ["oru", "/ɔˈɾu/"],
+    gym: ["oro", "oɾo"],
+    hot: ["gol", "ɡɔl"],
+    xav: ["oru", "ɔˈɾu"],
     yao: ["sahabu", "sahabu"],
     ame: ["oro", "oɾo"],  // From Spanish oro.
     bzd: ["orochka", "oɾotʃka"],  // From Spanish oro.

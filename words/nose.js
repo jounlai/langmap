@@ -1174,7 +1174,7 @@ WORDS.nose = {
     cjy_xz: ["鼻子", "pʰiɛʔ˦˧ tsɿ˧˩˧"],
     hoc: ["muta", "muʈa"],
     olk: ["ulbmul", "ulbmul"],
-    mcf: ["dëbiate", "dɨbjatɪ"],
+    mcf: ["dëbiate", "dɨbjate"],
     adi: ["nyobung", "ɲobuŋ"],
     xpr: ["nāwič", "naːwitʃ"],
     nmn: ["ǀnùhɲa", "ǀnṳɲa"],

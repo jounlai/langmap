@@ -1115,7 +1115,7 @@ WORDS.husband = {
     dsb: ["cłowjek", "ˈtswɔvʲɛk"],
     kw: ["gour", "ɡuːr"],  // The word for man is den (Wiktionary); gour has 'man' only as a second sense.
     mch: ["inño", "inɲo"],  // The word for man is yanwaa (Wiktionary).
-    tob: ["l-wa", "lwa"],  // The same word means wife: the IDS Toba list gives l-wa for both, as does the Chaco languages list (lhua).
+    tob: ["lwa", "lwa"],  // The same word means wife: the IDS Toba list gives l-wa for both, as does the Chaco languages list (lhua).
     plg: ["l-owa", "lowa"],  // The same word means wife: the IDS Pilagá list gives l-owa for both, as does KinBank.
     moc: ["l-owa", "lowa"],  // The same word means wife: the IDS Mocoví list gives l-owa for both, as does the Chaco languages list (loua).
     crt: ["-kilwaʔ ~ -c̷ilwaʔ ~ -ilwaʔ", "kilwaʔ"],  // The IDS Chorote list gives ayinye for man and -kilfʷaʔ for wife.

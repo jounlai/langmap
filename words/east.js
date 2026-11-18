@@ -733,6 +733,8 @@ WORDS.east = {
     koi: "dawn",
     sms: "other",
     th_n: "rising",
+    to: "plain",
+    uby: "rising",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1382,7 +1384,7 @@ WORDS.east = {
     enq: ["niki pyakaengesa", "niki pjakaeŋɡesa"],  // Literally 'where the sun (niki) comes up'.
     gun: ["kuaray oua katy", "kʷaɾaˈɨ oˈua kaˈtɨ"],  // The side the sun (kuaray) comes from.
     kgp: ["rã jur ja", "ɾã juɾ ja"],  // Literally 'where the sun (rã) comes out'.
-    kos: ["kutulap", "/kutulap/"],
+    kos: ["kutulap", "kutulap"],
     nch: ["campa quisa tonati", "ˈkampa ˈkisa toˈnati"],
     cho: ["hashi akochaka", "haʃi akotʃaka"],  // Where the sun comes out.
     cuk: ["dad nakwedsik", "tad nakwedsik"],  // Where the sun (dad) comes up.
@@ -1404,5 +1406,7 @@ WORDS.east = {
     koi: ["асыв", "asɨv"],
     sms: ["nuõrti", "ˈnuərti"],
     th_n: ["วันออก", "wan˧ʔɔːk˨˩"],
+    to: ["hahake", "hahake"],  // Same word as Wallisian hahake.
+    uby: ["andʁa maːblatʼʷən", "andʁa maːblatʼʷən"],  // Literally 'where the sun comes out'.
   },
 };

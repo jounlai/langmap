@@ -1737,7 +1737,7 @@ WORDS.sugar = {
     cng: ["buː", "buː"],  // Sun 1991 (Mawo Qiang) buː. Surface and tone letters follow the row's pattern.
     twm: ["pu13rᴀm55", "pu˩˧rᴀm˥˥"],  // Sun 1991 (Mama Tshona) pu¹³rᴀm⁵⁵, the row's list. Tone letters from the row's pairs.
     nij: ["gula", "ɡula"],  // Hardeland: "GULA, Zucker"; both scans
-    tue: ["kãʼdʉ̃-weta", "kãʔdɨ̃weta"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
+    tue: ["kãdʉ̃weta", "kãˈdɨ̃weta"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     nci: ["Caxtīllān chiyancaca", "kaʃˌtiːlːaːn tʃijaŋˈkaka"],  // 'Castilian chiyancaca': chiyancaca, based on chiyan 'chia seed', is a dark marzipan-like sweet paste of the land.
     el_koi: ["σάκχαρ", "ˈsakkʰar"],
     vi_mid: ["đàng cát", "ɗaːŋ˨˩ kaːt˧˥"],

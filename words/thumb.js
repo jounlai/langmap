@@ -1322,7 +1322,7 @@ WORDS.thumb = {
     inh: ["боккха пӏелг", "bokːχa pʼelɡ"],  // IDS Ingush, the row's list. Palochka and IPA from the row's pairs.
     nci: ["huei mapilli", "wei mapilːi"],  // Siméon under MAPILLI: "uei mapilli, pouce, litt. gros doigt"; also MAPILTECUTLI; uei > huei as in the row; no length marks
     kum: ["башбармакъ", "baʃbarˈmaq"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
-    tue: ["pai-ʼri-ga", "paiʔriɡa"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
+    tue: ["pairiga", "paiˈɾiɡa"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     ksw: ["စုမုၢ်ဒိၣ်", "sumɨdo"],  // S'gaw Karen 'thumb; inch' (SEAlang), which also lists စုမုၢ်ကျၢၢ်. Begins with စု 'hand'. No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     txb: ["𑀫𑁄𑀓𑁄𑀘𑁂", "mokotɕe"],  // Tocharian B mokoce 'thumb'. No image is recorded for it, so it counts as a word of its own.
     smj: ["bielgge", "ˈpiɛlkːɛ"],  // From Proto-Sami *pealkē, the same word as Northern Sámi bealgi.

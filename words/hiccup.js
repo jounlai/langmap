@@ -745,7 +745,7 @@ WORDS.hiccup = {
     zh_wenyan_edu: ["噦", "jyːt˨"],  // Wiktionary Jyutping jyut6 / jyut3, first listed taken. Route as zh_tang.
     ho: ["gado boiboi", "ɡado boiboi"],  // "hiccough, to: gado boiboi, baturo (Cent.), gado rege"
     meu: ["baturo", "batuɾo"],  // Lawes "Baturo, hiccough"
-    rap: ["korereki", "koreɾeki"],  // Churchill "hiccough korereki"
+    rap: ["korereki", "koɾeɾeki"],  // Churchill "hiccough korereki"
     khb: ["ᦵᦁᦲᧉ", "ʔɤː˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔə:.4.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
     gil: ["marei", "marei"],  // Bingham "Marei, v.i. to hiccough"
     bzh: ["ġaboseḳ", "ᶰɢaᵐbotʃəq"],  // "gabosek noun hiccup"; IPA from its bracket; row letters
@@ -767,7 +767,7 @@ WORDS.hiccup = {
     kum: ["гьынкъ этмек", "hɨnq etmek"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
     nog: ["сыкылдав", "sɨqɨlˈdaw"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
     gmh: ["roffezen", "ˈrɔfətsən"],  // IDS Middle High German, the list this row matches. IPA from the row's pairs.
-    tue: ["yoo-ʼgʉ", "joʔɡɨ"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
+    tue: ["yoogʉ", "joːˈɡɨ"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     tpy: ["ʃukuk", "ʃukuk"],  // IDS Trumai, the list this row matches. IPA from the row's pairs.
     ksw: ["သါတကုး", "θataku"],  // S'gaw Karen 'to hiccup' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     rup: ["sugljits", "suˈɡʎits"],  // From Vulgar Latin, ultimately Latin singultus; it also means a sob.

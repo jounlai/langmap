@@ -654,7 +654,7 @@ WORDS.cotton = {
     tl: ["bulak", "ˈbulak"],
     tly: ["pambə", "pambə"],  // From Persian pambak (panbe).
     to: ["filo", "filo"],
-    tob: ["waloḳ", "waloḳ"],
+    tob: ["waloq", "waloq"],
     tpy: ["amundiu", "amundiu"],
     tr: ["pamuk", "paˈmuk"],  // From Persian pambak (panbe).
     tsg: ["gapas", "ɡaˈpas"],  // From Sanskrit karpāsa.

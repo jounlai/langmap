@@ -953,7 +953,7 @@ WORDS.right = {
     lez: ["эрчӏи", "ertʃʼi"],
     zh: ["右", "joʊ̯˥˩"],
     ha: ["dama", "dama"],
-    rtm: ["ʔatmai", "ʔatmai"],
+    rtm: ["ʻatmại", "ʔatmɔi"],
     to: ["tafaʔaki mataʔu", "tafaʔaki mataʔu"],
     ay: ["kupi", "ˈkupi"],
     arn: ["man", "man"],

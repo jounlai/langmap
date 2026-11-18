@@ -1014,7 +1014,7 @@ WORDS.wife = {
     he: ["אישה", "iˈʃa"],
     zh: ["妻子", "tɕʰi˥ tsɨ"],
     ha: ["mata", "mata"],
-    rap: ["vîʻe", "viʔe"],
+    rap: ["viʻe", "viʔe"],
     to: ["mali", "mali"],
     ay: ["warmi", "ˈwaɾmi"],
     arn: ["kure", "kuɾe"],
@@ -1729,7 +1729,7 @@ WORDS.wife = {
     woe: ["fitiya", "fitija"],  // The same word means husband.
     yap: ["leʼngiin", "leʔŋiːn"],
     yle: ["kpâm", "k͡pɑm"],
-    ngu: ["sihuatl", "/ˈsiwatɬ/"],
+    ngu: ["sihuatl", "ˈsiwatɬ"],
     mcf: ["chido", "tʃido"],
     nrf: ["femme", "fam"],  // The same word means woman.
     ar_eg: ["مراة", "meˈɾaːt"],

@@ -898,7 +898,7 @@ WORDS.mirror = {
     ps: ["هنداره", "henˈdaːra"],
     pt: ["espelho", "isˈpeʎu"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     qu: ["rirpu", "ˈɾiɾpu"],
-    rap: ["hiʔo uʔi ʔariŋa", "hiʔo uʔi ʔariŋa"],
+    rap: ["hiʻo uʻi ʻaringa", "hiʔo uʔi ʔaɾiŋa"],
     rhg: ["aina", "aina"],  // From Persian āyina.
     rm: ["spievel", "ˈʃpiəvəl"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     ro: ["oglindă", "oˈɡlində"],  // From oglindi, from Old Church Slavonic oględati "to glance".
@@ -1403,7 +1403,7 @@ WORDS.mirror = {
     yap: ["theerek", "θeːrek"],
     ar_gulf: ["منظرة", "mənˈðˤərə"],
     ar_ma: ["مراية", "ˈmraːja"],
-    bzh: ["dubdub", "/ⁿduᵐbⁿduᵐb/"],
+    bzh: ["dubdub", "ⁿduᵐbⁿduᵐb"],
     chk: ["kinas", "kinas"],
     cuk: ["ispe", "ispe"],  // From Spanish espejo.
     djk: ["sipikii", "sipikiː"],

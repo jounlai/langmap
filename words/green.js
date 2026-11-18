@@ -322,7 +322,7 @@ WORDS.green = {
     koi: ["веж", "veʒ"],
     kok: ["पाचवो", "paːtʃʋo"],
     kpf: ["gwolâ gwolâ", "ɡwolɐ ɡwolɐ"],
-    kpj: ["tyre", "tɨ̃re"],
+    kpj: ["tɨ̃re", "tɨ̃re"],
     kpv: ["веж", "veʒ"],
     krc: ["джашил", "dʒaˈʃil"],
     kri: ["grin", "ɡrin"],

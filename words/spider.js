@@ -1073,7 +1073,7 @@ WORDS.spider = {
     ket: ["элым", "ɛ˩˧lɯm˧˩"],
     yo: ["alantakun", "aláŋ̀takũ̀"],  // Literally 'one who weaves with string'.
     yur: ["ʼwes", "ˀweʂ"],
-    cag: ["sivôclôc", "siwɒklɒk"],
+    cag: ["siwɔklɔk", "siwɔklɔk"],
     ltg: ["ziernyuklis", "ˈzʲiɛ̯rnɨu̯kʲlʲis"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     es_cr: ["araña", "aˈɾaɲa"],
     es_hn: ["araña", "aˈɾaɲa"],

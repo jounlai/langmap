@@ -1699,7 +1699,7 @@ WORDS.blue = {
     ko_yb: ["파랗다", "pʰaɾatʰa"],  // Yanbian Korean, same 파랗다 / 파란, with the same residual coverage of green (파란 신호등, 푸른 잔디) as the standard.
     koi: ["лӧз", "lɘz"],  // Komi-Permyak лӧз vs веж.
     kos: ["folfol", "folfol"],  // folfol is the single basic term in this region of the space: unmodified it is 'blue', and green is the derived folfol sra ('leaf folfol'), light blue folfol sra muhlahlah, ocean blue folfol nwem. Kosraean has no independent green lexeme. Classed grue on that ground; a reviewer preferring the narrow reading would call it distinct.
-    kpj: ["tyre", "tɨ̃re"],  // Strictly the WALS category is the wider yellow-or-green-or-blue composite, not plain grue; recorded as grue because one term covers blue and green. Karajá has male/female speech variants (tɨ̃re ~ lɨ̃re). WCS orthography tyre matches this row's iso/ura.
+    kpj: ["tɨ̃re", "tɨ̃re"],  // Strictly the WALS category is the wider yellow-or-green-or-blue composite, not plain grue; recorded as grue because one term covers blue and green. Karajá has male/female speech variants (tɨ̃re ~ lɨ̃re). WCS writes it tyre; this row writes ɨ.
     kpv: ["лӧз", "lɘz"],  // Komi-Zyrian лӧз vs веж.
     kr: ["liwulla", "liwulla"],  // Donor is Arabic. WOLD's comment on the word form is 'colour of needle = blue / metal' and on the borrowing 'blue ~ silver ~ needle (al-'ibra needle, as-surf silver)'. Green is a separate inherited word kə̀lî — already recorded by Koelle (1854) Grammar of the Bornu or Kanuri Language as kali — so this is a loan beside a native green, not a loan replacing a grue term. Tone stripped to match the row's kime/bul; WOLD's tone-marked form is lìwùllá.
     krl: ["sinini", "ˈsinini"],  // North Karelian sinini vs vihanta.

@@ -707,6 +707,7 @@ WORDS.tear = {
     agr: "plain",
     sms: "plain",
     th_n: "eyewater",
+    djr: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -804,7 +805,7 @@ WORDS.tear = {
     ka: ["ცრემლი", "tsʰɾe̞mli"],
     kbd: ["нэпс", "naps"],  // Built from the words for eye and water or liquid. Compare нэ 'eye', псы 'water'.
     ket: ["десьтуляӈ", "ɟɛɕtʊʎaŋ"],
-    kgp: ["kanɛ̃ war", "kanɛ̃ war"],  // Built on the word for eye.
+    kgp: ["kanẽ var", "kanɛ̃ waɾ"],  // Built on the word for eye.
     khv: ["мукъу", "ˈmuqʼu"],
     kk: ["жас", "ʒɑs"],
     kl: ["qulleq", "qulliq"],
@@ -871,7 +872,7 @@ WORDS.tear = {
     pwn: ["ruseq", "ɾusəq"],
     pzh: ["rese", "ɾəsə"],
     qu: ["wiqi", "ˈwiqi"],
-    rap: ["mata-vai", "mata-vai"],  // Built from the words for eye and water or liquid. Compare mata 'eye', vai 'water'.
+    rap: ["mata-vai", "matavai"],  // Built from the words for eye and water or liquid. Compare mata 'eye', vai 'water'.
     rm: ["larma", "ˈlaːɾmə"],
     rn: ["amarira", "amaɾiɾa"],
     ro: ["lacrimă", "ˈlakrimə"],
@@ -1340,10 +1341,10 @@ WORDS.tear = {
     yap: ["luuʼ", "luːʔ"],
     acf: ["dlo zyé", "dlo zje"],
     ar_ma: ["دمعة", "ˈdamʕa"],
-    hot: ["mathôk", "/matʰok/"],
+    hot: ["mathôk", "matʰok"],
     hui: ["de iba", "de iba"],
     nch: ["ixayo", "iˈʃajo"],
-    ngu: ["ixayotl", "/iʃaˈjotɬ/"],
+    ngu: ["ixayotl", "iʃaˈjotɬ"],
     nhe: ["ixayotl", "iˈʃajotɬ"],
     nhw: ["ixayo", "iˈʃajo"],
     chf: ["kʼäbjut", "kʼɨbhut"],  // Contains jut 'eye'.
@@ -1358,5 +1359,6 @@ WORDS.tear = {
     agr: ["negá", "nɨɡá"],
     sms: ["kõõnjâl", "ˈkəːɲɐl"],
     th_n: ["น้ำต๋า", "nam˦˥taː˩˧"],
+    djr: ["miṉŋal", "miɳŋal"],  // Also ganuru.
   },
 };

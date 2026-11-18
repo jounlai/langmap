@@ -1235,7 +1235,7 @@ WORDS.camel = {
     tcs: ["kamal", "kamal"],
     tet: ["kuda kamelu", "kuda kamelu"],  // Horse and camel: kamelu from Portuguese camelo, with kuda 'horse'.
     tpi: ["kamel", "kamel"],
-    ake: ["kiyamerï", "/kijameɾɨ/"],
+    ake: ["kiyamerï", "kijameɾɨ"],
     ar_eg: ["جمل", "ˈɡamal"],
     car: ["kameri", "kameɾi"],
     ch: ["kameyu", "kaˈmedzu"],
@@ -1249,7 +1249,7 @@ WORDS.camel = {
     hwc: ["camel", "kæməl"],
     ixl: ["camello", "kamejo"],
     kpj: ["kamelo", "kamelo"],
-    mni: ["ꯎꯠ", "/ut/"],
+    mni: ["ꯎꯠ", "ut"],
     nch: ["camello", "kaˈmejo"],
     nhx: ["camello", "kamejo"],
     pdc: ["Kameel", "kaˈmeːl"],

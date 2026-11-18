@@ -816,7 +816,7 @@ WORDS.orange = {
     hsn_yz: ["橙", "zə̃˩˩˨"],
     cjy_xz: ["橙", "tʂʰəŋ˧˩"],
     brx: ["सनथ्रा", "sontʰra"],
-    ay: ["naranja", ""],
+    ay: ["naranja", "naˈɾanxa"],
     tcy: ["ಕಿತ್ತಳೆ", "kittaɭe"],
     awa: ["संतरा", ""],
     sgs: ["apelsėns", ""],

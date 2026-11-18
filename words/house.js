@@ -526,7 +526,7 @@ WORDS.house = {
     kxv: ['illu', 'illu'],
     lhm: ['ཁྱིམ་', 'kʰim˥'],
     lij_t: ['cà', 'ka'],
-    mcf: ["shubu", "ʂobo"],
+    mcf: ["shubu", "ʃubu"],
     mkz: ['oma', 'ˈoma'],
     mpj: ['ngurra', 'ŋura'],
     oar: ['בית', 'beːt'],

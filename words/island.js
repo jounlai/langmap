@@ -1366,13 +1366,13 @@ WORDS.island = {
     pmy: ["pulou", "ˈpulou"],
     syl: ["দ্বীপ", "dif"],
     yap: ["doonguch", "doːŋutʃ"],
-    ake: ["opaʼwï", "/opaʔwɨ/"],
+    ake: ["opaʼwï", "opaʔwɨ"],
     ch: ["isla", "ˈisla"],
     crk: ["ᒥᓂᐢᑎᐠ", "ministik"],
     cuk: ["dupu", "tupu"],
     gun: ["ypaʼũ", "ɨpaˈʔũ"],  // Water (y) and middle (paʼũ).
-    hot: ["ŋgavithôm", "/ŋɡavitʰom/"],
-    kos: ["tuka", "/tuka/"],
+    hot: ["ŋgavithôm", "ŋɡavitʰom"],
+    kos: ["tuka", "tuka"],
     emi: ["patunganua", "patuŋanua"],
     toc: ["isla", "isla"],  // From Spanish isla.
     ar_tn: ["جزيرة", "ʒaˈziːɾa"],

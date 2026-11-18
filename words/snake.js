@@ -1287,7 +1287,7 @@ WORDS.snake = {
     rn: ["ingoka", "inɡoka"],
     ro: ["șarpe", "ˈʃarpe"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     rom: ["sap", "sap"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
-    rtm: ["ʔalete", "ʔalete"],
+    rtm: ["ʻalete", "ʔalete"],
     ru: ["змея", "zmʲɪˈja"],  // From Proto-Slavic *zmьja, derived from the Indo-European word for earth.
     rue: ["гад", "hat"],
     rw: ["inzoka", "inzoka"],
@@ -1916,13 +1916,13 @@ WORDS.snake = {
     xul: ["jigegong", "ciɡeɡoŋ"],
     yap: ["parchooyog", "partʃoːjoɡ"],
     aa: ["warru", "warːu"],
-    ake: ["ɨkïi", "/ɨkɨi/"],
+    ake: ["ɨkïi", "ɨkɨi"],
     ar_eg: ["تعبان", "tiʕˈbaːn"],
     ar_ma: ["حنش", "ħanʃ"],
     bzj: ["snayk", "sneːk"],
     crk: ["ᑭᓀᐱᐠ", "kineːpik"],
     gym: ["tbi", "tbi"],
-    hot: ["umya", "/umja/"],
+    hot: ["umya", "umja"],
     ixl: ["txʼiʼlatxoo", "ʈʂʼiʔlaʈʂoː"],
     th_n: ["งู", "ŋuː˧"],
     ttj: ["enjoka", "endʒoka"],

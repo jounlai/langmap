@@ -646,6 +646,17 @@ WORDS.sunday = {
     tcs: "sun",
     toj: "lord",
     woe: "sun",
+    ar_gulf: "count",
+    ar_ma: "count",
+    enq: "sun",
+    nch: "lord",
+    djr: "sun",
+    mam: "lord",
+    mcf: "lord",
+    mxv: "lord",
+    rup: "lord",
+    shp: "lord",
+    toc: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1232,5 +1243,16 @@ WORDS.sunday = {
     tcs: ["Sandei", "sandei"],
     toj: ["domingo", "domiŋɡo"],
     woe: ["Santei", "santei"],  // From English Sunday.
+    ar_gulf: ["الاحد", "ɪlˈəħəd"],
+    ar_ma: ["الحد", "ɪlˈħadd"],
+    enq: ["Sande", "sande"],  // Borrowed through Tok Pisin Sande.
+    nch: ["domingo", "doˈmiŋɡo"],
+    djr: ["djandi", "ɟandi"],  // From English Sunday.
+    mam: ["domingo", "domiŋɡo"],  // From Spanish domingo.
+    mcf: ["dominco", "dominko"],  // From Spanish domingo.
+    mxv: ["domingo", "domiŋɡo"],  // From Spanish domingo.
+    rup: ["Dumãnicã", "duˈmənikə"],  // From Latin (diēs) dominica 'the Lord's day'.
+    shp: ["domingo", "domiŋɡo"],  // From Spanish domingo.
+    toc: ["domingo", "domiŋɡo"],  // From Spanish domingo.
   },
 };

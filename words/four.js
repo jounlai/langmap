@@ -1260,5 +1260,6 @@ WORDS.four = {
     mzh: ["kwatlu", "kʷatlu"],
     har: ["ḥarat", "ħɑrɑt"],
     wrh: ["bula-bula", "ˈbulabula"],
+    yle: ["páádi", "paːʈi"],
   },
 };

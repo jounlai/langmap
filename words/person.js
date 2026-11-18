@@ -1182,5 +1182,6 @@ WORDS.person = {
     kho: ["𑀳𑁆𑀯𑁂", "hwe"],
     jpr: ["אנסאן", "ensɒːn"],
     p_jpk: ["*pitə", "pitə"],
+    kxv: ["maṇsi", "maɳsi"],
   }
 };

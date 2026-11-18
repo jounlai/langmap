@@ -670,6 +670,23 @@ WORDS.week = {
     wbl: "seven",
     woe: "turn",
     yap: "turn",
+    ake: "sunday",
+    ar_ma: "seven",
+    ar_tn: "friday",
+    cni: "sunday",
+    guc: "seven",
+    gun: "seven",
+    hot: "sunday",
+    kos: "turn",
+    kpj: "seven",
+    mni: "plain",
+    nch: "seven",
+    ngu: "seven",
+    nhx: "seven",
+    ter: "seven",
+    ame: "seven",
+    jiv: "seven",
+    shp: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1281,5 +1298,22 @@ WORDS.week = {
     wbl: ["ҳафта", "hafta"],
     woe: ["wiik", "wiːk"],  // From English week.
     yap: ["wiik", "wiːk"],
+    ake: ["suntaaka", "/suntaːka/"],
+    ar_ma: ["سيمانة", "siːˈmaːna"],
+    ar_tn: ["جمعة", "ˈʒəmʕa"],
+    cni: ["tominko", "/tominko/"],
+    guc: ["semaana", "/semaːna/"],
+    gun: ["semana", "seˈmɐnɐ"],  // From Portuguese semana.
+    hot: ["sonda", "/sɔnda/"],
+    kos: ["wik", "/wik/"],
+    kpj: ["semana", "semana"],
+    mni: ["ꯆꯌꯣꯜ", "/tʃəjol/"],
+    nch: ["samano", "saˈmano"],
+    ngu: ["semana", "/seˈmana/"],
+    nhx: ["semana", "semana"],
+    ter: ["sêmana", "ˈseːmana"],
+    ame: ["semana", "semana"],  // From Spanish semana.
+    jiv: ["semana", "semana"],  // From Spanish semana.
+    shp: ["semana", "semana"],  // From Spanish semana.
   },
 };

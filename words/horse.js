@@ -1175,5 +1175,6 @@ WORDS.horse = {
     p_jpk: ["*uma", "uma"],
     dta: ["moŕ", "morʲ"],
     har: ["färäz", "fərəz"],
+    kxv: ["goṛa", "ɡoɽa"],
   }
 };

@@ -599,6 +599,9 @@ WORDS.saturday = {
     wbp: "saturn",
     woe: "sabbath",
     yap: "sabbath",
+    nch: "sabbath",
+    djr: "saturn",
+    mxv: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1140,5 +1143,8 @@ WORDS.saturday = {
     wbp: ["Jarrirtiyi", "ɟaritiji"],
     woe: ["Sebaato", "sebaːto"],  // From Spanish sábado.
     yap: ["Saabaadoo", "saːbaːdoː"],
+    nch: ["sábado", "ˈsabado"],
+    djr: ["djatati", "ɟatati"],  // From English Saturday.
+    mxv: ["sábado", "ˈsabado"],  // From Spanish sábado.
   },
 };

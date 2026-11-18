@@ -863,6 +863,15 @@ WORDS.language = {
     wbp: "speech",
     woe: "speech",
     yap: "speech",
+    acu: "speech",
+    mdf: "tongue",
+    sms: "tongue",
+    th_n: "speech",
+    bzd: "speech",
+    huv: "mouth",
+    mxv: "speech",
+    shp: "speech",
+    tue: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1664,5 +1673,14 @@ WORDS.language = {
     wbp: ["jaru", "ɟaru"],
     woe: ["kepat", "kepat"],  // The same word means word and speech.
     yap: ["thiin", "θiːn"],
+    acu: ["chicham", "tʃitʃam"],
+    mdf: ["кяль", "kʲælʲ"],
+    sms: ["ǩiõll", "ˈcçiɘlː"],
+    th_n: ["ภาษา", "pʰaː˧saː˩˧"],
+    bzd: ["ttö̀", "ttʊ"],  // Also 'word, speech'.
+    huv: ["ombeay", "ombeaj"],  // The same word as mouth.
+    mxv: ["tuʼun", "tuʔun"],  // The word for word and speech.
+    shp: ["joi", "hoi"],  // The word for word and speech.
+    tue: ["wedesere", "wedeseɾe"],  // From wedese- 'to speak'.
   },
 };

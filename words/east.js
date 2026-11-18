@@ -706,6 +706,18 @@ WORDS.east = {
     wmt: "plain",
     woe: "plain",
     yap: "plain",
+    apw: "rising",
+    ar_ma: "rising",
+    enq: "rising",
+    gun: "rising",
+    kgp: "rising",
+    kos: "plain",
+    nch: "rising",
+    cho: "rising",
+    cuk: "rising",
+    hui: "rising",
+    mam: "plain",
+    mxv: "rising",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1350,5 +1362,17 @@ WORDS.east = {
     wmt: ["kakarra", "ˈkakara"],
     woe: ["gootuw", "ɡoːtuw"],
     yap: ["ngeak", "ŋæːk"],
+    apw: ["yaʼáí hanadáh", "jaʔáí hanadáh"],  // Literally 'where the sun (yaʼáí) comes up'.
+    ar_ma: ["شرق", "ʃarq"],
+    enq: ["niki pyakaengesa", "niki pjakaeŋɡesa"],  // Literally 'where the sun (niki) comes up'.
+    gun: ["kuaray oua katy", "kʷaɾaˈɨ oˈua kaˈtɨ"],  // The side the sun (kuaray) comes from.
+    kgp: ["rã jur ja", "ɾã juɾ ja"],  // Literally 'where the sun (rã) comes out'.
+    kos: ["kutulap", "/kutulap/"],
+    nch: ["campa quisa tonati", "ˈkampa ˈkisa toˈnati"],
+    cho: ["hashi akochaka", "haʃi akotʃaka"],  // Where the sun comes out.
+    cuk: ["dad nakwedsik", "tad nakwedsik"],  // Where the sun (dad) comes up.
+    hui: ["ni tagira", "ni taɡira"],  // Where the sun (ni) comes up.
+    mam: ["okne", "okne"],
+    mxv: ["nuu kanata ñuʼù", "nuu kanata ɲuʔù"],  // Where the sun (ñuʼù) comes out.
   },
 };

@@ -631,6 +631,34 @@ WORDS.camel = {
     tcs: "gamal",
     tet: "gamal",
     tpi: "gamal",
+    ake: "gamal",
+    ar_eg: "gamal",
+    car: "gamal",
+    ch: "gamal",
+    chf: "gamal",
+    crn: "gamal",
+    ctu: "gamal",
+    fy: "gamal",
+    gum: "gamal",
+    gun: "gamal",
+    gym: "gamal",
+    hwc: "gamal",
+    ixl: "gamal",
+    kpj: "gamal",
+    mni: "ushtra",
+    nch: "gamal",
+    nhx: "gamal",
+    pdc: "gamal",
+    ame: "gamal",
+    bor: "gamal",
+    bzd: "gamal",
+    mam: "gamal",
+    mcf: "gamal",
+    shp: "gamal",
+    toc: "gamal",
+    tue: "gamal",
+    usp: "gamal",
+    yap: "gamal",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -1201,5 +1229,33 @@ WORDS.camel = {
     tcs: ["kamal", "kamal"],
     tet: ["kuda kamelu", "kuda kamelu"],  // Horse and camel: kamelu from Portuguese camelo, with kuda 'horse'.
     tpi: ["kamel", "kamel"],
+    ake: ["kiyamerï", "/kijameɾɨ/"],
+    ar_eg: ["جمل", "ˈɡamal"],
+    car: ["kameri", "kameɾi"],
+    ch: ["kameyu", "kaˈmedzu"],
+    chf: ["ajcamello", "ahkaˈmejo"],
+    crn: ["cameeyuʼu", "kameːjuʔu"],  // From Spanish camello.
+    ctu: ["camello", "kamejo"],
+    fy: ["kamiel", "kaˈmiəl"],
+    gum: ["camello", "kaˈmeʎo"],
+    gun: ["camelo", "kaˈmelu"],  // From Portuguese camelo.
+    gym: ["kameo", "kameo"],
+    hwc: ["camel", "kæməl"],
+    ixl: ["camello", "kamejo"],
+    kpj: ["kamelo", "kamelo"],
+    mni: ["ꯎꯠ", "/ut/"],
+    nch: ["camello", "kaˈmejo"],
+    nhx: ["camello", "kamejo"],
+    pdc: ["Kameel", "kaˈmeːl"],
+    ame: ["camello", "kameʎo"],  // From Spanish camello.
+    bor: ["camelo", "kaˈmelu"],  // From Portuguese camelo.
+    bzd: ["kameio", "kameio"],  // From Spanish camello.
+    mam: ["camello", "kamejo"],  // From Spanish camello.
+    mcf: ["cameyo", "kamejo"],  // From Spanish camello.
+    shp: ["camello", "kamejo"],  // From Spanish camello.
+    toc: ["camello", "kamejo"],  // From Spanish camello.
+    tue: ["camello", "kaˈmejo"],  // From Spanish camello.
+    usp: ["camello", "kamejo"],  // From Spanish camello.
+    yap: ["kamel", "kamel"],  // From English camel.
   },
 };

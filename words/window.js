@@ -676,6 +676,27 @@ WORDS.window = {
     toj: "wind",
     wbp: "wind",
     woe: "plain",
+    agu: "wind",
+    ar_eg: "other",
+    ar_gulf: "door",
+    ar_iq: "other",
+    gum: "wind",
+    gun: "door",
+    gym: "wind",
+    hui: "wind",
+    ixl: "wind",
+    kos: "wind",
+    mbc: "door",
+    nch: "wind",
+    nhw: "wind",
+    nhx: "wind",
+    ttq: "fenestra",
+    wal: "plain",
+    ame: "wind",
+    mam: "wind",
+    shp: "wind",
+    tue: "wind",
+    yap: "wind",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -1291,5 +1312,26 @@ WORDS.window = {
     toj: ["ventana", "bentana"],
     wbp: ["wintawu", "wintawu"],
     woe: ["piletoa", "piletɒ"],
+    agu: ["wentanuʼ", "wentanuʔ"],  // From Spanish ventana.
+    ar_eg: ["شباك", "ʃibˈbaːk"],
+    ar_gulf: ["دريشة", "dəˈriʃə"],
+    ar_iq: ["شباك", "ʃubˈbaːtʃ"],
+    gum: ["pendana", "pentana"],
+    gun: ["janela", "ʒaˈnɛla"],  // From Portuguese janela.
+    gym: ["bentana", "bentana"],
+    hui: ["windo", "windo"],
+    ixl: ["ventana", "ventana"],
+    kos: ["winto", "/winto/"],
+    mbc: ["janela", "ʒanela"],
+    nch: ["ventana", "benˈtana"],
+    nhw: ["ventana", "benˈtana"],
+    nhx: ["ventana", "bentana"],
+    ttq: ["fǝnetǝr", "fənetər"],  // From French fenêtre.
+    wal: ["maskkootiyaa", "maskːoːtijaː"],
+    ame: ["ventana", "bentana"],  // From Spanish ventana.
+    mam: ["ventan", "bentan"],  // From Spanish ventana.
+    shp: ["ventana", "bentana"],  // From Spanish ventana.
+    tue: ["ventana", "benˈtana"],  // From Spanish ventana.
+    yap: ["winda", "winda"],  // From English window.
   },
 };

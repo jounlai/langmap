@@ -792,6 +792,17 @@ WORDS.twenty = {
     wbl: "loan",
     woe: "fused",
     yap: "fused",
+    bzj: "fused",
+    ch: "loan",
+    kos: "fused",
+    nhe: "base",
+    nhw: "base",
+    wal: "fused",
+    bzd: "tens",
+    huv: "base",
+    jiv: "loan",
+    shp: "tens",
+    yle: "fused",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1523,5 +1534,16 @@ WORDS.twenty = {
     wbl: ["бист", "bist"],  // Borrowed from Tajik бист.
     woe: ["riuweig", "ɻʉweiɡ"],  // Two and the tens unit -ig.
     yap: ["ruliiwʼ", "ruliːwʼ"],
+    bzj: ["tweni", "tweni"],
+    ch: ["bente", "ˈbente"],
+    kos: ["longoul", "/loŋoul/"],
+    nhe: ["sempoali", "sempoˈali"],
+    nhw: ["sempoali", "sempoˈali"],
+    wal: ["laatama", "laːtama"],
+    bzd: ["dabom böyök", "dabom bʊjʊk"],  // Two tens.
+    huv: ["nimiow", "nimʲow"],  // The unit of counting by twenties.
+    jiv: ["painti", "painti"],  // From Spanish veinte.
+    shp: ["rabé chonka", "ɻabɨ tʃonka"],  // Two (rabé) tens (chonka).
+    yle: ["myoy:a", "mʲɔjã"],  // Two tens in one word.
   },
 };

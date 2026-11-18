@@ -602,6 +602,16 @@ WORDS.sunday = {
     fit: "holy",
     ie: "sun",
     prg: "rest",
+    agu: "lord",
+    bzj: "sun",
+    kek: "lord",
+    mix: "lord",
+    nhe: "lord",
+    nhw: "lord",
+    nhx: "lord",
+    poh: "lord",
+    yua: "lord",
+    zap: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1144,5 +1154,15 @@ WORDS.sunday = {
     fit: ["pyhä", "ˈpyhæ"],
     ie: ["soledí", "soleˈdi"],
     prg: ["nadele", "ˈnadeːleː"],
+    agu: ["rmink", "rmink"],
+    bzj: ["Sondeh", "sonde"],
+    kek: ["domiin", "domiːn"],  // From Spanish domingo.
+    mix: ["domingo", "domíŋɡo"],  // From Spanish domingo.
+    nhe: ["domingo", "doˈmiŋɡo"],  // From Spanish domingo.
+    nhw: ["domingo", "doˈmiŋɡo"],  // From Spanish domingo.
+    nhx: ["domingo", "domiŋɡo"],  // From Spanish domingo.
+    poh: ["tomiinkoʼ", "tomiːnkoʔ"],
+    yua: ["domingo", "domiŋɡo"],
+    zap: ["domingu", "domiŋɡu"],
   },
 };

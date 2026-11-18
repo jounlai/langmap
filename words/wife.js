@@ -776,6 +776,29 @@ WORDS.wife = {
     ie: "own",
     li: "woman",
     rmf: "woman",
+    agu: "plain",
+    bzj: "own",
+    cab: "spouse",
+    chf: "spouse",
+    ctu: "plain",
+    hch: "own",
+    huv: "own",
+    itz: "own",
+    kek: "woman",
+    kjb: "plain",
+    mam: "woman",
+    maz: "own",
+    mix: "woman",
+    nch: "woman",
+    nhe: "woman",
+    nhw: "woman",
+    ote: "woman",
+    poh: "own",
+    toc: "woman",
+    tsz: "plain",
+    tzh: "plain",
+    tzo: "plain",
+    zap: "spouse",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1495,5 +1518,28 @@ WORDS.wife = {
     ie: ["marita", "maˈrita"],
     li: ["Vro", "vrɔː"],
     rmf: ["džuuli", "ˈdʒuːli"],
+    agu: ["xqelaj", "ʂqelah"],
+    bzj: ["waif", "waif"],
+    cab: ["mari", "ˈmaɾi"],
+    chf: ["itʼok", "itʼok"],
+    ctu: ["ijnam", "ihnam"],
+    hch: ["ʼɨya", "ʔɨja"],
+    huv: ["mintajaran", "mintaharan"],
+    itz: ["ätan", "ɨtan"],
+    kek: ["ixaqil", "iʃaqil"],  // Built on ixq 'woman'.
+    kjb: ["istil", "istil"],
+    mam: ["xuʼjilbʼaj", "ʂuʔχilɓaχ"],  // Built on xuʼj ‘woman’.
+    maz: ["suʼu", "suʔu"],
+    mix: ["ñaʼa", "ɲàʔá"],  // Differs from ñaʼá 'woman' only in tone.
+    nch: ["siuatl", "ˈsiwatɬ"],
+    nhe: ["sihuatl", "ˈsiwatɬ"],  // Also 'woman'; 'his wife' is isihua.
+    nhw: ["sihuatl", "ˈsiwatɬ"],  // Also 'woman'; 'his wife' is isihua.
+    ote: ["ʼbɛhñä", "ʔbɛhɲã"],
+    poh: ["ehkʼeenbʼees", "ehkʼeːnɓeːs"],
+    toc: ["puskat", "puskat"],
+    tsz: ["temba", "temba"],  // The husband is uamba.
+    tzh: ["ijnamil", "ihnamil"],
+    tzo: ["ajnilal", "ʔahnilal"],
+    zap: ["xheelaʼ", "ʃeːlaʔ"],  // The same word means husband.
   },
 };

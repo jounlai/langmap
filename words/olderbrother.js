@@ -881,6 +881,9 @@ WORDS.olderbrother = {
     vot: "plain",
     vro: "plain",
     wym: "plain",
+    agu: "age",
+    chf: "age",
+    tar: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1229,7 +1232,7 @@ WORDS.olderbrother = {
     bxr: ["аха", "axa"],  // Аха is an older brother, also a respectful word for any older man; a younger sibling is дүү.
     naq: ["ǃgâsab", "ǃɡãːsab"],  // An older brother is kai ǃgâsab, 'big brother'; there is no separate word.
     bdq: ["ʼnhŏng", "ʔɲoŋ"],  // ʼNhŏng is an older sibling, with kơdră 'male' added for a brother; a younger sibling is oh.
-    ctu: ["ʌscun", "ɨskun"],  // -ʌscun is an older brother; a younger one is -ijtsʼin.
+    ctu: ["äskun", "ɨskun"],  // Modern spelling (Hopkins et al. 2011 'äskun; old SIL ʌscun). -äskun is an older brother; a younger one is -ijtsʼin.
     ty: ["tuaʻana", "tuaʔana"],  // Same-sex older sibling (a man's older brother, a woman's older sister), from Proto-Polynesian *tuakana; younger: teina.
     rar: ["tuakana", "tuakana"],  // Same-sex older sibling, from Proto-Polynesian *tuakana; younger: teina; a woman calls her brother tungāne.
     niu: ["taokete", "taokete"],  // A man's older brother or a woman's older sister; younger: tehina; a woman calls any brother tugaane.
@@ -1703,5 +1706,8 @@ WORDS.olderbrother = {
     vot: ["velli", "ˈvelːi"],
     vro: ["veli", "ˈveli"],
     wym: ["brüder", "ˈbrydɐ"],
+    agu: ["itzik", "itsik"],
+    chf: ["säkun", "sɨkun"],
+    tar: ["bachí", "batʃi"],
   },
 };

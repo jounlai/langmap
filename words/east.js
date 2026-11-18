@@ -644,6 +644,21 @@ WORDS.east = {
     hsb: "rising",
     ie: "rising",
     vro: "dawn",
+    bzj: "dawn",
+    ctu: "rising",
+    ht: "dawn",
+    itz: "plain",
+    ixl: "rising",
+    kek: "rising",
+    kjb: "rising",
+    nhe: "rising",
+    nhw: "rising",
+    nhx: "rising",
+    poh: "rising",
+    tzh: "rising",
+    tzo: "rising",
+    yua: "plain",
+    zap: "rising",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1226,5 +1241,20 @@ WORDS.east = {
     hsb: ["wuchod", "ˈwuxɔt"],
     ie: ["oriente", "oriˈente"],
     vro: ["hummok", "ˈhumːok"],  // Also 'morning'.
+    bzj: ["Ees", "iːs"],
+    ctu: ["pasib kʼiñ", "pasiɓ kʼiɲ"],  // Lit. 'where the sun comes out'.
+    ht: ["lès", "lɛs"],
+    itz: ["lakʼin", "lakʼin"],
+    ixl: ["bʼuuqʼebʼal qʼii", "ɓuːqʼeɓal qʼiː"],  // 'Where the sun comes up'.
+    kek: ["relebʼ saqʼe", "ɾeleɓ saqʼe"],  // 'Where the sun comes out.'
+    kjb: ["yeltuʼ", "jeltuʔ"],
+    nhe: ["campa quisa tonati", "ˈkampa ˈkisa toˈnati"],  // 'Where the sun comes out'.
+    nhw: ["campa hualquisa tonati", "ˈkampa walˈkisa toˈnati"],  // 'Where the sun comes out'.
+    nhx: ["iqui̱sáya̱mpa to̱nati̱ꞌ", "ikiːˈsajaːmpa toːnatiːʔ"],  // 'Where the sun comes out'.
+    poh: ["reelbʼal qʼiij", "reːlɓal qʼiːx"],  // Literally 'where the sun comes out'.
+    tzh: ["stojol slokʼib kʼajkʼal", "stohol slokʼiɓ kʼahkʼal"],  // Lit. 'the side where the sun comes out'.
+    tzo: ["lokʼeb kʼakʼal", "lokʼeɓ kʼakʼal"],  // Lit. 'where the sun comes out'.
+    yua: ["lakʼin", "lakʼin"],
+    zap: ["neza rindani gubidxa", "neza ɾindani ɡubidʒa"],  // Literally 'the way the sun comes out'.
   },
 };

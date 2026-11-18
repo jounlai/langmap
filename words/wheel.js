@@ -978,5 +978,6 @@ WORDS.wheel = {
     kxv: ["sagaḍa billa", "saɡaɖa billa"],
     maw: ["gbari", "ɡbari"],  // The same word means 'leg'.
     pura: ["*peŋärä", "peŋæræ"],
+    tzh: ["xotol", "ʃotol"],
   }
 };

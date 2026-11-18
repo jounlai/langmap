@@ -801,6 +801,25 @@ WORDS.language = {
     ie: "tongue",
     stq: "speech",
     uby: "plain",
+    bzj: "tongue",
+    chf: "speech",
+    ctu: "speech",
+    hch: "speech",
+    ixl: "speech",
+    kek: "speech",
+    kjb: "speech",
+    mam: "speech",
+    mix: "plain",
+    ngu: "speech",
+    nhe: "speech",
+    nhw: "speech",
+    nhx: "speech",
+    poh: "speech",
+    tar: "speech",
+    toc: "speech",
+    tzh: "speech",
+    tzo: "speech",
+    zap: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1540,5 +1559,24 @@ WORDS.language = {
     ie: ["lingue", "ˈliŋɡue"],
     stq: ["Sproake", "ˈsprɔːkə"],
     uby: ["bza", "bza"],
+    bzj: ["langwij", "laŋwidʒ"],
+    chf: ["tʼan", "tʼan"],
+    ctu: ["tʼan", "tʼan"],  // Also 'word, speech'.
+    hch: ["niuki", "niuki"],
+    ixl: ["yolbʼal", "jolɓal"],
+    kek: ["aatinobʼaal", "aːtinoɓaːl"],  // From aatin 'word, speak'.
+    kjb: ["qʼanej", "qʼanex"],
+    mam: ["yol", "jol"],
+    mix: ["saʼan", "sã̀ʔã́"],
+    ngu: ["tlajtojli", "tɬahˈtohli"],  // Also 'word, speech'.
+    nhe: ["tlajtoli", "tɬahˈtoli"],  // Also 'word'.
+    nhw: ["camanali", "kamaˈnali"],  // Also 'word'.
+    nhx: ["tájto̱l", "ˈtahtoːl"],  // Also 'word'.
+    poh: ["qʼorbʼal", "qʼorɓal"],
+    tar: ["raʼichárami", "raʔitʃaɾami"],
+    toc: ["tachuwín", "tatʃuwín"],
+    tzh: ["kʼopil", "kʼopil"],  // Also 'word, speech'.
+    tzo: ["kʼop", "kʼop"],  // Also 'word, speech'.
+    zap: ["diidxaʼ", "diːdʒaʔ"],
   },
 };

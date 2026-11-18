@@ -693,6 +693,15 @@ WORDS.right = {
     ltg: "good",
     sco: "straight",
     vro: "good",
+    bzj: "straight",
+    chf: "plain",
+    ctu: "plain",
+    ht: "straight",
+    mam: "good",
+    tar: "plain",
+    tzo: "other",
+    yua: "plain",
+    zap: "loan",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1327,5 +1336,14 @@ WORDS.right = {
     ltg: ["lobuo", "ˈlɔbuɔ̯"],
     sco: ["richt", "rɪçt"],
     vro: ["hää", "hæː"],  // Also hüvä; the right hand is hää käsi.
+    bzj: ["rait", "rait"],
+    chf: ["noj", "noh"],
+    ctu: ["noj", "noh"],
+    ht: ["dwat", "dwat"],
+    mam: ["bʼaʼnqʼobʼ", "ɓaʔnqʼoɓ"],
+    tar: ["watoná", "watona"],
+    tzo: ["batzʼi kʼobol", "ɓatsʼi kʼoɓol"],  // Lit. 'true hand'.
+    yua: ["x-noʼoj", "ʃnoʔoh"],
+    zap: ["derechu", "deɾetʃu"],
   },
 };

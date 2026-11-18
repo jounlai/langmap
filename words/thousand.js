@@ -695,6 +695,22 @@ WORDS.thousand = {
     ie: "mille",
     prg: "strong",
     vro: "strong",
+    bzj: "strong",
+    chf: "mille",
+    hch: "mille",
+    huv: "mille",
+    ixl: "mille",
+    mam: "mille",
+    maz: "mille",
+    ngu: "mille",
+    nhe: "mille",
+    nhw: "mille",
+    nhx: "mille",
+    ote: "plain",
+    toc: "mille",
+    tzo: "mille",
+    usp: "mille",
+    zap: "mille",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मैनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -1331,5 +1347,21 @@ WORDS.thousand = {
     ie: ["mill", "mil"],
     prg: ["tūsimtons", "ˈtuːsimtans"],
     vro: ["tuhat", "ˈtuhɑt"],
+    bzj: ["towzn", "touzn"],
+    chf: ["mil", "mil"],
+    hch: ["xeimiriyari", "reimiɾijaɾi"],
+    huv: ["mil", "mil"],  // From Spanish mil.
+    ixl: ["mil", "mil"],  // From Spanish mil.
+    mam: ["mil", "mil"],
+    maz: ["mil", "mil"],
+    ngu: ["mil", "mil"],
+    nhe: ["mil", "mil"],  // From Spanish mil.
+    nhw: ["mil", "mil"],  // From Spanish mil.
+    nhx: ["mil", "mil"],  // From Spanish mil.
+    ote: ["ʼmo", "ʔmo"],
+    toc: ["milh", "miɬ"],
+    tzo: ["mil", "mil"],
+    usp: ["mil", "mil"],
+    zap: ["mil", "mil"],
   },
 };

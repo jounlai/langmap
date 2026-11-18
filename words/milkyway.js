@@ -425,6 +425,8 @@ WORDS.milkyway = {
     krl: "birds",
     smn: "birds",
     vro: "birds",
+    tzh: "road",
+    zap: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -793,5 +795,7 @@ WORDS.milkyway = {
     krl: ["Linnunrata", "ˈlʲinːunrɑtɑ"],
     smn: ["loderaiđâlâs", "ˈloderaiðɐlɐs"],  // Literally 'the birds' path', like Finnish linnunrata.
     vro: ["Tsirgurada", "ˈtsirɡurɑdɑ"],
+    tzh: ["be sik", "ɓe sik"],  // Lit. 'road of the cold'.
+    zap: ["carrera Santiaaguʼ", "kareɾa santiaːɡuʔ"],  // Literally 'Saint James's road'.
   },
 };

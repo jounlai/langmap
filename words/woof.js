@@ -308,5 +308,6 @@ WORDS.woof = {
     fur: ["vuac", "vwak"],
     hsb: ["haw haw", "ɦaw ɦaw"],
     vro: ["hau hau", "hɑu hɑu"],
+    tsz: ["jua jua", "xwa xwa"],  // From jua jua arhini 'to bark' (to say jua jua).
   },
 };

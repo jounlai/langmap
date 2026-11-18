@@ -958,5 +958,6 @@ WORDS.butterfly = {
     osp: ["mariposa", "maɾiˈpoza"],
     p_sit: ["*pur", "pur"],
     fit: ["pörhöinen", "ˈpørhøinen"],
+    itz: ["pepem", "pepem"],
   },
 };

@@ -564,6 +564,15 @@ WORDS.saturday = {
     lad: "sabbath",
     prg: "sabbath",
     vro: "other",
+    agu: "sabbath",
+    bzj: "saturn",
+    cab: "sabbath",
+    kek: "sabbath",
+    nhe: "sabbath",
+    nhw: "sabbath",
+    poh: "sabbath",
+    tzo: "sabbath",
+    yua: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1070,5 +1079,14 @@ WORDS.saturday = {
     lad: ["shabat", "ʃaˈbat"],
     prg: ["sabatico", "ˈsabatikaː"],
     vro: ["puul'päiv", "ˈpuːlʲpæiv"],
+    agu: ["sawr", "sawr"],
+    bzj: ["Satideh", "satide"],
+    cab: ["Samudi", "samudi"],
+    kek: ["saaw", "saːw"],  // From Spanish sábado.
+    nhe: ["sábado", "ˈsabado"],  // From Spanish sábado.
+    nhw: ["sábado", "ˈsabado"],  // From Spanish sábado.
+    poh: ["saabʼatuʼ", "saːɓatuʔ"],
+    tzo: ["savaro", "savaro"],
+    yua: ["sábado", "sabado"],
   },
 };

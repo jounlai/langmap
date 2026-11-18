@@ -754,6 +754,26 @@ WORDS.gold = {
     krl: "yellow",
     prg: "aurum",
     sjd: "plain",
+    bzj: "yellow",
+    chf: "aurum",
+    ctu: "aurum",
+    hch: "aurum",
+    ixl: "yellow",
+    kek: "yellow",
+    mam: "yellow",
+    maz: "aurum",
+    ngu: "aurum",
+    nhe: "aurum",
+    nhw: "aurum",
+    nhx: "aurum",
+    ote: "aurum",
+    poh: "aurum",
+    toc: "aurum",
+    tzh: "yellow",
+    tzo: "yellow",
+    usp: "aurum",
+    yua: "aurum",
+    zap: "aurum",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -1447,5 +1467,25 @@ WORDS.gold = {
     krl: ["kulta", "ˈkultɑ"],
     prg: ["ausis", "ˈausis"],
     sjd: ["коалль", "koaʎː"],
+    bzj: ["goal", "ɡoːl"],
+    chf: ["oro", "ˈoro"],
+    ctu: ["oro", "oɾo"],
+    hch: ["huru", "huɾu"],
+    ixl: ["qʼan chʼichʼ", "qʼan tʃʼitʃʼ"],  // 'Yellow metal'.
+    kek: ["qʼan chʼiichʼ", "qʼan tʃʼiːtʃʼ"],  // 'Yellow metal'.
+    mam: ["qʼan pwaq", "qʼan pwaq"],
+    maz: ["oro", "oɾo"],
+    ngu: ["oro", "ˈoro"],
+    nhe: ["oro", "ˈoro"],  // From Spanish oro.
+    nhw: ["oro", "ˈoro"],  // From Spanish oro.
+    nhx: ["oro", "oro"],  // From Spanish oro.
+    ote: ["oro", "oɾo"],
+    poh: ["ooro", "oːro"],
+    toc: ["oro", "oro"],
+    tzh: ["kʼanal takʼin", "kʼanal takʼin"],  // Lit. 'yellow metal'.
+    tzo: ["kʼanal takʼin", "kʼanal takʼin"],  // Lit. 'yellow metal'.
+    usp: ["oro", "oro"],
+    yua: ["oro", "oɾo"],
+    zap: ["oro", "oɾo"],
   },
 };

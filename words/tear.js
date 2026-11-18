@@ -613,6 +613,14 @@ WORDS.tear = {
     tll: "plain",
     tum: "plain",
     xog: "plain",
+    kj: "plain",
+    mfe: "plain",
+    mg: "eyewater",
+    nd: "plain",
+    ng: "plain",
+    ngl: "plain",
+    seh: "plain",
+    swb: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1170,5 +1178,13 @@ WORDS.tear = {
     tll: ["asɔyi", "asɔji"],  // No image is recorded for it, so it counts as a word of its own.
     tum: ["masozi", "masozi"],  // Plural; tears.
     xog: ["amaziga", "amaziɡa"],
+    kj: ["omahodi", "omahodi"],
+    mfe: ["larm", "laʁm"],
+    mg: ["ranomaso", "ranuˈmasu"],
+    nd: ["inyembezi", "iɲembezi"],
+    ng: ["omahodhi", "omahoði"],
+    ngl: ["miithori", "miːtʰoɾi"],
+    seh: ["misozi", "misozi"],
+    swb: ["utsozi", "utsozi"],
   },
 };

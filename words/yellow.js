@@ -688,6 +688,12 @@ WORDS.yellow = {
     luo: "other",
     rw: "plain",
     xed: "other",
+    kqn: "plain",
+    nbl: "ghel",
+    ssw: "plain",
+    swb: "turmeric",
+    ts: "plain",
+    zu: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1315,5 +1321,11 @@ WORDS.yellow = {
     luo: ["ratongʼ gweno", "ratoŋ ɡweno"],  // Literally "egg-coloured" (tongʼ gweno "hen's egg").
     rw: ["umuhondo", "umuhondo"],
     xed: ["ghúv-à zwáŋ", "ɣúvà zwáŋ"],
+    kqn: ["kibobo", "kibobo"],
+    nbl: ["tjheli", "tʃʰeli"],
+    ssw: ["mtfubi", "mtfuɓi"],
+    swb: ["dzindzano", "dzindzano"],  // Also 'saffron, turmeric'.
+    ts: ["xitshopana", "ʃitsʰopana"],
+    zu: ["phuzi", "pʰuzi"],
   },
 };

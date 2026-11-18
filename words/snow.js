@@ -872,7 +872,7 @@ WORDS.snow = {
     ibb: ["sino", "sino"],
     lg: ["omuzira", "omuzira"],
     mos: ["sa-ko-gĩsdim", "sakoɡĩsdim"],
-    vmw: ["nxotte", "nʃotːe"],
+    vmw: ["eneevi", "eneːvi"],  // Makhuwa NWT: Rev 1:14 "ntoko eneevi" (like snow); Psa 147:16 "onnimoroxa eneevi ntoko nxotte" (gives snow like wool) shows nxotte is wool/cotton. Fixed in gap rally R13, 2026-11-18.
     snk: ["nesi", "nesi"],
     ssw: ["lichwa", "liǀʰwa"],
     bug: ["salejju", "salədʒːu"],

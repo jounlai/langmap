@@ -420,6 +420,7 @@ WORDS.dragonfly = {
     dnj: "plain",
     saq: "plain",
     xed: "plain",
+    xh: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -785,5 +786,6 @@ WORDS.dragonfly = {
     dnj: ["dɛ̏ɛnŋdɛ̋ɛnŋ", "dɛ̃̏ːŋdɛ̃̋ːŋ"],
     saq: ["lkinguaya", "lkiŋuaja"],
     xed: ["vlìŋà", "vlìŋà"],
+    xh: ["ugqamanzi", "uɡǃamanzi"],
   },
 };

@@ -658,6 +658,20 @@ WORDS.right = {
     tum: "eat",
     wal: "plain",
     xed: "plain",
+    kqn: "plain",
+    loz: "plain",
+    mfe: "straight",
+    ndc: "plain",
+    ny: "other",
+    seh: "plain",
+    sn: "eat",
+    swb: "plain",
+    toi: "plain",
+    ts: "plain",
+    umb: "plain",
+    ve: "eat",
+    yao: "plain",
+    zu: "eat",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1257,5 +1271,19 @@ WORDS.right = {
     tum: ["lamalyero", "lamaljeɾo"],  // Built on -lya 'eat', like Swahili kulia.
     wal: ["ushachcha", "uʃatʃːa"],  // No image is recorded for it, so it counts as a word of its own.
     xed: ["zéhwí", "zéhwí"],
+    kqn: ["kilujo", "kiludʒo"],
+    loz: ["bulyo", "buljo"],
+    mfe: ["drwat", "dʁwat"],
+    ndc: ["muho", "muho"],
+    ny: ["kumanja", "kuˈmandʒa"],  // ku + manja "hands"
+    seh: ["madyo", "madjo"],
+    sn: ["rudyi", "rudji"],  // route: Bantu right-hand word built on -dya 'eat', as Swahili kulia
+    swb: ["kumeni", "kumeni"],
+    toi: ["kululyo", "kululjo"],
+    ts: ["xinene", "ʃinene"],
+    umb: ["ondio", "ondio"],
+    ve: ["tsha u ḽa", "tʃʰa u l̪a"],
+    yao: ["kundyo", "kundjo"],
+    zu: ["ukudla", "ukuɮa"],  // The hand you eat with (-dla 'eat').
   },
 };

@@ -304,7 +304,7 @@ WORDS.wife = {
     yi: "woman",
     uga: "woman",
     rue: "woman",
-    mg: "other",
+    mg: "spouse",
     kl: "own",
     crh: "woman",
     ti: "woman",
@@ -752,6 +752,19 @@ WORDS.wife = {
     xed: "woman",
     xog: "own",
     zdj: "woman",
+    her: "woman",
+    kj: "own",
+    loz: "woman",
+    nbl: "woman",
+    ng: "own",
+    seh: "woman",
+    ssw: "woman",
+    toi: "woman",
+    ts: "own",
+    umb: "woman",
+    ve: "woman",
+    xh: "woman",
+    zu: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -999,7 +1012,7 @@ WORDS.wife = {
     yi: ["פֿרוי", "frɔɪ̯"],  // The same word means woman; ווײַב vayb also means both, but is less respectful.
     uga: ["𐎀𐎘𐎚", "ʔaθθatu"],  // The same word means woman, like Hebrew ʾiššā.
     rue: ["жона", "ʒoˈna"],  // The same word means woman; Prešov and Lemko say жена.
-    mg: ["andefimandry", "andefiˈmandri"],  // Literally 'one who lies on the other side of the bed' (ana plus lefitra 'other side' plus mandry 'to lie down').
+    mg: ["vady", "ˈvadi"],  // The everyday word for spouse (malagasyword.org: "a spouse"); vadiko "my wife". Replaces the literary andefimandry (gap rally R13, 2026-11-18).
     kl: ["nuliaq", "nuliaq"],  // Inherited from Proto-Inuit *nuliaʁ; the word for woman is arnaq.
     crh: ["apaqay", "apaˈqaj"],  // The same word means woman; apay is a synonym.
     ti: ["ሰበይቲ", "sɐbɐjti"],  // The same word means woman.
@@ -1447,5 +1460,18 @@ WORDS.wife = {
     xed: ["màràkw", "màràkʷ"],
     xog: ["omukyala", "omukjala"],
     zdj: ["mndru-mshe", "mndʳu mʃe"],  // Literally 'female person', also 'woman'.
+    her: ["omukazendu", "omukazendu"],
+    kj: ["omukulukadi", "omukulukadi"],
+    loz: ["musali", "musali"],
+    nbl: ["umfazi", "umfazi"],
+    ng: ["omukulukadhi", "omukulukaði"],
+    seh: ["nkazi", "nkazi"],
+    ssw: ["umfati", "umfati"],
+    toi: ["mukaintu", "mukaintu"],
+    ts: ["nsati", "nsati"],
+    umb: ["ukãi", "ukãi"],
+    ve: ["mufumakadzi", "mufumakadzi"],
+    xh: ["umfazi", "um̩faːzi"],
+    zu: ["umfazi", "umˈfaːzi"],
   },
 };

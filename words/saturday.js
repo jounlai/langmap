@@ -537,6 +537,18 @@ WORDS.saturday = {
     rn: "count",
     rw: "count",
     sg: "plain",
+    her: "plain",
+    kqn: "plain",
+    loz: "other",
+    naq: "saturn",
+    nbl: "other",
+    nd: "other",
+    ndc: "sabbath",
+    ssw: "other",
+    toi: "other",
+    ts: "other",
+    umb: "sabbath",
+    vmw: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -655,7 +667,7 @@ WORDS.saturday = {
     sk: ["sobota", "ˈsɔbɔta"],
     sl: ["sobota", "sɔˈboːta"],
     so: ["Sabti", "sabti"],
-    st: ["Moqebele", "moǃebele"],
+    st: ["Moqebelo", "moǃebelo"],  // Spelling per Wiktionary and the South African Sesotho NWT daily text; was Moqebele (gap rally R13, 2026-11-18).
     es: ["sábado", "ˈsabado"],
     srn: ["satra", "satra"],
     sw: ["Jumamosi", "dʒumaˈmosi"],
@@ -1016,5 +1028,17 @@ WORDS.saturday = {
     rn: ["ku wa gatandatu", "ku wa ɡataːndatu"],  // Day number six of the week, counted from Monday.
     rw: ["kuwa gatandatu", "kuwa ɡatandatu"],  // "The sixth (day)".
     sg: ["Lâpôso", "laposo"],
+    her: ["Oroviungura", "oroviuŋɡura"],
+    kqn: ["Pa Kibelushi", "pa kibeluʃi"],
+    loz: ["La Mukibelo", "la mukibelo"],
+    naq: ["Satertaxtsēs", "satertaxtseːs"],
+    nbl: ["uMgqibelo", "umɡǃiɓelo"],
+    nd: ["Mgqibelo", "mᶢǃiɓelo"],
+    ndc: ["Sabudu", "sabudu"],  // from Portuguese sábado
+    ssw: ["uMgcibelo", "umɡǀiɓelo"],
+    toi: ["Mujibelo", "mudʒibelo"],
+    ts: ["Mugqivela", "muɡǃiβela"],  // Route by resemblance to Zulu uMgqibelo.
+    umb: ["Casapalo", "tʃasapalo"],
+    vmw: ["Saabadu", "saːbadu"],
   },
 };

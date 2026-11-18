@@ -505,6 +505,14 @@ WORDS.soap = {
     luo: "sabun",
     mas: "sabun",
     rn: "sabun",
+    nd: "sapo",
+    ndc: "sabao",
+    nso: "sapo",
+    seh: "sabao",
+    ssw: "sapo",
+    swb: "sabun",
+    umb: "sabao",
+    ve: "sapo",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -951,5 +959,13 @@ WORDS.soap = {
     luo: ["sabun", "sabun"],  // Through Swahili sabuni, from Arabic ṣābūn.
     mas: ["ɔsabuni", "ɔsabuni"],
     rn: ["isabune", "isabune"],  // Borrowed from Swahili sabuni.
+    nd: ["isepa", "isepa"],
+    ndc: ["sabau", "sabau"],  // from Portuguese sabão
+    nso: ["sesepa", "sesepa"],
+    seh: ["sabau", "sabau"],
+    ssw: ["insipho", "insipʰo"],
+    swb: ["sabuni", "sabuni"],
+    umb: ["onjapãu", "ondʒapãu"],
+    ve: ["tshisibe", "tʃʰisibe"],
   },
 };

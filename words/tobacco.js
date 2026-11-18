@@ -535,6 +535,7 @@ WORDS.tobacco = {
     wbt: "plain",
     wmt: "plain",
     yap: "tabaco",
+    ar_iq: "smoke",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -1010,5 +1011,6 @@ WORDS.tobacco = {
     wbt: ["jurntilyarr", "ɟuɳʈiʎar"],
     wmt: ["kilala", "ˈkilala"],
     yap: ["tamaagow", "tamaːɡow"],
+    ar_iq: ["تتن", "ˈtutun"],
   },
 };

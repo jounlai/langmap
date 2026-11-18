@@ -872,6 +872,15 @@ WORDS.language = {
     mxv: "speech",
     shp: "speech",
     tue: "speech",
+    ar_eg: "other",
+    ar_lev: "other",
+    ar_tn: "other",
+    arq: "other",
+    chk: "speech",
+    iu: "speech",
+    maz: "speech",
+    mbc: "speech",
+    rki: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1682,5 +1691,14 @@ WORDS.language = {
     mxv: ["tuʼun", "tuʔun"],  // The word for word and speech.
     shp: ["joi", "hoi"],  // The word for word and speech.
     tue: ["wedesere", "wedeseɾe"],  // From wedese- 'to speak'.
+    ar_eg: ["لغة", "ˈloɣa"],
+    ar_lev: ["لغة", "ˈluɣa"],
+    ar_tn: ["لغة", "ˈluɣa"],
+    arq: ["لغة", "ˈluɣa"],
+    chk: ["kapas", "kapas"],  // Also means 'speech, words'.
+    iu: ["ᐅᖃᐅᓰᑦ", "uqausiːt"],
+    maz: ["jña", "hɲa"],  // Also means 'word'; from ña 'to speak'.
+    mbc: ["maimu", "maimu"],  // Also means 'word'.
+    rki: ["ဘာသာစကား", "bàθàzəɡá"],
   },
 };

@@ -699,6 +699,11 @@ WORDS.tear = {
     emi: "eyewater",
     huv: "eyewater",
     mam: "eyewater",
+    ar_eg: "plain",
+    ar_tn: "plain",
+    arq: "plain",
+    rki: "eyewater",
+    xed: "other",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1342,5 +1347,10 @@ WORDS.tear = {
     emi: ["rarum mata", "ɾaɾum mata"],  // Liquid (rarum) of the eye (mata).
     huv: ["miyow oniiüg", "mijow oniːɨɡ"],  // Water (yow) of the eye (oniiüg).
     mam: ["taʼl twitz", "taʔl twits"],  // Lit. 'liquid of his eye'.
+    ar_eg: ["دمعة", "ˈdamʕa"],
+    ar_tn: ["دمعة", "ˈdamʕa"],
+    arq: ["دمعة", "ˈdamʕa"],
+    rki: ["မျက်ရည်", "mjɔʔɹè"],  // Eye plus liquid.
+    xed: ["ima taw", "ima taw"],  // Literally 'water of weeping'.
   },
 };

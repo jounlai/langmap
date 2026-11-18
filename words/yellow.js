@@ -777,6 +777,13 @@ WORDS.yellow = {
     bzd: "plain",
     mcf: "plain",
     mxv: "plain",
+    ar_eg: "plain",
+    ar_lev: "plain",
+    eve: "plain",
+    maz: "plain",
+    rki: "plain",
+    wba: "plain",
+    yao: "turmeric",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1493,5 +1500,12 @@ WORDS.yellow = {
     bzd: ["tskiriri", "tskiɾiɾi"],
     mcf: ["bëshpiu", "bɨʃpiu"],
     mxv: ["kuaan", "kʷaːn"],
+    ar_eg: ["أصفر", "ˈʔasˤfaɾ"],
+    ar_lev: ["أصفر", "ˈʔasˤfar"],
+    eve: ["хиӈаня", "hiŋanʲa"],
+    maz: ["cʼaxtʼü", "kʼaʃtʼɨ"],
+    rki: ["ဝါ", "wà"],
+    wba: ["hene", "hene"],  // No image is recorded for it, so it counts as a word of its own.
+    yao: ["manjano", "mandʒano"],  // From Swahili manjano 'turmeric'.
   },
 };

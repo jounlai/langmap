@@ -607,6 +607,14 @@ WORDS.wednesday = {
     bi: "god",
     pis: "god",
     woe: "count",
+    ar_eg: "count",
+    ar_gulf: "count",
+    ar_lb: "count",
+    ar_lev: "count",
+    ar_ma: "count",
+    ar_sy: "count",
+    mdf: "other",
+    sms: "middle",
   },
   routes: {
     god: {"color":"#db2777","emoji":"🐦‍⬛","en":"Woden's day (Wednesday, woensdag, onsdag)","ja":"ウォーデンの日（Wednesday, woensdag, onsdag）","ko":"보탄의 날 (Wednesday, woensdag, onsdag)","zh":"沃登之日（Wednesday、woensdag、onsdag）","yue":"沃登嘅日（Wednesday、woensdag、onsdag）","vi":"ngày của thần Woden (Wednesday, woensdag, onsdag)","th":"วันของเทพโวเดน (Wednesday, woensdag, onsdag)","id":"hari Dewa Woden (Wednesday, woensdag, onsdag)","hi":"वोडेन का दिन (Wednesday, woensdag, onsdag)","de":"Wodans Tag (Wednesday, woensdag, onsdag)","fr":"jour de Wotan (Wednesday, woensdag, onsdag)","it":"giorno di Wotan (Wednesday, woensdag, onsdag)","es":"día de Wotan (Wednesday, woensdag, onsdag)","pt":"dia de Wotan (Wednesday, woensdag, onsdag)","ru":"день Вотана (Wednesday, woensdag, onsdag)","uk":"день Вотана (Wednesday, woensdag, onsdag)","ar":"يوم وودن (Wednesday, woensdag, onsdag)","he":"יומו של וודן (Wednesday, woensdag, onsdag)","sw":"siku ya Woden (Wednesday, woensdag, onsdag)"},
@@ -1152,5 +1160,13 @@ WORDS.wednesday = {
     bi: ["Wenesde", "wenesde"],  // From English Wednesday.
     pis: ["Wenesde", "wenesde"],  // From English Wednesday.
     woe: ["Gaseliranel yengaang", "ɡaseliɻanel jeŋaːŋ"],  // The third day of work.
+    ar_eg: ["الأربع", "larˈbaʕ"],
+    ar_gulf: ["الاربعا", "ɪlərˈbɪʕə"],
+    ar_lb: ["الأربعة", "ilˈʔurbʕa"],
+    ar_lev: ["الأربعا", "ilˈʔarbiʕa"],
+    ar_ma: ["الاربع", "ˈlaːrbaʕ"],
+    ar_sy: ["الأربعة", "ilˈʔurbʕa"],
+    mdf: ["вержи", "ˈverʒi"],
+    sms: ["seärad", "ˈsɛarɒd"],
   },
 };

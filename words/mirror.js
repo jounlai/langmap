@@ -731,6 +731,14 @@ WORDS.mirror = {
     yao: "glass",
     bor: "speculum",
     mam: "speculum",
+    ar_eg: "look",
+    ar_lev: "look",
+    ar_tn: "look",
+    arq: "look",
+    mdf: "look",
+    poh: "glass",
+    rki: "glass",
+    ykg: "plain",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -1401,5 +1409,13 @@ WORDS.mirror = {
     yao: ["lindala", "lindala"],
     bor: ["espelho", "isˈpeʎu"],  // From Portuguese espelho.
     mam: ["respej", "respeχ"],  // From Spanish espejo.
+    ar_eg: ["مراية", "miˈɾaːja"],
+    ar_lev: ["مراية", "ˈmraːje"],
+    ar_tn: ["مراية", "mɾaːja"],
+    arq: ["مراية", "mraːja"],
+    mdf: ["ванома", "ˈvanoma"],
+    poh: ["lemuh", "lemuh"],  // Also means 'glass'.
+    rki: ["မှန်", "m̥àɴ"],  // The same word as 'glass'.
+    ykg: ["ньаачэчуонии", "nʲaːtʃetʃuoniː"],
   },
 };

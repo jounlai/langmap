@@ -790,6 +790,15 @@ WORDS.right = {
     rup: "straight",
     shp: "plain",
     vot: "straight",
+    ar_eg: "plain",
+    ar_lev: "plain",
+    ar_tn: "plain",
+    kxv: "plain",
+    mbc: "good",
+    poh: "plain",
+    rki: "plain",
+    wba: "plain",
+    xh: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1521,5 +1530,14 @@ WORDS.right = {
     rup: ["ndreptu", "ˈndreptu"],  // From Latin dīrēctus 'straight'.
     shp: ["mekayao", "mɨkajao"],
     vot: ["õika", "ˈɤikɑː"],  // Also 'correct'; compare Finnish oikea.
+    ar_eg: ["يمين", "jiˈmiːn"],
+    ar_lev: ["يمين", "jaˈmiːn"],
+    ar_tn: ["يمين", "jmiːn"],
+    kxv: ["ṭiʔni", "ʈiʔni"],
+    mbc: ["meruntɨ", "meruntɨ"],  // Also means 'strength'.
+    poh: ["sekʼaaj", "sekʼaːx"],
+    rki: ["ညာ", "ɲà"],
+    wba: ["reko", "ɾeko"],  // No image is recorded for it, so it counts as a word of its own.
+    xh: ["ukunene", "ukuneːne"],
   },
 };

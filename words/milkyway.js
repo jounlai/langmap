@@ -454,6 +454,8 @@ WORDS.milkyway = {
     mad: "river",
     rue: "milk",
     xal: "other",
+    bxr: "other",
+    co: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -851,5 +853,7 @@ WORDS.milkyway = {
     mad: ["bintang ngay-songayan", "bintaŋ ŋaj sɔŋajan"],
     rue: ["Молочна дорога", "ˈmolotʃna doˈroha"],
     xal: ["Оһтрһун уйдл", "oɣtrɣun ujdl̩"],
+    bxr: ["Тэнгэриин зүйдэл", "teŋɡeriːŋ zyjdel"],
+    co: ["Strada di Roma", "ˈstrada di ˈroma"],  // 'The road to Rome'; Via Lattea is also said.
   },
 };

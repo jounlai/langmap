@@ -387,6 +387,9 @@ WORDS.octopus = {
     kbd: "eight",
     myv: "eight",
     udm: "eight",
+    ce: "eight",
+    nds: "other",
+    tyv: "eight",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -718,5 +721,8 @@ WORDS.octopus = {
     kbd: ["осьминог", "osʲminoɡ"],
     myv: ["кавксопильге", "kafksopilʲɡe"],
     udm: ["тямыспыд", "tʲamɨsˈpɨd"],
+    ce: ["бархӀкогберг", "ˈbarhkoɡberɡ"],  // Built on бархӀ 'eight' and ког 'leg', like Russian осьминог.
+    nds: ["Kraken", "ˈkraːkn̩"],
+    tyv: ["осьминог", "osʲmiˈnok"],  // Borrowed from Russian осьминог 'eight legs'.
   },
 };

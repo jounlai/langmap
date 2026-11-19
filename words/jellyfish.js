@@ -319,6 +319,8 @@ WORDS.jellyfish = {
     ja_oki: "plain",
     ja_rys: "other",
     kos: "plain",
+    fo: "other",
+    ps: "medusa",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -582,5 +584,7 @@ WORDS.jellyfish = {
     ja_oki: ["くらじ", "kuɾadʑi"],
     ja_rys: ["いれぇん", "iɾəɴ"],  // Taketomi Yaeyama; from the old Japonic root ira 'sting, nettle', the stinger.
     kos: ["ewacm", "ewɛm"],
+    fo: ["hvalspýggja", "ˈkvalspʊtʃːa"],  // Hval 'whale' + spýggja 'vomit'.
+    ps: ["مېډوسا", "meˈɖusɑ"],
   },
 };

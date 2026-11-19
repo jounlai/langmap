@@ -475,6 +475,7 @@ WORDS.dragonfly = {
     kos: "plain",
     ltg: "plain",
     myv: "other",
+    nds: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -895,5 +896,6 @@ WORDS.dragonfly = {
     kos: ["iri", "iri"],
     ltg: ["spuorņs", "spuɔ̯rnʲtsʲ"],
     myv: ["салмуксонь салы", "salmuksonʲ salɨ"],
+    nds: ["Goldpeer", "ˈɡɔltpeːɐ̯"],  // Gold + Peerd 'horse': the golden horse.
   },
 };

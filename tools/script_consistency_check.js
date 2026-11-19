@@ -181,6 +181,7 @@ const MIXED_OK = {
   ru: "Russian: 1 Latin among Cyrillic — the Wi-Fi loan, usually written \"Wi-Fi\" (informal вайфай).",
   uk: "Ukrainian: 1 Latin among Cyrillic — the Wi-Fi loan, usually written \"Wi-Fi\".",
   bg: "Bulgarian: 1 Latin among Cyrillic — the Wi-Fi loan, written \"Wi-Fi\" in bg.wikipedia running text (transcription уайфай). r69, 2026-10-08.",
+  ba: "Bashkir: 1 Latin among Cyrillic — the Wi-Fi loan, written \"Wi-Fi\" as in the kaa/kk/tk rows and in Russian. Review 819, 2026-11-20.",
   he: "Hebrew: 1 Latin among Hebrew — the Wi-Fi loan, usually written \"Wi-Fi\" in Hebrew text.",
 };
 

@@ -615,6 +615,9 @@ WORDS.soap = {
     ja_chu: "wash",
     toj: "sapo",
     yua: "sapo",
+    jam: "sapo",
+    kos: "sapo",
+    koy: "wash",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1171,5 +1174,8 @@ WORDS.soap = {
     ja_chu: ["垢落し", "akawotoɕi"],  // Literally 'dirt-dropper'; the Jesuit dictionary of 1603 glosses it as soap.
     toj: ["jabón", "habon"],
     yua: ["jabón", "habon"],
+    jam: ["suop", "suop"],
+    kos: ["sop", "sop"],  // From English soap.
+    koy: ["beela", "biːla"],  // From Russian мыло.
   },
 };

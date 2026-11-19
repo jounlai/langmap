@@ -565,6 +565,12 @@ WORDS.cotton = {
     cnp: "other",
     cpx: "other",
     mam: "plain",
+    ja_kanbun: "other",
+    jam: "qutn",
+    kos: "qutn",
+    koy: "other",
+    ojp: "other",
+    zh_wenyan_edu: "other",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -1074,5 +1080,11 @@ WORDS.cotton = {
     cnp: ["棉花", "min˨˩ wa˥˧"],
     cpx: ["棉花", "miŋ˩˧ hua˥˧˧"],
     mam: ["nooqʼ", "noːqʼ"],
+    ja_kanbun: ["綿", "wata"],  // In the classics 綿 meant silk floss; cotton cloth came later.
+    jam: ["katn", "katn"],
+    kos: ["kuhtin", "kʌtin"],  // From English cotton.
+    koy: ["seedits", "siːditsʰ"],  // Cotton cloth, from Russian ситец "calico".
+    ojp: ["綿", "wata"],  // Cotton was not yet grown in Japan; wata was the soft silk floss used to pad clothes and quilts.
+    zh_wenyan_edu: ["棉", "miːn˨˩"],
   },
 };

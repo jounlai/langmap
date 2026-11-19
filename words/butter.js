@@ -619,6 +619,9 @@ WORDS.butter = {
     ar_sd: "zubda",
     cpx: "fat",
     ko_em: "fat",
+    ja_heian: "plain",
+    kos: "butyrum",
+    koy: "smear",
   },
   routes: {
     butyrum: {"color":"#d97706","emoji":"🐄","en":"Greek βούτυρον 'cow cheese' (butter, beurre, バター)","ja":"ギリシャ語 βούτυρον「牛のチーズ」（butter, beurre, バター）","ko":"그리스어 βούτυρον '소의 치즈' (butter, beurre, バター)","zh":"希腊语 βούτυρον“牛的奶酪”（butter、beurre、バター）","yue":"希臘文 βούτυρον「牛嘅芝士」（butter、beurre、バター）","vi":"tiếng Hy Lạp βούτυρον 'pho mát bò' (butter, beurre, バター)","th":"กรีก βούτυρον 'ชีสวัว' (butter, beurre, バター)","id":"Yunani βούτυρον 'keju sapi' (butter, beurre, バター)","hi":"यूनानी βούτυρον 'गाय का पनीर' (butter, beurre, バター)","de":"griechisch βούτυρον „Kuhkäse“ (butter, beurre, バター)","fr":"le grec βούτυρον « fromage de vache » (butter, beurre, バター)","it":"il greco βούτυρον «formaggio di vacca» (butter, beurre, バター)","es":"el griego βούτυρον «queso de vaca» (butter, beurre, バター)","pt":"o grego βούτυρον «queijo de vaca» (butter, beurre, バター)","ru":"греческое βούτυρον «коровий сыр» (butter, beurre, バター)","uk":"грецьке βούτυρον «коров'ячий сир» (butter, beurre, バター)","ar":"اليونانية βούτυρον «جبن البقر» (butter, beurre, バター)","he":"היוונית βούτυρον „גבינת פרה” (butter, beurre, バター)","sw":"Kigiriki βούτυρον 'jibini la ng'ombe' (butter, beurre, バター)"},
@@ -1175,5 +1178,8 @@ WORDS.butter = {
     ar_sd: ["زبدة", "ˈzibda"],
     cpx: ["牛油", "ku˩˧ iu˩˧"],  // Literally 'cow fat'.
     ko_em: ["소졋기름", "sodʑətk͈iɾɯm"],  // Joseon kitchens did not use butter; the 1890 dictionary renders it 'cow-milk oil'.
+    ja_heian: ["蘇", "so"],  // There was no butter; so, milk boiled down to a rich solid and paid to the court as tax, was the dairy fat Heian nobles ate.
+    kos: ["pata", "pata"],  // From English butter.
+    koy: ["baasdla", "baːstɬa"],  // From Russian масло.
   },
 };

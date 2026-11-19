@@ -990,5 +990,6 @@ WORDS.poop = {
     bej: ["amba", "amba"],
     ssy: ["xage", "ħaɡe"],
     cak: ["kis", "kis"],
+    koy: ["tsonʼ", "tsʰonʔ"],
   },
 };

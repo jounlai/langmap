@@ -925,6 +925,7 @@ WORDS.rainbow = {
     quc: "plain",
     usp: "plain",
     ar_ye: "bow",
+    ko_yb: "other",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1793,5 +1794,6 @@ WORDS.rainbow = {
     quc: ["xokaqʼabʼ", "ʃokaqʼaɓ"],
     usp: ["xukaqʼabʼ", "ʃukaqʼaɓ"],
     ar_ye: ["قوس علان", "ɡows ʕallaːn"],  // lit. 'bow of the rainy season'
+    ko_yb: ["무지개", "mudʑiɡɛ"],  // Literally 'water door': Middle Korean 믈 'water' + 지게 'door'.
   },
 };

@@ -797,6 +797,7 @@ WORDS.bat = {
     ssy: "plain",
     czh: "other",
     ote: "plain",
+    ko_yb: "mouse",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1539,5 +1540,6 @@ WORDS.bat = {
     ssy: ["lashshab", "laʃʃab"],
     czh: ["老伯布翼", "lə˨˦ pa˥ pu˦˨ ie˩˩"],  // 布翼 is the Tunxi word for the butterfly; the first part is also written 拉叭, so it may only spell the sound. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
     ote: ["tsaxmagu", "tsaʃmaɡu"],
+    ko_yb: ["박쥐", "pakt͈ɕɥi"],  // Middle Korean ᄇᆞᆰ쥐, whose second part is 쥐 'rat'.
   },
 };

@@ -601,6 +601,7 @@ WORDS.dragon = {
     ssy: "tannin",
     ja_edo: "long",
     ko_em: "long",
+    jam: "draco",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -1141,5 +1142,6 @@ WORDS.dragon = {
     ssy: ["tannan", "tannan"],
     ja_edo: ["竜", "ɾʲɯː"],
     ko_em: ["룡", "ɾjoŋ"],
+    jam: ["jragan", "dʒɹaɡan"],  // From English dragon, with dr- as j- as in jringk "drink".
   },
 };

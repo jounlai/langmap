@@ -577,6 +577,8 @@ WORDS.littlefinger = {
     gan: "small",
     tzo: "child",
     ar_ye: "small",
+    ko_yb: "child",
+    kos: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1099,5 +1101,7 @@ WORDS.littlefinger = {
     gan: ["小拇指头", "ɕiɛu˨˩ ma˩ tsɨt˥ tʰɛu˨"],  // Word from Wiktionary's dialect table for Nanchang; reading from Wiktionary's Nanchang entry.
     tzo: ["kʼoxil niʼ kʼob", "kʼoʃil niʔ kʼoɓ"],
     ar_ye: ["الزغيرة", "ɛzˈzɣiːre"],  // lit. 'the small one'
+    ko_yb: ["새끼손가락", "sɛk͈isonk͈aɾak̚"],  // The 'young-one finger': 새끼 is a young animal or a little one.
+    kos: ["kuf srisrik", "kuf ʂiʂik"],  // Literally "small finger", like kuf lulap "big finger" for the thumb.
   },
 };

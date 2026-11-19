@@ -616,5 +616,6 @@ WORDS.cockcrow = {
     ko_em: ["ᄭᅩᆨᄭᅬ오", "k͈okk͈weo"],
     ctu: ["kokorojoʼ", "kokorohoʔ"],
     ja_oki: ["くっくるーうー", "kukkuɾuːʔuː"],
+    ja_kanbun: ["喈喈", "kaikai"],
   },
 };

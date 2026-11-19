@@ -270,6 +270,8 @@ WORDS.goosebumps = {
     ja_kyo: "other",
     ja_osa: "other",
     nan_ph: "hair",
+    kok: "other",
+    kos: "other",
   },
   family2: {
     ko: "bird",
@@ -488,5 +490,7 @@ WORDS.goosebumps = {
     ja_kyo: ["さぶいぼ", "sabɯibo"],
     ja_osa: ["さぶいぼ", "sabɯibo"],
     nan_ph: ["聳毛猴", "tsʰaŋ˦˩ mŋ̍˨˦ kau˨˦"],  // 毛 is 'hair'.
+    kok: ["आंगार कांटो", "aːŋɡaːɾ kaːɳʈo"],  // Literally "a thorn on the body", as Marathi काटा येणे.
+    kos: ["mihsrihsr", "mɨʂɨʂ"],  // The same word as "cold".
   },
 };

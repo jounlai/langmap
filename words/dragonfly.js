@@ -472,6 +472,7 @@ WORDS.dragonfly = {
     zh_sc: "plain",
     zh_wh: "plain",
     ko_bus: "plain",
+    kos: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -889,5 +890,6 @@ WORDS.dragonfly = {
     zh_sc: ["虰虰猫儿", "tin˥ tin˥ mɚ˥"],  // Also written 丁丁猫儿; Chengdu also says 蜻蜓.
     zh_wh: ["虰虰", "tin˥˥ tin˥˥"],  // A reduplication of 虰, also written 丁丁, as in Nanchang Gan. Word from Wiktionary's dialect table for Wuhan; 虰 read as 丁 (MCPDict 武漢 has no entry for 虰).
     ko_bus: ["잠자리", "tɕamdʑaɾi"],
+    kos: ["iri", "iri"],
   },
 };

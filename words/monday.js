@@ -775,6 +775,9 @@ WORDS.monday = {
     yue_nn: "count",
     ko_em: "moon",
     ctu: "moon",
+    ja_kanbun: "moon",
+    kos: "moon",
+    zh_wenyan_edu: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1492,5 +1495,8 @@ WORDS.monday = {
     yue_nn: ["礼拜一", "lɐi˨˦ pai˧˧ jɐt˥"],  // 礼拜 'week (lit. worship)' + 一 'one'.
     ko_em: ["월요일", "wəɾjoil"],
     ctu: ["lunes", "lunes"],
+    ja_kanbun: ["月曜", "ɡetsɯjoː"],
+    kos: ["mante", "mante"],  // From English Monday.
+    zh_wenyan_edu: ["月曜", "jyːt˨ jiːu˨"],
   },
 };

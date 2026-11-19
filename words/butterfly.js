@@ -965,5 +965,6 @@ WORDS.butterfly = {
     ssy: ["simbiliilico", "simbiliːliʕo"],
     maz: ["se̱pje̱", "sɛpʰɛ"],
     ar_ye: ["مطفية السراج", "mutˤaffijat ɛsːiraːdʒ"],  // lit. 'lamp-extinguisher'
+    koy: ["nidinlibidza", "nidinlibitsa"],  // Literally "one that flutters here and there"; it also covers moths.
   },
 };

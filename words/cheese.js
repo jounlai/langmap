@@ -575,6 +575,7 @@ WORDS.cheese = {
     ar_sd: "jubn",
     ote: "plain",
     ko_em: "milk",
+    zh_wenyan_edu: "milk",
   },
   routes: {
     caseus: {"color":"#d97706","emoji":"🧀","en":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","ja":"ラテン語 cāseus（Käse, cheese, queso, keju, チーズ）","ko":"라틴어 cāseus (Käse, cheese, queso, keju, チーズ)","zh":"拉丁语 cāseus（Käse、cheese、queso、keju、チーズ）","yue":"拉丁文 cāseus（Käse、cheese、queso、keju、チーズ）","vi":"tiếng Latin cāseus (Käse, cheese, queso, keju, チーズ)","th":"ละติน cāseus (Käse, cheese, queso, keju, チーズ)","id":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","hi":"लैटिन cāseus (Käse, cheese, queso, keju, チーズ)","de":"lateinisch cāseus (Käse, cheese, queso, keju, チーズ)","fr":"le latin cāseus (Käse, cheese, queso, keju, チーズ)","it":"il latino cāseus (Käse, cheese, queso, keju, チーズ)","es":"el latín cāseus (Käse, cheese, queso, keju, チーズ)","pt":"o latim cāseus (Käse, cheese, queso, keju, チーズ)","ru":"латинское cāseus (Käse, cheese, queso, keju, チーズ)","uk":"латинське cāseus (Käse, cheese, queso, keju, チーズ)","ar":"اللاتينية cāseus (Käse, cheese, queso, keju, チーズ)","he":"הלטינית cāseus (Käse, cheese, queso, keju, チーズ)","sw":"Kilatini cāseus (Käse, cheese, queso, keju, チーズ)"},
@@ -1089,5 +1090,6 @@ WORDS.cheese = {
     ar_sd: ["جبن", "ɟibn"],
     ote: ["ge̲xu", "ɡɛʃu"],
     ko_em: ["소졋메쥬", "sodʑənmedʑju"],  // The 1890 dictionary renders cheese 'cow-milk meju', after the fermented soybean block.
+    zh_wenyan_edu: ["酪", "lɔːk˨"],  // Firm cheese was rare in China; 酪, soured thickened milk, is the dairy food Classical texts name.
   },
 };

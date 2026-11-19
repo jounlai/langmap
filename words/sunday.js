@@ -758,6 +758,9 @@ WORDS.sunday = {
     zh_xa: "other",
     ko_em: "sun",
     ctu: "lord",
+    ja_kanbun: "sun",
+    kos: "sun",
+    zh_wenyan_edu: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1456,5 +1459,8 @@ WORDS.sunday = {
     zh_xa: ["星期天", "ɕiŋ˨˩ tɕʰi˨˩ tʰiã˨˩"],  // 星期 'week' + 天 'day'.
     ko_em: ["일요일", "iljoil"],  // The 1897 dictionary lists these planet names beside the missionaries' 쥬일 'Lord's day' and 례ᄇᆡ일 'worship day'.
     ctu: ["domingo", "domiŋɡo"],
+    ja_kanbun: ["日曜", "nitɕijoː"],
+    kos: ["sacnri", "sɛnri"],  // From English Sunday.
+    zh_wenyan_edu: ["日曜", "jɐt˨ jiːu˨"],
   },
 };

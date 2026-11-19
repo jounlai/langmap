@@ -269,6 +269,7 @@ WORDS.goosebumps = {
     da: "bird",
     ja_kyo: "other",
     ja_osa: "other",
+    nan_ph: "hair",
   },
   family2: {
     ko: "bird",
@@ -486,5 +487,6 @@ WORDS.goosebumps = {
     da: ["gåsehud", "ˈɡɔːsəˌhuðˀ"],
     ja_kyo: ["さぶいぼ", "sabɯibo"],
     ja_osa: ["さぶいぼ", "sabɯibo"],
+    nan_ph: ["聳毛猴", "tsʰaŋ˦˩ mŋ̍˨˦ kau˨˦"],  // 毛 is 'hair'.
   },
 };

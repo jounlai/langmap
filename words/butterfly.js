@@ -964,5 +964,6 @@ WORDS.butterfly = {
     bej: ["bilekanay", "bilekanaj"],
     ssy: ["simbiliilico", "simbiliːliʕo"],
     maz: ["se̱pje̱", "sɛpʰɛ"],
+    ar_ye: ["مطفية السراج", "mutˤaffijat ɛsːiraːdʒ"],  // lit. 'lamp-extinguisher'
   },
 };

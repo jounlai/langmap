@@ -585,5 +585,6 @@ WORDS.cuckoo = {
     pmt: ["karevareva", "karevareva"],
     doi: ["कोयल", "koːjəl"],
     jya: ["kʰuk tut", "kʰuktut"],
+    cjy: ["姑姑虫", "ku˩ ku˩ tsʰuŋ˩"],
   },
 };

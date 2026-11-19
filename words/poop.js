@@ -989,5 +989,6 @@ WORDS.poop = {
     zne: ["mire", "mire"],
     bej: ["amba", "amba"],
     ssy: ["xage", "ħaɡe"],
+    cak: ["kis", "kis"],
   },
 };

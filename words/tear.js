@@ -811,6 +811,11 @@ WORDS.tear = {
     zh_jiao: "eye",
     zh_km: "eye",
     zh_lz: "eye",
+    ixl: "eyewater",
+    ja_mvi: "plain",
+    quc: "eyewater",
+    usp: "eyewater",
+    yua: "eyewater",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1566,5 +1571,10 @@ WORDS.tear = {
     zh_jiao: ["眼泪", "iã˥˥ le˦˨"],  // Built on the word for eye.
     zh_km: ["眼泪", "iɛ̃˥˧ luəe˨˩˨"],  // Built on the word for eye.
     zh_lz: ["眼泪", "jɛn˦˦˨ nuei˩˧"],  // Built on the word for eye.
+    ixl: ["taʼl vatz", "taʔl vats"],
+    ja_mvi: ["涙", "nada"],
+    quc: ["uwaʼl bʼaqʼwachaj", "uwaʔl ɓaqʼwatʃax"],
+    usp: ["raʼl jbʼaqʼwiich", "raʔl χɓaqʼwiːtʃ"],
+    yua: ["jaʼil ich", "haʔil itʃ"],
   },
 };

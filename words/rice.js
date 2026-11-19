@@ -936,5 +936,7 @@ WORDS.rice = {
     har: ["rūz", "ruːz"],
     ssy: ["ruuz", "ɾuːz"],
     ko_em: ["쌀", "s͈al"],
+    ja_mvi: ["米", "maɨ"],
+    tzh: ["arroz", "aros"],
   }
 };

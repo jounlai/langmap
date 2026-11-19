@@ -921,6 +921,10 @@ WORDS.rainbow = {
     bzd: "plain",
     gym: "plain",
     huv: "plain",
+    ja_rys: "plain",
+    quc: "plain",
+    usp: "plain",
+    ar_ye: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1785,5 +1789,9 @@ WORDS.rainbow = {
     bzd: ["shkabaʼ", "ʃkabaʔ"],
     gym: ["mrüträ", "mɾɨtɾɔ"],
     huv: ["ndekiamb poj", "ndekʲamb poh"],
+    ja_rys: ["みーまんつぃ", "miːmantsɨ"],  // Kohama Yaeyama.
+    quc: ["xokaqʼabʼ", "ʃokaqʼaɓ"],
+    usp: ["xukaqʼabʼ", "ʃukaqʼaɓ"],
+    ar_ye: ["قوس علان", "ɡows ʕallaːn"],  // lit. 'bow of the rainy season'
   },
 };

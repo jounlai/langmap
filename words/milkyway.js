@@ -440,7 +440,6 @@ WORDS.milkyway = {
     pmt: "other",
     tcy: "river",
     dng: "river",
-    hsn_yz: "river",
     wuu_nb: "river",
     wuu_sz: "river",
     wuu_wz: "river",
@@ -832,7 +831,6 @@ WORDS.milkyway = {
     pmt: ["Te Mangorōa", "te maŋoroːa"],
     tcy: ["ಆಕಾಶಗಂಗೆ", "aːkaːʃaɡaŋɡe"],
     dng: ["тянхә", "tʰiæ̃˨˦xə˨˦"],  // Literally 'sky river'.
-    hsn_yz: ["银河", "ĩ˩˩˨ ɣo˩˩˨"],  // Yongzhou also says 天河 'sky river'.
     wuu_nb: ["天河", "tʰi˥˨ ɦəu˧˩˧"],  // Literally 'sky river'. Reading from MCPDict 寧波.
     wuu_sz: ["天河", "tʰi˦˦ ɦəu˨˨˧"],  // 'The heavenly river'.
     wuu_wz: ["横河", "viɛ˧˩ vu˧˩"],  // Literally 'crosswise river'.

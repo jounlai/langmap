@@ -563,6 +563,10 @@ WORDS.tobacco = {
     ja_kg: "tabaco",
     ar_sd: "smoke",
     ote: "tabaco",
+    cdo: "smoke",
+    ixl: "plain",
+    ja_mvi: "tabaco",
+    quc: "plain",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -1066,5 +1070,9 @@ WORDS.tobacco = {
     ja_kg: ["たぼこ", "taboko"],
     ar_sd: ["دخان", "duˈxaːn"],
     ote: ["tabako", "tabako"],
+    cdo: ["薰箬", "houŋ˥˥ nuoʔ˥"],  // Literally 'smoke leaf'.
+    ixl: ["may", "maj"],
+    ja_mvi: ["たぶく", "tabuku"],
+    quc: ["sikʼ", "sikʼ"],
   },
 };

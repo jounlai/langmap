@@ -183,7 +183,7 @@ WORDS.good = {
     ja_hak: ["よか", "joka"],
     ja_kyo: ["ええ", "eː"],
     ja_hir: ["ええ", "eː"],
-    ja_mvi: ["—", "—"],
+    ja_mvi: ["じょーとぅー", "dʒoːtuː"],
     ja_rys: ["かいしゃーん", "kaiɕaːɴ"],
     ko: ["좋다", "tɕotʰa"],
     ko_kp: ["좋다", "tɕotʰa"],

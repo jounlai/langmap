@@ -1232,5 +1232,6 @@ WORDS.head = {
     p_jpk: ["*kanpu", "kanpu"],
     nrf_gg: ["tête", "tɛːt"],
     bxd: ["ṵ35 lam31", "ṵ˧˥ lam˧˩"],  // Wiktionary gives u³¹ lam⁵¹ with different tones.
+    ko_jeju: ["대강이", "tɛɡaŋi"],
   },
 };

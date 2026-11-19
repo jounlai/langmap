@@ -837,6 +837,10 @@ WORDS.spider = {
     ja_sd: "plain",
     ar_sd: "ankabut",
     tar: "plain",
+    cak: "plain",
+    ixl: "plain",
+    ja_mvi: "plain",
+    quc: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -1614,5 +1618,9 @@ WORDS.spider = {
     ja_sd: ["蜘蛛", "kɯmo"],
     ar_sd: ["عنكبوت", "ʕankaˈbuːt"],
     tar: ["roʼká", "ɾoʔka"],
+    cak: ["om", "om"],
+    ixl: ["xim", "ʂim"],
+    ja_mvi: ["蜘蛛", "kuʋ"],
+    quc: ["am", "am"],
   },
 };

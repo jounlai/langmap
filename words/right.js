@@ -885,6 +885,10 @@ WORDS.right = {
     zh_jh: "plain",
     zh_lz: "plain",
     ote: "plain",
+    cpx: "plain",
+    ixl: "plain",
+    ko_jeju: "straight",
+    usp: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1711,5 +1715,9 @@ WORDS.right = {
     zh_jh: ["右", "iəu˦˦"],
     zh_lz: ["右", "jou˩˧"],
     ote: ["ʼñe̲i", "ʔɲɛi"],
+    cpx: ["正爿", "tsia˦˨ pe˩˧"],  // 正 'right' + 爿 'side'.
+    ixl: ["sebʼal", "seɓal"],
+    ko_jeju: ["오른펜", "oɾɯnpʰen"],
+    usp: ["wikaqʼabʼ", "wikaqʼaɓ"],
   },
 };

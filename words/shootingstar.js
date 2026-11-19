@@ -378,7 +378,6 @@ WORDS.shootingstar = {
     ug: "moving",
     niu: "moving",
     rap: "moving",
-    hsn_yz: "moving",
     ko_em: "moving",
   },
   routes: {
@@ -703,7 +702,6 @@ WORDS.shootingstar = {
     ug: ["ئاقار يۇلتۇز", "ɑqɑr jultuz"],
     niu: ["fetū lele", "fetuː lele"],
     rap: ["hetuʻu rere", "hetuʔu ɾeɾe"],
-    hsn_yz: ["流星", "liəɯ˩˩˨ ɕĩ˧˧"],
     ko_em: ["류셩", "ɾjusjəŋ"],
   },
 };

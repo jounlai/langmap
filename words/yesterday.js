@@ -1001,6 +1001,9 @@ WORDS.yesterday = {
     wuu_jx: "distinct",
     zh_cq: "distinct",
     zh_zz: "distinct",
+    ja_mvi: "distinct",
+    toj: "distinct",
+    usp: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1947,5 +1950,8 @@ WORDS.yesterday = {
     wuu_jx: ["昨日子", "zoʔ˩˨ ȵieʔ˥ tsɿ˦˦"],  // tomorrow: 明朝; 昨 'last' + 日子 'day'. MCPDict 嘉興 (嘉兴方言同音字汇) cites 昨 in 昨日子.
     zh_cq: ["昨天儿", "tso˨˩ tʰiɚ˥"],  // tomorrow: 明天儿; 昨天 with the 儿 suffix, the Chongqing form (Wiktionary dialect table); reading from MCPDict 重慶.
     zh_zz: ["夜儿", "iɛɻ˧˩˨"],  // Literally 'night'; also 夜儿个.
+    ja_mvi: ["昨日", "ksɨnu"],
+    toj: ["ek", "ek"],
+    usp: ["íwr", "íwr"],
   },
 };

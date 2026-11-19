@@ -301,7 +301,6 @@ WORDS.dragon = {
     nhe: "draco",
     nhw: "draco",
     ngu: "draco",
-    usp: "draco",
     zap: "draco",
     ses: "draco",
     nhx: "serpent",
@@ -842,7 +841,6 @@ WORDS.dragon = {
     nhe: ["dragón", "draˈɡon"],  // A loan of the Spanish dragón; the New Testament uses it for the dragon of Revelation.
     nhw: ["dragón", "draˈɡon"],  // A loan of the Spanish dragón; the New Testament uses it for the dragon of Revelation.
     ngu: ["dragón", "draˈɡon"],  // A loan of the Spanish dragón; the New Testament uses it for the dragon of Revelation.
-    usp: ["dragón", "draɡon"],  // A loan of the Spanish dragón; the New Testament uses it for the dragon of Revelation.
     zap: ["dragón", "draɡon"],  // A loan of the Spanish dragón; the New Testament uses it for the dragon of Revelation.
     ses: ["dragoŋ", "draɡoŋ"],  // The Bible describes the beast as the one 'they call dragoŋ', a loan of the European dragon word.
     nhx: ["kua̱kuakowa̱wé̱j", "kʷaːkʷakowaːˈweːh"],  // A compound built on kowa̱ꞌ 'snake'; the Isthmus Nahuatl New Testament uses it for the dragon.

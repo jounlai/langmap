@@ -467,6 +467,64 @@ WORDS.dragon = {
     te: "serpent",
     kn: "serpent",
     hns: "serpent",
+    abv: "tannin",
+    acw: "tannin",
+    ada: "draco",
+    afb: "tannin",
+    ak: "serpent",
+    apw: "serpent",
+    ar_eg: "tannin",
+    ar_gulf: "tannin",
+    ar_iq: "tannin",
+    ar_sa: "tannin",
+    ar_sd: "tannin",
+    ar_tn: "tannin",
+    ar_ye: "tannin",
+    ay: "draco",
+    ayl: "tannin",
+    bbc: "naga",
+    bi: "other",
+    bxr: "long",
+    cng: "plain",
+    cop: "draco",
+    crs: "draco",
+    cv: "draco",
+    en_em: "draco",
+    en_sg: "draco",
+    gaa: "draco",
+    gcf: "draco",
+    gil: "draco",
+    ii: "plain",
+    kbp: "serpent",
+    kg: "draco",
+    khw: "azhdaha",
+    ko_yb: "long",
+    ksw: "plain",
+    loz: "draco",
+    lua: "draco",
+    mfe: "draco",
+    nbl: "draco",
+    nia: "naga",
+    nso: "draco",
+    os: "serpent",
+    quz: "draco",
+    rom: "draco",
+    sa: "serpent",
+    se: "plain",
+    slr: "other",
+    ssw: "draco",
+    su: "naga",
+    szl: "draco",
+    tll: "draco",
+    ts: "draco",
+    tsz: "draco",
+    ttj: "serpent",
+    tum: "serpent",
+    tvl: "draco",
+    war: "draco",
+    xkz: "plain",
+    yai: "azhdaha",
+    yua: "serpent",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -873,5 +931,63 @@ WORDS.dragon = {
     te: ["మహాసర్పం", "mahaːsarpam"],  // Literally "great serpent" (mahā + sarpam); the Telugu Bible (NWT) renders the dragon of Revelation as మహాసర్పం.
     kn: ["ಘಟಸರ್ಪ", "ɡʱaʈasaɾpa"],  // A compound of ಸರ್ಪ "serpent"; the Kannada Bible (NWT) renders the dragon of Revelation as ದೊಡ್ಡ ಘಟಸರ್ಪ "great serpent".
     hns: ["barka saap", "bəɽkaː saːp"],  // Literally "big snake"; the Sarnami New Testament calls the dragon of Revelation barka laal saap "big red snake".
+    abv: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    acw: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ada: ["drako", "drako"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    afb: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ak: ["ɔwɔ kɛse", "ɔwɔ kɛse"],  // Literally "big snake".
+    apw: ["tłʼiishcho", "tɬʼiːʃtʃo"],  // Built on tłʼiish "snake"; the Western Apache New Testament has tłʼiishcho for the dragon of Revelation, beside tłʼiish for the old serpent.
+    ar_eg: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ar_gulf: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ar_iq: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ar_sa: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ar_sd: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ar_tn: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ar_ye: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    ay: ["dragona", "draˈɡona"],  // Borrowed from Spanish dragón.
+    ayl: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.
+    bbc: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Toba Batak Bible (NWT) has naga na balga "great dragon", beside ulok "snake" for the old serpent.
+    bi: ["bigfala algita", "biɡfala alɡita"],  // Literally "big alligator".
+    bxr: ["луу", "luː"],  // Borrowed from Chinese 龍 lóng.
+    cng: ["xuw", "ɕuw"],  // No image is recorded for it, so it counts as a word of its own.
+    cop: ["ⲇⲣⲁⲕⲱⲛ", "draˈkoːn"],  // Borrowed from Greek δράκων drákōn; it also means "serpent".
+    crs: ["dragon", "draɡɔ̃"],  // From French dragon; the Seychellois Creole Bible (NWT) has gro dragon "great dragon", beside serpan "snake" for the old serpent.
+    cv: ["дракон", "draˈkon"],  // Borrowed from Russian дракон.
+    en_em: ["dragon", "ˈdraɡən"],  // From Old French dragon, from Latin draco; the word of the 1611 King James Bible.
+    en_sg: ["dragon", "ˈdrɛɡən"],  // From Latin draco, the English word.
+    gaa: ["drako", "drako"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    gcf: ["dragon", "dʁaɡɔ̃"],  // From French dragon; the Guadeloupean Creole Bible (NWT) has gran dragon "great dragon", beside sèpan "snake" for the old serpent.
+    gil: ["rakon", "ɾakon"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    ii: ["ꇐ", "lu˧˧"],  // Nuosu lu; no image is recorded for it, so it counts as a word of its own.
+    kbp: ["ɖʋmanʋʋ", "ɖʊmanʊː"],  // Shares the stem of ɖʋm "snake"; the Kabiye Bible (NWT) has ɖʋmanʋʋ sɔsɔʋ "great dragon", beside ɖʋm for the old serpent.
+    kg: ["dragoni", "draɡoni"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    khw: ["اژدار", "aʒˈdar"],  // Borrowed from Persian اژدر aždar.
+    ko_yb: ["용", "joŋ"],  // Sino-Korean 龍, the Korean word.
+    ksw: ["ပယိၤ", "pəji"],  // Cognate with Eastern Pwo Karen ယှံင်; the Sgaw Karen Bible (NWT) has ပယိၤဖးဒိၣ် "great dragon", beside ဂုၢ် "snake" for the old serpent.
+    loz: ["drakoni", "drakoni"],  // A loan of the European dragon word; the Lozi Bible (NWT) has drakoni yetuna "great dragon", beside noha "snake" for the old serpent.
+    lua: ["dragon", "draɡon"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    mfe: ["dragon", "dʁaɡɔ̃"],  // From French dragon; the Mauritian Creole Bible (NWT) has gro dragon "great dragon", beside serpan "snake" for the old serpent.
+    nbl: ["idragoni", "idraˈɡoni"],  // A loan of the European dragon word; the Southern Ndebele Bible (NWT) has idragoni ekulu "great dragon", beside inyoka "snake" for the old serpent.
+    nia: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Nias Bible (NWT) has naga sebua "great dragon", beside ulö "snake" for the old serpent.
+    nso: ["drakone", "drakone"],  // A loan of the European dragon word; the Northern Sotho Bible (NWT) has drakone e kgolo "great dragon", beside noga "snake" for the old serpent.
+    os: ["залиаг калм", "zaliaɡ kalm"],  // Калм is the snake.
+    quz: ["dragón", "dɾaˈɡon"],  // Borrowed from Spanish dragón; the Cusco Quechua Bible (NWT) has jatunkaray dragón "huge dragon", beside mach'aqway "snake" for the old serpent.
+    rom: ["dragúno", "draˈɡuno"],  // Romani loan of the European dragon word.
+    sa: ["उरङ्ग", "uɾɐŋɡɐ"],  // Literally "breast-goer"; the same word means "snake, serpent".
+    se: ["guovdi", "ˈkuɔvːti"],  // From Proto-Sámi *kuovtē; it also means "sea snake".
+    slr: ["boğunaq", "poːʁɨnɨχ"],  // The same word means "thunder"; from Proto-Turkic *bognuk "stifling".
+    ssw: ["drago", "draɡo"],  // A loan of the European dragon word; the Swazi Bible (NWT) has drago lomkhulu "great dragon", beside inyoka "snake" for the old serpent. Wiktionary also lists nyokangwenya, a compound of inyoka "snake" and ingwenya "crocodile".
+    su: ["naga", "naɡa"],  // Borrowed from Sanskrit nāga.
+    szl: ["drach", "drax"],  // Borrowed from German Drache; the same word names a toy kite.
+    tll: ["dragɔ", "draɡɔ"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    ts: ["dragona", "draɡona"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    tsz: ["dragoni", "draɡoni"],  // Borrowed from Spanish dragón.
+    ttj: ["ekijoka", "ekidʒoka"],  // Built on enjoka "snake"; the Tooro Bible (NWT) has ekijoka ekikooto "great dragon", beside enjoka for the old serpent.
+    tum: ["chinjoka", "tʃindʒoka"],  // Built on njoka "snake"; the Tumbuka Bible (NWT) has chinjoka chikuru "great dragon", beside njoka for the old serpent.
+    tvl: ["talako", "talako"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
+    war: ["dragon", "dɾaˈɡon"],  // From Spanish dragón; the Waray Bible (NWT) has daku nga dragon "great dragon", beside halas "snake" for the old serpent.
+    xkz: ["druk", "ɖùk"],  // A native word from Proto-Sino-Tibetan *m-bruk, the same as Dzongkha འབྲུག; it also names Bhutan.
+    yai: ["aždahor", "aʒdaˈhor"],  // Borrowed from Tajik аждаҳо, from Classical Persian aždahā.
+    yua: ["nojoch kaan", "nohotʃ kaːn"],  // Literally "big snake".
   },
 };

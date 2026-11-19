@@ -1022,5 +1022,6 @@ WORDS.snow = {
     kbp: ["ɖɔmbɛɛ", "ɖɔmbɛː"],
     urh: ["imicho", "imitʃo"],
     fon: ["laglási linfín", "laɡlási lĩfĩ́"],
+    ach: ["pee", "peː"],  // also hail
   }
 };

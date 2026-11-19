@@ -58,7 +58,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "sunflower", "dog", "woof", "cat", "horse", "bear", "lion", "camel", "elephant", "monkey", "snake", "spider", "bat", "bird", "cockcrow", "cuckoo", "turkey", "egg", "butterfly", "dragonfly", "ladybird", "fish", "whale", "octopus", "jellyfish"],
+        words: ["tree", "sunflower", "dog", "woof", "cat", "horse", "bear", "lion", "camel", "elephant", "monkey", "snake", "dragon", "spider", "bat", "bird", "cockcrow", "cuckoo", "turkey", "egg", "butterfly", "dragonfly", "ladybird", "fish", "whale", "octopus", "jellyfish"],
     },
     {
         key: "home",

@@ -1200,7 +1200,7 @@ WORDS.snake = {
     kru: ["नेर्र", "nerr"],
     ks: ["سَرُپھ", "sarupʰ"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     ksb: ["nyoka", "njoka"],
-    ku: ["ejdeha", "ɛʒdɛˈhɑː"],
+    ku: ["mar", "mɑːɾ"],  // ejdeha, the former cell here, is the dragon word (Wiktionary: "dragon").
     kum: ["йылан", "jɯlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     kw: ["sarf", "sarf"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     ky: ["жылан", "dʒɯˈlɑn"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".

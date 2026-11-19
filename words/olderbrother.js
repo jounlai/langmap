@@ -900,6 +900,11 @@ WORDS.olderbrother = {
     ko_bus: "age",
     itz: "age",
     nds: "plain",
+    kg: "age",
+    kmb: "age",
+    nd: "age",
+    ny: "age",
+    zu: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1741,5 +1746,10 @@ WORDS.olderbrother = {
     ko_bus: ["형", "çʌŋ"],
     itz: ["sukuʼun", "sukuʔun"],
     nds: ["Broder", "ˈbroːdɐ"],
+    kg: ["yaya", "jaja"],  // Also used for an older sister.
+    kmb: ["kota", "kota"],
+    nd: ["umnewethu", "umnewetʰu"],  // "My older brother"; his or her older brother is umnewabo. Ndebele kin terms carry the possessor.
+    ny: ["mkulu", "m̩kulu"],
+    zu: ["umkhuluwe", "umkʰuˈluːwe"],  // Possessed forms: umnewethu my elder brother.
   },
 };

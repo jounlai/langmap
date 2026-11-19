@@ -862,6 +862,13 @@ WORDS.yellow = {
     krc: "sari",
     tsg: "plain",
     wo: "galbinus",
+    kg: "galbinus",
+    nso: "plain",
+    rn: "plain",
+    seh: "other",
+    sn: "ghel",
+    st: "plain",
+    tum: "ghel",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1663,5 +1670,12 @@ WORDS.yellow = {
     krc: ["сары", "saˈrɯ"],
     tsg: ["biyaning", "bijaniŋ"],
     wo: ["soon", "sɔːn"],
+    kg: ["zione", "zione"],
+    nso: ["serolwane", "serolwane"],
+    rn: ["umuhondo", "umuhondo"],
+    seh: ["safarau", "safarau"],  // Named after saffron, Portuguese açafrão.
+    sn: ["yero", "jero"],
+    st: ["tshehla", "tsʰeɬa"],
+    tum: ["yelo", "jelo"],
   },
 };

@@ -1004,6 +1004,7 @@ WORDS.blue = {
     ja_mvi: "grue",
     kde: "borrowed",
     vec: "distinct",
+    kqn: "distinct",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🔵", "en": "blue has its own word", "ja": "青に専用の語", "ko": "파랑에 고유한 낱말", "zh": "蓝有专词", "yue": "藍有專詞", "vi": "lam có từ riêng", "th": "น้ำเงินมีคำเฉพาะ", "id": "biru punya katanya sendiri", "hi": "नीले का अपना शब्द", "de": "eigenes Wort für Blau", "fr": "le bleu a son mot", "it": "il blu ha una parola propria", "es": "el azul tiene palabra propia", "pt": "o azul tem palavra própria", "ru": "у синего своё слово", "uk": "синій має власне слово", "ar": "للأزرق كلمته الخاصة", "he": "לכחול מילה משלו", "sw": "buluu lina neno lake"},
@@ -1966,5 +1967,6 @@ WORDS.blue = {
     ja_mvi: ["青", "oː"],
     kde: ["buluu", "buluː"],
     vec: ["blu", "blu"],
+    kqn: ["kifufya", "kifufja"],
   },
 };

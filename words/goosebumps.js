@@ -273,6 +273,7 @@ WORDS.goosebumps = {
     kok: "other",
     kos: "other",
     vec: "bird",
+    zu: "plain",
   },
   family2: {
     ko: "bird",
@@ -494,5 +495,6 @@ WORDS.goosebumps = {
     kok: ["आंगार कांटो", "aːŋɡaːɾ kaːɳʈo"],  // Literally "a thorn on the body", as Marathi काटा येणे.
     kos: ["mihsrihsr", "mɨʂɨʂ"],  // The same word as "cold".
     vec: ["penòti", "peˈnɔti"],  // Penòti are also a bird's pin feathers.
+    zu: ["uhlavane", "uɬaˈvaːne"],
   },
 };

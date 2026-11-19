@@ -476,6 +476,13 @@ WORDS.dragonfly = {
     ltg: "plain",
     myv: "other",
     nds: "other",
+    am: "other",
+    ee: "plain",
+    loz: "plain",
+    nso: "plain",
+    ssw: "plain",
+    tiv: "plain",
+    ts: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -897,5 +904,12 @@ WORDS.dragonfly = {
     ltg: ["spuorņs", "spuɔ̯rnʲtsʲ"],
     myv: ["салмуксонь салы", "salmuksonʲ salɨ"],
     nds: ["Goldpeer", "ˈɡɔltpeːɐ̯"],  // Gold + Peerd 'horse': the golden horse.
+    am: ["የውኃ ተርብ", "jəwɨha tərb"],  // Literally "water wasp": ተርብ alone is the wasp.
+    ee: ["zrɔtsizrɔtsi", "zrɔtsizrɔtsi"],
+    loz: ["ñulule", "ŋulule"],
+    nso: ["leponono", "leponono"],
+    ssw: ["jekamanti", "dʒekamanti"],
+    tiv: ["maanama", "maːnama"],
+    ts: ["xipereta", "ʃipereta"],
   },
 };

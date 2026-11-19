@@ -719,6 +719,8 @@ WORDS.saturday = {
     niu: "other",
     bsq: "saturn",
     men: "sabbath",
+    kj: "plain",
+    lg: "count",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1380,5 +1382,7 @@ WORDS.saturday = {
     niu: ["Aho Faiumu", "aho faiumu"],
     bsq: ["Sáɖádè", "sáɖádè"],
     men: ["Simbiti", "simbiti"],
+    kj: ["Olomakaya", "olomakaja"],
+    lg: ["Lwamukaaga", "lwamukaːɡa"],
   },
 };

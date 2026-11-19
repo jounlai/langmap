@@ -637,5 +637,6 @@ WORDS.chocolate = {
     zh_jh: ["巧克力", "tɕʰiaɔ˨˩˨ kʰəʔ˥˥ niʔ˥˥"],
     ayl: ["شكلاطة", "ʃuklaːtˤa"],
     kok: ["चॉकलेट", "tʃɔkleʈ"],
+    kmb: ["xokolate", "ʃokolate"],
   }
 };

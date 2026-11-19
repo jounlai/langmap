@@ -1182,5 +1182,6 @@ WORDS.iron = {
     jpr: ["אהן", "ɒːhæn"],
     p_viet: ["*k-rac", "k-rac"],
     nez: ["kícuy", "kítsuj"],
+    ctu: ["hierro", "jero"],
   },
 };

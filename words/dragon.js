@@ -553,6 +553,10 @@ WORDS.dragon = {
     pon: "draco",
     sas: "naga",
     sda: "naga",
+    ctu: "draco",
+    guc: "serpent",
+    nv: "other",
+    tzh: "draco",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -1045,5 +1049,9 @@ WORDS.dragon = {
     pon: ["drakon", "drakon"],  // A loan of the Greek and Latin word; the Pohnpeian Bible (NWT) has lapalahn drakon "great dragon" in Revelation 12:9, beside serpent for the old serpent.
     sas: ["nage", "naɡə"],  // Malay naga, from Sanskrit nāga, with Sasak final -e; the Sasak Bible (LAI) has nage saq belẽq "the great dragon" in Revelation 12:9, beside ulah "snake" for the old serpent.
     sda: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Toraja Bible (LAI) has naga kapua "great dragon" in Revelation 12:9, beside ulaʼ "snake" for the old serpent.
+    ctu: ["dragón", "dɾaɡon"],
+    guc: ["wüi miyoʼu", "wɨi mijoʔu"],  // Literally 'big snake' (wüi 'snake' + miyoʼu 'big').
+    nv: ["naʼashǫ́ʼiitsoh", "nɑ̀ʔɑ̀ʃṍʔìːtsʰòh"],  // Literally 'big lizard' (naʼashǫ́ʼii + -tsoh); the Navajo Bible keeps tłʼiish 'snake' for the old serpent.
+    tzh: ["dragón", "dɾaɡon"],
   },
 };

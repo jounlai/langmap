@@ -860,5 +860,6 @@ WORDS.silk = {
     tsz: ["seda", "seda"],
     ig: ["silk", "silk"],
     cro: ["baalakkáhpikisshe", "baːlakːáhpikiʃːe"],
+    mxv: ["seda", "seda"],
   }
 };

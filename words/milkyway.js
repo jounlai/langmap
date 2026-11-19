@@ -435,6 +435,10 @@ WORDS.milkyway = {
     pqm: "road",
     cro: "other",
     nez: "road",
+    niu: "other",
+    pkp: "other",
+    pmt: "other",
+    tcy: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -813,5 +817,9 @@ WORDS.milkyway = {
     pqm: ["Possesomuwi-awtossis", "possesomuwi awtossis"],  // Also Kehtaqsuwawt.
     cro: ["Ammiíaalaau", "amːiíaːlaːu"],
     nez: ["cʼewcʼéewnim ʼískit", "tsʼewtsʼéːwnim ʔískit"],
+    niu: ["Kaniva", "kaniva"],
+    pkp: ["Te Mangōloa", "te maŋoːloa"],
+    pmt: ["Te Mangorōa", "te maŋoroːa"],
+    tcy: ["ಆಕಾಶಗಂಗೆ", "aːkaːʃaɡaŋɡe"],
   },
 };

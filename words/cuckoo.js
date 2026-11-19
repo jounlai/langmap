@@ -580,5 +580,9 @@ WORDS.cuckoo = {
     acf: ["koukou manyòk", "kuku mãjɔk"],  // The mangrove cuckoo, the island's cuckoo.
     chr: ["ᏓᏡᎦ", "datluɡa"],
     tkl: ["kāleva", "kaːleva"],
+    mrq: ["kāʻevaʻeva", "kaːʔevaʔeva"],
+    niu: ["kalue", "kalue"],
+    pmt: ["karevareva", "karevareva"],
+    doi: ["कोयल", "koːjəl"],
   },
 };

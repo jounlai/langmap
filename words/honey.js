@@ -1189,5 +1189,6 @@ WORDS.honey = {
     dbl: ["girnyjal", "ˈɡiɻɲɟal"],
     cro: ["akihchilakkaashbilishíishte", "akihtʃilakːaːʃbiliʃíːʃte"],
     nez: ["teemísquy", "teːmísquj"],
+    kmu: ["tumemo timo", "tumemo timo"],
   },
 };

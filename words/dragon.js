@@ -668,7 +668,7 @@ WORDS.dragon = {
     vi: ["rồng", "zəwŋ˨˩"],  // Inherited from Proto-Vietic *-roːŋ, itself from Old Chinese 龍.
     vi_c: ["rồng", "ɹəwŋ͡m˦˨"],  // The same word as Northern Vietnamese, from Old Chinese 龍 via Proto-Vietic.
     vi_s: ["rồng", "ɹəwŋ͡m˨˩"],  // The same word as Northern Vietnamese, from Old Chinese 龍 via Proto-Vietic.
-    th: ["มังกร", "maŋ˧kɔːn˧"],  // From makara, the sea monster of Indian myth (Thai มกร).
+    th: ["มังกร", "maŋ˧kɔːn˧"],  // From มกร makara, the sea monster of Indian myth; now the word for both the Chinese 龍 and the winged Western dragon. Thai keeps นาค (phaya nak) for the nāga serpent of Buddhist tradition, and names the zodiac Year of the Dragon มะโรง marong, from Old Khmer roṅ (compare Chinese 龍).
     lo: ["ມັງກອນ", "maŋ˧˥ kɔːn˩˧"],  // From Sanskrit makara, the sea monster of Indian myth.
     km: ["នាគ", "niək"],  // From Sanskrit nāga "serpent".
     my: ["နဂါး", "nəɡá"],  // Borrowed from Pali nāga.

@@ -823,6 +823,11 @@ WORDS.thousand = {
     ndc: "plain",
     ng: "plain",
     akb: "plain",
+    shn: "plain",
+    vi_c: "qian",
+    vi_s: "qian",
+    doi: "hazar",
+    kok: "hazar",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मैनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -1587,5 +1592,10 @@ WORDS.thousand = {
     ndc: ["chiuru", "tʃiuru"],
     ng: ["eyovi", "ejovi"],
     akb: ["saribu", "saribu"],
+    shn: ["ႁဵင်", "heŋ˨˦"],
+    vi_c: ["ngàn", "ŋaːŋ˦˨"],
+    vi_s: ["ngàn", "ŋaːŋ˨˩"],
+    doi: ["ज्हार", "dʒʱaːr"],
+    kok: ["हजार", "ɦədʒaːɾ"],
   },
 };

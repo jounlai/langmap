@@ -812,6 +812,7 @@ WORDS.tea = {
     tlh: "other",
     car: "other",
     cro: "leaf",
+    doi: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1584,5 +1585,6 @@ WORDS.tea = {
     tlh: ["Dargh", "ɖɑrɣ"],
     car: ["asinpan", "asinpan"],  // 'The hot one', from asin 'hot'.
     cro: ["bilishpítaape", "biliʃpítaːpe"],
+    doi: ["चाह्", "tʃaːh"],
   },
 };

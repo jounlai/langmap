@@ -600,6 +600,7 @@ WORDS.dragon = {
     tig: "plain",
     ja_oki: "long",
     ssy: "tannin",
+    ja_edo: "long",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -717,7 +718,7 @@ WORDS.dragon = {
     vi_s: ["rồng", "ɹəwŋ͡m˨˩"],  // The same word as Northern Vietnamese, from Old Chinese 龍 via Proto-Vietic.
     th: ["มังกร", "maŋ˧kɔːn˧"],  // From มกร makara, the sea monster of Indian myth; now the word for both the Chinese 龍 and the winged Western dragon. Thai keeps นาค (phaya nak) for the nāga serpent of Buddhist tradition, and names the zodiac Year of the Dragon มะโรง marong, from Old Khmer roṅ (compare Chinese 龍).
     lo: ["ມັງກອນ", "maŋ˧˥ kɔːn˩˧"],  // From Sanskrit makara, the sea monster of Indian myth.
-    km: ["នាគ", "niək"],  // From Sanskrit nāga "serpent".
+    km: ["នាគ", "niək"],  // From Sanskrit nāga "serpent"; Wiktionary glosses it "nāga, dragon". The zodiac Year of the Dragon is ឆ្នាំរោង chnam roong, from Old Khmer roṅ, which Wiktionary traces to Vietic (compare Vietnamese rồng and Thai มะโรง).
     my: ["နဂါး", "nəɡá"],  // Borrowed from Pali nāga.
     id: ["naga", "ˈnaɡa"],  // From Malay naga, from Sanskrit nāga "large snake".
     ms: ["naga", "ˈnaɡa"],  // Borrowed from Sanskrit nāga "large snake".
@@ -1139,5 +1140,6 @@ WORDS.dragon = {
     tig: ["አስሀለት", "ʔasəhalat"],
     ja_oki: ["竜", "ɾuː"],
     ssy: ["tannan", "tannan"],
+    ja_edo: ["竜", "ɾʲɯː"],
   },
 };

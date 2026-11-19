@@ -1184,5 +1184,6 @@ WORDS.person = {
     p_jpk: ["*pitə", "pitə"],
     kxv: ["maṇsi", "maɳsi"],
     omc: ["çiamo chipæc", "siamo tʃipæk"],
+    ja_aom: ["人", "çito"],
   }
 };

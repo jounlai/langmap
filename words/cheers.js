@@ -340,6 +340,11 @@ WORDS.cheers = {
     zh_wenyan_edu: "health",
     zh_yuan: "drain",
     gag: "health",
+    ar_jo: "health",
+    ar_lb: "other",
+    ar_ma: "health",
+    ar_sy: "other",
+    ar_tn: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -625,5 +630,10 @@ WORDS.cheers = {
     zh_wenyan_edu: ["萬壽無疆", "maːn˨ sɐu˨ mou˨˩ kœːŋ˥"],  // 'Long life without limit!', cried as the cup is raised in the Shijing ode Qiyue; in the Cantonese literary reading.
     zh_yuan: ["滿飲一杯", "muɔn iəm i pui"],  // 'Drink a full cup!' — what the host says as he offers the wine on the Yuan stage; Lu Su toasts Guan Yu with it in The Single Sword Meeting.
     gag: ["saalık", "saːˈlɯk"],
+    ar_jo: ["بصحتك", "ˈbsˤaħtak"],
+    ar_lb: ["كاسك", "ˈkeːsak"],
+    ar_ma: ["بالصحة", "bsˤaħa"],
+    ar_sy: ["كاسك", "ˈkeːsak"],
+    ar_tn: ["بصحتكم", "bsˤaħˈħitkum"],
   },
 };

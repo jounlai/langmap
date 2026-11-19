@@ -513,6 +513,8 @@ WORDS.mobilephone = {
     iu: "other",
     jbo: "carry",
     xal: "hand",
+    ar_gulf: "carry",
+    ko_yb: "hand",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -969,5 +971,7 @@ WORDS.mobilephone = {
     iu: ["ᐅᖄᓚᐅᑎᕋᓛᖅ", "uqaːlautiʁalaːq"],
     jbo: ["selbeifonxa", "selbejˈfonxa"],
     xal: ["һар утцн", "ɣar utsn̩"],
+    ar_gulf: ["موبايل", "moːbaːjl"],
+    ko_yb: ["써우지", "s͈ʌudʑi"],
   },
 };

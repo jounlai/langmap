@@ -731,6 +731,8 @@ WORDS.camel = {
     nan_ph: "luotuo",
     nan_xm: "luotuo",
     nan_zz: "luotuo",
+    ja_edo: "luotuo",
+    sux: "other",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -1401,5 +1403,7 @@ WORDS.camel = {
     nan_ph: ["駱駝", "lɔk˨˦ to˨˦"],
     nan_xm: ["骆驼", "lɔk̚˦ to˨˦"],
     nan_zz: ["骆驼", "lɔk̚˩˨˩ to˩˧"],
+    ja_edo: ["駱駝", "ɾakɯda"],  // A pair of camels shipped to Dejima in 1821 toured Japan as a famous sideshow.
+    sux: ["𒄠𒋛𒄯𒊏𒀭", "amsixarːan"],  // Literally 'caravan elephant': amsi 'elephant' plus ḫarran 'road, caravan'.
   },
 };

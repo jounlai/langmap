@@ -766,6 +766,7 @@ WORDS.monday = {
     wls: "moon",
     yao: "other",
     zap: "moon",
+    ja_heian: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1474,5 +1475,6 @@ WORDS.monday = {
     wls: ["Monite", "monite"],
     yao: ["Lyakulemba", "ʎakulemba"],
     zap: ["lunes", "lunes"],
+    ja_heian: ["月曜", "ɡetueu"],  // Heian court calendars marked each day with its luminary; Monday was 月曜, 'the moon'.
   },
 };

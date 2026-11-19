@@ -743,5 +743,8 @@ WORDS.computer = {
     pqm: ["kompiyuhta", "kompijuhta"],
     cro: ["kalíhchiiliche iiwaachichéhkuua", "kalíhtʃiːlitʃe iːwaːtʃitʃéhkuːa"],
     sma: ["daatovre", "ˈtɑːtuβrɛ"],
+    pal: ["𐭠𐭬𐭠𐭫𐭪𐭫𐭩", "aːmaːrɡar"],  // There were no computers; an āmārgar was the reckoner, the accountant who kept the king's sums.
+    syc: ["ܟܪܡܐ", "karmɑ"],  // There were no computers; a karmā was the counting table, the abacus on which sums were worked out.
+    xpr: ["ʾḥmrkr", "ahmaːrkar"],  // There were no computers; an ahmārkar was the accountant who did the reckoning.
   },
 };

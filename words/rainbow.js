@@ -917,6 +917,7 @@ WORDS.rainbow = {
     tig: "other",
     hsn_yz: "plain",
     zh_zz: "plain",
+    ar_jo: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1777,5 +1778,6 @@ WORDS.rainbow = {
     tig: ["ቀሻ ደብር", "qʼaʃʃa dabar"],
     hsn_yz: ["七道虹", "tʃʰʒ̍˧˧ dɔ˨˦ kã˨˦"],  // Literally 'seven-band rainbow', with 虹 in its colloquial reading.
     zh_zz: ["虹", "tɕiaŋ˧˩˨"],  // The colloquial reading of 虹 (Mandarin jiàng); xuŋ˦˨ is literary.
+    ar_jo: ["قوس", "ʔoːs"],
   },
 };

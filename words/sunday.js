@@ -731,6 +731,10 @@ WORDS.sunday = {
     tvl: "holy",
     tzh: "lord",
     wls: "holy",
+    ja_heian: "sun",
+    cgg: "sun",
+    nyo: "sun",
+    yao: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1402,5 +1406,9 @@ WORDS.sunday = {
     tvl: ["Aso Sa", "aso sa"],
     tzh: ["domingo", "domiŋɡo"],
     wls: ["ʻAhotapu", "ʔahotapu"],
+    ja_heian: ["日曜", "nitieu"],  // Heian court calendars marked each day with its luminary; Sunday, 日曜 'the sun', was also written 蜜, from Sogdian mīr 'sun'.
+    cgg: ["Esande", "esande"],
+    nyo: ["Sande", "sande"],
+    yao: ["Lyamlungu", "ʎamluŋɡu"],
   },
 };

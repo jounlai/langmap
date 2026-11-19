@@ -801,6 +801,16 @@ WORDS.tear = {
     wuu: "eye",
     yue_zs: "eye",
     ja_kg: "plain",
+    ar_sd: "plain",
+    nan_hai: "eye",
+    wuu_nb: "eye",
+    wuu_sz: "eye",
+    wuu_wz: "eye",
+    zh_cq: "eye",
+    zh_db: "eye",
+    zh_jiao: "eye",
+    zh_km: "eye",
+    zh_lz: "eye",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1546,5 +1556,15 @@ WORDS.tear = {
     wuu: ["眼泪水", "ŋɛ˨˨ li˥˥ sz̩˨˩"],
     yue_zs: ["眼淚", "ŋan˨˩˧ lɵy˧˧"],
     ja_kg: ["涙", "nanda"],
+    ar_sd: ["دمعة", "ˈdimʕa"],
+    nan_hai: ["目汁", "mak˧ tsiap˥"],  // 'Eye juice.'
+    wuu_nb: ["眼泪水", "ŋɛ˨˦ li˨˩˧ sɿ˧˨˥"],  // 'Eye-tear water.' 淚 in its colloquial reading.
+    wuu_sz: ["眼泪", "ŋᴇ˨˧˩ li˨˧˩"],  // Built on the word for eye. 淚 in its colloquial reading.
+    wuu_wz: ["眼泪", "ŋa˧˦ lei˨˨"],  // Built on the word for eye.
+    zh_cq: ["眼泪", "iɛn˦˨ luei˨˩˧"],  // Built on the word for eye.
+    zh_db: ["眼泪", "jɛn˧˩˧ leɪ̯˥˩"],  // Built on the word for eye.
+    zh_jiao: ["眼泪", "iã˥˥ le˦˨"],  // Built on the word for eye.
+    zh_km: ["眼泪", "iɛ̃˥˧ luəe˨˩˨"],  // Built on the word for eye.
+    zh_lz: ["眼泪", "jɛn˦˦˨ nuei˩˧"],  // Built on the word for eye.
   },
 };

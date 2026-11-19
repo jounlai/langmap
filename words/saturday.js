@@ -672,6 +672,33 @@ WORDS.saturday = {
     cgg: "count",
     nyo: "count",
     tiv: "saturn",
+    ar_sd: "sabbath",
+    cjy: "count",
+    cjy_xz: "count",
+    gan: "count",
+    hak_hl: "count",
+    nan_hai: "count",
+    nan_pn: "count",
+    nan_te: "count",
+    wuu_hz: "count",
+    wuu_jh: "count",
+    wuu_nb: "count",
+    wuu_sz: "count",
+    wuu_wz: "count",
+    yue_dg: "count",
+    yue_nn: "count",
+    zh_cd: "count",
+    zh_cq: "count",
+    zh_jiao: "count",
+    zh_jn: "count",
+    zh_kf: "count",
+    zh_km: "count",
+    zh_nj: "count",
+    zh_sc: "count",
+    zh_tj: "count",
+    zh_wh: "count",
+    zh_xa: "count",
+    ko_em: "saturn",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1286,5 +1313,32 @@ WORDS.saturday = {
     cgg: ["Orwamukaga", "orwamukaɡa"],
     nyo: ["Kyamukaaga", "kjamukaːɡa"],
     tiv: ["Sati", "sati"],
+    ar_sd: ["يوم السبت", "joːm es sabt"],
+    cjy: ["礼拜六", "li˥˧ pai˦˥ liəu˦˥"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    cjy_xz: ["星期六", "ɕiəŋ˧˩˧ tɕʰi˧˩˧ liəu˥˨"],  // 星期 'week' + 六 'six'.
+    gan: ["礼拜六", "li˨˩˧ pai˧˥ liuʔ˥"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    hak_hl: ["拜六", "pai˩˩ liuk˥"],  // 拜 'worship (week)' + 六 'six'.
+    nan_hai: ["礼拜六", "li˨˩˧ ɓai˧˥ lak˧"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    nan_pn: ["拜六", "pai˨˩ lak˦"],  // 拜 'worship (week)' + 六 'six'.
+    nan_te: ["拜六", "pai˨˩˧ lak˦"],  // 拜 'worship (week)' + 六 'six'.
+    wuu_hz: ["礼拜六", "li˥˧ pᴇ˦˦˥ loʔ˨"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    wuu_jh: ["星期六", "siŋ˧˧˦ dʑi˧˩˧ loʔ˨˩˨"],  // 星期 'week' + 六 'six'.
+    wuu_nb: ["礼拜六", "li˨˩˧ pa˦˦ loʔ˩˨"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    wuu_sz: ["礼拜六", "li˨˧˩ pɑ˥˨˧ loʔ˧"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    wuu_wz: ["礼拜六", "lei˧˥ pa˥˨ lɤu˨˩˧"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    yue_dg: ["礼拜六", "lɔi˧˦ pai˦˦˧ lok˧"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    yue_nn: ["礼拜六", "lɐi˨˦ pai˧˧ lʊk˨"],  // 礼拜 'week (lit. worship)' + 六 'six'.
+    zh_cd: ["星期六", "ɕin˥˥ tɕʰi˨˩ nu˨˩"],  // 星期 'week' + 六 'six'.
+    zh_cq: ["星期六", "ɕin˥ tɕʰi˥ lu˨˩"],  // 星期 'week' + 六 'six'.
+    zh_jiao: ["星期六", "siəŋ˨˩˧ tɕʰi˨˩˧ liou˦˨"],  // 星期 'week' + 六 'six'.
+    zh_jn: ["星期六", "ɕiŋ˨˩˧ tɕʰi˨˩˧ liou˨˩"],  // 星期 'week' + 六 'six'.
+    zh_kf: ["星期六", "ɕiəŋ˨˦ tɕʰi˨˦ liou˧˩˨"],  // 星期 'week' + 六 'six'.
+    zh_km: ["星期六", "ɕĩ˦˦ tɕʰi˦˦ liu˧˩"],  // 星期 'week' + 六 'six'.
+    zh_nj: ["星期六", "ɕiŋ˧˩ tɕʰi˧˩ luʔ˥"],  // 星期 'week' + 六 'six'.
+    zh_sc: ["星期六", "ɕin˥ tɕʰi˨˩ nu˨˩"],  // 星期 'week' + 六 'six'.
+    zh_tj: ["星期六", "ɕiŋ˨˩ tɕʰi˨˩ liou˥˧"],  // 星期 'week' + 六 'six'.
+    zh_wh: ["星期六", "ɕin˥˥ tɕʰi˥˥ nou˨˩˧"],  // 星期 'week' + 六 'six'.
+    zh_xa: ["星期六", "ɕiŋ˨˩ tɕʰi˨˩ liɤu˨˩"],  // 星期 'week' + 六 'six'.
+    ko_em: ["토요일", "tʰojoil"],
   },
 };

@@ -574,6 +574,7 @@ WORDS.kiss = {
     nan_xm: "plain",
     wuu: "smell",
     zh_tw: "mouth",
+    ar_sd: "plain",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -1085,5 +1086,6 @@ WORDS.kiss = {
     nan_xm: ["唚", "tsim˦˦"],  // The Min word for 'to kiss', also written 斟.
     wuu: ["香面孔", "ɕiã˦˦ mi˨˨ kʰoŋ˦˦"],  // Literally 'sniff the face'; 香 'fragrant, to sniff' is the old Wu word for a kiss.
     zh_tw: ["吻", "wən˨˩˦"],  // Taiwan also says 親.
+    ar_sd: ["قبلة", "ˈɡubla"],
   },
 };

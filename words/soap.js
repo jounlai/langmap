@@ -608,6 +608,9 @@ WORDS.soap = {
     nan_ph: "sabun",
     yue_zs: "other",
     ar_tn: "sabun",
+    ar_sd: "sabun",
+    mixtec: "plain",
+    mxv: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1157,5 +1160,8 @@ WORDS.soap = {
     nan_ph: ["雪文", "sap˥ bun˨˦"],  // From Malay sabun.
     yue_zs: ["番鹼", "fan˥˥ kan˨˩˧"],  // Literally 'foreign soda'.
     ar_tn: ["صابون", "sˤaːˈbuːn"],
+    ar_sd: ["صابون", "sˤaːˈbuːn"],
+    mixtec: ["nama", "nama"],
+    mxv: ["nama", "nama"],
   },
 };

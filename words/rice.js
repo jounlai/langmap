@@ -935,5 +935,6 @@ WORDS.rice = {
     car: ["areisi", "aɾeisi"],
     har: ["rūz", "ruːz"],
     ssy: ["ruuz", "ɾuːz"],
+    ko_em: ["쌀", "s͈al"],
   }
 };

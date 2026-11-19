@@ -936,6 +936,9 @@ WORDS.language = {
     her: "tongue",
     wmt: "speech",
     ar_ma: "other",
+    ar_sd: "other",
+    zh_km: "speech",
+    ote: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -971,7 +974,7 @@ WORDS.language = {
     es: ["lengua", "ˈleŋɡwa"],  // Also 'tongue'; idioma is equally common.
     pt: ["língua", "ˈlĩɡwɐ"],  // Also 'tongue'; idioma is also used.
     ru: ["язык", "jɪˈzɨk"],  // Also 'tongue'.
-    ar: ["لغة", "luɣa"],  // Wiktionary relates it to Hebrew לוע 'throat'.
+    ar: ["لغة", "ˈluɣa"],  // Wiktionary relates it to Hebrew לוע 'throat'.
     he: ["שפה", "saˈfa"],  // Also 'lip'; from Proto-Semitic *śapat- 'lip'.
     tr: ["dil", "dil"],  // Also 'tongue'.
     fa: ["زبان", "zæˈbɒːn"],  // Also 'tongue'.
@@ -1810,5 +1813,8 @@ WORDS.language = {
     her: ["eraka", "eraka"],  // The same word as eraka "tongue".
     wmt: ["wangki", "ˈwaŋki"],
     ar_ma: ["لغة", "ˈluɣa"],
+    ar_sd: ["لغة", "ˈluɣa"],
+    zh_km: ["语言", "i˥˧ iɛ̃˧˩"],  // 语 'speech' + 言 'words'.
+    ote: ["hñä", "hɲã"],
   },
 };

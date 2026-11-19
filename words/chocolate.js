@@ -635,5 +635,6 @@ WORDS.chocolate = {
     fit: ["sjukla", "ˈʃuklɑ"],
     win: ["xaigi", "xaiɡi"],
     zh_jh: ["巧克力", "tɕʰiaɔ˨˩˨ kʰəʔ˥˥ niʔ˥˥"],
+    ayl: ["شكلاطة", "ʃuklaːtˤa"],
   }
 };

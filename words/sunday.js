@@ -735,6 +735,28 @@ WORDS.sunday = {
     cgg: "sun",
     nyo: "sun",
     yao: "other",
+    ar_sd: "count",
+    cjy_xz: "other",
+    hak_hl: "other",
+    hak_tw: "other",
+    nan_hai: "other",
+    nan_qz: "other",
+    wuu_hz: "other",
+    wuu_jh: "other",
+    wuu_nb: "other",
+    wuu_sz: "other",
+    zh_cd: "other",
+    zh_db: "other",
+    zh_hf: "other",
+    zh_jiao: "other",
+    zh_jn: "other",
+    zh_km: "other",
+    zh_lz: "other",
+    zh_nj: "other",
+    zh_tj: "other",
+    zh_wh: "other",
+    zh_xa: "other",
+    ko_em: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1410,5 +1432,27 @@ WORDS.sunday = {
     cgg: ["Esande", "esande"],
     nyo: ["Sande", "sande"],
     yao: ["Lyamlungu", "ʎamluŋɡu"],
+    ar_sd: ["يوم الاحد", "joːm el aħad"],
+    cjy_xz: ["星期下", "ɕiəŋ˧˩˧ tɕʰi˧˩˧ xɑ˥˨"],  // 星期 'week' + 下, the Xinzhou word for Sunday.
+    hak_hl: ["禮拜日", "li˥˧ pai˩˩ ŋit˥"],  // Literally 'worship day'; 禮拜 is also the week.
+    hak_tw: ["禮拜日", "li˨˦ pai˥˥ ŋit˨"],  // Literally 'worship day'; 禮拜 is also the week.
+    nan_hai: ["礼拜日", "li˨˩˧ ɓai˧˥ zit˧"],  // Literally 'worship day'; 礼拜 is also the week. 日 in its colloquial reading.
+    nan_qz: ["礼拜日", "le˥˥˦ pai˦˩ lit˨˦"],  // Literally 'worship day'; 礼拜 is also the week.
+    wuu_hz: ["礼拜天", "li˥˧ pᴇ˦˦˥ tʰiᴇ̃˧˧"],  // Literally 'worship day'; 礼拜 is also the week.
+    wuu_jh: ["星期日", "siŋ˧˧˦ dʑi˧˩˧ ȵiəʔ˨˩˨"],  // 星期 'week' + 日 'day'.
+    wuu_nb: ["礼拜日", "li˨˩˧ pa˦˦ ȵiɪʔ˨˨"],  // Literally 'worship day'; 礼拜 is also the week.
+    wuu_sz: ["礼拜日", "li˨˧˩ pɑ˥˨˧ ȵiəʔ˧"],  // Literally 'worship day'; 礼拜 is also the week. 日 in its colloquial reading.
+    zh_cd: ["星期天", "ɕin˥˥ tɕʰi˨˩ tʰiɛn˥˥"],  // 星期 'week' + 天 'day'.
+    zh_db: ["星期天", "ɕiŋ˥ tɕʰi˥ tʰjɛn˥"],  // 星期 'week' + 天 'day'.
+    zh_hf: ["礼拜天", "zɿ˨˦ pᴇ˥˩ tʰĩ˨˩˨"],  // Literally 'worship day'; 礼拜 is also the week.
+    zh_jiao: ["礼拜天", "li˥˥ pɛ˦˨ tʰiã˨˩˧"],  // Literally 'worship day'; 礼拜 is also the week.
+    zh_jn: ["星期天", "ɕiŋ˨˩˧ tɕʰi˨˩˧ tʰiɛ̃˨˩˧"],  // 星期 'week' + 天 'day'.
+    zh_km: ["礼拜天", "ni˥˧ pæ˨˩˨ tʰiɛ˦˦"],  // Literally 'worship day'; 礼拜 is also the week.
+    zh_lz: ["星期天", "ɕiŋ˧˩ tɕʰi˥˧ tʰiɛn˧˩"],  // 星期 'week' + 天 'day'.
+    zh_nj: ["星期天", "ɕiŋ˧˩ tɕʰi˧˩ tʰẽ˧˩"],  // 星期 'week' + 天 'day'.
+    zh_tj: ["礼拜天", "li˩˧ pai˥˧ tʰian˨˩"],  // Literally 'worship day'; 礼拜 is also the week.
+    zh_wh: ["星期日", "ɕin˥˥ tɕʰi˥˥ ɯ˨˩˧"],  // 星期 'week' + 日 'day'.
+    zh_xa: ["星期天", "ɕiŋ˨˩ tɕʰi˨˩ tʰiã˨˩"],  // 星期 'week' + 天 'day'.
+    ko_em: ["일요일", "iljoil"],  // The 1897 dictionary lists these planet names beside the missionaries' 쥬일 'Lord's day' and 례ᄇᆡ일 'worship day'.
   },
 };

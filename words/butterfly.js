@@ -963,5 +963,6 @@ WORDS.butterfly = {
     nez: ["łéepłep", "ɬéːpɬep"],
     bej: ["bilekanay", "bilekanaj"],
     ssy: ["simbiliilico", "simbiliːliʕo"],
+    maz: ["se̱pje̱", "sɛpʰɛ"],
   },
 };

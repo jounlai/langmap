@@ -572,6 +572,7 @@ WORDS.littlefinger = {
     wuu_wz: "small",
     zh_wh: "small",
     ar_eg: "plain",
+    ko_em: "child",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1089,5 +1090,6 @@ WORDS.littlefinger = {
     wuu_wz: ["琐蛮指头儿", "so˧˥ ma˧˩ tsɿ˧˥ dɤu˧˩ ŋ̍˧˩"],
     zh_wh: ["小指甲", "ɕiau˦˨ tsɿ˦˨ ka˨˩˧"],  // Literally 'small finger', the partner of 大指甲 for the thumb. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     ar_eg: ["خنصر", "ˈxinsˤar"],
+    ko_em: ["새ᄭᅵ가락", "sɛk͈iɡaɾak"],
   },
 };

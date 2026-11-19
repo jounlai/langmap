@@ -389,6 +389,7 @@ WORDS.sunflower = {
     cro: "other",
     czh_wy: "plain",
     hsn_yz: "turn",
+    ko_em: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -724,5 +725,6 @@ WORDS.sunflower = {
     cro: ["baaapáalixaawe", "baːapáːliχaːwe"],
     czh_wy: ["葵花", "tɕʰy˩˩ xo˦˦"],  // 葵 'kui plant' + 花 'flower'. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
     hsn_yz: ["向脸虫", "ɕiã˨˦ liẽ˥˥ zoŋ˩˩˨"],  // 向脸 'face toward'.
+    ko_em: ["ᄒᆡᄇᆞ라기", "hɛbaɾaɡi"],
   },
 };

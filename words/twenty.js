@@ -853,6 +853,10 @@ WORDS.twenty = {
     dng: "tens",
     nan_ph: "tens",
     ja_edo: "tens",
+    ar_sd: "plural",
+    ayl: "plural",
+    mixtec: "base",
+    tsz: "base",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1645,5 +1649,9 @@ WORDS.twenty = {
     dng: ["эршы", "ɛɻ˦ʂɻ̩˨˦"],
     nan_ph: ["二十", "li˦˩ tsap˨˦"],
     ja_edo: ["二十", "niʑɯː"],
+    ar_sd: ["عشرين", "ʕiʃriːn"],
+    ayl: ["عشرين", "ʕiʃriːn"],
+    mixtec: ["oko", "oko"],
+    tsz: ["ma ekuatsï", "ma ekʷatsɨ"],
   },
 };

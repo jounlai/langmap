@@ -534,7 +534,7 @@ WORDS.name = {
       kxv: ["dōru", "doːru"],
       lhm: ["མིང", "miŋ˩"],
       lij_t: ["nómme", "ˈnomːe"],
-      mcf: ["—", "—"],
+      mcf: ["cuëmëdaid", "kwɨmɨdaid"],
       mkz: ["nai", "nai"],
       mpj: ["yini", "jini"],
       oar: ["שם", "ʃum"],

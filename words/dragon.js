@@ -586,6 +586,15 @@ WORDS.dragon = {
     st: "draco",
     tn: "serpent",
     ve: "other",
+    acu: "serpent",
+    car: "serpent",
+    kgp: "other",
+    mbc: "draco",
+    shp: "serpent",
+    swi: "plain",
+    dv: "draco",
+    so: "serpent",
+    wo: "plain",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -1111,5 +1120,14 @@ WORDS.dragon = {
     st: ["drakone", "drakone"],
     tn: ["noga e kgolo", "ˈnɔχa e ˈkχɔlɔ"],  // Literally "big snake" (noga "snake", kgolo "big"); the Setswana Bible names the dragon this way even where the English has just "the dragon".
     ve: ["ḽigweṋa", "l̪iɡwen̪a"],  // Built on ngweṋa "crocodile" with the augmentative ḽi- prefix: a "great crocodile".
+    acu: ["juun pangki", "huːn paŋki"],  // Literally 'big boa' (pangki 'boa, anaconda'); the Achuar New Testament's name for the dragon of Revelation.
+    car: ["okojumo", "okoːjumo"],  // Literally 'great snake' (okoju 'snake' + -imo 'big').
+    kgp: ["mĩg fẽr", "mĩŋ ɸɛ̃ɾ"],  // Built on mĩg 'jaguar, beast'; the Kaingang New Testament's name for the dragon of Revelation.
+    mbc: ["dragão", "draɡãw"],  // A loan of the Portuguese dragão; the Macushi New Testament uses it for the dragon of Revelation.
+    shp: ["ani rono", "ani ɻono"],  // Literally 'big snake' (ani 'big' + rono 'snake').
+    swi: ["ka1", "ka˩˩"],
+    dv: ["ޑްރޭގަން", "ɖreːɡan"],
+    so: ["masduulaa", "masduːlaː"],
+    wo: ["ninki-nanka", "niŋki naŋka"],
   },
 };

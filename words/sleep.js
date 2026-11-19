@@ -1235,5 +1235,6 @@ WORDS.sleep = {
     yux: ["йоҥжоо-", "joŋʒoː"],
     nez: ["pinímse", "pinímse"],
     bxd: ["ja̰p55", "ja̰p˥˥"],
+    aoc: ["eknunnö", "eknunːə"],
   },
 };

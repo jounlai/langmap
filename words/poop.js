@@ -986,5 +986,6 @@ WORDS.poop = {
     hai: ["nag̱áa", "naɢɑ́ː"],
     tsi: ["ʼyaan", "ʔjaːn"],
     bxd: ["kʰji35", "kʰji˧˥"],  // The plain word for excrement; no separate childish word is recorded.
+    zne: ["mire", "mire"],
   },
 };

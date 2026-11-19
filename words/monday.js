@@ -733,6 +733,10 @@ WORDS.monday = {
     pt_gw: "count",
     cro: "count",
     nez: "after",
+    swi: "count",
+    lua: "count",
+    lun: "count",
+    zne: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1408,5 +1412,9 @@ WORDS.monday = {
     pt_gw: ["sugunda-fera", "suˈɡunda ˈfera"],
     cro: ["Baapbassée", "baːpbasːéː"],
     nez: ["halx̣páawinaqʼit", "halχpáːwinaqʼit"],
+    swi: ["ʔjət7 sin3 ȶhi3", "ʔjət˥˥ sin˧˧ ȶʰi˧˧"],
+    lua: ["Dimue", "dimue"],
+    lun: ["Hachimu", "hatʃimu"],
+    zne: ["Rago Sa Sunge", "raɡo sa suŋɡe"],
   },
 };

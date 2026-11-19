@@ -584,5 +584,6 @@ WORDS.cuckoo = {
     niu: ["kalue", "kalue"],
     pmt: ["karevareva", "karevareva"],
     doi: ["कोयल", "koːjəl"],
+    jya: ["kʰuk tut", "kʰuktut"],
   },
 };

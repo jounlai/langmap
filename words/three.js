@@ -1178,7 +1178,7 @@ WORDS.three = {
     kxv: ["mūndi", "muːndi"],
     lhm: ["གསུམ", "sum˥"],
     lij_t: ["trài", "traj"],
-    mcf: ["—", "—"],
+    mcf: ["abentsëc chonoc", "aβentsɨk tʃonok"],
     mkz: ["lolitu", "lolitu"],
     mpj: ["yurri", "juri"],
     oar: ["תלת", "tlaːt"],

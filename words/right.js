@@ -852,6 +852,14 @@ WORDS.right = {
     xmf: "plain",
     nso: "plain",
     bxd: "plain",
+    jya: "plain",
+    kmc: "plain",
+    mcf: "plain",
+    mzh: "plain",
+    swi: "plain",
+    dv: "plain",
+    kg: "other",
+    lua: "other",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1645,5 +1653,13 @@ WORDS.right = {
     xmf: ["მარძგვანი", "mardzɡvani"],
     nso: ["letona", "letona"],
     bxd: ["laʔ31 ja55", "laʔ˧˩ ja˥˥"],  // Built on laʔ³¹ 'hand'.
+    jya: ["ka-wlak", "kawlak"],
+    kmc: ["wa35", "wa˧˥"],
+    mcf: ["abiuc", "abjuk"],
+    mzh: ["tofwumkat", "tofʷumkat"],
+    swi: ["fa1", "fa˩˩"],
+    dv: ["ކަނާތް", "kanaːt"],
+    kg: ["diboko ya kitata", "diboko ja kitata"],  // Literally 'the father-side hand'.
+    lua: ["tshianza tshia balume", "tʃianza tʃia balume"],  // Literally 'the men's hand'.
   },
 };

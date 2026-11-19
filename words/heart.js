@@ -533,7 +533,7 @@ WORDS.heart = {
     kxv: ["hīja", "hiːja"],
     lhm: ["སྙིང་", "ŋiŋ˥"],
     lij_t: ["cö", "kø"],
-    mcf: ["—", "—"],
+    mcf: ["uinte", "winte"],
     mkz: ['—', '—'],
     mpj: ["kurturtu", "kuʈuʈu"],
     oar: ['לב', 'leb'],

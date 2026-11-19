@@ -564,6 +564,8 @@ WORDS.littlefinger = {
     bbc: "child",
     sda: "small",
     mpt: "plain",
+    kg: "small",
+    lua: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1073,5 +1075,7 @@ WORDS.littlefinger = {
     bbc: ["anak ni tangan", "anak ni taŋan"],  // 'the child of the hand'; the thumb is ina ni tangan 'the mother of the hand'
     sda: ["taruno kidiʼ", "taruno kidiʔ"],  // 'the small finger'; the thumb is indoʼ taruno
     mpt: ["kaket", "kaket"],
+    kg: ["musapi ya fioti", "musapi ja fioti"],  // Literally 'small finger'.
+    lua: ["kantengenene", "kantenɡenene"],
   },
 };

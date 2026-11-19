@@ -618,5 +618,6 @@ WORDS.cockcrow = {
     ja_oki: ["くっくるーうー", "kukkuɾuːʔuː"],
     ja_kanbun: ["喈喈", "kaikai"],
     pcm: ["kukuruku", "kukuruku"],
+    bm: ["kekereke", "kekereke"],
   },
 };

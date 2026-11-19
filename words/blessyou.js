@@ -229,6 +229,7 @@ WORDS.blessyou = {
     kl: "health",
     gn: "god",
     pot: "other",
+    xal: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -402,5 +403,6 @@ WORDS.blessyou = {
     kl: ["peqqillutit", "peqːiɬːutit"],
     gn: ["Ñandejára tanderovasa", "ɲandeˈdʒaɾa tandeɾoʋaˈsa"],  // 'May Our Lord bless you.'
     pot: ["gmikwénmego", "ɡmikwenməɡo"],
+    xal: ["бурхн арш", "burxn arʃ"],
   },
 };

@@ -450,6 +450,10 @@ WORDS.milkyway = {
     ko_em: "river",
     saq: "other",
     gun: "road",
+    cho: "road",
+    mad: "river",
+    rue: "milk",
+    xal: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -843,5 +847,9 @@ WORDS.milkyway = {
     ko_em: ["은하슈", "ɯnhasju"],
     saq: ["ntapar", "ntapar"],
     gun: ["tapiʼi rape", "tapiˈʔi ɾaˈpe"],  // Literally "the tapir's path".
+    cho: ["ofi hasimbish inhina", "ofi hasimbiʃ inhina"],
+    mad: ["bintang ngay-songayan", "bintaŋ ŋaj sɔŋajan"],
+    rue: ["Молочна дорога", "ˈmolotʃna doˈroha"],
+    xal: ["Оһтрһун уйдл", "oɣtrɣun ujdl̩"],
   },
 };

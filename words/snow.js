@@ -1028,5 +1028,6 @@ WORDS.snow = {
     kde: ["balafu", "balafu"],
     pau: ["snow", "sno"],
     sus: ["balabalanyi", "balabalaɲi"],  // Also 'hail'.
+    yap: ["ayis", "ʔajis"],
   }
 };

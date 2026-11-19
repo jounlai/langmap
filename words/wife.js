@@ -964,6 +964,8 @@ WORDS.wife = {
     rcf: "woman",
     ter: "own",
     xnr: "own",
+    krc: "woman",
+    mzh: "spouse",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1871,5 +1873,7 @@ WORDS.wife = {
     rcf: ["madam", "madam"],
     ter: ["yêno", "ˈjeːno"],
     xnr: ["पत्नी", "pətniː"],
+    krc: ["къатын", "qaˈtɯn"],
+    mzh: ["tochʼefwa atsinha", "totʃʼefʷa atsin̥a"],
   },
 };

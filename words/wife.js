@@ -909,6 +909,17 @@ WORDS.wife = {
     mer: "own",
     nzi: "own",
     tvl: "spouse",
+    bin: "woman",
+    crx: "own",
+    gcf: "woman",
+    gym: "spouse",
+    lun: "own",
+    wls: "spouse",
+    ada: "woman",
+    aja: "own",
+    gaa: "own",
+    kxc: "own",
+    mos: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1761,5 +1772,16 @@ WORDS.wife = {
     mer: ["mwekũrũ", "mwekoɾo"],
     nzi: ["yelɛ", "jelɛ"],
     tvl: ["avaga", "avaŋa"],  // The same word as husband.
+    bin: ["amwẹ", "aʋ̃ɛ̃"],
+    crx: ["ooʼat", "oːʔat"],
+    gcf: ["madanm", "madãm"],  // The same word as woman.
+    gym: ["muko", "muko"],  // The same word as husband.
+    lun: ["ŋodi", "ŋodi"],
+    wls: ["ʻohoana", "ʔohoana"],  // The same word as husband.
+    ada: ["yo", "jo"],
+    aja: ["ashi", "aʃi"],
+    gaa: ["ŋa", "ŋa"],
+    kxc: ["ahta", "ahta"],
+    mos: ["paga", "paɡa"],
   },
 };

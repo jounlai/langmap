@@ -905,6 +905,9 @@ WORDS.rainbow = {
     trn: "plain",
     pmt: "plain",
     sma: "bow",
+    gcf: "bow",
+    bci: "plain",
+    bin: "serpent",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1753,5 +1756,8 @@ WORDS.rainbow = {
     trn: ["oʔe", "oʔe"],  // No image is recorded for it, so it counts as a word of its own.
     pmt: ["anuanua", "anuanua"],  // Same word as Tahitian ānuanua.
     sma: ["aatjan joekse", "ˈɑːtʃan ˈjuʌksɛ"],  // Literally 'grandfather's bow'.
+    gcf: ["lawkansyèl", "lawkãsjɛl"],
+    bci: ["nyanngondin", "ɲãŋɡondĩ"],
+    bin: ["ikpin amẹ", "ikpĩ amɛ̃"],
   },
 };

@@ -1319,5 +1319,6 @@ WORDS.black = {
     bbl: ["ჵარჭინ", "ʕaːrtʃʼin"],
     har: ["ṭäy", "tʼəj"],
     ktz: ["nǂu", "ᵑǂu"],
+    lun: ["chiyila", "tʃijila"],
   },
 };

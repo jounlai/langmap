@@ -1019,5 +1019,7 @@ WORDS.snow = {
     ssy: ["barad", "baɾad"],
     siz: ["əttəlʒ", "ətːəlʒ"],
     p_jpk: ["*yoki", "joki"],
+    kbp: ["ɖɔmbɛɛ", "ɖɔmbɛː"],
+    urh: ["imicho", "imitʃo"],
   }
 };

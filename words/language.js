@@ -888,6 +888,25 @@ WORDS.language = {
     jbo: "plain",
     mus: "speech",
     nzi: "plain",
+    cnh: "speech",
+    efi: "speech",
+    gcf: "tongue",
+    gym: "speech",
+    kru: "speech",
+    tsz: "speech",
+    vmw: "plain",
+    wls: "speech",
+    ada: "voice",
+    aja: "voice",
+    gaa: "speech",
+    kxc: "mouth",
+    lua: "speech",
+    meu: "voice",
+    mos: "speech",
+    nia: "voice",
+    iso: "plain",
+    tiv: "mouth",
+    urh: "plain",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1714,5 +1733,24 @@ WORDS.language = {
     jbo: ["bangu", "ˈbanɡu"],
     mus: ["punvkv", "ponəkə"],
     nzi: ["aneɛ", "aneɛ"],
+    cnh: ["holh", "holʔ"],  // The same word as to speak.
+    efi: ["usem", "usem"],
+    gcf: ["lang", "lãɡ"],  // The same word as tongue.
+    gym: ["kukwe", "kukwe"],  // The same word as word or speech.
+    kru: ["कथा", "katʰaː"],
+    tsz: ["uandakua", "wandakʷa"],  // From uandani 'to speak'.
+    vmw: ["nttaava", "ntːaːva"],
+    wls: ["lea", "lea"],
+    ada: ["gbi", "ɡbi"],
+    aja: ["gbe", "ɡbe"],
+    gaa: ["wiemɔ", "wiemɔ"],
+    kxc: ["afa", "afa"],  // The same word as mouth.
+    lua: ["muakulu", "muakulu"],
+    meu: ["gado", "ɡado"],  // Also the word for throat and voice.
+    mos: ["buud-gomde", "buːdɡomde"],
+    nia: ["li", "li"],  // Also the word for voice and word.
+    iso: ["ẹvẹrẹ", "ɛvɛɾɛ"],
+    tiv: ["zwa", "zwa"],
+    urh: ["ejajẹ", "edʒadʒɛ"],
   },
 };

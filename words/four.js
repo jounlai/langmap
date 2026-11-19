@@ -1261,5 +1261,6 @@ WORDS.four = {
     har: ["ḥarat", "ħɑrɑt"],
     wrh: ["bula-bula", "ˈbulabula"],
     yle: ["páádi", "paːʈi"],
+    bxd: ["məi31", "məi˧˩"],
   },
 };

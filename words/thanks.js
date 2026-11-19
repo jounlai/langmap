@@ -1255,5 +1255,6 @@ WORDS.thanks = {
     el_koi: ["εὐχαριστῶ", "eʍkʰarisˈto"],
     la_late: ["gratias", "ˈɡratsjas"],
     vi_mid: ["cám ơn", "kaːm˧˥ əːn˧"],
+    bxd: ["a31kjṵ55 kɔ̰35 vɛ35", "a˧˩kjṵ˥˥ kɔ̰˧˥ vɛ˧˥"],  // A calque of Jingpho chyeju kaba sai, literally 'the kindness has been big' (Wiktionary).
   }
 };

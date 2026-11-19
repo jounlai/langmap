@@ -1232,5 +1232,6 @@ WORDS.earth = {
     p_jpk: ["*mita", "mita"],
     zdj: ["ntsi", "ⁿtsi"],
     wym: ["ād", "aːt"],
+    bxd: ["mi55 kauŋ55", "mi˥˥ kauŋ˥˥"],
   }
 };

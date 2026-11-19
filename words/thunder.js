@@ -929,6 +929,7 @@ WORDS.thunder = {
     mwr: "imitative",
     mxv: "plain",
     ts: "plain",
+    bxd: "sky",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1804,5 +1805,6 @@ WORDS.thunder = {
     mwr: ["गड़गड़ाट", "ɡəɽɡəɽaːʈ"],
     mxv: ["taxa", "taʃa"],
     ts: ["ku dzindza", "ku dzindza"],
+    bxd: ["mau31 mjaŋ55", "mau˧˩ mjaŋ˥˥"],  // Built on mau³¹ 'sky', as in the rain word mau³¹ ɣɔ⁵⁵ (Wiktionary: mau³¹ 'sky, heaven (in compounds); rain').
   },
 };

@@ -1262,5 +1262,6 @@ WORDS.house = {
     la_late: ["domus", "ˈdɔmos"],
     egy_dem: ["ꜥ.wy", "eːj"],
     vi_mid: ["nhà", "ɲaː˨˩"],
+    bxd: ["ja̰m55", "ja̰m˥˥"],  // Also means home (Wiktionary).
   }
 };

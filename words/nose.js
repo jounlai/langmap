@@ -1212,5 +1212,6 @@ WORDS.nose = {
     p_jpk: ["*pana", "pana"],
     rwk: ["mbua", "mbua"],
     ktz: ["tzun", "tsʼun"],
+    bxd: ["na̰55", "na̰˥˥"],
   },
 };

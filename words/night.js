@@ -265,6 +265,7 @@ WORDS.night = {
     evn: ["долбони", "dolboni"],
     orh: ["dɔlbɔ", "dɔlbɔ"],
     acn: ["ni31 tɕʰot35", "ni˧˩ tɕʰot˧˥"],
+    bxd: ["—","—"],
     jiu: ["mi33tɕhø33", "mi˧˧tɕʰø˧˧"],
     clk: ["ɑ31boŋ55tioŋ55", "ɑ˧˩boŋ˥˥tioŋ˥˥"],
     nuf: ["suɑʴ35nɑ35", "suɑ˞˧˥nɑ˧˥"],

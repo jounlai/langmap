@@ -1234,5 +1234,6 @@ WORDS.sleep = {
     p_jpk: ["*nenpur-", "nenpur-"],
     yux: ["йоҥжоо-", "joŋʒoː"],
     nez: ["pinímse", "pinímse"],
+    bxd: ["ja̰p55", "ja̰p˥˥"],
   },
 };

@@ -1269,5 +1269,6 @@ WORDS.tree = {
     la_late: ["arbor", "ˈarβor"],
     egy_dem: ["šn", "ʃeːn"],
     vi_mid: ["cây", "kəj˧"],
+    bxd: ["sak55", "sak˥˥"],  // Also means wood (Wiktionary).
   },
 };

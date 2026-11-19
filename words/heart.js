@@ -1261,5 +1261,6 @@ WORDS.heart = {
     la_late: ["cor", "kɔr"],
     egy_dem: ["ḥꜣṱ", "heːt"],
     vi_mid: ["blái tim", "blaːj˧˥ tim˧"],
+    bxd: ["na̰k55 lam31", "na̰k˥˥ lam˧˩"],  // The first element na̰k⁵⁵ alone means heart or mind (Wiktionary).
   },
 };

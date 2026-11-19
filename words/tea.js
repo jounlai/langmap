@@ -813,6 +813,7 @@ WORDS.tea = {
     car: "other",
     cro: "leaf",
     doi: "cha",
+    bxd: "leaf",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1586,5 +1587,6 @@ WORDS.tea = {
     car: ["asinpan", "asinpan"],  // 'The hot one', from asin 'hot'.
     cro: ["bilishpítaape", "biliʃpítaːpe"],
     doi: ["चाह्", "tʃaːh"],
+    bxd: ["faʔ55 kʰjɛʔ55", "faʔ˥˥ kʰjɛʔ˥˥"],  // Built from faʔ⁵⁵ 'leaf' and kʰjɛʔ⁵⁵, the counter for flat thin things (Wiktionary).
   },
 };

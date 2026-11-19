@@ -1262,5 +1262,6 @@ WORDS.name = {
     la_late: ["nomen", "ˈnomen"],
     egy_dem: ["rn", "ran"],
     vi_mid: ["tên", "ten˧"],
+    bxd: ["maŋ55", "maŋ˥˥"],
   },
 };

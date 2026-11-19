@@ -1268,5 +1268,6 @@ WORDS.hand = {
     la_late: ["manus", "ˈmanos"],
     egy_dem: ["ḏr.t", "toːre"],
     vi_mid: ["tay", "taj˧"],
+    bxd: ["laʔ31", "laʔ˧˩"],  // One word for hand and arm (Wiktionary).
   },
 };

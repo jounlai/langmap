@@ -1260,5 +1260,6 @@ WORDS.mouth = {
     p_jpk: ["*kutui", "kutui"],
     bor: ["ogwa", "oɡwa"],
     ktz: ["kxʼam", "kxʼam"],
+    bxd: ["nɔ̰t55", "nɔ̰t˥˥"],
   }
 };

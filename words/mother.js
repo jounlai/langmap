@@ -1261,5 +1261,6 @@ WORDS.mother = {
     la_late: ["mater", "ˈmater"],
     egy_dem: ["mw.t", "maːu"],
     vi_mid: ["mẹ", "mɛ˧˨ʔ"],
+    bxd: ["a31 nuŋ55", "a˧˩ nuŋ˥˥"],
   },
 };

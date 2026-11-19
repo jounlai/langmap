@@ -1190,5 +1190,6 @@ WORDS.daughter = {
     bbl: ["ჲოჰʼ", "joħ"],
     agt: ["anak nga balatang", "ʔanak ŋa balataŋ"],
     tsz: ["nanaka", "nanaka"],
+    bxd: ["ta31", "ta˧˩"],  // The same word ta³¹ means son, and child or offspring in general (Sagart et al.; Wiktionary).
   },
 };

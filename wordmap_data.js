@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1201 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1202 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1104,6 +1104,8 @@ const LANG_DATA = {
   // Achang — Burmish, one of the closest living relatives of Burmese itself.
   // ~40K nationality, ~30K speakers, unwritten; also in Myanmar as Maingtha.
   acn: { name: 'Achang', native: 'Ngac\u02bcang', lat: 24.35, lng: 97.79, // Husa, Longchuan, Dehong, Yunnan
+},
+  bxd: { name: "Pela", native: "pə31 la55", lat: 24.21, lng: 97.92, // Glottolog point, Longchuan area, Dehong, Yunnan (Zaiwa sits at Mangshi)
 },
   // Jino — Loloish; the last of the 56 nationalities to be recognised (1979).
   jiu: { name: 'Jino', native: 'Kino', lat: 22.06, lng: 100.98, // Jinuo Mountain, Jinghong, Xishuangbanna, Yunnan

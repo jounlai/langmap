@@ -1182,5 +1182,6 @@ WORDS.mountain = {
     gcr: ["montangn", "mɔ̃tãɲ"],
     fit: ["vaara", "ˈʋɑːrɑ"],
     na: ["etowdudu", "etowdudu"],
+    bxd: ["pam55", "pam˥˥"],  // Also 'hill' and 'pile' (Wiktionary).
   }
 };

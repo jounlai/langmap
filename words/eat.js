@@ -1262,5 +1262,6 @@ WORDS.eat = {
     la_late: ["manducare", "manduˈkare"],
     egy_dem: ["wnm", "uoːm"],
     vi_mid: ["ăn", "an˧"],
+    bxd: ["ta31", "ta˧˩"],
   }
 };

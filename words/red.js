@@ -1269,5 +1269,6 @@ WORDS.red = {
     la_late: ["ruber", "ˈroβer"],
     egy_dem: ["tšr", "troʃ"],
     vi_mid: ["đỏ", "ɗɔ˧˩˧"],
+    bxd: ["nɛ55", "nɛ˥˥"],
   },
 };

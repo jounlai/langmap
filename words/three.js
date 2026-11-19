@@ -1269,5 +1269,6 @@ WORDS.three = {
     la_late: ["tres", "tres"],
     egy_dem: ["ḫmt", "ʃomənt"],
     vi_mid: ["ba", "ɓaː˧"],
+    bxd: ["sam55", "sam˥˥"],
   },
 };

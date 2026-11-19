@@ -1274,5 +1274,6 @@ WORDS.dog = {
     la_late: ["canis", "ˈkanes"],
     egy_dem: ["whr", "uhoːr"],
     vi_mid: ["chó", "cɔ˧˥"],
+    bxd: ["kʰui35", "kʰui˧˥"],
   },
 };

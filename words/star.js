@@ -1255,5 +1255,6 @@ WORDS.star = {
     la_late: ["stella", "ˈstella"],
     egy_dem: ["sw", "siu"],
     vi_mid: ["sao", "ʂaːw˧"],
+    bxd: ["kjḭ55", "kjḭ˥˥"],
   },
 };

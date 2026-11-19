@@ -1262,5 +1262,6 @@ WORDS.two = {
     la_late: ["duo", "ˈduo"],
     egy_dem: ["snw", "snau"],
     vi_mid: ["hai", "haːj˧"],
+    bxd: ["ḭ35", "ḭ˧˥"],
   },
 };

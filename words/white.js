@@ -1227,5 +1227,6 @@ WORDS.white = {
     vi_mid: ["tláng", "tlaŋ˧˥"],
     ja_mvi: ["白", "sːu"],
     p_jpk: ["*siro-", "siro-"],
+    bxd: ["pʰju55", "pʰju˥˥"],
   },
 };

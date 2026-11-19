@@ -1221,6 +1221,9 @@ for (const code of codes) {
                 // siz (Siwi, 2026-10-23, Laoust 1931, Schiattarella 2015, Souag 2010):
                 // no thanking formula in any of the sources.
                 siz: new Set(['thanks']),
+                // bxd (Pela, 2026-11-19): no form in Sagart et al. 2019 (Huang 1992) or Wiktionary;
+                // night only in Mann 1998, whose tone system differs from the row's.
+                bxd: new Set(['cat', 'hello', 'night']),
                 // zh_jiao (Qingdao, 2026-10-25): no Qingdao source for these six (Wiktionary dial-syn has no
                 // Qingdao line or no module; 名兒 is erhua with no sourced reading).
                 zh_jiao: new Set(['heart', 'hello', 'love', 'thanks', 'night', 'name']),

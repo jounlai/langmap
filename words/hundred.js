@@ -1211,5 +1211,6 @@ WORDS.hundred = {
     p_viet: ["*k-lam", "k-lam"],
     pban: ["*kámá", "kámá"],
     har: ["bäqlä", "bəqlə"],
+    bxd: ["ja55", "ja˥˥"],
   },
 };

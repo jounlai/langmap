@@ -1321,5 +1321,6 @@ WORDS.black = {
     ktz: ["nǂu", "ᵑǂu"],
     lun: ["chiyila", "tʃijila"],
     ake: ["iʼkïrïn", "iʔkɨɾɨn"],
+    bxd: ["naʔ31", "naʔ˧˩"],  // The same word means dark.
   },
 };

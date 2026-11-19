@@ -1262,5 +1262,6 @@ WORDS.love = {
     la_late: ["amor", "ˈamor"],
     egy_dem: ["mr", "me"],
     vi_mid: ["yêu", "iəw˧"],
+    bxd: ["ŋø55", "ŋø˥˥"],  // The same verb means to like.
   }
 };

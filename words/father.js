@@ -1262,5 +1262,6 @@ WORDS.father = {
     la_late: ["pater", "ˈpater"],
     egy_dem: ["jt", "ejoːt"],
     vi_mid: ["cha", "caː˧"],
+    bxd: ["a31 va55", "a˧˩ va˥˥"],  // The a³¹- is the prefix of kinship terms (Wiktionary).
   },
 };

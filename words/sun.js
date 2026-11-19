@@ -1266,5 +1266,6 @@ WORDS.sun = {
     la_late: ["sol", "sol"],
     egy_dem: ["rꜥ", "reː"],
     vi_mid: ["mặt blời", "mat˧˨ʔ bləːj˨˩"],
+    bxd: ["pui55", "pui˥˥"],  // The same word means day or date in compounds (Wiktionary).
   },
 };

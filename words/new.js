@@ -1209,5 +1209,6 @@ WORDS.new = {
     qxq: ["yeŋi", "jeˈŋi"],
     p_jpk: ["*nipi-", "nipi-"],
     ktz: ["zaqi", "zaˤi"],
+    bxd: ["sak55", "sak˥˥"],  // Sounds the same as sak⁵⁵ 'tree, wood' (Wiktionary).
   }
 };

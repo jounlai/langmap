@@ -1228,5 +1228,6 @@ WORDS.five = {
     mzh: ["sinku", "sinku"],
     har: ["ḥammisti", "ħɑmːisti"],
     wrh: ["marra", "ˈmara"],
+    bxd: ["ŋa31", "ŋa˧˩"],
   },
 };

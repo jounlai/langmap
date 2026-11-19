@@ -1272,5 +1272,6 @@ WORDS.blood = {
     la_late: ["sanguis", "ˈsaŋɡʷes"],
     egy_dem: ["snf", "snof"],
     vi_mid: ["máu", "maw˧˥"],
+    bxd: ["sui35", "sui˧˥"],
   },
 };

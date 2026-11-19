@@ -1211,5 +1211,6 @@ WORDS.wind = {
     ktz: ["maq", "maˤ"],
     xul: ["goorookma", "ɡoːɹoːkma"],
     pot: ["noden", "nodən"],
+    bxd: ["li55", "li˥˥"],
   },
 };

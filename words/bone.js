@@ -1262,5 +1262,6 @@ WORDS.bone = {
     la_late: ["os", "ɔs"],
     egy_dem: ["qs", "kas"],
     vi_mid: ["xương", "ɕɨəŋ˧"],
+    bxd: ["ʃă35 u31", "ʃă˧˥ u˧˩"],
   },
 };

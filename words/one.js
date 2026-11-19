@@ -1273,5 +1273,6 @@ WORDS.one = {
     la_late: ["unus", "ˈunos"],
     egy_dem: ["wꜥ", "ua"],
     vi_mid: ["một", "mot˧˨ʔ"],
+    bxd: ["ta31", "ta˧˩"],
   },
 };

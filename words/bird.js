@@ -1225,5 +1225,6 @@ WORDS.bird = {
     pafa: ["*c̣ir", "tsʼir"],
     bbl: ["ჰʼაწუკ", "ħatsʼukʼ"],
     nha: ["marʼu", "maɻʔu"],
+    bxd: ["ŋa̰ʔ55", "ŋa̰ʔ˥˥"],
   },
 };

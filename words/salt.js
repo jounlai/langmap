@@ -1290,5 +1290,6 @@ WORDS.salt = {
     obr: ["ဆာ", "tsʰaːh"],
     p_jpk: ["*sipo", "sipo"],
     har: ["ṭirässu", "tʼirəsːu"],
+    bxd: ["tʰa35", "tʰa˧˥"],
   },
 };

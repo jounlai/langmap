@@ -1227,5 +1227,6 @@ WORDS.ear = {
     vi_mid: ["tai", "taːj˧"],
     osn: ["ceuli", "tʃɯli"],
     p_jpk: ["*mimi", "mimi"],
+    bxd: ["nə̆31 kʰjɛʔ55", "nə̆˧˩ kʰjɛʔ˥˥"],
   },
 };

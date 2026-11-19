@@ -1191,5 +1191,6 @@ WORDS.egg = {
     omy: ["tallur", "təlur"],
     tig: ["እንቆቅሖ", "ʔənqʼoqʼəħo"],
     har: ["aquḥ", "ɑquħ"],
+    bxd: ["ṵ35", "ṵ˧˥"],
   },
 };

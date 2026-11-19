@@ -1267,5 +1267,6 @@ WORDS.eye = {
     la_late: ["oculus", "ˈɔkolos"],
     egy_dem: ["jr.t", "jat"],
     vi_mid: ["con mắt", "kɔn˧ mat˧˥"],
+    bxd: ["mjaʔ31 tʃɿ35", "mjaʔ˧˩ tʃɿ˧˥"],
   },
 };

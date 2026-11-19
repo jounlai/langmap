@@ -1095,5 +1095,6 @@ WORDS.green = {
     car: ["tikire", "tikiɾe"],
     ng: ["talala", "talala"],
     kj: ["talala", "talala"],
+    bxd: ["ŋjuŋ55", "ŋjuŋ˥˥"],
   }
 };

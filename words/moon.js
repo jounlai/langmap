@@ -1267,5 +1267,6 @@ WORDS.moon = {
     la_late: ["luna", "ˈluna"],
     egy_dem: ["jꜥḥ", "oːh"],
     vi_mid: ["mặt blang", "mat˧˨ʔ blaŋ˧"],
+    bxd: ["lɛ̰̃35 ma31", "lɛ̰̃˧˥ ma˧˩"],  // The first element is la̰³⁵ 'moon; month', which takes this shape in compounds (Wiktionary).
   },
 };

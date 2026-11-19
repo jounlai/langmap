@@ -1138,5 +1138,6 @@ WORDS.book = {
     jpr: ["כתאב", "ketɒːb"],
     onw: ["ϣⲟⲗ", "ʃol"],
     abe: ["awighigan", "awiɡhiɡan"],
+    bxd: ["mau31sau31", "mau˧˩sau˧˩"],  // Borrowed from Jingpho maisau 'paper', and means paper as well (Wiktionary).
   }
 };

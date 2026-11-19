@@ -24,7 +24,7 @@
  *
  * A word may also declare a route that means "not decided yet" — `we` has one,
  * because whether a language splits its first-person plural takes a source per
- * language and 36 of them are unsourced. That is better than leaving the cells
+ * language and 37 of them are unsourced. That is better than leaving the cells
  * unrouted, where the reader cannot tell "undecided" from "no data". It is
  * ratcheted in UNDECIDED below so the category can only ever shrink.
  *
@@ -137,7 +137,8 @@ const DEBT = {};
 // 2026-10-25: we 44 -> 45 — zh_jiao 我们 (Wiktionary dial-syn, new Qingdao row): the
 // 咱們 module has no Qingdao line, so no source says Qingdao has an inclusive form.
 // 2026-11-13: we 35 -> 36 — `mjg` (Mangghuer) 'single' rested on one unlabelled form, the `mvf` case above; open until Slater 2003 is read.
-const UNDECIDED = { we: { route: 'unknown', max: 36 }, bear: { route: 'unknown', max: 21 }, foot: { route: 'unknown', max: 22 } };
+// 2026-11-19: we 36 -> 37 — bxd (new Pela row): Sagart et al. give only one 'we' form.
+const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 21 }, foot: { route: 'unknown', max: 23 } };  // foot 22 -> 23: bxd kʰji⁵³, no leg word in the source to test foot/leg
 
 let violations = 0;
 const notes = [];

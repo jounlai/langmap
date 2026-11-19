@@ -1267,5 +1267,6 @@ WORDS.fire = {
     la_late: ["focus", "ˈfɔkos"],
     egy_dem: ["sty.t", "sate"],
     vi_mid: ["lửa", "lɨə˧˩˧"],
+    bxd: ["mi31", "mi˧˩"],
   }
 };

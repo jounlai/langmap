@@ -1262,5 +1262,6 @@ WORDS.you = {
     la_late: ["tu", "tu"],
     egy_dem: ["mtw=k", "ənˈtok"],
     vi_mid: ["mầy", "məj˨˩"],
+    bxd: ["nɔ̃55", "nɔ̃˥˥"],  // Singular; the plural is nauŋ³¹ maʔ³¹ (same source).
   },
 };

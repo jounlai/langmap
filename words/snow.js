@@ -1023,5 +1023,6 @@ WORDS.snow = {
     urh: ["imicho", "imitʃo"],
     fon: ["laglási linfín", "laɡlási lĩfĩ́"],
     ach: ["pee", "peː"],  // also hail
+    bxd: ["ŋɛ̰̃55", "ŋɛ̰̃˥˥"],  // The same source gives this word for ice, frost and dew as well.
   }
 };

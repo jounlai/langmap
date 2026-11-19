@@ -1268,5 +1268,6 @@ WORDS.water = {
     la_late: ["aqua", "ˈakʷa"],
     egy_dem: ["mw", "moːu"],
     vi_mid: ["nước", "nɨək˧˥"],
+    bxd: ["ɣəi55", "ɣəi˥˥"],
   },
 };

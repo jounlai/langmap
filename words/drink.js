@@ -1262,5 +1262,6 @@ WORDS.drink = {
     la_late: ["bibere", "ˈbeβere"],
     egy_dem: ["swr", "soː"],
     vi_mid: ["uống", "uəŋ˧˥"],
+    bxd: ["ʃauʔ55", "ʃauʔ˥˥"],
   }
 };

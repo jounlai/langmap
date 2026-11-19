@@ -538,6 +538,21 @@ WORDS.dragon = {
     p_tun: "plain",
     uga: "tannin",
     zh_tang: "long",
+    ace: "naga",
+    akb: "naga",
+    ban: "naga",
+    bts: "naga",
+    bug: "naga",
+    ljp: "naga",
+    mad: "naga",
+    mak: "naga",
+    min: "naga",
+    nij: "naga",
+    pdt: "draco",
+    pis: "draco",
+    pon: "draco",
+    sas: "naga",
+    sda: "naga",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -1015,5 +1030,20 @@ WORDS.dragon = {
     p_tun: ["*muduri", "muduri"],  // The source of Manchu muduri and Nanai мудур 'dragon'.
     uga: ["𐎚𐎐𐎐", "tunnanu"],  // tnn 'dragon, sea monster', the Ugaritic form of the Semitic word behind Hebrew tannīn.
     zh_tang: ["龍", "luawŋ"],  // Middle Chinese 龍 'dragon' (Baxter ljowng), in Pulleyblank's Early Middle Chinese reconstruction.
+    ace: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Acehnese Bible (LAI) has naga nyang rayeuk "the great dragon" in Revelation 12:9, beside uleue "snake" for the old serpent.
+    akb: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Angkola Bible (LAI) has naga in Revelation 12:9 and 20:2 (ulok naga in 12:3), beside ulok "snake" for the old serpent.
+    ban: ["naga", "naɡə"],  // Borrowed from Sanskrit nāga; Wiktionary gives /na.ɡə/. The Balinese Bible (LAI) has naga ageng "great dragon" in Revelation 12:9, beside ula "snake" for the old serpent.
+    bts: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Simalungun Bible (LAI) has naga na bolon "great dragon" in Revelation 12:9, beside ulog "snake" for the old serpent.
+    bug: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Buginese Bible (LAI) has naga battowaé "the great dragon" in Revelation 12:9, beside ula "snake" for the old serpent.
+    ljp: ["ulai naga", "ulai naɡa"],  // Literally "snake naga": ulai "snake" + naga, from Sanskrit nāga. The Lampung Bible (LAI) has ulai naga sai balak "the great dragon" in Revelation 12:9, beside plain ulai for the old serpent.
+    mad: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Madurese Bible (LAI) has naga se raja "great dragon" in Revelation 12:9, beside olar "snake" for the old serpent.
+    mak: ["naga", "ˈnaɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Makassarese Bible (LAI) has naga lompoa "the great dragon" in Revelation 12:9, beside ularaʼ "snake" for the old serpent.
+    min: ["nago", "naɡo"],  // Malay naga, from Sanskrit nāga, with Minangkabau final -o; the Minangkabau Bible (LAI) has nago nan gadang "the great dragon" in Revelation 12:9, beside ula "snake" for the old serpent.
+    nij: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Ngaju Bible (LAI) has naga hai "great dragon" in Revelation 12:9, beside handipe "snake" for the old serpent.
+    pdt: ["Drach", "dɾax"],  // The same word as German Drache, from Latin dracō; the Plautdietsch Bible (NWT) has de groota Drach "the great dragon" in Revelation 12:9, beside Schlang "snake" for the old serpent.
+    pis: ["dragon", "draɡon"],  // From English dragon; the Solomon Islands Pijin Bible (NWT) has big dragon in Revelation 12:3 and 12:9, beside snek "snake" for the old serpent.
+    pon: ["drakon", "drakon"],  // A loan of the Greek and Latin word; the Pohnpeian Bible (NWT) has lapalahn drakon "great dragon" in Revelation 12:9, beside serpent for the old serpent.
+    sas: ["nage", "naɡə"],  // Malay naga, from Sanskrit nāga, with Sasak final -e; the Sasak Bible (LAI) has nage saq belẽq "the great dragon" in Revelation 12:9, beside ulah "snake" for the old serpent.
+    sda: ["naga", "naɡa"],  // The same word as Malay naga, from Sanskrit nāga; the Toraja Bible (LAI) has naga kapua "great dragon" in Revelation 12:9, beside ulaʼ "snake" for the old serpent.
   },
 };

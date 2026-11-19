@@ -787,6 +787,7 @@ WORDS.bat = {
     kea: "mouse",
     luo: "plain",
     seh: "plain",
+    bts: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1519,5 +1520,6 @@ WORDS.bat = {
     kea: ["mursegu", "muɾˈseɡu"],
     luo: ["oliktiga", "oliktiɡa"],
     seh: ["nyakalemalema", "ɲakalemalema"],
+    bts: ["arip-arip", "aripˈarip"],
   },
 };

@@ -459,6 +459,7 @@ WORDS.milkyway = {
     rw: "milk",
     ti: "milk",
     bi: "milk",
+    grt: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -861,5 +862,6 @@ WORDS.milkyway = {
     rw: ["Inzira Nyamata", "inziɾa ɲamata"],  // Literally the milk way.
     ti: ["ጸባዊ መገዲ", "tsʼɐbawi mɐɡɐdi"],  // Literally "milky road"; also called ሊሐ.
     bi: ["Milki Wei", "milki wei"],
+    grt: ["matma ja·kol", "matma dʒaʔkol"],
   },
 };

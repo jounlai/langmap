@@ -956,6 +956,8 @@ WORDS.language = {
     bnn: "speech",
     mhy: "speech",
     pwn: "plain",
+    njo: "plain",
+    tsj: "plain",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1850,5 +1852,7 @@ WORDS.language = {
     bnn: ["halinga", "haliŋa"],  // Also means 'word, what is said'.
     mhy: ["basa", "basa"],
     pwn: ["kai", "kai"],  // No image is recorded for it, so it counts as a word of its own.
+    njo: ["oshi", "oʃi"],  // No image is recorded for it, so it counts as a word of its own.
+    tsj: ["kauko", "kauko"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

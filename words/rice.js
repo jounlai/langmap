@@ -939,5 +939,6 @@ WORDS.rice = {
     ja_mvi: ["米", "maɨ"],
     tzh: ["arroz", "aros"],
     fud: ["laisi", "laisi"],
+    hif: ["chaaur", "tʃaːur"],
   }
 };

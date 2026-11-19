@@ -737,6 +737,14 @@ WORDS.paper = {
     mhy: "charta",
     sm: "papyrus",
     tvl: "papyrus",
+    adx: "plain",
+    grt: "plain",
+    hif: "kaghaz",
+    hne: "kaghaz",
+    hoc: "leaf",
+    njo: "kaghaz",
+    tcy: "kaghaz",
+    tsj: "plain",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -1414,5 +1422,13 @@ WORDS.paper = {
     mhy: ["karatas", "karatas"],
     sm: ["pepa", "pepa"],  // From English paper.
     tvl: ["pepa", "pepa"],  // From English paper.
+    adx: ["ཤོག་བུ", "ɕokwə"],
+    grt: ["leka", "leka"],  // No image is recorded for it, so it counts as a word of its own.
+    hif: ["kaagaj", "kaːɡədʒ"],
+    hne: ["कागज", "kaːɡədʒ"],
+    hoc: ["sakam", "sakam"],  // The same word as sakam 'leaf'.
+    njo: ["kaket", "kakət"],  // Borrowed from Assamese কাকত kakot, which goes back to Sogdian kʾγδʾ 'paper', like Persian kâğaz.
+    tcy: ["ಕಾಗಜಿ", "kaːɡadʒi"],
+    tsj: ["ɕogu", "ɕoɡu"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

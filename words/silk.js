@@ -864,5 +864,6 @@ WORDS.silk = {
     ssy: ["xarer", "ħaɾeɾ"],
     mos: ["sowa", "sowa"],
     toi: ["ndeketela", "ndeketela"],
+    tsj: ["dʐuktsi", "ɖʐuktsi"],
   }
 };

@@ -800,6 +800,8 @@ WORDS.island = {
     kmb: "plain",
     bnn: "plain",
     mhy: "plain",
+    grt: "plain",
+    njo: "plain",
   },
   routes: {
     insula: {"color":"#2563eb","emoji":"🏛️","en":"from Latin īnsula (isla, île, Insel)","ja":"ラテン語 īnsula から (isla, île, Insel)","ko":"라틴어 īnsula에서 (isla, île, Insel)","zh":"来自拉丁语 īnsula (isla, île, Insel)","yue":"嚟自拉丁語 īnsula (isla, île, Insel)","vi":"từ tiếng Latinh īnsula (isla, île, Insel)","th":"จากภาษาละติน īnsula (isla, île, Insel)","id":"dari īnsula Latin (isla, île, Insel)","hi":"लैटिन īnsula से (isla, île, Insel)","de":"aus lateinisch īnsula (isla, île, Insel)","fr":"du latin īnsula (isla, île, Insel)","it":"dal latino īnsula (isla, île, Insel)","es":"del latín īnsula (isla, île, Insel)","pt":"do latim īnsula (isla, île, Insel)","ru":"от латинского īnsula (isla, île, Insel)","uk":"від латинського īnsula (isla, île, Insel)","ar":"من اللاتينية īnsula (isla, île, Insel)","he":"מהלטינית īnsula (isla, île, Insel)","sw":"kutoka Kilatini īnsula (isla, île, Insel)"},
@@ -1540,5 +1542,7 @@ WORDS.island = {
     kmb: ["kikôlo", "kikolo"],
     bnn: ["mulung", "muluŋ"],  // No image is recorded for it, so it counts as a word of its own.
     mhy: ["pulau", "pulau"],
+    grt: ["chichang", "tʃitʃaŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    njo: ["asetkong", "asetkoŋ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

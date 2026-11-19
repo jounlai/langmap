@@ -872,6 +872,10 @@ WORDS.yellow = {
     gil: "plain",
     pam: "turmeric",
     tvl: "plain",
+    grt: "plain",
+    hif: "plain",
+    hne: "plain",
+    khw: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1683,5 +1687,9 @@ WORDS.yellow = {
     gil: ["meamea", "meamea"],  // No image is recorded for it, so it counts as a word of its own.
     pam: ["dilo", "diˈlo"],
     tvl: ["sega", "seŋa"],  // No image is recorded for it, so it counts as a word of its own.
+    grt: ["rimita", "rimita"],  // No image is recorded for it, so it counts as a word of its own.
+    hif: ["piyar", "pijər"],
+    hne: ["पीला", "piːlaː"],
+    khw: ["زہچ", "zehtʃ"],
   },
 };

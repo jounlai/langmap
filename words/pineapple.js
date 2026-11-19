@@ -509,6 +509,7 @@ WORDS.pineapple = {
     myv: "pine",
     ny: "nanas",
     pag: "pine",
+    unr: "other",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -962,5 +963,6 @@ WORDS.pineapple = {
     myv: ["пичеумарь", "pitɕeumarʲ"],
     ny: ["nanazi", "nanazi"],
     pag: ["pinya", "ˈpinja"],
+    unr: ["bilaiti kantara", "bilaiti kanʈara"],  // Literally 'foreign jackfruit'.
   },
 };

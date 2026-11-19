@@ -1096,5 +1096,6 @@ WORDS.green = {
     ng: ["talala", "talala"],
     kj: ["talala", "talala"],
     bxd: ["ŋjuŋ55", "ŋjuŋ˥˥"],
+    hoc: ["tasadleka", "tasadleka"],  // Literally 'grass-like' (tasad 'grass').
   }
 };

@@ -587,5 +587,7 @@ WORDS.cuckoo = {
     jya: ["kʰuk tut", "kʰuktut"],
     cjy: ["姑姑虫", "ku˩ ku˩ tsʰuŋ˩"],
     ee: ["dzrekuku", "dzrekuku"],
+    grt: ["koil do·o", "koil doʔo"],  // Koil do·o is the koel; do·o is 'bird'.
+    skr: ["کوئل", "koːɪl"],
   },
 };

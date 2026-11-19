@@ -1072,5 +1072,11 @@
     "proto": "pmng",
     "ruling": "circular",
     "note": "Middle Mongol is the basis of the Proto-Mongolic reconstruction (row-level ruling as xng|language). Gap rally A10, 2026-11-18."
+  },
+  "juc|dragon": {
+    "form": "muduri",
+    "proto": "p_tun",
+    "ruling": "inherited",
+    "note": "Jurchen müh-tu-rh 'Drache' (Grube 1896, entry 135) is attested in the Sino-Jurchen glossary; it matches Manchu muduri, and Proto-Tungusic *muduri is reconstructed partly from these."
   }
 }

@@ -526,6 +526,18 @@ WORDS.dragon = {
     yai: "azhdaha",
     yua: "serpent",
     vi_nom: "long",
+    ave: "serpent",
+    bik: "draco",
+    hit: "serpent",
+    it_dan: "draco",
+    ja_heian: "plain",
+    juc: "plain",
+    ko_mid: "plain",
+    p_ine: "serpent",
+    p_sit: "plain",
+    p_tun: "plain",
+    uga: "tannin",
+    zh_tang: "long",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -991,5 +1003,17 @@ WORDS.dragon = {
     yai: ["aždahor", "aʒdaˈhor"],  // Borrowed from Tajik аждаҳо, from Classical Persian aždahā.
     yua: ["nojoch kaan", "nohotʃ kaːn"],  // Literally "big snake".
     vi_nom: ["𧍰", "zəwŋ˨˩"],  // rồng, inherited from Proto-Vietic *-roːŋ, itself from Old Chinese 龍.
+    ave: ["𐬀𐬲𐬌", "aʒi"],  // The same word as 'snake'; aži means 'serpent' or 'dragon', as in Aži Dahāka, the dragon whose name became Persian aždahā.
+    bik: ["dragon", "dɾaˈɡon"],
+    hit: ["𒅋𒇻𒅀𒀭𒅗𒀸", "ilːujankas"],  // The same word as 'snake'; Illuyanka is the serpent-dragon slain by the storm god Tarḫunz.
+    it_dan: ["drago", "ˈdraɡo"],  // From Latin draco; Dante has 'vidi uscirne un drago' (Purgatorio XXXII 131) and also the Latin-shaped draco (Inferno XXV 23).
+    ja_heian: ["龍", "tatu"],  // Native tatu (later tatsu); the Wamyō Ruijushō (938) gives the Japanese name of 龍 as 太都 tatu.
+    juc: ["muduri", "muduri"],  // Jurchen muduri 'dragon' (Sino-Jurchen glossary no. 135), the same word as Manchu muduri.
+    ko_mid: ["미르", "miɾɨ"],  // The native Korean dragon word, glossing 龍 in the Hunmong jahoe (1527: 龍 미르 료ᇰ); Wiktionary calls it native, possibly an early loan of Old Chinese 龍.
+    p_ine: ["*h₁ógʷʰis", "h₁óɡʷʰis"],  // The same word as 'snake', also the mythic serpent or dragon slain by the hero (Watkins, How to Kill a Dragon).
+    p_sit: ["*m-bru(ŋ/k)", "m-bru(ŋ/k)"],  // Glossed 'dragon; thunder'; the source of Tibetan འབྲུག, cognate with Chinese 龍.
+    p_tun: ["*muduri", "muduri"],  // The source of Manchu muduri and Nanai мудур 'dragon'.
+    uga: ["𐎚𐎐𐎐", "tunnanu"],  // tnn 'dragon, sea monster', the Ugaritic form of the Semitic word behind Hebrew tannīn.
+    zh_tang: ["龍", "luawŋ"],  // Middle Chinese 龍 'dragon' (Baxter ljowng), in Pulleyblank's Early Middle Chinese reconstruction.
   },
 };

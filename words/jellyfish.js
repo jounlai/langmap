@@ -311,6 +311,7 @@ WORDS.jellyfish = {
     mn: "medusa",
     ug: "medusa",
     ab: "medusa",
+    da: "other",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -566,5 +567,6 @@ WORDS.jellyfish = {
     mn: ["медуз", "meduz"],
     ug: ["مېدۇزا", "meduzɑ"],
     ab: ["медуза", "meduza"],
+    da: ["vandmand", "ˈvanˌmanˀ"],
   },
 };

@@ -266,6 +266,7 @@ WORDS.goosebumps = {
     vro: "bird",
     jbo: "other",
     cro: "other",
+    da: "bird",
   },
   family2: {
     ko: "bird",
@@ -480,5 +481,6 @@ WORDS.goosebumps = {
     vro: ["kananahk", "ˈkɑnɑnɑhk"],
     jbo: ["kapcikna", "kapˈʃikna"],
     cro: ["axúa xíaxissheete", "aχúa χíaχiʃːeːte"],
+    da: ["gåsehud", "ˈɡɔːsəˌhuðˀ"],
   },
 };

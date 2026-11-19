@@ -1037,6 +1037,7 @@ WORDS.tomorrow = {
     ko_bus: "other",
     ko_yb: "other",
     maz: "plain",
+    yrl: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -2018,5 +2019,6 @@ WORDS.tomorrow = {
     ko_bus: ["내일", "nɛil"],
     ko_yb: ["래일", "ɾɛil"],  // Sino-Korean 來日 'the coming day'; Korean in China keeps the initial r, as North Korea does (내일 in the South).
     maz: ["xõrü", "ʃõɾɨ"],
+    yrl: ["wirandé", "wiɾanˈde"],
   },
 };

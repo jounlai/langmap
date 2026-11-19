@@ -579,6 +579,8 @@ WORDS.china = {
     ko_jeju: "other",
     hsn: "zhongguo",
     kos: "cina",
+    bzj: "cina",
+    ltg: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1104,5 +1106,7 @@ WORDS.china = {
     ko_jeju: ["대국", "tɛɡuk̚"],
     hsn: ["中国", "tʂoŋ˧˧ kuɘ˨˦"],  // Literally 'middle country', read with Changsha character readings (MCPDict).
     kos: ["Sacini", "sɛini"],
+    bzj: ["China", "tʃaina"],
+    ltg: ["Ķīna", "ˈkʲiːna"],
   },
 };

@@ -768,6 +768,9 @@ WORDS.sunday = {
     pau: "sun",
     plg: "lord",
     tar: "lord",
+    hwc: "sun",
+    ium: "other",
+    ltg: "holy",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1476,5 +1479,8 @@ WORDS.sunday = {
     pau: ["sandei", "sanðei"],
     plg: ["domingo", "domiŋɡo"],
     tar: ["domingo", "domiŋɡo"],
+    hwc: ["Sunday", "sʌndeɪ"],
+    ium: ["Leiz-Baaix Hnoi", "lei˨˧paːi˨˧ n̥oi˧"],  // Literally 'worship day'.
+    ltg: ["svātdīne", "ˈsvaːddʲiːnʲæ"],
   },
 };

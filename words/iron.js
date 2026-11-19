@@ -1184,5 +1184,6 @@ WORDS.iron = {
     nez: ["kícuy", "kítsuj"],
     ctu: ["hierro", "jero"],
     tca: ["fieru", "fieɾu"],
+    mbc: ["ferro", "fero"],
   },
 };

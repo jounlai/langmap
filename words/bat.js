@@ -800,6 +800,9 @@ WORDS.bat = {
     ko_yb: "mouse",
     aoc: "plain",
     bwi: "plain",
+    bzj: "mouse",
+    ium: "plain",
+    prk: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1545,5 +1548,8 @@ WORDS.bat = {
     ko_yb: ["박쥐", "pakt͈ɕɥi"],  // Middle Korean ᄇᆞᆰ쥐, whose second part is 쥐 'rat'.
     aoc: ["maripak", "maɾipak"],
     bwi: ["píittiri", "píit̪iɻi"],
+    bzj: ["ratbat", "ratbat"],
+    ium: ["mbaʼmbui", "babui˧"],
+    prk: ["nblag", "blak"],
   },
 };

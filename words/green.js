@@ -1093,5 +1093,6 @@ WORDS.green = {
     swb: ["mrututu", "mrututu"],
     fit: ["vihriäinen", "ˈʋihriæinen"],
     car: ["tikire", "tikiɾe"],
+    ng: ["talala", "talala"],
   }
 };

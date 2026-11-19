@@ -638,6 +638,11 @@ WORDS.greece = {
     bxr: "graecia",
     fur: "graecia",
     kca: "hellas",
+    bem: "graecia",
+    kea: "graecia",
+    ngl: "graecia",
+    ttj: "ionia",
+    kaa: "graecia",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -1216,5 +1221,10 @@ WORDS.greece = {
     bxr: ["Греци", "ɡretsi"],
     fur: ["Grecie", "ˈɡretʃie"],
     kca: ["Еллада", "jelˈlada"],
+    bem: ["Grisi", "ɡrisi"],
+    kea: ["Grésia", "ˈɡɾɛsiɐ"],
+    ngl: ["Kresiya", "kɾesija"],
+    ttj: ["Buyonaani", "bujonaːni"],
+    kaa: ["Gretsiya", "ɡretsija"],
   },
 };

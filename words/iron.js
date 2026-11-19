@@ -1181,5 +1181,6 @@ WORDS.iron = {
     xto: ["𑀅𑀜𑁆𑀘𑀼", "aɲtsu"],
     jpr: ["אהן", "ɒːhæn"],
     p_viet: ["*k-rac", "k-rac"],
+    nez: ["kícuy", "kítsuj"],
   },
 };

@@ -729,6 +729,9 @@ WORDS.week = {
     pqm: "sunday",
     win: "sunday",
     rue: "thisday",
+    cro: "sunday",
+    sid: "seven",
+    ttj: "turn",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1399,5 +1402,8 @@ WORDS.week = {
     pqm: ["sonte", "sonte"],
     win: ["haramįhe", "haɾamĩhe"],
     rue: ["тыждень", "ˈtɨʒdenʲ"],
+    cro: ["baapbaaliinneetamméaxe", "baːpbaːliːnːeːtamːéaχe"],
+    sid: ["lamala", "lamala"],
+    ttj: ["wiiki", "wiːki"],
   },
 };

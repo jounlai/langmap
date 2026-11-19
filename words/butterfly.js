@@ -960,5 +960,6 @@ WORDS.butterfly = {
     fit: ["pörhöinen", "ˈpørhøinen"],
     itz: ["pepem", "pepem"],
     na: ["iyewaeoe", "ijewaeoe"],
+    nez: ["łéepłep", "ɬéːpɬep"],
   },
 };

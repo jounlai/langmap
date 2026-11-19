@@ -1233,5 +1233,6 @@ WORDS.sleep = {
     kry: ["əxrucu", "æxrudʒu"],
     p_jpk: ["*nenpur-", "nenpur-"],
     yux: ["йоҥжоо-", "joŋʒoː"],
+    nez: ["pinímse", "pinímse"],
   },
 };

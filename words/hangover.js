@@ -240,5 +240,6 @@ WORDS.hangover = {
     jbo: ["xalri'abi'a", "xalrihaˈbiha"],
     tlh: ["'uH", "ʔux"],
     pqm: ["mocomolsu", "motʃomolsu"],
+    cro: ["áchippee", "átʃipːeː"],
   },
 };

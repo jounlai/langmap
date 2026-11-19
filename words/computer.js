@@ -741,5 +741,7 @@ WORDS.computer = {
     aae: ["kompjuteri", "kɔmˈpjutɛɾi"],
     cr: ["ᒋᑳᐢᑌᐸᔨᐦᒋᑲᐣ", "tʃikaːsteːpajihtʃikan"],
     pqm: ["kompiyuhta", "kompijuhta"],
+    cro: ["kalíhchiiliche iiwaachichéhkuua", "kalíhtʃiːlitʃe iːwaːtʃitʃéhkuːa"],
+    sma: ["daatovre", "ˈtɑːtuβrɛ"],
   },
 };

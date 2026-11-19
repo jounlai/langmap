@@ -1178,5 +1178,6 @@ WORDS.horse = {
     kxv: ["goṛa", "ɡoɽa"],
     nys: ["ngort", "ŋoɻt"],
     bxd: ["mjɔ̃31", "mjɔ̃˧˩"],
+    dak: ["šuŋktáŋka", "ʃũktã́ka"],  // 'big dog' (šúŋka + táŋka)
   }
 };

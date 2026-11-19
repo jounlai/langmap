@@ -1025,5 +1025,7 @@ WORDS.snow = {
     ach: ["pee", "peː"],  // also hail
     bxd: ["ŋɛ̰̃55", "ŋɛ̰̃˥˥"],  // The same source gives this word for ice, frost and dew as well.
     bej: ["bayuk", "bajuk"],
+    kde: ["balafu", "balafu"],
+    pau: ["snow", "sno"],
   }
 };

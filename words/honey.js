@@ -1190,5 +1190,6 @@ WORDS.honey = {
     cro: ["akihchilakkaashbilishíishte", "akihtʃilakːaːʃbiliʃíːʃte"],
     nez: ["teemísquy", "teːmísquj"],
     kmu: ["tumemo timo", "tumemo timo"],
+    pau: ["honey", "ˈhani"],
   },
 };

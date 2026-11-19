@@ -761,6 +761,13 @@ WORDS.sunday = {
     ja_kanbun: "sun",
     kos: "sun",
     zh_wenyan_edu: "sun",
+    cuk: "lord",
+    fud: "holy",
+    hns: "sun",
+    jiv: "lord",
+    pau: "sun",
+    plg: "lord",
+    tar: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1462,5 +1469,12 @@ WORDS.sunday = {
     ja_kanbun: ["日曜", "nitɕijoː"],
     kos: ["sacnri", "sɛnri"],  // From English Sunday.
     zh_wenyan_edu: ["日曜", "jɐt˨ jiːu˨"],
+    cuk: ["domingo", "domiŋɡo"],
+    fud: ["aso tapu", "aso tapu"],
+    hns: ["atwaar", "ətʋaːr"],
+    jiv: ["tumintin", "tumintin"],
+    pau: ["sandei", "sanðei"],
+    plg: ["domingo", "domiŋɡo"],
+    tar: ["domingo", "domiŋɡo"],
   },
 };

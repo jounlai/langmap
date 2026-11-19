@@ -786,6 +786,13 @@ WORDS.window = {
     yue_zs: "plain",
     zh_tw: "plain",
     ar_sd: "other",
+    aoc: "wind",
+    cag: "other",
+    jiv: "plain",
+    kln: "door",
+    pau: "eye",
+    tca: "wind",
+    teo: "door",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -1511,5 +1518,12 @@ WORDS.window = {
     yue_zs: ["窗口", "tsʰœŋ˥˥ hɐu˨˩˧"],
     zh_tw: ["窗戶", "ʈʂʰwɑŋ˥ xu˥˩"],  // Taiwan keeps the full tone on 戶, as in 名字.
     ar_sd: ["شباك", "ʃubˈbaːk"],
+    aoc: ["ventana", "bentana"],
+    cag: ["watowaɬxaʔwat", "watowaɬxaʔwat"],
+    jiv: ["áankamu", "ˈaːŋkamu"],
+    kln: ["tirisiet", "tirisiet"],
+    pau: ["mado", "maðo"],
+    tca: ["beü̃tána", "beɨ̃tána"],
+    teo: ["edirisa", "edirisa"],
   },
 };

@@ -703,6 +703,12 @@ WORDS.saturday = {
     ja_kanbun: "saturn",
     kos: "saturn",
     zh_wenyan_edu: "saturn",
+    cuk: "sabbath",
+    hns: "saturn",
+    pau: "sabbath",
+    plg: "sabbath",
+    tar: "sabbath",
+    wba: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1348,5 +1354,11 @@ WORDS.saturday = {
     ja_kanbun: ["土曜", "dojoː"],
     kos: ["sactte", "sɛtːe"],  // From English Saturday.
     zh_wenyan_edu: ["土曜", "tʰou˧˥ jiːu˨"],
+    cuk: ["sábado", "sabado"],
+    hns: ["sanichar", "sənitʃər"],
+    pau: ["sebadong", "sɛbaðoŋ"],
+    plg: ["sábado", "sabado"],
+    tar: ["sábado", "sabado"],
+    wba: ["sábado", "sabado"],
   },
 };

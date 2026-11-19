@@ -1186,5 +1186,6 @@ WORDS.milk = {
     ja_mvi: ["乳", "tsɨː"],
     p_ryu: ["*ti", "ti"],
     ake: ["merïʼ", "meɾɨʔ"],
+    tca: ["lechi", "letʃi"],
   },
 };

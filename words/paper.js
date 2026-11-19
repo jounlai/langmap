@@ -716,6 +716,12 @@ WORDS.paper = {
     ar_sd: "leaf",
     mixtec: "plain",
     ote: "plain",
+    bzd: "plain",
+    cag: "other",
+    cuk: "charta",
+    fud: "papyrus",
+    saq: "charta",
+    tca: "papyrus",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -1372,5 +1378,11 @@ WORDS.paper = {
     ar_sd: ["ورق", "ˈwaraɡ"],
     mixtec: ["tutu", "tutu"],
     ote: ["he̲ʼmi", "hɛʔmi"],
+    bzd: ["yëkkuö", "jɪkkuʊ"],
+    cag: ["watkʼisxajanatʃ", "watkʼisxajanatʃ"],
+    cuk: ["garda", "ɡaɾda"],  // the same word as book
+    fud: ["pepa", "pepa"],
+    saq: ["nkardasi", "ŋkardasi"],
+    tca: ["popera", "popeɾa"],
   },
 };

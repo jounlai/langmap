@@ -816,6 +816,8 @@ WORDS.n99 = {
     hsb: "unit",
     ik: "sub",
     dng: "mult",
+    bnn: "dec",
+    gor: "mult",
   },
   routes: {
     dec: {
@@ -1645,5 +1647,7 @@ WORDS.n99 = {
     hsb: ["dźewjećadźewjećdźesat", "ˈdʒɛwjɛtʃadʒɛwjɛtʃdʒɛsat"],
     ik: ["tallimakipiaġutaiḷaq", "talːimakipiaʁutaiʎaq"],
     dng: ["җюшыҗю", "tɕiou˥˩ʂɻ̩˨˦tɕiou˥˩"],
+    bnn: ["masivaun han siva", "masivaun han siva"],
+    gor: ["tio lopulaa tio", "tio lopulaː tio"],
   }
 };

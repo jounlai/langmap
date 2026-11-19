@@ -1261,5 +1261,6 @@ WORDS.mouth = {
     bor: ["ogwa", "oɡwa"],
     ktz: ["kxʼam", "kxʼam"],
     bxd: ["nɔ̰t55", "nɔ̰t˥˥"],
+    gil: ["wi", "wi"],  // The same word as the tooth.
   }
 };

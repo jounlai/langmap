@@ -917,6 +917,7 @@ WORDS.left = {
     chr: "plain",
     krc: "plain",
     tab: "plain",
+    ch: "plain",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -1771,5 +1772,6 @@ WORDS.left = {
     chr: ["ᎠᎦᏍᎦᏂ", "aɡasɡani"],
     krc: ["сол", "sol"],
     tab: ["гагуну пат", "ɡaɡunu pat"],
+    ch: ["akague", "akaɡwe"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

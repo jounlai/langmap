@@ -590,6 +590,11 @@ WORDS.china = {
     kj: "cina",
     mos: "cina",
     rn: "cina",
+    bew: "cina",
+    bik: "cina",
+    pag: "cina",
+    pon: "cina",
+    wls: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1126,5 +1131,10 @@ WORDS.china = {
     kj: ["China", "tʃina"],
     mos: ["Sin", "sin"],
     rn: ["Ubushinwa", "ubuʃinwa"],
+    bew: ["Cina", "tʃina"],
+    bik: ["Tsina", "ˈtsina"],
+    pag: ["Tsina", "ˈtsina"],
+    pon: ["Saina", "saina"],
+    wls: ["Siaina", "siaina"],
   },
 };

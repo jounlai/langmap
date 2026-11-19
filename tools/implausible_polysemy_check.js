@@ -86,6 +86,7 @@ const CROSS = {
 // row. Prefer the row-level key: "this pair is fine everywhere" is a much
 // stronger claim than it looks, and grue is the only one this atlas can make.
 const ACCEPTED = {
+    'gil:mouth|tooth': 'Gilbertese wi: Bingham’s Gilbertese–English dictionary glosses it "a tooth, the mouth", and ABVD 346 lists wi for both concepts. Review 821, 2026-11-20.',
     'la_late:bone|mouth': 'Late Latin os "bone" (Classical ŏs, ossis) and os "mouth" (ōs, ōris): two words whose spelling falls together once the row drops vowel length; the IPA keeps them apart (ɔs / os). Review 752, 2026-11-17.',
     'mos:foot|wheel': 'Mooré naoore: the SIL Mooré dictionary glosses it "pied, patte, roue de véhicule; foot, leg, paw, wheel" and its French index gives roue = naoore (or the loan ru). Review 678, 2026-11-09.',
     'yiz:black|red': 'Azhe ȵɪ˨˨ "black" and ȵɪ˧˧ "red" (Yang Yi survey via Lexibank): the row writes no tones in the surface, so two words fall together there; the IPA keeps them apart (the source also marks black with a tense vowel). 2026-11-04.',

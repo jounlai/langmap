@@ -750,6 +750,10 @@ WORDS.monkey = {
     xal: "maymun",
     lua: "nkima",
     tum: "plain",
+    min: "plain",
+    pon: "monkey",
+    tay: "plain",
+    tvl: "monkey",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -1439,5 +1443,9 @@ WORDS.monkey = {
     xal: ["маймун", "majmun"],
     lua: ["nkima", "ŋkima"],
     tum: ["munkhwere", "munkʰweɾe"],
+    min: ["cigak", "tʃiɡaʔ"],  // No image is recorded for it, so it counts as a word of its own.
+    pon: ["mwengki", "mʷeŋki"],
+    tay: ["yungay", "juŋaj"],
+    tvl: ["magiki", "maŋiki"],  // Borrowed from English monkey.
   },
 };

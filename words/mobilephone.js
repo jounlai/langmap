@@ -520,6 +520,8 @@ WORDS.mobilephone = {
     ltg: "carry",
     rap: "cell",
     mhr: "carry",
+    bsq: "other",
+    men: "other",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -983,5 +985,7 @@ WORDS.mobilephone = {
     ltg: ["mobilais telefons", "ˈmɔbʲilai̯s ˈtʲɛlʲɛfɔnts"],
     rap: ["celular", "selulaɾ"],  // Spanish loan.
     mhr: ["мобильный телефон", "moˈbilʲnəj teleˈfon"],
+    bsq: ["gàɖàfò-ɖúú", "ɡàɖàfòɖúː"],
+    men: ["fouŋ", "fouŋ"],
   },
 };

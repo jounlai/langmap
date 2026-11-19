@@ -583,6 +583,7 @@ WORDS.china = {
     ltg: "cina",
     ami: "zhongguo",
     bm: "cina",
+    men: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1112,5 +1113,6 @@ WORDS.china = {
     ltg: ["Ķīna", "ˈkʲiːna"],
     ami: ["Ciwkoku", "tsiwkoku"],
     bm: ["Sinuwala", "sinuwala"],
+    men: ["Saina", "saina"],
   },
 };

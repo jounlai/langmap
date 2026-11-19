@@ -555,7 +555,7 @@ WORDS.love = {
     kmu: ["avesi", "avesi"],
     emi: ["aielousi", "aielousi"],
     hot: ["—", "—"],
-    fai: ["—", "—"],
+    fai: ["aket kudawa", "aket kudawa"],
     nlc: ["wanaʼ", "wanaʔ"],
     bzh: ["ahë ving", "aʁe βiŋ"],
     tcs: ["labe", "labe"],

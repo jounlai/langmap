@@ -819,6 +819,9 @@ WORDS.yellow = {
     vi_s: "gold",
     ngu: "plain",
     yua: "plain",
+    mg: "plain",
+    nd: "plain",
+    ve: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1577,5 +1580,8 @@ WORDS.yellow = {
     vi_s: ["vàng", "jaːŋ˨˩"],
     ngu: ["kostik", "ˈkostik"],
     yua: ["kʼaankʼan", "kʼaːnkʼan"],
+    mg: ["mavo", "ˈmavu"],
+    nd: ["lithanga", "litʰaŋɡa"],
+    ve: ["ṱaḓa", "t̪ad̪a"],
   },
 };

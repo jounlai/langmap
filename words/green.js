@@ -1094,5 +1094,6 @@ WORDS.green = {
     fit: ["vihriäinen", "ˈʋihriæinen"],
     car: ["tikire", "tikiɾe"],
     ng: ["talala", "talala"],
+    kj: ["talala", "talala"],
   }
 };

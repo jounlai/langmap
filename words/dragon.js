@@ -557,6 +557,35 @@ WORDS.dragon = {
     guc: "serpent",
     nv: "other",
     tzh: "draco",
+    aau: "plain",
+    aer: "serpent",
+    bzh: "plain",
+    ckb: "azhdaha",
+    enq: "serpent",
+    ext: "draco",
+    fai: "plain",
+    gsw: "draco",
+    hot: "plain",
+    hui: "plain",
+    kmu: "serpent",
+    ko_hg: "long",
+    kpf: "plain",
+    ksh: "draco",
+    mpj: "plain",
+    mpt: "serpent",
+    roo: "draco",
+    th_n: "makara",
+    th_s: "makara",
+    ug: "azhdaha",
+    vmf: "draco",
+    xmf: "draco",
+    bem: "other",
+    kj: "plain",
+    nd: "plain",
+    ng: "plain",
+    st: "draco",
+    tn: "serpent",
+    ve: "other",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -994,7 +1023,7 @@ WORDS.dragon = {
     kbp: ["ɖʋmanʋʋ", "ɖʊmanʊː"],  // Shares the stem of ɖʋm "snake"; the Kabiye Bible (NWT) has ɖʋmanʋʋ sɔsɔʋ "great dragon", beside ɖʋm for the old serpent.
     kg: ["dragoni", "draɡoni"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
     khw: ["اژدار", "aʒˈdar"],  // Borrowed from Persian اژدر aždar.
-    ko_yb: ["용", "joŋ"],  // Sino-Korean 龍, the Korean word.
+    ko_yb: ["룡", "ɾjoŋ"],  // Sino-Korean, from 龍; Wiktionary tags 룡 as the North Korean and Yanbian form (용 in the South).
     ksw: ["ပယိၤ", "pəji"],  // Cognate with Eastern Pwo Karen ယှံင်; the Sgaw Karen Bible (NWT) has ပယိၤဖးဒိၣ် "great dragon", beside ဂုၢ် "snake" for the old serpent.
     loz: ["drakoni", "drakoni"],  // A loan of the European dragon word; the Lozi Bible (NWT) has drakoni yetuna "great dragon", beside noha "snake" for the old serpent.
     lua: ["dragon", "draɡon"],  // A loan of the European dragon word (Greek drákōn, Latin draco).
@@ -1053,5 +1082,34 @@ WORDS.dragon = {
     guc: ["wüi miyoʼu", "wɨi mijoʔu"],  // Literally 'big snake' (wüi 'snake' + miyoʼu 'big').
     nv: ["naʼashǫ́ʼiitsoh", "nɑ̀ʔɑ̀ʃṍʔìːtsʰòh"],  // Literally 'big lizard' (naʼashǫ́ʼii + -tsoh); the Navajo Bible keeps tłʼiish 'snake' for the old serpent.
     tzh: ["dragón", "dɾaɡon"],
+    aau: ["kyei kwaresi", "kjei kwaɾesi"],
+    aer: ["apmwe kwatye-arenye", "apmʷə kʷatʲə aɻəɲə"],
+    bzh: ["ḳarob", "qaɾoᵐb"],
+    ckb: ["ئەژدیها", "ʔaʒdiːhaː"],
+    enq: ["kanopato pambea", "kanopato pambea"],
+    ext: ["dragón", "dɾaˈɣon"],  // From Latin dracōnem, from Greek δράκων; the same word as Spanish.
+    fai: ["mátuw", "mɑtuw"],
+    gsw: ["Traach", "traːx"],  // Swiss German form of Drache, from Old High German trahho, an early borrowing of Latin dracō.
+    hot: ["wa", "wa"],
+    hui: ["abagua", "abaɡua"],
+    kmu: ["osifaʼve", "osifaʔve"],  // Same word as snake.
+    ko_hg: ["룡", "ɾjoŋ"],  // Sino-Korean, from 龍; North Korean and Yanbian spelling keeps the initial r.
+    kpf: ["oâ", "oɐ"],
+    ksh: ["Drache", "ˈdʁaxə"],  // The same word as Standard German Drache, from Latin dracō.
+    mpj: ["kanaji", "kanaci"],
+    mpt: ["inǎb", "inab"],  // Same word as snake.
+    roo: ["dragon", "dɾaɡon"],
+    th_n: ["มังกร", "maŋ˧kɔːn˧"],  // The Thai word มังกร, from มกร makara, the sea monster of Indian myth; Northern Thai uses the same word.
+    th_s: ["มังกร", "maŋ˥kɔːn˥"],  // The Thai word มังกร, from มกร makara, the sea monster of Indian myth; Southern Thai uses the same word.
+    ug: ["ئەجدىھا", "ɛdʒdiˈhɑ"],
+    vmf: ["Drache", "ˈdraxə"],  // The same word as Standard German Drache, from Latin dracō.
+    xmf: ["დრაკონი", "drakʼoni"],
+    bem: ["icingʼwena", "itʃiŋːwena"],
+    kj: ["ongadu", "oŋɡadu"],
+    nd: ["umgobho", "umɡobo"],
+    ng: ["oshikoko", "oʃikoko"],
+    st: ["drakone", "drakone"],
+    tn: ["noga e kgolo", "ˈnɔχa e ˈkχɔlɔ"],  // Literally "big snake" (noga "snake", kgolo "big"); the Setswana Bible names the dragon this way even where the English has just "the dragon".
+    ve: ["ḽigweṋa", "l̪iɡwen̪a"],  // Built on ngweṋa "crocodile" with the augmentative ḽi- prefix: a "great crocodile".
   },
 };

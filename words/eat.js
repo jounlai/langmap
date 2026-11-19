@@ -561,7 +561,7 @@ WORDS.eat = {
     kmu: ["ne", "ne"],
     emi: ["nama", "nama"],
     hot: ["yaŋ", "jaŋ"],
-    fai: ["—", "—"],
+    fai: ["wanin wanumo", "wanin wanumo"],
     nlc: ["de", "de"],
     bzh: ["gga", "ɣa"],
     tcs: ["kaikai", "kaikai"],

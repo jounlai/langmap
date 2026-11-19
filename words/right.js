@@ -860,6 +860,16 @@ WORDS.right = {
     dv: "plain",
     kg: "other",
     lua: "other",
+    bej: "plain",
+    tig: "plain",
+    grt: "plain",
+    zh_cq: "plain",
+    zh_hf: "plain",
+    zh_jiao: "plain",
+    zh_jn: "plain",
+    zh_km: "plain",
+    zh_tj: "plain",
+    zh_wh: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1661,5 +1671,15 @@ WORDS.right = {
     dv: ["ކަނާތް", "kanaːt"],
     kg: ["diboko ya kitata", "diboko ja kitata"],  // Literally 'the father-side hand'.
     lua: ["tshianza tshia balume", "tʃianza tʃia balume"],  // Literally 'the men's hand'.
+    bej: ["mayukwa", "majukʷa"],
+    tig: ["ማን", "man"],
+    grt: ["jakra", "dʒakra"],
+    zh_cq: ["右", "iəu˨˩˧"],
+    zh_hf: ["右", "jiɤɯ˥˩"],
+    zh_jiao: ["右", "iou˦˨"],
+    zh_jn: ["右", "iou˨˩"],
+    zh_km: ["右", "iəu˨˩˨"],
+    zh_tj: ["右", "iou˥˧"],
+    zh_wh: ["右", "iou˧˥"],
   },
 };

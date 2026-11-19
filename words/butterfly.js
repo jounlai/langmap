@@ -961,5 +961,7 @@ WORDS.butterfly = {
     itz: ["pepem", "pepem"],
     na: ["iyewaeoe", "ijewaeoe"],
     nez: ["łéepłep", "ɬéːpɬep"],
+    bej: ["bilekanay", "bilekanaj"],
+    ssy: ["simbiliilico", "simbiliːliʕo"],
   },
 };

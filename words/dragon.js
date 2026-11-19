@@ -595,6 +595,11 @@ WORDS.dragon = {
     dv: "draco",
     so: "serpent",
     wo: "plain",
+    rmy: "draco",
+    sah: "long",
+    tig: "plain",
+    ja_oki: "long",
+    ssy: "tannin",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -1129,5 +1134,10 @@ WORDS.dragon = {
     dv: ["ޑްރޭގަން", "ɖreːɡan"],
     so: ["masduulaa", "masduːlaː"],
     wo: ["ninki-nanka", "niŋki naŋka"],
+    rmy: ["drakono", "drakono"],  // A loan of the European dragon word (Russian дракон) with the Romani masculine -o; the Vlax Romani (Russia) Bible has драконо in Revelation 12:9 and 20:2, beside сап "snake" for the old serpent.
+    sah: ["луо", "luo"],  // The native word, used for the Chinese 龍 (Akutagawa's name, the zodiac year) and as луо-кыыл 'dragon beast'; in folk epic also an adjective 'huge, mighty' of mythical beasts. The dictionary compares it with Mongolian and Uyghur луу and Old Turkic lü, ultimately from Chinese 龍. The Russian loan дракон is also common in modern writing.
+    tig: ["አስሀለት", "ʔasəhalat"],
+    ja_oki: ["竜", "ɾuː"],
+    ssy: ["tannan", "tannan"],
   },
 };

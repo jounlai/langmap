@@ -753,6 +753,14 @@ WORDS.week = {
     shn: "sabbath",
     swi: "stars",
     wo: "plain",
+    bej: "plain",
+    wuu_hz: "other",
+    wuu_jh: "stars",
+    yue_dg: "other",
+    zh_cd: "stars",
+    zh_jn: "stars",
+    zh_wh: "stars",
+    zh_xa: "stars",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1447,5 +1455,13 @@ WORDS.week = {
     shn: ["သတၢင်း", "sʰa˨˦taːŋ˥"],
     swi: ["sin3 ȶhi3", "sin˧˧ ȶʰi˧˧"],
     wo: ["ayu bés", "aju beːs"],
+    bej: ["asarama", "asarama"],
+    wuu_hz: ["礼拜", "li˥˧ pᴇ˦˦˥"],  // 'Worship.'
+    wuu_jh: ["星期", "siŋ˧˧˦ dʑi˧˩˧"],
+    yue_dg: ["礼拜", "lɔi˧˦ pai˦˦˧"],  // 'Worship.'
+    zh_cd: ["星期", "ɕin˥˥ tɕʰi˨˩"],
+    zh_jn: ["星期", "ɕiŋ˨˩˧ tɕʰi˨˩˧"],
+    zh_wh: ["星期", "ɕin˥˥ tɕʰi˥˥"],
+    zh_xa: ["星期", "ɕiŋ˨˩ tɕʰi˨˩"],
   },
 };

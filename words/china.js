@@ -576,6 +576,7 @@ WORDS.china = {
     pau: "cina",
     pis: "cina",
     bxd: "other",
+    ko_jeju: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -1098,5 +1099,6 @@ WORDS.china = {
     pau: ["Sina", "sina"],
     pis: ["Saena", "saena"],  // From English China.
     bxd: ["tʃuŋ35kɔ31", "tʃuŋ˧˥kɔ˧˩"],  // Borrowed from Southwestern Mandarin 中国 Zhōngguó (Wiktionary).
+    ko_jeju: ["대국", "tɛɡuk̚"],
   },
 };

@@ -934,5 +934,6 @@ WORDS.rice = {
     sjd: ["рӣсс", "riːsː"],
     car: ["areisi", "aɾeisi"],
     har: ["rūz", "ruːz"],
+    ssy: ["ruuz", "ɾuːz"],
   }
 };

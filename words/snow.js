@@ -1021,5 +1021,6 @@ WORDS.snow = {
     p_jpk: ["*yoki", "joki"],
     kbp: ["ɖɔmbɛɛ", "ɖɔmbɛː"],
     urh: ["imicho", "imitʃo"],
+    fon: ["laglási linfín", "laɡlási lĩfĩ́"],
   }
 };

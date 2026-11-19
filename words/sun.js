@@ -803,7 +803,7 @@ WORDS.sun = {
     pjt: ["tjiṉṯu", "ciɳʈu"],
     wbp: ["wanta", "wanta"],
     piu: ["tjintu", "cintu"],
-    aer: ["—", "—"],
+    aer: ["uterne", "utəɳə"],
     nha: ["warʼu", "waɻʔu"],
     olk: ["ugnga", "uɡŋa"],
     adt: ["yurnrdu", "juɳʈu"],

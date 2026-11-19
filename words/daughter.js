@@ -1188,5 +1188,6 @@ WORDS.daughter = {
     auj: ["wə̀lli", "ˈwəlːi"],
     chb: ["chuta", "tʃuta"],
     bbl: ["ჲოჰʼ", "joħ"],
+    agt: ["anak nga balatang", "ʔanak ŋa balataŋ"],
   },
 };

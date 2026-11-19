@@ -664,6 +664,11 @@ WORDS.sunday = {
     dje: "count",
     sid: "sabbath",
     kmu: "sun",
+    agx: "count",
+    win: "other",
+    pt_gw: "lord",
+    rue: "rest",
+    sgs: "rest",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1268,5 +1273,10 @@ WORDS.sunday = {
     dje: ["Alhadi", "alhadi"],
     sid: ["sanbata", "sanbata"],  // From Amharic sänbät 'sabbath'.
     kmu: ["Sota yupa", "sota jupa"],
+    agx: ["элхӏад", "elħad"],
+    win: ["Haramįhe Hąąp", "haɾamĩhe hãːp"],  // Literally 'cross day'.
+    pt_gw: ["dimingu", "diˈmiŋɡu"],
+    rue: ["недїля", "neˈdʲilʲa"],
+    sgs: ["nedielės dėina", "nʲɛdʲieːlʲeːs dʲeːina"],
   },
 };

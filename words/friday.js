@@ -635,6 +635,12 @@ WORDS.friday = {
     huz: "plain",
     koi: "count",
     wal: "plain",
+    agx: "assembly",
+    kjj: "plain",
+    win: "count",
+    ext: "venus",
+    pt_gw: "count",
+    sgs: "count",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -1209,5 +1215,11 @@ WORDS.friday = {
     huz: ["рузман", "ruzman"],
     koi: ["витӧдзлун", "vitɘdʑlun"],  // вит 'five' → витӧд 'fifth' + лун 'day'.
     wal: ["Bizza", "bizːa"],
+    agx: ["джумъӏа", "dʒumʔˤa"],
+    kjj: ["инадкьаь", "inadqʼæ"],
+    win: ["Hąąp hisacąhą", "hãːp hisatʃãhã"],
+    ext: ["viernis", "ˈbjeɾnis"],
+    pt_gw: ["sesta-fera", "ˈsɛsta ˈfera"],
+    sgs: ["petnīčė", "pʲɛtnʲiːtʃʲeː"],
   },
 };

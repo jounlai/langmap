@@ -539,6 +539,14 @@ WORDS.tobacco = {
     moh: "plain",
     trn: "plain",
     ttj: "tabaco",
+    pot: "plain",
+    ani: "tanbaku",
+    cro: "plain",
+    nez: "tabaco",
+    win: "plain",
+    alt: "tanbaku",
+    kjh: "tanbaku",
+    ku: "smoke",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -1018,5 +1026,13 @@ WORDS.tobacco = {
     moh: ["oién:kwaʼ", "ojʌ̃́ːɡwaʔ"],
     trn: ["saware", "sawaɾe"],  // No image is recorded for it, so it counts as a word of its own.
     ttj: ["etaba", "etaβa"],
+    pot: ["séma", "sema"],
+    ani: ["тамахьу", "tamaxu"],
+    cro: ["óope", "óːpe"],
+    nez: ["túuq", "túːq"],
+    win: ["taanį", "taːnĩ"],
+    alt: ["тамкы", "tamˈkɯ"],
+    kjh: ["тамкы", "tamˈkɯ"],
+    ku: ["tûtin", "tuːˈtɪn"],
   },
 };

@@ -453,6 +453,7 @@ WORDS.dragonfly = {
     tiw: "plain",
     woe: "plain",
     vo: "plain",
+    win: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -851,5 +852,6 @@ WORDS.dragonfly = {
     tiw: ["pipirriwini", "pipiɾiwini"],
     woe: ["goshaap", "ɡoʃaːp"],
     vo: ["libelul", "libeˈlul"],
+    win: ["xorojąjąp", "xoɾodʒãdʒãp"],
   },
 };

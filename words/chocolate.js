@@ -633,5 +633,6 @@ WORDS.chocolate = {
     emy: ["kakaw", "kakaw"],  // Classic Maya vases are often labelled as cups for kakaw.
     nci: ["chocolātl", "tʃokoˈlaːtɬ"],
     fit: ["sjukla", "ˈʃuklɑ"],
+    win: ["xaigi", "xaiɡi"],
   }
 };

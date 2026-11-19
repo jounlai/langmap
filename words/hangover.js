@@ -239,5 +239,6 @@ WORDS.hangover = {
     ia: ["sequelas de inebriation", "seˈkwelas de inebriaˈtsjon"],
     jbo: ["xalri'abi'a", "xalrihaˈbiha"],
     tlh: ["'uH", "ʔux"],
+    pqm: ["mocomolsu", "motʃomolsu"],
   },
 };

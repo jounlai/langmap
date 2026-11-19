@@ -1320,5 +1320,6 @@ WORDS.black = {
     har: ["ṭäy", "tʼəj"],
     ktz: ["nǂu", "ᵑǂu"],
     lun: ["chiyila", "tʃijila"],
+    ake: ["iʼkïrïn", "iʔkɨɾɨn"],
   },
 };

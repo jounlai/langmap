@@ -993,6 +993,8 @@ WORDS.bear = {
     usp: "loan",
     lua: "loan",
     tiv: "loan",
+    ig: "loan",
+    ln: "loan",
   },
   routes: {
     inherited: { color: "#0d9f6e", emoji: "🐻", en: "the old word, kept", ja: "古い語のまま", ko: "옛말 그대로", zh: "沿用固有词", yue: "沿用固有詞", vi: "giữ từ cũ", th: "ยังใช้คำเดิม", id: "kata lama, tetap", hi: "पुराना शब्द, बरकरार", de: "das alte Wort, behalten", fr: "le mot ancien, gardé", it: "la parola antica, mantenuta", es: "la palabra antigua, conservada", pt: "a palavra antiga, mantida", ru: "старое слово, сохранено", uk: "давнє слово, збережене", ar: "الكلمة القديمة، محفوظة", he: "המילה הישנה, נשמרה", sw: "neno la zamani, limebaki" },
@@ -2020,5 +2022,7 @@ WORDS.bear = {
     usp: ["oso", "oso"],  // From Spanish oso.
     lua: ["urse", "urse"],
     tiv: ["biya", "bija"],
+    ig: ["bea", "bea"],
+    ln: ["urse", "urse"],
   },
 };

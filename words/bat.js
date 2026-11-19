@@ -779,6 +779,11 @@ WORDS.bat = {
     xul: "plain",
     lun: "plain",
     wls: "plain",
+    bum: "plain",
+    av: "plain",
+    cro: "bird",
+    win: "plain",
+    kjh: "other",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1503,5 +1508,10 @@ WORDS.bat = {
     xul: ["ngadya-ngadyan", "ŋaɟaŋaɟan"],
     lun: ["katata", "katata"],
     wls: ["peka", "peka"],
+    bum: ["ôtan", "ɔtan"],
+    av: ["къохьоллъалкӏач", "qʼoxolɬalkʼatʃ"],
+    cro: ["dakáakbaleleepe", "dakáːkbaleleːpe"],
+    win: ["pąąšišike", "pãːʃiʃike"],
+    kjh: ["чарханат", "tʃarxaˈnat"],
   },
 };

@@ -1176,5 +1176,6 @@ WORDS.horse = {
     dta: ["moŕ", "morʲ"],
     har: ["färäz", "fərəz"],
     kxv: ["goṛa", "ɡoɽa"],
+    nys: ["ngort", "ŋoɻt"],
   }
 };

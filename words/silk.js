@@ -858,5 +858,7 @@ WORDS.silk = {
     pmng: ["*torga", "torɡa"],
     rmy: ["kez", "kez"],
     tsz: ["seda", "seda"],
+    ig: ["silk", "silk"],
+    cro: ["baalakkáhpikisshe", "baːlakːáhpikiʃːe"],
   }
 };

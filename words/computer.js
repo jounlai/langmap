@@ -740,5 +740,6 @@ WORDS.computer = {
     mga: ["rímid", "ˈrʲiːvʲiðʲ"],  // There were no computers; a rímid was the reckoner who worked out dates and sums.
     aae: ["kompjuteri", "kɔmˈpjutɛɾi"],
     cr: ["ᒋᑳᐢᑌᐸᔨᐦᒋᑲᐣ", "tʃikaːsteːpajihtʃikan"],
+    pqm: ["kompiyuhta", "kompijuhta"],
   },
 };

@@ -458,6 +458,19 @@ WORDS.dragonfly = {
     nez: "other",
     niu: "plain",
     duu: "plain",
+    cnp: "other",
+    hsn_hy: "plain",
+    nan_pn: "plain",
+    nan_te: "plain",
+    wuu_jx: "plain",
+    wuu_nb: "plain",
+    wuu_sz: "plain",
+    wuu_wz: "plain",
+    zh_km: "plain",
+    zh_lz: "other",
+    zh_nj: "plain",
+    zh_sc: "plain",
+    zh_wh: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -861,5 +874,18 @@ WORDS.dragonfly = {
     nez: ["simqasimqayáaya", "simqasimqajáːja"],
     niu: ["kitikitivai", "kitikitivai"],
     duu: ["nɑmdzeɹ", "nɑmdzeɹ"],
+    cnp: ["尾朾", "me˥˧ tʃiɐŋ˨˩"],  // 尾 'tail' in its colloquial reading; also 塘螟.
+    hsn_hy: ["洋咪咪", "ian˩˩˨ mi˦˦˥ mi˦˦˥"],
+    nan_pn: ["田嬰", "tsʰan˨˧ nĩ˨˧"],  // The Hokkien dragonfly word, also written 塍嬰; MCPDict's Penang table cites its second syllable as nĩ.
+    nan_te: ["𬠋𧌊", "sua˧˧ me˧˧"],
+    wuu_jx: ["蜻蜓", "tɕʰiŋ˥˩ diŋ˧˩"],  // The same word as Standard Chinese. Reading from MCPDict 嘉興, whose character list has 蜻 and 蜓.
+    wuu_nb: ["蜻蜓", "tɕʰiŋ˥˨ diŋ˧˩˧"],  // The same word as Standard Chinese. Reading from MCPDict 寧波.
+    wuu_sz: ["蜻蜓", "sin˦˦ din˨˨˧"],
+    wuu_wz: ["蜻蜓", "tsʰeŋ˧˧ daŋ˧˩"],
+    zh_km: ["蜻蜓", "tɕʰĩ˦˦ tʰĩ˧˩"],  // The same word as Standard Chinese. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["春官", "pfʰə̃˧˩ kuɛ̃˧˩"],  // Literally 'spring official'.
+    zh_nj: ["蜻蜻", "sĩ˧˩ sĩ"],  // The 蜻 of 蜻蜓 doubled; Nanjing also says 蜻蜓.
+    zh_sc: ["虰虰猫儿", "tin˥ tin˥ mɚ˥"],  // Also written 丁丁猫儿; Chengdu also says 蜻蜓.
+    zh_wh: ["虰虰", "tin˥˥ tin˥˥"],  // A reduplication of 虰, also written 丁丁, as in Nanchang Gan. Word from Wiktionary's dialect table for Wuhan; 虰 read as 丁 (MCPDict 武漢 has no entry for 虰).
   },
 };

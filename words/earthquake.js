@@ -630,6 +630,13 @@ WORDS.earthquake = {
     lt: "earth",
     rup: "shake",
     wo: "earth",
+    cnp: "earth",
+    cpx: "earth",
+    hak_cn: "earth",
+    nan: "earth",
+    nan_ph: "earth",
+    nan_xm: "earth",
+    nan_zz: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -1203,5 +1210,12 @@ WORDS.earthquake = {
     lt: ["žemės drebėjimas", "ˈʒʲæːmʲeːs drʲɛˈbʲeːjɪmɐs"],
     rup: ["cutrembur", "kuˈtrembur"],
     wo: ["yëngu-yëngu suuf", "jəŋɡu jəŋɡu suːf"],
+    cnp: ["地震", "ti˨˨ tʃɐn˥˥"],
+    cpx: ["地动", "te˩˩ taŋ˩˩"],  // Literally 'the earth moves'. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    hak_cn: ["地震", "tʰi˥˧ tsən˧˩"],  // Meixian also says 天地转侧 'heaven and earth turn over'.
+    nan: ["地動", "te˧˧ taŋ˧˧"],  // Literally 'the earth moves'.
+    nan_ph: ["地動", "tue˦˩ taŋ˨˨"],  // Literally 'the earth moves'.
+    nan_xm: ["地动", "tue˨˨ taŋ˨˨"],  // Literally 'the earth moves'.
+    nan_zz: ["地动", "te˨˨ taŋ˨˨"],  // Literally 'the earth moves'; 地牛翻身 'the earth ox turns over' is also said.
   },
 };

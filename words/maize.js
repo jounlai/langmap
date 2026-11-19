@@ -599,6 +599,19 @@ WORDS.maize = {
     swi: "grain",
     bej: "plain",
     ssy: "plain",
+    cjy: "grain",
+    cjy_lv: "grain",
+    cnp: "grain",
+    cpx: "grain",
+    dng: "grain",
+    gan: "grain",
+    hak_cn: "grain",
+    hsn: "grain",
+    mnp: "plain",
+    nan: "grain",
+    nan_xm: "grain",
+    yue_zs: "grain",
+    zh_tw: "grain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -1136,5 +1149,18 @@ WORDS.maize = {
     swi: ["ʔau4 mek8", "ʔau˥˩ mek˧˩"],
     bej: ["irbun", "irbun"],
     ssy: ["cilbo", "ʕilbo"],
+    cjy: ["玉茭子", "y˦˥ tɕiau˥˧ tsəʔ˨"],  // 玉 'jade' + 茭, the wild-rice grass, with the noun suffix 子.
+    cjy_lv: ["玉米", "zu˥˨ mɿ˧˩˨"],  // Lishi also says 玉稻黍.
+    cnp: ["玉米", "ȵy˨˨ mɐi˨˦"],
+    cpx: ["番黍", "huaŋ˥˧˧ ɬø˦˥˧"],  // Literally 'foreign millet'. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    dng: ["йүми", "y˦mi˨˦"],
+    gan: ["玉米", "y˩˩ mi˨˩˧"],  // Literally 'jade rice'.
+    hak_cn: ["包粟", "pau˦ siuk˩"],  // Literally 'wrapped millet'.
+    hsn: ["包谷", "pau˧˧ ku˨˦"],  // 'Wrapped grain'; Changsha also says 玉米.
+    mnp: ["包萝", "pɔ˥˦ lɔ˧˧"],  // Also written 波羅; Jian'ou also says 觀音豆.
+    nan: ["番麥", "huan˦˦ beʔ˦"],  // Literally 'foreign wheat'.
+    nan_xm: ["麦穗", "beʔ˦ sui˨˨"],  // Literally 'wheat ear'; in Xiamen and Zhangzhou it names maize.
+    yue_zs: ["粟米", "sʊk˥ mɐi˨˩˧"],  // Literally 'millet rice'.
+    zh_tw: ["玉米", "y˥˩ mi˨˩˦"],
   },
 };

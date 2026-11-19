@@ -567,6 +567,10 @@ WORDS.littlefinger = {
     kg: "small",
     lua: "plain",
     ssy: "small",
+    wuu_nb: "small",
+    wuu_sz: "small",
+    wuu_wz: "small",
+    zh_wh: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1079,5 +1083,9 @@ WORDS.littlefinger = {
     kg: ["musapi ya fioti", "musapi ja fioti"],  // Literally 'small finger'.
     lua: ["kantengenene", "kantenɡenene"],
     ssy: ["cindhaaferat", "ʕinɖaːfeɾat"],
+    wuu_nb: ["小指末头", "ɕio˧˨˥ tsɿ˧˨˥ mɐʔ˩˨ dœʏ˧˩˧"],  // 'Small finger-tip', the partner of 大指末头 'thumb'. Reading from MCPDict 寧波.
+    wuu_sz: ["小密节头", "siɐ˥˩ miɪʔ˧ tsiɪʔ˥ døʏ˨˨˧"],  // Built like the row's thumb 大密节头.
+    wuu_wz: ["琐蛮指头儿", "so˧˥ ma˧˩ tsɿ˧˥ dɤu˧˩ ŋ̍˧˩"],
+    zh_wh: ["小指甲", "ɕiau˦˨ tsɿ˦˨ ka˨˩˧"],  // Literally 'small finger', the partner of 大指甲 for the thumb. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
   },
 };

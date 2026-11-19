@@ -628,6 +628,11 @@ WORDS.saturday = {
     bej: "sabbath",
     mnc: "saturn",
     ssy: "sabbath",
+    cnp: "count",
+    cpx: "count",
+    hak_cn: "count",
+    mnp: "count",
+    nan_ph: "count",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1198,5 +1203,10 @@ WORDS.saturday = {
     bej: ["sabb", "sabː"],
     mnc: ["ᠪᠣᡳᡥᠣᠨ ᡠᠰᡳᠩᡤᡳ", "boixon usiŋɡi"],
     ssy: ["cindha sambat", "ʕinɖa sambat"],
+    cnp: ["礼拜六", "lɐi˨˦ pai˥˥ lœk˨˦"],
+    cpx: ["拜六", "pai˦˨ laʔ˦"],  // Short for 禮拜六, 'week (lit. worship) six', as in the row's Monday cell.
+    hak_cn: ["礼拜六", "li˦ pai˥˧ liuk˩"],  // 礼拜 'week (lit. worship)' + 六 'six', as in the row's Monday cell.
+    mnp: ["礼拜六", "li˨˩ pai˧˧ ly˦˨"],  // 礼拜 'week (lit. worship)' + 六 'six', built on the row's word for week.
+    nan_ph: ["拜六", "pai˦˩ lak˨˦"],  // Short for 禮拜六, 'week (lit. worship) six', as in the row's Monday cell.
   },
 };

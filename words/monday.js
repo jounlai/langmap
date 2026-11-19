@@ -740,6 +740,9 @@ WORDS.monday = {
     bej: "count",
     mnc: "moon",
     ssy: "count",
+    cnp: "count",
+    dng: "count",
+    mnp: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1422,5 +1425,8 @@ WORDS.monday = {
     bej: ["eletnen", "eletnen"],
     mnc: ["ᠪᡳᠶᠠ ᡠᠰᡳᠩᡤᡳ", "bija usiŋɡi"],
     ssy: ["sanii", "saniː"],
+    cnp: ["礼拜一", "lɐi˨˦ pai˥˥ ɐt˧"],
+    dng: ["щинчийи", "ɕiŋ˨˦ tɕʰi˨˦ i˨˦"],  // Cognate with Mandarin 星期一, 'week one'.
+    mnp: ["礼拜一", "li˨˩ pai˧˧ i˨˦"],  // 礼拜 'week (lit. worship)' + 一 'one', built on the row's word for week.
   },
 };

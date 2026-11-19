@@ -309,5 +309,6 @@ WORDS.woof = {
     hsb: ["haw haw", "ɦaw ɦaw"],
     vro: ["hau hau", "hɑu hɑu"],
     tsz: ["jua jua", "xwa xwa"],  // From jua jua arhini 'to bark' (to say jua jua).
+    cnp: ["汪汪", "wɐu˥˥ wɐu˥˥"],
   },
 };

@@ -458,6 +458,7 @@ WORDS.hiccup = {
     bej: "plain",
     mnc: "plain",
     ssy: "plain",
+    zh_jn: "imitative",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -862,5 +863,6 @@ WORDS.hiccup = {
     bej: ["shakwa", "ʃakʷa"],
     mnc: ["ᠵᠣᡥᠣᠮᠪᡳ", "dʒoxombi"],
     ssy: ["sinqico", "sinkʼiʕo"],
+    zh_jn: ["打嗝", "ta˥˥ kei˨˩˧"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
   },
 };

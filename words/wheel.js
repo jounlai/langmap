@@ -979,5 +979,6 @@ WORDS.wheel = {
     maw: ["gbari", "ɡbari"],  // The same word means 'leg'.
     pura: ["*peŋärä", "peŋæræ"],
     tzh: ["xotol", "ʃotol"],
+    zh_hf: ["轱辘子", "ku˨˩˨ nu tə"],
   }
 };

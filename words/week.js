@@ -761,6 +761,11 @@ WORDS.week = {
     zh_jn: "stars",
     zh_wh: "stars",
     zh_xa: "stars",
+    cjy_xz: "stars",
+    cnp: "other",
+    dng: "stars",
+    nan_ph: "other",
+    nan_zz: "other",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1463,5 +1468,10 @@ WORDS.week = {
     zh_jn: ["星期", "ɕiŋ˨˩˧ tɕʰi˨˩˧"],
     zh_wh: ["星期", "ɕin˥˥ tɕʰi˥˥"],
     zh_xa: ["星期", "ɕiŋ˨˩ tɕʰi˨˩"],
+    cjy_xz: ["星期", "ɕiəŋ˧˩˧ tɕʰi˧˩˧"],
+    cnp: ["礼拜", "lɐi˨˦ pai˥˥"],  // Literally 'worship'; 星期 is also said.
+    dng: ["щинчи", "ɕiŋ˨˦tɕʰi˨˦"],  // Also plain чи.
+    nan_ph: ["禮拜", "le˥˥˦ pai˦˩"],  // Literally 'worship', from the weekly service.
+    nan_zz: ["礼拜", "le˥˧ pai˨˩"],  // 'Worship', as in the row's 禮拜六 for Saturday.
   },
 };

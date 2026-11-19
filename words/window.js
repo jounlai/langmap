@@ -773,6 +773,18 @@ WORDS.window = {
     mlm: "plain",
     bej: "plain",
     ssy: "fenestra",
+    cnp: "plain",
+    cpx: "plain",
+    czh_wy: "plain",
+    gan: "plain",
+    hak_cn: "plain",
+    mnp: "plain",
+    nan: "plain",
+    nan_ph: "plain",
+    nan_xm: "plain",
+    nan_zz: "plain",
+    yue_zs: "plain",
+    zh_tw: "plain",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -1485,5 +1497,17 @@ WORDS.window = {
     mlm: ["luŋ1 tshoŋ1", "luŋ˦˨ tsʰoŋ˦˨"],
     bej: ["taga", "taɡa"],
     ssy: ["finistira", "finistiɾa"],
+    cnp: ["窗", "tʃʰaŋ˥˧"],
+    cpx: ["窗", "tʰœŋ˥˧˧"],  // The single character 窗, read with the colloquial tʰ-. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    czh_wy: ["槛", "kʰɤ̃˨"],  // The Wuyuan word, written 檻; 窗 and 檻窗 are also said. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    gan: ["窗子", "tsʰɔŋ˦˨ tsɿ˨"],  // 窗 'window' with the noun suffix 子.
+    hak_cn: ["窗仔", "tsʰuŋ˦ e˧˩"],
+    mnp: ["窗门仔", "tʰœyŋ˥˦ mɔŋ˧˧ tsiɛ˨˩"],  // 窗门 'window' with the diminutive 仔.
+    nan: ["窗仔", "tʰaŋ˦˦ a˥˧"],
+    nan_ph: ["窗仔", "tʰaŋ˧˧ a˥˥˦"],  // 窗 'window' with the noun suffix 仔.
+    nan_xm: ["窗仔", "tʰaŋ˦˦ a˥˧"],  // 窗 'window' with the noun suffix 仔.
+    nan_zz: ["窗仔", "tʰaŋ˦˦ a˥˧"],  // 窗 with the diminutive 仔, read with the colloquial tʰ-; 窗仔門 is also said.
+    yue_zs: ["窗口", "tsʰœŋ˥˥ hɐu˨˩˧"],
+    zh_tw: ["窗戶", "ʈʂʰwɑŋ˥ xu˥˩"],  // Taiwan keeps the full tone on 戶, as in 名字.
   },
 };

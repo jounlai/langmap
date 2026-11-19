@@ -815,6 +815,7 @@ WORDS.n99 = {
     acf: "vig",
     hsb: "unit",
     ik: "sub",
+    dng: "mult",
   },
   routes: {
     dec: {
@@ -1643,5 +1644,6 @@ WORDS.n99 = {
     acf: ["katwiven diznèf", "katwivɛ̃ diznɛf"],
     hsb: ["dźewjećadźewjećdźesat", "ˈdʒɛwjɛtʃadʒɛwjɛtʃdʒɛsat"],
     ik: ["tallimakipiaġutaiḷaq", "talːimakipiaʁutaiʎaq"],
+    dng: ["җюшыҗю", "tɕiou˥˩ʂɻ̩˨˦tɕiou˥˩"],
   }
 };

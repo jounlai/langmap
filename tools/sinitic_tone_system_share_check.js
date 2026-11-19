@@ -58,6 +58,10 @@ const CHECK = process.argv.includes('--check');
 
 // Reviewed and kept, with the reason.
 const ALLOW = {
+    // 2026-11-19: Philippine Hokkien descends from the Jinjiang/Quanzhou speech of
+    // the immigrants; Wiktionary's zh-pron gives Philippine readings in the
+    // Quanzhou tone categories, so the two rows sharing six contours is expected.
+    'nan_ph|nan_qz': true,
     // One standard language, one set of tone categories. The rows differ where
     // they should: 41 of 66 surfaces.
     'zh|zh_tw': true,

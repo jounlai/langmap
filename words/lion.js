@@ -757,6 +757,15 @@ WORDS.lion = {
     mmd: "other",
     kr: "other",
     tig: "plain",
+    cnp: "shi",
+    cpx: "shi",
+    dng: "shi",
+    hak_cn: "shi",
+    nan: "shi",
+    nan_ph: "shi",
+    nan_xm: "shi",
+    nan_zz: "shi",
+    yue_zs: "shi",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシャ語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -1456,5 +1465,14 @@ WORDS.lion = {
     mmd: ["ma1 ȵɔ:ŋ2", "ma˦˨ ȵɔːŋ˨˧˩"],
     kr: ["ngâm kúrà", "ŋɡâm kúrà"],  // Literally 'big cat'.
     tig: ["ሐየት", "ħajat"],
+    cnp: ["狮子", "ʃɐi˥˧ tʃi˧˧"],
+    cpx: ["狮", "ɬai˥˧˧"],  // The single character 獅. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    dng: ["сызы", "sɹ̩˨˦tsɹ̩˨˦"],
+    hak_cn: ["狮仔", "sɿ˦ e˧˩"],
+    nan: ["獅", "sai˦˦"],
+    nan_ph: ["獅", "sai˧˧"],  // Also 獅仔 with the noun suffix.
+    nan_xm: ["狮", "sai˦˦"],  // Xiamen also says 獅仔 with the noun suffix.
+    nan_zz: ["狮", "sai˦˦"],  // The single character 獅; 獅仔 with the diminutive is also said.
+    yue_zs: ["獅子", "si˥˥ tsi˨˩˧"],
   },
 };

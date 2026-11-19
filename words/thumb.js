@@ -742,6 +742,10 @@ WORDS.thumb = {
     kg: "big",
     lua: "plain",
     ssy: "plain",
+    wuu_jx: "big",
+    wuu_nb: "big",
+    zh_lz: "big",
+    zh_wh: "big",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1428,5 +1432,9 @@ WORDS.thumb = {
     kg: ["musapi ya nene", "musapi ja nene"],  // Literally 'big finger'.
     lua: ["tshiala", "tʃiala"],
     ssy: ["gile", "ɡile"],
+    wuu_jx: ["大拇节头", "dəuᵝ˩˩˦ mi˧˩ tɕieʔ˥ de˧˩"],  // Literally 'big thumb finger-joint': 节头 is the Taihu Wu word for the finger, as in Shanghainese 大节头. MCPDict 嘉興 cites 拇 mi in 大拇節頭.
+    wuu_nb: ["大指末头", "dəu˩˩˧ tsɿ˧˨˥ mɐʔ˩˨ dœʏ˧˩˧"],  // 'Big finger-tip'. Reading from MCPDict 寧波, 大 in its colloquial reading.
+    zh_lz: ["大拇指", "ta˩˧ mu˦˦˨ tʂʅ˩˧"],
+    zh_wh: ["大指甲", "ta˧˥ tsɿ˦˨ ka˨˩˧"],  // Literally 'big finger': Wuhan uses 指甲 for the finger; 大拇指 is also said. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
   },
 };

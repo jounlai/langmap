@@ -117,6 +117,8 @@ WORDS.bubbletea = {
     bs: "bubble",
     km: "pearl",
     my: "pearl",
+    nan: "pearl",
+    wuu: "pearl",
   },
   routes: {
     pearl: {"color":"#db2777","emoji":"🦪","en":"pearl (珍珠奶茶, trà sữa trân châu, inci çayı)","ja":"真珠 (珍珠奶茶, trà sữa trân châu, inci çayı)","ko":"진주 (珍珠奶茶, trà sữa trân châu, inci çayı)","zh":"珍珠 (珍珠奶茶, trà sữa trân châu, inci çayı)","yue":"珍珠 (珍珠奶茶, trà sữa trân châu, inci çayı)","vi":"ngọc trai (珍珠奶茶, trà sữa trân châu, inci çayı)","th":"ไข่มุก (珍珠奶茶, trà sữa trân châu, inci çayı)","id":"mutiara (珍珠奶茶, trà sữa trân châu, inci çayı)","hi":"मोती (珍珠奶茶, trà sữa trân châu, inci çayı)","de":"Perle (珍珠奶茶, trà sữa trân châu, inci çayı)","fr":"perle (珍珠奶茶, trà sữa trân châu, inci çayı)","it":"perla (珍珠奶茶, trà sữa trân châu, inci çayı)","es":"perla (珍珠奶茶, trà sữa trân châu, inci çayı)","pt":"pérola (珍珠奶茶, trà sữa trân châu, inci çayı)","ru":"жемчуг (珍珠奶茶, trà sữa trân châu, inci çayı)","uk":"перли (珍珠奶茶, trà sữa trân châu, inci çayı)","ar":"لؤلؤ (珍珠奶茶, trà sữa trân châu, inci çayı)","he":"פנינה (珍珠奶茶, trà sữa trân châu, inci çayı)","sw":"lulu (珍珠奶茶, trà sữa trân châu, inci çayı)"},
@@ -172,5 +174,7 @@ WORDS.bubbletea = {
     bs: ["bubble tea", "ˈbabl ti"],  // Unadapted borrowing from English bubble tea; čaj s mjehurićima 'tea with bubbles' is used as a gloss.
     km: ["តែគជ់", "tae kuəc"],  // Tea (តែ) + pearl (គជ់).
     my: ["ပုလဲနို့လက်ဖက်ရည်", "pəlɛ́ no̰ ləpʰɛʔ jè"],
+    nan: ["珍珠奶茶", "tsin˦˦ tsu˦˦ ni˦˦ te˨˦"],
+    wuu: ["珍珠奶茶", "tsən˥˥ tsz̩˧˧ na˨˨ zo˦˦"],
   },
 };

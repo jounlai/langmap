@@ -1213,5 +1213,6 @@ WORDS.nose = {
     rwk: ["mbua", "mbua"],
     ktz: ["tzun", "tsʼun"],
     bxd: ["na̰55", "na̰˥˥"],
+    zh_hf: ["鼻子", "piəʔ˦ tə"],
   },
 };

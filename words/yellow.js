@@ -828,6 +828,10 @@ WORDS.yellow = {
     ar_tn: "plain",
     bej: "plain",
     pwn: "plain",
+    cpx: "plain",
+    dng: "plain",
+    hak_cn: "plain",
+    nan_ph: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1595,5 +1599,9 @@ WORDS.yellow = {
     ar_tn: ["أصفر", "ˈasˤfər"],
     bej: ["asfar", "asfar"],
     pwn: ["qulivai", "qulivai"],
+    cpx: ["黄", "ŋ̍˩˧"],  // The colloquial reading of 黃, as the row reads 紅 aŋ for red; hɒŋ is the literary reading.
+    dng: ["хуон", "xuɑŋ˨˦"],
+    hak_cn: ["黄", "voŋ˩˩"],
+    nan_ph: ["黃", "ŋ̍˨˦"],
   },
 };

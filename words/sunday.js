@@ -681,6 +681,20 @@ WORDS.sunday = {
     bej: "count",
     mnc: "sun",
     ssy: "sabbath",
+    cjy: "other",
+    cnp: "other",
+    cpx: "other",
+    dng: "other",
+    gan: "other",
+    hak_cn: "other",
+    hsn: "other",
+    mnp: "other",
+    nan: "other",
+    nan_ph: "other",
+    nan_xm: "other",
+    nan_zz: "other",
+    wuu: "other",
+    zh_tw: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1302,5 +1316,19 @@ WORDS.sunday = {
     bej: ["had", "had"],
     mnc: ["ᡧᡠᠨ ᡠᠰᡳᠩᡤᡳ", "ʃun usiŋɡi"],
     ssy: ["naba sambat", "naba sambat"],
+    cjy: ["礼拜天", "li˥˧ pai˦˥ tʰiɛ˩"],  // Literally 'worship-day'; 礼拜 is also the week.
+    cnp: ["礼拜日", "lɐi˨˦ pai˥˥ ȵɐt˨˦"],  // Literally 'worship day'; 星期日 is also said.
+    cpx: ["礼拜日", "le˦˥˧ pai˦˨ tiʔ˦"],  // 禮拜 'week (lit. worship)' + 日 'day'. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    dng: ["щинчижы", "ɕiŋ˨˦ tɕʰi˨˦ ɻ̩˨˦"],  // Also либэтян.
+    gan: ["礼拜日", "li˨˩˧ pai˧˥ ȵit˥"],  // Literally 'worship-day'; 礼拜 is also the week.
+    hak_cn: ["星期日", "sen˦ kʰi˩˩ ŋit˩"],
+    hsn: ["星期天", "sin˧˧ tɕi˩˧ tʰiẽ˧˧"],  // Reading from MCPDict 長沙.
+    mnp: ["礼拜日", "li˨˩ pai˧˧ ni˦˨"],  // 礼拜 'week (lit. worship)' + 日 'day', built on the row's word for week; Jian'ou also says 礼拜工.
+    nan: ["禮拜日", "le˥˧ pai˩˩ dʑit˦"],
+    nan_ph: ["拜日", "pai˦˩ lit˨˦"],  // Short for 禮拜日, 'week (lit. worship) day'.
+    nan_xm: ["礼拜日", "le˥˧ pai˨˩ lit̚˦"],  // 礼拜 'week (lit. worship)' + 日 'day', beside the row's 礼拜六 for Saturday.
+    nan_zz: ["礼拜日", "le˥˧ pai˨˩ dzit̚˩˨˩"],  // 禮拜 'week (lit. worship)' + 日 'day'; plain 禮拜 also means Sunday.
+    wuu: ["礼拜天", "li˨˨ pa˥˥ tʰi˨˩"],
+    zh_tw: ["星期天", "ɕiŋ˥ tɕʰi˧˥ tʰjɛn˥"],  // Also 星期日, 禮拜天 and 禮拜日.
   },
 };

@@ -439,6 +439,15 @@ WORDS.milkyway = {
     pkp: "other",
     pmt: "other",
     tcy: "river",
+    dng: "river",
+    hsn_yz: "river",
+    wuu_nb: "river",
+    wuu_sz: "river",
+    wuu_wz: "river",
+    zh_jh: "river",
+    zh_lz: "river",
+    zh_nj: "river",
+    zh_zz: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -821,5 +830,14 @@ WORDS.milkyway = {
     pkp: ["Te Mangōloa", "te maŋoːloa"],
     pmt: ["Te Mangorōa", "te maŋoroːa"],
     tcy: ["ಆಕಾಶಗಂಗೆ", "aːkaːʃaɡaŋɡe"],
+    dng: ["тянхә", "tʰiæ̃˨˦xə˨˦"],  // Literally 'sky river'.
+    hsn_yz: ["银河", "ĩ˩˩˨ ɣo˩˩˨"],  // Yongzhou also says 天河 'sky river'.
+    wuu_nb: ["天河", "tʰi˥˨ ɦəu˧˩˧"],  // Literally 'sky river'. Reading from MCPDict 寧波.
+    wuu_sz: ["天河", "tʰi˦˦ ɦəu˨˨˧"],  // 'The heavenly river'.
+    wuu_wz: ["横河", "viɛ˧˩ vu˧˩"],  // Literally 'crosswise river'.
+    zh_jh: ["天河", "tʰian˧˩ xo˩˧"],  // Literally 'sky river'.
+    zh_lz: ["银河", "iə̃˥˧ xɤ˥˧"],  // Lanzhou also says 天河 'heavenly river'.
+    zh_nj: ["天河", "tʰẽ˧˩ xo˨˦"],  // Literally 'sky river'.
+    zh_zz: ["银河", "in˦˨ xɤ˦˨"],
   },
 };

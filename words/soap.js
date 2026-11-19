@@ -600,6 +600,13 @@ WORDS.soap = {
     swi: "other",
     bej: "sabun",
     ssy: "sabun",
+    cnp: "other",
+    czh: "other",
+    czh_wy: "other",
+    hak_cn: "other",
+    hsn_hy: "other",
+    nan_ph: "sabun",
+    yue_zs: "other",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1141,5 +1148,12 @@ WORDS.soap = {
     swi: ["jaaŋ4 ȶen6", "jaːŋ˥˩ ȶen˨˦"],
     bej: ["sabun", "sabun"],
     ssy: ["saabun", "saːbun"],
+    cnp: ["碱", "kɛn˧˧"],  // Literally 'lye'; also 洋碱 'foreign lye'.
+    czh: ["肥皂", "fe˦˦ tsʰə˨˦"],  // Named after the honey-locust soap pod, as in Mandarin. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    czh_wy: ["肥皂", "fi˩˩ tsʰɔ˧˩"],  // Named after the honey-locust soap pod, as in Mandarin. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    hak_cn: ["番碱", "fan˦ kiam˧˩"],  // Literally 'foreign alkali', the word also used in Cantonese.
+    hsn_hy: ["肥皂", "fei˩˩˨ tsau"],
+    nan_ph: ["雪文", "sap˥ bun˨˦"],  // From Malay sabun.
+    yue_zs: ["番鹼", "fan˥˥ kan˨˩˧"],  // Literally 'foreign soda'.
   },
 };

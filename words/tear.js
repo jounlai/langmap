@@ -783,6 +783,23 @@ WORDS.tear = {
     zh_tj: "eye",
     zh_wh: "eye",
     zh_xa: "eye",
+    cjy: "eye",
+    cjy_lv: "eye",
+    cjy_xz: "eye",
+    cnp: "eye",
+    cpx: "eye",
+    dng: "eye",
+    gan: "eye",
+    hak_cn: "eyewater",
+    hsn: "eye",
+    hsn_hy: "eye",
+    mnp: "eye",
+    nan: "eye",
+    nan_ph: "eye",
+    nan_xm: "eye",
+    nan_zz: "eye",
+    wuu: "eye",
+    yue_zs: "eye",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1510,5 +1527,22 @@ WORDS.tear = {
     zh_tj: ["眼泪", "ian˩˧ lei˥˧"],
     zh_wh: ["眼泪", "iɛn˦˨ nei˧˥"],
     zh_xa: ["眼泪", "niã˥˧ luei˥˥"],
+    cjy: ["眼泪", "niɛ˥˧ luei˦˥"],
+    cjy_lv: ["眼泪", "niæ˧˩˨ lu˥˨"],
+    cjy_xz: ["眼泪", "niɑ̃˧˩˧ luei˥˨"],
+    cnp: ["眼泪", "ȵan˨˦ lui˨˨"],  // Also 眼泪水 'eye-tear water'.
+    cpx: ["目滓", "maʔ˦ tsai˦˥˧"],  // 目 'eye' + 滓 'dregs', as in Fuzhou 目滓. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    dng: ["нянлуй", "niæ̃˥˩luei˨˦"],  // Cognate with Mandarin 眼淚 'eye-tear'.
+    gan: ["眼泪", "an˨˩˧ lui˨˩"],
+    hak_cn: ["目汁", "muk˩ tsəp˩"],  // Literally 'eye juice'.
+    hsn: ["眼泪水", "ŋan˦˩ li˨˦ ɕyei˦˩"],  // 眼泪 'tear' with 水 'water'; Changsha also says plain 眼泪.
+    hsn_hy: ["眼泪水", "ŋan˧˧ ly˧˧ ɕy˧˧"],  // 眼泪 'tear' with 水 'water'.
+    mnp: ["目泽", "mu˦˨ tsɛ˦˨"],  // 目 'eye' + 泽 'moisture'; also written 目汁.
+    nan: ["目屎", "bak˦ sai˥˧"],  // Literally 'eye droppings'; 目屎 is the everyday Taiwanese word for tears.
+    nan_ph: ["目屎", "bak˨˦ sai˥˥˦"],  // Literally 'eye discharge'.
+    nan_xm: ["目屎", "bak̚˦ sai˥˧"],  // Literally 'eye discharge'.
+    nan_zz: ["目屎", "bak̚˩˨˩ sai˥˧"],  // Literally 'eye dregs': 目 'eye' + 屎 'dung'.
+    wuu: ["眼泪水", "ŋɛ˨˨ li˥˥ sz̩˨˩"],
+    yue_zs: ["眼淚", "ŋan˨˩˧ lɵy˧˧"],
   },
 };

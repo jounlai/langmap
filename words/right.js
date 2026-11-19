@@ -870,6 +870,11 @@ WORDS.right = {
     zh_km: "plain",
     zh_tj: "plain",
     zh_wh: "plain",
+    cjy_lv: "plain",
+    cjy_xz: "plain",
+    dng: "plain",
+    nan_ph: "plain",
+    yue_zs: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1681,5 +1686,10 @@ WORDS.right = {
     zh_km: ["右", "iəu˨˩˨"],
     zh_tj: ["右", "iou˥˧"],
     zh_wh: ["右", "iou˧˥"],
+    cjy_lv: ["右", "iʌu˥˨"],
+    cjy_xz: ["右", "iəu˥˨"],
+    dng: ["ю", "iou˦"],
+    nan_ph: ["正", "tsiã˦˩"],  // The Hokkien word tsiàⁿ, written with 正 'straight, upright'.
+    yue_zs: ["右便", "jɐu˧˧ pin˧˧"],  // 右 'right' with 便 'side'.
   },
 };

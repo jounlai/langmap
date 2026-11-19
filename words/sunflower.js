@@ -387,6 +387,8 @@ WORDS.sunflower = {
     win: "plain",
     xal: "sun",
     cro: "other",
+    czh_wy: "plain",
+    hsn_yz: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -420,7 +422,7 @@ WORDS.sunflower = {
     ms: ["bunga matahari", "buŋa matahari"],  // Literally 'sun flower': bunga 'flower' + matahari 'sun'.
     it: ["girasole", "dʒiraˈsoːle"],  // Gira 'turns' + sole 'sun', from the way young plants follow the sun.
     cjy: ["葵花", "kʰuei˩ xua˩"],  // 葵 'kui plant' (here short for 向日葵) + 花 'flower'.
-    hak_cn: ["葵花", "kʰui˩˩ fa˦˦"],  // 葵 'kui plant' (here short for 向日葵) + 花 'flower'; 向日葵 is also used.
+    hak_cn: ["葵花", "kʰui˩˩ fa˦"],  // 葵 'kui plant' (here short for 向日葵) + 花 'flower'; 向日葵 is also used.
     es: ["girasol", "xiɾaˈsol"],  // Gira 'turns' + sol 'sun'.
     pl: ["słonecznik", "swɔˈnɛtʂɲik"],  // From słońce 'sun' + the suffix -nik.
     kn: ["ಸೂರ್ಯಕಾಂತಿ", "suːɾjakaːnti"],  // ಸೂರ್ಯ 'sun' + ಕಾಂತಿ 'radiance', as in Tamil and Malayalam.
@@ -720,5 +722,7 @@ WORDS.sunflower = {
     win: ["raaxgezi", "ɾaːxɡezi"],
     xal: ["нарн цецг", "narn tsetsɡ"],
     cro: ["baaapáalixaawe", "baːapáːliχaːwe"],
+    czh_wy: ["葵花", "tɕʰy˩˩ xo˦˦"],  // 葵 'kui plant' + 花 'flower'. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    hsn_yz: ["向脸虫", "ɕiã˨˦ liẽ˥˥ zoŋ˩˩˨"],  // 向脸 'face toward'.
   },
 };

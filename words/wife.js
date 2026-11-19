@@ -940,6 +940,12 @@ WORDS.wife = {
     bxd: "woman",
     aoc: "own",
     so: "own",
+    cnp: "other",
+    cpx: "other",
+    czh: "other",
+    czh_wy: "other",
+    hak_cn: "other",
+    nan: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1823,5 +1829,11 @@ WORDS.wife = {
     bxd: ["jõ31 mi31", "jõ˧˩ mi˧˩"],  // jɔ̃³¹ is the kinship prefix, and mi³¹ alone means wife, female or woman (Wiktionary).
     aoc: ["nopü", "nopɨ"],
     so: ["afo", "afo"],
+    cnp: ["老婆", "lau˨˦ pu˨˩"],
+    cpx: ["老妈", "lau˩˩ ma˦˥˧"],  // Written 老 'old' + 媽 'mother', as in Fuzhou 老媽. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    czh: ["老婆", "lə˨˦ pʰo˦˦"],  // Written 老 'old' plus 婆 'old woman'; the row's husband is 老公. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    czh_wy: ["老婆", "lɔ˧˩ pʰo˩˩"],  // Written 老 'old' plus 婆 'old woman', as in Shanghainese and Cantonese. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    hak_cn: ["老婆", "lau˧˩ pʰo˩˩"],
+    nan: ["某", "bɔ˥˧"],  // Short 某 bó͘ is the everyday word; a woman is 查某 cha-bó͘, a different word.
   },
 };

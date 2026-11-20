@@ -1209,5 +1209,6 @@ WORDS.rain = {
     acu: ["yumi", "jumi"],
     bxd: ["mau31 ɣɔ55", "mau˧˩ ɣɔ˥˥"],  // Built from mau³¹ 'sky' and ɣɔ⁵⁵ 'to rain' (Wiktionary).
     cuk: ["dii", "tiː"],  // the same word as water
+    nez: ["wéeqit", "wéːqit"],
   },
 };

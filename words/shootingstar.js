@@ -385,6 +385,7 @@ WORDS.shootingstar = {
     ban: "falling",
     war: "plain",
     grt: "plain",
+    bor: "plain",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -715,5 +716,6 @@ WORDS.shootingstar = {
     ban: ["bintang ulung", "bintaŋ uluŋ"],  // Literally 'falling star'; also called andaru.
     war: ["bulalakaw", "bulalakaw"],  // No image is recorded for it, so it counts as a word of its own.
     grt: ["chual", "tʃual"],  // No image is recorded for it, so it counts as a word of its own.
+    bor: ["aroe kodu", "aɾoe kodu"],  // No image is recorded.
   },
 };

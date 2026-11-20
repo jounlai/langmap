@@ -940,5 +940,6 @@ WORDS.rice = {
     tzh: ["arroz", "aros"],
     fud: ["laisi", "laisi"],
     hif: ["chaaur", "tʃaːur"],
+    bor: ["iro", "iɾo"],
   }
 };

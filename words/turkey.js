@@ -476,6 +476,8 @@ WORDS.turkey = {
     bm: "local",
     ace: "local",
     pag: "local",
+    mus: "local",
+    win: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -893,5 +895,7 @@ WORDS.turkey = {
     bm: ["kulokulo", "kulokulo"],
     ace: ["manok gajah", "manɔʔ ɡadʒah"],  // Literally 'elephant chicken': manok is chicken and gajah elephant.
     pag: ["pabo", "ˈpabo"],
+    mus: ["penwv", "pínwə"],  // A native word; no foreign place is named in it.
+    win: ["ziizike", "ziːzike"],
   },
 };

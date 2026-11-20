@@ -820,6 +820,7 @@ WORDS.grandmother = {
     ty: "one",
     wls: "one",
     syl: "split",
+    ik: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1584,5 +1585,6 @@ WORDS.grandmother = {
     ty: ["māmā rūʻau", "maːmaː ɾuːʔau"],
     wls: ["kui fafine", "kui fafine"],
     syl: ["দাদি", "dadi"],
+    ik: ["aana", "aːna"],  // One word for either grandmother; aaka 'mother' is also used for a grandmother.
   },
 };

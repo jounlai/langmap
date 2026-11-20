@@ -1185,5 +1185,6 @@ WORDS.iron = {
     ctu: ["hierro", "jero"],
     tca: ["fieru", "fieɾu"],
     mbc: ["ferro", "fero"],
+    mus: ["cvto", "tʃəto"],  // Also the word for stone.
   },
 };

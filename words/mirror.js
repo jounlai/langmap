@@ -816,6 +816,7 @@ WORDS.mirror = {
     njo: "glass",
     tdh: "ayna",
     tsj: "plain",
+    win: "look",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -1571,5 +1572,6 @@ WORDS.mirror = {
     njo: ["tanüdangtsü", "tanədaŋtsə"],  // The same word means glass: the sea of glass in Revelation 4:6 and the clear glass of 21:18 are tanüdangtsü too.
     tdh: ["ऐना", "aina"],  // The Nepali word, from Persian āyina.
     tsj: ["meloŋ", "meloŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    win: ["hokikjąp", "hokikdʒãp"],  // Literally 'what you take a peek at yourself in'.
   },
 };

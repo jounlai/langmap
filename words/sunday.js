@@ -782,6 +782,7 @@ WORDS.sunday = {
     cnh: "other",
     hoc: "sun",
     njo: "other",
+    cr: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1504,5 +1505,6 @@ WORDS.sunday = {
     cnh: ["Zarhpi ni", "zarʔpi ni"],  // Literally 'the great week-day': zarh 'week', pi 'big'.
     hoc: ["ruibar", "ruibar"],  // From Hindi ravivār, the sun's day.
     njo: ["deobar", "deobaɹ"],  // Borrowed from Assamese দেওবাৰ, 'God' plus 'day'.
+    cr: ["ᐊᔭᒥᐦᐁᐏ ᑮᓯᑳᐤ", "ajamiheːwi kiːsikaːw"],  // Literally 'prayer day'.
   },
 };

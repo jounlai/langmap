@@ -803,6 +803,9 @@ WORDS.week = {
     hoc: "other",
     tdh: "seven",
     unr: "seven",
+    bor: "other",
+    ik: "sunday",
+    nez: "other",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1547,5 +1550,8 @@ WORDS.week = {
     hoc: ["hat", "hat"],  // The word for 'market': the Ho markets are held once a week.
     tdh: ["हप्ता", "həpta"],  // The Nepali word, from Persian hafta, built on haft 'seven'.
     unr: ["hapta", "hapta"],  // From Persian hafta, through Hindi.
+    bor: ["enado", "enado"],  // The same word names the fruit of a cerrado tree.
+    ik: ["savaiññiq", "savaiɲːiq"],  // The same word means Sunday.
+    nez: ["kʼáyʼkin", "kʼájʔkin"],  // Literally 'space between'.
   },
 };

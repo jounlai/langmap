@@ -904,6 +904,10 @@ WORDS.right = {
     tkl: "plain",
     ch: "plain",
     tsj: "plain",
+    crx: "plain",
+    guc: "plain",
+    ik: "plain",
+    nhe: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1749,5 +1753,9 @@ WORDS.right = {
     tkl: ["taumatau", "taumatau"],
     ch: ["agapaʼ", "aɡapaʔ"],  // No image is recorded for it, so it counts as a word of its own.
     tsj: ["laɲuŋ", "laɲuŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    crx: ["nailhni", "naiɬni"],  // No image is recorded.
+    guc: ["ekia", "ekia"],  // No image is recorded for it, so it counts as a word of its own.
+    ik: ["taliqpik", "taliqpik"],  // Also the right arm. No image is recorded for it, so it counts as a word of its own.
+    nhe: ["nejmatl", "ˈnehmatɬ"],
   },
 };

@@ -242,5 +242,6 @@ WORDS.hangover = {
     pqm: ["mocomolsu", "motʃomolsu"],
     cro: ["áchippee", "átʃipːeː"],
     ja_oki: ["さきがち", "sakiɡatɕi"],  // Literally 'sake-sick'.
+    cr: ["ᐋᐦᑯᓯᐯᐏᐣ", "aːhkosipeːwin"],
   },
 };

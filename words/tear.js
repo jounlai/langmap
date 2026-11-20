@@ -844,6 +844,9 @@ WORDS.tear = {
     hoc: "eyewater",
     rhg: "eyewater",
     unr: "eyewater",
+    guc: "plain",
+    ik: "plain",
+    win: "eyewater",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1632,5 +1635,8 @@ WORDS.tear = {
     hoc: ["med da", "meɖ da"],  // Literally 'eye water'.
     rhg: ["suk or faní", "suk ɔr fani"],  // Literally 'water of the eye': suk 'eye', faní 'water'.
     unr: ["med da", "med da"],  // Literally 'eye water'.
+    guc: ["awiira", "awiːra"],  // No image is recorded for it, so it counts as a word of its own.
+    ik: ["qulvi", "qulvi"],  // No image is recorded for it, so it counts as a word of its own.
+    win: ["hišja nįį", "hiʃdʒa nĩː"],  // Literally 'eye water'.
   },
 };

@@ -818,6 +818,7 @@ WORDS.n99 = {
     dng: "mult",
     bnn: "dec",
     gor: "mult",
+    cr: "sub",
   },
   routes: {
     dec: {
@@ -1649,5 +1650,6 @@ WORDS.n99 = {
     dng: ["җюшыҗю", "tɕiou˥˩ʂɻ̩˨˦tɕiou˥˩"],
     bnn: ["masivaun han siva", "masivaun han siva"],
     gor: ["tio lopulaa tio", "tio lopulaː tio"],
+    cr: ["ᑫᑳᐨ ᒥᑖᑕᐦᑐᒥᑕᓇᐤ", "keːkaːtʃ mitaːtahtomitanaw"],  // Literally 'almost a hundred'.
   }
 };

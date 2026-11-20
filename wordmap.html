@@ -3836,8 +3836,14 @@
                     markerUnits="userSpaceOnUse" orient="auto">
                 <path d="M 0 0 L 10 5 L 0 10 z"></path>
             </marker>
+            <!-- The line starts at the label's centre; this mask cuts the label's
+                 box out of it so it seems to run behind the label (owner 2026-11-20). -->
+            <mask id="conn-mask" maskUnits="userSpaceOnUse">
+                <rect class="conn-mask-all" x="0" y="0" width="100%" height="100%" fill="white"></rect>
+                <rect class="conn-mask-hole" x="0" y="0" width="0" height="0" fill="black"></rect>
+            </mask>
         </defs>
-        <path class="conn-path" d="" marker-end="url(#conn-arrow)"></path>
+        <path class="conn-path" d="" marker-end="url(#conn-arrow)" mask="url(#conn-mask)"></path>
     </svg>
 
     <script src="map_boot.js?v=1"></script>
@@ -8716,13 +8722,13 @@
             if (isMobile) {
                 // Mobile: label-bottom-center → modal-top-center (vertical drop)
                 x1 = labelCx;
-                y1 = lr.bottom;
+                y1 = labelCy;
                 x2 = pr.left + pr.width / 2;
                 y2 = pr.top + PANEL_INSET;
             } else {
                 // Desktop: label-side → modal-left/right-edge (vertical center)
                 const panelOnLeft = pr.left + pr.width / 2 < labelCx;
-                x1 = panelOnLeft ? lr.left : lr.right;
+                x1 = labelCx;
                 y1 = labelCy;
                 x2 = panelOnLeft ? pr.right - PANEL_INSET : pr.left + PANEL_INSET;
                 y2 = pr.top + pr.height / 2;
@@ -8743,6 +8749,16 @@
             // marker-end on the path auto-orients the triangle arrowhead
             // to the tangent at the endpoint — no JS rotation needed.
             svg.querySelector('.conn-path').setAttribute('d', path);
+            // Hide the stretch inside the label box (the path starts at its centre).
+            const hole = svg.querySelector('.conn-mask-hole');
+            if (hole) {
+                const rad = parseFloat(getComputedStyle(labelEl).borderTopLeftRadius) || 0;
+                hole.setAttribute('x', lr.left);   // same viewport coordinates as the path
+                hole.setAttribute('y', lr.top);
+                hole.setAttribute('width', lr.width);
+                hole.setAttribute('height', lr.height);
+                hole.setAttribute('rx', Math.min(rad, lr.height / 2));
+            }
             svg.classList.add('visible');
         }
         document.getElementById('info-close').addEventListener('click', closeInfoPanel);

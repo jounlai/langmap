@@ -682,7 +682,7 @@ WORDS.cotton = {
     khv: ["читес эрешун", "titesereʃun"],
     kk: ["мақта", "mɑqtɑ"],
     kn: ["ಹತ್ತಿ", "hɐt̪t̪i"],
-    ko: ["면화", "mjʌnhwa"],  // From Chinese 棉 or another word for floss.
+    ko: ["목화", "mokʰwa"],  // Sino-Korean 木花 "tree flower"; matches the row label 목화.
     kpj: ["esõde", "esõde"],
     ku: ["pembû", "pɛmˈbuː"],  // From Persian pambak (panbe).
     lb: ["Kotteng", "ˈkoteŋ"],  // Route by resemblance to the neighbouring forms (fr_lu(coton) fr(coton)); no etymology of its own.
@@ -846,8 +846,8 @@ WORDS.cotton = {
     ja_kyo: ["綿", "wata"],
     ja_hir: ["綿", "wata"],
     ko_kp: ["목화", "mokʰwa"],  // Sino-Korean 木花 "tree flower"; the dictionary marks 면화 as non-standard (조선말사전).
-    ko_bus: ["면화", "mjʌnhwa"],
-    ko_yb: ["면화", "mjʌnhwa"],
+    ko_bus: ["목화", "mokʰwa"],
+    ko_yb: ["목화", "mokʰwa"],
     es_mx: ["algodón", "alɡoˈdon"],
     pt_br: ["algodão", "awɡoˈdɐ̃w̃"],
     prs: ["پنبه", "panˈba"],
@@ -875,8 +875,8 @@ WORDS.cotton = {
     es_cu: ["algodón", "alɡoˈdon"],
     es_pe: ["algodón", "alɡoˈdon"],
     es_an: ["algodón", "alɡoˈdon"],
-    ko_hg: ["면화", "mjʌnhwa"],
-    ko_jl: ["면화", "mjənhwa"],
+    ko_hg: ["목화", "mokʰwa"],
+    ko_jl: ["목화", "mokʰwa"],
     es_pr: ["algodón", "alɡoˈdon"],
     es_do: ["algodón", "alɡoˈdon"],
     es_gt: ["algodón", "alɡoˈdon"],

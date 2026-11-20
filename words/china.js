@@ -597,6 +597,8 @@ WORDS.china = {
     wls: "cina",
     brx: "cina",
     doi: "cina",
+    lmo: "cina",
+    pms: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1140,5 +1142,7 @@ WORDS.china = {
     wls: ["Siaina", "siaina"],
     brx: ["चाइना", "tʃaina"],
     doi: ["चीन", "tʃiːn"],
+    lmo: ["Cina", "ˈtʃina"],
+    pms: ["Cin-a", "ˈtʃiŋa"],
   },
 };

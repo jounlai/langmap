@@ -488,6 +488,9 @@ WORDS.dragonfly = {
     bor: "plain",
     guc: "plain",
     ik: "plain",
+    liv: "plain",
+    olo: "other",
+    rm: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -921,5 +924,8 @@ WORDS.dragonfly = {
     bor: ["karori", "kaɾoɾi"],  // No image is recorded.
     guc: ["potshonoi", "potʃonoi"],  // No image is recorded for it, so it counts as a word of its own.
     ik: ["niulġiq", "niulʁiq"],  // No image is recorded for it, so it counts as a word of its own.
+    liv: ["liestāpārmaz", "ˈliestɑːˌpɑːrmɑz"],  // No image is recorded for it, so it counts as a word of its own.
+    olo: ["vezikorendo", "ˈvezikorendo"],  // Literally "water yoke"; plain korendo, "yoke", is also used for the dragonfly.
+    rm: ["libella", "liˈbɛla"],
   },
 };

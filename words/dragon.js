@@ -621,6 +621,14 @@ WORDS.dragon = {
     chk: "draco",
     tsj: "plain",
     bor: "plain",
+    kw: "draco",
+    li: "draco",
+    liv: "other",
+    lmo: "draco",
+    rm: "draco",
+    rup: "plain",
+    sco: "draco",
+    smn: "serpent",
   },
   routes: {
     long: {"color":"#dc2626","emoji":"🐲","en":"from Chinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ja":"漢語の 龍 から（龙 lóng、竜 りゅう、용、rồng）","ko":"한어 龍에서 (龙 lóng, 竜 ryū, 용, rồng)","zh":"源自汉语\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","yue":"源自漢語\"龍\"（龙 lóng、竜 ryū、용 yong、rồng）","vi":"từ chữ Hán 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","th":"จากคำจีน 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","id":"dari Tionghoa 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","hi":"चीनी 龍 से (龙 lóng, 竜 ryū, 용 yong, rồng)","de":"aus chinesisch 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","fr":"du chinois 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","it":"dal cinese 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","es":"del chino 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","pt":"do chinês 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ru":"от китайского 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","uk":"від китайського 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","ar":"من الصينية 龍 (龙 lóng، 竜 ryū، 용 yong، rồng)","he":"מהסינית 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)","sw":"kutoka Kichina 龍 (龙 lóng, 竜 ryū, 용 yong, rồng)"},
@@ -1181,5 +1189,13 @@ WORDS.dragon = {
     chk: ["trakon", "trakon"],
     tsj: ["bruʔ", "bɾuʔ"],  // No image is recorded for it, so it counts as a word of its own.
     bor: ["butoriku", "butoɾiku"],  // No image is recorded.
+    kw: ["dragon", "ˈdraɡɔn"],  // Borrowed from English or French dragon, from Latin draco.
+    li: ["draak", "draːk"],
+    liv: ["pūik", "puːik"],
+    lmo: ["dragh", "drak"],
+    rm: ["drag", "drak"],
+    rup: ["lamnji", "ˈlamɲi"],  // No image is recorded for it, so it counts as a word of its own.
+    sco: ["draigon", "ˈdreɡən"],
+    smn: ["piätukyevdi", "ˈpiætukyevdi"],  // A compound ending in kyevdi 'snake'.
   },
 };

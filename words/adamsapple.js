@@ -341,6 +341,9 @@ WORDS.adamsapple = {
     cjy: "other",
     so: "plain",
     bew: "plain",
+    ku: "plain",
+    rm: "other",
+    zza: "plain",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -626,5 +629,8 @@ WORDS.adamsapple = {
     cjy: ["大疙瘩", "ta˦˥ kəʔ˨ taʔ˨"],  // Literally 'big lump'.
     so: ["kurxin", "kurħin"],  // Also called jocor.
     bew: ["jakun", "dʒakun"],  // No image is recorded for it, so it counts as a word of its own.
+    ku: ["zengelok", "zɛŋɡɛˈloːk"],  // No image is recorded for it, so it counts as a word of its own.
+    rm: ["nuf da la gula", "nuf da la ɡula"],  // Literally 'the knot of the throat'.
+    zza: ["zengılok", "zɛŋɡɨˈlok"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

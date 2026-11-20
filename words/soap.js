@@ -640,6 +640,9 @@ WORDS.soap = {
     gn: "sapo",
     mus: "plain",
     nhe: "sapo",
+    li: "sapo",
+    olo: "wash",
+    xmf: "sapo",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1221,5 +1224,8 @@ WORDS.soap = {
     gn: ["havõ", "haˈʋõ"],  // From Spanish jabón.
     mus: ["svkoskv", "səkóskə"],  // No image is recorded for it, so it counts as a word of its own.
     nhe: ["xapo", "ˈʃapo"],
+    li: ["zeip", "zɛip"],
+    olo: ["muilu", "ˈmuilu"],  // Borrowed from Russian мыло.
+    xmf: ["საპონი", "sapʼoni"],
   },
 };

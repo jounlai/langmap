@@ -607,6 +607,11 @@ WORDS.kiss = {
     skr: "cumb",
     syl: "smell",
     bor: "plain",
+    alt: "plain",
+    egl: "basium",
+    gag: "plain",
+    li: "kus",
+    liv: "plain",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -1151,5 +1156,10 @@ WORDS.kiss = {
     skr: ["چُمی", "tʃʊmiː"],
     syl: ["হুংগা", "huŋɡa"],  // The same word as হুংগা- 'to smell': the Sylheti Bible smells a scent with it (geran hungia, Genesis 27:27).
     bor: ["okwabi", "okwabi"],  // No image is recorded.
+    alt: ["окшош", "okˈʃoʃ"],
+    egl: ["bèṡ", "bɛːz"],  // From Latin basium, like Italian bacio.
+    gag: ["öpüş", "øˈpyʃ"],
+    li: ["kös", "kœs"],
+    liv: ["mužīņ", "ˈmuʒiːɲ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

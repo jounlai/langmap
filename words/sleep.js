@@ -1237,5 +1237,6 @@ WORDS.sleep = {
     bxd: ["ja̰p55", "ja̰p˥˥"],
     aoc: ["eknunnö", "eknunːə"],
     ja_mvi: ["寝", "niʋ"],
+    xmf: ["ლურა", "lura"],
   },
 };

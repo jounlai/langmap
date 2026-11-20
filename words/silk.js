@@ -865,5 +865,6 @@ WORDS.silk = {
     mos: ["sowa", "sowa"],
     toi: ["ndeketela", "ndeketela"],
     tsj: ["dʐuktsi", "ɖʐuktsi"],
+    kw: ["owrlin", "ˈɔʊrlɪn"],
   }
 };

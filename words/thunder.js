@@ -950,6 +950,7 @@ WORDS.thunder = {
     ik: "plain",
     mus: "plain",
     win: "plain",
+    alt: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1846,5 +1847,6 @@ WORDS.thunder = {
     ik: ["kalluk", "kalːuk"],  // The verb 'to thunder' is kalluk- too. No image is recorded for it, so it counts as a word of its own.
     mus: ["tenetke", "tinitki"],  // No image is recorded for it, so it counts as a word of its own.
     win: ["kʼoo", "kʼoː"],  // No image is recorded for it, so it counts as a word of its own.
+    alt: ["кӱкӱрт", "kyˈkyrt"],
   },
 };

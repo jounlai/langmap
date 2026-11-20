@@ -408,5 +408,6 @@ WORDS.atsign = {
     oj: ["dazhibiiʼigan", "daʒibiːʔiɡan"],  // Built from dazhibiiʼ- 'write it in a certain place' and the noun suffix -gan.
     cak: ["suritzʼibʼ", "suritsʼiɓ"],
     sah: ["ыт", "ɯt"],  // Literally 'dog', after Russian собака.
+    rm: ["cua-schimgia", "kuaˈʃimdʑa"],  // Literally 'monkey tail'.
   },
 };

@@ -681,6 +681,13 @@ WORDS.earthquake = {
     syl: "plain",
     arp: "plain",
     qu: "earth",
+    br: "earth",
+    kw: "earth",
+    li: "earth",
+    liv: "earth",
+    olo: "earth",
+    rm: "earth",
+    wa: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -1305,5 +1312,12 @@ WORDS.earthquake = {
     syl: ["ভৈছাল", "bɔisal"],  // No image is recorded for it, so it counts as a word of its own.
     arp: ["heehíínooʼooʼ", "heːhíːnoːʔoːʔ"],
     qu: ["pacha kuyuy", "ˈpatʃa ˈkujuj"],  // pacha 'earth, world' + kuyuy 'to move'; a strong quake is also pacha kunununuy.
+    br: ["kren-douar", "krẽnˈduːar"],  // Kren 'trembling' + douar 'earth'.
+    kw: ["dorgrys", "ˈdɔrɡrɪz"],  // dor 'earth' + a Celtic word for shaking.
+    li: ["eerdsjók", "ˈeːrtʃɔk"],
+    liv: ["mǭdõ’ržimi", "ˈmɔːˌdɨˀrʒimi"],
+    olo: ["muansäräitys", "ˈmuansæræitys"],
+    rm: ["terratrembel", "tɛraˈtrɛmbəl"],  // Terra 'earth' + trembel 'trembling'.
+    wa: ["hosmint d' tere", "hɔsmɛ̃ d tɛːʁ"],  // 'Shaking of the earth', from hossî 'to shake'.
   },
 };

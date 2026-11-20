@@ -590,6 +590,9 @@ WORDS.uncle = {
     syl: "split",
     tcy: "split",
     jup: "split",
+    li: "one",
+    sma: "split",
+    xmf: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -1122,5 +1125,8 @@ WORDS.uncle = {
     syl: ["চাচা", "sasa"],
     tcy: ["ನೇಲ್ಯಮ್ಮೆ", "neːljamme"],  // Father's elder brother; the younger is ಎಲ್ಯಮ್ಮೆ, mother's brother ತಮ್ಮಲೆ.
     jup: ["pã́ç", "pã́ç"],  // Father's brother; the mother's brother is gʼɔ́t.
+    li: ["ome", "ˈoːmə"],
+    sma: ["tjietsie", "ˈtʃiɛtsiɛ"],  // Father's younger brother; his older brother is jiekie, and the mother's brother is jyöne.
+    xmf: ["ბიძი", "bidzi"],
   },
 };

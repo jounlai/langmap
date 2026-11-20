@@ -274,6 +274,9 @@ WORDS.goosebumps = {
     kos: "other",
     vec: "bird",
     zu: "plain",
+    liv: "bird",
+    rm: "bird",
+    vot: "bird",
   },
   family2: {
     ko: "bird",
@@ -496,5 +499,8 @@ WORDS.goosebumps = {
     kos: ["mihsrihsr", "mɨʂɨʂ"],  // The same word as "cold".
     vec: ["penòti", "peˈnɔti"],  // Penòti are also a bird's pin feathers.
     zu: ["uhlavane", "uɬaˈvaːne"],
+    liv: ["kanālejā", "ˈkɑnɑːˌlejɑː"],
+    rm: ["pel-giaglina", "pɛldʑaˈʎina"],  // Literally 'hen skin'.
+    vot: ["kanaliha", "ˈkanaliha"],  // Literally 'hen flesh', like Finnish kananliha.
   },
 };

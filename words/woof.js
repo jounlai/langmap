@@ -311,5 +311,6 @@ WORDS.woof = {
     tsz: ["jua jua", "xwa xwa"],  // From jua jua arhini 'to bark' (to say jua jua).
     cnp: ["汪汪", "wɐu˥˥ wɐu˥˥"],
     ja_kanbun: ["狺狺", "ɡiŋɡiɴ"],
+    liv: ["auh-auh", "ɑuh ɑuh"],
   },
 };

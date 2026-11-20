@@ -1229,5 +1229,6 @@ WORDS.five = {
     har: ["ḥammisti", "ħɑmːisti"],
     wrh: ["marra", "ˈmara"],
     bxd: ["ŋa31", "ŋa˧˩"],
+    nrf_gg: ["chinq", "ʃɛ̃k"],
   },
 };

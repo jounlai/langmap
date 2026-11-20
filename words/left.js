@@ -921,6 +921,9 @@ WORDS.left = {
     crx: "plain",
     guc: "plain",
     ik: "plain",
+    gag: "plain",
+    li: "plain",
+    scn: "bad",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -1779,5 +1782,8 @@ WORDS.left = {
     crx: ["ʼintlʼus", "ʔintɬʼus"],  // No image is recorded.
     guc: ["epeʼe", "epeʔe"],  // No image is recorded for it, so it counts as a word of its own.
     ik: ["saumik", "saumik"],  // Also the left arm. No image is recorded for it, so it counts as a word of its own.
+    gag: ["sol", "sol"],
+    li: ["links", "lɪŋks"],
+    scn: ["manca", "ˈmaŋka"],  // From Latin mancus 'maimed', like Corsican manca.
   },
 };

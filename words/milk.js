@@ -1187,5 +1187,6 @@ WORDS.milk = {
     p_ryu: ["*ti", "ti"],
     ake: ["merïʼ", "meɾɨʔ"],
     tca: ["lechi", "letʃi"],
+    wae: ["Mélläch", "ˈmelːæx"],  // Formazza form.
   },
 };

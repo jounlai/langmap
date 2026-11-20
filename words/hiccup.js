@@ -474,6 +474,12 @@ WORDS.hiccup = {
     ace: "plain",
     tcy: "plain",
     bor: "plain",
+    it_dan: "plain",
+    liv: "plain",
+    rm: "plain",
+    sc: "plain",
+    scn: "plain",
+    sco: "imitative",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -894,5 +900,11 @@ WORDS.hiccup = {
     ace: ["ceukok", "cɯkɔʔ"],  // No image is recorded for it, so it counts as a word of its own.
     tcy: ["ಎಕ್ಕದೆ", "ekkade"],
     bor: ["opudu", "opudu"],  // No image is recorded.
+    it_dan: ["singhiozzo", "siŋˈɡjottso"],
+    liv: ["klõkš", "klɨkʃ"],  // No image is recorded for it, so it counts as a word of its own.
+    rm: ["singlut", "sinˈɡlut"],  // From Latin singultus, like Italian singhiozzo.
+    sc: ["singurto", "siŋˈɡurto"],
+    scn: ["sugghiuzzu", "suɟˈɟuttsu"],  // From Latin singultus, like Italian singhiozzo.
+    sco: ["hick", "hɪk"],
   },
 };

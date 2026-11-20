@@ -460,6 +460,12 @@ WORDS.milkyway = {
     ti: "milk",
     bi: "milk",
     grt: "other",
+    kw: "road",
+    liv: "birds",
+    olo: "birds",
+    rm: "milk",
+    vep: "milk",
+    xmf: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -863,5 +869,11 @@ WORDS.milkyway = {
     ti: ["ጸባዊ መገዲ", "tsʼɐbawi mɐɡɐdi"],  // Literally "milky road"; also called ሊሐ.
     bi: ["Milki Wei", "milki wei"],
     grt: ["matma ja·kol", "matma dʒaʔkol"],
+    kw: ["Hyns Sen Jamys", "hɪnz sɛn ˈdʒamɪs"],  // 'Saint James's Way', like Breton Hent Sant-Jakez.
+    liv: ["līndõdradā", "ˈliːndədˌrɑdɑː"],
+    olo: ["Linnunrada", "ˈlinːunrada"],  // Literally "the birds' road", like Finnish Linnunrata.
+    rm: ["via da latg", "via da latɕ"],  // Literally 'the road of milk'.
+    vep: ["Maidte", "ˈmaidte"],  // Literally "milk road".
+    xmf: ["მეშხურეშ შარა", "meʃxureʃ ʃara"],  // Literally 'the shepherd's road'.
   },
 };

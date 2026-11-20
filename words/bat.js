@@ -813,6 +813,9 @@ WORDS.bat = {
     tsj: "plain",
     unr: "plain",
     nez: "plain",
+    gag: "plain",
+    rm: "bird",
+    rup: "bird",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1571,5 +1574,8 @@ WORDS.bat = {
     tsj: ["pʰabaŋ", "pʰabaŋ"],  // No image is recorded for it, so it counts as a word of its own.
     unr: ["hapu", "hapu"],  // No image is recorded for it, so it counts as a word of its own.
     nez: ["ʼúucʼuc", "ʔúːtsʼuts"],  // No image is recorded.
+    gag: ["yarasa", "jaraˈsa"],
+    rm: ["utschè-mezmieur", "utʃɛmɛtsˈmjewr"],  // Literally 'half-mouse bird'.
+    rup: ["puljiu di noaptea", "ˈpuʎu di ˈno̯aptea"],  // Literally 'the bird of the night'.
   },
 };

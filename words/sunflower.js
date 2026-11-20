@@ -406,6 +406,15 @@ WORDS.sunflower = {
     ts: "sun",
     ilo: "turn",
     skr: "turn",
+    dsb: "sun",
+    kw: "sun",
+    lad: "turn",
+    liv: "sun",
+    olo: "sun",
+    rm: "sun",
+    rup: "sun",
+    vep: "sun",
+    vot: "sun",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -758,5 +767,14 @@ WORDS.sunflower = {
     ts: ["saniflawa", "saniflawa"],  // Borrowed from English sunflower.
     ilo: ["mirasol", "miɾaˈsol"],
     skr: ["سورج مکھی", "suːɾədʒ mʊkʰiː"],
+    dsb: ["słyńca", "ˈswɨɲtsa"],  // Another name is słyńco, the same word as 'sun'.
+    kw: ["howlvleujen", "hɔʊlˈvlœdʒɛn"],  // howl 'sun' + bleujen 'flower'; also bleujen an howl 'flower of the sun'.
+    lad: ["turnesol", "tuɾneˈsol"],
+    liv: ["pǟvapusk", "ˈpæːvɑˌpusk"],
+    olo: ["päiväzenkukku", "ˈpæivæzeŋkukːu"],  // Literally "the sun's flower".
+    rm: ["flur-sulegl", "flursuˈleʎ"],  // Literally 'sun flower'.
+    rup: ["ocljiu a soarilui", "ˈokʎu a ˈso̯ariluj"],  // Literally 'the eye of the sun'.
+    vep: ["podsolnušnik", "ˈpodsolnuʃnik"],  // Borrowed from Russian подсолнечник.
+    vot: ["potsolnuška", "ˈpotsolnuʃka"],  // Borrowed from Russian подсолнух; päiväkakkara 'sun daisy' is also recorded.
   },
 };

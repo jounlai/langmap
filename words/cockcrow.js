@@ -619,5 +619,7 @@ WORDS.cockcrow = {
     ja_kanbun: ["喈喈", "kaikai"],
     pcm: ["kukuruku", "kukuruku"],
     bm: ["kekereke", "kekereke"],
+    liv: ["kikrikik", "ˈkikrikik"],
+    rm: ["chicherichi", "kikeriˈki"],
   },
 };

@@ -985,6 +985,7 @@ WORDS.husband = {
     apw: "own",
     chb: "own",
     piu: "spouse",
+    li: "man",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1909,5 +1910,6 @@ WORDS.husband = {
     apw: ["bikąʼ", "bikãʔ"],
     chb: ["sahaoa", "sahaoa"],  // The word for a man is cha.
     piu: ["miiṯa", "miːʈa"],  // The same word means wife: the Luritja Bible uses miiṯa for either spouse.
+    li: ["maan", "maːn"],
   },
 };

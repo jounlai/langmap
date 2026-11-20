@@ -817,6 +817,7 @@ WORDS.tea = {
     hwc: "te",
     kqn: "te",
     war: "cha",
+    sma: "other",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1594,5 +1595,6 @@ WORDS.tea = {
     hwc: ["tea", "tiː"],
     kqn: ["tii", "tiː"],
     war: ["tsaa", "tsaʔa"],
+    sma: ["löövje", "ˈløːβjɛ"],  // Also "brew, decoction" and "tree sap".
   },
 };

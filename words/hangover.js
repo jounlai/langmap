@@ -243,5 +243,9 @@ WORDS.hangover = {
     cro: ["áchippee", "átʃipːeː"],
     ja_oki: ["さきがち", "sakiɡatɕi"],  // Literally 'sake-sick'.
     cr: ["ᐋᐦᑯᓯᐯᐏᐣ", "aːhkosipeːwin"],
+    kw: ["kurun spern", "ˈkyryn spɛrn"],  // Literally 'crown of thorns'.
+    li: ["kater", "ˈkaːtər"],
+    liv: ["pagird", "ˈpɑɡird"],
+    rm: ["barbagiat", "barbaˈdʑat"],
   },
 };

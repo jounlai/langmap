@@ -874,7 +874,7 @@ WORDS.butter = {
     en_za: ["butter", "ˈbʌtə"],
     pt_ao: ["manteiga", "mɐ̃ˈtejɡɐ"],
     ca_va: ["mantega", "manˈteɣa"],
-    ko_kp: ["버터", "pʌtʰʌ"],
+    ko_kp: ["빠다", "p͈ada"],  // From Japanese バター, from English butter; the North Korean standard word (조선말사전).
     ko_bus: ["버터", "pʌtʰʌ"],
     ko_yb: ["버터", "pʌtʰʌ"],
     vi_s: ["bơ", "ɓəː˧"],

@@ -431,7 +431,7 @@ WORDS.maize = {
     ja_hak: "place",
     ja_kyo: "place",
     ja_hir: "place",
-    ko_kp: "grain",
+    ko_kp: "place",
     ko_bus: "grain",
     ko_yb: "grain",
     en_south: "grain",
@@ -1034,7 +1034,7 @@ WORDS.maize = {
     ja_hak: ["玉蜀黍", "toːmoɾokoɕi"],
     ja_kyo: ["玉蜀黍", "toːmoɾokoɕi"],
     ja_hir: ["玉蜀黍", "toːmoɾokoɕi"],
-    ko_kp: ["옥수수", "oks͈usu"],
+    ko_kp: ["강냉이", "kaŋnɛŋi"],  // Likely from 강남 江南 "Jiangnan" + a diminutive; the dictionary marks 옥수수 as non-standard (조선말사전).
     ko_bus: ["옥수수", "oks͈usu"],
     ko_yb: ["옥수수", "oks͈usu"],
     en_south: ["corn", "kɔɹn"],  // The ordinary North American word; English corn meant any grain.

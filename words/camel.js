@@ -1086,7 +1086,7 @@ WORDS.camel = {
     ja_hak: ["駱駝", "ɾakɯda"],
     ja_kyo: ["駱駝", "ɾakɯda"],
     ja_hir: ["駱駝", "ɾakɯda"],
-    ko_kp: ["낙타", "naktʰa"],
+    ko_kp: ["락타", "ɾaktʰa"],  // Sino-Korean, from 駱駝, with the initial ㄹ kept as North Korean spelling does.
     ko_bus: ["낙타", "naktʰa"],
     ko_yb: ["낙타", "naktʰa"],
     smj: ["kamel", "ˈkamel"],

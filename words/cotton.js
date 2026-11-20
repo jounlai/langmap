@@ -845,7 +845,7 @@ WORDS.cotton = {
     ja_hak: ["綿", "wata"],
     ja_kyo: ["綿", "wata"],
     ja_hir: ["綿", "wata"],
-    ko_kp: ["면화", "mjʌnhwa"],
+    ko_kp: ["목화", "mokʰwa"],  // Sino-Korean 木花 "tree flower"; the dictionary marks 면화 as non-standard (조선말사전).
     ko_bus: ["면화", "mjʌnhwa"],
     ko_yb: ["면화", "mjʌnhwa"],
     es_mx: ["algodón", "alɡoˈdon"],

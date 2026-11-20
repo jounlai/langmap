@@ -216,7 +216,7 @@ WORDS.tooth = {
     ja_mvi: ["ぱー", "paː"],
     ja_rys: ["ぱー", "paː"],
     ko: ["이", "i"],
-    ko_kp: ["이", "i"],
+    ko_kp: ["이발", "ip͈al"],  // The North Korean standard word for a tooth, pronounced [이빨] (조선말사전).
     ko_bus: ["이", "i"],
     ko_jeju: ["늬", "nɰi"],
     ko_yb: ["이", "i"],

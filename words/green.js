@@ -423,7 +423,7 @@ WORDS.green = {
     bjn: ["hijau", "hidʒau"],
     fr_class: ["vert", "vɛrt"],
     myp: ["xahoasai", "ʔahoasai"],
-    ko_kp: ["초록", "tɕʰoɾok̚"],
+    ko_kp: ["록색", "ɾoks͈ɛk̚"],  // Sino-Korean 綠色; the dictionary names 록색 as the basic colour word (조선말사전).
     ko_yb: ["초록", "tɕʰoɾok̚"],
     ko_hg: ["초록", "tɕʰoɾok̚"],
     ko_jl: ["초록", "tɕʰoɾok̚"],

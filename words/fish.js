@@ -195,7 +195,7 @@ WORDS.fish = {
     ja_mvi: ["いず", "ɨdzu"],
     ja_rys: ["いずぃ", "idzɨ"],
     ko: ["물고기", "mulk͈oɡi"],
-    ko_kp: ["물고기", "mulɡoɡi"],
+    ko_kp: ["물고기", "mulk͈oɡi"],
     ko_bus: ["물고기", "mulɡoɡi"],
     ko_jeju: ["물궤기", "mulɡweɡi"],
     ko_yb: ["물고기", "mulɡoɡi"],

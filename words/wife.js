@@ -1138,7 +1138,7 @@ WORDS.wife = {
     ja_hak: ["妻", "tsɯma"],
     ja_kyo: ["妻", "tsɯma"],
     ja_hir: ["妻", "tsɯma"],
-    ko_kp: ["아내", "anɛ"],
+    ko_kp: ["안해", "anhɛ"],  // North Korean standard spelling of 아내 (조선말사전; Wiktionary "North Korea, Yanbian").
     ko_bus: ["아내", "anɛ"],
     ko_yb: ["아내", "anɛ"],
     es_mx: ["esposa", "esˈposa"],

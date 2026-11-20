@@ -681,7 +681,7 @@ WORDS.hiccup = {
     ar_qur: ["فواق", "fuwaːq"],  // From the verb فاق 'to have a hiccup'; Wiktionary (under Najdi Arabic فهاق) takes fuwāq as probably from an onomatopoeic فِق fiq.
     syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon), which Wiktionary takes as probably from an onomatopoeic fiq. Route by resemblance to the neighbouring forms (ar(فواق)).
     ja_heian: ["噦り", "sakuɾi"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'. Route by resemblance to the neighbouring forms (ja_kanbun(噦) ja_chu(噦)); no etymology of its own.
-    ko_kp: ["딸꾹질", "t͈alk͈ukt͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing', as in the South.
+    ko_kp: ["딸꾹질", "t͈alk͈uk̚t͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing', as in the South.
     vi_c: ["nấc cụt", "nək˧˦ kuk˧˩"],  // The same word as standard Vietnamese; Huế has -k for final -t after u, as in its út. Route by resemblance to the neighbouring forms (vi(nấc cụt)); no etymology of its own.
     vi_s: ["nấc cụt", "nək˧˥ kʊk͡p˨˩"],  // The same word as standard Vietnamese, with the Saigon -ʊk͡p of út in this row's 'little finger'. Route by resemblance to the neighbouring forms (vi(nấc cụt)); no etymology of its own.
     ja_chu: ["噦", "ɕakuɾi"],  // From older sakuri. Example: Shōbōgenzō zuimonki (1235-38) 世間にしゃくりする人 'people who have the hiccups'.

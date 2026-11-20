@@ -1094,7 +1094,7 @@ WORDS.camel = {
     fr_qc: ["chameau", "ʃamo"],
     fr_be: ["chameau", "ʃamo"],
     fr_ch: ["chameau", "ʃamo"],
-    ko_hg: ["낙타", "naktʰa"],
+    ko_hg: ["락타", "ɾaktʰa"],  // North Korean spelling; no Hamgyong form recorded.
     ko_jl: ["낙타", "naktʰa"],
     sr: ["камила", "kǎmila"],  // From Latin camēlus, from Greek, ultimately from Semitic *gamal.
     bs: ["deva", "ˈdeːʋa"],  // Borrowed from Ottoman Turkish deve; kamila is also used.

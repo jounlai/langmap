@@ -1093,7 +1093,7 @@ WORDS.star = {
       xng: ["ᠬᠣᠳᠤᠨ", "hodun"],
       ja_kg: ["星", "hoɕi"],
       ja_sd: ["星", "hoɕi"],
-      ko_hg: ["별", "pjəl"],
+      ko_hg: ["벨", "pel"],  // Hamgyong ㅕ>ㅔ (Ogura 1944 map at Hamhung; Kwak 1998).
       ko_jl: ["별", "pjəl"],
       nan_pn: ["星", "tsʰẽ˧˧"],
       mra: ["sam mon", "sam mon"],

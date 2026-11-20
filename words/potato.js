@@ -906,7 +906,7 @@ WORDS.potato = {
     hak_tw: ["馬鈴薯", "ma˨˦ laŋ˩˩ su˩˩"],  // Literally "horse-bell tuber", a name first used for the air potato.
     hak_hl: ["馬鈴薯", "ma˥˧ laŋ˥˥ ʃu˥˥"],  // Literally "horse-bell tuber", a name first used for the air potato.
     ko_jl: ["하지감자", "hadʑiɡamdʑa"],  // Literally "summer-solstice gamja": in Jeolla plain 감자 can mean the sweet potato, so the potato is marked by its harvest season (also 북감자 "northern gamja").
-    ko_hg: ["감자", "kamdʑa"],  // From Sino-Korean 甘藷 "sweet tuber", first used for the sweet potato and later shifted to the potato.
+    ko_hg: ["감지", "kamdʑi"],  // Hamgyong form of 감자 (Ogura 1944 map at Hamhung; Wiktionary "Hamgyong").
     es_cr: ["papa", "ˈpapa"],  // From Quechua papa; Latin America says papa where Spain says patata.
     es_hn: ["papa", "ˈpapa"],  // From Quechua papa; Latin America says papa where Spain says patata.
     es_ni: ["papa", "ˈpapa"],  // From Quechua papa; Latin America says papa where Spain says patata.

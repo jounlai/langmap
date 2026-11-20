@@ -1107,7 +1107,7 @@ WORDS.tree = {
     xng: ["ᠮᠣᠳᠤᠨ", "modun"],
     ja_kg: ["木", "ki"],
     ja_sd: ["木", "ki"],
-    ko_hg: ["나무", "namu"],
+    ko_hg: ["낭기", "naŋɡi"],  // Hamgyong form of 나무 (Ogura 1944 map at Hamhung; Kwak 1998).
     ko_jl: ["나무", "namu"],
     nan_pn: ["樹", "tsʰiu˨˩"],
     mra: ["lam", "lam"],

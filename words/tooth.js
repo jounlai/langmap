@@ -1056,7 +1056,7 @@ WORDS.tooth = {
     xng: ["ᠰᠢᠳᠦᠨ", "ʃidyn"],
     ja_kg: ["歯", "ha"],
     ja_sd: ["歯", "ha"],
-    ko_hg: ["이", "i"],
+    ko_hg: ["이발", "ip͈al"],  // North Korean standard word; no Hamgyong form recorded.
     ko_jl: ["이", "i"],
     nan_pn: ["牙", "ɡɛ˨˧"],
     mra: ["ʒən", "ʒən"],

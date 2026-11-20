@@ -1038,7 +1038,7 @@ WORDS.tongue = {
     xng: ["ᠬᠡᠯᠡᠨ", "kelen"],
     ja_kg: ["舌", "ɕita"],
     ja_sd: ["舌", "ɕida"],
-    ko_hg: ["혀", "çʌ"],
+    ko_hg: ["세", "se"],  // Hamgyong form of 혀 (Ogura 1944 map; Kwak 1998 혀>헤~세).
     ko_jl: ["쎄", "s͈e"],
     nan_pn: ["舌", "tsiʔ˦"],
     mra: ["rɨt lat", "rɨt lat"],

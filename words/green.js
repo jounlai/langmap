@@ -425,7 +425,7 @@ WORDS.green = {
     myp: ["xahoasai", "ʔahoasai"],
     ko_kp: ["록색", "ɾoks͈ɛk̚"],  // Sino-Korean 綠色; the dictionary names 록색 as the basic colour word (조선말사전).
     ko_yb: ["록색", "ɾoks͈ɛk̚"],  // Sino-Korean 綠色; the colour word of the Chinese Korean press (연변일보).
-    ko_hg: ["초록", "tɕʰoɾok̚"],
+    ko_hg: ["록색", "ɾoks͈ɛk̚"],  // North Korean basic colour word; no Hamgyong form recorded.
     ko_jl: ["초록", "tɕʰoɾok̚"],
     ja_kyo: ["緑", "midoɾi"],
     es_mx: ["verde", "ˈbeɾðe"],

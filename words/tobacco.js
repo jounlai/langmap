@@ -787,7 +787,7 @@ WORDS.tobacco = {
     es_cu: ["tabaco", "taˈbako"],
     es_pe: ["tabaco", "taˈbako"],
     es_an: ["tabaco", "taˈbako"],
-    ko_hg: ["담배", "tambɛ"],
+    ko_hg: ["담바", "tamba"],  // Hamgyong form of 담배 (Wiktionary, quoting Hwang Dae-hwa 2000).
     ko_jl: ["담배", "tambɛ"],
     es_pr: ["tabaco", "taˈbako"],
     es_do: ["tabaco", "taˈbako"],

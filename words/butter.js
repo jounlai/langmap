@@ -907,7 +907,7 @@ WORDS.butter = {
     es_pe: ["mantequilla", "manteˈkiʝa"],
     es_an: ["mantequilla", "manteˈkiʝa"],
     ext: ["mantequilla", "manteˈkiʝa"],
-    ko_hg: ["버터", "pʌtʰʌ"],
+    ko_hg: ["빠다", "p͈ada"],  // As in North Korean (조선말사전); no Hamgyong form recorded.
     ko_jl: ["버터", "pətʰə"],
     es_pr: ["mantequilla", "manteˈkiʝa"],
     es_do: ["mantequilla", "manteˈkiʝa"],

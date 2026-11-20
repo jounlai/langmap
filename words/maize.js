@@ -440,7 +440,7 @@ WORDS.maize = {
     fr_qc: "mahiz",
     fr_be: "mahiz",
     fr_ch: "mahiz",
-    ko_hg: "grain",
+    ko_hg: "place",
     ko_jl: "grain",
     dtp_kzj: "plain",
     sr: "kukuruz",
@@ -1043,7 +1043,7 @@ WORDS.maize = {
     fr_qc: ["maïs", "mais"],
     fr_be: ["maïs", "mais"],
     fr_ch: ["maïs", "mais"],
-    ko_hg: ["옥수수", "oks͈usu"],
+    ko_hg: ["강냉이", "kaŋnɛŋi"],  // Likely from 강남 江南 "Jiangnan"; the form at Hamhung on Ogura's 1944 map, as in North Korean.
     ko_jl: ["옥수수", "oks͈usu"],
     dtp_kzj: ["luong", "luoŋ"],
     sr: ["кукуруз", "kukǔruz"],

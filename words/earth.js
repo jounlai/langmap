@@ -95,7 +95,7 @@ WORDS.earth = {
     ko_bus: ["흙", "hɯk̚"],
     ko_jeju: ["흑", "hɯk̚"],
     ko_yb: ["흙", "hɯk̚"],
-    ko_hg: ["흙", "hɯk̚"],
+    ko_hg: ["흘기", "hɯlɡi"],  // Hamgyong form of 흙 (Ogura 1944 map; Wiktionary "Hamgyong").
     ko_jl: ["흙", "hɯk̚"],
     ko_mid: ["ᄒᆞᆰ", "hʌlk"],
     ko_em: ["ᄒᆞᆰ", "hɯlk"],

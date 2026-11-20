@@ -1167,7 +1167,7 @@ WORDS.wife = {
     es_cu: ["esposa", "ehˈposa"],
     es_pe: ["esposa", "esˈposa"],
     es_an: ["esposa", "ehˈposa"],
-    ko_hg: ["아내", "anɛ"],
+    ko_hg: ["안해", "anhɛ"],  // North Korean spelling of 아내; no Hamgyong form recorded.
     ko_jl: ["아내", "anɛ"],
     dtp_kzj: ["sao", "sao"],
     es_pr: ["esposa", "ehˈposa"],

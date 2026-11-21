@@ -164,6 +164,16 @@ const CITED_20261015 = {
     ]
 };
 for (const [k, v] of Object.entries(CITED_20261015)) CITED[k] = (CITED[k] || []).concat(v);
+// 2026-11-22 rally round 3: classical sentences quoted as written (Song shi 485,
+// Sejong sillok 1443/12), the kanbun line compared with its kundoku, and Japanese words.
+const CITED_20261122 = {
+    'tangut-3000-syllables': ['「自製蕃書」', '「字形體方整類八分，而畫頗重複」'],
+    'hangul-sinosphere-context': ['「是月，上親制諺文二十八字……字雖簡要，轉換無窮。」'],
+    'kanbun-kaeriten-system': ['「我愛汝」'],
+    'japanese-go-on-bias': ['極楽', '東大寺'],
+    'kokuji-japan-made-chars': ['人＋動'],
+};
+for (const [k, v] of Object.entries(CITED_20261122)) CITED[k] = (CITED[k] || []).concat(v);
 // 2026-11-05: Han Map articles whose subject is the written form. Japanese spellings
 // (ateji-sound-kanji), Korean hanja (hanja-korea-today), period spellings of country
 // names, the traditional forms a character story turns on, and 乾 in 乾隆, which stays 乾.

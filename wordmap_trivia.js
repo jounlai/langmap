@@ -15095,6 +15095,187 @@ const TRIVIA_ARTICLES = [
         "url": "https://en.wiktionary.org/wiki/隨身碟"
       }
     ]
+  },
+  {
+    "id": "dragon-the-one-who-stares",
+    "icon": "🐉",
+    "tags": [
+      "etymology",
+      "folklore"
+    ],
+    "title": {
+      "en": "Dragon: The One Who Stares",
+      "ja": "竜：じっと見つめるもの"
+    },
+    "summary": {
+      "en": "Greek drákōn, traditionally “the one who stares”, reached the Philippines through Spanish dragón. East Asia says 龍, Persia aždahā and Southeast Asia naga, and in old Philippine myth two serpents, lahò and bakunawa, swallowed the moon.",
+      "ja": "ギリシャ語のdrákōnは、昔から「じっと見つめるもの」と解されてきた。この語はスペイン語dragónに乗ってフィリピンまで届いた。東アジアは龍、ペルシャはaždahā、東南アジアはナーガと呼ぶ。フィリピンの古い神話では、lahòとbakunawaという大蛇が月を飲み込んだ。"
+    },
+    "body": {
+      "en": "<p>Ancient Greek <strong>δράκων</strong> (drákɔːn) is traditionally tied to the verb <em>dérkomai</em>, “to see”, which would make the dragon “the one who stares”. Wiktionary also offers “sharp-sighted”, and the map’s own note says only “probably”. The Greek word meant a serpent as well as a dragon. Through Latin <strong>draco</strong> it became English <strong>dragon</strong>, German <strong>Drache</strong> and Welsh <strong>draig</strong>, and Spanish <strong>dragón</strong> took it to the Philippines, where Tagalog, Cebuano and Ilocano all say <strong>dragon</strong>. With 227 cells this is the largest group on the map. Russian uses the Greek word too, as <strong>дракон</strong> (drɐˈkon), but the dragon of its folk tales is the Slavic <em>змей</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"dragon\" data-code=\"tl\">🗺️ Show dragon on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el_grc,la,en,de,cy,es,ru,tl\" data-word=\"dragon\">🗣 Compare drákōn and its heirs</button></div><h3>East Asia: 龍</h3><p>The second group, 102 cells, comes from Chinese 龍 (<em>lóng</em>), written <strong>龙</strong> (luŋ˧˥) in Mainland Mandarin and <strong>龍</strong> (lʊŋ˨˩) in Cantonese. Baxter and Sagart reconstruct the Old Chinese word as *[mə]-roŋ. Japanese writes <strong>竜</strong> (ɾʲɯː), <em>ryū</em>, and uses the loanword ドラゴン for the Western dragon. Korean says <strong>용</strong> (joŋ) in the South and <strong>룡</strong> (ɾjoŋ) in the North, where the spelling keeps the initial r. Vietnamese has the Sino-Vietnamese reading <em>long</em> and the everyday <strong>rồng</strong> (zəwŋ˨˩), which goes back through Proto-Vietic *-roːŋ to Old Chinese. Mongolian <strong>луу</strong> (lʊː) took the word through Old Turkic <em>lü</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,yue,ja,ko,ko_kp,vi,mn\" data-word=\"dragon\">🗣 Compare the 龍 words</button></div><p>Behind the borrowed word, some languages kept one of their own. Old Japanese called the dragon <em>tatu</em>, later <em>tatsu</em>, perhaps from the verb <em>tatu</em>, “to rise”, and the Tale of the Bamboo Cutter, from the late 9th or early 10th century, still calls it <em>tatu</em>. Middle Korean had <strong>미르</strong> (miɾɨ), the gloss of 龍 in the Hunmong jahoe (訓蒙字會), a character primer of 1527. Wiktionary calls it native, though it may be a loan of Old Chinese 龍, and compares Proto-Tungusic <em>*muduri</em>, “dragon”. Jeju still says <strong>미리</strong> (miɾi). Manchu <strong>ᠮᡠᡩᡠᡵᡳ</strong> (muduri) is that Tungusic word. Tibetan <strong>འབྲུག</strong> (ʈʂu˩˧˨) is cognate with 龍 rather than borrowed from it, and it also means thunder. In Dzongkha the same word gives Bhutan its own name, Druk Yul, “land of the dragon”. These rows are among the 57 cells with a word of their own.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja_heian,ko_mid,ko_jeju,mnc,bo,dz\" data-word=\"dragon\">🗣 Compare the older native words</button></div><h3>Persia: aždahā</h3><p>Persian <strong>اژدها</strong> (ʔæʒdæˈhɒː) began as a name. Avestan <em>Aži Dahāka</em> was a serpent of Zoroastrian myth, Middle Persian made it <em>azdahāg</em>, and Wiktionary relates it to Zahhāk, a figure of the Shahnameh. Its first part, Avestan <strong>𐬀𐬲𐬌</strong> (aʒi), is the ordinary word for “snake”, and it also means “dragon”. It goes back to Proto-Indo-European <em>*h₁ógʷʰis</em>, the snake that a hero slays in the myths Calvert Watkins traced in <em>How to Kill a Dragon</em>. Twenty-five cells carry the Persian word, from Turkish <strong>ejderha</strong> and Kazakh <strong>айдаһар</strong> (ɑjdɑˈhɑr) to Urdu <strong>اژدہا</strong> and Hindi <strong>अज़दहा</strong> (əʒdəɦaː). Armenian <strong>վիշապ</strong> (viˈʃɑp) is Iranian as well, borrowed from an unrecorded Middle Iranian word; compare Avestan <em>višāpa</em>, an epithet of a dragon. Pashto <strong>ښامار</strong> (ʂɑˈmɑr) has no recorded etymology, and Raverty’s Pashto dictionary glosses it as “a large serpent, a dragon, the king of serpents”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ave,tr,kk,ur,hi,hy,ps\" data-word=\"dragon\">🗣 Compare aždahā and its neighbours</button></div><h3>Great snakes</h3><p>Sixty cells call the dragon a snake, or a big one. Swahili <strong>joka</strong> is the augmentative of <em>nyoka</em>, “snake”. Hausa <strong>babban maciji</strong> is a “great snake” and Tok Pisin <strong>traipela snek</strong> a “huge snake”. Basque <strong>herensuge</strong> is literally the “third snake”, and Georgian <strong>გველეშაპი</strong> (ɡveleʃapʼi) joins “snake” and <em>ვეშაპი</em>, “whale”, a word borrowed from the same Middle Iranian source as Armenian <em>višap</em>. Finnish <strong>lohikäärme</strong> ends in <em>käärme</em>, “snake”. It began as <em>louhikäärme</em>, a partial calque of Old Swedish <em>floghdraki</em>, “fly-dragon”, and folk etymology later heard <em>lohi</em>, “salmon”, in it. In Mesopotamia, Sumerian <em>ušumgal</em> was a “great serpent”, and Akkadian <em>mušḫuššu</em>, the dragon of Marduk on Babylon’s Ishtar Gate, comes from Sumerian <em>muš-ḫuš</em>, a “reddish” or “fierce” snake.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sw,ha,tpi,eu,ka,fi,sux,akk\" data-word=\"dragon\">🗣 Compare the great snakes</button></div><p>Two older names stay close to the snake. Arabic <strong>تنين</strong> (tinniːn), borrowed through Aramaic, and Biblical Hebrew <strong>תנין</strong> (tanˈniːn) are the Semitic <em>tannīn</em>, the sea monster of Isaiah 27:1, “the dragon that is in the sea”. Ugaritic already wrote it <em>tnn</em>. That makes 19 cells. In Modern Hebrew <em>tanin</em> is the crocodile, and the dragon is <strong>דרקון</strong> (dʁaˈkon), from Greek. Seven Slavic cells keep Proto-Slavic <em>*zmĭjĭ</em>, which, like the Slavic word for snake, is built on the word for earth, and Komi borrowed Russian <strong>змей</strong> to make eight. Serbian says <strong>змај</strong> (zmâj), and Slovene and Croatian <strong>zmaj</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,hbo,he,uga,sr,sl,hr,kpv\" data-word=\"dragon\">🗣 Compare tannīn and zmaj</button></div><h3>Southeast Asia: naga and makara</h3><p>In 32 cells the dragon is the nāga, the serpent being of Indian myth. Sanskrit <em>nāga</em> meant a large snake, and in Pali <strong>नाग</strong> (naːɡa) the same word is also a cobra and an elephant. Malay and Indonesian <strong>naga</strong>, Javanese <strong>naga</strong> (nɔɡɔ), Burmese <strong>နဂါး</strong> (nəɡá) and Khmer <strong>នាគ</strong> (niək) all carry it. Thai and Lao chose another monster from India. Thai <strong>มังกร</strong> (maŋ˧kɔːn˧) and Lao <strong>ມັງກອນ</strong> (maŋ˧˥ kɔːn˩˧) come from Sanskrit <em>makara</em>, a sea creature of Indian myth, and Thai keeps <em>nak</em> for the serpent of Buddhist tradition. Sinhala <strong>මකරා</strong> (makəraː) is the same word, which makes five cells on this route. In the Philippines the naga lives in the south. Tausug says <strong>naga</strong>, the word its New Testament uses in Revelation 12:3 and 20:2, and so does Maranao. Tagalog once had it too. Wiktionary lists Tagalog <em>naga</em> as a literary or dated word for a dragon and for the figurehead on a ship’s prow, and San Buenaventura’s Tagalog vocabulary of 1613 already records it for a serpent’s head on the bow.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pi,ms,jv,my,km,th,lo,si,tsg,mrw\" data-word=\"dragon\">🗣 Compare naga and makara</button></div><h3>The Philippines: the serpent that swallows the moon</h3><p>A reader from the Philippines wrote that the dragon there is not <em>dragon</em> but lahò, naga or bakunawa. The map shows the everyday word for “dragon”, while lahò and bakunawa are names of particular beings in myth, so both can be right. In Tagalog, Cebuano, Ilocano, Hiligaynon, Waray, Pangasinan and Bikol the everyday word is <strong>dragon</strong>, from Spanish <em>dragón</em>, and it is also the word of the Bible in the first six. The Tagalog Bible has <em>isang malaking dragong mapula</em>, “a great red dragon”, the Cebuano <em>dakong dragon</em>, “great dragon”, the Ilocano <em>dakkel a dragon</em> and the Waray <em>daku nga dragon</em>. John Wolff’s 1972 Cebuano dictionary lists it as <em>drágun</em>, “dragon”, and, he adds, a suit in mahjong. Lahò and bakunawa are not general words for a dragon. Each names one creature: a great serpent that swallows the moon and makes an eclipse.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tl,ceb,ilo,hil,war,pag,bik,tsg,mrw\" data-word=\"dragon\">🗣 Compare the Philippine rows</button></div><p>Tagalog <em>lahò</em> today means an eclipse, or a sudden disappearance. Wiktionary records an older sense, now obsolete: the monster that devours the moon. San Buenaventura’s vocabulary of 1613 already has <em>laho</em> for an eclipse of the moon. When the moon was eclipsed, he wrote, people said <em>cqinain nang laho ang bovan</em>, that the laho had eaten the moon, and laho was the darkness; when the eclipse ended, they said the laho had let it out of its mouth. Wiktionary gives the word as a borrowing of Sanskrit <em>Rāhu</em>, from a root meaning “to grasp”, and compares Kapampangan <em>lau</em>, Tausug <em>lahu'</em> and Indonesian <em>rahu</em>. The link rests on sound and meaning, and no record older than the Spanish dictionaries shows when the word came. In the Puranas, Rāhu is the severed head of a demon who drank the elixir of immortality, and he chases the sun and the moon to swallow them. The Visayan counterpart is <em>bakunawa</em>. Wolff defines it as “a monster that is said to swallow the sun or moon during an eclipse”, a creature disturbed by noise that lets go if noise is made. Wiktionary derives the name from Proto-Malayo-Polynesian <em>*ba(ŋ)kuq</em>, “bent”, and <em>*sawa</em>, “snake”, and in Waray the word itself means an eclipse. Some accounts also call the bakunawa naga, after the Indian serpent, and tie it to Rāhu.</p><div class=\"trivia-ex-wrap\"><table class=\"trivia-ex\"><caption>Three names in Baybayin, as Wiktionary spells the Tagalog entries</caption><tr><th>Baybayin</th><th>Word</th><th>Meaning</th></tr><tr><td class=\"g\" lang=\"tl\">ᜎᜑᜓ</td><td><em>lahò</em></td><td>eclipse; in old use, the monster that devours the moon</td></tr><tr><td class=\"g\" lang=\"tl\">ᜊᜃᜓᜈᜏ</td><td><em>bakunawa</em></td><td>the serpent of Visayan myth that swallows the moon</td></tr><tr><td class=\"g\" lang=\"tl\">ᜈᜄ</td><td><em>naga</em></td><td>dragon (literary or dated); a ship’s figurehead</td></tr></table></div><h3>Words of their own</h3><p>Of the 57 cells with a word of their own and the 18 with another image, a few more stand out. Polish <strong>smok</strong> is inherited Slavic. Breton <strong>aerouant</strong> is an old Celtic word, cognate with Welsh <em>edrywant</em>. Hungarian <strong>sárkány</strong> came from a Chuvash-type Turkic language, from a Proto-Turkic word for a carp, a snake and a dragon, and it is also the word for a kite. Latvian <strong>pūķis</strong>, also a kite, was borrowed from Old Norse <em>púki</em>, “demon, evil spirit”. Greenlandic <strong>kuukkooriaasarsuaq</strong> is built on the word for crocodile, Navajo <strong>naʼashǫ́ʼiitsoh</strong> is a “big lizard”, and Manipuri <strong>ꯆꯤꯡꯂꯥꯏ</strong> (tʃiŋlai) is a “mountain god”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,br,hu,lv,kl,nv,mni\" data-word=\"dragon\">🗣 Compare the words of their own</button></div><p><em>A cell is one language's or dialect's entry on the map.</em></p>",
+      "ja": "<p>古代ギリシャ語の<strong>δράκων</strong>（drákɔːn）は、昔から動詞<em>dérkomai</em>「見る」と結びつけられてきた。そうだとすれば、竜とは「じっと見つめるもの」である。ウィクショナリーは「目の鋭いもの」という読みも挙げていて、地図の注記も「おそらく」と書くにとどめている。このギリシャ語は竜だけでなく蛇も指した。ラテン語<strong>draco</strong>を経て英語<strong>dragon</strong>、ドイツ語<strong>Drache</strong>、ウェールズ語<strong>draig</strong>になり、スペイン語<strong>dragón</strong>に乗ってフィリピンまで渡った。タガログ語もセブアノ語もイロカノ語も<strong>dragon</strong>と言う。このグループは227セルあり、地図で最大だ。ロシア語もギリシャ語から来た<strong>дракон</strong>（drɐˈkon）を使うが、昔話に出てくる竜はスラヴ語の<em>змей</em>である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"dragon\" data-code=\"tl\">🗺️ 地図で竜を見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el_grc,la,en,de,cy,es,ru,tl\" data-word=\"dragon\">🗣 drákōnとその子孫を比べる</button></div><h3>東アジア：龍</h3><p>2番目のグループは102セルで、中国語の龍から来ている。標準中国語では<strong>龙</strong>（luŋ˧˥）、広東語では<strong>龍</strong>（lʊŋ˨˩）と書く。バクスターとサガールは上古中国語の形を*[mə]-roŋと再建している。日本語は<strong>竜</strong>（りゅう）と書き、西洋の竜には外来語のドラゴンを使う。朝鮮語は韓国で<strong>용</strong>（joŋ）、北朝鮮で<strong>룡</strong>（ɾjoŋ）と言い、北の綴りは語頭のrを残している。ベトナム語には漢越音の<em>long</em>のほかに日常語の<strong>rồng</strong>（zəwŋ˨˩）があり、こちらはヴィエト祖語*-roːŋを経て上古中国語にさかのぼる。モンゴル語の<strong>луу</strong>（lʊː）は古テュルク語の<em>lü</em>を経て入った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,yue,ja,ko,ko_kp,vi,mn\" data-word=\"dragon\">🗣 龍の系統を比べる</button></div><p>借りた語の陰で、自分の語を残した言語もある。上代日本語では竜を<em>たつ</em>と呼んだ。動詞「立つ」から来たのかもしれない。9世紀末から10世紀初めの『竹取物語』でも、竜は「たつ」である。中期朝鮮語には<strong>미르</strong>（miɾɨ）があり、1527年の漢字学習書『訓蒙字会（くんもうじかい）』で龍の訓になっている。ウィクショナリーはこれを固有語としつつ、上古中国語の龍を借りた可能性にも触れ、ツングース祖語の<em>*muduri</em>「竜」とも比べている。済州語では今も<strong>미리</strong>（miɾi）と言う。満洲語の<strong>ᠮᡠᡩᡠᡵᡳ</strong>（muduri）が、そのツングース系の語だ。チベット語<strong>འབྲུག</strong>（ʈʂu˩˧˨）は龍の借用ではなく同源語で、雷の意味もある。ゾンカ語では同じ語がブータンの自称ドゥク・ユル「竜の国」になっている。これらは、独自の語を持つ57セルに数えている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja_heian,ko_mid,ko_jeju,mnc,bo,dz\" data-word=\"dragon\">🗣 古い固有語を比べる</button></div><h3>ペルシャ：aždahā</h3><p>ペルシャ語<strong>اژدها</strong>（ʔæʒdæˈhɒː）は、もとは固有名詞だった。アヴェスター語の<em>Aži Dahāka</em>はゾロアスター教の神話に出てくる大蛇で、中世ペルシャ語で<em>azdahāg</em>になった。ウィクショナリーは『シャー・ナーメ』の登場人物ザッハークとの関係も指摘している。前半のアヴェスター語<strong>𐬀𐬲𐬌</strong>（aʒi）はごく普通の「蛇」で、「竜」も意味する。さかのぼると印欧祖語の<em>*h₁ógʷʰis</em>になる。カルヴァート・ワトキンズが『竜の殺し方』（<em>How to Kill a Dragon</em>）でたどった、英雄に退治される蛇である。このペルシャ語を使うのは25セルで、トルコ語<strong>ejderha</strong>、カザフ語<strong>айдаһар</strong>（ɑjdɑˈhɑr）から、ウルドゥー語<strong>اژدہا</strong>、ヒンディー語<strong>अज़दहा</strong>（əʒdəɦaː）まで広がっている。アルメニア語<strong>վիշապ</strong>（viˈʃɑp）もイラン系だが、記録に残らない中期イラン語の別の語から借りたものだ。アヴェスター語では<em>višāpa</em>が竜の形容語として使われた。パシュトー語<strong>ښامار</strong>（ʂɑˈmɑr）は語源の記録がなく、ラヴァーティのパシュトー語辞典は「大きな蛇、竜、蛇の王」と訳している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ave,tr,kk,ur,hi,hy,ps\" data-word=\"dragon\">🗣 aždahāとその周辺を比べる</button></div><h3>大きな蛇</h3><p>60セルは竜を蛇、あるいは大きな蛇と呼ぶ。スワヒリ語<strong>joka</strong>は<em>nyoka</em>「蛇」の指大形だ。ハウサ語<strong>babban maciji</strong>は「大きな蛇」、トク・ピシン<strong>traipela snek</strong>は「巨大な蛇」である。バスク語<strong>herensuge</strong>は文字どおりには「三番目の蛇」だ。ジョージア語<strong>გველეშაპი</strong>（ɡveleʃapʼi）は「蛇」と<em>ვეშაპი</em>「鯨」を合わせた語で、この「鯨」はアルメニア語の<em>višap</em>と同じ中期イラン語から借りたものである。フィンランド語<strong>lohikäärme</strong>は<em>käärme</em>「蛇」で終わる。もとは<em>louhikäärme</em>で、古スウェーデン語<em>floghdraki</em>「飛ぶ竜」の部分訳だった。のちに民間語源で<em>lohi</em>「鮭」が聞き取られるようになった。メソポタミアでは、シュメール語の<em>ušumgal</em>が「大いなる蛇」だった。バビロンのイシュタル門に描かれたマルドゥクの竜、アッカド語の<em>mušḫuššu</em>は、シュメール語の<em>muš-ḫuš</em>「赤い蛇」または「猛き蛇」から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sw,ha,tpi,eu,ka,fi,sux,akk\" data-word=\"dragon\">🗣 大きな蛇を比べる</button></div><p>蛇に近いところにとどまった古い名前がほかに二つある。アラム語を経て入ったアラビア語<strong>تنين</strong>（tinniːn）と、聖書ヘブライ語<strong>תנין</strong>（tanˈniːn）は、セム語の<em>tannīn</em>である。イザヤ書27章1節で「海にいる竜」と呼ばれる海の怪物だ。ウガリット語ですでに<em>tnn</em>と書かれていた。これが19セルある。現代ヘブライ語では<em>tanin</em>はワニのことで、竜はギリシャ語から来た<strong>דרקון</strong>（dʁaˈkon）と言う。スラヴ語の7セルはスラヴ祖語<em>*zmĭjĭ</em>を保っている。スラヴ語の「蛇」と同じく、「大地」を表す語から作られた語だ。これにロシア語から<strong>змей</strong>を借りたコミ語が加わって8セルになる。セルビア語は<strong>змај</strong>（zmâj）、スロベニア語とクロアチア語は<strong>zmaj</strong>と言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,hbo,he,uga,sr,sl,hr,kpv\" data-word=\"dragon\">🗣 tannīnとzmajを比べる</button></div><h3>東南アジア：ナーガとマカラ</h3><p>32セルでは、竜はインド神話の蛇神ナーガである。サンスクリット語の<em>nāga</em>は大きな蛇を指し、パーリ語<strong>नाग</strong>（naːɡa）では同じ語がコブラも象も指す。マレー語とインドネシア語の<strong>naga</strong>、ジャワ語<strong>naga</strong>（nɔɡɔ）、ビルマ語<strong>နဂါး</strong>（nəɡá）、クメール語<strong>នាគ</strong>（niək）はどれもこの語だ。タイ語とラオ語はインドの別の怪物を選んだ。タイ語<strong>มังกร</strong>（maŋ˧kɔːn˧）とラオ語<strong>ມັງກອນ</strong>（maŋ˧˥ kɔːn˩˧）は、インド神話の海の怪物を指すサンスクリット語<em>makara</em>から来ていて、タイ語は仏教の蛇神のほうを<em>nak</em>と呼び分けている。シンハラ語の<strong>මකරා</strong>（makəraː）も同じ語で、この経路をとるのは5セルになる。フィリピンでは、ナーガは南部にいる。タウスグ語は<strong>naga</strong>と言い、タウスグ語の新約聖書もヨハネの黙示録12章3節と20章2節でこの語を使っている。マラナオ語も<strong>naga</strong>である。タガログ語にもかつてはあった。ウィクショナリーはタガログ語の<em>naga</em>を、竜を指す文語・古風な語として、また船首の飾りを指す語として載せている。1613年のサン・ブエナベントゥラのタガログ語語彙集にも、船首につける蛇の頭として出てくる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pi,ms,jv,my,km,th,lo,si,tsg,mrw\" data-word=\"dragon\">🗣 ナーガとマカラを比べる</button></div><h3>フィリピン：月を飲む大蛇</h3><p>フィリピンの読者から、フィリピンの竜はdragonではなく、lahòやnaga、bakunawaだという便りが届いた。地図が示すのは「竜」を表す日常の語で、lahòやbakunawaは神話に出てくる特定の存在の名前である。だから、どちらも間違ってはいない。タガログ語、セブアノ語、イロカノ語、ヒリガイノン語、ワライ語、パンガシナン語、ビコール語では、日常の語はスペイン語<em>dragón</em>から来た<strong>dragon</strong>で、ビコール語を除く6言語では聖書もこの語を使っている。タガログ語の聖書には<em>isang malaking dragong mapula</em>「大きな赤い竜」、セブアノ語には<em>dakong dragon</em>「大きな竜」、イロカノ語には<em>dakkel a dragon</em>、ワライ語には<em>daku nga dragon</em>とある。ジョン・ウルフの1972年のセブアノ語辞典も<em>drágun</em>を「竜」とし、麻雀の牌の一組の名前でもあると書き添えている。lahòとbakunawaは竜一般を指す語ではない。どちらも一匹の怪物の名で、月を飲み込んで月食を起こす大蛇である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tl,ceb,ilo,hil,war,pag,bik,tsg,mrw\" data-word=\"dragon\">🗣 フィリピンの各行を比べる</button></div><p>タガログ語の<em>lahò</em>は、いまでは月食や日食、または突然消えることを意味する。ウィクショナリーはすでに廃れた古い意味として、月を食らう怪物を挙げている。1613年のサン・ブエナベントゥラの語彙集にも、月食を指す<em>laho</em>がすでに載っている。それによると、月が欠けると人々は<em>cqinain nang laho ang bovan</em>、つまりlahoが月を食べたと言い、lahoとは闇のことだった。月食が終わると、lahoが月を口から出したと言った。ウィクショナリーはこの語を、「つかむ」を意味する語根から来たサンスクリット語<em>Rāhu</em>（ラーフ）の借用とし、カパンパンガン語<em>lau</em>、タウスグ語<em>lahu'</em>、インドネシア語<em>rahu</em>を比較に挙げる。ただし、この結びつきの根拠は音と意味の近さで、スペイン人の辞書より古い記録はなく、いつ入った語なのかはわからない。プラーナ文献では、ラーフは不死の霊薬を飲んだ魔神の切り落とされた首で、太陽と月を追いかけて飲み込もうとする。ビサヤ諸島でこれに当たるのが<em>bakunawa</em>である。ウルフは「日食や月食のときに太陽や月を飲み込むとされる怪物」と定義し、物音を嫌うので、音を立てれば太陽や月を放すとも書いている。ウィクショナリーはこの名をマラヨ・ポリネシア祖語の<em>*ba(ŋ)kuq</em>「曲がった」と<em>*sawa</em>「蛇」に分け、ワライ語ではこの語そのものが「食」を意味するとしている。bakunawaをインドの蛇神にならってnagaと呼び、ラーフと結びつける伝承もある。</p><div class=\"trivia-ex-wrap\"><table class=\"trivia-ex\"><caption>バイバイン文字で書いた三つの名（ウィクショナリーのタガログ語項目の綴り）</caption><tr><th>バイバイン</th><th>語</th><th>意味</th></tr><tr><td class=\"g\" lang=\"tl\">ᜎᜑᜓ</td><td><em>lahò</em></td><td>月食・日食。古くは月を食らう怪物</td></tr><tr><td class=\"g\" lang=\"tl\">ᜊᜃᜓᜈᜏ</td><td><em>bakunawa</em></td><td>ビサヤの神話で月を飲み込む大蛇</td></tr><tr><td class=\"g\" lang=\"tl\">ᜈᜄ</td><td><em>naga</em></td><td>竜（文語・古風）。船首の飾り</td></tr></table></div><h3>独自の語</h3><p>独自の語を持つ57セルと、別の見立てをとる18セルの中から、ほかにもいくつか挙げておく。ポーランド語<strong>smok</strong>はスラヴ語から受け継いだ語だ。ブルトン語<strong>aerouant</strong>は古いケルト語で、ウェールズ語<em>edrywant</em>と同源である。ハンガリー語<strong>sárkány</strong>はチュヴァシ語型のテュルク語から入った語で、さかのぼるとテュルク祖語の「鯉、蛇、竜」を指す語になる。凧の意味もある。ラトビア語<strong>pūķis</strong>も凧を指し、古ノルド語<em>púki</em>「悪霊」からの借用だ。グリーンランド語<strong>kuukkooriaasarsuaq</strong>はワニを指す語から作られ、ナバホ語<strong>naʼashǫ́ʼiitsoh</strong>は「大きなトカゲ」、マニプリ語<strong>ꯆꯤꯡꯂꯥꯏ</strong>（tʃiŋlai）は「山の神」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,br,hu,lv,kl,nv,mni\" data-word=\"dragon\">🗣 独自の語を比べる</button></div><p><em>セルとは、地図上の1言語または1方言の欄のことである。</em></p>"
+    },
+    "sources": [
+      {
+        "text": "\"δράκων\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/δράκων"
+      },
+      {
+        "text": "\"draco\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/draco"
+      },
+      {
+        "text": "\"dragon\" (English and Tagalog). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dragon"
+      },
+      {
+        "text": "\"龍\" (Old Japanese tatu; Korean 미르 룡 in the Hunmong jahoe). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/龍"
+      },
+      {
+        "text": "\"たつ【龍】\" (citing 竹取物語, 9C末‐10C初). Kotobank (精選版 日本国語大辞典), accessed 2026.",
+        "url": "https://kotobank.jp/word/%E9%BE%8D-1447159"
+      },
+      {
+        "text": "\"rồng\" (Proto-Vietic *-roːŋ < Old Chinese 龍 *[mə]-roŋ, Baxter–Sagart). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/rồng"
+      },
+      {
+        "text": "\"луу\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/луу"
+      },
+      {
+        "text": "\"미르\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/미르"
+      },
+      {
+        "text": "\"འབྲུག\" (Tibetan and Dzongkha). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/འབྲུག"
+      },
+      {
+        "text": "\"اژدها\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/اژدها"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Indo-European/h₁ógʷʰis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₁ógʷʰis"
+      },
+      {
+        "text": "Calvert Watkins, How to Kill a Dragon: Aspects of Indo-European Poetics. Oxford University Press, 1995."
+      },
+      {
+        "text": "\"վիշապ\" (Armenian and Old Armenian; Old Georgian ვეშაპი from the same Middle Iranian word). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/վիշապ"
+      },
+      {
+        "text": "H. G. Raverty, A Dictionary of the Pukhto, Pushto, or Language of the Afghans, \"ښامار\", p. 671. Digital Dictionaries of South Asia.",
+        "url": "https://dsal.uchicago.edu/cgi-bin/app/raverty_query.py?qs=%DA%9A%D8%A7%D9%85%D8%A7%D8%B1&searchhws=yes"
+      },
+      {
+        "text": "\"joka\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/joka"
+      },
+      {
+        "text": "\"herensuge\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/herensuge"
+      },
+      {
+        "text": "\"გველეშაპი\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/გველეშაპი"
+      },
+      {
+        "text": "\"lohikäärme\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lohikäärme"
+      },
+      {
+        "text": "\"𒃲𒁔\" (Sumerian ušumgal). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/𒃲𒁔"
+      },
+      {
+        "text": "\"𒈲𒍽\" (Akkadian, Sumerian muš-ḫuš). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/𒈲𒍽"
+      },
+      {
+        "text": "\"Mušḫuššu\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Mušḫuššu"
+      },
+      {
+        "text": "\"תנין\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/תנין"
+      },
+      {
+        "text": "Isaiah 27:1, King James Version.",
+        "url": "https://www.biblegateway.com/passage/?search=Isaiah%2027%3A1&version=KJV"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Slavic/zmьjь\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Slavic/zmьjь"
+      },
+      {
+        "text": "\"नाग\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/नाग"
+      },
+      {
+        "text": "\"มังกร\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/มังกร"
+      },
+      {
+        "text": "\"naga\" (Tagalog, Maranao; cites San Buenaventura, Vocabulario de la lengua tagala, 1613, p. 129). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/naga"
+      },
+      {
+        "text": "\"laho\" (Tagalog lahò, Baybayin ᜎᜑᜓ; quotes San Buenaventura, Vocabulario de la lengua tagala, 1613, p. 264). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/laho"
+      },
+      {
+        "text": "\"राहु\" (Hindi; Sanskrit root रभ् 'to grasp'). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/राहु"
+      },
+      {
+        "text": "\"Rahu\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Rahu"
+      },
+      {
+        "text": "\"bakunawa\" (Cebuano, Central Bikol, Tagalog, Waray; Baybayin ᜊᜃᜓᜈᜏ). Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bakunawa"
+      },
+      {
+        "text": "\"Bakunawa\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Bakunawa"
+      },
+      {
+        "text": "John U. Wolff, A Dictionary of Cebuano Visayan (1972), entries \"bakunáwa\" and \"drágun\". Project Gutenberg.",
+        "url": "https://www.gutenberg.org/files/40074/40074-h/40074-h.htm"
+      },
+      {
+        "text": "Ang Biblia (Tagalog), Revelation 12:3. eBible.",
+        "url": "https://ebible.com/tagalog/section/2386"
+      },
+      {
+        "text": "\"sárkány\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sárkány"
+      },
+      {
+        "text": "\"pūķis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pūķis"
+      },
+      {
+        "text": "\"smok\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/smok"
+      },
+      {
+        "text": "\"aerouant\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/aerouant"
+      },
+      {
+        "text": "\"ꯆꯤꯡꯂꯥꯏ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ꯆꯤꯡꯂꯥꯏ"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word (route counts; Bible renderings for Cebuano, Ilocano, Waray, Hiligaynon, Pangasinan, Tausug, Sinhala; Komi loan).",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
   }
 ];
 

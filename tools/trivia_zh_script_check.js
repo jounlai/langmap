@@ -95,6 +95,12 @@ const CITED = {
     'chinese-lunisolar-solar-terms': ['朔不得中，是謂閏月'],
     // the anti-fraud numeral set itself, in the forms used since the Ming.
     // The per-character glosses and the 壱弐参 comparison discuss those same forms.
+    // 2026-10-30 example tables: the Haerye line for ㆆ, quoted as printed.
+    // 2026-10-30 notation pass: Japanese words quoted in Japanese spelling
+    // (the article is about Japanese vocabulary layers / the term 訓読み itself).
+    'kokugo-versus-kango': ['私はコーヒーを飲む', '私は毎日コーヒーを飲む', '飲む（和语）', '頭痛持ち', '工場'],
+    'korean-eumhun-tradition': ['（訓読み）'],
+    'ko-mid-eastguk-jeongun': ['如挹字初發聲'],
     'capital-numerals-daxie': ['壹貳參肆伍陸柒捌玖拾', '壹 貳 參 肆 伍 陸 柒 捌 玖 拾 佰 仟 萬',
         '參（三）', '陸（六）', '萬（一万）', '壹貳參'],
 };
@@ -188,6 +194,11 @@ const rows = [];
 function scan(id, where, s) {
     if (!s) return;
     let text = String(s);
+    // Example-table cells (and inline runs) tagged with another language are
+    // cited written forms by construction: 書 in a kanbun line (lang="ja"),
+    // 體 in the traditional column (lang="zh-Hant"), 東 as a Middle Chinese
+    // rhyme-book entry (lang="ltc"). Only untagged or zh/zh-Hans text is prose.
+    text = text.replace(/<(td|th|span|bdi)\b[^>]*\blang="(?!zh(?:-Hans)?")[^"]*"[^>]*>[\s\S]*?<\/\1>/g, ' ');
     for (const cite of (CITED[id] || [])) text = text.split(cite).join(' ');
     for (let i = 0; i < text.length; i++) {
         if (!TRAD.has(text[i])) continue;

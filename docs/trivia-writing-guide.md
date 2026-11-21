@@ -214,6 +214,36 @@ Bodies rewritten, of 70 articles:
 
 ---
 
+## 5a. Separators, Han-character terms, and example tables (2026-10-30)
+
+**Separators.** A title's main part and subtitle, a heading's two parts, and a bold list label and its text are separated by a colon: `：` in ja/zh/yue, ` : ` in fr, and `: ` everywhere else. Never use an em dash there. Dashes that are not separators stay as they are: Russian/Ukrainian copula dashes, ranges, paired parenthetical dashes.
+
+**Han-character terms.** Use one pattern per UI language, everywhere in the article:
+
+| UI | Pattern | Example |
+|---|---|---|
+| ko | 한글(漢字), traditional hanja; romanization only if the reading is the topic | 입춘(立春), 시헌력(時憲曆) |
+| ja | 漢字（よみ）, Japanese forms; reading only where needed | 中気（ちゅうき） |
+| zh | simplified characters only | 节气 |
+| yue | traditional characters only | 節氣 |
+| vi | Hán-Việt reading (漢字) | tiết khí (節氣) |
+| others | Translation (漢字, <em>romanization</em>), first mention only | the Beginning of Spring (立春, <em>lìchūn</em>) |
+
+Quoted or cited forms keep their written shape: a classical sentence, an inscription, or the two forms a sentence is comparing.
+
+**Example tables.** When the prose describes a script, sound, word or date, show it. Add a `<table class="trivia-ex">` right after the paragraph it illustrates.
+- Allowed tags: caption, th, td, em, strong, sub, sup, bdi, span.
+- Put the native-script sample in `td.g` and give it `lang`; add `dir="rtl"` for right-to-left scripts.
+- The block is wrapped as `<div class="trivia-ex-wrap">…</div>`.
+- Keep it to at most 4 columns and about 10 rows.
+- Every row needs a source.
+- Never show look-alike glyphs for scripts that are not in Unicode.
+
+New glyphs need a font:
+- Word Map: `node tools/build_historic_font_subsets.js`, and add a `SCRIPTS` entry for a new block.
+- Han Map: the `Han Map Trivia Subset` face in hanmap.html (BabelStone Han).
+- Name Map and Time Map: the `Trivia Script Subset` face in trivia_reader.js.
+
 ## 6. What the server-rendered pages do with your markup
 
 Articles are also served as static HTML at `/{ui}/trivia/{slug}` with no JavaScript, so the map

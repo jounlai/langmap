@@ -53,6 +53,13 @@ const SCRIPTS = [
   { key: 'EgyptianHiero',  repo: 'NotoSansEgyptianHieroglyphs',  range: 'U+13000-1342F', blocks: [[0x13000,0x1342F]] },
   { key: 'AnatolianHiero', repo: 'NotoSansAnatolianHieroglyphs', range: 'U+14400-1467F', blocks: [[0x14400,0x1467F]] },
   { key: 'Tangut',         repo: 'NotoSerifTangut',              range: 'U+17000-18AFF', blocks: [[0x17000,0x18AFF]] },
+  // 2026-10-30: scripts shown only in the trivia example tables (table.trivia-ex).
+  { key: 'NKo',            repo: 'NotoSansNKo',                  range: 'U+07C0-07FF',   blocks: [[0x07C0,0x07FF]] },
+  { key: 'Ogham',          repo: 'NotoSansOgham',                range: 'U+1680-169F',   blocks: [[0x1680,0x169F]] },
+  { key: 'Runic',          repo: 'NotoSansRunic',                range: 'U+16A0-16FF',   blocks: [[0x16A0,0x16FF]] },
+  { key: 'OldItalic',      repo: 'NotoSansOldItalic',            range: 'U+10300-1032F', blocks: [[0x10300,0x1032F]] },
+  { key: 'LinearA',        repo: 'NotoSansLinearA',              range: 'U+10600-1077F', blocks: [[0x10600,0x1077F]] },
+  { key: 'Nushu',          repo: 'NotoSansNushu',                range: 'U+1B170-1B2FF', blocks: [[0x1B170,0x1B2FF]] },
   // Brahmic + Tifinagh subsets were originally cut by hand and had no builder
   // entry, so they went stale silently when new glyphs entered the data (the
   // Brahmi LA needed by Tocharian klautso/klots was missing until 2026-08-21).

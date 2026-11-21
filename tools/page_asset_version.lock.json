@@ -12,8 +12,8 @@
     "hash": "6334d2cc4d9f21c6"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 74,
-    "hash": "e76f000dc8c06304"
+    "version": 75,
+    "hash": "76bbc8dfe1c19243"
   },
   "ipa_synth/engine.js": {
     "version": 56,
@@ -128,8 +128,8 @@
     "hash": "1f6b91392006ac58"
   },
   "timemap_trivia_rt/base.js": {
-    "version": 44,
-    "hash": "4b5d00a57aea3313"
+    "version": 45,
+    "hash": "02c08d9a9119b15e"
   },
   "tree_names_i18n.js": {
     "version": 2,

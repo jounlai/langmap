@@ -25,6 +25,15 @@ Figures as of November 2026. The pages and the changelog always carry the curren
 | [Time Map](https://langmaps.com/timemap.html) (`timemap.html`) | Any day in 51 calendars, current and historical: Japanese era, Minguo, Thai Buddhist, Chinese lunisolar, Hebrew, Islamic, Persian, Ethiopian, French Republican, Maya Long Count… |
 | [Family Tree](https://langmaps.com/tree.html) (`tree.html`) | Every Word Map language in a genealogical dendrogram; click a leaf to jump to the map. |
 
+### Screenshots
+
+| | |
+|---|---|
+| ![Word Order Map](docs/screenshots/wordorder.png)<br>**Word Order Map**: one sentence, segment by segment | ![Word Map](docs/screenshots/wordmap.png)<br>**Word Map**: "dragon" in East Asia, coloured by origin |
+| ![Han Map](docs/screenshots/hanmap.png)<br>**Han Map**: 一 read across the Sinosphere | ![Name Map](docs/screenshots/namemap.png)<br>**Name Map**: Adam, country by country |
+| ![Time Map](docs/screenshots/timemap.png)<br>**Time Map**: one day in the world's calendars | ![Article](docs/screenshots/trivia.png)<br>**Articles**: N'Ko, with an example table |
+| ![Family Tree](docs/screenshots/tree.png)<br>**Family Tree** | |
+
 **Reading material.** 296 long-form articles live inside the maps: Word Map 196, Han Map 60, Name Map 20, Time Map 20.
 They cover word stories, scripts, sound changes and calendar history. Each is in all 19 UI languages, sourced, and
 cross-checked in review rallies (`trivia_reviews/`). Buttons in an article move the map, and example tables show the
@@ -135,6 +144,15 @@ MIT
 | [名前マップ](https://langmaps.com/namemap.html)（`namemap.html`） | 62の名前（John、Mary、Muhammad、Alexander…）の国ごとの綴りと発音。由来、意味、系統図、有名人もつけている。 |
 | [暦マップ](https://langmaps.com/timemap.html)（`timemap.html`） | 現行・歴史上の51の暦で任意の日を表示する。元号、民国紀元、仏暦、農暦、ヘブライ暦、ヒジュラ暦、イラン暦、エチオピア暦、フランス革命暦、マヤ長期暦など。 |
 | [系統樹](https://langmaps.com/tree.html)（`tree.html`） | 単語マップの全言語を系統樹で表示する。葉をクリックすると地図へ移動する。 |
+
+### スクリーンショット
+
+| | |
+|---|---|
+| ![語順マップ](docs/screenshots/wordorder.png)<br>**語順マップ**：一つの文を意味のまとまりごとに比べる | ![単語マップ](docs/screenshots/wordmap.png)<br>**単語マップ**：東アジアの「竜」、由来ごとに色分け |
+| ![漢字マップ](docs/screenshots/hanmap.png)<br>**漢字マップ**：漢字文化圏での「一」の読み | ![名前マップ](docs/screenshots/namemap.png)<br>**名前マップ**：国ごとの Adam |
+| ![暦マップ](docs/screenshots/timemap.png)<br>**暦マップ**：同じ一日を世界の暦で | ![読み物](docs/screenshots/trivia.png)<br>**読み物**：ンコ文字の記事と例示表 |
+| ![系統樹](docs/screenshots/tree.png)<br>**系統樹** | |
 
 **読み物。** 地図の中に296本の記事がある（単語マップ196、漢字マップ60、名前マップ20、暦マップ20）。
 - 語源の物語、文字、音の変化、暦の歴史を扱う。

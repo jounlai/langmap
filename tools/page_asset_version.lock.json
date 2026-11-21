@@ -12,8 +12,8 @@
     "hash": "6334d2cc4d9f21c6"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 72,
-    "hash": "27219ae53c2855e4"
+    "version": 73,
+    "hash": "605ee113473bf4c8"
   },
   "ipa_synth/engine.js": {
     "version": 56,
@@ -88,8 +88,8 @@
     "hash": "e5987c9c4e6aab44"
   },
   "namemap_trivia_rt/base.js": {
-    "version": 50,
-    "hash": "2c76f094236f9391"
+    "version": 51,
+    "hash": "7eaeda9f91fc87bc"
   },
   "nav-short.js": {
     "version": 58,
@@ -128,8 +128,8 @@
     "hash": "1f6b91392006ac58"
   },
   "timemap_trivia_rt/base.js": {
-    "version": 42,
-    "hash": "e65dca56f26d5bf1"
+    "version": 43,
+    "hash": "e229d5dff3c7326e"
   },
   "tree_names_i18n.js": {
     "version": 2,

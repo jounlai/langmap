@@ -653,6 +653,66 @@ WORDS.soap = {
     plain: {"color":"#94a3b8","emoji":"📅","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. Played by word_journey.js; checked
+  // by tools/word_journey_check.js. sapo shows only the Latin line. German Seife and
+  // English soap are left out: they are inherited Germanic words, cognates of the
+  // word Latin borrowed, not borrowings from Latin. Greek σαπούνι is left out (Ancient
+  // Greek σάπων "usually" from Latin, perhaps from Gaulish). sabun: Malay sabun is
+  // left out because its entry gives Arabic or Persian; that takes Indonesian, Javanese
+  // and Hokkien 雪文 with it. Pashto, Kyrgyz and Altai are left out because their entries
+  // give Classical Persian while the Arabic entry lists them as direct borrowings.
+  // Somali and Urdu are left out because their entries say only "from". Kabardian
+  // comes from Ottoman (its own entry), not Turkish; Adyghe (only a descendants list)
+  // and Hungarian szappan ("perhaps via" Serbo-Croatian) are left out.
+  journey: {
+    sapo: {
+      steps: [
+        [["la", "it"], ["la", "osp"], ["la", "fro"], ["la", "pt"], ["la", "ca"], ["la", "ro"], ["la", "mk"]],
+        [["osp", "es"], ["osp", "eu"], ["osp", "lad"], ["fro", "fr"]],
+        [["es", "tl"], ["es", "ceb"], ["fr", "ht"], ["fr", "mg"]],
+      ],
+      sources: [
+        { title: "Wiktionary: sapone (Italian) — inherits Latin sāpōnem", url: "https://en.wiktionary.org/wiki/sapone#Italian" },
+        { title: "Wiktionary: xabon (Old Spanish) — inherits Latin sāpōnem", url: "https://en.wiktionary.org/wiki/xabon#Old_Spanish" },
+        { title: "Wiktionary: jabón (Spanish) — inherits Old Spanish xabon", url: "https://en.wiktionary.org/wiki/jab%C3%B3n#Spanish" },
+        { title: "Wiktionary: savon (French) — inherits Middle French savon, from Old French savon, from Latin sāpōnem", url: "https://en.wiktionary.org/wiki/savon#French" },
+        { title: "Wiktionary: sabão (Portuguese) — inherits Old Portuguese sabon, from Latin sāpōnem", url: "https://en.wiktionary.org/wiki/sab%C3%A3o#Portuguese" },
+        { title: "Wiktionary: sabó (Catalan) — inherits Old Catalan sabó, from Latin sāpōnem", url: "https://en.wiktionary.org/wiki/sab%C3%B3#Catalan" },
+        { title: "Wiktionary: săpun (Romanian) — inherits Latin sāpōnem", url: "https://en.wiktionary.org/wiki/s%C4%83pun#Romanian" },
+        { title: "Wiktionary: сапун (Macedonian) — borrowed from Latin sāpōnem", url: "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%BF%D1%83%D0%BD#Macedonian" },
+        { title: "Wiktionary: xaboi (Basque) — borrowed from Old Spanish xabon", url: "https://en.wiktionary.org/wiki/xaboi#Basque" },
+        { title: "Wiktionary: shavón (Ladino) — inherits Old Spanish xabon", url: "https://en.wiktionary.org/wiki/shav%C3%B3n#Ladino" },
+        { title: "Wiktionary: sabon (Tagalog) — borrowed from early modern Spanish jabón", url: "https://en.wiktionary.org/wiki/sabon#Tagalog" },
+        { title: "Wiktionary: sabon (Cebuano) — borrowed from early modern Spanish jabón", url: "https://en.wiktionary.org/wiki/sabon#Cebuano" },
+        { title: "Wiktionary: savon (Haitian Creole) — from French savon", url: "https://en.wiktionary.org/wiki/savon#Haitian_Creole" },
+        { title: "Wiktionary: savony (Malagasy) — borrowed from French savon", url: "https://en.wiktionary.org/wiki/savony#Malagasy" },
+      ],
+    },
+    sabun: {
+      steps: [
+        [["ar", "ota"], ["ar", "sw"], ["ar", "fa_clas"], ["ar", "az"], ["ar", "kk"], ["ar", "uz"], ["ar", "am"], ["ar", "wo"]],
+        [["ota", "tr"], ["ota", "kbd"], ["fa_clas", "hi"], ["fa_clas", "bn"], ["fa_clas", "tg"], ["sw", "lg"], ["sw", "ki"], ["sw", "ln"]],
+      ],
+      sources: [
+        { title: "Wiktionary: صابون (Ottoman Turkish) — borrowed from Arabic ṣābūn", url: "https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D8%A8%D9%88%D9%86#Ottoman_Turkish" },
+        { title: "Wiktionary: sabun (Turkish) — inherits Ottoman Turkish صابون", url: "https://en.wiktionary.org/wiki/sabun#Turkish" },
+        { title: "Wiktionary: сабын (East Circassian / Kabardian) — borrowed from Ottoman Turkish صابون, from Arabic", url: "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%B1%D1%8B%D0%BD#East_Circassian" },
+        { title: "Wiktionary: sabuni (Swahili) — borrowed from Arabic ṣābūn (Baldi 2020)", url: "https://en.wiktionary.org/wiki/sabuni#Swahili" },
+        { title: "Wiktionary: সাবান (Bengali) — borrowed from Classical Persian ṣābūn, from Arabic ṣābūn", url: "https://en.wiktionary.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%A8#Bengali" },
+        { title: "Wiktionary: साबुन (Hindi) — borrowed from Classical Persian ṣābūn", url: "https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%AC%E0%A5%81%E0%A4%A8#Hindi" },
+        { title: "Wiktionary: собун (Tajik) — inherits Classical Persian ṣābūn", url: "https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%B1%D1%83%D0%BD#Tajik" },
+        { title: "Wiktionary: sabun (Azerbaijani) — borrowed from Arabic ṣābūn", url: "https://en.wiktionary.org/wiki/sabun#Azerbaijani" },
+        { title: "Wiktionary: сабын (Kazakh) — borrowed from Arabic ṣābūn", url: "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%B1%D1%8B%D0%BD#Kazakh" },
+        { title: "Wiktionary: sovun (Uzbek) — borrowed from Arabic ṣābūn", url: "https://en.wiktionary.org/wiki/sovun#Uzbek" },
+        { title: "Wiktionary: ሳሙና (Amharic) — borrowed from Arabic ṣābūna", url: "https://en.wiktionary.org/wiki/%E1%88%B3%E1%88%99%E1%8A%93#Amharic" },
+        { title: "Wiktionary: saabu (Wolof) — borrowed from Arabic ṣābūn", url: "https://en.wiktionary.org/wiki/saabu#Wolof" },
+        { title: "Wiktionary: ssabbuuni (Luganda) — borrowed from Swahili sabuni", url: "https://en.wiktionary.org/wiki/ssabbuuni#Luganda" },
+        { title: "Wiktionary: thabuni (Kikuyu) — borrowed from Swahili sabuni (Benson 1964)", url: "https://en.wiktionary.org/wiki/thabuni#Kikuyu" },
+        { title: "Wiktionary: sabúni (Lingala) — borrowed from Swahili sabuni", url: "https://en.wiktionary.org/wiki/sab%C3%BAni#Lingala" },
+      ],
+    },
+  },
   data: {
     ab: ["асапын", "asapən"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ace: ["sabôn", "sabon"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

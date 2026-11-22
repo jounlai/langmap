@@ -609,6 +609,45 @@ WORDS.tomato = {
     other: {"color":"#16a34a","emoji":"✨","en":"another image","ja":"ほかの見立て","ko":"다른 비유","zh":"其他意象","yue":"其他意象","vi":"hình ảnh khác","th":"ภาพอื่น","id":"citra lain","hi":"कोई और बिंब","de":"ein anderes Bild","fr":"une autre image","it":"un'altra immagine","es":"otra imagen","pt":"outra imagem","ru":"другой образ","uk":"інший образ","ar":"صورة أخرى","he":"דימוי אחר","sw":"taswira nyingine"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. The origin is Classical Nahuatl
+  // (nci), the donor Wiktionary names; its map cell is xītomatl, the tomato proper,
+  // a compound of tomatl 'tomatillo', which is the word Spanish took. German is left
+  // out on purpose: Wiktionary gives French or Spanish as its donor, so it has no
+  // single arrow. Italian (pomodoro) and Russian (помидор) are on another route.
+  journey: {
+    nahuatl: {
+      steps: [
+        [["nci", "es"], ["nci", "es_mx"]],
+        [["es", "en"], ["es", "fr"], ["es", "pt"], ["es", "tl"], ["es", "da"], ["es", "ar"], ["es", "el"], ["es", "qu"]],
+        [["en", "ja"], ["en", "ko"], ["en", "hi"], ["en", "nl"], ["fr", "ht"], ["da", "sv"], ["el", "ota"]],
+        [["nl", "id"], ["nl", "af"], ["sv", "fi"], ["ota", "tr"]],
+      ],
+      sources: [
+        { title: "Wiktionary: jitomate (Spanish, Mexico) — borrowed from Classical Nahuatl xītomatl (xictli 'navel' + tomatl)", url: "https://en.wiktionary.org/wiki/jitomate#Spanish" },
+        { title: "Wiktionary: tomate (Spanish) — from Classical Nahuatl tomatl 'tomatillo', the tomato proper being xītomatl", url: "https://en.wiktionary.org/wiki/tomate#Spanish" },
+        { title: "Wiktionary: tomato (English) — from Spanish tomate", url: "https://en.wiktionary.org/wiki/tomato#English" },
+        { title: "Wiktionary: tomate (French) — from Spanish tomate", url: "https://en.wiktionary.org/wiki/tomate#French" },
+        { title: "Wiktionary: tomate (Portuguese) — from Spanish tomate (Infopédia, Priberam)", url: "https://en.wiktionary.org/wiki/tomate#Portuguese" },
+        { title: "Wiktionary: kamatis (Tagalog) — from Spanish tomates", url: "https://en.wiktionary.org/wiki/kamatis#Tagalog" },
+        { title: "Wiktionary: tomat (Danish) — from Spanish tomate", url: "https://en.wiktionary.org/wiki/tomat#Danish" },
+        { title: "Wiktionary: طماطم (Arabic) — from Spanish tomate", url: "https://en.wiktionary.org/wiki/%D8%B7%D9%85%D8%A7%D8%B7%D9%85#Arabic" },
+        { title: "Wiktionary: ντομάτα (Greek) — from Spanish tomate", url: "https://en.wiktionary.org/wiki/%CE%BD%CF%84%CE%BF%CE%BC%CE%AC%CF%84%CE%B1#Greek" },
+        { title: "Wiktionary: tumati (Quechua) — from Spanish tomate", url: "https://en.wiktionary.org/wiki/tumati#Quechua" },
+        { title: "Wiktionary: トマト (Japanese) — from English tomato (Nihon Kokugo Daijiten, Daijirin)", url: "https://en.wiktionary.org/wiki/%E3%83%88%E3%83%9E%E3%83%88#Japanese" },
+        { title: "Wiktionary: 토마토 (Korean) — from English tomato", url: "https://en.wiktionary.org/wiki/%ED%86%A0%EB%A7%88%ED%86%A0#Korean" },
+        { title: "Wiktionary: टमाटर (Hindi) — from English tomato", url: "https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A4%AE%E0%A4%BE%E0%A4%9F%E0%A4%B0#Hindi" },
+        { title: "Wiktionary: tomaat (Dutch) — from English tomato, later influenced by French tomate", url: "https://en.wiktionary.org/wiki/tomaat#Dutch" },
+        { title: "Wiktionary: tomat (Haitian Creole) — inherits French tomate", url: "https://en.wiktionary.org/wiki/tomat#Haitian_Creole" },
+        { title: "Wiktionary: tomat (Swedish) — from Danish tomat", url: "https://en.wiktionary.org/wiki/tomat#Swedish" },
+        { title: "Wiktionary: طوماتس (Ottoman Turkish) — from Greek ντομάτα", url: "https://en.wiktionary.org/wiki/%D8%B7%D9%88%D9%85%D8%A7%D8%AA%D8%B3#Ottoman_Turkish" },
+        { title: "Wiktionary: tomat (Indonesian) — from Dutch tomaat", url: "https://en.wiktionary.org/wiki/tomat#Indonesian" },
+        { title: "Wiktionary: tamatie (Afrikaans) — inherits Dutch tomaat", url: "https://en.wiktionary.org/wiki/tamatie#Afrikaans" },
+        { title: "Wiktionary: tomaatti (Finnish) — from Swedish tomat", url: "https://en.wiktionary.org/wiki/tomaatti#Finnish" },
+        { title: "Wiktionary: domates (Turkish) — inherits Ottoman Turkish طوماتس", url: "https://en.wiktionary.org/wiki/domates#Turkish" },
+      ],
+    },
+  },
   data: {
     en: ["tomato", "təˈmɑːtəʊ"],  // From Spanish tomate, from Nahuatl tomatl.
     zh: ["番茄", "fan˥ tɕʰjɛ˧˥"],  // 番 'foreign' + 茄 'eggplant': the 'foreign eggplant'; 西红柿 is the other everyday word in Mainland China.

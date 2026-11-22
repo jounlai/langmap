@@ -827,6 +827,66 @@ WORDS.tea = {
     other: { color: "#6b7280", emoji: "🌿", en: "from Latin herba", ja: "ラテン語 herba 由来", ko: "라틴어 herba 유래", zh: "源自拉丁语 herba", yue: "源自拉丁文 herba", vi: "từ tiếng Latin herba", th: "จากภาษาละติน herba", id: "dari bahasa Latin herba", hi: "लैटिन herba से", de: "vom lateinischen herba", fr: "du latin herba", it: "dal latino herba", es: "del latín herba", pt: "do latim herba", ru: "от лат. herba", uk: "від лат. herba", ar: "من اللاتينية herba", he: "מלטינית herba", sw: "kutoka Kilatini herba" },
     leaf: { color: "#4d7c0f", emoji: "🍃", en: "neither route · the leaf itself", ja: "どちらの経路でもない・葉そのもの", ko: "두 경로 어느 쪽도 아님 · 잎 그 자체", zh: "两条路线都不是・叶子本身", yue: "兩條路線都唔係・葉本身", vi: "không theo đường nào · chính là chiếc lá", th: "ไม่ใช่ทั้งสองเส้นทาง · ตัวใบเอง", id: "bukan salah satu jalur · daunnya sendiri", hi: "किसी मार्ग से नहीं · पत्ता ही", de: "keine der Routen · das Blatt selbst", fr: "ni l'une ni l'autre route · la feuille même", it: "nessuna delle due rotte · la foglia stessa", es: "ninguna de las dos rutas · la hoja misma", pt: "nenhuma das rotas · a própria folha", ru: "ни один из путей · сам лист", uk: "жоден із шляхів · сам листок", ar: "لا هذا الطريق ولا ذاك · الورقة نفسها", he: "לא זה ולא זה · העלה עצמו", sw: "si njia yoyote kati ya hizo · jani lenyewe" },
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it (Turkish çay cites Redhouse and
+  // Nişanyan; the rest are unreferenced entries). Played by word_journey.js;
+  // checked by tools/word_journey_check.js. Left out on purpose: Russian чай
+  // (Wiktionary says Ottoman Turkish, Vasmer names a whole row of Turkic and
+  // Mongolian go-betweens, so it has no single arrow), Romanian ceai ("possibly
+  // through Russian"), Mongolian цай (Persian or Mandarin), Greek τσάι (Ottoman
+  // or Russian), German Tee ("probably through Dutch"), Swedish te (French
+  // or German), Finnish tee (comes through Swedish, which is left out), and
+  // Vietnamese trà and Thai ชา (no stated donor on the map). Persian arrows
+  // use `fa`; the entries name Classical Persian, and this word has no fa_clas
+  // cell.
+  journey: {
+    cha: {
+      steps: [
+        [["zh", "fa"], ["zh", "ko"], ["zh_tang", "ja"], ["zh_tang", "bo"], ["yue", "pt"]],
+        [["fa", "ota"], ["fa", "ar"], ["fa", "hi"], ["fa", "ur"], ["fa", "sw"], ["fa", "uz"]],
+        [["ota", "tr"], ["ota", "bg"], ["ota", "sr"], ["ota", "sq"]],
+      ],
+      sources: [
+        { title: "Wiktionary: چا (Persian) — borrowed from Chinese 茶; چای adds the Persian suffix -y (Mair & Hoh 2009)", url: "https://en.wiktionary.org/wiki/%DA%86%D8%A7#Persian" },
+        { title: "Wiktionary: 차 (Korean) — the reading 차 from Early Mandarin 茶 chá", url: "https://en.wiktionary.org/wiki/%EC%B0%A8#Korean" },
+        { title: "Wiktionary: 茶 (Japanese) — ちゃ from Middle Chinese 茶", url: "https://en.wiktionary.org/wiki/%E8%8C%B6#Japanese" },
+        { title: "Wiktionary: ཇ (Tibetan) — borrowed from Middle Chinese 茶", url: "https://en.wiktionary.org/wiki/%E0%BD%87#Tibetan" },
+        { title: "Wiktionary: chá (Portuguese) — borrowed from Cantonese 茶 caa4", url: "https://en.wiktionary.org/wiki/ch%C3%A1#Portuguese" },
+        { title: "Wiktionary: çay (Turkish) — inherits Ottoman Turkish چای, from Persian چای (Redhouse, Nişanyan)", url: "https://en.wiktionary.org/wiki/%C3%A7ay#Turkish" },
+        { title: "Wiktionary: شاي (Arabic) — borrowed from Persian چای", url: "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%8A#Arabic" },
+        { title: "Wiktionary: चाय (Hindi) — borrowed from Classical Persian چای", url: "https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%AF#Hindi" },
+        { title: "Wiktionary: چائے (Urdu) — borrowed from Classical Persian چای", url: "https://en.wiktionary.org/wiki/%DA%86%D8%A7%D8%A6%DB%92#Urdu" },
+        { title: "Wiktionary: chai (Swahili) — borrowed from Classical Persian چای", url: "https://en.wiktionary.org/wiki/chai#Swahili" },
+        { title: "Wiktionary: choy (Uzbek) — borrowed from Classical Persian چای", url: "https://en.wiktionary.org/wiki/choy#Uzbek" },
+        { title: "Wiktionary: чай (Bulgarian) — borrowed from Ottoman Turkish چای", url: "https://en.wiktionary.org/wiki/%D1%87%D0%B0%D0%B9#Bulgarian" },
+        { title: "Wiktionary: чај (Serbo-Croatian) — borrowed from Ottoman Turkish چای", url: "https://en.wiktionary.org/wiki/%D1%87%D0%B0%D1%98#Serbo-Croatian" },
+        { title: "Wiktionary: çaj (Albanian) — borrowed from Ottoman Turkish چای", url: "https://en.wiktionary.org/wiki/%C3%A7aj#Albanian" },
+      ],
+    },
+    te: {
+      steps: [
+        [["nan_xm", "nl"], ["nan_xm", "ms"], ["nan_xm", "es"]],
+        [["nl", "en"], ["nl", "fr"], ["nl", "da"], ["nl", "no"], ["nl", "hu"], ["ms", "id"], ["ms", "ta"]],
+        [["fr", "it"], ["fr", "hy"]],
+        [["it", "mt"]],
+      ],
+      sources: [
+        { title: "Wiktionary: thee (Dutch) — borrowed from Hokkien 茶 tê", url: "https://en.wiktionary.org/wiki/thee#Dutch" },
+        { title: "Wiktionary: teh (Malay) — borrowed from Hokkien 茶 tê (Amoy)", url: "https://en.wiktionary.org/wiki/teh#Malay" },
+        { title: "Wiktionary: té (Spanish) — borrowed from Hokkien 茶 tê", url: "https://en.wiktionary.org/wiki/t%C3%A9#Spanish" },
+        { title: "Wiktionary: tea (English) — from Dutch thee, from Hokkien tê (Amoy dialect); the Dutch East India Company bought its tea in Amoy (Xiamen)", url: "https://en.wiktionary.org/wiki/tea#English" },
+        { title: "Wiktionary: thé (French) — borrowed from Dutch thee", url: "https://en.wiktionary.org/wiki/th%C3%A9#French" },
+        { title: "Wiktionary: te (Danish) — borrowed from Dutch thee", url: "https://en.wiktionary.org/wiki/te#Danish" },
+        { title: "Wiktionary: te (Norwegian Bokmål) — from Dutch thee", url: "https://en.wiktionary.org/wiki/te#Norwegian_Bokm%C3%A5l" },
+        { title: "Wiktionary: tea (Hungarian) — borrowed from Dutch thee", url: "https://en.wiktionary.org/wiki/tea#Hungarian" },
+        { title: "Wiktionary: teh (Indonesian) — inherits Malay teh", url: "https://en.wiktionary.org/wiki/teh#Indonesian" },
+        { title: "Wiktionary: தேநீர் (Tamil) — தே 'tea' (from Malay teh) + நீர் 'water'", url: "https://en.wiktionary.org/wiki/%E0%AE%A4%E0%AF%87%E0%AE%A8%E0%AF%80%E0%AE%B0%E0%AF%8D#Tamil" },
+        { title: "Wiktionary: tè (Italian) — borrowed from French thé", url: "https://en.wiktionary.org/wiki/t%C3%A8#Italian" },
+        { title: "Wiktionary: թեյ (Armenian) — borrowed from French thé", url: "https://en.wiktionary.org/wiki/%D5%A9%D5%A5%D5%B5#Armenian" },
+        { title: "Wiktionary: tè (Maltese) — borrowed from Italian tè", url: "https://en.wiktionary.org/wiki/t%C3%A8#Maltese" },
+      ],
+    },
+  },
   data: {
     crx: ["ludi", "ludi"],
     kpy: ["чайчай", "tʃajtʃaj"],

@@ -657,6 +657,39 @@ WORDS.potato = {
     other: {"color":"#6b7280","emoji":"🏡","en":"a local tuber word · or another image","ja":"在来のイモの名・ほかの見立て","ko":"토박이 덩이줄기 이름 · 다른 비유","zh":"本地薯类的名称・或其他意象","yue":"本地薯類嘅名 · 或者其他意象","vi":"tên củ bản địa · hoặc hình ảnh khác","th":"ชื่อหัวพืชท้องถิ่น · หรือภาพอื่น","id":"nama umbi lokal · atau citra lain","hi":"स्थानीय कंद का नाम · या कोई और बिंब","de":"ein heimisches Knollenwort · oder ein anderes Bild","fr":"un mot local pour un tubercule · ou une autre image","it":"una parola locale per un tubero · o un'altra immagine","es":"un nombre local de tubérculo · u otra imagen","pt":"um nome local de tubérculo · ou outra imagem","ru":"местное название клубня · или другой образ","uk":"місцева назва бульби · або інший образ","ar":"اسم محلي لدرنة · أو صورة أخرى","he":"שם מקומי לפקעת · או דימוי אחר","sw":"jina la kiazi cha kienyeji · au taswira nyingine"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. The route has two starts. Quechua
+  // papa went into Latin American Spanish papa (Peru stands for it here). Spain's
+  // patata is from Taíno batata (the RAE calls it a blend with papa); Taíno has no
+  // cell on the map, so Spanish patata is the second start, and English potato and
+  // the rest come from it. Portuguese batata (and Marathi बटाटा after it) is left
+  // out: Wiktionary takes it from Spanish batata 'sweet potato', a word the map does
+  // not show. Norwegian potet goes through Danish, which says kartoffel (another route).
+  journey: {
+    papa: {
+      steps: [
+        [["qu", "es_pe"], ["es", "en"], ["es", "it"], ["es", "el"], ["es", "tl"], ["es", "ga"], ["es", "ca"], ["es", "eu"]],
+        [["el", "ota"], ["en", "sv"], ["en", "tpi"]],
+        [["ota", "tr"], ["ota", "ar"]],
+      ],
+      sources: [
+        { title: "Wiktionary: papa (Spanish) — 'potato', from Quechua papa", url: "https://en.wiktionary.org/wiki/papa#Spanish" },
+        { title: "Wiktionary: patata (Spanish) — from Taíno batata (the DRAE: a blend of papa and batata)", url: "https://en.wiktionary.org/wiki/patata#Spanish" },
+        { title: "Wiktionary: potato (English) — from Spanish patata, itself from Taíno batata", url: "https://en.wiktionary.org/wiki/potato#English" },
+        { title: "Wiktionary: patata (Italian) — from Spanish patata", url: "https://en.wiktionary.org/wiki/patata#Italian" },
+        { title: "Wiktionary: πατάτα (Greek) — from Spanish patata", url: "https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AC%CF%84%CE%B1#Greek" },
+        { title: "Wiktionary: patatas (Tagalog) — from Spanish patatas, plural of patata", url: "https://en.wiktionary.org/wiki/patatas#Tagalog" },
+        { title: "Wiktionary: práta (Irish) — from Spanish patata", url: "https://en.wiktionary.org/wiki/pr%C3%A1ta#Irish" },
+        { title: "Wiktionary: patata (Catalan) — from Spanish patata", url: "https://en.wiktionary.org/wiki/patata#Catalan" },
+        { title: "Wiktionary: patata (Basque) — from Spanish patata", url: "https://en.wiktionary.org/wiki/patata#Basque" },
+        { title: "Wiktionary: پاتاتس (Ottoman Turkish) — from Greek πατάτα", url: "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%AA%D8%A7%D8%AA%D8%B3#Ottoman_Turkish" },
+        { title: "Wiktionary: potatis (Swedish) — from English potatoes", url: "https://en.wiktionary.org/wiki/potatis#Swedish" },
+        { title: "Wiktionary: poteto (Tok Pisin) — from English potato", url: "https://en.wiktionary.org/wiki/poteto#Tok_Pisin" },
+        { title: "Wiktionary: patates (Turkish) — inherits Ottoman Turkish پاتاتس", url: "https://en.wiktionary.org/wiki/patates#Turkish" },
+        { title: "Wiktionary: بطاطس (Arabic) — from Ottoman Turkish پاتاتس", url: "https://en.wiktionary.org/wiki/%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3#Arabic" },
+      ],
+    },
+  },
   data: {
     lb: ["Gromper", "ˈɡʁompɐ"],  // A contraction of "ground pear" (Grond + Bir), like regional German Grundbirne.
     gcr: ["ponmtè", "pɔ̃mtɛ"],  // From French pomme de terre, "apple of the earth".

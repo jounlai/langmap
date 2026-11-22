@@ -676,6 +676,37 @@ WORDS.maize = {
     plain: {"color":"#94a3b8","emoji":"🌱","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. Played by word_journey.js; checked
+  // by tools/word_journey_check.js. It starts from Spanish maíz, since Taíno
+  // *mahisi has no row here. Only two steps: Wiktionary gives no sourced third link
+  // for the languages on this route (Estonian, Sami, Greenlandic, Kven have no
+  // etymology there). Left out: Esperanto maizo (six donors at once).
+  journey: {
+    mahiz: {
+      steps: [
+        [["es", "en"], ["es", "fr"], ["es", "de"], ["es", "nl"], ["es", "sv"], ["es", "da"], ["es", "is"], ["es", "tl"], ["es", "ceb"]],
+        [["sv", "fi"], ["fr", "ht"], ["fr", "mfe"], ["nl", "pap"], ["de", "csb"]],
+      ],
+      sources: [
+        { title: "Wiktionary: maíz (Spanish) — from Taíno *mahisi", url: "https://en.wiktionary.org/wiki/ma%C3%ADz#Spanish" },
+        { title: "Wiktionary: maize (English) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/maize#English" },
+        { title: "Wiktionary: maïs (French) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/ma%C3%AFs#French" },
+        { title: "Wiktionary: Mais (German) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/Mais#German" },
+        { title: "Wiktionary: mais (Dutch) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/mais#Dutch" },
+        { title: "Wiktionary: majs (Swedish) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/majs#Swedish" },
+        { title: "Wiktionary: majs (Danish) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/majs#Danish" },
+        { title: "Wiktionary: maís (Icelandic) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/ma%C3%ADs#Icelandic" },
+        { title: "Wiktionary: mais (Tagalog) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/mais#Tagalog" },
+        { title: "Wiktionary: mais (Cebuano) — from Spanish maíz", url: "https://en.wiktionary.org/wiki/mais#Cebuano" },
+        { title: "Wiktionary: maissi (Finnish) — from Swedish majs (SSA)", url: "https://en.wiktionary.org/wiki/maissi#Finnish" },
+        { title: "Wiktionary: mayi (Haitian Creole) — inherits French maïs", url: "https://en.wiktionary.org/wiki/mayi#Haitian_Creole" },
+        { title: "Wiktionary: may (Mauritian Creole) — inherits French maïs", url: "https://en.wiktionary.org/wiki/may#Mauritian_Creole" },
+        { title: "Wiktionary: maishi (Papiamentu) — from Spanish maíz through Dutch mais", url: "https://en.wiktionary.org/wiki/maishi#Papiamentu" },
+        { title: "Wiktionary: majs (Kashubian) — from German Mais", url: "https://en.wiktionary.org/wiki/majs#Kashubian" },
+      ],
+    },
+  },
   data: {
     ace: ["jagong", "dʒaɡoŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     acn: ["xau31tʂhaʔ55", "xau˧˩tʂʰaʔ˥˥"],

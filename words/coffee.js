@@ -794,6 +794,34 @@ WORDS.coffee = {
     bunna: { color: "#15803d", emoji: "🌱", en: "bunna — the homeland kept its own", ja: "bunna・原産地は自前の語を保った", ko: "bunna — 원산지는 제 말을 지켰다", zh: "bunna — 原产地保留了自己的词", yue: "bunna — 原產地保留咗自己嘅詞", vi: "bunna — quê hương giữ từ của mình", th: "bunna — ถิ่นกำเนิดเก็บคำของตนไว้", id: "bunna — tanah asalnya mempertahankan katanya sendiri", hi: "bunna — मूल भूमि ने अपना शब्द रखा", de: "bunna — die Heimat behielt ihr eigenes Wort", fr: "bunna — le pays d'origine a gardé le sien", it: "bunna — la patria ha tenuto la propria", es: "bunna — la tierra de origen conservó la suya", pt: "bunna — a terra de origem manteve a sua", ru: "bunna — родина сохранила своё слово", uk: "bunna — батьківщина зберегла своє слово", ar: "bunna — موطن البنّ احتفظ بكلمته", he: "bunna — ארץ המוצא שמרה על שלה", sw: "bunna — nchi ya asili ilibaki na lake" },
     other: { color: "#6b7280", emoji: "🫘", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it (each cites OED / TLFi / Vasmer /
+  // Kokugo Dai Jiten etc.). Played by word_journey.js; checked by
+  // tools/word_journey_check.js. Russian кофе is left out on purpose: Vasmer gives
+  // English, Preobrazhensky German, others Dutch, so it has no single arrow.
+  journey: {
+    qahwa: {
+      steps: [
+        [["ar", "ota"], ["ar", "sw"]],
+        [["ota", "it"]],
+        [["it", "fr"], ["it", "nl"]],
+        [["nl", "en"], ["nl", "ja"], ["nl", "ms"], ["fr", "de"], ["fr", "zh"]],
+        [["en", "ko"], ["ms", "id"]],
+      ],
+      sources: [
+        { title: "Wiktionary: caffè (Italian) — from Ottoman Turkish kahve, from Arabic qahwa", url: "https://en.wiktionary.org/wiki/caff%C3%A8#Italian" },
+        { title: "Wiktionary: kahawa (Swahili) — from Arabic qahwa (Brook 2022)", url: "https://en.wiktionary.org/wiki/kahawa#Swahili" },
+        { title: "Wiktionary: café (French) — from Italian caffè (TLFi)", url: "https://en.wiktionary.org/wiki/caf%C3%A9#French" },
+        { title: "Wiktionary: koffie (Dutch) — from Italian caffè", url: "https://en.wiktionary.org/wiki/koffie#Dutch" },
+        { title: "Wiktionary: coffee (English) — from Dutch koffie (OED, Etymonline)", url: "https://en.wiktionary.org/wiki/coffee#English" },
+        { title: "Wiktionary: コーヒー (Japanese) — from Dutch koffie (Nihon Kokugo Daijiten, Daijisen, Kōjien)", url: "https://en.wiktionary.org/wiki/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC#Japanese" },
+        { title: "Wiktionary: kopi (Malay) — from Dutch koffie; Indonesian inherits the Malay word", url: "https://en.wiktionary.org/wiki/kopi" },
+        { title: "Wiktionary: Kaffee (German) — from French café", url: "https://en.wiktionary.org/wiki/Kaffee#German" },
+        { title: "Wiktionary: 咖啡 (Chinese) — Mandarin kāfēi from French café", url: "https://en.wiktionary.org/wiki/%E5%92%96%E5%95%A1#Chinese" },
+        { title: "Wiktionary: 커피 (Korean) — from English coffee", url: "https://en.wiktionary.org/wiki/%EC%BB%A4%ED%94%BC#Korean" },
+      ],
+    },
+  },
   data: {
     crx: ["lugafi", ""],
     ame: ["café", "kafe"],

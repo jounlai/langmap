@@ -758,6 +758,63 @@ WORDS.orange = {
     china: {"color":"#15803d","emoji":"🍎","en":"named for China · Dutch \"apple from China\"","ja":"中国の名で・オランダ語「中国のりんご」","ko":"중국의 이름으로 · 네덜란드어 \"중국의 사과\"","zh":"以中國為名・荷蘭語「中國來的蘋果」","yue":"以中國為名 · 荷蘭文「中國嚟嘅蘋果」","vi":"gọi theo tên Trung Hoa · tiếng Hà Lan \"quả táo Trung Hoa\"","th":"ตั้งชื่อตามจีน · ดัตช์ \"แอปเปิลจากจีน\"","id":"dinamai dari Tiongkok · Belanda \"apel dari Tiongkok\"","hi":"चीन के नाम पर · डच \"चीन का सेब\"","de":"nach China benannt · niederländisch „Apfel aus China“","fr":"nommée d'après la Chine · néerlandais « pomme de Chine »","it":"dal nome della Cina · olandese «mela della Cina»","es":"llamada por China · neerlandés «manzana de China»","pt":"com o nome da China · neerlandês «maçã da China»","ru":"названо по Китаю · нидерл. «яблоко из Китая»","uk":"названо за Китаєм · нідерл. «яблуко з Китаю»","ar":"تسمية على اسم الصين · هولندية «تفاحة الصين»","he":"על שם סין · הולנדית \"התפוח מסין\"","sw":"kwa jina la Uchina · Kiholanzi \"tufaha kutoka Uchina\""},
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. Played by word_journey.js; checked
+  // by tools/word_journey_check.js. naranj starts from three points because the hub
+  // language, Arabic نارنج, has no cell here (the map's Arabic is برتقال): Spanish,
+  // Italian and Old French each took it from Arabic. Gujarati નારંગી is left out: it
+  // inherits Sanskrit through Prakrit, a stage with no row (fact-check 2026-11-23).
+  // Left out: Classical Persian نارنج (Wiktionary has that form back from Arabic,
+  // only نارنگ from Sanskrit), Portuguese laranja (from Arabic via Old
+  // Galician-Portuguese, not mapped), Armenian (via Persian), Korean 오렌지 (English
+  // or Japanese), Catalan taronja (a different Arabic word, تُرُنْج 'citron').
+  // portakal starts at Ottoman پرتقال. Left out because Wiktionary gives two donors:
+  // Greek πορτοκάλι (Italian or Ottoman), Arabic برتقال (Ottoman or Greek),
+  // Bulgarian and Macedonian (Greek and/or Ottoman), and so Romanian and Amharic
+  // after them; Turkmen (from Classical Persian, whose cell here is نارنج).
+  journey: {
+    naranj: {
+      steps: [
+        [["osp", "es"], ["it", "hu"], ["it", "pl"], ["fro", "fr"], ["fro", "enm"]],
+        [["es", "tl"], ["fr", "de"], ["enm", "en"]],
+        [["en", "ja"], ["en", "ms"], ["en", "ta"], ["en", "ml"], ["en", "cy"]],
+      ],
+      sources: [
+        { title: "Wiktionary: naranja (Spanish) — inherits Old Spanish naranja, from Arabic nāranj", url: "https://en.wiktionary.org/wiki/naranja#Spanish" },
+        { title: "Wiktionary: narancs (Hungarian) — from Old Italian narancia", url: "https://en.wiktionary.org/wiki/narancs#Hungarian" },
+        { title: "Wiktionary: pomarańcza (Polish) — from Italian pomarancia (USJP)", url: "https://en.wiktionary.org/wiki/pomara%C5%84cza#Polish" },
+        { title: "Wiktionary: orange (French) — inherits Old French orenge", url: "https://en.wiktionary.org/wiki/orange#French" },
+        { title: "Wiktionary: orange (English) — Middle English orenge, from Old French pome orenge (Etymonline)", url: "https://en.wiktionary.org/wiki/orange#English" },
+        { title: "Wiktionary: orenge (Middle English) — from (Middle) French orange", url: "https://en.wiktionary.org/wiki/orenge#Middle_English" },
+        { title: "Wiktionary: dalandan (Tagalog) — from Spanish naranjal 'orange grove'", url: "https://en.wiktionary.org/wiki/dalandan#Tagalog" },
+        { title: "Wiktionary: Orange (German) — from French orange (EWDdS)", url: "https://en.wiktionary.org/wiki/Orange#German" },
+        { title: "Wiktionary: オレンジ (Japanese) — from English orange", url: "https://en.wiktionary.org/wiki/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8#Japanese" },
+        { title: "Wiktionary: oren (Malay) — from English orange", url: "https://en.wiktionary.org/wiki/oren#Malay" },
+        { title: "Wiktionary: ஆரஞ்சு (Tamil) — from English orange", url: "https://en.wiktionary.org/wiki/%E0%AE%86%E0%AE%B0%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AF%81#Tamil" },
+        { title: "Wiktionary: ഓറഞ്ച് (Malayalam) — from English orange", url: "https://en.wiktionary.org/wiki/%E0%B4%93%E0%B4%B1%E0%B4%9E%E0%B5%8D%E0%B4%9A%E0%B5%8D#Malayalam" },
+        { title: "Wiktionary: oren (Welsh) — from English orange", url: "https://en.wiktionary.org/wiki/oren#Welsh" },
+      ],
+    },
+    portakal: {
+      steps: [
+        [["ota", "tr"], ["ota", "fa"], ["ota", "ka"], ["ota", "az"], ["ota", "sq"], ["ota", "lad"], ["ota", "lzz"], ["ota", "gag"]],
+        [["tr", "ku"], ["tr", "ckb"]],
+      ],
+      sources: [
+        { title: "Wiktionary: پورتقال (Ottoman Turkish) — from Italian portogallo", url: "https://en.wiktionary.org/wiki/%D9%BE%D9%88%D8%B1%D8%AA%D9%82%D8%A7%D9%84#Ottoman_Turkish" },
+        { title: "Wiktionary: portakal (Turkish) — inherits Ottoman Turkish portakal", url: "https://en.wiktionary.org/wiki/portakal#Turkish" },
+        { title: "Wiktionary: پرتقال (Persian) — from Ottoman Turkish portokal", url: "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AA%D9%82%D8%A7%D9%84#Persian" },
+        { title: "Wiktionary: ფორთოხალი (Georgian) — from Ottoman Turkish portokal", url: "https://en.wiktionary.org/wiki/%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%97%E1%83%9D%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98#Georgian" },
+        { title: "Wiktionary: portağal (Azerbaijani) — from Ottoman Turkish portakal", url: "https://en.wiktionary.org/wiki/porta%C4%9Fal#Azerbaijani" },
+        { title: "Wiktionary: portokall (Albanian) — from Ottoman Turkish portokal (the -l- forms from Greek)", url: "https://en.wiktionary.org/wiki/portokall#Albanian" },
+        { title: "Wiktionary: portokal (Ladino) — from Ottoman Turkish portokal", url: "https://en.wiktionary.org/wiki/portokal#Ladino" },
+        { title: "Wiktionary: ფოტუკალი (Laz) — from Ottoman Turkish portokal", url: "https://en.wiktionary.org/wiki/%E1%83%A4%E1%83%9D%E1%83%A2%E1%83%A3%E1%83%99%E1%83%90%E1%83%9A%E1%83%98#Laz" },
+        { title: "Wiktionary: portokal (Gagauz) — from Ottoman Turkish portakal", url: "https://en.wiktionary.org/wiki/portokal#Gagauz" },
+        { title: "Wiktionary: pirteqal (Northern Kurdish) — from Turkish portakal", url: "https://en.wiktionary.org/wiki/pirteqal#Northern_Kurdish" },
+        { title: "Wiktionary: پرتەقاڵ (Central Kurdish) — from Turkish portakal", url: "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AA%DB%95%D9%82%D8%A7%DA%B5#Central_Kurdish" },
+      ],
+    },
+  },
   data: {
     kos: ["muh", "mʌ"],
     mra: ["pleʔ chat", "pleʔ tʃat"],

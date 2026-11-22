@@ -932,6 +932,72 @@ WORDS.sugar = {
     guda: { color: "#0d9488", emoji: "🌴", en: "guḍa — jaggery, gone southeast", ja: "guḍa・粗糖が東南へ", ko: "guḍa — 조당이 동남쪽으로", zh: "guḍa — 粗糖，向东南而去", yue: "guḍa — 粗糖，向東南而去", vi: "guḍa — đường thô, đi về đông nam", th: "guḍa — น้ำตาลดิบ ที่ไปทางตะวันออกเฉียงใต้", id: "guḍa — gula merah, menuju tenggara", hi: "गुड — दक्षिण-पूर्व की ओर गया", de: "guḍa — Rohzucker, nach Südosten", fr: "guḍa — le sucre brut, parti vers le sud-est", it: "guḍa — zucchero grezzo, verso sud-est", es: "guḍa — azúcar sin refinar, hacia el sudeste", pt: "guḍa — açúcar mascavo, rumo a sudeste", ru: "guḍa — тростниковый сахар, ушедший на юго-восток", uk: "guḍa — тростинний цукор, що пішов на південний схід", ar: "guḍa — السكر الخام، اتجه جنوب شرقًا", he: "guḍa — סוכר גולמי, שהלך דרום-מזרחה", sw: "guḍa — sukari ghafi, iliyoelekea kusini-mashariki" },
     other: { color: "#6b7280", emoji: "🌾", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it (Sanskrit cites EWAia/CDIAL,
+  // Ancient Greek Beekes, Old French FEW, Hungarian Zaicz, Turkish Nişanyan; the
+  // rest are unreferenced entries). Played by word_journey.js; checked by
+  // tools/word_journey_check.js.
+  // śarkarā has two starting points because Middle Persian šakar came from
+  // Gandhari Prakrit, which is not on the map: Sanskrit → Pali → Greek is one
+  // strand, Middle Persian → Arabic/Persian the other. Left out on purpose:
+  // Dutch suiker (through Middle Dutch), Swedish socker, Danish sukker and
+  // Finnish sokeri (through Middle Low German), Polish cukier (through Old
+  // Polish) and Lithuanian cukrus (from Polish) — none of those go-betweens has
+  // a cell; Modern Greek ζάχαρη (through Medieval Greek σάκχαρις, not σάκχαρ);
+  // Basque azukre ("probably" from Occitan).
+  // as-sukkar starts at Old Spanish açúcar: its donor, Andalusian Arabic
+  // sukkar, has no row. Portuguese açúcar is a second start for the same
+  // reason (it inherits Old Galician-Portuguese açúcar, from Andalusian Arabic);
+  // Galician azucre likewise has no mapped donor.
+  journey: {
+    sharkara: {
+      steps: [
+        [["sa", "pi"], ["pal", "ar"], ["pal", "fa"]],
+        [["pi", "el_koi"], ["ar", "it"], ["ar", "ca"], ["ar", "sw"], ["fa", "ota"], ["fa", "uz"]],
+        [["el_koi", "la"], ["el_koi", "orv"], ["it", "fro"], ["it", "gmh"], ["ota", "tr"], ["ota", "sq"]],
+        [["orv", "ru"], ["fro", "enm"], ["fro", "fr"], ["gmh", "de"]],
+        [["enm", "en"], ["de", "hu"], ["de", "cs"]],
+      ],
+      sources: [
+        { title: "Wiktionary: sakkharā (Pali) — inherits Sanskrit शर्करा śárkarā 'grit, gravel' (EWAia, CDIAL on the Sanskrit)", url: "https://en.wiktionary.org/wiki/sakkhar%C4%81#Pali" },
+        { title: "Wiktionary: سكر (Arabic) — sukkar, borrowed from Middle Persian šakar", url: "https://en.wiktionary.org/wiki/%D8%B3%D9%83%D8%B1#Arabic" },
+        { title: "Wiktionary: شکر (Persian) — inherits Middle Persian šakar, from Gandhari Prakrit, from Sanskrit śárkarā", url: "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1#Persian" },
+        { title: "Wiktionary: σάκχαρ (Ancient Greek) — borrowed from Pali sakkharā (Beekes)", url: "https://en.wiktionary.org/wiki/%CF%83%CE%AC%CE%BA%CF%87%CE%B1%CF%81#Ancient_Greek" },
+        { title: "Wiktionary: zucchero (Italian) — borrowed from Arabic سُكَّر sukkar", url: "https://en.wiktionary.org/wiki/zucchero#Italian" },
+        { title: "Wiktionary: sucre (Catalan) — borrowed from Arabic سُكَّر sukkar", url: "https://en.wiktionary.org/wiki/sucre#Catalan" },
+        { title: "Wiktionary: sukari (Swahili) — borrowed from Arabic سُكَّر sukkar", url: "https://en.wiktionary.org/wiki/sukari#Swahili" },
+        { title: "Wiktionary: şeker (Turkish) — inherits Ottoman Turkish شكر, from Classical Persian شکر šakar (Nişanyan)", url: "https://en.wiktionary.org/wiki/%C5%9Feker#Turkish" },
+        { title: "Wiktionary: shakar (Uzbek) — borrowed from Classical Persian شکر šakar", url: "https://en.wiktionary.org/wiki/shakar#Uzbek" },
+        { title: "Wiktionary: saccharon (Latin) — borrowed from Ancient Greek σάκχαρ; saccharum is its alteration", url: "https://en.wiktionary.org/wiki/saccharon#Latin" },
+        { title: "Wiktionary: сахар (Russian) — inherits Old East Slavic сахаръ, borrowed from Greek σάκχαρ", url: "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D1%85%D0%B0%D1%80#Russian" },
+        { title: "Wiktionary: çucre (Old French) — borrowed from Old Italian zucchero or another vernacular of Italy (FEW)", url: "https://en.wiktionary.org/wiki/%C3%A7ucre#Old_French" },
+        { title: "Wiktionary: zucker (Middle High German) — from Italian zucchero, possibly through Late Old High German zuckar", url: "https://en.wiktionary.org/wiki/zucker#Middle_High_German" },
+        { title: "Wiktionary: sheqer (Albanian) — borrowed from Ottoman Turkish شكر şeker", url: "https://en.wiktionary.org/wiki/sheqer#Albanian" },
+        { title: "Wiktionary: sugre (Middle English) — borrowed from Old French çucre", url: "https://en.wiktionary.org/wiki/sugre#Middle_English" },
+        { title: "Wiktionary: sucre (French) — inherits Middle French sucre, from Old French çucre", url: "https://en.wiktionary.org/wiki/sucre#French" },
+        { title: "Wiktionary: Zucker (German) — inherits Middle High German zucker", url: "https://en.wiktionary.org/wiki/Zucker#German" },
+        { title: "Wiktionary: sugar (English) — inherits Middle English sugre (OED)", url: "https://en.wiktionary.org/wiki/sugar#English" },
+        { title: "Wiktionary: cukor (Hungarian) — borrowed from German Zucker (Zaicz 2006)", url: "https://en.wiktionary.org/wiki/cukor#Hungarian" },
+        { title: "Wiktionary: cukr (Czech) — borrowed from German Zucker", url: "https://en.wiktionary.org/wiki/cukr#Czech" },
+      ],
+    },
+    assukkar: {
+      steps: [
+        [["osp", "es"], ["pt", "kea"], ["pt", "kgp"]],
+        [["es", "tl"], ["es", "ceb"], ["es", "ilo"], ["es", "ch"], ["es", "gn"], ["es", "qu"], ["es", "yua"]],
+      ],
+      sources: [
+        { title: "Wiktionary: azúcar (Spanish) — inherits Old Spanish açúcar, from Andalusian Arabic sukkar; Descendants list Quechua asukar and Yucatec Maya asukaar", url: "https://en.wiktionary.org/wiki/az%C3%BAcar#Spanish" },
+        { title: "Wiktionary: sukra (Kabuverdianu) — inherits Portuguese açúcar", url: "https://en.wiktionary.org/wiki/sukra#Kabuverdianu" },
+        { title: "Wiktionary: asuka (Kaingang) — borrowed from Portuguese açúcar", url: "https://en.wiktionary.org/wiki/asuka#Kaingang" },
+        { title: "Wiktionary: asukal (Tagalog) — borrowed from Spanish azúcar", url: "https://en.wiktionary.org/wiki/asukal#Tagalog" },
+        { title: "Wiktionary: asukar (Cebuano) — borrowed from Spanish azúcar", url: "https://en.wiktionary.org/wiki/asukar#Cebuano" },
+        { title: "Wiktionary: asukar (Ilocano) — borrowed from Spanish azúcar", url: "https://en.wiktionary.org/wiki/asukar#Ilocano" },
+        { title: "Wiktionary: asukat (Chamorro) — borrowed from Spanish azúcar", url: "https://en.wiktionary.org/wiki/asukat#Chamorro" },
+        { title: "Wiktionary: asuka (Paraguayan Guarani) — borrowed from Spanish azúcar", url: "https://en.wiktionary.org/wiki/asuka#Paraguayan_Guarani" },
+      ],
+    },
+  },
   data: {
     crx: ["soogah", "soːɡah"],
     mev: ["síìkèlè", "si˥i˩ke˩le˩"],

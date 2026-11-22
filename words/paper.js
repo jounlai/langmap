@@ -760,6 +760,41 @@ WORDS.paper = {
     plain: {"color":"#94a3b8","emoji":"📝","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. Played by word_journey.js; checked
+  // by tools/word_journey_check.js. It starts at Sogdian: the Chinese 紙 behind it is
+  // only a "perhaps", so no arrow comes from Chinese. Persian is drawn at the Classical
+  // Persian row, the donor most entries name. Uzbek and Uyghur came through Chagatai,
+  // which has no row; Tamil through Prakrit; Moroccan Arabic through Arabic, which is
+  // on another route here. Marathi (Persian or Sanskrit) and Kyrgyz and Bashkir (only
+  // "from" Persian) are left out.
+  journey: {
+    kaghaz: {
+      steps: [
+        [["sog", "fa_clas"]],
+        [["fa_clas", "ota"], ["fa_clas", "hi"], ["fa_clas", "ur"], ["fa_clas", "bn"], ["fa_clas", "pa"], ["fa_clas", "as"], ["fa_clas", "te"], ["fa_clas", "kn"], ["fa_clas", "tg"], ["fa_clas", "ka"], ["fa_clas", "tk"], ["fa_clas", "tt"], ["fa_clas", "kk"]],
+        [["ota", "tr"], ["hi", "ne"]],
+      ],
+      sources: [
+        { title: "Wiktionary: کاغذ (Persian) — borrowed from Sogdian kāγaδā, perhaps from Old Chinese 紙", url: "https://en.wiktionary.org/wiki/%DA%A9%D8%A7%D8%BA%D8%B0#Persian" },
+        { title: "Wiktionary: كاغد (Ottoman Turkish) — borrowed from Classical Persian kâġaz, itself from Sogdian", url: "https://en.wiktionary.org/wiki/%D9%83%D8%A7%D8%BA%D8%AF#Ottoman_Turkish" },
+        { title: "Wiktionary: kâğıt (Turkish) — inherits Ottoman Turkish كاغد (Redhouse)", url: "https://en.wiktionary.org/wiki/k%C3%A2%C4%9F%C4%B1t#Turkish" },
+        { title: "Wiktionary: काग़ज़ (Hindi) — borrowed from Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%97%E0%A4%BC%E0%A4%9C%E0%A4%BC#Hindi" },
+        { title: "Wiktionary: کاغذ (Urdu) — borrowed from Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%DA%A9%D8%A7%D8%BA%D8%B0#Urdu" },
+        { title: "Wiktionary: কাগজ (Bengali) — borrowed from Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%97%E0%A6%9C#Bengali" },
+        { title: "Wiktionary: ਕਾਗ਼ਜ਼ (Punjabi) — borrowed from Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%E0%A8%95%E0%A8%BE%E0%A8%97%E0%A8%BC%E0%A8%9C%E0%A8%BC#Punjabi" },
+        { title: "Wiktionary: কাগজ (Assamese) — borrowed from Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%97%E0%A6%9C#Assamese" },
+        { title: "Wiktionary: కాగితము (Telugu) — borrowed from Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%E0%B0%95%E0%B0%BE%E0%B0%97%E0%B0%BF%E0%B0%A4%E0%B0%AE%E0%B1%81#Telugu" },
+        { title: "Wiktionary: ಕಾಗದ (Kannada) — borrowed from Classical Persian kāġad", url: "https://en.wiktionary.org/wiki/%E0%B2%95%E0%B2%BE%E0%B2%97%E0%B2%A6#Kannada" },
+        { title: "Wiktionary: коғаз (Tajik) — inherits Classical Persian kāġaz", url: "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D2%93%D0%B0%D0%B7#Tajik" },
+        { title: "Wiktionary: ქაღალდი (Georgian) — borrowed from Persian kâġaz, itself from Sogdian", url: "https://en.wiktionary.org/wiki/%E1%83%A5%E1%83%90%E1%83%A6%E1%83%90%E1%83%9A%E1%83%93%E1%83%98#Georgian" },
+        { title: "Wiktionary: kagyz (Turkmen) — borrowed from Persian kâġaz", url: "https://en.wiktionary.org/wiki/kagyz#Turkmen" },
+        { title: "Wiktionary: кәгазь (Tatar) — borrowed from Persian kâġaz", url: "https://en.wiktionary.org/wiki/%D0%BA%D3%99%D0%B3%D0%B0%D0%B7%D1%8C#Tatar" },
+        { title: "Wiktionary: қағаз (Kazakh) — borrowed from Persian kâġaz, from Sogdian", url: "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D2%93%D0%B0%D0%B7#Kazakh" },
+        { title: "Wiktionary: कागज (Nepali) — borrowed from Hindi काग़ज़", url: "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%97%E0%A4%9C#Nepali" },
+      ],
+    },
+  },
   data: {
     aa: ["warkát", "warkat"],
     ab: ["ақьаад", "akʲaːd"],  // Route by resemblance to the neighbouring forms (tr,kk); no etymology of its own.

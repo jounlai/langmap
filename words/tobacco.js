@@ -633,6 +633,36 @@ WORDS.tobacco = {
     plain: {"color":"#94a3b8","emoji":"📅","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. Played by word_journey.js; checked
+  // by tools/word_journey_check.js. It starts from Spanish tabaco: the Taíno (or
+  // Arabic) word behind it has no row here, and Wiktionary leaves that origin open.
+  // Left out: German Tabak (from Spanish "in part through French", two donors), and
+  // so Tok Pisin tabak after it; Italian tabacco (no etymology given); Korean 담배
+  // (Wiktionary says only "ultimately" from Japanese).
+  journey: {
+    tabaco: {
+      steps: [
+        [["es", "pt"], ["es", "fr"], ["es", "en"], ["es", "nl"], ["es", "ar"], ["es", "tl"], ["es", "da"]],
+        [["pt", "ja"], ["fr", "ru"], ["fr", "ga"], ["en", "cy"], ["en", "haw"]],
+      ],
+      sources: [
+        { title: "Wiktionary: tabaco (Spanish) — said to be from Taíno tabago or Arabic ṭubbāq", url: "https://en.wiktionary.org/wiki/tabaco#Spanish" },
+        { title: "Wiktionary: tabaco (Portuguese) — from Spanish tabaco", url: "https://en.wiktionary.org/wiki/tabaco#Portuguese" },
+        { title: "Wiktionary: tabac (French) — from Spanish tabaco", url: "https://en.wiktionary.org/wiki/tabac#French" },
+        { title: "Wiktionary: tobacco (English) — from Spanish tabaco, attested 1588", url: "https://en.wiktionary.org/wiki/tobacco#English" },
+        { title: "Wiktionary: tabak (Dutch) — from Spanish tabaco", url: "https://en.wiktionary.org/wiki/tabak#Dutch" },
+        { title: "Wiktionary: تبغ (Arabic) — from Spanish tabaco", url: "https://en.wiktionary.org/wiki/%D8%AA%D8%A8%D8%BA#Arabic" },
+        { title: "Wiktionary: tabako (Tagalog) — from Spanish tabaco", url: "https://en.wiktionary.org/wiki/tabako#Tagalog" },
+        { title: "Wiktionary: tobak (Danish) — from Spanish tabaco", url: "https://en.wiktionary.org/wiki/tobak#Danish" },
+        { title: "Wiktionary: タバコ (Japanese) — from Portuguese tabaco", url: "https://en.wiktionary.org/wiki/%E3%82%BF%E3%83%90%E3%82%B3#Japanese" },
+        { title: "Wiktionary: табак (Russian) — from French tabac", url: "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B1%D0%B0%D0%BA#Russian" },
+        { title: "Wiktionary: tobac (Irish) — from French tabac", url: "https://en.wiktionary.org/wiki/tobac#Irish" },
+        { title: "Wiktionary: tybaco (Welsh) — from English tobacco", url: "https://en.wiktionary.org/wiki/tybaco#Welsh" },
+        { title: "Wiktionary: paka (Hawaiian, etymology 4) — from English tobacco", url: "https://en.wiktionary.org/wiki/paka#Hawaiian" },
+      ],
+    },
+  },
   data: {
     ab: ["аҭаҭын", "atʼatʼən"],
     ace: ["bakông", "bakoŋ"],

@@ -13,13 +13,13 @@
     'use strict';
     const BASE = '/ipa_synth/';
     const STR = {
-        en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, in a language panel or in the comparison table, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
+        en: { tour: 'Play the main readings', stopTour: 'Stop', open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, in a language panel or in the comparison table, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
               note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay', spec: 'Left: loudness by pitch band. Right: spectrogram 0-5 kHz (bands are formants), pitch in red, sounds below.' },
-        ja: { open: '発音', close: '閉じる', hintHover: '地図・言語の詳細・言語比較の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
+        ja: { tour: '主な読みを順に再生', stopTour: '停止', open: '発音', close: '閉じる', hintHover: '地図・言語の詳細・言語比較の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
               note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度', spec: '左：周波数ごとの強さ。右：スペクトログラム 0〜5 kHz（横の帯がフォルマント）、赤線は声の高さ、下は音の並び。' },
-        ko: { open: '발음', close: '닫기', hintHover: '지도, 언어 정보, 언어 비교의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
+        ko: { tour: '주요 독음 차례로 재생', stopTour: '정지', open: '발음', close: '닫기', hintHover: '지도, 언어 정보, 언어 비교의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
               note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기', spec: '왼쪽: 주파수별 세기. 오른쪽: 스펙트로그램 0~5 kHz(가로 띠가 포먼트), 빨간 선은 음높이, 아래는 소리 순서.' },
-        zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图、语言详情或语言比较中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
+        zh: { tour: '依次播放主要读音', stopTour: '停止', open: '发音', close: '关闭', hintHover: '将鼠标移到地图、语言详情或语言比较中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
               note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播', spec: '左：各频段的强度。右：语谱图 0–5 kHz（横带为共振峰），红线为音高，下方为音段。' },
     };
     const lang = () => {
@@ -29,6 +29,7 @@
     const T = k => (STR[lang()] || STR.en)[k] || STR.en[k];
     const canHover = () => window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches;
 
+    let touring = 0;   // id of the running tour (0 = none)
     let open = false, loaded = null, AC = null, src = null, plan = null, startAt = 0, raf = 0, hoverTimer = 0, lastEl = null;
     let panel, canvas, specCv, spec = null, elWord, elIpa, elName, elHint, btn, voiceSel;
 
@@ -112,7 +113,7 @@
         panel.className = 'speak-panel'; panel.hidden = true; panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'false');
         panel.innerHTML = '<div class="sp-head"><span class="sp-title"></span><button type="button" class="sp-close">×</button></div>'
             + '<div class="sp-body"><canvas width="128" height="160" aria-hidden="true"></canvas><div class="sp-text"><div class="sp-word" dir="auto"></div><div class="sp-ipa" dir="ltr"></div><div class="sp-name"></div>'
-            + '<div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button></div></div></div>'
+            + '<div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button><button type="button" class="sp-tour" hidden></button></div></div></div>'
             + '<canvas class="sp-spec" role="img" hidden></canvas>'
             + '<div class="sp-hint"></div>'
             + '<div class="sp-note"></div>';
@@ -135,6 +136,9 @@
         if (window.__lmOverlay) window.__lmOverlay('speak', { el: panel, attrs: ['hidden'],
             isOpen: () => !panel.hidden, close: () => { if (open) close(); }, open: () => { if (!open) show(); } });
         panel.querySelector('.sp-replay').addEventListener('click', () => { if (lastEl) say(lastEl); });
+        // "Play the main readings": a page that sets window.__speakTour (the Han Map) gets a button
+        // that reads a fixed list of label elements one after another (see tour() below).
+        panel.querySelector('.sp-tour').addEventListener('click', () => (touring ? endTour() : tour()));
         for (const x of [elWord, elIpa]) x.addEventListener('click', () => { if (lastEl) say(lastEl); });   // the panel's own word replays
         // One Escape, one layer (the rule on every page): a language panel, picker or dialog
         // opened over this panel owns the newer history entry and takes the key alone. One
@@ -198,6 +202,10 @@
         panel.querySelector('.sp-title').textContent = T('open');
         panel.querySelector('.sp-close').setAttribute('aria-label', T('close'));
         panel.querySelector('.sp-replay').textContent = '▶ ' + T('replay');
+        const tb = panel.querySelector('.sp-tour');
+        tb.hidden = typeof window.__speakTour !== 'function';
+        tb.textContent = touring ? '■ ' + T('stopTour') : '▶▶ ' + T('tour');
+        tb.setAttribute('aria-pressed', String(!!touring));
         voiceSel.options[0].textContent = T('female'); voiceSel.options[1].textContent = T('male'); voiceSel.options[2].textContent = T('child');
         const locked = AC == null || AC.state === 'suspended';
         elHint.textContent = (open && locked && canHover() ? T('unlock') + ' ' : '') + (canHover() ? T('hintHover') : T('hintTap'));
@@ -255,7 +263,7 @@
         const had = panel.contains(document.activeElement);   // closed from its own ×, select or Escape
         open = false; window.__speakOpen = false; panel.hidden = true; btn.setAttribute('aria-pressed', 'false');
         syncUrl();
-        stop(); mark(null);
+        endTour(); stop(); mark(null);
         if (had && btn.getClientRects().length) btn.focus();   // not lost to <body>
     }
     function stop() { if (src) { try { src.stop(); } catch (_) {} src = null; } cancelAnimationFrame(raf); }
@@ -389,10 +397,10 @@
         elIpa.textContent = ipa && ipa !== '—' ? ipa : '';
         elName.textContent = nameOf(el);
         mark(el);
-        if (!ipa || ipa === '—') { elIpa.textContent = T('none'); stop(); spec = null; drawSpec(null); return; }
-        load().then(() => {
-            if (lastEl !== el || !open) return;
-            if (!window.IPASynth || !window.VocalTract) return;
+        if (!ipa || ipa === '—') { elIpa.textContent = T('none'); stop(); spec = null; drawSpec(null); return Promise.resolve(0); }
+        return load().then(() => {
+            if (lastEl !== el || !open) return 0;
+            if (!window.IPASynth || !window.VocalTract) return 0;
             stop();
             const S = window.IPASynth;
             const code = el.getAttribute('data-code') || (el.closest('[data-code]') && el.closest('[data-code]').getAttribute('data-code')) || '';
@@ -423,8 +431,52 @@
                 if (!end || spec.lev.some(v => v > .01)) raf = requestAnimationFrame(loop);
             };
             cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);
-        }).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; elHint.hidden = false; specCv.hidden = true; });
+            return plan.T;   // ms, so a tour knows when the word is over
+        }).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; elHint.hidden = false; specCv.hidden = true; return 0; });
     }
+
+    // Read the page's list in turn: each element is a map label (or a detached copy of one,
+    // when the label is thinned out at this zoom). The page may pass {el, before(el)} items to
+    // pan to the label first. Pointing at another word, closing the panel or pressing Stop ends it.
+    async function tour() {
+        const list = (typeof window.__speakTour === 'function' && window.__speakTour()) || [];
+        if (!list.length) return;
+        const me = touring = Date.now();
+        relabel();
+        try { if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)(); if (AC.state !== 'running') AC.resume().catch(() => {}); } catch (_) {}
+        for (const item of list) {
+            if (touring !== me || !open) break;
+            const el = item.el || item;
+            if (item.before) { try { item.before(el); } catch (_) {} }
+            const ms = await say(el);
+            if (touring !== me || lastEl !== el) break;
+            await new Promise(r => setTimeout(r, (ms || 0) + 650));
+            if (touring !== me || lastEl !== el) break;
+        }
+        if (touring === me) { touring = 0; relabel(); }
+    }
+    function endTour() { if (!touring) return; touring = 0; if (panel) relabel(); }
+
+    // For a page's own controls (Langle's clue words): synthesize one IPA string without the
+    // panel. Call it from a click so the audio context may start. Resolves with the length in ms.
+    window.__speakIpa = function (ipa, code) {
+        ipa = String(ipa || '').trim();
+        if (!ipa || ipa === '—') return Promise.resolve(0);
+        try { if (!AC || AC.state === 'closed') AC = new (window.AudioContext || window.webkitAudioContext)(); if (AC.state !== 'running') AC.resume().catch(() => {}); } catch (_) { return Promise.resolve(0); }
+        return load().then(() => {
+            if (!window.IPASynth) return 0;
+            stop();
+            let voice = 'female'; try { voice = localStorage.getItem('lm_speak_voice') || 'female'; } catch (_) {}
+            const p = window.IPASynth.plan(ipa, { lang: code || '' });
+            const out = window.IPASynth.render(p, { voice });
+            const buf = AC.createBuffer(1, out.samples.length, out.fs);
+            buf.getChannelData(0).set(out.samples);
+            src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination);
+            const me = src; src.onended = () => { if (src === me) src = null; };
+            src.start(AC.currentTime + .02);
+            return p.T;
+        }).catch(() => 0);
+    };
 
     function boot() {
         build();

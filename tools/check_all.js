@@ -811,6 +811,11 @@ line('a shared form that is a claim', num(s, /violations: (\d+)/));
 
 s = run('route_coverage_check.js --check');
 line('route colouring complete', num(s, /violations: (\d+)/));
+// The word-journey arrows (word_journey.js): every arrow between mapped languages
+// that hold a cell for the word, on the journey's own route, chained from the
+// origin, one donor per language, and a source for the set. An arrow is a claim.
+s = run('word_journey_check.js --check');
+line('word journeys sourced and on the map', num(s, /violations: (\d+)/));
 
 // A reconstruction published as an attested word. pyx held eleven of these,
 // five of them LangMap's own p_sit forms with the * and prefix filed off, all

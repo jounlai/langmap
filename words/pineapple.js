@@ -519,6 +519,38 @@ WORDS.pineapple = {
     other: {"color":"#7c3aed","emoji":"✨","en":"another image","ja":"ほかの見立て","ko":"다른 비유","zh":"其他意象","yue":"其他意象","vi":"hình ảnh khác","th":"ภาพอื่น","id":"citra lain","hi":"कोई और बिंब","de":"ein anderes Bild","fr":"une autre image","it":"un'altra immagine","es":"otra imagen","pt":"outra imagem","ru":"другой образ","uk":"інший образ","ar":"صورة أخرى","he":"דימוי אחר","sw":"taswira nyingine"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. The origin is Old Tupi naná, shown
+  // at the map's Tupinambá (tpn) cell. Much of Europe is left out on purpose: French
+  // ananas is from Spanish ananás, which the map does not show (Spain says piña), and
+  // Dutch (Spanish or Portuguese), German (French or Dutch) and Russian (German or
+  // French) each have two donors in the sources, so Malay and Indonesian nanas, which
+  // go through Dutch, cannot be reached either. Spanish ananá is shown at Argentina.
+  journey: {
+    nanas: {
+      steps: [
+        [["tpn", "pt"], ["tpn", "yrl"]],
+        [["pt", "sv"], ["pt", "it"], ["pt", "sw"], ["pt", "cs"], ["pt", "bg"], ["pt", "bn"], ["pt", "ta"], ["pt", "hi"], ["pt", "el"], ["pt", "es_ar"], ["pt", "tet"]],
+        [["it", "sq"]],
+      ],
+      sources: [
+        { title: "Wiktionary: ananás (Portuguese) — from Old Tupi naná, ananá (Houaiss)", url: "https://en.wiktionary.org/wiki/anan%C3%A1s#Portuguese" },
+        { title: "Wiktionary: naná (Nheengatu) — inherits Old Tupi naná", url: "https://en.wiktionary.org/wiki/nan%C3%A1#Nheengatu" },
+        { title: "Wiktionary: ananas (Swedish) — from Portuguese ananás, attested 1754", url: "https://en.wiktionary.org/wiki/ananas#Swedish" },
+        { title: "Wiktionary: ananas (Italian) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/ananas#Italian" },
+        { title: "Wiktionary: nanasi (Swahili) — from Portuguese ananás (Baldi 2023)", url: "https://en.wiktionary.org/wiki/nanasi#Swahili" },
+        { title: "Wiktionary: ananas (Czech) — from Portuguese ananás (Rejzek 2015)", url: "https://en.wiktionary.org/wiki/ananas#Czech" },
+        { title: "Wiktionary: ананас (Bulgarian) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/%D0%B0%D0%BD%D0%B0%D0%BD%D0%B0%D1%81#Bulgarian" },
+        { title: "Wiktionary: আনারস (Bengali) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/%E0%A6%86%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%B8#Bengali" },
+        { title: "Wiktionary: அன்னாசி (Tamil) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/%E0%AE%85%E0%AE%A9%E0%AF%8D%E0%AE%A9%E0%AE%BE%E0%AE%9A%E0%AE%BF#Tamil" },
+        { title: "Wiktionary: अनानास (Hindi) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%A8%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B8#Hindi" },
+        { title: "Wiktionary: ανανάς (Greek) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/%CE%B1%CE%BD%CE%B1%CE%BD%CE%AC%CF%82#Greek" },
+        { title: "Wiktionary: ananá (Spanish) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/anan%C3%A1#Spanish" },
+        { title: "Wiktionary: ananás (Tetum) — from Portuguese ananás", url: "https://en.wiktionary.org/wiki/anan%C3%A1s#Tetum" },
+        { title: "Wiktionary: ananas (Albanian) — from Italian ananas", url: "https://en.wiktionary.org/wiki/ananas#Albanian" },
+      ],
+    },
+  },
   data: {
     en: ["pineapple", "ˈpaɪnæpəl"],  // Middle English pinappel meant "pine cone"; the name passed to the fruit because it looks like one.
     zh: ["菠萝", "pwo˥ lwo˧˥"],  // Clipped from 菠萝蜜, a Buddhist word (paramita) that also names the jackfruit.

@@ -619,6 +619,43 @@ WORDS.cotton = {
     other: {"color":"#7c3aed","emoji":"✨","en":"another name (棉花, 綿)","ja":"ほかの名 (棉花, 綿)","ko":"다른 이름 (棉花, 綿)","zh":"其他名称 (棉花, 綿)","yue":"其他名 (棉花, 綿)","vi":"tên khác (棉花, 綿)","th":"ชื่ออื่น (棉花, 綿)","id":"nama lain (棉花, 綿)","hi":"कोई और नाम (棉花, 綿)","de":"ein anderer Name (棉花, 綿)","fr":"un autre nom (棉花, 綿)","it":"un altro nome (棉花, 綿)","es":"otro nombre (棉花, 綿)","pt":"outro nome (棉花, 綿)","ru":"другое название (棉花, 綿)","uk":"інша назва (棉花, 綿)","ar":"اسم آخر (棉花, 綿)","he":"שם אחר (棉花, 綿)","sw":"jina jingine (棉花, 綿)"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
+  // The journey: which language each listed language took the word from, step by
+  // step, as the Wiktionary etymologies give it. Played by word_journey.js; checked
+  // by tools/word_journey_check.js. Spanish, Portuguese and Catalan took the word
+  // from Andalusian Arabic quṭun, which has no row of its own, so their arrows start
+  // at Arabic. Dutch katoen came through Middle Dutch catoen, English through Middle
+  // English coton. German Kattun and Russian хлопок are not on this route. Sicilian
+  // cuttuni and Esperanto kotono are left out: their entries say only "from" or
+  // "ultimately from" Arabic, without the step between.
+  journey: {
+    qutn: {
+      steps: [
+        [["ar", "it"], ["ar", "osp"], ["ar", "pt"], ["ar", "ca"], ["ar", "he"], ["ar", "mt"]],
+        [["it", "fro"], ["osp", "es"]],
+        [["fro", "fr"], ["fro", "enm"], ["fro", "nl"], ["es", "eu"], ["es", "hil"]],
+        [["enm", "en"], ["enm", "cy"], ["fr", "ht"], ["fr", "mfe"]],
+        [["en", "zu"]],
+      ],
+      sources: [
+        { title: "Wiktionary: cotone (Italian) — borrowed from Arabic quṭun", url: "https://en.wiktionary.org/wiki/cotone#Italian" },
+        { title: "Wiktionary: algodon (Old Spanish) — borrowed from Andalusian Arabic quṭun, from Arabic quṭun; Spanish algodón inherits it", url: "https://en.wiktionary.org/wiki/algodon#Old_Spanish" },
+        { title: "Wiktionary: algodão (Portuguese) — borrowed from Andalusian Arabic quṭun", url: "https://en.wiktionary.org/wiki/algod%C3%A3o#Portuguese" },
+        { title: "Wiktionary: cotó (Catalan) — borrowed from Andalusian Arabic quṭun, from Arabic quṭun", url: "https://en.wiktionary.org/wiki/cot%C3%B3#Catalan" },
+        { title: "Wiktionary: כותנה (Hebrew) — borrowed from Arabic quṭn", url: "https://en.wiktionary.org/wiki/%D7%9B%D7%95%D7%AA%D7%A0%D7%94#Hebrew" },
+        { title: "Wiktionary: qoton (Maltese) — inherits Arabic quṭn", url: "https://en.wiktionary.org/wiki/qoton#Maltese" },
+        { title: "Wiktionary: cotoun (Old French) — borrowed from Italian cotone", url: "https://en.wiktionary.org/wiki/cotoun#Old_French" },
+        { title: "Wiktionary: coton (French) — inherits Old French coton", url: "https://en.wiktionary.org/wiki/coton#French" },
+        { title: "Wiktionary: coton (Middle English) — borrowed from Old French cotoun; English cotton inherits it", url: "https://en.wiktionary.org/wiki/coton#Middle_English" },
+        { title: "Wiktionary: katoen (Dutch) — inherits Middle Dutch catoen, from Old French coton", url: "https://en.wiktionary.org/wiki/katoen#Dutch" },
+        { title: "Wiktionary: algodoi (Basque) — borrowed from Spanish algodón", url: "https://en.wiktionary.org/wiki/algodoi#Basque" },
+        { title: "Wiktionary: algodon (Hiligaynon) — borrowed from Spanish algodón", url: "https://en.wiktionary.org/wiki/algodon#Hiligaynon" },
+        { title: "Wiktionary: cotwm (Welsh) — borrowed from Middle English coton", url: "https://en.wiktionary.org/wiki/cotwm#Welsh" },
+        { title: "Wiktionary: koton (Haitian Creole) — from French coton", url: "https://en.wiktionary.org/wiki/koton#Haitian_Creole" },
+        { title: "Wiktionary: koton (Mauritian Creole) — from French coton", url: "https://en.wiktionary.org/wiki/koton#Mauritian_Creole" },
+        { title: "Wiktionary: ukotini (Zulu) — borrowed from English cotton", url: "https://en.wiktionary.org/wiki/ukotini#Zulu" },
+      ],
+    },
+  },
   data: {
     aa: ["tuut", "tuːt"],
     acw: ["قطن", "ɡutˤun"],  // From Arabic qutn.

@@ -1461,8 +1461,22 @@
         .tea-legend { display: flex; flex-direction: column; max-height: min(55vh, calc(100dvh - 160px)); }
         .tea-legend-title { flex: none; }
         .tea-legend-rows {
-            min-height: 0; overflow-y: auto; overscroll-behavior: contain;
-            pointer-events: auto; scrollbar-width: thin;
+            min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain;
+            pointer-events: auto;
+            /* Vertical only (owner 2026-11-24): long labels wrap instead of
+               widening the panel, so no horizontal bar appears. */
+            padding-inline-end: 4px;
+            scrollbar-width: thin; scrollbar-color: rgba(0,0,0,0.28) transparent;
+        }
+        .tea-legend-rows .tea-legend-row { white-space: normal; overflow-wrap: anywhere; line-height: 1.35; padding-top: 2px; padding-bottom: 2px; }
+        .tea-legend-rows::-webkit-scrollbar { width: 6px; height: 0; }
+        .tea-legend-rows::-webkit-scrollbar-track { background: transparent; }
+        .tea-legend-rows::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 3px; }
+        .tea-legend-rows::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+        @media (prefers-color-scheme: dark) {
+            .tea-legend-rows { scrollbar-color: rgba(255,255,255,0.3) transparent; }
+            .tea-legend-rows::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.28); }
+            .tea-legend-rows::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.45); }
         }
         /* Phones: keep at most ~40% of the map covered, and wrap long route
            labels instead of cutting them at the panel edge. */
@@ -4039,7 +4053,7 @@
     </script>
     <script src="wordmap_data.js?v=370"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="word_manifest.js?v=1804"></script>
+    <script src="word_manifest.js?v=1805"></script>
     <script src="word_labels.js?v=155"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -4068,7 +4082,7 @@
             meta:     477,
             trivia:   126,
             triviaI18n: 158,
-            words:      1804,
+            words:      1805,
             langWords:    1433,
             labels:      155,
             metaI18nCoverage: 16,

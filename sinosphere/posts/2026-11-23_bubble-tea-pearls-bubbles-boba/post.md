@@ -11,10 +11,6 @@ lead:
   - And in America, it became "boba," a word with a cheeky history, a Hong Kong actress, and an English word hidden inside.
 map_label: '"Bubble tea" around the world'
 map_url: https://langmaps.com/wordmap.html#w=bubbletea
-sources:
-  - "Wiktionary, boba and 波霸 (Hong Kong Cantonese: large tapioca pearls; slang for a busty woman), and bubble tea (phono-semantic match for boba tea)"
-  - "Wikipedia, Bubble tea (Amy Yip nickname; 泡沫紅茶; the 2019 Taiwanese court ruling; タピる)"
-  - "LangMap Word Map article: Bubble tea: pearls, bubbles and boba"
 ---
 
 ## A drink with three names

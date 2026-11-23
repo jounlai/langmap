@@ -13,10 +13,6 @@ lead:
   - The organ itself is a word that half the world also uses for "language".
 map_label: '"Tongue" across the world'
 map_url: https://langmaps.com/wordmap.html#w=tongue
-sources:
-  - "Wiktionary, 脷 (etymology and glyph origin), accessed 2026"
-  - "CUHK 粵語審音配詞字庫, 舌: sit6 (黃, 周, 李, 何), sit3 as a variant (范); https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=舌"
-  - "words.hk, 舌頭 sit3 tau4 (written language), 'same as 脷'"
 ---
 
 ## 舌 everywhere, except one place

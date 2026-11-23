@@ -91,8 +91,6 @@ map_url: https://langmaps.com/hanmap.html#w=西  # 必ず https://langmaps.com/ 
 series: "I Know the Characters. But Not That Meaning."   # 連載のみ
 part: 1                                                  # 連載のみ
 description: "..."        # 任意。省略時は lead の1本目が meta description になる
-sources:                  # 任意だが推奨。辞書・論文・公式資料など
-  - "Sun Mu, *Jilin Leishi* 鷄林類事 (c. 1103)"
 ---
 ```
 
@@ -102,7 +100,9 @@ sources:                  # 任意だが推奨。辞書・論文・公式資料�
 - 旧ドメイン `langmap.heuron.com` は使わない。
 - **YAML の引用**: `: `（コロン＋空白）や `#` を含む値は必ず `"…"` で囲む。囲まないと lead の1行が
   辞書として読まれる（check がエラーにする）。
-- `sources:` には書誌のほか素の URL も書ける（自動でリンクになる）。他人の画像を使ったときのクレジットもここ。
+- **出典欄は付けない**（FB 投稿と同じく、記事に出典リストは載せない。`sources:` は check がエラーにする）。
+  事実確認は公開前に行い（§4）、他人の画像を使ったときだけ本文末尾に
+  `*Image: [作者](URL)*` の1行でクレジットする。
 
 ### 3.2 タグ（この一覧から選ぶ。2〜6個）
 
@@ -197,7 +197,6 @@ LangMap 本体の記事ガイド（`docs/trivia-writing-guide.md`）の「三つ
   確かでないことは「何が・どの程度」確かでないかを具体的に書く（ぼかした hedge は不可）。
 - **声**: FB 投稿の語り口（短い段落、問いかけ、最後の一行）は残してよい。ただし誇張語
   （remarkable, extraordinary, the most …）は事実で裏付けられる時だけ。
-- 外部記事・SNS 投稿を下敷きにしたときは `sources:` に挙げる。
 
 ---
 

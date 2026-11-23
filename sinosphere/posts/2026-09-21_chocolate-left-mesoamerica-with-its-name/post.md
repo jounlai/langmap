@@ -13,9 +13,6 @@ lead:
   - Korea ended up with two standard forms, and Vietnam took the word from French.
 map_label: '"Chocolate" across the world'
 map_url: https://langmaps.com/wordmap.html#w=chocolate
-sources:
-  - "\"Chocolate\" and \"History of chocolate\", Wikipedia, accessed 2026"
-  - "Wiktionary, 巧克力 and 朱古力, accessed 2026"
 ---
 
 ## Almost one word

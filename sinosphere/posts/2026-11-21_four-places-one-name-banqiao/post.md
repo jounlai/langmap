@@ -12,8 +12,6 @@ lead:
   - All four names tell stories of wooden bridges. But are they really just coincidences?
 map_label: '"木", the wood inside 板 and 橋'
 map_url: https://langmaps.com/hanmap.html#w=木
-sources:
-  - "Map of stations named 板橋 by @elpwc (hero image): https://x.com/elpwc/status/2047295692507656665"
 ---
 
 ## Four places, one name
@@ -147,3 +145,5 @@ And perhaps that is what makes place names so fascinating.
 **A bridge can disappear. A name can cross centuries.**
 
 What other ordinary place names across East Asia might hide extraordinary stories?
+
+*Image: [@elpwc on X](https://x.com/elpwc/status/2047295692507656665)*

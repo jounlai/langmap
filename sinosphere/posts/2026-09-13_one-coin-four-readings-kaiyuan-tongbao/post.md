@@ -13,10 +13,6 @@ lead:
   - Chinese, Japanese, Korean and Vietnamese read the same four characters in four different ways.
 map_label: "One Coin, Four Readings on the Han Map"
 map_url: https://langmaps.com/hanmap.html#trivia=tang-empire-multilingual-coins
-sources:
-  - "Peng Xinwei, *A Monetary History of China* 中国货币史 (Shanghai People's Press, 1965)"
-  - "Edward Schafer, *The Golden Peaches of Samarkand* (University of California Press, 1963)"
-  - "Nara National Museum, Kaiyuan Tongbao 開元通宝 excavated at the 霊安寺 pagoda site, Nara Prefecture"
 ---
 
 ## A coin that crossed civilizations

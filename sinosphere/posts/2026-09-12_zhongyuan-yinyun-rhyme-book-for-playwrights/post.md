@@ -13,10 +13,6 @@ lead:
   - It shows the old entering tone, the syllables ending in -p, -t and -k, spread over the other three tones, at least in song.
 map_label: "Zhōngyuán Yīnyùn on the Han Map"
 map_url: https://langmaps.com/hanmap.html#trivia=ducai-yuan-zhongyuan-yinyun
-sources:
-  - "Zhou Deqing, *Zhongyuan Yinyun* 中原音韻 (1324)"
-  - "Jerry Norman, *Chinese* (Cambridge University Press, 1988)"
-  - "William H. Baxter & Laurent Sagart, Old Chinese reconstruction v1.1 (2014), Middle Chinese notation"
 ---
 
 ## A handbook for songwriters

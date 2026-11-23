@@ -14,8 +14,6 @@ map_label: '"99" across Asia'
 map_url: https://langmaps.com/wordmap.html#w=n99
 series: "The Secret Life of 99"
 part: 1
-sources:
-  - "Sun Mu, *Jilin leishi* 鷄林類事 (early 12th century)"
 ---
 
 ## Nine, Ten, Nine. What Could Be Simpler?

@@ -1454,6 +1454,22 @@
             cursor: pointer; pointer-events: auto;
         }
         .tea-legend.collapsed .tea-legend-title { margin-bottom: 0; }
+        /* A legend with 30+ routes (water, tree) grew upward past the header and
+           took its own title — the only close button — off screen (owner
+           2026-11-24). Cap the height and scroll the rows, so the title is
+           always visible and the legend never covers more than ~half the map. */
+        .tea-legend { display: flex; flex-direction: column; max-height: min(55vh, calc(100dvh - 160px)); }
+        .tea-legend-title { flex: none; }
+        .tea-legend-rows {
+            min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+            pointer-events: auto; scrollbar-width: thin;
+        }
+        /* Phones: keep at most ~40% of the map covered, and wrap long route
+           labels instead of cutting them at the panel edge. */
+        @media (max-width: 600px) {
+            .tea-legend { max-height: 40vh; max-width: 82vw; }
+            .tea-legend-row { white-space: normal; line-height: 1.35; padding-top: 2px; padding-bottom: 2px; }
+        }
         .tea-legend-title:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 2px; border-radius: 3px; }
         .tea-legend .tl-chev {
             margin-inline-start: auto; width: 7px; height: 7px; flex: none;
@@ -6718,7 +6734,7 @@
             // eight-row legend covers a lot of a phone map (owner 2026-10-25).
             // Open by default — the colours mean nothing without it — and the
             // reader's choice carries over to the next route word.
-            const open = routeLegendOpen();
+            const open = routeLegendOpen(Object.keys(W.routes).length);
             el.innerHTML = `<button type="button" class="tea-legend-title" aria-expanded="${open}">`
                          + `<span>${escapeHtml(title)}</span><span class="tl-chev" aria-hidden="true"></span></button>`
                          + `<div class="tea-legend-rows"${open ? '' : ' hidden'}>${rows}${journeyButtons(W, base)}</div>`;
@@ -6739,8 +6755,16 @@
                      + `<span>${escapeHtml(play)}</span></button>`;
             }).join('');
         }
-        function routeLegendOpen() {
-            try { return localStorage.getItem('wm-route-legend') !== 'closed'; } catch (_) { return true; }
+        // The reader's own open/closed choice wins. Without one, a long legend
+        // (water and tree have 30+ routes) starts closed on a phone, where open
+        // it would cover the map (owner 2026-11-24).
+        function routeLegendOpen(nRoutes) {
+            try {
+                const v = localStorage.getItem('wm-route-legend');
+                if (v) return v !== 'closed';
+            } catch (_) {}
+            const narrow = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
+            return !(narrow && nRoutes > 12);
         }
 
         // Clicking a legend row blinks every marker in that route twice, so the

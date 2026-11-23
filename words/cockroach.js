@@ -111,7 +111,7 @@ WORDS.cockroach = {
     ja_kyo: "oil",
     ko: "plain",
     zh: "plain",
-    yue: "plain",
+    yue: "tsua",
     nan: "tsua",
     zh_tw: "plain",
     hak_cn: "tsua",

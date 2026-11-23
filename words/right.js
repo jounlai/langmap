@@ -232,7 +232,7 @@ WORDS.right = {
     itb: "wanan",
     ivv: "wanan",
     abs: "wanan",
-    sas: "wanan",
+    sas: "plain",
     ljp: "wanan",
     mhy: "wanan",
     sda: "wanan",

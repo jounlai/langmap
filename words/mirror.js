@@ -631,7 +631,7 @@ WORDS.mirror = {
     luo: "plain",
     mas: "glass",
     rw: "look",
-    tll: "look",
+    tll: "plain",
     tum: "glass",
     wal: "plain",
     xed: "plain",

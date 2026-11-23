@@ -745,6 +745,17 @@
             font-size: 18px; margin: 0 0 12px; color: #1a1a2e; font-weight: 700;
             padding-inline-end: 28px;  /* clear of the close button */
         }
+        /* Link to the current word's server-rendered big-text page,
+           /{ui}/word/{id} (owner 2026-11-23: 「地図のどっかに、でか文字版SEOページへの
+           リンクが欲しい」). It sits in the word modal's head and at the foot of
+           the definition panel, not in the word row, whose width is tied to the
+           language row so the two dice line up. */
+        .word-seo-link { display: inline-block; font-size: 12px; font-weight: 600; color: #3f5fe0; text-decoration: none; }
+        .word-seo-link:hover, .word-seo-link:focus-visible { text-decoration: underline; }
+        #word-modal #word-modal-seo { margin: -6px 0 10px; }
+        #word-definition .word-seo-link { margin-top: 6px; }
+        body.is-3d #word-definition .word-seo-link { color: #8ab4f8; }
+        @media (prefers-color-scheme: dark) { html[data-theme="dark"] .word-seo-link { color: #8ab4f8; } }
         #word-modal #word-modal-body {
             flex: 1 1 auto; min-height: 0;
             overflow-y: auto; overscroll-behavior: contain;
@@ -3442,6 +3453,7 @@
                 style="position:absolute;top:10px;inset-inline-end:14px;background:none;border:none;font-size:24px;color:#888;cursor:pointer;line-height:1;padding:4px 8px;z-index:1">&times;</button>
         <div id="word-modal-head">
             <h2 id="word-modal-title">Select a word</h2>
+            <a id="word-modal-seo" class="word-seo-link" href="/en/word/"></a>
         </div>
         <div id="word-modal-body"></div>
     </div>
@@ -4011,8 +4023,8 @@
     </script>
     <script src="wordmap_data.js?v=370"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="word_manifest.js?v=1783"></script>
-    <script src="word_labels.js?v=154"></script>
+    <script src="word_manifest.js?v=1787"></script>
+    <script src="word_labels.js?v=155"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
            loader below, and not beside assetUrl() where it used to live.
@@ -4040,9 +4052,9 @@
             meta:     477,
             trivia:   126,
             triviaI18n: 158,
-            words:      1783,
-            langWords:    1423,
-            labels:      154,
+            words:      1787,
+            langWords:    1427,
+            labels:      155,
             metaI18nCoverage: 16,
             metaI18nCoverage2: 6,
             metaI18nCoverage3: 17,
@@ -5595,7 +5607,32 @@
         // Audit Task 95/128: visible concept definition under the word
         // selector. Localized en/ja/ko/zh with English fallback marked
         // (reuses Task 121 fallback-label pattern).
-        function updateWordDefinition() {
+        // The current word's big-text page, /{ui}/word/{id}; same UI mapping
+        // as nav-short.js (zh_HK reads the Cantonese page).
+        const WORD_SEO_LABEL = {en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'};
+        function wordSeoLink() {
+            const id = select && select.value;
+            if (!id || !/^[a-z0-9_]+$/.test(id)) return null;
+            const l = String(typeof uiLang === 'string' ? uiLang : 'en').toLowerCase();
+            const b = l === 'zh_hk' ? 'yue' : l.split('_')[0];
+            const ui = WORD_SEO_LABEL[b] ? b : 'en';
+            const w = WORD_LIST.find(x => x.id === id);
+            const name = w ? (typeof w.label === 'object' ? (w.label[uiLang] || w.label[b] || w.label.en) : w.label) : id;
+            return { href: '/' + ui + '/word/' + id, text: '📄 ' + (name ? name + ' — ' : '') + WORD_SEO_LABEL[ui] + ' →' };
+        }
+        function placeWordSeoLinks() {
+            const L = wordSeoLink();
+            const m = document.getElementById('word-modal-seo');
+            if (m) { if (L) { m.href = L.href; m.textContent = L.text; m.hidden = false; } else m.hidden = true; }
+            const wd = document.getElementById('word-definition');
+            if (wd && L && wd.textContent.trim()) {
+                const a = document.createElement('a');
+                a.className = 'word-seo-link'; a.href = L.href; a.textContent = L.text;
+                const d = document.createElement('div'); d.appendChild(a); wd.appendChild(d);
+            }
+        }
+        function updateWordDefinition() { updateWordDefinitionBody(); placeWordSeoLinks(); }
+        function updateWordDefinitionBody() {
             const wd = document.getElementById('word-definition');
             if (!wd) return;
             const w = WORD_LIST.find(x => x.id === select.value);

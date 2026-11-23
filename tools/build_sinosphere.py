@@ -7,6 +7,7 @@ rendered to static HTML.
     python3 tools/build_sinosphere.py import <fb_export_dir>   # bring in new posts as drafts
     python3 tools/build_sinosphere.py build                    # write sinosphere/*.html, feed, sitemap block
     python3 tools/build_sinosphere.py check                    # lint sources + "is the build up to date?"
+    python3 tools/build_sinosphere.py fb <slug>                # Facebook-ready text (no sources), printed
 
 SOURCE OF TRUTH: sinosphere/posts/<YYYY-MM-DD>_<slug>/post.md (+ its images).
 GENERATED (never edit by hand): sinosphere/index.html, sinosphere/<slug>.html,
@@ -792,12 +793,52 @@ def cmd_import(src):
     print(f'imported {added} new post(s) as drafts into sinosphere/posts/')
 
 
+# ---------------------------------------------------------------- Facebook text
+
+def fb_text(post):
+    """The post in the owner's Facebook format: # title, three bullets, the
+    teaser line, the body, the map call-to-action. No sources list, no images
+    (they are uploaded with the post); image lines become [imageN.jpg] markers
+    so the owner can see where each one sat."""
+    out = [f'# {post["title"]}']
+    out += [f'* {x}' for x in post['lead']]
+    out += ['', '👇Here is the longer story.', '']
+    lines = post['_body'].strip('\n').split('\n')
+    for i, line in enumerate(lines):
+        m = re.match(r'^!\[[^\]]*\]\(([^)\s]+)', line.strip())
+        if m:
+            out.append(f'[{m.group(1)}]')
+            continue
+        # quote blocks: a hard break (trailing backslash) after every line but the last,
+        # the way the owner's drafts write them
+        if line.startswith('>') and line.strip() != '>':
+            nxt = lines[i + 1] if i + 1 < len(lines) else ''
+            if nxt.startswith('>') and nxt.strip() != '>':
+                line = line.rstrip() + '\\'
+        out.append(line)
+    if post.get('map_url'):
+        out += ['', f'🗺️ **Explore on LangMap: {post["map_label"]}**', '', post['map_url']]
+    return '\n'.join(out).rstrip() + '\n'
+
+
+def cmd_fb(key):
+    posts = load_posts(include_drafts=True)
+    hit = [p for p in posts if key in (p.get('slug'), p['_folder']) or os.path.abspath(key) in (p['_dir'], p['_path'])]
+    if not hit:
+        hit = [p for p in posts if key in p['_folder']]
+    if len(hit) != 1:
+        raise SystemExit(f'{len(hit)} posts match "{key}"' + ('' if not hit else ': ' + ', '.join(p['slug'] for p in hit)))
+    sys.stdout.write(fb_text(hit[0]))
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'build'
     if cmd == 'build':
         cmd_build()
     elif cmd == 'check':
         sys.exit(cmd_check())
+    elif cmd == 'fb' and len(sys.argv) > 2:
+        cmd_fb(sys.argv[2])
     elif cmd == 'import' and len(sys.argv) > 2:
         cmd_import(sys.argv[2])
     else:

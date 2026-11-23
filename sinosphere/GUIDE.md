@@ -66,6 +66,19 @@ URL は `https://langmaps.com/sinosphere/<slug>.html`。slug は公開後に変�
 
 6. **コミット。** `sinosphere/` 一式と `sitemap.xml` をまとめてコミットする。
 
+### サイト版から FB 用テキストを作る
+
+```bash
+python3 tools/build_sinosphere.py fb <slug>        # 画面に出力
+python3 tools/build_sinosphere.py fb <slug> > /mnt/c/Users/jounl/Downloads/<slug>_fb.md
+```
+
+- FB 投稿の形に戻す: `# タイトル` → 要約3行 → `👇Here is the longer story.` → 本文 → `🗺️` 地図リンク。
+- **出典欄は出力しない**（サイト版にだけ残す）。
+- 画像は出力しない。本文中の画像の位置に `[image2.jpg]` の目印が入るので、FB で画像を添付する。
+- 例ブロック `>` の行末には改行用の `\` が付く（これまでの FB 原稿と同じ形）。
+- 先に FB に投稿した場合は、投稿 URL を front matter の `fb:` に入れて build し直す。
+
 ---
 
 ## 3. 記事の形式

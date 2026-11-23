@@ -63,6 +63,7 @@ WORDS.booger = {
   },
   family: {
     de_lu: "plain",
+    lb: "plain",
     hsn_hy: "nosedung",
     en_wls: "goblin",
     en_ph: "goblin",
@@ -77,16 +78,20 @@ WORDS.booger = {
     wuu: "nosedung",
     hak_cn: "nosedung",
     vi: "crust",
+    vi_c: "nosedung",
+    vi_s: "nosedung",
     id: "plain",
     ms: "nosedung",
     en: "goblin",
     de: "plain",
     fr: "nosedung",
+    pcd: "plain",
     it: "nosedung",
     pt: "creature",
     pt_br: "plain",
     ru: "creature",
     tl: "plain",
+    lo: "plain",
     fi: "plain",
     hu: "plain",
     nl: "nosedung",
@@ -102,6 +107,8 @@ WORDS.booger = {
     ilo: "plain",
     pa: "plain",
     en_aave: "goblin",
+    sco: "plain",
+    gsw: "goblin",
     ca: "plain",
     be: "creature",
     cs: "creature",
@@ -123,19 +130,26 @@ WORDS.booger = {
     fr_af: "nosedung",
     fr_be: "nosedung",
     fr_ch: "nosedung",
+    ja_chu: "nosedung",
     cjy: "crust",
     hsn: "nosedung",
     gan: "nosedung",
+    hil: "plain",
     cbk: "plain",
+    mk: "plain",
     ady: "plain",
     bik: "plain",
     mnp: "nosedung",
     nan_te: "nosedung",
     yue_ts: "nosedung",
     cnp: "nosedung",
+    shn: "plain",
     mag: "plain",
+    max: "nosedung",
     kaw: "plain",
     yai: "plain",
+    ko_hg: "crust",
+    ko_jl: "crust",
     nan_pn: "nosedung",
     nan_ph: "nosedung",
     wuu_nb: "nosedung",
@@ -163,6 +177,7 @@ WORDS.booger = {
   },
   data: {
     de_lu: ["Popel", "ˈpoːpl̩"],  // Colloquial word of uncertain origin.
+    lb: ["Koz", "koːts"],  // The Luxembourgish dictionary LOD (entry KOZ1) gives it as Popel / crotte de nez / bogey; IPA from LOD.
     hsn_hy: ["鼻筒屎", "pi˩˩˨ təŋ˩˩˨ sɿ˧˧"],  // 鼻筒 'nose' + 屎 'excrement', the Hengyang word.
     en_wls: ["bogey", "ˈboːɡi"],  // From bogey 'goblin, bogeyman'.
     en_ph: ["booger", "ˈbʊɡɚ"],  // Alteration of dialectal buggard/boggart, akin to bogey; labelled US, Canada, Philippines.
@@ -177,16 +192,20 @@ WORDS.booger = {
     wuu: ["鼻屙", "biɪʔ˩˩ u˨˧"],  // 鼻 'nose' + 屙 'excrement', the Shanghai word.
     hak_cn: ["鼻屎", "pʰi˥˧ sɨ˧˩"],  // 鼻 'nose' + 屎 'excrement', a compound recorded in the dictionary.
     vi: ["gỉ mũi", "zi˧˩˧ muj˧ˀ˥"],  // gỉ 'crust' + mũi 'nose', compound recorded in the dictionary.
+    vi_c: ["cứt mũi", "kɨk˧˦ mui˧˩˨"],  // cứt 'dung' + mũi 'nose'. Wiktionary labels gỉ (mũi) Northern and gives cứt mũi as its synonym under the solid-mucus sense of booger; VDict: 'booger; dried snot'. No Huế dialect dictionary was reachable online.
+    vi_s: ["cứt mũi", "kɨk˧˥ mui˨˩˦"],  // cứt 'dung' + mũi 'nose'. Wiktionary labels gỉ (mũi) Northern and gives cứt mũi as its synonym under the solid-mucus sense of booger; VDict: 'booger; dried snot'. No Southern dialect dictionary was reachable online.
     id: ["upil", "ˈupil"],  // Borrowed from Javanese upil.
     ms: ["tahi hidung", "ˈtahi ˈhiduŋ"],  // tahi 'excrement' + hidung 'nose', a compound recorded in the dictionary.
     en: ["bogey", "ˈbəʊɡi"],  // From bogey 'goblin, bogeyman'.
     de: ["Popel", "ˈpoːpl̩"],  // Colloquial word of uncertain origin.
     fr: ["crotte de nez", "kʁɔt də ne"],  // crotte 'dropping' + de + nez 'nose', a set phrase recorded in dictionaries.
+    pcd: ["guil", "ɡil"],  // French Wiktionary defines it as 'crotte de nez', citing the Freelang dictionary.
     it: ["caccola", "ˈkakkola"],  // Derived from cacca 'poo'.
     pt: ["macaco", "mɐˈkaku"],  // macaco 'monkey', used colloquially for a booger.
     pt_br: ["meleca", "meˈlɛkɐ"],  // Brazilian colloquial word of uncertain origin.
     ru: ["козявка", "kɐˈzʲafkə"],  // Diminutive derivative of коза 'goat'.
     tl: ["kulangot", "kuˈlaŋot"],  // Native Tagalog word.
+    lo: ["ຂີ້ມູກ", "kʰiː˧˩ muːk˥˨"],  // Kerr's Lao-English Dictionary (1972) defines it as dried nasal discharge, apart from ນ້ຳມູກ and ຂີ້ດັງ, snot.
     fi: ["räkäpaakku", "ˈrækæpɑːkːu"],  // räkä 'snot' + paakku 'lump', a compound recorded in the dictionary.
     hu: ["fika", "ˈfikɒ"],  // Colloquial word of uncertain origin.
     nl: ["neuskeutel", "ˈnøːskøːtəl"],  // neus 'nose' + keutel 'dropping', a compound recorded in the dictionary.
@@ -202,6 +221,8 @@ WORDS.booger = {
     ilo: ["duggong", "duɡˈɡoŋ"],  // Native Ilocano word for dried nasal mucus.
     pa: ["ਜਿੱਜੀ", "dʒɪdʒːiː"],  // Native Punjabi word for dried nasal mucus.
     en_aave: ["booger", "ˈbʊɡɚ"],  // Alteration of dialectal buggard/boggart; US/Canada word.
+    sco: ["boakie", "ˈbokɪ"],  // Dictionaries of the Scots Language, BOAKIE: 'the hardened discharge from the nostrils' (Banffshire, Aberdeenshire); Ayrshire has bowsey.
+    gsw: ["Böögg", "bøːk"],  // Wiktionary (Alemannic German): 'booger, bogey'; also the bogeyman figure, like English bogey.
     ca: ["burilla", "buˈɾiʎə"],  // Slang extension of burilla 'cigarette butt'.
     be: ["казя́ўка", "kaˈzʲawka"],  // From каза "goat", diminutive; cf. Russian козявка.
     cs: ["holub", "ˈɦolup"],  // Colloquial sense of holub "pigeon".
@@ -223,19 +244,26 @@ WORDS.booger = {
     fr_af: ["crotte de nez", "kʁɔt də ne"],  // crotte "dropping" + de nez "of nose", a set phrase recorded in the dictionary.
     fr_be: ["crotte de nez", "kʁɔt də ne"],  // crotte "dropping" + de nez "of nose", a set phrase recorded in the dictionary.
     fr_ch: ["crotte de nez", "kʁɔt də ne"],  // crotte "dropping" + de nez "of nose", a set phrase recorded in the dictionary.
+    ja_chu: ["鼻糞", "ɸanakuso"],  // 鼻 'nose' + 糞 'dung'; 日本国語大辞典 はなくそ ①, first cited in the 羅葡日辞書 (1595).
     cjy: ["鼻涕痂痂", "pəʔ˥˦ tʰi˦˥ tɕia˩ tɕia˩"],  // 鼻涕 runny nose + 痂痂 scab, the Taiyuan word in the dictionary.
     hsn: ["鼻屎痂", "pi˨˦ ʂʅ˦˩ ka˧˧"],  // nose 鼻 + dung 屎 + scab 痂, the Changsha word in the dictionary.
     gan: ["鼻屎", "pʰit˨ sɿ˨˩˧"],  // nose + dung, the Nanchang Gan form listed in the dictionary.
+    hil: ["púng-it", "ˈpuŋʔit"],  // Kaufmann's Visayan-English Dictionary: 'dry mucus adhering to the nostrils'.
     cbk: ["kugáng", "kuˈɡaŋ"],  // Zamboanga word glossed 'dried nasal mucus; booger'.
+    mk: ["цуфка", "ˈtsufka"],  // Wiktionary: colloquial, childish 'booger'.
     ady: ["пэцуй", "patʃʷəj"],  // nose пэ + a second element; recorded as a single dictionary word.
     bik: ["tungay", "tuˈŋaj"],  // Naga-area word glossed 'dried nasal mucus; booger'; Legazpi-area synonym luknog.
     mnp: ["鼻屎", "pʰi˥˥ si˦˨"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
     nan_te: ["鼻屎", "pʰĩ˩˩ sai˥˨"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
     yue_ts: ["鼻屎", "pei˧˨ si˥˥"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
     cnp: ["鼻涕屎", "pɐt˨ tʰɐi˥˥ ʃi˧˧"],  // nose-snot + dung, the Nanning (Tingzi) Pinghua word (first of 鼻涕屎, 鼻子屎); 鼻 white reading pɐt8b
+    shn: ["ၶီႈမုၵ်ႈႁႅင်ႈ", "kʰiː˧˨ muk˧˨ hɛŋ˧˨"],  // ၶီႈမုၵ်ႈ 'nasal mucus' + ႁႅင်ႈ; the term the English-Shan Pocket Dictionary (Pannasiri Saipon 2009) gives for booger, cited by Shan Wiktionary.
     mag: ["नकटी", "nəkʈiː"],  // Derived from नाक 'nose'.
+    max: ["tai idong", "tai idoŋ"],  // tai 'dung' + idong 'nose'; Wiktionary's entry tai (citing Litamahuputty 2012) glosses tai idong 'booger'.
     kaw: ["ꦈꦥꦶꦭ꧀", "upil"],  // Native word, continued in modern Javanese and Indonesian upil.
     yai: ["qirta", "qirta"],  // Native word recorded for the Pulya Rout dialect (Cyrillic қирта).
+    ko_hg: ["콧더데", "kʰot͈ʌde"],  // 우리말샘: ‘코딱지’의 방언(함남); the row stands at Hamhŭng, South Hamgyŏng. Other forms: 코따대 (함경), 코깨지 (함북).
+    ko_jl: ["케딱쟁이", "kʰet͈ak̚tɕ͈ɛŋi"],  // 우리말샘: ‘코딱지’의 방언(전남); the row stands at Gwangju, South Jeolla. North Jeolla has 코따그렝이.
     nan_pn: ["鼻空屎", "pʰĩ˨˩ kʰaŋ˧˧ sai˦˦˥"],  // nose + nostril + dung, a compound recorded in the dictionary for Penang Hokkien.
     nan_ph: ["鼻屎膏", "pʰi˦˩ sai˥˥˦ ko˧˧"],  // nose + dung + paste, a compound recorded in the dictionary for Manila Hokkien.
     wuu_nb: ["鼻头屙", "bɐʔ˩˨ dœʏ˧˩˧ əu˥˥"],  // nose (鼻头) + excrement (屙 'excrete, dung'), the Ningbo word; 鼻 white reading bɐʔ8 (as in the row's 鼻头), 屙 əu5 glossed 大便

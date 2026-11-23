@@ -1106,7 +1106,9 @@
         if (here !== 'tree.html') maps.push(['tree.html', 'tree', CREDIT_TREE[b] || CREDIT_TREE.en, '']);
         var pages = [['/' + ui + '/', 'doc', t('n_index'), ''], ['/' + ui + '/wordmap/', 'doc', t('n_pwm'), ''],
             ['/' + ui + '/word/', 'doc', t('n_pword'), ''], ['/' + ui + '/hanmap/', 'doc', t('n_phm'), ''],
-            ['/' + ui + '/trivia/', 'book', CREDIT_TRIVIA[b] || CREDIT_TRIVIA.en, '']];
+            ['/' + ui + '/trivia/', 'book', CREDIT_TRIVIA[b] || CREDIT_TRIVIA.en, ''],
+            // The Facebook-group articles, English only, so one fixed label (2026-11-23)
+            ['/sinosphere/', 'book', 'Sinosphere 漢字文化圈', '', 1]];
         var more = [['changelog.html', 'changelog', CREDIT_ICON.changelog[b] || CREDIT_ICON.changelog.en, ''],
             ['progress.html', 'progress', CREDIT_ICON.progress[b] || CREDIT_ICON.progress.en, '']];
         return [

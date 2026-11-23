@@ -750,7 +750,7 @@ WORDS.dragon = {
     my: ["နဂါး", "nəɡá"],  // Borrowed from Pali nāga.
     id: ["naga", "ˈnaɡa"],  // From Malay naga, from Sanskrit nāga "large snake".
     ms: ["naga", "ˈnaɡa"],  // Borrowed from Sanskrit nāga "large snake".
-    tl: ["dragon", "dɾaˈɡon"],  // Borrowed from Spanish dragón.
+    tl: ["dragon", "dɾaˈɡon"],  // Borrowed from Spanish dragón; Wiktionary gives it for the generic dragon, with naga (ᜈᜄ, from Sanskrit nāga) as a literary synonym. Bakunawa is a particular creature of Visayan myth, the sea serpent that swallows the moon, and lahò (ᜎᜑᜓ) is "eclipse", with the moon-eater as an obsolete sense.
     mn: ["луу", "lʊː"],  // Borrowed via Old Turkic lü, ultimately from Chinese 龍.
     tyv: ["улу", "ulu"],  // From Old Turkic lü, ultimately from Chinese 龍.
     alt: ["улуу", "uluː"],  // From Old Turkic lü, ultimately from Chinese 龍.

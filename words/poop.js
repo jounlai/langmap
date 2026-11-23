@@ -237,7 +237,7 @@ WORDS.poop = {
     en_nz: ["poo", "pʉː"],
     en_au: ["poo", "pʉː"],
     sco: ["keech", "kiːtʃ"],
-    af: ["poep", "pup"],
+    af: ["poef", "puf"],  // Wiktionary: the Afrikaans line under English poop (feces) is poef, and af.wiktionary glosses poef as stoelgang. Afrikaans poep is the fart.
     de_at: ["Kacke", "ˈkakə"],
     yi: ["דרעק", "drɛk"],
     is: ["kúkur", "ˈkʰuːkʏr"],

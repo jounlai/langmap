@@ -82,6 +82,9 @@ WORDS.booger = {
     vi_s: "nosedung",
     id: "plain",
     ms: "nosedung",
+    hi: "creature",
+    ur: "creature",
+    ta: "nosedung",
     en: "goblin",
     de: "plain",
     fr: "nosedung",
@@ -90,6 +93,7 @@ WORDS.booger = {
     pt: "creature",
     pt_br: "plain",
     ru: "creature",
+    ar_qur: "plain",
     tl: "plain",
     lo: "plain",
     fi: "plain",
@@ -100,12 +104,15 @@ WORDS.booger = {
     sv: "creature",
     no: "goblin",
     da: "goblin",
+    ka: "plain",
     zh_sc: "nosedung",
     cdo: "nosedung",
     jv: "plain",
     ceb: "plain",
     ilo: "plain",
     pa: "plain",
+    ne: "crust",
+    mr: "plain",
     en_aave: "goblin",
     sco: "plain",
     gsw: "goblin",
@@ -113,6 +120,8 @@ WORDS.booger = {
     be: "creature",
     cs: "creature",
     et: "goblin",
+    as: "plain",
+    or: "plain",
     en_south: "goblin",
     en_app: "goblin",
     en_ie: "goblin",
@@ -138,6 +147,8 @@ WORDS.booger = {
     cbk: "plain",
     mk: "plain",
     ady: "plain",
+    new: "plain",
+    lus: "plain",
     bik: "plain",
     mnp: "nosedung",
     nan_te: "nosedung",
@@ -196,6 +207,9 @@ WORDS.booger = {
     vi_s: ["cứt mũi", "kɨk˧˥ mui˨˩˦"],  // cứt 'dung' + mũi 'nose'. Wiktionary labels gỉ (mũi) Northern and gives cứt mũi as its synonym under the solid-mucus sense of booger; VDict: 'booger; dried snot'. No Southern dialect dictionary was reachable online.
     id: ["upil", "ˈupil"],  // Borrowed from Javanese upil.
     ms: ["tahi hidung", "ˈtahi ˈhiduŋ"],  // tahi 'excrement' + hidung 'nose', a compound recorded in the dictionary.
+    hi: ["चूहा", "tʃuːɦaː"],  // 'Rat', used for the booger: McGregor's Hindi dictionary, 'colloq. dry mucus (of the nose)'; Platts agrees.
+    ur: ["چوہا", "tʃuːɦaː"],  // 'Rat', used for the booger: Platts, '(fig. & colloq.) dry mucus sticking out of the nose'.
+    ta: ["மூக்குப்பீ", "muːkːɯpːiː"],  // மூக்கு 'nose' + பீ 'dung'; Tamil Lexicon: 'dried mucus of the nose'.
     en: ["bogey", "ˈbəʊɡi"],  // From bogey 'goblin, bogeyman'.
     de: ["Popel", "ˈpoːpl̩"],  // Colloquial word of uncertain origin.
     fr: ["crotte de nez", "kʁɔt də ne"],  // crotte 'dropping' + de + nez 'nose', a set phrase recorded in dictionaries.
@@ -204,6 +218,7 @@ WORDS.booger = {
     pt: ["macaco", "mɐˈkaku"],  // macaco 'monkey', used colloquially for a booger.
     pt_br: ["meleca", "meˈlɛkɐ"],  // Brazilian colloquial word of uncertain origin.
     ru: ["козявка", "kɐˈzʲafkə"],  // Diminutive derivative of коза 'goat'.
+    ar_qur: ["نغف", "naɣaf"],  // Lisān al-ʿArab: 'what one brings out of the nose of dried mucus', distinct from moist ذنين; Lane: 'portions of dry mucus'.
     tl: ["kulangot", "kuˈlaŋot"],  // Native Tagalog word.
     lo: ["ຂີ້ມູກ", "kʰiː˧˩ muːk˥˨"],  // Kerr's Lao-English Dictionary (1972) defines it as dried nasal discharge, apart from ນ້ຳມູກ and ຂີ້ດັງ, snot.
     fi: ["räkäpaakku", "ˈrækæpɑːkːu"],  // räkä 'snot' + paakku 'lump', a compound recorded in the dictionary.
@@ -214,12 +229,15 @@ WORDS.booger = {
     sv: ["snorkråka", "ˈsnuːrˌkroːka"],  // snor 'snot' + kråka 'crow', a compound recorded in the dictionary.
     no: ["buse", "ˈbʉːsə"],  // buse 'bogeyman', used for a booger.
     da: ["bussemand", "ˈbusəmanˀ"],  // busse + mand 'man', the word for the bogeyman.
+    ka: ["კინკლი", "kʼinkʼli"],  // Wiktionary: 'dried snot', listed apart from the snot words წვინტლი and ცინგლი.
     zh_sc: ["鼻屎", "pi˨˩ sɹ̩˥˧"],  // 鼻 'nose' + 屎 'excrement'; Chengdu form in the dictionary.
     cdo: ["鼻屎", "pʰi˥˧ lai˧˧"],  // 鼻 'nose' + 屎 'excrement'; Fuzhou form with tone sandhi and initial assimilation.
     jv: ["upil", "upil"],  // Native Javanese word, shared with Indonesian upil.
     ceb: ["kugmo", "ˈkuɡmo"],  // Native Cebuano word for dried nasal mucus.
     ilo: ["duggong", "duɡˈɡoŋ"],  // Native Ilocano word for dried nasal mucus.
     pa: ["ਜਿੱਜੀ", "dʒɪdʒːiː"],  // Native Punjabi word for dried nasal mucus.
+    ne: ["पाप्रो", "paːpro"],  // Turner's Nepali dictionary: 'crust; scale, scab; dry mucus in the nose'.
+    mr: ["मेकूड", "mekuːɖ"],  // Molesworth: 'the mucus of the nose when hard and adhering, dry snot (not snivel)'.
     en_aave: ["booger", "ˈbʊɡɚ"],  // Alteration of dialectal buggard/boggart; US/Canada word.
     sco: ["boakie", "ˈbokɪ"],  // Dictionaries of the Scots Language, BOAKIE: 'the hardened discharge from the nostrils' (Banffshire, Aberdeenshire); Ayrshire has bowsey.
     gsw: ["Böögg", "bøːk"],  // Wiktionary (Alemannic German): 'booger, bogey'; also the bogeyman figure, like English bogey.
@@ -227,6 +245,8 @@ WORDS.booger = {
     be: ["казя́ўка", "kaˈzʲawka"],  // From каза "goat", diminutive; cf. Russian козявка.
     cs: ["holub", "ˈɦolup"],  // Colloquial sense of holub "pigeon".
     et: ["koll", "kolː"],  // Colloquial use of koll 'bugbear, bogeyman'.
+    as: ["খাঁকৰু", "kʰãkoɹu"],  // Candrakanta Abhidhan: 'dried mucus in the nostril'.
+    or: ["ନାକ ବକୁଳି", "naːkɔ bɔkuɭi"],  // Praharaj's Oriya dictionary: 'thin dry layers of mucus which settle and then peel off from inside the nostrils'.
     en_south: ["booger", "ˈbʊɡɚ"],  // Alteration of dialectal buggard/boggart; US/Canada word.
     en_app: ["booger", "ˈbʊɡɚ"],  // Alteration of dialectal buggard/boggart; US/Canada word.
     en_ie: ["bogey", "ˈboːɡi"],  // From bogey 'goblin'; British usage for a piece of nasal mucus.
@@ -252,6 +272,8 @@ WORDS.booger = {
     cbk: ["kugáng", "kuˈɡaŋ"],  // Zamboanga word glossed 'dried nasal mucus; booger'.
     mk: ["цуфка", "ˈtsufka"],  // Wiktionary: colloquial, childish 'booger'.
     ady: ["пэцуй", "patʃʷəj"],  // nose пэ + a second element; recorded as a single dictionary word.
+    new: ["न्हिप्वीं", "nʱipwĩː"],  // Manandhar's Newari dictionary: 'dried, caked nasal mucus'.
+    lus: ["hnap khir", "hnap kʰir"],  // hnap 'snot' + khir; Lorrain's Lushai dictionary: 'dry nose mucus'.
     bik: ["tungay", "tuˈŋaj"],  // Naga-area word glossed 'dried nasal mucus; booger'; Legazpi-area synonym luknog.
     mnp: ["鼻屎", "pʰi˥˥ si˦˨"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
     nan_te: ["鼻屎", "pʰĩ˩˩ sai˥˨"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.

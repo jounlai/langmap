@@ -121,38 +121,38 @@ WORDS.tomorrow = {
     ar_ye: "morning",
     ar: "morning",
     ar_qur: "morning",
-    he: "other",
+    he: "mahar",
     tr: "morning",
     sah: "morning",
     cv: "morning",
     tyv: "morning",
     alt: "morning",
     kjh: "morning",
-    mn: "plain",
+    mn: "margasi",
     bxr: "morning",
     gld: "morning",
     yrk: "plain",
     ja: "morning",
     ja_kyo: "morning",
     ja_oki: "morning",
-    ko: "other",
-    ko_kp: "other",
-    zh: "other",
-    zh_tw: "other",
+    ko: "naeil",
+    ko_kp: "naeil",
+    zh: "ming",
+    zh_tw: "ming",
     yue: "morning",
     nan: "morning",
     wuu: "morning",
     hak_cn: "morning",
-    hsn_hy: "other",
+    hsn_hy: "ming",
     vi: "morning",
     vi_s: "morning",
-    th: "plain",
+    th: "phruk",
     id: "morning",
     ms: "morning",
     hi: "same",
     ur: "same",
     bn: "same",
-    ta: "plain",
+    ta: "nal",
     sa: "morning",
     sa_edu: "morning",
     fa: "morning",
@@ -167,9 +167,9 @@ WORDS.tomorrow = {
     ter: "plain",
     ake: "plain",
     gun: "morning",
-    sce: "plain",
+    sce: "margasi",
     njo: "plain",
-    gon: "plain",
+    gon: "nal",
     suk: "unknown",
     rim: "unknown",
     ksb: "plain",
@@ -202,11 +202,11 @@ WORDS.tomorrow = {
     to: "morning",
     sm: "morning",
     qu: "morning",
-    zh_db: "other",
-    zh_sc: "other",
+    zh_db: "ming",
+    zh_sc: "ming",
     cdo: "morning",
-    bo: "plain",
-    khg: "plain",
+    bo: "sangnyin",
+    khg: "sangnyin",
     my: "unknown",
     km: "plain",
     lo: "other",
@@ -253,8 +253,8 @@ WORDS.tomorrow = {
     si: "plain",
     dv: "plain",
     te: "morning",
-    kn: "plain",
-    ml: "plain",
+    kn: "nal",
+    ml: "nal",
     ar_eg: "morning",
     ar_lev: "morning",
     ar_sd: "morning",
@@ -273,8 +273,8 @@ WORDS.tomorrow = {
     ha: "plain",
     wo: "plain",
     srr: "plain",
-    so: "plain",
-    om: "plain",
+    so: "beera",
+    om: "beera",
     drs: "plain",
     sn: "plain",
     hmn: "unknown",
@@ -308,7 +308,7 @@ WORDS.tomorrow = {
     is: "morning",
     gd: "morning",
     br: "plain",
-    nap: "plain",
+    nap: "cras",
     scn: "morning",
     vec: "morning",
     lij: "morning",
@@ -363,8 +363,8 @@ WORDS.tomorrow = {
     fo: "morning",
     lad: "morning",
     rm: "morning",
-    sc: "plain",
-    la: "plain",
+    sc: "cras",
+    la: "cras",
     el_grc: "morning",
     egy: "morning",
     enm: "morning",
@@ -375,38 +375,38 @@ WORDS.tomorrow = {
     pi: "morning",
     pi_edu: "morning",
     cop: "plain",
-    arc: "other",
+    arc: "mahar",
     aii: "plain",
     akk: "other",
-    nci: "plain",
-    nhx: "plain",
-    nch: "plain",
-    nhw: "plain",
-    nhe: "plain",
-    ngu: "plain",
+    nci: "mostla",
+    nhx: "mostla",
+    nch: "mostla",
+    nhw: "mostla",
+    nhe: "mostla",
+    ngu: "mostla",
     hch: "plain",
-    ppl: "plain",
+    ppl: "mostla",
     p_jpn: "morning",
     p_ryu: "morning",
-    zh_wenyan_edu: "other",
-    vi_han: "other",
+    zh_wenyan_edu: "ming",
+    vi_han: "ming",
     ja_edo: "morning",
     ja_heian: "unknown",
-    ko_mid: "other",
+    ko_mid: "naeil",
     eo: "morning",
     vo: "other",
     ia: "morning",
-    cjy: "other",
-    hsn: "other",
-    gan: "other",
+    cjy: "ming",
+    hsn: "ming",
+    gan: "ming",
     mnp: "morning",
-    nan_te: "other",
+    nan_te: "ming",
     yue_ts: "unknown",
-    czh: "other",
-    zh_jh: "other",
-    zh_tj: "other",
-    zh_lz: "other",
-    dng: "other",
+    czh: "ming",
+    zh_jh: "ming",
+    zh_tj: "ming",
+    zh_lz: "ming",
+    dng: "ming",
     hsb: "morning",
     mk: "morning",
     mai: "same",
@@ -457,7 +457,7 @@ WORDS.tomorrow = {
     anu: "plain",
     luo: "plain",
     saq: "plain",
-    aa: "plain",
+    aa: "beera",
     kok: "morning",
     ks: "unknown",
     ace: "plain",
@@ -483,7 +483,7 @@ WORDS.tomorrow = {
     kl: "plain",
     arn: "plain",
     sat: "plain",
-    bm: "plain",
+    bm: "sini",
     st: "plain",
     tn: "plain",
     ts: "plain",
@@ -523,7 +523,7 @@ WORDS.tomorrow = {
     men: "plain",
     vai: "plain",
     tem: "plain",
-    dyu: "plain",
+    dyu: "sini",
     sus: "plain",
     syl: "same",
     doi: "same",
@@ -590,7 +590,7 @@ WORDS.tomorrow = {
     tsg: "plain",
     ium: "other",
     fa_clas: "morning",
-    syc: "other",
+    syc: "mahar",
     fro: "morning",
     fr_class: "morning",
     it_dan: "morning",
@@ -598,11 +598,11 @@ WORDS.tomorrow = {
     gmh: "morning",
     de_lut: "morning",
     es_sgl: "morning",
-    osp: "plain",
+    osp: "cras",
     gez: "morning",
-    xct: "plain",
-    xct_litpr: "plain",
-    hbo: "other",
+    xct: "sangnyin",
+    xct_litpr: "sangnyin",
+    hbo: "mahar",
     sga: "morning",
     hy_grab: "morning",
     ltg: "morning",
@@ -627,7 +627,7 @@ WORDS.tomorrow = {
     tcy: "plain",
     haz: "morning",
     kaa: "morning",
-    ssy: "plain",
+    ssy: "beera",
     ewo: "plain",
     ndc: "plain",
     ote: "morning",
@@ -649,7 +649,7 @@ WORDS.tomorrow = {
     aau: "plain",
     kpf: "same",
     dru: "plain",
-    kfa: "plain",
+    kfa: "nal",
     luz: "morning",
     qxq: "morning",
     pmy: "morning",
@@ -661,23 +661,23 @@ WORDS.tomorrow = {
     orv: "morning",
     h_vedic: "morning",
     ojp: "unknown",
-    xfa: "plain",
+    xfa: "cras",
     ota: "morning",
     otk: "morning",
-    cmg: "plain",
+    cmg: "margasi",
     tpn: "plain",
-    och: "other",
-    zh_nj: "other",
-    zh_wh: "other",
-    zh_hf: "other",
-    zh_cd: "other",
-    zh_km: "other",
-    zh_jn: "other",
-    zh_xa: "other",
-    nan_ph: "other",
-    nan_qz: "other",
-    nan_xm: "other",
-    nan_zz: "other",
+    och: "ming",
+    zh_nj: "ming",
+    zh_wh: "ming",
+    zh_hf: "ming",
+    zh_cd: "ming",
+    zh_km: "ming",
+    zh_jn: "ming",
+    zh_xa: "ming",
+    nan_ph: "ming",
+    nan_qz: "ming",
+    nan_xm: "ming",
+    nan_zz: "ming",
     hak_tw: "morning",
     hak_hl: "morning",
     cpx: "unknown",
@@ -700,12 +700,12 @@ WORDS.tomorrow = {
     th_isan: "other",
     kfy: "morning",
     mwr: "morning",
-    kru: "plain",
+    kru: "nal",
     mer: "plain",
     ce: "unknown",
     sdh: "plain",
     nym: "same",
-    shn: "plain",
+    shn: "phruk",
     egl: "morning",
     li: "morning",
     sco: "morning",
@@ -733,7 +733,7 @@ WORDS.tomorrow = {
     co: "morning",
     yua: "plain",
     lbj: "plain",
-    tru: "other",
+    tru: "mahar",
     iu: "plain",
     xmf: "morning",
     lbe: "plain",
@@ -757,7 +757,7 @@ WORDS.tomorrow = {
     gha: "plain",
     auj: "morning",
     siz: "unknown",
-    zh_jiao: "other",
+    zh_jiao: "ming",
     bho: "same",
     skr: "same",
     mag: "same",
@@ -795,7 +795,7 @@ WORDS.tomorrow = {
     sgw: "plain",
     bfa: "plain",
     aja: "same",
-    blt: "plain",
+    blt: "phruk",
     tji: "plain",
     spp: "plain",
     urh: "unknown",
@@ -848,7 +848,7 @@ WORDS.tomorrow = {
     chy: "morning",
     mus: "plain",
     moh: "plain",
-    ko_jeju: "other",
+    ko_jeju: "naeil",
     evn: "plain",
     tiw: "plain",
     yur: "plain",
@@ -859,16 +859,16 @@ WORDS.tomorrow = {
     liv: "other",
     tlh: "other",
     kgg: "plain",
-    zh_tang: "other",
+    zh_tang: "ming",
     got: "unknown",
     ofs: "morning",
     ko_gor: "unknown",
     yue_zs: "morning",
     nan_hai: "morning",
-    cjy_lv: "other",
-    cnp: "other",
+    cjy_lv: "ming",
+    cnp: "ming",
     orh: "plain",
-    peh: "plain",
+    peh: "margasi",
     blr: "unknown",
     kmc: "unknown",
     mlm: "unknown",
@@ -884,8 +884,8 @@ WORDS.tomorrow = {
     pam: "plain",
     agt: "plain",
     grt: "plain",
-    th_n: "plain",
-    ja_kanbun: "other",
+    th_n: "phruk",
+    ja_kanbun: "ming",
     jup: "plain",
     crt: "morning",
     moc: "plain",
@@ -909,20 +909,20 @@ WORDS.tomorrow = {
     ude: "morning",
     ja_kg: "morning",
     ja_osa: "morning",
-    emk: "plain",
+    emk: "sini",
     osa: "plain",
-    yuy: "plain",
+    yuy: "margasi",
     mdh: "plain",
     h_tagalog: "plain",
-    zh_han: "other",
-    ja_chu: "other",
+    zh_han: "ming",
+    ja_chu: "ming",
     pmt: "morning",
-    zh_yuan: "other",
+    zh_yuan: "ming",
     hni: "plain",
     nxq: "plain",
     lis: "plain",
     ii: "plain",
-    khb: "plain",
+    khb: "phruk",
     roo: "plain",
     jiu: "plain",
     pmi: "plain",
@@ -947,13 +947,13 @@ WORDS.tomorrow = {
     ksw: "plain",
     chb: "morning",
     el_koi: "morning",
-    la_late: "plain",
+    la_late: "cras",
     egy_dem: "morning",
     vi_mid: "morning",
-    mn_cn: "plain",
+    mn_cn: "margasi",
     jya: "plain",
-    mjg: "plain",
-    mvf: "plain",
+    mjg: "margasi",
+    mvf: "margasi",
     ybe: "plain",
     atb: "morning",
     bru: "plain",
@@ -972,7 +972,7 @@ WORDS.tomorrow = {
     pwo: "plain",
     srb: "plain",
     unr: "plain",
-    he_mis: "other",
+    he_mis: "mahar",
     hit: "morning",
     kho: "plain",
     pal: "morning",
@@ -983,13 +983,13 @@ WORDS.tomorrow = {
     sva: "plain",
     xng: "morning",
     xqa: "morning",
-    ko_em: "other",
+    ko_em: "ming",
     jpr: "morning",
     kry: "plain",
     tig: "morning",
     pmh: "same",
     mey: "morning",
-    mlq: "plain",
+    mlq: "sini",
     mga: "morning",
     ohu: "morning",
     dnj: "plain",
@@ -1032,10 +1032,10 @@ WORDS.tomorrow = {
     hns: "morning",
     nez: "same",
     bxd: "unknown",
-    zh_cq: "other",
-    zh_zz: "other",
-    ko_bus: "other",
-    ko_yb: "other",
+    zh_cq: "ming",
+    zh_zz: "ming",
+    ko_bus: "naeil",
+    ko_yb: "naeil",
     maz: "plain",
     yrl: "plain",
     mhy: "plain",
@@ -1046,6 +1046,17 @@ WORDS.tomorrow = {
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
     same: {"color":"#db2777","emoji":"🔁","en":"the same word as yesterday","ja":"昨日と同じ語","ko":"어제와 같은 낱말","zh":"与昨天同一个词","yue":"同尋日同一個詞","vi":"cùng một từ với hôm qua","th":"คำเดียวกับเมื่อวาน","id":"kata yang sama dengan kemarin","hi":"बीते कल वाला ही शब्द","de":"dasselbe Wort wie gestern","fr":"le même mot qu'hier","it":"la stessa parola di ieri","es":"la misma palabra que ayer","pt":"a mesma palavra que ontem","ru":"то же слово, что «вчера»","uk":"те саме слово, що «учора»","ar":"الكلمة نفسها لأمس","he":"אותה מילה כמו אתמול","sw":"neno lilelile la jana"},
+    ming: {"color":"#d97706","emoji":"🏮","en":"Old Chinese 明 *mraŋ (明天, 明日, минтян)","ja":"上古漢語 明 *mraŋ (明天, 明日, минтян)","ko":"상고 중국어 明 *mraŋ (明天, 明日, минтян)","zh":"上古汉语 明 *mraŋ (明天, 明日, минтян)","yue":"上古漢語 明 *mraŋ (明天, 明日, минтян)","vi":"tiếng Hán thượng cổ 明 *mraŋ (明天, 明日, минтян)","th":"ภาษาจีนเก่า 明 *mraŋ (明天, 明日, минтян)","id":"Tionghoa Kuno 明 *mraŋ (明天, 明日, минтян)","hi":"प्राचीन चीनी 明 *mraŋ (明天, 明日, минтян)","de":"altchinesisch 明 *mraŋ (明天, 明日, минтян)","fr":"le chinois archaïque 明 *mraŋ (明天, 明日, минтян)","it":"il cinese antico 明 *mraŋ (明天, 明日, минтян)","es":"el chino antiguo 明 *mraŋ (明天, 明日, минтян)","pt":"o chinês antigo 明 *mraŋ (明天, 明日, минтян)","ru":"древнекитайское 明 *mraŋ (明天, 明日, минтян)","uk":"давньокитайське 明 *mraŋ (明天, 明日, минтян)","ar":"الصينية القديمة 明 *mraŋ (明天، 明日، минтян)","he":"הסינית העתיקה 明 *mraŋ (明天, 明日, минтян)","sw":"Kichina cha Kale 明 *mraŋ (明天, 明日, минтян)"},
+    naeil: {"color":"#be185d","emoji":"🏯","en":"Sino-Korean 來日 (내일, 래일, 닐)","ja":"漢字語 來日 (내일, 래일, 닐)","ko":"한자어 來日 (내일, 래일, 닐)","zh":"汉字词 來日 (내일, 래일, 닐)","yue":"漢字詞 來日 (내일, 래일, 닐)","vi":"từ Hán-Hàn 來日 (내일, 래일, 닐)","th":"คำจีน-เกาหลี 來日 (내일, 래일, 닐)","id":"Sino-Korea 來日 (내일, 래일, 닐)","hi":"चीनी-कोरियाई 來日 (내일, 래일, 닐)","de":"sinokoreanisch 來日 (내일, 래일, 닐)","fr":"le sino-coréen 來日 (내일, 래일, 닐)","it":"il sino-coreano 來日 (내일, 래일, 닐)","es":"el sinocoreano 來日 (내일, 래일, 닐)","pt":"o sino-coreano 來日 (내일, 래일, 닐)","ru":"китайско-корейское 來日 (내일, 래일, 닐)","uk":"китайсько-корейське 來日 (내일, 래일, 닐)","ar":"الكورية الصينية 來日 (내일، 래일، 닐)","he":"הסינו-קוריאנית 來日 (내일, 래일, 닐)","sw":"Kikorea-Kichina 來日 (내일, 래일, 닐)"},
+    mahar: {"color":"#0891b2","emoji":"🌙","en":"Hebrew–Aramaic מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","ja":"ヘブライ語・アラム語 מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","ko":"히브리어·아람어 מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","zh":"希伯来语—阿拉姆语 מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","yue":"希伯來語—阿拉姆語 מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","vi":"tiếng Hebrew–Aram מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","th":"ภาษาฮีบรู–อราเมอิก מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","id":"Ibrani–Aram מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","hi":"हिब्रू–अरामी מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","de":"hebräisch-aramäisch מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","fr":"l'hébreu-araméen מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","it":"l'ebraico-aramaico מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","es":"el hebreo-arameo מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","pt":"o hebraico-aramaico מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","ru":"еврейско-арамейское מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","uk":"єврейсько-арамейське מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","ar":"العبرية والآرامية מחר māḥār (מחר، ܡܚܪ، ܪܡܚܠ)","he":"העברית-ארמית מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)","sw":"Kiebrania–Kiaramu מחר māḥār (מחר, ܡܚܪ, ܪܡܚܠ)"},
+    phruk: {"color":"#4f46e5","emoji":"🐘","en":"Proto-Tai *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","ja":"タイ祖語 *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","ko":"타이 조어 *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","zh":"原始台语 *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","yue":"原始台語 *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","vi":"tiếng Thái nguyên thủy *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","th":"ภาษาไทดั้งเดิม *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","id":"Proto-Tai *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","hi":"आदि-ताई *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","de":"urtai *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","fr":"le proto-taï *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","it":"il prototai *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","es":"el prototai *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","pt":"o proto-tai *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","ru":"пратайское *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","uk":"пратайське *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","ar":"التاي الأم *ɟm̩.rukᴰ (พรุ่ง، พูก، phuk)","he":"הפרוטו-טאית *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)","sw":"Kitai asilia *ɟm̩.rukᴰ (พรุ่ง, พูก, phuk)"},
+    nal: {"color":"#7c3aed","emoji":"🌶️","en":"Proto-Dravidian *nāḷ (நாளை, ನಾಳೆ, nelā)","ja":"ドラヴィダ祖語 *nāḷ (நாளை, ನಾಳೆ, nelā)","ko":"드라비다 조어 *nāḷ (நாளை, ನಾಳೆ, nelā)","zh":"原始达罗毗荼语 *nāḷ (நாளை, ನಾಳೆ, nelā)","yue":"原始達羅毗荼語 *nāḷ (நாளை, ನಾಳೆ, nelā)","vi":"tiếng Dravida nguyên thủy *nāḷ (நாளை, ನಾಳೆ, nelā)","th":"ภาษาดราวิเดียนดั้งเดิม *nāḷ (நாளை, ನಾಳೆ, nelā)","id":"Proto-Dravida *nāḷ (நாளை, ನಾಳೆ, nelā)","hi":"आदि-द्रविड़ *nāḷ (நாளை, ನಾಳೆ, nelā)","de":"urdravidisch *nāḷ (நாளை, ನಾಳೆ, nelā)","fr":"le proto-dravidien *nāḷ (நாளை, ನಾಳೆ, nelā)","it":"il protodravidico *nāḷ (நாளை, ನಾಳೆ, nelā)","es":"el protodravídico *nāḷ (நாளை, ನಾಳೆ, nelā)","pt":"o proto-dravídico *nāḷ (நாளை, ನಾಳೆ, nelā)","ru":"прадравидийское *nāḷ (நாளை, ನಾಳೆ, nelā)","uk":"прадравідійське *nāḷ (நாளை, ನಾಳೆ, nelā)","ar":"الدرافيدية الأم *nāḷ (நாளை، ನಾಳೆ، nelā)","he":"הפרוטו-דרווידית *nāḷ (நாளை, ನಾಳೆ, nelā)","sw":"Kidravidi asilia *nāḷ (நாளை, ನಾಳೆ, nelā)"},
+    cras: {"color":"#dc2626","emoji":"🏛️","en":"Latin crās (cras, craje, cra)","ja":"ラテン語 crās (cras, craje, cra)","ko":"라틴어 crās (cras, craje, cra)","zh":"拉丁语 crās (cras, craje, cra)","yue":"拉丁語 crās (cras, craje, cra)","vi":"tiếng Latinh crās (cras, craje, cra)","th":"ภาษาละติน crās (cras, craje, cra)","id":"Latin crās (cras, craje, cra)","hi":"लैटिन crās (cras, craje, cra)","de":"lateinisch crās (cras, craje, cra)","fr":"le latin crās (cras, craje, cra)","it":"il latino crās (cras, craje, cra)","es":"el latín crās (cras, craje, cra)","pt":"o latim crās (cras, craje, cra)","ru":"латинское crās (cras, craje, cra)","uk":"латинське crās (cras, craje, cra)","ar":"اللاتينية crās (cras، craje، cra)","he":"הלטינית crās (cras, craje, cra)","sw":"Kilatini crās (cras, craje, cra)"},
+    mostla: {"color":"#0d9488","emoji":"🌽","en":"Nahuatl mōztla (mōztla, mostla, musta)","ja":"ナワトル語 mōztla (mōztla, mostla, musta)","ko":"나와틀어 mōztla (mōztla, mostla, musta)","zh":"纳瓦特尔语 mōztla (mōztla, mostla, musta)","yue":"納瓦特爾語 mōztla (mōztla, mostla, musta)","vi":"tiếng Nahuatl mōztla (mōztla, mostla, musta)","th":"ภาษานาวัตล์ mōztla (mōztla, mostla, musta)","id":"Nahuatl mōztla (mōztla, mostla, musta)","hi":"नाहुआत्ल mōztla (mōztla, mostla, musta)","de":"Nahuatl mōztla (mōztla, mostla, musta)","fr":"le nahuatl mōztla (mōztla, mostla, musta)","it":"il nahuatl mōztla (mōztla, mostla, musta)","es":"el náhuatl mōztla (mōztla, mostla, musta)","pt":"o náuatle mōztla (mōztla, mostla, musta)","ru":"науатль mōztla (mōztla, mostla, musta)","uk":"науатль mōztla (mōztla, mostla, musta)","ar":"الناواتلية mōztla (mōztla، mostla، musta)","he":"הנאוואטל mōztla (mōztla, mostla, musta)","sw":"Kinahuatl mōztla (mōztla, mostla, musta)"},
+    margasi: {"color":"#b91c1c","emoji":"🏹","en":"Mongolic marɣasi (маргааш, maghaxi, marʁaʃda)","ja":"モンゴル語族 marɣasi (маргааш, maghaxi, marʁaʃda)","ko":"몽골어족 marɣasi (маргааш, maghaxi, marʁaʃda)","zh":"蒙古语族 marɣasi (маргааш, maghaxi, marʁaʃda)","yue":"蒙古語族 marɣasi (маргааш, maghaxi, marʁaʃda)","vi":"nhóm ngôn ngữ Mông Cổ marɣasi (маргааш, maghaxi, marʁaʃda)","th":"ภาษากลุ่มมองโกล marɣasi (маргааш, maghaxi, marʁaʃda)","id":"Mongolik marɣasi (маргааш, maghaxi, marʁaʃda)","hi":"मंगोल भाषाएँ marɣasi (маргааш, maghaxi, marʁaʃda)","de":"mongolisch marɣasi (маргааш, maghaxi, marʁaʃda)","fr":"le mongol commun marɣasi (маргааш, maghaxi, marʁaʃda)","it":"il mongolico marɣasi (маргааш, maghaxi, marʁaʃda)","es":"el mongólico marɣasi (маргааш, maghaxi, marʁaʃda)","pt":"o mongólico marɣasi (маргааш, maghaxi, marʁaʃda)","ru":"монгольское marɣasi (маргааш, maghaxi, marʁaʃda)","uk":"монгольське marɣasi (маргааш, maghaxi, marʁaʃda)","ar":"المغولية marɣasi (маргааш، maghaxi، marʁaʃda)","he":"המונגולית marɣasi (маргааш, maghaxi, marʁaʃda)","sw":"Kimongolia marɣasi (маргааш, maghaxi, marʁaʃda)"},
+    sangnyin: {"color":"#16a34a","emoji":"🏔️","en":"Tibetan སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","ja":"チベット語 སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","ko":"티베트어 སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","zh":"藏语 སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","yue":"藏語 སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","vi":"tiếng Tạng སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","th":"ภาษาทิเบต སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","id":"Tibet སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","hi":"तिब्बती སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","de":"tibetisch སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","fr":"le tibétain སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","it":"il tibetano སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","es":"el tibetano སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","pt":"o tibetano སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","ru":"тибетское སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","uk":"тибетське སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","ar":"التبتية སང་ཉིན sang nyin (སང་ཉིན، saŋ.ȵin)","he":"הטיבטית སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)","sw":"Kitibeti སང་ཉིན sang nyin (སང་ཉིན, saŋ.ȵin)"},
+    beera: {"color":"#1d4ed8","emoji":"🐪","en":"East Cushitic béera ~ bérri (beera, berri, bor)","ja":"東クシ語派 béera ~ bérri (beera, berri, bor)","ko":"동쿠시어파 béera ~ bérri (beera, berri, bor)","zh":"东库希特语支 béera ~ bérri (beera, berri, bor)","yue":"東庫希特語支 béera ~ bérri (beera, berri, bor)","vi":"nhóm Cushit Đông béera ~ bérri (beera, berri, bor)","th":"ภาษาคูชิติกตะวันออก béera ~ bérri (beera, berri, bor)","id":"Kushitik Timur béera ~ bérri (beera, berri, bor)","hi":"पूर्वी कुशी béera ~ bérri (beera, berri, bor)","de":"ostkuschitisch béera ~ bérri (beera, berri, bor)","fr":"le couchitique oriental béera ~ bérri (beera, berri, bor)","it":"il cuscitico orientale béera ~ bérri (beera, berri, bor)","es":"el cusita oriental béera ~ bérri (beera, berri, bor)","pt":"o cuchítico oriental béera ~ bérri (beera, berri, bor)","ru":"восточнокушитское béera ~ bérri (beera, berri, bor)","uk":"східнокушитське béera ~ bérri (beera, berri, bor)","ar":"الكوشية الشرقية béera ~ bérri (beera، berri، bor)","he":"הכושית המזרחית béera ~ bérri (beera, berri, bor)","sw":"Kikushi cha Mashariki béera ~ bérri (beera, berri, bor)"},
+    sini: {"color":"#9333ea","emoji":"🥁","en":"Manding sini (sini, sinin)","ja":"マンディング語 sini (sini, sinin)","ko":"만딩어 sini (sini, sinin)","zh":"曼丁语 sini (sini, sinin)","yue":"曼丁語 sini (sini, sinin)","vi":"tiếng Manding sini (sini, sinin)","th":"ภาษามันดิง sini (sini, sinin)","id":"Manding sini (sini, sinin)","hi":"मांडिंग sini (sini, sinin)","de":"Manding sini (sini, sinin)","fr":"le mandingue sini (sini, sinin)","it":"il mandingo sini (sini, sinin)","es":"el mandinga sini (sini, sinin)","pt":"o mandinga sini (sini, sinin)","ru":"мандинго sini (sini, sinin)","uk":"мандинго sini (sini, sinin)","ar":"الماندينغية sini (sini، sinin)","he":"המנדינג sini (sini, sinin)","sw":"Kimanding sini (sini, sinin)"},
     other: {"color":"#2563eb","emoji":"➡️","en":"another image · the next day…","ja":"ほかの見立て・次の日…","ko":"다른 비유 · 다음 날…","zh":"其他意象・下一天……","yue":"其他意象 · 下一日……","vi":"hình ảnh khác · ngày kế…","th":"ภาพอื่น · วันถัดไป…","id":"citra lain · hari berikut…","hi":"कोई और बिंब · अगला दिन…","de":"ein anderes Bild · der nächste Tag…","fr":"une autre image · le jour suivant…","it":"un'altra immagine · il giorno dopo…","es":"otra imagen · el día siguiente…","pt":"outra imagem · o dia seguinte…","ru":"другой образ · следующий день…","uk":"інший образ · наступний день…","ar":"صورة أخرى · اليوم التالي…","he":"דימוי אחר · היום הבא…","sw":"taswira nyingine · siku inayofuata…"},
     plain: {"color":"#6b7280","emoji":"📅","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自己嘅詞","vi":"từ riêng","th":"คำเฉพาะของตัวเอง","id":"kata sendiri","hi":"अपना शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"своё слово","uk":"своє слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
@@ -1114,7 +1125,7 @@ WORDS.tomorrow = {
     tyv: ["даарта", "daːrta"],  // A compound of даң 'dawn' and эртен 'morning' (Wiktionary).
     alt: ["эртен", "erˈten"],  // The same word means 'morning' (Wiktionary).
     kjh: ["таңда", "taŋˈda"],  // Built on таң 'dawn' (Proto-Turkic *taŋ) with the locative -да, 'at dawn', like Kumyk тангала. Used for 'tomorrow' throughout the Khakas New Testament, e.g. Luke 13:32 'Пӱӱн паза таңда' (today and tomorrow).
-    mn: ["маргааш", "marɢaːʃ"],  // Written ᠮᠠᠷᠭᠠᠰᠢ in the traditional script (Wiktionary). No image is recorded for it, so it counts as a word of its own.
+    mn: ["маргааш", "marɢaːʃ"],  // Written ᠮᠠᠷᠭᠠᠰᠢ in the traditional script (Wiktionary).
     bxr: ["үглөөдэр", "yɡløːder"],  // Literally 'morning day', from үглөө 'morning' and үдэр 'day' (Wiktionary).
     gld: ["чимана", "tʃimana"],  // From Proto-Tungusic *tima 'morning' (Wiktionary).
     yrk: ["тебтаʼ", "tʲeːbtaʔ"],  // NorthEuraLex and IDS both list тебтаʼ; IDS also gives хуняна. No image is recorded for it, so it counts as a word of its own.
@@ -1153,9 +1164,9 @@ WORDS.tomorrow = {
     ter: ["ihârotike", "iˈhaːɾotike"],  // Used for 'tomorrow' in the Terena New Testament (Matthew 6:34, Luke 13:32). No image is recorded for it, so it counts as a word of its own.
     ake: ["awanapai", "awanapai"],  // Used for 'tomorrow' in the Akawaio New Testament. No image is recorded for it, so it counts as a word of its own.
     gun: ["koʼẽ", "koˈʔẽ"],  // The Mbyá Bible writes ko'ẽ rã, with the future marker rã. Koʼẽ is also 'dawn, morning', as in Paraguayan Guarani koʼẽrõ.
-    sce: ["maghashijie", "mɑqɑʂiˈtɕjə"],  // Paired with enedu 'today' in the Dongxiang New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
+    sce: ["maghashijie", "mɑqɑʂiˈtɕjə"],  // Paired with enedu 'today' in the Dongxiang New Testament (Luke 13:32).
     njo: ["asüng", "asəŋ"],  // Paired with tanü 'today' in the Ao Bible (Luke 13:32). Unrelated to tanüp 'morning' and aonung 'night'.
-    gon: ["नाडि", "naːɖi"],  // Paired with इय्याला 'today' in the Gondi Bible (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
+    gon: ["नाडि", "naːɖi"],  // Paired with इय्याला 'today' in the Gondi Bible (Luke 13:32).
     suk: ["ntondo", "ntondo"],  // Sukuma keeps 'tomorrow' (ntondo) apart from 'yesterday' (igolo), unlike neighbouring Nyamwezi.
     rim: ["fadiu", "fadiu"],  // Used for 'tomorrow' in the Nyaturu New Testament (Matthew 6:34).
     ksb: ["keloi", "keloi"],  // Paired with lelo 'today' in the Shambala Bible (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
@@ -1259,8 +1270,8 @@ WORDS.tomorrow = {
     ha: ["gobe", "ɡoːbe"],  // Gobe is the Hausa word for 'tomorrow' (WOLD; Kraft 1981). Unrelated to safiya 'morning', dare 'night' and jiya 'yesterday'.
     wo: ["ëllëg", "əlːəɡ"],  // Ëllëg is 'tomorrow'; Wolof also says suba, which means 'morning' as well (Wolof Bible; Wiktionary). Ëllëg itself has no recorded image, so it counts as a word of its own.
     srr: ["feet", "feːt"],  // Feet (o feet) is the Serer word for 'tomorrow' (Serer Bible). No image is recorded for it, so it counts as a word of its own.
-    so: ["berri", "berːi"],  // Berri is the Somali word for 'tomorrow' (Somali Bible). No image is recorded for it, so it counts as a word of its own.
-    om: ["bor", "bor"],  // Bor (also bori) is the Oromo word for 'tomorrow' (Oromo Bible; Wikivoyage). No image is recorded for it, so it counts as a word of its own.
+    so: ["berri", "berːi"],  // Berri is the Somali word for 'tomorrow' (Somali Bible).
+    om: ["bor", "bor"],  // Bor (also bori) is the Oromo word for 'tomorrow' (Oromo Bible; Wikivoyage).
     drs: ["soodo", "soːdo"],  // Soodo is the Gedeo word for 'tomorrow' (Gedeo Bible). No image is recorded for it, so it counts as a word of its own.
     sn: ["mangwana", "maŋɡwana"],  // Mangwana is the Shona word for 'tomorrow' (Shona Bible). No image is recorded for it, so it counts as a word of its own.
     hmn: ["tag kis", "ta˧˩̤ ki˨˩"],  // Tag kis is the White Hmong word for 'tomorrow' (Hmong Bible; Wikivoyage).
@@ -1364,12 +1375,12 @@ WORDS.tomorrow = {
     arc: ["מְחָר", "mħaːr"],
     aii: ["ܩܘܕܡܐ", "qudmeː"],  // Qudme is the word Iraqi Koine uses for 'tomorrow'; the literary word is ܡܚܵܪ, and some Urmian speakers use qudme for 'yesterday' too (Wiktionary). No image is recorded for it, so it counts as a word of its own.
     akk: ["𒌨𒊏𒄠", "urram"],  // Urram is the adverbial accusative of urrum 'daylight, daytime' (Wiktionary, CAD).
-    nci: ["mōztla", "ˈmoːstɬa"],  // Molina's 1555 dictionary gives muztla for 'mañana después de hoy' (Wiktionary). No image is recorded for it, so it counts as a word of its own.
-    nhx: ["mo̱sta", "moːsta"],  // Mo̱sta is paired with a̱man 'today' in the Isthmus Nahuatl New Testament (Luke 13:32, James 4:13). No image is recorded for it, so it counts as a word of its own.
-    nch: ["mosta", "ˈmosta"],  // Mosta is paired with ama 'today' in the Central Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
-    nhw: ["mostla", "ˈmostɬa"],  // Mostla is paired with ama 'today' in the Western Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
-    nhe: ["mostla", "ˈmostɬa"],  // Mostla is paired with ama 'today' in the Eastern Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
-    ngu: ["mostla", "mostɬa"],  // Mostla is paired with aman 'today' in the Guerrero Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
+    nci: ["mōztla", "ˈmoːstɬa"],  // Molina's 1555 dictionary gives muztla for 'mañana después de hoy' (Wiktionary).
+    nhx: ["mo̱sta", "moːsta"],  // Mo̱sta is paired with a̱man 'today' in the Isthmus Nahuatl New Testament (Luke 13:32, James 4:13).
+    nch: ["mosta", "ˈmosta"],  // Mosta is paired with ama 'today' in the Central Huasteca Nahuatl New Testament (Luke 13:32).
+    nhw: ["mostla", "ˈmostɬa"],  // Mostla is paired with ama 'today' in the Western Huasteca Nahuatl New Testament (Luke 13:32).
+    nhe: ["mostla", "ˈmostɬa"],  // Mostla is paired with ama 'today' in the Eastern Huasteca Nahuatl New Testament (Luke 13:32).
+    ngu: ["mostla", "mostɬa"],  // Mostla is paired with aman 'today' in the Guerrero Nahuatl New Testament (Luke 13:32).
     hch: ["ʼuxaʼa", "ʔuraʔa"],  // ʼUxaʼa is used for 'tomorrow' in the Wixarika New Testament (Matthew 6:34, James 4:13). No image is recorded for it, so it counts as a word of its own.
     ppl: ["musta", "ˈmuːsta"],  // Musta is the Nawat cognate of Classical Nahuatl mōztla (Wiktionary). Route by resemblance to the neighbouring forms (nci(mōztla)); no etymology of its own.
     p_jpn: ["*asita", "asita"],  // *Asita meant 'morning' and by extension 'next morning' and 'tomorrow' (Wiktionary).
@@ -1443,7 +1454,7 @@ WORDS.tomorrow = {
     anu: ["diøø", "diøː"],  // Diøø is the Anuak word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     luo: ["kiny", "kiɲ"],  // Kiny is the Dholuo word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     saq: ["teisiere", "teisiere"],  // Teisiere is the Samburu word for tomorrow. No image is recorded for it, so it counts as a word of its own.
-    aa: ["beera", "beːra"],  // Related to Somali berri, Oromo boruu and Saho béera 'tomorrow' (Wiktionary, whose Afar entry glosses beera only 'tomorrow'). No image is recorded for it, so it counts as a word of its own.
+    aa: ["beera", "beːra"],  // Related to Somali berri, Oromo boruu and Saho béera 'tomorrow' (Wiktionary, whose Afar entry glosses beera only 'tomorrow').
     kok: ["फाल्यां", "faːljãː"],  // फाल्यां is the Konkani word; unlike Hindi कल it does not also mean yesterday. Dalgado's Konkani–Portuguese dictionary (1893) lists it as phâlyâ 'tomorrow' beside phâlem 'morning' (ph. jâvumka 'to dawn'), with the same -em to -yâ change as phâmtem 'dawn', phâmtyâra 'at dawn': tomorrow is built on the morning word, as Finnish huomenna is on huomen.
     ks: ["پَگاہ", "paɡaːh"],  // Either from Persian pagāh 'dawn' or from Sanskrit 'the day in front'; the origin is disputed (Wiktionary).
     ace: ["singoh", "siŋɔh"],  // Singoh is the Acehnese word; singoh beungöh is 'tomorrow morning'. No image is recorded for it, so it counts as a word of its own.
@@ -1509,7 +1520,7 @@ WORDS.tomorrow = {
     men: ["sina", "sina"],  // Sina is 'tomorrow' in the Mende Bible, paired with haa 'today'. No image is recorded for it, so it counts as a word of its own.
     vai: ["ꔻꕯ", "sina"],  // ꔻꕯ (sina) is 'tomorrow' in the Vai New Testament, matching Koelle's 1854 sína. No image is recorded for it, so it counts as a word of its own.
     tem: ["ninaŋ", "ninaŋ"],  // Ninaŋ is 'tomorrow' in the Temne New Testament, matching Koelle's 1854 nī́nan. No image is recorded for it, so it counts as a word of its own.
-    dyu: ["sini", "sini"],  // Sini is 'tomorrow' in the Jula Bible, paired with bii 'today'. No image is recorded for it, so it counts as a word of its own.
+    dyu: ["sini", "sini"],  // Sini is 'tomorrow' in the Jula Bible, paired with bii 'today'.
     sus: ["tina", "tina"],  // Tina is 'tomorrow' in the Susu Bible, matching Koelle's 1854 tína. No image is recorded for it, so it counts as a word of its own.
     syl: ["কাইল", "xail"],  // Kail means both 'yesterday' and 'tomorrow', as Hindi कल does; tense tells them apart.
     doi: ["कल", "kəl"],  // Kal means both 'tomorrow' and 'yesterday', as in Hindi; tense tells them apart.
@@ -1613,7 +1624,7 @@ WORDS.tomorrow = {
     tcy: ["ಎಲ್ಲೆ", "elle"],  // Elle is 'tomorrow' in Tulu, paired with ini 'today'. No image is recorded for it, so it counts as a word of its own.
     haz: ["صباح", "subɒ"],  // From Arabic ṣabāḥ 'morning'; in Afghan Persian the word for morning came to mean 'tomorrow'.
     kaa: ["erteń", "erteŋ"],  // Built on the Turkic root for 'early' (*er-), as in Uzbek erta 'morning'.
-    ssy: ["beera", "beːɾa"],  // Beera is 'tomorrow' in Saho, paired with kaafa 'today'. No image is recorded for it, so it counts as a word of its own.
+    ssy: ["beera", "beːɾa"],  // Beera is 'tomorrow' in Saho, paired with kaafa 'today'.
     ewo: ["okidi", "okidi"],  // Okidi is 'tomorrow' in the Ewondo Bible ('amos ya okidi', the day of tomorrow). No image is recorded for it, so it counts as a word of its own.
     ndc: ["mangwana", "maŋɡwana"],  // Mangwana is 'tomorrow' in Ndau, as in Shona, paired with nyamasi 'today'. Route by resemblance to the neighbouring forms (sn(mangwana)); no etymology of its own.
     ote: ["xudi", "ʃudi"],  // Xudi means 'morning'; with the article (ar xudi) it means 'tomorrow'.
@@ -1650,7 +1661,7 @@ WORDS.tomorrow = {
     xfa: ["cra", "kraː"],  // From the famous Faliscan cup inscription 'foied uino pipafo, cra carefo': today I'll drink wine, tomorrow I'll have none.
     ota: ["یارین", "jaˈɾɯn"],  // From Proto-Turkic *yarïn, which meant both 'morning' and 'tomorrow'.
     otk: ["𐰖𐰺𐰣", "jarɯn"],  // Yarïn meant both 'morning' and 'tomorrow', the source of Turkish yarın.
-    cmg: ["ᠮᠠᠷᠭᠠᠰᠢ", "marɣaʃi"],  // Margaši, modern Mongolian маргааш. No image is recorded for it, so it counts as a word of its own.
+    cmg: ["ᠮᠠᠷᠭᠠᠰᠢ", "marɣaʃi"],  // Margaši, modern Mongolian маргааш.
     tpn: ["oîrã", "ojˈɾã"],  // Oîrã 'tomorrow'; oîrandé is a longer form. No image is recorded for it, so it counts as a word of its own.
     och: ["明", "*mraŋ"],  // Literally 'bright'; Classical Chinese also says 明日 'bright day'.
     zh_nj: ["明天", "miŋ˨˦ tʰẽ˧˩"],  // Literally 'bright day'; Nanjing also says 明兒 and 明個.
@@ -1686,7 +1697,7 @@ WORDS.tomorrow = {
     th_isan: ["มื้ออื่น", "mɯː˧˩ʔɯːn˦"],  // Mue uen is the Isan word for tomorrow. มื้อ 'day' + อื่น 'other', as in Lao ມື້ອື່ນ.
     kfy: ["भोल", "bʱoːl"],  // Bhol comes from *bhōrā 'daybreak', like Nepali भोलि (Turner's CDIAL).
     mwr: ["काल", "kaːl"],  // Kāl comes from Sanskrit kalya 'dawn, at dawn' (Lalas; Turner's CDIAL); Lalas glosses it only as 'the coming day'.
-    kru: ["नॆला", "nelaː"],  // Nelā is the Kurukh word for tomorrow in all three Kurukh New Testaments. No image is recorded for it, so it counts as a word of its own.
+    kru: ["नॆला", "nelaː"],  // Nelā is the Kurukh word for tomorrow in all three Kurukh New Testaments.
     mer: ["rũũjũ", "ɾoːdʒo"],  // Rũũjũ is the Meru word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     ce: ["кхана", "qaːnə"],  // Кхана is the Chechen word; Wiktionary relates it to хан 'time', as with тахана 'today' and селхана 'yesterday'.
     sdh: ["سوو", "suː"],  // Suu is the Southern Kurdish word; Kurmanji says sibê and Sorani سبەی. No image is recorded for it, so it counts as a word of its own.

@@ -40,7 +40,7 @@ There is something pleasing about that. A payment can arrive by bank transfer, y
 
 Even "thank you" has characters behind it. Everyday **cảm ơn** is written **感恩** in Chữ Nôm, "to feel a kindness," while classical Vietnamese writing in Chinese simply used **謝**.
 
-![Word Map of "thank you" in Vietnam and its neighbours, shown in the Japanese interface: cảm ơn in Vietnamese, 感恩 in Chữ Nôm Vietnamese, 謝 in Vietnamese Hán văn, alongside Tày, Nùng, Muong, Bahnar and Eastern Cham](image2.jpg "Thank you across Vietnam on the Word Map")
+![Word Map of "thank you" in Vietnam and its neighbours, shown in the Japanese interface: cảm ơn in Vietnamese and Central Vietnamese, cám ơn in Southern Vietnamese and Muong, alongside Lao, Thai, Khmer, Bahnar and Eastern Cham](image2.jpg "Thank you across Vietnam on the Word Map")
 
 ## The life of a scholar, read as Vietnamese
 

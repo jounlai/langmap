@@ -15,6 +15,8 @@ map_label: '"Tongue" across the world'
 map_url: https://langmaps.com/wordmap.html#w=tongue
 sources:
   - "Wiktionary, 脷 (etymology and glyph origin), accessed 2026"
+  - "CUHK 粵語審音配詞字庫, 舌: sit6 (黃, 周, 李, 何), sit3 as a variant (范); https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=舌"
+  - "words.hk, 舌頭 sit3 tau4 (written language), 'same as 脷'"
 ---
 
 ## 舌 everywhere, except one place
@@ -42,6 +44,10 @@ Not **舌**, but a different character altogether.
 The usual explanation is a matter of sound.
 
 In Cantonese, **舌** sounds like **蝕**, "to lose (money)", and like **折**. Every mention of your tongue at the dinner table would carry that echo.
+
+> **舌** *sit6* = **蝕** *sit6* "to lose out" (as in **蝕本**, "to lose money")
+
+That is the reading the standard Cantonese pronunciation dictionaries give for **舌**. Many Hong Kong speakers today also say **舌** *sit3*, the form the Han Map shows. Either way, the everyday word is **脷**: words.hk labels **舌頭** as written language.
 
 So the word was replaced by **利**, "benefit, profit", a word that sounds lucky instead.
 

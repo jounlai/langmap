@@ -32,7 +32,7 @@
     const reduced = () => { try { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (_) { return false; } };
 
     const STEP_MS = 1500, DRAW_MS = 900;
-    let layer = null, panel = null, timers = [], playing = null, lastFocus = null;
+    let layer = null, panel = null, timers = [], playing = null, lastFocus = null, tags = [], tagMap = null;
 
     function formOf(w, code) {
         const e = w.data && w.data[code];
@@ -45,6 +45,8 @@
         const h = host(), map = h && h.map();
         if (layer && map) map.removeLayer(layer);
         layer = null;
+        if (tagMap) tagMap.off('zoomend', declutter);
+        tags = []; tagMap = null;
         if (panel) { panel.remove(); panel = null; }
         document.body.classList.remove('wm-journey-on', 'wm-journey-dim');
         if (playing && lastFocus && document.contains(lastFocus)) { try { lastFocus.focus(); } catch (_) {} }
@@ -80,10 +82,50 @@
         const html = `<span class="wm-jdot" style="background:${esc(color)}"></span>`
             + `<span class="wm-jtag-box${origin ? ' origin' : ''}"><b dir="auto">${esc(formOf(w, code))}</b>`
             + `<span class="wm-jtag-name">${esc(h.nameOf(code))}</span></span>`;
-        L.marker(ll, {
+        const m = L.marker(ll, {
             pane: 'wmJourneyTags', interactive: false, keyboard: false,
             icon: L.divIcon({ className: 'wm-jtag', html, iconSize: null }),
         }).addTo(layer);
+        tags.push(m);
+        declutter();
+    }
+
+    // Neighbours such as Turkish, Bulgarian and Serbian sit a few pixels apart,
+    // so one fixed placement piles their labels up. Each label, in the order it
+    // appeared (first come keeps its place, so nothing jumps), takes the first
+    // side of its dot — right, left, above, below — where it touches no earlier
+    // label and stays clear of the panel and the map's edge; failing that, the
+    // same sides with the form alone (the language name is in the panel); failing
+    // that, only the dot stays. Rerun on zoom, when the gaps change.
+    const SIDES = ['p-r', 'p-l', 'p-t', 'p-b'];
+    function declutter() {
+        const h = host(), map = h && h.map();
+        if (!map || !tags.length) return;
+        const box = map.getContainer().getBoundingClientRect();
+        const keep = [];
+        const pr = panel && panel.getBoundingClientRect();
+        if (pr && pr.width) keep.push(pr);
+        const hits = (r) => r.left < box.left + 2 || r.right > box.right - 2 || r.top < box.top + 2 || r.bottom > box.bottom - 2
+            || keep.some((k) => r.left < k.right + 3 && k.left < r.right + 3 && r.top < k.bottom + 3 && k.top < r.bottom + 3);
+        for (const m of tags) {
+            const el = m.getElement && m.getElement();
+            const b = el && el.querySelector('.wm-jtag-box');
+            if (!b) continue;
+            b.classList.remove('gone', 'bare', ...SIDES);
+            let placed = null;
+            for (const bare of [false, true]) {
+                b.classList.toggle('bare', bare);
+                for (const side of SIDES) {
+                    b.classList.add(side);
+                    const r = b.getBoundingClientRect();
+                    if (!hits(r)) { placed = r; break; }
+                    b.classList.remove(side);
+                }
+                if (placed) break;
+            }
+            if (placed) keep.push(placed);
+            else { b.classList.remove('bare'); b.classList.add('gone'); }
+        }
     }
 
     function line(map, a, b, color, animate) {
@@ -147,6 +189,7 @@
         const tot = panel.querySelector('.wm-jp-total');
         tot.hidden = !done;
         if (done) tot.textContent = pk(STR.total).replace('{n}', h.count(route));
+        declutter();   // the panel grows with each step; keep labels out from under it
     }
 
     function play(route) {
@@ -166,6 +209,7 @@
         if (!map.getPane('wmJourney')) { const p = map.createPane('wmJourney'); p.style.zIndex = 640; p.style.pointerEvents = 'none'; }
         if (!map.getPane('wmJourneyTags')) { const p = map.createPane('wmJourneyTags'); p.style.zIndex = 660; p.style.pointerEvents = 'none'; }
         layer = L.layerGroup().addTo(map);
+        tagMap = map; map.on('zoomend', declutter);
         document.body.classList.add('wm-journey-on', 'wm-journey-dim');
 
         panel = document.createElement('section');

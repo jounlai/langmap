@@ -65,6 +65,7 @@
     .speak-panel .sp-row select, .speak-panel .sp-row button { font: inherit; font-size: 12px; padding: 3px 8px; border: 1px solid #ccc; border-radius: 8px; background: #fff; color: #222; cursor: pointer; }
     .speak-panel .sp-row select { width: auto; min-width: 0; flex: 0 1 auto; height: auto; }
     .speak-panel .sp-row button { width: auto; flex: 0 0 auto; white-space: nowrap; }
+    .speak-panel .sp-row .sp-tour { flex: 1 1 100%; white-space: normal; text-align: start; }
     .speak-panel .sp-note { color: #8a8a8a; font-size: 10.5px; margin-top: 6px; }
     .lang-label.sp-speaking, .globe-label.sp-speaking { outline: 2px solid #1a73e8; outline-offset: 2px; border-radius: 4px; }
     tr.sp-speaking > td, td.sp-speaking, .cmp-reading.sp-speaking { background: rgba(26,115,232,.1); }   /* panel rows; Word Map / Han Map compare cells */

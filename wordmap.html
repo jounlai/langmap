@@ -1516,9 +1516,14 @@
             box-shadow: 0 1px 4px rgba(0,0,0,0.3); line-height: 1.2; animation: wmJtagIn .35s ease-out;
         }
         .wm-jtag .wm-jtag-box.origin { box-shadow: 0 0 0 2px #b8860b, 0 1px 4px rgba(0,0,0,0.3); }
+        .wm-jtag .wm-jtag-box.p-l { left: auto; right: 9px; align-items: flex-end; }
+        .wm-jtag .wm-jtag-box.p-t { left: 0; top: auto; bottom: 9px; translate: -50% 0; align-items: center; }
+        .wm-jtag .wm-jtag-box.p-b { left: 0; top: 9px; translate: -50% 0; align-items: center; }
+        .wm-jtag .wm-jtag-box.bare .wm-jtag-name { display: none; }
+        .wm-jtag .wm-jtag-box.gone { display: none; }
         .wm-jtag b { font-size: 15px; color: #111; }
         .wm-jtag .wm-jtag-name { font-size: 10.5px; color: #555; }
-        @keyframes wmJtagIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+        @keyframes wmJtagIn { from { opacity: 0; } to { opacity: 1; } }
         .wm-jhead { background: none; border: 0; }
         .wm-journey-panel {
             position: fixed; left: 50%; transform: translateX(-50%); z-index: 1002;
@@ -4207,7 +4212,7 @@
     <script>window.__langNamesVersion(235); window.__langNamesBoot();</script>
     <!-- word_journey.js: the route legend's "watch the journey" player. Loaded before the main
          script so the first legend render already finds window.__wmJourney. -->
-    <script src="word_journey.js?v=1"></script>
+    <script src="word_journey.js?v=2"></script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->
@@ -13732,6 +13737,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else setTimeout(init, 0);
     })();
     </script>
-<script src="ipa_synth/speak.js?v=63" defer></script>
+<script src="ipa_synth/speak.js?v=64" defer></script>
 </body>
 </html>

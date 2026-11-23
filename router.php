@@ -20,6 +20,16 @@ $file = __DIR__ . $path;
 if ($path !== '/' && is_file($file)) {
     return false;
 }
+// A static folder with its own index.html (/sinosphere/) — Apache serves it
+// via DirectoryIndex; the built-in server needs telling.
+if ($path !== '/' && is_file($file . '/index.html')) {
+    if (substr((string) $uri, -1) !== '/') {
+        header('Location: ' . $path . '/', true, 301);
+        return true;
+    }
+    readfile($file . '/index.html');
+    return true;
+}
 
 // Everything else -> front controller (handles routing + 301 + 404).
 $_GET['__seo_route'] = $path;

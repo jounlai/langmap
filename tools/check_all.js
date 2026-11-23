@@ -954,6 +954,15 @@ line('static SEO sitemaps fresh', num(s, /stale: (\d+)/));
 s = run('export_trivia_seo.js --check');
 line('data/trivia_seo.json freshness', num(s, /stale: (\d+)/));
 
+// Sinosphere corner (/sinosphere/): post format, map links that resolve, and
+// generated pages in sync with sinosphere/posts/*/post.md. See sinosphere/GUIDE.md.
+{
+    let o;
+    try { o = cp.execSync(`python3 ${path.join(__dirname, 'build_sinosphere.py')} check 2>&1`, { encoding: 'utf8' }); }
+    catch (e) { o = String(e.stdout || '') + String(e.stderr || ''); }
+    line('sinosphere posts + build fresh', num(o, /sinosphere problems: (\d+)/));
+}
+
 // The full validator. Its warnings are advisory; its ERRORS block the commit.
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to

@@ -121,12 +121,16 @@ def inline(s):
 
 
 def inline_marks(s):
+    # \* is a literal asterisk (reconstructed forms: \*mit); park it so the
+    # emphasis rules below do not see it
+    s = s.replace('\\*', '\x00')
     s = html.escape(s, quote=False)
     s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
     s = re.sub(r'\*\*\*(.+?)\*\*\*', r'<strong><em>\1</em></strong>', s)
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
     s = re.sub(r'(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])', r'<em>\1</em>', s)
-    return s
+    s = re.sub(r'(https?://[^\s<]+[^\s<.,;:)])', r'<a href="\1" target="_blank" rel="noopener">\1</a>', s)
+    return s.replace('\x00', '*')
 
 
 def lines_to_html(lines):
@@ -238,7 +242,7 @@ def render_body(body, post, img_url):
 def plain(s):
     s = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', s)
     s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)
-    return re.sub(r'[*`_>#]', '', s).strip()
+    return re.sub(r'[*`_>#]', '', s.replace('\\*', '\x00')).replace('\x00', '*').strip()
 
 
 # ---------------------------------------------------------------- page chrome
@@ -323,6 +327,15 @@ def make_thumb(post):
     im.save(dst, 'JPEG', quality=80, optimize=True, progressive=True)
 
 
+def part_title(p):
+    """'Series Title. Part 3: Subtitle' -> 'Subtitle' for the series nav."""
+    t = p['title']
+    if p.get('series') and t.startswith(p['series']):
+        t = t[len(p['series']):]
+    t = re.sub(r'^[\s.:,—–-]*(\(?Part\s+\d+\)?[\s.:,—–-]*)?', '', t)
+    return t or p['title']
+
+
 def article_page(post, prev_post, next_post, series_posts):
     folder = post['_folder']
 
@@ -355,7 +368,7 @@ def article_page(post, prev_post, next_post, series_posts):
     if series_posts:
         items = []
         for sp in series_posts:
-            label = f'Part {sp.get("part")}: {html.escape(sp.get("part_title") or sp["title"])}'
+            label = f'Part {sp.get("part")}: {html.escape(part_title(sp))}'
             if sp is post:
                 items.append(f'<li aria-current="page"><strong>{label}</strong></li>')
             else:
@@ -452,7 +465,7 @@ def index_page(posts):
 <section class="intro">
   <h1><span class="seal big">漢</span>{CORNER_NAME}</h1>
   <p class="sub">{CORNER_SUB}</p>
-  <p>{CORNER_DESC} {len(posts)} articles so far. Each links to the map where you can hear and compare the forms yourself.</p>
+  <p>{CORNER_DESC} {len(posts)} article{"s" if len(posts) != 1 else ""} so far. Each one ends with a link to the map where you can compare the forms yourself.</p>
 </section>
 <div class="chips" role="toolbar" aria-label="Filter by topic">{chips}</div>
 <ol class="cards" reversed>
@@ -634,6 +647,9 @@ def lint(posts):
             elif not p['_folder'].startswith(str(p['date']) + '_'):
                 err('folder must start with the date')
         lead = p.get('lead') or []
+        if lead and isinstance(lead, list) and not all(isinstance(x, str) for x in lead):
+            err('every lead item must be a plain string (quote it if it contains ": ")')
+            p['lead'] = [str(x) for x in lead]
         if lead and not (isinstance(lead, list) and len(lead) == 3):
             err('lead must be a list of exactly 3 bullet sentences')
         if p.get('hero') and not os.path.isfile(os.path.join(p['_dir'], p['hero'])):

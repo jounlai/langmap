@@ -1,79 +1,57 @@
 ---
-title: What does your language call China?
+title: "What does your language call China?"
 slug: what-does-your-language-call-china
-date: '2026-11-08'
-draft: true
+date: 2026-11-08
 fb: https://www.facebook.com/groups/763870134421875/posts/2413600136115525/
-tags: []
+tags: [place-names, history, characters, beyond-asia]
 hero: image1.jpg
-hero_alt: ''
-map_label: ''
-map_url: ''
+hero_alt: "Word Map of 'China' across East Asia: 中国 in Mandarin, Wu, Hakka and Japanese, 中國 in Cantonese and Taiwanese, 중국 in Korean, Trung Quốc in Vietnamese, Хятад in Mongolian, dulimbai gurun in Manchu, 唐 in Okinawan, Tsina in Tagalog"
 lead:
-- Some languages call it by its own name.
-- Some may remember an empire from more than 2,000 years ago.
-- Others still call it by the name of a people who ruled northern China around 1,000 years ago.
+  - Some languages call it by its own name.
+  - Some may remember an empire from more than 2,000 years ago.
+  - Others still call it by the name of a people who ruled northern China around 1,000 years ago.
+map_label: '"China" around the world'
+map_url: https://langmaps.com/wordmap.html#w=china
 ---
 
-<!-- ORIGINAL FACEBOOK TEXT BELOW: rewrite it to GUIDE.md §3, then delete this line and draft: true -->
-
-# What does your language call China?
-* Some languages call it by its own name.
-* Some may remember an empire from more than 2,000 years ago.
-* Others still call it by the name of a people who ruled northern China around 1,000 years ago.
-
-👇Here is the longer story.
+## The long name
 
 Today, the country's official name is:
 
-**中华人民共和国**
-*Zhōnghuá Rénmín Gònghéguó*
-People's Republic of China
+> **中华人民共和国**
+> *Zhōnghuá Rénmín Gònghéguó*
+> People's Republic of China
 
 Around East Asia, this same formal name takes some interesting forms.
 
 Japanese:
 
-**中華人民共和国**
-*Chūka Jinmin Kyōwakoku*
+> **中華人民共和国**
+> *Chūka Jinmin Kyōwakoku*
 
 Korean:
 
-**중화인민공화국**
-*Junghwa Inmin Gonghwaguk*
+> **중화인민공화국**
+> *Junghwa Inmin Gonghwaguk*
 
 Vietnamese:
 
-**Cộng hòa Nhân dân Trung Hoa**
+> *Cộng hòa Nhân dân Trung Hoa*
 
 The components are essentially the same, though Vietnamese arranges them according to Vietnamese grammar.
 
-But shorten the name to simply **"China"**, and suddenly the world splits apart.
+But shorten the name to simply "China", and suddenly the world splits apart.
 
 ## 1. 中國: Call it what China calls itself
 
-Chinese:
-
-**中国 / 中國**
-*Zhōngguó*
-
-Japanese:
-
-**中国**
-*Chūgoku*
-
-Korean:
-
-**중국**
-*Jungguk*
-
-Vietnamese:
-
-**Trung Quốc**
+> Chinese: **中国 / 中國** (*Zhōngguó*)
+> Japanese: **中国** (*Chūgoku*)
+> Korean: **중국** (*Jungguk*)
+> Vietnamese: *Trung Quốc*
 
 Same two characters:
 
-**中國**
+> **中國**
 
 Literally, something like "central country" or "middle kingdom."
 
@@ -85,32 +63,12 @@ But step outside it, and the name changes completely.
 
 ## 2. China: Perhaps a memory of Qin
 
-English says:
-
-**China**
-
-French:
-
-**Chine**
-
-Italian:
-
-**Cina**
-
-Persian:
-
-**چین**
-*Chīn*
-
-Arabic:
-
-**الصين**
-*al-Ṣīn*
-
-Ancient Sanskrit:
-
-**चीन**
-*Cīna*
+> English: *China*
+> French: *Chine*
+> Italian: *Cina*
+> Persian: **چین** (*Chīn*)
+> Arabic: **الصين** (*al-Ṣīn*)
+> Ancient Sanskrit: **चीन** (*Cīna*)
 
 These forms belong to a very old family of names stretching from South and West Asia into Europe.
 
@@ -118,7 +76,7 @@ Their ultimate origin is still debated.
 
 But one of the most influential explanations connects them with:
 
-**秦 Qin**
+> **秦** (*Qín*)
 
 The state that unified China in 221 BC and established the first Qin imperial dynasty.
 
@@ -134,13 +92,13 @@ One of the world's most common names for China may preserve the echo of a dynast
 
 And there is another linguistic fossil hiding in English:
 
-**Sino-**
+> *Sino-*
 
 As in:
 
-**Sino-Japanese**
-**Sino-Tibetan**
-**Sinology**
+> *Sino-Japanese*
+> *Sino-Tibetan*
+> *Sinology*
 
 These words belong to the same broad historical family of names associated with *Sin*, *Sina*, and *China*.
 
@@ -150,30 +108,16 @@ Another empire takes its place.
 
 ## 3. Russia and Central Asia remember the Khitans
 
-Russian:
+> Russian: **Китай** (*Kitay*)
+> Mongolian: **Хятад** (*Khyatad*)
+> Kazakh: **Қытай** (*Qytai*)
+> Uzbek: *Xitoy*
 
-**Китай**
-*Kitay*
-
-Mongolian:
-
-**Хятад**
-*Khyatad*
-
-Kazakh:
-
-**Қытай**
-*Qytai*
-
-Uzbek:
-
-**Xitoy**
-
-These are not forms of the familiar *China / Chin / Sin* name.
+These are not forms of the familiar *China* / *Chin* / *Sin* name.
 
 They go back to:
 
-**Khitan / 契丹**
+> *Khitan* / **契丹**
 
 The Khitans were a people who established the Liao empire in the early 10th century.
 
@@ -189,15 +133,17 @@ It survived the fall of the Liao.
 
 And it remains the everyday name for China in Russian, Mongolian, and several Central Asian languages today.
 
+## Cathay
+
 But here is an even more surprising connection.
 
 English once knew this China, too.
 
-**Cathay**
+> *Cathay*
 
 The old European name for China, familiar from medieval travel accounts, is another descendant of the Khitan name.
 
-So English **Cathay** and Russian **Китай** are distant linguistic relatives.
+So English *Cathay* and Russian **Китай** are distant linguistic relatives.
 
 Same country.
 
@@ -217,14 +163,11 @@ Some names preserve still other ways of seeing China.
 
 Manchu, the language of the rulers of the Qing dynasty, used:
 
-**ᡩᡠᠯᡳᠮᠪᠠᡳ ᡤᡠᡵᡠᠨ**
-*Dulimbai gurun*
+> **ᡩᡠᠯᡳᠮᠪᠠᡳ ᡤᡠᡵᡠᠨ**
+> *Dulimbai gurun*
+> "The central country"
 
-Literally:
-
-**"The central country"**
-
-Rather than borrowing the sound of 中國, this expression translates its meaning.
+Rather than borrowing the sound of **中國**, this expression translates its meaning.
 
 *Dulimba* means "center" or "middle," while *gurun* means "state" or "country."
 
@@ -234,8 +177,8 @@ It is a remarkable parallel to Chinese **中國**.
 
 Tibetan has another traditional name:
 
-**རྒྱ་ནག**
-*Rgya nag*
+> **རྒྱ་ནག**
+> *Rgya nag*
 
 Often interpreted literally as something like "Black China."
 
@@ -243,7 +186,7 @@ The historical meaning of the expression is more complex than a simple color lab
 
 And then there is **唐**, the name of the Tang dynasty.
 
-In Japanese historical usage, 唐 (*Tō* or *Kara*, depending on the word and context) could refer to China long after the Tang dynasty had disappeared.
+In Japanese historical usage, **唐** (*Tō* or *Kara*, depending on the word and context) could refer to China long after the Tang dynasty had disappeared.
 
 This association was especially visible in the Ryukyu Kingdom, whose long relationship with China shaped its diplomacy, commerce, and cultural vocabulary.
 
@@ -253,7 +196,7 @@ A dynasty that ended in 907 continued to leave its name on China-related traditi
 
 So we have yet another historical memory:
 
-**唐 Tang**
+> **唐** (Tang)
 
 Not Qin.
 
@@ -265,17 +208,14 @@ Another dynasty, another chapter of history.
 
 Put these names on a map, and something remarkable appears.
 
-**East Asia:** 中國, 中国, 중국, Trung Quốc
-
-**Europe and much of South and West Asia:** China, Chine, Cina, Chīn, Ṣīn
-
-**Russia and much of Central Asia:** Kitay, Khyatad, Qytai, Xitoy
-
-**Historical Ryukyu and Japan:** 唐
-
-**Manchu:** "The central country"
-
-**Tibetan:** Rgya nag
+| Where | Names | Memory |
+|---|---|---|
+| East Asia | **中國**, **中国**, **중국**, *Trung Quốc* | China's own name |
+| Europe and much of South and West Asia | *China*, *Chine*, *Cina*, *Chīn*, *Ṣīn* | perhaps Qin |
+| Russia and much of Central Asia | *Kitay*, *Khyatad*, *Qytai*, *Xitoy* | the Khitans |
+| Historical Ryukyu and Japan | **唐** | the Tang |
+| Manchu | "The central country" | a translation |
+| Tibetan | *Rgya nag* | a tradition of its own |
 
 These are not simply different pronunciations of one name.
 
@@ -303,12 +243,8 @@ Sometimes, a language remembers a name long after the people who gave rise to it
 
 So when you ask:
 
-**"What is China called in your language?"**
+"What is China called in your language?"
 
 You may also be asking:
 
 **"Which chapter of Chinese history did your language remember?"**
-
-***"China" around the world***
-
-[[https://langmaps.com/wordmap.html#w=china](https://langmaps.com/wordmap.html#w=china)](https://langmaps.com/wordmap.html#w=china)

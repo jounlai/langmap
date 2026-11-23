@@ -68,6 +68,8 @@ WORDS.louse = {
     es_hn: "pediculus",
     es_ni: "pediculus",
     es_sv: "pediculus",
+    ar_jo: "qaml",
+    ar_ps: "qaml",
     fr_lu: "pediculus",
     fr_cm: "pediculus",
     de_lu: "lus",
@@ -77,11 +79,14 @@ WORDS.louse = {
     es_py: "pediculus",
     es_pa: "pediculus",
     en_my: "lus",
+    khw: "yuka",
     xav: "plain",
     zdj: "plain",
     afb: "qaml",
     acw: "qaml",
     swb: "plain",
+    slr: "bit",
+    ybe: "bit",
     cjs: "bit",
     es_pr: "pediculus",
     es_do: "pediculus",
@@ -139,6 +144,8 @@ WORDS.louse = {
     tl: "kutu",
     mn: "bogesun",
     sah: "bit",
+    tyv: "bit",
+    alt: "bit",
     cv: "bit",
     eve: "plain",
     gld: "plain",
@@ -163,6 +170,7 @@ WORDS.louse = {
     lzz: "til",
     sva: "til",
     hy: "plain",
+    hyw: "plain",
     nv: "plain",
     haw: "kutu",
     mi: "kutu",
@@ -172,8 +180,12 @@ WORDS.louse = {
     su: "plain",
     ilo: "kutu",
     fj: "kutu",
+    sd: "yuka",
     pa: "yuka",
+    pnb: "yuka",
     mr: "yuka",
+    gu: "yuka",
+    si: "utkuna",
     te: "pen",
     kn: "pen",
     ml: "pen",
@@ -190,9 +202,11 @@ WORDS.louse = {
     mn_cn: "bogesun",
     mnc: "plain",
     ar_eg: "qaml",
+    ar_lev: "qaml",
     ar_gulf: "qaml",
     ar_iq: "qaml",
     ar_ma: "qaml",
+    ti: "qaml",
     mt: "qaml",
     so: "plain",
     xh: "plain",
@@ -261,11 +275,15 @@ WORDS.louse = {
     sc: "pediculus",
     la: "pediculus",
     el_grc: "plain",
+    egy: "plain",
     enm: "lus",
     en_em: "lus",
     ang: "lus",
     non: "lus",
     cu: "vosh",
+    pi: "yuka",
+    pi_edu: "yuka",
+    pmh: "yuka",
     arc: "qaml",
     aii: "qaml",
     nci: "plain",
@@ -281,6 +299,7 @@ WORDS.louse = {
     vi_han: "srik",
     eo: "pediculus",
     vo: "plain",
+    mai: "plain",
     mad: "kutu",
     mk: "vosh",
     ay: "plain",
@@ -311,11 +330,13 @@ WORDS.louse = {
     tet: "kutu",
     bi: "kutu",
     aer: "plain",
+    new: "plain",
     lus: "srik",
     xsr: "srik",
     bug: "kutu",
     mdr: "kutu",
     war: "kutu",
+    ks: "yuka",
     dng: "srik",
     hsb: "vosh",
     csb: "vosh",
@@ -351,6 +372,8 @@ WORDS.louse = {
     emp: "plain",
     mrw: "plain",
     tsg: "kutu",
+    gbm: "yuka",
+    kfy: "yuka",
     hr: "vosh",
     la_late: "plain",
     el_koi: "phtheir",
@@ -367,6 +390,7 @@ WORDS.louse = {
     gmh: "lus",
     es_sgl: "pediculus",
     osp: "pediculus",
+    xqa: "bit",
     sga: "animal",
     srn: "lus",
     mga: "animal",
@@ -397,9 +421,11 @@ WORDS.louse = {
     nij: "kutu",
     mhy: "kutu",
     sda: "kutu",
+    ota: "bit",
     cmg: "bogesun",
     ani: "nats",
     kjj: "plain",
+    kim: "bit",
     bbl: "plain",
     ckv: "kutu",
     nan_xm: "srik",
@@ -435,6 +461,8 @@ WORDS.louse = {
     es_hn: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
     es_ni: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
     es_sv: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
+    ar_jo: ["قملة", "ˈʔamle"],  // Inherited from Arabic قَمْل (qaml); South Levantine Arabic singulative of collective قمل ʔaml 'lice, louse' (urban ʔamle; Bedouin gamle). Wiktionary South Levantine Arabic (Jordan/Palestine).
+    ar_ps: ["قملة", "ˈʔamle"],  // Inherited from Arabic قَمْل (qaml); South Levantine Arabic singulative قملة ʔamle of collective قمل 'lice, louse'; Ramallah audio on Wiktionary.
     fr_lu: ["pou", "pu"],  // Inherited from Latin *pēduculus.
     fr_cm: ["pou", "pu"],  // Inherited from Latin *pēduculus.
     de_lu: ["Laus", "laʊ̯s"],  // Inherited from Proto-Germanic *lūs.
@@ -444,11 +472,14 @@ WORDS.louse = {
     es_py: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
     es_pa: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
     en_my: ["louse", "laus"],  // Inherited from Old English lūs, from Proto-Germanic *lūs.
+    khw: ["ژوغ", "ʒuɣ"],  // Inherited from Sanskrit yū́kā (CDIAL 10512 'Kho. žuγ'; Turner Nepali s.v. jumro 'kho. žūy'); Perso-Arabic spelling is mine from the romanisation
     xav: ["u", "u"],  // Native Xavante word.
     zdj: ["nɗa", "nɗa"],  // Native Bantu word.
     afb: ["قملة", "ˈɡamla"],  // Singulative of Arabic قمل 'lice'.
     acw: ["قملة", "ˈɡamla"],  // Singulative of Arabic قمل 'lice'.
     swb: ["ndra", "ndra"],  // Native Bantu word.
+    slr: ["pişt", "pʰiʃt"],  // Proto-Turkic *bɨt 'louse' (Wiktionary lists Salar pişt as a borrowing from Old Uyghur); Starling: 'Salar: bišt'
+    ybe: ["pïšt", "pɯʃt"],  // Inherited via Old Uyghur from Proto-Turkic *bɨt 'louse'; Wiktionary *bït descendants: Western Yugur пышт (pışt); Starling: 'Sary-Yughur: bɨšt'
     cjs: ["пит", "pit"],  // Inherited from Proto-Turkic *bit.
     es_pr: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
     es_do: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
@@ -506,6 +537,8 @@ WORDS.louse = {
     tl: ["kuto", "ˈkuto"],  // Inherited from Proto-Austronesian *kutu.
     mn: ["бөөс", "bøːs"],  // Inherited from Proto-Mongolic *bögesün.
     sah: ["быт", "bɯt"],  // Inherited from Proto-Turkic *bit.
+    tyv: ["быт", "bɯt"],  // Inherited from Proto-Turkic *bɨt 'louse'; Wiktionary *bït descendants: Tuvan быт; Starling: 'Tuva: bɨ't'
+    alt: ["бийт", "bijt"],  // Inherited from Proto-Turkic *bɨt 'louse'; Wiktionary *bït descendants: Southern Altai бийт; Starling: 'Oyrat: bijt'
     cv: ["пыйтӑ", "pɯjtə"],  // Inherited from Proto-Turkic *bit with a suffix.
     eve: ["кумкэ", "kumkə"],  // Inherited from Proto-Tungusic *kumke.
     gld: ["чиктэ", "tʃiktə"],  // Native Tungusic word.
@@ -530,6 +563,7 @@ WORDS.louse = {
     lzz: ["მტი", "mtʼi"],  // Native Kartvelian word.
     sva: ["ტიშ", "tʼiʃ"],  // Native Kartvelian word.
     hy: ["ոջիլ", "vodʒil"],  // Native Armenian word.
+    hyw: ["ոջիլ", "votʃʰil"],  // Wiktionary Armenian ոջիլ 'louse', Western Armenian IPA [vot͡ʃʰíl]; from Old Armenian ոջիլ (oǰil).
     nv: ["yaaʼ", "jaːʔ"],  // Native Navajo word.
     haw: ["ʻuku", "ʔuku"],  // Inherited from Proto-Polynesian *kutu.
     mi: ["kutu", "kutu"],  // Inherited from Proto-Polynesian *kutu.
@@ -539,8 +573,12 @@ WORDS.louse = {
     su: ["otét", "otɛt"],  // Native Sundanese word.
     ilo: ["kuto", "ˈkuto"],  // Inherited from Proto-Austronesian *kutu.
     fj: ["kutu", "kutu"],  // Inherited from Proto-Austronesian *kutu.
+    sd: ["جُون", "dʒũː"],  // Mewaram: 'جۇن، جُنَئ or جۇنَئيِ n. (pl. جۇنئۇن or جۇن) A louse'; inherited from Sanskrit yū́kā (CDIAL 10512 'S. jũa, jū̃ f.')
     pa: ["ਜੂੰ", "dʒũː"],  // Inherited from Sanskrit यूका.
+    pnb: ["جوں", "dʒũː"],  // Inherited from Sanskrit yū́kā (CDIAL 10512 'P. jū̃ f.'); Maya Singh Panjabi Dict. ਜੂੰ júṇ 'A louse (Pedicalus)'
     mr: ["ऊ", "uː"],  // Inherited from Sanskrit यूका.
+    gu: ["જૂ", "dʒuː"],  // Inherited from Sanskrit yū́kā (CDIAL 10512 'G. jū f. louse')
+    si: ["උකුණා", "ukuɳaː"],  // Carter: 'උකුණ ukuṇa, n. louse; pl. උකුණෝ' (cross-refs give උකුණා); inherited from Sanskrit utkuṇa 'bug, louse' (CDIAL 1728 'Si. ukuṇā, f. ikiṇī louse')
     te: ["పేను", "peːnu"],  // Inherited from Proto-Dravidian *pēn.
     kn: ["ಹೇನು", "heːnu"],  // Inherited from Proto-Dravidian *pēn.
     ml: ["പേൻ", "peːn"],  // Inherited from Proto-Dravidian *pēn.
@@ -557,9 +595,11 @@ WORDS.louse = {
     mn_cn: ["ᠪᠥᠭᠡᠰᠤ", "pøːs"],  // Inherited from Proto-Mongolic *bögesün.
     mnc: ["ᠴᡳᡥᡝ", "tʃʰiχə"],  // Native Manchu word; cf. Nanai чиктэ.
     ar_eg: ["قملة", "ˈʔamla"],  // Inherited from Arabic qaml(a), singulative.
+    ar_lev: ["قملة", "ˈʔamle"],  // Inherited from Arabic قَمْل (qaml); South Levantine Arabic singulative قملة ʔamle, collective قمل 'lice, louse' (Wiktionary South Levantine; no North Levantine entry).
     ar_gulf: ["قملة", "ˈɡamla"],  // Inherited from Arabic qaml(a), singulative.
     ar_iq: ["قملة", "ˈɡamla"],  // Inherited from Arabic qaml(a), singulative.
     ar_ma: ["قملة", "qamla"],  // Inherited from Arabic qaml(a), singulative.
+    ti: ["ቍማል", "kʼʷɨmal"],  // Wiktionary Tigrinya ቍማል ḳʷəmal 'louse'; Semitic *ḳaml- (cf. Arabic qaml).
     mt: ["qamla", "ˈʔamla"],  // Inherited from Arabic قملة qamla.
     so: ["injir", "indʒir"],  // Native Somali word.
     xh: ["intwala", "intʷaːla"],  // Native Nguni noun, class 9; shared with Zulu intwala.
@@ -628,11 +668,15 @@ WORDS.louse = {
     sc: ["piogu", "ˈpjoɣu"],  // Inherited from Vulgar Latin *peduculus.
     la: ["pēdis", "ˈpeːdɪs"],  // Native Latin word (diminutive pēdiculus).
     el_grc: ["φθείρ", "pʰtʰéːr"],  // Native Greek word of uncertain origin.
+    egy: ["𓎡𓏏𓏏𓆧", "ketet"],  // Wiktionary Egyptian ktt (f.) 'louse', written k:t-t:L4; etymology not given.
     enm: ["lous", "luːs"],  // Inherited from Old English lūs.
     en_em: ["louse", "ləʊs"],  // Inherited from Middle English lous, Old English lūs.
     ang: ["lūs", "luːs"],  // Inherited from Proto-Germanic *lūs.
     non: ["lús", "luːs"],  // Inherited from Proto-Germanic *lūs.
     cu: ["въшь", "vŭʃĭ"],  // Inherited from Proto-Slavic *vъšь.
+    pi: ["ऊका", "uːkaː"],  // Pali ūkā f. 'louse', from Sanskrit yū́kā with loss of y- (CDIAL 10512: 'Pa. ūkā- f. louse'); PTS: VbhA 343 '7 likkhā are said to equal 1 ūkā'
+    pi_edu: ["ūkā", "uːkaː"],  // Pali ūkā f. 'louse', inherited from Sanskrit yū́kā (CDIAL 10512)
+    pmh: ["जूआ", "dʒuːaː"],  // Prakrit jūā- f. 'louse', inherited from Sanskrit yū́kā (CDIAL 10512 'Pk. jūā- f.'); CDIAL tags it generic Pk., not specifically Maharashtri
     arc: ["קַלְמָא", "qalmaː"],  // Inherited Aramaic qalmā, cognate with Arabic qaml.
     aii: ["ܩܠܡܐ", "ˈqalma"],  // Inherited from Aramaic qalmā.
     nci: ["atemitl", "aˈtemitɬ"],  // Native Nahuatl noun.
@@ -648,6 +692,7 @@ WORDS.louse = {
     vi_han: ["蝨", "sat˧˥"],  // Sino-Vietnamese reading sắt of 蝨.
     eo: ["pediko", "peˈdiko"],  // From Latin pēdiculus.
     vo: ["puf", "puf"],  // Volapük coinage.
+    mai: ["ढील", "ɖʱiːl"],  // CDIAL s.v. ḍala 'lump' (p. 311), group 6 *ḍhilla-: 'Mth. ḍhīl louse' (lump-word, cf. *ḍhilla-)
     mad: ["koto", "kɔtɔ"],  // Inherited from Proto-Malayo-Polynesian *kutu.
     mk: ["вошка", "ˈvɔʃka"],  // From Proto-Slavic *vъšь, diminutive.
     ay: ["lapʼa", "ˈlapʼa"],  // Native Aymara word.
@@ -678,11 +723,13 @@ WORDS.louse = {
     tet: ["utu", "utu"],  // Inherited from Proto-Austronesian *kutu.
     bi: ["nakutu", "nakutu"],  // From a Vanuatu vernacular form with na- + kutu (Proto-Austronesian *kutu).
     aer: ["arreme", "arəmə"],  // Native Arrernte word.
+    new: ["सि", "si"],  // Manandhar: 'सि si, n. body louse; ku—, n. a flea; sa—, n. the egg of a louse'
     lus: ["hrik", "r̥ik"],  // Inherited from Proto-Kuki-Chin *hrik, from Proto-Sino-Tibetan *srik.
     xsr: ["ཤིག", "ɕik"],  // Inherited from Proto-Sino-Tibetan *srik.
     bug: ["utu", "utu"],  // Inherited from Proto-Austronesian *kutu.
     mdr: ["utu", "utu"],  // Inherited from Proto-Austronesian *kutu.
     war: ["kuto", "kuto"],  // Inherited from Proto-Austronesian *kuCux.
+    ks: ["زۄو", "zov"],  // Grierson: 'zŏv f.' louse (compounds zŏva-kôpu 'a louse-skull'); CDIAL 10512 'K. zuv, zŏv f.' < Sanskrit yū́kā. Perso-Arabic spelling is mine from Grierson's romanisation
     dng: ["сыйзы", "sei˨˦tsɹ̩˨˦"],  // 虱 louse + noun suffix 子, as Mandarin 虱子.
     hsb: ["woš", "wɔʃ"],  // Inherited from Proto-Slavic *vъšь.
     csb: ["wesz", "vɛʃ"],  // Inherited from Proto-Slavic *vъšь.
@@ -718,6 +765,8 @@ WORDS.louse = {
     emp: ["tʉ̃", "tɨ̃"],  // Emberá louse; spelled with ʉ as the row writes kẽbʉ.
     mrw: ["tom", "tom"],  // Native Maranao word for the body louse.
     tsg: ["kutu", "kutu"],  // Inherited from Proto-Philippine *kutu.
+    gbm: ["जूँ", "dʒũː"],  // Inherited from Sanskrit yū́kā (CDIAL 10512 Addenda 'Garh. jū̃')
+    kfy: ["जूँ", "dʒũː"],  // Inherited from Sanskrit yū́kā (CDIAL 10512 'Ku. jū̃')
     hr: ["uš", "ûːʃ"],  // Inherited from Proto-Slavic *vъšь.
     la_late: ["pediculus", "peˈdikolos"],  // Diminutive of Latin pēdis (louse).
     el_koi: ["φθείρ", "pʰtʰir"],  // Inherited Ancient Greek word.
@@ -734,6 +783,7 @@ WORDS.louse = {
     gmh: ["lūs", "luːs"],  // Inherited from Old High German lūs < Proto-Germanic *lūs.
     es_sgl: ["piojo", "piˈoʒo"],  // Inherited from Old Spanish piojo < Late Latin peduclus.
     osp: ["piojo", "ˈpjoʒo"],  // Inherited from Late Latin peduclus < Latin pēdīculus; also spelled pioio.
+    xqa: ["bit", "bit"],  // Inherited from Proto-Turkic *bɨt 'louse'; Starling Turkic etymology: 'Karakhanid: bit (MK)'; Wiktionary *bït descendants: Karakhanid بِتْ (bit)
     sga: ["míl", "mʲiːl"],  // Inherited from Proto-Celtic *mīlom 'animal'; the same word means animal and louse.
     srn: ["loso", "ˈloso"],  // From English louse.
     mga: ["míl", "mʲiːl"],  // Inherited from Old Irish míl 'animal, louse' < Proto-Celtic *mīlom.
@@ -764,9 +814,11 @@ WORDS.louse = {
     nij: ["guti", "ɡuti"],  // Irregular reflex compared with PAN *kuCux.
     mhy: ["kutu", "kutu"],  // Inherited from PAN *kuCux.
     sda: ["kutu", "kutu"],  // Inherited from PAN *kuCux.
+    ota: ["بت", "bit"],  // Wiktionary Ottoman Turkish بت bit 'louse'; inherited from Proto-Turkic *bït.
     cmg: ["ᠪᠥᠭᠡᠰᠤ", "bøɡesy"],  // Native Mongolic word, cf. Khalkha бөөс.
     ani: ["ноцӏцӏи", "notsʼːi"],  // Native Avar-Andic word (cf. Avar нацӏ).
     kjj: ["нимцӏ", "nimtsʼ"],  // Native Khinalug word.
+    kim: ["быът", "bɯʔt"],  // Inherited from Proto-Turkic *bɨt 'louse'; Wiktionary *bït descendants: Tofa быът (bıht); Starling: 'Tofalar: bɨ't'
     bbl: ["მაწ", "matsʼ"],  // Native Nakh word.
     ckv: ["qutu", "qutu"],  // Inherited from PAN *kuCux.
     nan_xm: ["虱母", "sat˧˨ bu˥˧"],  // 虱 louse + 母 suffix, in the row's simplified characters.

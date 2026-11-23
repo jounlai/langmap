@@ -76,6 +76,7 @@ WORDS.fart = {
     es_py: "peditum",
     es_pa: "peditum",
     en_my: "perd",
+    acw: "plain",
     es_pr: "peditum",
     es_do: "peditum",
     es_gt: "peditum",
@@ -107,6 +108,8 @@ WORDS.fart = {
     id: "qetut",
     ms: "qetut",
     hi: "perd",
+    sa: "perd",
+    bn: "perd",
     ur: "perd",
     ta: "plain",
     en: "perd",
@@ -118,6 +121,7 @@ WORDS.fart = {
     pt: "peditum",
     pt_br: "peditum",
     ru: "perd",
+    ar_qur: "plain",
     ar: "plain",
     he: "plain",
     tr: "plain",
@@ -136,12 +140,24 @@ WORDS.fart = {
     da: "sound",
     ga: "plain",
     cy: "plain",
+    hy: "plain",
+    hyw: "plain",
     nv: "plain",
     mi: "plain",
     qu: "plain",
     jv: "qetut",
+    sd: "plain",
+    pa: "perd",
+    pnb: "perd",
     ne: "perd",
+    mr: "perd",
+    gu: "perd",
+    te: "plain",
+    kn: "plain",
     ml: "plain",
+    ku: "plain",
+    ps: "plain",
+    az: "plain",
     ar_ma: "plain",
     mt: "plain",
     ha: "plain",
@@ -173,6 +189,7 @@ WORDS.fart = {
     smn: "plain",
     gn: "plain",
     as: "perd",
+    or: "perd",
     en_south: "perd",
     en_app: "perd",
     en_in: "perd",
@@ -209,20 +226,24 @@ WORDS.fart = {
     vi_han: "pi",
     eo: "perd",
     ia: "peditum",
+    mai: "perd",
     mk: "perd",
     yua: "plain",
     arn: "plain",
     kl: "plain",
     ab: "plain",
     tet: "plain",
+    ks: "perd",
     hsb: "perd",
     fur: "peditum",
     syl: "perd",
     dsb: "perd",
     kw: "plain",
     max: "plain",
+    kfy: "perd",
     hr: "perd",
     la_late: "peditum",
+    el_koi: "perd",
     fa_clas: "plain",
     fro: "peditum",
     fr_class: "peditum",
@@ -258,6 +279,7 @@ WORDS.fart = {
     es_py: ["pedo", "ˈpedo"],  // Inherited from Latin pēditum.
     es_pa: ["pedo", "ˈpedo"],  // Inherited from Latin pēditum.
     en_my: ["fart", "faːt"],  // Inherited from Old English *feortan, Proto-Germanic *fertaną.
+    acw: ["ضرطة", "ˈzˤartˤa"],  // Wiktionary Hijazi Arabic ضرطة ẓarṭa 'fart (informal)'; from Arabic ضَرْطَة ḍarṭa, most probably through Egyptian Arabic ẓarṭa; root ض ر ط with ض = /zˤ/.
     es_pr: ["pedo", "ˈpedo"],  // Inherited from Latin pēditum.
     es_do: ["pedo", "ˈpedo"],  // Inherited from Latin pēditum.
     es_gt: ["pedo", "ˈpedo"],  // Inherited from Latin pēditum.
@@ -289,6 +311,8 @@ WORDS.fart = {
     id: ["kentut", "kənˈtut"],  // Native Malayic word.
     ms: ["kentut", "kənˈtut"],  // Native Malayic word.
     hi: ["पाद", "paːd"],  // Inherited from Sanskrit पर्द.
+    sa: ["पर्द", "pɐɾdɐ"],  // Sanskrit parda m. 'fart' (lex., i.e. lexicographers only); root √pard 'to fart', cf. párdatē 'farts' (CDIAL 7931, 7933)
+    bn: ["পাদ", "pad"],  // Samsad (Biswas) 'পাদ1 pāda n. (vul.) a fart'; inherited from Sanskrit parda 'fart' (CDIAL 7931 'B. pād')
     ur: ["پاد", "paːd"],  // Inherited from Sanskrit पर्द.
     ta: ["குசு", "kusɯ"],  // Native Tamil word.
     en: ["fart", "fɑːt"],  // Inherited from Old English *feortan, Proto-Germanic *fertaną.
@@ -300,6 +324,7 @@ WORDS.fart = {
     pt: ["peido", "ˈpɐjdu"],  // Inherited from Latin pēditum.
     pt_br: ["peido", "ˈpejdu"],  // Inherited from Latin pēditum.
     ru: ["пердёж", "pʲɪrˈdʲoʂ"],  // Derived from пердеть 'to fart', Proto-Slavic *pьrděti.
+    ar_qur: ["ضرطة", "ˈdˤartˤa"],  // Arabic ضَرْطَة ḍarṭa, noun of ضَرِطَ 'to fart audibly' (Wiktionary noun translation table for 'fart'); root ض ر ط.
     ar: ["ضرطة", "ˈdˤartˤa"],  // Native Arabic word.
     he: ["נפיחה", "nefiˈχa"],  // Derived from the root נ־פ־ח 'to blow'.
     tr: ["osuruk", "osuˈɾuk"],  // Derived from osurmak 'to fart'.
@@ -318,12 +343,24 @@ WORDS.fart = {
     da: ["prut", "pʁut"],  // Onomatopoeic word.
     ga: ["broim", "bˠɾˠɪmʲ"],  // Inherited from Old Irish broimm.
     cy: ["rhech", "r̥eːχ"],  // Native Welsh word.
+    hy: ["տեռ", "ter"],  // Wiktionary Armenian տեռ '(vulgar) fart, flatus (loud)'; probably onomatopoeic, cf. Kurmanji tirr (Ačaṙean 1913:1024b). Synonym թիս 'quiet fart'.
+    hyw: ["թիս", "tʰis"],  // Wiktionary Armenian թիս '(vulgar) quiet fart', with Western Armenian audio; probably onomatopoeic.
     nv: ["tłʼid", "tɬʼɪt"],  // Native Navajo word.
     mi: ["pīhau", "piːhau"],  // Native Māori word.
     qu: ["supi", "ˈsupi"],  // Native Quechua word.
     jv: ["entut", "əntut"],  // Native Javanese word.
+    sd: ["ٽِٽُ", "ʈiʈu"],  // Mewaram Sindhi-English Dict.: 'ٽِٽُ n. A fart. ٽِٽِرُ n. A farter' (onomatopoeic)
+    pa: ["ਪੱਦ", "pədː"],  // Inherited from Sanskrit parda 'fart' (CDIAL 7931 'P. paḍḍ, padd m.')
+    pnb: ["پد", "pədː"],  // Inherited from Sanskrit parda 'fart' (CDIAL 7931 'P. paḍḍ, padd m.', 'L. (Ju.) paḍ̠ m. fart')
     ne: ["पाद", "paːd"],  // Inherited from Sanskrit पर्द.
+    mr: ["पाद", "paːd"],  // Inherited from Sanskrit parda 'fart' (CDIAL 7931 'M. pād m.'); Molesworth s.v. पादरा 'given to breaking of wind' (from पादणें)
+    gu: ["પાદ", "paːd"],  // Inherited from Sanskrit parda 'fart' (CDIAL 7931 'G. pād n. f.')
+    te: ["పిత్తు", "pitːu"],  // Gwynn Telugu-English Dict.: 'పిత్తు pittu I. n. breaking wind, fart (vulgar). II. v.i. to break wind'; Dravidian, DEDR 4167
+    kn: ["ಹೂಸು", "huːsu"],  // Kittel: 'ಹೂಸು hūsu 3. = ಊಸು 2. a fart (C.)'; Dravidian, DEDR 4354 (Ka. pūsu, hūsu)
     ml: ["വളി", "ʋaɭi"],  // Native Malayalam word.
+    ku: ["fis", "fɪs"],  // Wiktionary Northern Kurdish fis (f.) 'fart' (rhymes -ɪs); synonyms kuş, piv, tirr.
+    ps: ["تیز", "tiːz"],  // Raverty Pukhto Dict.: 'تیز tīz, s.m. (2nd) a fart. Pl. تیزونه'
+    az: ["osturaq", "ostuˈrɑχ"],  // osturmaq 'to fart' + -aq, deverbal noun (from Proto-Turkic *osur-); Wiktionary osturaq '(informal) fart, flatulence', IPA [ost(u)ˈrɑχ]
     ar_ma: ["حزقة", "ħazqa"],  // Noun from the verb ḥzaq "to fart".
     mt: ["bassa", "ˈbasːa"],  // Maltese noun related to the verb bass "to fart".
     ha: ["tusa", "tuːsaː"],  // Native Hausa noun.
@@ -355,6 +392,7 @@ WORDS.fart = {
     smn: ["puoskâ", "ˈpuoskɐ"],  // Native Sámi word, cognate with Northern Sámi buoska.
     gn: ["pyno", "pɨˈno"],  // Native Guarani word.
     as: ["পাদ", "pad"],  // Inherited from Sanskrit pardas, PIE *perd-.
+    or: ["ପାଡ଼", "paːɽɔ"],  // Praharaj: 'ପାଡ଼ Pāṛa ... (ସଂ. ପର୍ଦ୍ଦନ) ... fart; wind passed through the anus'; inherited from Sanskrit parda (CDIAL 7931 'Or. pāṛa')
     en_south: ["fart", "fɑɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_app: ["fart", "fɑɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_in: ["fart", "faːrt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
@@ -391,20 +429,24 @@ WORDS.fart = {
     vi_han: ["屁", "tʰi˧˥"],  // Sino-Vietnamese reading thí of 屁.
     eo: ["furzo", "ˈfurzo"],  // From German Furz.
     ia: ["pedito", "ˈpedito"],  // From Latin pēditum.
+    mai: ["पाद", "paːd"],  // Inherited from Sanskrit parda 'fart' (CDIAL 7931 'Mth. H. pād m.')
     mk: ["прдеж", "ˈpr̩dɛʃ"],  // From Proto-Slavic *pьrděti, PIE *perd-.
     yua: ["kiis", "kiːs"],  // Native Mayan word.
     arn: ["perken", "peɾken"],  // Native Mapudungun word.
     kl: ["nileq", "nileq"],  // Inherited Eskimo noun, from the root of nilerpoq (to fart).
     ab: ["апыз", "apəz"],  // Native Abkhaz word with the article prefix а-.
     tet: ["hosu", "hosu"],  // Native Tetum word, used as noun and verb.
+    ks: ["پَد", "pad"],  // Grierson Kashmiri Dict.: 'pad 3 पद् । पर्दना f. (sg. dat. püzü), breaking wind, a fart'; inherited from Sanskrit parda (CDIAL 7931 'K. pad, dat. püzᷴ f. fart')
     hsb: ["pjerd", "pʲɛrt"],  // Inherited from Proto-Slavic *pьrdъ.
     fur: ["pêt", "peːt"],  // Inherited from Latin pēditum.
     syl: ["ফাদ", "fad"],  // Cognate with Bengali pād, from Sanskrit parda (fart).
     dsb: ["pjerd", "pʲɛrt"],  // Inherited from Proto-Slavic *pьrdъ.
     kw: ["bramm", "bram"],  // Inherited from Proto-Brythonic *bramm, from Proto-Celtic *braxsman.
     max: ["konto", "konto"],  // Native North Moluccan Malay word.
+    kfy: ["पाद", "paːd"],  // Inherited from Sanskrit parda 'fart' (CDIAL 7931 'Ku. N. A. B. pād'; Turner Nepali s.v. pād 'Ku. H. pād m.')
     hr: ["prdac", "pr̂dats"],  // Derived from the Slavic verb root *pьrd- (to fart).
     la_late: ["peditum", "ˈpeditom"],  // Noun from the verb pēdere (to fart).
+    el_koi: ["πορδή", "porˈde"],  // Ancient Greek πορδή (f.) 'fart' (Wiktionary noun translation table), from πέρδομαι 'to fart' < PIE *pérdetor.
     fa_clas: ["گوز", "ɡoːz"],  // Native Persian word, origin not given in the source.
     fro: ["pet", "pet"],  // Inherited from Latin pēditum.
     fr_class: ["pet", "pɛ"],  // Inherited from Latin pēditum.

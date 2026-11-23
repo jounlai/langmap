@@ -163,8 +163,10 @@ WORDS.cockroach = {
     ilo: "sipes",
     fj: "cucaracha",
     pa: "cucaracha",
+    ne: "plain",
     mr: "plain",
     gu: "plain",
+    si: "plain",
     te: "plain",
     ml: "plain",
     tg: "bread",
@@ -213,6 +215,7 @@ WORDS.cockroach = {
     et: "people",
     yrl: "plain",
     as: "plain",
+    or: "plain",
     en_south: "cucaracha",
     en_app: "cucaracha",
     en_in: "cucaracha",
@@ -265,6 +268,7 @@ WORDS.cockroach = {
     rap: "plain",
     tet: "barata",
     aoz: "plain",
+    new: "plain",
     dz: "plain",
     min: "sipes",
     ks: "plain",
@@ -288,12 +292,14 @@ WORDS.cockroach = {
     hr: "plain",
     bs: "people",
     la_late: "latin",
+    el_koi: "plain",
     mfe: "kakkerlak",
     crs: "kakkerlak",
     srn: "kakkerlak",
     pam: "sipes",
     pag: "plain",
     mdh: "plain",
+    tcy: "plain",
     hak_tw: "tsua",
     nan_qz: "tsua",
     mtq: "plain",
@@ -419,8 +425,10 @@ WORDS.cockroach = {
     ilo: ["ipes", "ˈʔipɛs"],  // Native Philippine word.
     fj: ["kokoroti", "kokoroti"],  // Borrowed from English cockroach.
     pa: ["ਕਾਕਰੋਚ", "kaːkroːtʃ"],  // Borrowed from English cockroach.
+    ne: ["झिङुर", "dzʱiŋur"],  // Turner Nepali Dict.: 'झिङुर् jhiṅur, or jhĩgur, s. A cockroach'; from *jhiṅgura (CDIAL 5387 '*jhiṅgura cockroach ... N. jhiṅur cockroach')
     mr: ["झुरळ", "dʒʱuɾəɭ"],  // Native Marathi word.
     gu: ["વંદો", "ʋəndo"],  // Native Gujarati word.
+    si: ["කැරපොත්තා", "kærapotːaː"],  // Carter Sinhalese-English Dict.: 'කැරපොත්තා kærapottā, n cockroach'
     te: ["బొద్దింక", "bodːiŋka"],  // Native Telugu word.
     ml: ["പാറ്റ", "paːtːa"],  // Native Malayalam word.
     tg: ["нонхӯрак", "nonχɵˈrak"],  // non 'bread' + xūr 'eat' + -ak, compound.
@@ -469,6 +477,7 @@ WORDS.cockroach = {
     et: ["prussakas", "ˈprusːɑkɑs"],  // From the ethnonym "Prussian", cf. Russian прусак.
     yrl: ["arawé", "arawe"],  // Inherited from Old Tupi arabé.
     as: ["পঁইতাচোৰা", "pɔ̃itasʊɹa"],  // Native Assamese compound.
+    or: ["ଅସରପା", "ɔsɔɾɔpa"],  // Praharaj Purnachandra Odia Bhashakosha: ଅସରପା 'Cockroach; Blatta Orientalis' (glossed by Sanskrit ତୈଳପାୟିକା)
     en_south: ["cockroach", "ˈkɑkɹoʊtʃ"],  // Compound of cock + roach, folk-etymological reshaping of Spanish cucaracha.
     en_app: ["cockroach", "ˈkɑkɹoʊtʃ"],  // Compound of cock + roach, folk-etymological reshaping of Spanish cucaracha.
     en_in: ["cockroach", "ˈkɔkroːtʃ"],  // Compound of cock + roach, folk-etymological reshaping of Spanish cucaracha.
@@ -521,6 +530,7 @@ WORDS.cockroach = {
     rap: ["koka", "koka"],  // Native Rapa Nui word.
     tet: ["barata", "barata"],  // Borrowed from Portuguese barata.
     aoz: ["iki", "iki"],  // Native Uab Meto word.
+    new: ["बिलि", "bili"],  // Manandhar Newari-English Dict.: 'बिलि bili, n. cockroach'
     dz: ["ཞོ་ལེམ", "ʑolem"],  // Native Dzongkha word.
     min: ["lipeh", "lipeh"],  // Inherited from Proto-Malayic *lipəs, from Proto-Austronesian *Sipəs.
     ks: ["ؤٹِل", "ʋəʈil"],  // Native Kashmiri word.
@@ -544,12 +554,14 @@ WORDS.cockroach = {
     hr: ["žohar", "ʒôxaːr"],  // Croatian word, perhaps from Yiddish shokher (black person).
     bs: ["bubašvaba", "bubaʃʋǎːba"],  // buba (bug) + švaba (Swabian), a compound recorded in the dictionary.
     la_late: ["blatta", "ˈblatta"],  // Inherited Latin word for light-shunning insects (cockroach, moth).
+    el_koi: ["σίλφη", "ˈsilpʰe"],  // Wiktionary Ancient Greek σίλφη 'cockroach (Blattella germanica)', refs LSJ, Bailly, Beekes; Pre-Greek, alt. τίλφη.
     mfe: ["kankrela", "kãkʁela"],  // From French cancrelat.
     crs: ["kankrela", "kãkrela"],  // From French cancrelat.
     srn: ["kakalaka", "kakalaka"],  // Borrowed from Dutch kakkerlak.
     pam: ["ipas", "ˈʔipas"],  // Inherited from Proto-Philippine *ipəs.
     pag: ["asipuet", "ʔasipwət"],  // Pangasinan word, origin not given in the source.
     mdh: ["kakaba", "kakaba"],  // Maguindanao word, origin not given in the source.
+    tcy: ["ಎಕ್ಕಲೆ", "ekːale"],  // Kittel s.v. ಅಕ್ಕಳೆ akkaḷe '... a cockroach (Tu. ಎಕ್ಕಲು, ಎಕ್ಕಲೆ)': Tulu equivalent cited in a Kannada dictionary
     hak_tw: ["黃蚻", "voŋ˩˩ tsʰat˥"],  // yellow + cockroach morpheme 蚻.
     nan_qz: ["虼蚻", "ka˨˨ tsuaʔ˨˦"],  // Min word 虼蚻.
     mtq: ["chản", "can"],  // Mường word, origin not given in the source.

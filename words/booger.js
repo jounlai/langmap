@@ -132,17 +132,25 @@ WORDS.booger = {
     mnp: "nosedung",
     nan_te: "nosedung",
     yue_ts: "nosedung",
+    cnp: "nosedung",
     mag: "plain",
     kaw: "plain",
     yai: "plain",
     nan_pn: "nosedung",
     nan_ph: "nosedung",
+    wuu_nb: "nosedung",
     hak_tw: "nosedung",
+    wuu_sz: "plain",
+    wuu_wz: "nosedung",
     nan_qz: "nosedung",
+    nan_hai: "nosedung",
     zh_wh: "nosedung",
     hak_hl: "nosedung",
+    yue_dg: "nosedung",
+    zh_jn: "plain",
     nan_xm: "nosedung",
     nan_zz: "nosedung",
+    wuu_jh: "nosedung",
     zh_cd: "nosedung",
   },
   routes: {
@@ -224,17 +232,25 @@ WORDS.booger = {
     mnp: ["鼻屎", "pʰi˥˥ si˦˨"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
     nan_te: ["鼻屎", "pʰĩ˩˩ sai˥˨"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
     yue_ts: ["鼻屎", "pei˧˨ si˥˥"],  // nose 鼻 + dung 屎, a compound recorded in the dictionary.
+    cnp: ["鼻涕屎", "pɐt˨ tʰɐi˥˥ ʃi˧˧"],  // nose-snot + dung, the Nanning (Tingzi) Pinghua word (first of 鼻涕屎, 鼻子屎); 鼻 white reading pɐt8b
     mag: ["नकटी", "nəkʈiː"],  // Derived from नाक 'nose'.
     kaw: ["ꦈꦥꦶꦭ꧀", "upil"],  // Native word, continued in modern Javanese and Indonesian upil.
     yai: ["qirta", "qirta"],  // Native word recorded for the Pulya Rout dialect (Cyrillic қирта).
     nan_pn: ["鼻空屎", "pʰĩ˨˩ kʰaŋ˧˧ sai˦˦˥"],  // nose + nostril + dung, a compound recorded in the dictionary for Penang Hokkien.
     nan_ph: ["鼻屎膏", "pʰi˦˩ sai˥˥˦ ko˧˧"],  // nose + dung + paste, a compound recorded in the dictionary for Manila Hokkien.
+    wuu_nb: ["鼻头屙", "bɐʔ˩˨ dœʏ˧˩˧ əu˥˥"],  // nose (鼻头) + excrement (屙 'excrete, dung'), the Ningbo word; 鼻 white reading bɐʔ8 (as in the row's 鼻头), 屙 əu5 glossed 大便
     hak_tw: ["鼻屎", "pʰi˥˥ sɨ˧˩"],  // nose + excrement, a compound recorded in the dictionary.
+    wuu_sz: ["鼻涕干", "biɪʔ˧ tʰi˥˩˧ kɵ˦˦"],  // 鼻涕 snot + 干 dry, the Suzhou word for the dried lump (Wiktionary dialect table for 鼻屎; readings MCPDict).
+    wuu_wz: ["鼻头恶", "bi˨˩˧ dɤu˧˩ ʔvu˦˨"],  // nose (鼻头) + dung (恶 ʔvu5, glossed 糞; not o7 'evil'), the Wenzhou word
     nan_qz: ["鼻屎", "pʰi˦˩ sai˥˥˦"],  // nose + excrement, a compound recorded in the dictionary.
+    nan_hai: ["鼻屎", "fi˨˧ tai˨˩˧"],  // nose + dung, the Haikou word; 屎 white reading tai3 (as the row's 屎), not literary si3
     zh_wh: ["鼻屎", "pi˨˩˧ sɿ˦˨"],  // nose + dung, a compound recorded in the dictionary.
     hak_hl: ["鼻屎", "pʰi˧˧ ʃi˨˦"],  // nose + dung, a compound recorded in the dictionary.
+    yue_dg: ["鼻屎", "pɐi˦˦˧ ʃi˧˥"],  // nose + dung, the Dongguan word
+    zh_jn: ["鼻疙渣", "pi˦˨ kə˨˩˧ tʂa˨˩˧"],  // 鼻 nose + 疙渣 crust, the Jinan word (Wiktionary dialect table for 鼻屎; readings MCPDict).
     nan_xm: ["鼻屎", "pʰĩ˨˨ sai˥˧"],  // nose + excrement, a compound recorded in the dictionary.
     nan_zz: ["鼻屎", "pʰĩ˨˨ sai˥˧"],  // nose + excrement, a compound recorded in the dictionary.
+    wuu_jh: ["鼻头涴", "biəʔ˨˩˨ diu˧˩˧ uɤ˥˥"],  // nose (鼻头) + dung (涴 uɤ5, glossed 屎), the Jinhua word; 头 diu2 (not tiu3)
     zh_cd: ["鼻屎", "pi˨˩ sɿ˥˧"],  // nose + excrement, a compound recorded in the dictionary.
   },
 };

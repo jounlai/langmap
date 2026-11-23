@@ -220,7 +220,7 @@ WORDS.fart = {
     la: "peditum",
     el_grc: "perd",
     enm: "perd",
-    en_em: "plain",
+    en_em: "perd",
     zh_tang: "pi",
     ja_edo: "plain",
     vi_han: "pi",

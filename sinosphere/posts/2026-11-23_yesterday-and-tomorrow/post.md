@@ -12,6 +12,8 @@ lead:
   - And in Korea, an ancient Chinese book preserves a forgotten native word for tomorrow.
 map_label: '"Tomorrow" around the world'
 map_url: https://langmaps.com/wordmap.html#w=tomorrow
+sources:
+  - "Sun Mu, *Jilin Leishi* 鷄林類事 (early 12th century)"
 ---
 
 ## Yesterday or tomorrow? Both!

@@ -51,14 +51,14 @@ const WORD_CATEGORIES = [
         label: {
             en: "Body & feeling", ja: "からだと心", ko: "몸과 마음", zh: "身体与情感", yue: "身體同感情", vi: "Cơ thể và cảm xúc", th: "ร่างกายและความรู้สึก", id: "Tubuh & perasaan", hi: "शरीर और भाव", de: "Körper & Gefühl", fr: "Corps et sentiment", it: "Corpo e sentimento", es: "Cuerpo y sentimiento", pt: "Corpo e sentimento", ru: "Тело и чувства", uk: "Тіло і почуття", ar: "الجسد والشعور", he: "גוף ורגש", sw: "Mwili na hisia"
         },
-        words: ["head", "eye", "ear", "nose", "mouth", "tooth", "wisdomtooth", "tongue", "adamsapple", "hand", "thumb", "littlefinger", "right", "left", "foot", "heart", "bone", "blood", "tear", "goosebumps", "poop", "love", "kiss", "hangover", "jetlag", "dopamine"],
+        words: ["head", "eye", "ear", "nose", "mouth", "tooth", "wisdomtooth", "tongue", "adamsapple", "hand", "thumb", "littlefinger", "right", "left", "foot", "heart", "bone", "blood", "tear", "goosebumps", "poop", "booger", "fart", "love", "kiss", "hangover", "jetlag", "dopamine"],
     },
     {
         key: "nature",
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "sunflower", "dog", "woof", "cat", "horse", "bear", "lion", "camel", "elephant", "monkey", "snake", "dragon", "spider", "bat", "bird", "cockcrow", "cuckoo", "turkey", "egg", "butterfly", "dragonfly", "ladybird", "fish", "whale", "octopus", "jellyfish"],
+        words: ["tree", "sunflower", "dog", "woof", "cat", "horse", "bear", "lion", "camel", "elephant", "monkey", "snake", "dragon", "spider", "bat", "bird", "cockcrow", "cuckoo", "turkey", "egg", "butterfly", "dragonfly", "ladybird", "cockroach", "louse", "fish", "whale", "octopus", "jellyfish"],
     },
     {
         key: "home",

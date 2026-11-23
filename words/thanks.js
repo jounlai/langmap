@@ -198,7 +198,7 @@ WORDS.thanks = {
     hak_cn: ["多谢", "to˦ tsʰia˥˧"],
     vi: ["cảm ơn", "kaːm˧˩˧ ɤːn˧"],
     vi_c: ["cảm ơn", "kaːm˧˩˨ ɤːŋ˥"],
-    vi_s: ["cảm ơn", "kaːm˨˩˦ ɤːŋ˧"],
+    vi_s: ["cám ơn", "kaːm˧˥ ɤːŋ˧"],
     th: ["ขอบคุณ", "kʰɔːp˨˩kʰun˧"],
     id: ["terima kasih", "tərima kasih"],
     ms: ["terima kasih", "tərima kasih"],

@@ -483,7 +483,7 @@ WORDS.mother = {
     dtp_kzj: ['tina', 'ˈtina'],
     mez: ['nekīah', 'nekiːah'],
     nan_xm: ["老母", "lau˨˨ bu˥˧"],
-    nan_zz: ["老母", "lau˨˨ bu˥˧"],
+    nan_zz: ["老母", "lau˨˨ bo˥˧"],
     osa: ["iiną́", "iːnã́"],
     pmy: ['mama', 'ˈmama'],
     pot: ["ngiye", "ŋɡijə"],

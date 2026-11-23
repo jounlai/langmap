@@ -1099,7 +1099,7 @@ WORDS.dragon = {
     it_dan: ["drago", "ˈdraɡo"],  // From Latin draco; Dante has 'vidi uscirne un drago' (Purgatorio XXXII 131) and also the Latin-shaped draco (Inferno XXV 23).
     ja_heian: ["龍", "tatu"],  // Native tatu (later tatsu); the Wamyō Ruijushō (938) gives the Japanese name of 龍 as 太都 tatu.
     juc: ["muduri", "muduri"],  // Jurchen muduri 'dragon' (Sino-Jurchen glossary no. 135), the same word as Manchu muduri.
-    ko_mid: ["미르", "miɾɨ"],  // The native Korean dragon word, glossing 龍 in the Hunmong jahoe (1527: 龍 미르 료ᇰ); Wiktionary calls it native, possibly an early loan of Old Chinese 龍.
+    ko_mid: ["미르", "miɾɨ"],  // The native Korean dragon word, glossing 龍 in the Hunmong jahoe (1527: 龍 미르 료ᇰ); Wiktionary calls it native, possibly an early loan of Old Chinese 龍.
     p_ine: ["*h₁ógʷʰis", "h₁óɡʷʰis"],  // The same word as 'snake', also the mythic serpent or dragon slain by the hero (Watkins, How to Kill a Dragon).
     p_sit: ["*m-bru(ŋ/k)", "m-bru(ŋ/k)"],  // Glossed 'dragon; thunder'; the source of Tibetan འབྲུག, cognate with Chinese 龍.
     p_tun: ["*muduri", "muduri"],  // The source of Manchu muduri and Nanai мудур 'dragon'.

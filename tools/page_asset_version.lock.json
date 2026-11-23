@@ -4,16 +4,16 @@
     "hash": "a4fb8ba15bdb47ec"
   },
   "data.js": {
-    "version": 115,
-    "hash": "d39368ac84c12d7e"
+    "version": 116,
+    "hash": "052e62cdc39e9077"
   },
   "hanmap_data.js": {
-    "version": 228,
-    "hash": "6334d2cc4d9f21c6"
+    "version": 229,
+    "hash": "fa8cac5ca44605f2"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 76,
-    "hash": "257b8661bca0b9a9"
+    "version": 78,
+    "hash": "f2e421a02d82c176"
   },
   "ipa_synth/engine.js": {
     "version": 56,
@@ -208,7 +208,7 @@
     "hash": "ebe067f2d50d98a3"
   },
   "word_manifest.js": {
-    "version": 1792,
+    "version": 1793,
     "hash": "fa0d96f2360ed6ce"
   },
   "wordmap_data.js": {

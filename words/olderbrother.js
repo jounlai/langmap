@@ -1390,7 +1390,7 @@ WORDS.olderbrother = {
     cmg: ["ᠠᠬ᠎ᠠ", "aqa"],  // younger sibling: degüü; modern Khalkha ах.
     paus: ["*kaka", "kaka"],  // It named an older sibling of either sex; descendants include Amis kaka.
     p_dra: ["*aṇṇa", "aɳɳa"],  // The ancestor of Tamil aṇṇaṉ and Telugu anna, both still 'older brother'.
-    ko_mid: ["혀ᇰ", "hjəŋ"],  // younger brother: 아ᅀᆞ (àzò, a man's younger brother), the ancestor of modern 아우; 혀ᇰ is a borrowing of Chinese 兄.
+    ko_mid: ["혀ᇰ", "hjəŋ"],  // younger brother: 아ᅀᆞ (àzò, a man's younger brother), the ancestor of modern 아우; 혀ᇰ is a borrowing of Chinese 兄.
     el_grc: ["ἀδελφός", "adelpʰós"],  // Greek had no separate word: the Septuagint calls Shem 'brother of Japheth the greater' (ἀδελφῷ Ιαφεθ τοῦ μείζονος).
     hbo: ["אח", "ʔɔːħ"],  // An older brother is 'the big brother': 1 Samuel 17:28 calls Eliab אָחִיו הַגָּדוֹל, 'his brother the great one'.
     he_mis: ["אח", "ʔaħ"],  // The Mishnah tells the brothers apart as הגדול 'the big one' and הקטן 'the small one'; the word for brother itself is the same.

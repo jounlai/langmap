@@ -4,7 +4,7 @@
  * Exit code 1 if any actionable check is non-zero (CI-friendly).
  * Run: node tools/check_all.js
  */
-const cp = require('child_process'), path = require('path');
+const cp = require('child_process'), path = require('path'), fs = require('fs');
 const run = f => cp.execSync(`node ${path.join(__dirname, f)}`, { encoding: 'utf8' });
 // validate_wordmap_data.js lives at the repo root and exits 1 when it has
 // errors, so capture its output instead of letting execSync throw.
@@ -961,6 +961,25 @@ line('data/trivia_seo.json freshness', num(s, /stale: (\d+)/));
     try { o = cp.execSync(`python3 ${path.join(__dirname, 'build_sinosphere.py')} check 2>&1`, { encoding: 'utf8' }); }
     catch (e) { o = String(e.stdout || '') + String(e.stderr || ''); }
     line('sinosphere posts + build fresh', num(o, /sinosphere problems: (\d+)/));
+}
+
+// Old Hangul: a precomposed syllable (누) followed by a conjoining jamo (ᇈ) never
+// joins into one block — it renders as 누 + a stray ᇈ. The syllable must be
+// written in jamo (누ᇈ). Found in ko_mid tear ·누ᇈ·믈 (2026-11-24).
+{
+    const BAD = /[가-힣][ᅠ-ᇿힰ-퟿]/g;
+    const ROOT = path.join(__dirname, '..');
+    const files = ['data.js', 'hanmap_data.js', 'hanmap_trivia.js', 'wordmap_data.js', 'wordmap_meta.js']
+        .concat(fs.readdirSync(path.join(ROOT, 'words')).filter(f => f.endsWith('.js')).map(f => 'words/' + f));
+    let n = 0;
+    for (const f of files) {
+        const p = path.join(ROOT, f);
+        if (!fs.existsSync(p)) continue;
+        const hits = fs.readFileSync(p, 'utf8').match(BAD) || [];
+        if (hits.length) console.log(`        ${f}: ${hits.slice(0, 5).join(' ')}`);
+        n += hits.length;
+    }
+    line('Old Hangul written in jamo', n);
 }
 
 // The full validator. Its warnings are advisory; its ERRORS block the commit.

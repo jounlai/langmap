@@ -1331,7 +1331,7 @@ WORDS.tear = {
     ja_heian: ["涙", "namida"],
     ja_kanbun: ["淚", "namida"],
     ko_em: ["눈물", "nunmul"],
-    ko_mid: ["·누ᇈ·믈", "nunzmɨl"],
+    ko_mid: ["·누ᇈ·믈", "nunzmɨl"],
     ojp: ["涙", "namita"],
     agx: ["негъв", "neʁʷ"],
     bqi: ["هرس", "hars"],

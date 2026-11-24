@@ -581,23 +581,25 @@
            chrome is hidden, where #word-select itself is display:none. */
         .top-left-controls #word-select-label {
             display: none;
-            /* No frame: transparent background, ~1.5× text, and only a light
-               blur on the map behind the text (owner 2026-07-12). The box
-               hugs the text (fit-content) so the blur patch matches it. */
-            align-self: flex-start;
-            width: fit-content; max-width: 72vw; box-sizing: border-box;
-            font-size: 20px; font-weight: 600; line-height: 1.25;
-            padding: 2px 8px;
-            border: none; background: transparent; box-shadow: none;
-            border-radius: 10px;
-            -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
-            color: #222; text-shadow: 0 0 3px rgba(255,255,255,0.75);
-            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+            /* The word, very large, with its emoji: captures of different words
+               looked like the same map in a feed (owner 2026-11-24). Labels
+               underneath are hidden (syncTitleCover), so no blur is needed. */
+            --wt: clamp(28px, min(6.8vw, 9vh), 72px);
+            flex: none; align-self: flex-start; align-items: center; gap: .2em;
+            width: max-content; max-width: calc(100vw - 96px); box-sizing: border-box;
+            font: 800 var(--wt)/1.05 system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+            letter-spacing: -.02em; padding: 0 4px; pointer-events: none;
+            color: #16162a;
+            text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 14px #fff;
         }
         body.chrome-hidden .top-left-controls #word-select-label,
         html[data-wm-chrome="hidden"] body .top-left-controls #word-select-label {
-            display: block;
+            display: flex;
         }
+        #word-select-label .wt-emoji { flex: none; font-size: 1.15em; line-height: 1; letter-spacing: 0; }
+        #word-select-label .wt-text { min-width: 0; overflow-wrap: break-word; }
+        #word-select-label .wt-en { display: block; font-size: .36em; font-weight: 600; letter-spacing: 0; line-height: 1.25; color: #444; }
+        body.chrome-hidden #map .lang-label.under-title { visibility: hidden; }
         /* Era switch and filter FAB share one horizontal row so the
            filter doesn't claim a separate vertical slot under the
            search field. lang-filter.js's FAB is moved into this row by
@@ -4053,7 +4055,7 @@
     </script>
     <script src="wordmap_data.js?v=370"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="word_manifest.js?v=1808"></script>
+    <script src="word_manifest.js?v=1809"></script>
     <script src="word_labels.js?v=155"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -4082,7 +4084,7 @@
             meta:     477,
             trivia:   126,
             triviaI18n: 158,
-            words:      1808,
+            words:      1809,
             langWords:    1433,
             labels:      155,
             metaI18nCoverage: 16,
@@ -5373,11 +5375,25 @@
         // #word-select-label shown in simple-display mode (where #word-select
         // is display:none). Function declaration → hoisted, so rebuildWordSelect
         // can call it above.
+        // Title emoji for words whose own file carries none (WORDS[id].emoji wins;
+        // adding it there would also put it in the route legend).
+        var WORD_TITLE_EMOJI = { atsign:'📧', blood:'🩸', book:'📖', cat:'🐈', chocolate:'🍫', computer:'💻', cuckoo:'🐦', dog:'🐕', dopamine:'🧠', drink:'🥤', eat:'🍽️', eye:'👁️', father:'👨', fire:'🔥', fish:'🐟', good:'👌', green:'🟢', hand:'✋', head:'🙂', heart:'🫀', hello:'👋', horse:'🐎', house:'🏠', i:'🙋', love:'❤️', moon:'🌙', mother:'👩', mountain:'⛰️', mouth:'👄', name:'📛', night:'🌃', one:'1️⃣', person:'🧍', red:'🔴', rice:'🍚', sea:'🌊', silk:'🧣', star:'⭐', sun:'☀️', sushi:'🍣', thanks:'🙏', three:'3️⃣', tongue:'👅', tooth:'🦷', tree:'🌳', two:'2️⃣', water:'🚰', wifi:'📶', woof:'🐶', you:'🫵' };
         function updateWordSelectLabel() {
             const lbl = document.getElementById('word-select-label');
             if (!lbl) return;
-            const opt = select.options[select.selectedIndex];
-            lbl.textContent = opt ? opt.textContent : '';
+            const w = WORD_LIST.find(item => item.id === select.value);
+            lbl.textContent = '';
+            if (!w) return;
+            const data = window.WORDS && WORDS[w.id];
+            let emoji = (data && data.emoji) || WORD_TITLE_EMOJI[w.id] || '';
+            // Windows has no flag glyphs: 🇨🇳 would show as a huge "CN".
+            if (/[\u{1F1E6}-\u{1F1FF}]/u.test(emoji)) emoji = '';
+            const name = w.label[uiLang] || w.label[uiLang.split('_')[0]] || w.label.en || '';
+            const add = (parent, cls, text) => { const x = document.createElement('span'); x.className = cls; x.textContent = text; parent.appendChild(x); return x; };
+            if (emoji) add(lbl, 'wt-emoji', emoji);
+            const t = add(lbl, 'wt-text', name);
+            if (w.label.en && w.label.en !== name) add(t, 'wt-en', w.label.en);
+            if (window.__wmSyncTitleCover) window.__wmSyncTitleCover();
         }
         rebuildWordSelect();
 
@@ -7201,6 +7217,7 @@
                 || (window.__langmap && typeof window.__langmap.anyFilterActive === 'function' && window.__langmap.anyFilterActive())) preloadLabelFonts(wordId);
             currentWord = wordId;
             updateRouteLegend();
+            updateWordSelectLabel();   // the word's own emoji arrives with its data
             // Re-measure here rather than only on word switch: a word's data can
             // land after the first paint, and the average is what decides whether
             // the labels need to wrap.
@@ -8604,6 +8621,20 @@
         }
         let _labTabT = null;
         const _idle = window.requestIdleCallback ? (f) => requestIdleCallback(f, { timeout: 500 }) : (f) => f();
+        // Simple display: the big title covers part of the map; labels under it go.
+        function syncTitleCover() {
+            const t = document.getElementById('word-select-label');
+            const on = t && t.firstChild && document.body.classList.contains('chrome-hidden');
+            const q = on ? t.getBoundingClientRect() : null;
+            const labels = [...document.querySelectorAll('#map .lang-label')];
+            // Read every rect first, then write, so this is one layout pass.
+            const hit = labels.map((l) => { if (!q || !q.width) return false; const r = l.getBoundingClientRect(); return r.left < q.right && r.right > q.left && r.top < q.bottom && r.bottom > q.top; });
+            labels.forEach((l, i) => l.classList.toggle('under-title', hit[i]));
+        }
+        let _ttlT = 0;
+        window.__wmSyncTitleCover = () => { clearTimeout(_ttlT); _ttlT = setTimeout(syncTitleCover, 60); };
+        map.on('moveend zoomend layeradd resize', window.__wmSyncTitleCover);
+        new MutationObserver(window.__wmSyncTitleCover).observe(document.body, { attributes: true, attributeFilter: ['class'] });
         map.on('moveend zoomend layeradd', () => { clearTimeout(_labTabT); _labTabT = setTimeout(() => _idle(syncLabelTabs), 120); });
         map.on('moveend', () => {
             updateHash();

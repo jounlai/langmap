@@ -21,7 +21,7 @@ Run after the data gains characters:  python3 tools/build_ipa_fonts.py
 import glob, hashlib, os, re, sys, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36 LangMap-build (https://langmaps.com)'
+UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 WEIGHTS = (400, 700)
 PAGES = {
     'hanmap': {'html': 'hanmap.html', 'family': 'Han Map IPA', 'file': 'hanmap-ipa', 'marker': 'HANMAP-IPA',

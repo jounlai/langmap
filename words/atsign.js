@@ -585,7 +585,7 @@ WORDS.atsign = {
     en_ck: ["at", "æt"],
     nl_be: ["apenstaartje", "ˈaːpənstaːrtjə"],
     ko_kp: ["골뱅이", "kolbɛŋi"],
-    vi_s: ["a còng", "aː˧ kɔŋ͡m˨˩"],
+    vi_s: ["a móc", "aː˧ mɔk͡p˧˥"],  // "Hooked a". English and Vietnamese Wiktionary mark a móc as the southern word and a còng as the northern one. IPA: the row's own vowel in còng with the final of its other -c words.
     ko_bus: ["골뱅이", "kolbɛŋi"],
     ko_jl: ["골뱅이", "kolbɛŋi"],
     ko_yb: ["골뱅이", "kolbɛŋi"],

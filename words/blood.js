@@ -744,7 +744,7 @@ WORDS.blood = {
     mni: "plain",
     bpy: "rakta",
     new: "swi",
-    lif: "swi",
+    lif: "plain",
     tdh: "plain",
     brx: "plain",
     adi: "plain",

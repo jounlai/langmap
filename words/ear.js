@@ -359,7 +359,7 @@ WORDS.ear = {
     ms: "caliga",
     tl: "caliga",
     ceb: "plain",
-    ilo: "caliga",
+    ilo: "plain",
     hil: "plain",
     war: "plain",
     bik: "caliga",

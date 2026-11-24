@@ -1077,7 +1077,7 @@ WORDS.rain = {
     dtp_kzj: "plain",
     xav: "plain",
     ahk: "plain",
-    tsj: "rwa",
+    tsj: "plain",
     nlc: "plain",
     glk: "plain",
     mvf: "kura",

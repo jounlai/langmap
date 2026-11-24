@@ -987,7 +987,7 @@ WORDS.hand = {
     xnr: "ghasta",
     hr: "ranka",
     bs: "ranka",
-    iba: "tangan",
+    iba: "plain",
     ljp: "plain",
     tzm: "afus",
     tmh: "afus",

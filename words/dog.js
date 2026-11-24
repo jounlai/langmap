@@ -419,7 +419,7 @@ WORDS.dog = {
     sn: "mbwa",
     mxc: "mbwa",
     ln: "mbwa",
-    ny: "mbwa",
+    ny: "plain",
     yao: "mbwa",
     en_aave: "docga",
     en_nz: "docga",

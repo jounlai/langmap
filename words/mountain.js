@@ -305,7 +305,7 @@ WORDS.mountain = {
     li: "bergaz",
     liv: "maki",
     lkt: "plain",
-    lld: "men",
+    lld: "plain",
     lmo: "men",
     ln: "plain",
     lo: "plain",

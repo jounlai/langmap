@@ -502,7 +502,7 @@ WORDS.poop = {
     dag: "plain",
     quc: "plain",
     quz: "plain",
-    ba: "plain",
+    ba: "bok",
     ksw: "yak",
     pwo: "yak",
     hni: "kloy",

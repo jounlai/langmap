@@ -357,7 +357,7 @@ WORDS.thunder = {
     vi_nom: "grem",
     fa: "raad",
     sw: "raad",
-    yo: "plain",
+    yo: "raad",
     af: "thunraz",
     nds: "thunraz",
     shi: "plain",

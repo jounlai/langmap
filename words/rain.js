@@ -122,7 +122,7 @@ WORDS.rain = {
     my: "rmew",
     kac: "plain",
     bo: "char",
-    dz: "plain",
+    dz: "char",
     xct: "char",
     xct_litpr: "char",
     hi: "waar",

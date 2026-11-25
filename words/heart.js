@@ -289,7 +289,7 @@ WORDS.heart = {
     am: "lib",
     aiw: "plain",
     sgw: "lib",
-    mg: "plain",
+    mg: "pusuq",
     ain: "plain",
     fi: "sudame",
     hu: "sudame",

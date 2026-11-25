@@ -715,7 +715,7 @@ WORDS.sleep = {
     dtp_kzj: "plain",
     mrw: "tudur",
     tsg: "tudur",
-    mdr: "plain",
+    mdr: "tudur",
     gor: "tudur",
     ljp: "pezem",
     mfa: "tidur",

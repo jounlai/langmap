@@ -1202,7 +1202,7 @@ WORDS.you = {
     ltg: "tuh",
     djr: "plain",
     ie: "plain",
-    io: "plain",
+    io: "tuh",
     vls: "juz",
     fkv: "tina",
     fit: "tina",

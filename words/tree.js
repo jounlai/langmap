@@ -816,7 +816,7 @@ WORDS.tree = {
     ace: "plain",
     gay: "kasiw",
     bug: "kasiw",
-    mdr: "plain",
+    mdr: "puqun",
     cia: "plain",
     war: "kasiw",
     bik: "kasiw",

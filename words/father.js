@@ -580,7 +580,7 @@ WORDS.father = {
     en_yk: "pter",
     en_ck: "pter",
     en_sg: "pter",
-    fy: "plain",
+    fy: "atta",
     frr: "plain",
     frr_amr: "plain",
     li: "plain",

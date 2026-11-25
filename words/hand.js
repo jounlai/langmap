@@ -666,7 +666,7 @@ WORDS.hand = {
     vi_han: "shou",
     vi_nom: "sii",
     eo: "manus",
-    vo: "plain",
+    vo: "manus",
     ia: "plain",
     tok: "plain",
     tlh: "plain",

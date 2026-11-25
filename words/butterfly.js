@@ -138,7 +138,7 @@ WORDS.butterfly = {
     en: "butorfleoge",
     de: "schmetten",
     fr: "papilio",
-    it: "plain",
+    it: "papilio",
     es: "mariposa",
     pt: "berbeleta",
     ca: "papilio",

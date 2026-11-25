@@ -207,7 +207,7 @@ WORDS.egg = {
     hmn: "plain",
     jv: "plain",
     jvn: "plain",
-    su: "plain",
+    su: "anda",
     ceb: "qicelur",
     ilo: "qicelur",
     fj: "plain",

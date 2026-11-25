@@ -1070,7 +1070,7 @@ WORDS.water = {
     quz: "plain",
     quy: "plain",
     shp: "plain",
-    cab: "plain",
+    cab: "tuna",
     crx: "plain",
     tsi: "plain",
     thp: "plain",

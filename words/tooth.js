@@ -1061,7 +1061,7 @@ WORDS.tooth = {
     bci: "plain",
     tcy: "plain",
     haz: "dantan",
-    tly: "plain",
+    tly: "dantan",
     kaa: "til",
     bej: "plain",
     tig: "plain",

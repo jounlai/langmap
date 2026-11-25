@@ -490,7 +490,7 @@ WORDS.thousand = {
     bdq: "plain",
     blr: "plain",
     bru: "qian",
-    duu: "plain",
+    duu: "stong",
     gqu: "plain",
     hmn: "qian",
     hni: "stong",

@@ -1183,7 +1183,7 @@ WORDS.fish = {
     alq: "plain",
     ckv: "plain",
     haj: "matsya",
-    dtp_kzj: "plain",
+    dtp_kzj: "sedaq",
     mez: "plain",
     nan_xm: "nga",
     nan_zz: "nga",

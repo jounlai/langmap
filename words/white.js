@@ -738,7 +738,7 @@ WORDS.white = {
     udm: "plain",
     mhr: "plain",
     mrj: "plain",
-    myv: "plain",
+    myv: "ak",
     mdf: "plain",
     krl: "welketa",
     olo: "welketa",

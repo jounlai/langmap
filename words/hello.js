@@ -639,7 +639,7 @@ WORDS.hello = {
     arn: "plain",
     cr: "plain",
     chp: "plain",
-    oj: "plain",
+    oj: "bonjour",
     atj: "plain",
     mic: "plain",
     pqm: "plain",

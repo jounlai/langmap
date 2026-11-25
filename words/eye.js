@@ -309,7 +309,7 @@ WORDS.eye = {
     cy: "plain",
     ka: "twal",
     lzz: "twal",
-    sva: "plain",
+    sva: "twal",
     hy: "okw",
     hyw: "okw",
     nv: "plain",

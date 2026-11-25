@@ -568,7 +568,7 @@ WORDS.book = {
     egl: "liber",
     ce: "plain",
     tpi: "engbook",
-    srn: "plain",
+    srn: "engbook",
     wal: "plain",
     sid: "plain",
     thr: "plain",

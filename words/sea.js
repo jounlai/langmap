@@ -1037,7 +1037,7 @@ WORDS.sea = {
     juc: "plain",
     qwc: "plain",
     ohu: "teniz",
-    onw: "plain",
+    onw: "thalassa",
     pal: "jrayas",
     xto: "plain",
     txb: "plain",

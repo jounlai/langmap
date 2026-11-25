@@ -56,7 +56,7 @@ WORDS.dog = {
   family: {
     kwa: "plain",
     jup: "plain",
-    tpy: "plain",
+    tpy: "cachorro",
     crt: "plain",
     cag: "plain",
     bwi: "plain",

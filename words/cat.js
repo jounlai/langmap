@@ -608,7 +608,7 @@ WORDS.cat = {
     ko_em: "kwoni",
     vi_han: "mraw",
     vi_nom: "meo",
-    eo: "plain",
+    eo: "cattus",
     vo: "plain",
     ia: "cattus",
     tok: "plain",

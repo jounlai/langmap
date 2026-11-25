@@ -294,7 +294,7 @@ WORDS.daughter = {
     udm: "nejde",
     mhr: "plain",
     mrj: "plain",
-    myv: "plain",
+    myv: "tutar",
     mdf: "plain",
     ug: "kiz",
     tk: "kiz",

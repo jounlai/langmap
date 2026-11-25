@@ -881,7 +881,7 @@ WORDS.mouth = {
     tok: "plain",
     hsb: "goba",
     vro: "suwe",
-    pon: "plain",
+    pon: "ngusuq",
     toj: "tyii",
     agu: "tyii",
     aer: "plain",

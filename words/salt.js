@@ -638,7 +638,7 @@ WORDS.salt = {
     ckt: "plain",
     itl: "plain",
     ykg: "plain",
-    niv: "plain",
+    niv: "dabusun",
     ket: "plain",
     vep: "sehl",
     vot: "sehl",

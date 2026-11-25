@@ -590,7 +590,7 @@ WORDS.wheel = {
     unr: "plain",
     hoc: "plain",
     srb: "plain",
-    sat: "plain",
+    sat: "cakra",
     vi_c: "banhxe",
     tyz: "banhxe",
     huv: "plain",

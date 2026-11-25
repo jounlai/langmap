@@ -885,7 +885,7 @@ WORDS.poop = {
     bla: "plain",
     swi: "taqi",
     obr: "kloy",
-    atb: "plain",
+    atb: "kloy",
     mcf: "plain",
     ng: "plain",
     dje: "plain",

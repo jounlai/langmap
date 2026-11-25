@@ -99,7 +99,7 @@ WORDS.right = {
     da: "good",
     dlg: "ong",
     nl: "straight",
-    myv: "plain",
+    myv: "straight",
     eo: "dexter",
     et: "good",
     fi: "straight",
@@ -226,7 +226,7 @@ WORDS.right = {
     hsb: "straight",
     csb: "straight",
     gv: "dexter",
-    gay: "plain",
+    gay: "wanan",
     iba: "wanan",
     pam: "wanan",
     bug: "plain",
@@ -236,7 +236,7 @@ WORDS.right = {
     itb: "wanan",
     ivv: "wanan",
     abs: "wanan",
-    sas: "plain",
+    sas: "wanan",
     ljp: "wanan",
     mhy: "wanan",
     sda: "wanan",
@@ -372,7 +372,7 @@ WORDS.right = {
     mg: "wanan",
     mr: "straight",
     wa: "straight",
-    ace: "plain",
+    ace: "wanan",
     fro: "dexter",
     non: "good",
     goh: "dexter",
@@ -434,7 +434,7 @@ WORDS.right = {
     kjg: "plain",
     kxm: "sdam",
     lic: "plain",
-    lis: "plain",
+    lis: "gya",
     mlm: "loan",
     mmd: "loan",
     mra: "plain",
@@ -452,7 +452,7 @@ WORDS.right = {
     bbc: "plain",
     bik: "straight",
     bjn: "wanan",
-    bnn: "plain",
+    bnn: "wanan",
     bto: "straight",
     bts: "plain",
     bzg: "plain",
@@ -866,7 +866,7 @@ WORDS.right = {
     lua: "other",
     bej: "plain",
     tig: "yamin",
-    grt: "plain",
+    grt: "gya",
     zh_cq: "gya",
     zh_hf: "gya",
     zh_jiao: "gya",
@@ -1248,7 +1248,7 @@ WORDS.right = {
     mg: ["havanana", "havaˈnana"],  // From Proto-Malayo-Polynesian *(ka-)wanan, like Malay kanan; no image is recorded for it, so it counts as a word of its own.
     mr: ["उजवे", "udzʋe"],  // From Sanskrit ṛjú, 'straight, right'.
     wa: ["droete", "dʁwɛt"],  // The feminine of droet, 'straight', from Latin dīrēctus.
-    ace: ["uneun", "unɨn"],  // No image is recorded for it, so it counts as a word of its own.
+    ace: ["uneun", "unɨn"],
     fro: ["destre", "ˈdɛstrə"],  // From Latin dexter.
     non: ["hǿgri", "ˈhøːɡri"],  // The comparative of hǿgr 'easy, convenient', from a word for 'skilled'.
     goh: ["zeso", "ˈtseso"],  // From Proto-Germanic tehswô, the old root of Latin dexter.

@@ -648,8 +648,8 @@ WORDS.orange = {
     glk: "portakal",
     lrc: "portakal",
     crh: "portakal",
-    tt: "portakal",
-    ba: "portakal",
+    tt: "china",
+    ba: "china",
     nso: "naranj",
     lmo: "naranj",
     pms: "portakal", // route was naranj (vi dialect rules 2026-10-06)

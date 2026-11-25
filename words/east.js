@@ -212,7 +212,7 @@ WORDS.east = {
     ab: "plain",
     os: "plain",
     tet: "rising",
-    mdr: "plain",
+    mdr: "timur",
     war: "plain",
     ks: "rising",
     kok: "plain",

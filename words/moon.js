@@ -271,7 +271,7 @@ WORDS.moon = {
     ude: "biaga",
     yrk: "plain",
     enf: "plain",
-    nio: "plain",
+    nio: "kune",
     sel: "plain",
     kca: "talce",
     ckt: "plain",

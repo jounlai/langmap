@@ -309,7 +309,7 @@ WORDS.honey = {
     ca_va: "melit",
     ext: "plain",
     nap: "melit",
-    rgn: "plain",
+    rgn: "melit",
     en_us: "hunang",
     en_ca: "hunang",
     en_za: "hunang",

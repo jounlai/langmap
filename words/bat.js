@@ -582,7 +582,7 @@ WORDS.bat = {
     an: "mouse",
     olo: "other",
     xkz: "unknown",
-    pau: "plain",
+    pau: "paniki",
     tok: "other",
     agu: "sootz",
     mix: "plain",

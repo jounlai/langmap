@@ -662,7 +662,7 @@ WORDS.white = {
     mh: "plain",
     gil: "plain",
     ch: "plain",
-    tet: "plain",
+    tet: "putiq",
     aoz: "putiq",
     bi: "hwitaz",
     pjt: "plain",

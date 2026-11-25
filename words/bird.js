@@ -1151,7 +1151,7 @@ WORDS.bird = {
     bor: "plain",
     peh: "plain",
     bej: "plain",
-    woe: "plain",
+    woe: "manuk",
     dsh: "plain",
     kpe: "plain",
     zts: "plain",

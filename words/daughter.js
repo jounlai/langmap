@@ -874,7 +874,7 @@ WORDS.daughter = {
     ach: "plain",
     laj: "plain",
     nus: "plain",
-    amw: "plain",
+    amw: "bint",
     kln: "plain",
     dbq: "plain",
     ami: "plain",

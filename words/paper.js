@@ -112,7 +112,7 @@ WORDS.paper = {
     gcr: "papyrus",
     gld: "plain",
     gv: "papyrus",
-    ha: "plain",
+    ha: "charta",
     he: "plain",
     hr: "papyrus",
     ht: "papyrus",

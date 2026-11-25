@@ -1038,7 +1038,7 @@ WORDS.thanks = {
     tji: "plain",
     nij: "terimakasih",
     sda: "plain",
-    lld: "plain",
+    lld: "gratia",
     stq: "thank",
     wym: "thank",
     ota: "shukr",

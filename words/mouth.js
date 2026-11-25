@@ -275,7 +275,7 @@ WORDS.mouth = {
     sn: "lomo",
     aa: "af",
     abe: "toni",
-    ace: "plain",
+    ace: "baqbaq",
     acf: "bucca",
     ach: "plain",
     acu: "plain",

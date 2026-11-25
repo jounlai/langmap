@@ -97,7 +97,7 @@ WORDS.cheese = {
     he: "jubn",
     fa: "panir",
     tl: "caseus",
-    tyv: "other",
+    tyv: "bislaq",
     my: "milk",
     lo: "other",
     yo: "milk",

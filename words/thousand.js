@@ -195,7 +195,7 @@ WORDS.thousand = {
     mad: "ribu",
     mrw: "ribu",
     sm: "afe",
-    tet: "plain",
+    tet: "ribu",
     min: "ribu",
     sas: "plain",
     tl: "ribu",

@@ -99,7 +99,7 @@ WORDS.eye = {
     hai: "plain",
     cic: "plain",
     ik: "plain",
-    na: "plain",
+    na: "mata",
     es_bo: "oculus",
     es_py: "oculus",
     es_pa: "oculus",

@@ -1025,7 +1025,7 @@ WORDS.bone = {
     bci: "plain",
     tcy: "elumpu",
     haz: "hesth",
-    tly: "plain",
+    tly: "hesth",
     kaa: "sunuk",
     bej: "plain",
     tig: "azm",

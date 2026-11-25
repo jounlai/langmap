@@ -69,6 +69,10 @@ WORDS.greece = {
     sw: "Ugiriki — nchi ya kusini-mashariki mwa Ulaya. Wagiriki huiita Ελλάδα Elláda, kutoka Hellas, lakini karibu hakuna lugha nyingine inayoiita hivyo. Warumi waliipa jina la Graeci, kabila dogo walilokutana nalo kwanza, na Kilatini Graecia likawa jina la Magharibi: Kiingereza Greece, Kifaransa Grèce, Kijerumani Griechenland, Kirusi Греция na Kijapani ギリシャ kupitia Kireno. Mashariki, Wagiriki wa kwanza kukutana nao walikuwa Waioni wa pwani ya Asia, kwa hiyo Kiajemi یونان Yunan, Kiarabu اليونان, Kituruki Yunanistan, Kihindi यूनान na Kiebrania יוון Yavan vyote vinatoka Ionia. Kichina 希臘 Xīlà na Kivietinamu Hy Lạp vinahifadhi jina la asili Hellas.",
   },
   family: {
+    rup: "graecia",
+    ml: "graecia",
+    koi: "hellas",
+    gd: "graecia",
     en: "graecia",
     zh: "hellas",
     hi: "ionia",
@@ -700,6 +704,10 @@ WORDS.greece = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    rup: ["Gãrtsii", "ɡərtsii"],  // en.wiktionary Gãrtsii "Greece", ultimately from Latin Graecia.
+    ml: ["ഗ്രീസ്", "ɡriːsɨ"],  // translation table + Wikipedia article title ml: ഗ്രീസ്.
+    koi: ["Эллада", "elːada"],  // translation table + Wikipedia article title koi: Эллада.
+    gd: ["a' Ghrèig", "ə ˈʝɾʲeːkʲ"],  // English Wiktionary, a' Ghrèig.
     en: ["Greece", "ɡɹiːs"],  // From Old French Grece, from Latin Graecia, from Ancient Greek Γραικός; it displaced the native Old English Grēcland (Wiktionary).
     zh: ["希腊", "ɕi˥ lä˥˩"],  // Ultimately from Ancient Greek Ἑλλάς Hellas, the Greeks' own name; the spelling is attested from 1837 (Wiktionary).
     hi: ["यूनान", "juːnaːn"],  // Borrowed from Classical Persian یونان Yūnān, from the Ionians; ग्रीस grīs, from English Greece, is also used (Wiktionary).

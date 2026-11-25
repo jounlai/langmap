@@ -65,6 +65,8 @@ WORDS.tomato = {
     sw: "Nyanya — tunda jekundu linaloliwa kama mboga. Jina lake la Kiazteki, Kinahuatl tomatl, lilizunguka dunia kama tomate, tomato na トマト. Kiitaliano pomodoro ni \"tufaha la dhahabu\", lililopitishwa kwa Kirusi помидор na Kipolandi pomidor; Kihungari paradicsom ni \"tufaha la peponi\", na Kiebrania עגבנייה liliundwa kwa mfano wa Kijerumani Liebesapfel, \"tufaha la upendo\". Asia iliona biringanya ya kigeni: Kichina 番茄, Kithai มะเขือเทศ, Kiajemi گوجه‌فرنگی \"plamu ya Ulaya\", Kivietinamu cà chua \"biringanya chachu\".",
   },
   family: {
+    lzz: "unknown",
+    aoz: "unknown",
     en: "nahuatl",
     zh: "foreign",
     zh_tw: "foreign",
@@ -651,6 +653,8 @@ WORDS.tomato = {
     },
   },
   data: {
+    lzz: ["ბალუჯაღი", "baludʒaɣi"],  // English Wiktionary entry ბალუჯაღი.
+    aoz: ["kauliman", "kauliman"],  // English Wiktionary, kauliman.
     en: ["tomato", "təˈmɑːtəʊ"],  // From Spanish tomate, from Nahuatl tomatl.
     zh: ["番茄", "fan˥ tɕʰjɛ˧˥"],  // 番 'foreign' + 茄 'eggplant': the 'foreign eggplant'; 西红柿 is the other everyday word in Mainland China.
     zh_tw: ["番茄", "fan˥ tɕʰjɛ˧˥"],  // 番 'foreign' + 茄 'eggplant': the 'foreign eggplant'.

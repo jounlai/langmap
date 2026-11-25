@@ -63,6 +63,7 @@ WORDS.whale = {
     sw: "Nyangumi — mamalia mkubwa wa baharini. Lugha nyingi bado humwita samaki: Kiholanzi walvis, Kichina 鲸鱼, Kivietinamu cá voi \"samaki tembo\". Kiingereza whale, Kifaransa baleine na Kirusi кит ni maneno yao. Lugha zilizo mbali na bahari mara nyingi hazina neno lake.",
   },
   family: {
+    gcf: "balaena",
     itb: "plain",
     lb: "hwal",
     gcr: "balaena",
@@ -590,6 +591,7 @@ WORDS.whale = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    gcf: ["balenn", "balɛ̃n"],  // English Wiktionary, balenn.
     itb: ["royong", "rojoŋ"],  // From ACD Itbayaten: royoŋ.
     lb: ["Wal", "vaːl"],  // From German Wal, the old Germanic whale word (Old High German wal), cognate with English whale.
     gcr: ["balenn", "balɛn"],  // Inherited from French baleine, from Latin balaena.

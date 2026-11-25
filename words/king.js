@@ -1078,7 +1078,7 @@ WORDS.king = {
     udm: ["эксэй", "eksej"],
     mhr: ["кугыжа", "kuɡəˈʒa"],
     mrj: ["король", "korolʲ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    krl: ["kuninkas", "ˈkuniŋkɑs"],
+    krl: ["kuninkaš", "ˈkuniŋkɑʃ"],
     olo: ["kunigas", "ˈkuniɡas"],
     vep: ["kunigaz", "kuniɡaz"],
     vot: ["kunikõz", "ˈkunikɑz"],

@@ -73,6 +73,9 @@ WORDS.language = {
     sw: "Lugha — lugha fulani, kama katika \"lugha ya Kijapani\". Lugha nyingi huiita kwa jina la ulimi au la kusema. Kifaransa langue, Kirusi язык, Kituruki dil na Kiajemi zabān maana yake ni ulimi, na Kiingereza language pia kinatoka Kifaransa cha kale langue. Kijerumani Sprache, Kiholanzi taal na Kisanskriti bhāṣā maana yake ni usemi, na bhāṣā ilifika hadi Kihindi, Kithai na Kiindonesia bahasa. Kichina 语言 na Kijapani 言語 ni \"usemi\" + \"maneno\". Kisomali af maana yake ni mdomo, Kiebrania שפה mdomo wa juu au chini, Kivietinamu tiếng sauti. Neno la Kiswahili lugha limetoka Kiarabu.",
   },
   family: {
+    nmn: "voice",
+    fax: "speech",
+    bla: "speech",
     jya: "plain",
     pmi: "plain",
     duu: "plain",
@@ -974,6 +977,9 @@ WORDS.language = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    nmn: ["ǂàã", "ǂãã"],  // English Wiktionary entry ǂàã.
+    fax: ["fala", "ˈfala"],  // English Wiktionary, fala.
+    bla: ["iʼpówahsin", "iʔpówaxsin"],  // English Wiktionary, i'pówahsin-.
     jya: ["tə-rjo", "tərjo"],  // From naganorgyalrongic rGyalrong (Maerkang Soman): tə-rjo.
     pmi: ["ɬiɛ55", "ɬiɛ˥˥"],  // From suntb Pumi (Taoba): ɬiɛ⁵⁵.
     duu: ["kɑt", "kɑt"],  // From suntb Trung [Dulong]: kɑ̆t⁵⁵.

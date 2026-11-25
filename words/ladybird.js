@@ -489,7 +489,7 @@ WORDS.ladybird = {
     li: ["slivvenhierebieske", "slɪvəˈniːrəbiskə"],  // 'Our God's little animal': Slivvenhier 'Our God' plus bieske 'little animal, little cow', like Dutch lieveheersbeestje.
     vot: ["jumalõlintu", "ˈjumalɤlintu"],  // Jumalõ 'god' + lintu 'bird'.
     cic: ["loksiʼ", "loksiʔ"],  // The same word means tortoise or turtle.
-    krl: ["spuassunlehmä", "ˈspuɑ̯sːunlehmæ"],  // Spuassu 'the Saviour, Christ' + lehmä 'cow': the Saviour's cow.
+    krl: ["jumalanlehmä", "ˈjumɑlɑnlehmæ"],  // Spuassu 'the Saviour, Christ' + lehmä 'cow': the Saviour's cow.
     nn: ["marihøne", "ˈmɑːriˌhøːnə"],  // Mari 'Mary, the mother of Jesus' + høne 'hen'.
     tly: ["donəjən", "donəʒən"],  // Probably donə 'single grain or berry' plus jən, a stem of je.
     koi: ["енӧшка", "jeˈnɘʃka"],  // Also the Komi-Permyak word for the rainbow. Lytkin derives it from ен 'God, sky' + ӧш- (as in ӧшмӧс 'well') + -ка (Wiktionary), and Panyukov (2024), after Lytkin and Gulyaev, reads it as the 'heavenly spring'; he explains the ladybird sense as the word re-read as ен 'God' + ӧшка 'bull', a 'God's bull' to match Russian божья коровка 'God's little cow'.

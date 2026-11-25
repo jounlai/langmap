@@ -67,6 +67,11 @@ WORDS.china = {
     sw: "Uchina — nchi ya Asia ya Mashariki. Majina yake yalikuja kwa njia tatu. Kichina Zhōngguó, Kijapani Chūgoku, Kikorea Jungguk na Kivietinamu Trung Quốc husoma wenyewe herufi 中國 \"Ufalme wa Kati\". Kisanskriti Cīna, huenda kutokana na nasaba ya Qin iliyoiunganisha China kwa mara ya kwanza, kilienda magharibi kupitia Kiajemi Čīn na kusini kupitia Kimalei Cina: Kiingereza China, Kifaransa Chine, Kihindi चीन, Kituruki Çin, Kiarabu الصين. Wakhitan, waliotawala China ya kaskazini miaka elfu iliyopita, waliipa Asia ya Kati na Urusi jina la pili: Kimongolia Хятад, Kirusi Китай na Cathay ya Marco Polo.",
   },
   family: {
+    sgs: "cina",
+    inh: "unknown",
+    koi: "cina",
+    hil: "other",
+    bar: "cina",
     en: "cina",
     zh: "zhongguo",
     hi: "cina",
@@ -612,6 +617,11 @@ WORDS.china = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    sgs: ["Kėnėjė", "kʲeːnʲeːjeː"],  // title of the sgs Wikipedia article and en.wiktionary table.
+    inh: ["Ченкехье", "tʃenkeħe"],  // translation table + Wikipedia article title inh: Ченкехье.
+    koi: ["Кина", "kina"],  // translation table + Wikipedia article title koi: Кина.
+    hil: ["Kainsikan", "kaʔinsiˈkan"],  // English Wiktionary entry Kainsikan.
+    bar: ["Kina", "ˈkʰiːna"],  // English Wiktionary, Kina.
     en: ["China", "ˈtʃaɪnə"],  // Borrowed in the 16th century from Portuguese and Spanish China, from an Indian form like Sanskrit Cīna, usually traced to the Qin 秦 state and dynasty (Wiktionary).
     zh: ["中国", "ʈʂʊŋ˥ kwo˧˥"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
     hi: ["चीन", "tʃiːn"],  // Borrowed from Sanskrit Cīna, usually traced to the Qin 秦 dynasty (Wiktionary).

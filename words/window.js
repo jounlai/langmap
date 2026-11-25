@@ -73,6 +73,7 @@ WORDS.window = {
     sw: "Dirisha — tundu ukutani linaloingiza mwanga na hewa. Window ya Kiingereza ni “jicho la upepo” la Kinorsi cha Kale, na okno ya Kislavoni inatoka neno la jicho. Fenestra ya Kilatini ilienea Ulaya yote. Janela ya Kireno ni “mlango mdogo”, na ilisafiri hadi Indonesia.",
   },
   family: {
+    prs: "khidki",
     jiu: "plain",
     ab: "panjara",
     agx: "plain",
@@ -829,6 +830,7 @@ WORDS.window = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    prs: ["کلکین", "kilˈkiːn"],  // en.wiktionary Persian entry.
     jiu: ["a33pho35", "a˧˧pʰo˧˥"],  // From suntb Jinuo: a³³pho³⁵.
     ab: ["аԥенџьыр", "apʰendʒɨr"],
     agx: ["дакІар", "dakʼar"],
@@ -1061,7 +1063,7 @@ WORDS.window = {
     nio: ["сиәз̌ыр", "sʲiəðɨr"],
     hyw: ["պատուհան", "pɑtuˈhɑn"],
     aln: ["dritare", "dɾitaɾɛ"],
-    nn: ["vindu", "ˈvɪndʉː"],
+    nn: ["vindauge", "ˈvɪndæʉɡə"],
     no: ["vindu", "ˈvɪndʉː"],
     en: ["window", "ˈwɪndəʊ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye'.
     evn: ["окно", "okno"],

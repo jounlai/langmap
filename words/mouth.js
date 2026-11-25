@@ -1419,7 +1419,7 @@ WORDS.mouth = {
     ga: ["béal", "bʲeːl̪ˠ"],
     gd: ["beul", "pial̪ˠ"],
     cy: ["ceg", "keːɡ"],
-    br: ["genou", "ˈɡeːnu"],
+    br: ["genoù", "ˈɡeːnu"],
     hy: ["բերան", "beˈɾɑn"],
     ka: ["პირი", "pʼiri"],
     az: ["ağız", "ɑˈɣɯz"],

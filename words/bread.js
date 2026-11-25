@@ -78,6 +78,8 @@ WORDS.bread = {
     sw: "Mkate — unga uliokandwa kwa maji na kuokwa. Kilatini pānis bado kipo katika Kifaransa pain, Kihispania pan na Kiitaliano pane, na Kireno pão kilisafiri kwa meli hadi Japani kikawa パン, kisha Korea kikawa 빵. Lugha za Kijerumani zilikuwa na maneno mawili: Kiingereza bread na Kijerumani Brot, na neno la zamani zaidi, Kiingereza loaf, ambalo Kislavoni kilikopa kama хлеб na Kifinlandi kama leipä. Kiajemi nān kilienea Asia ya Kati yote, Kihindustani roṭī kikawa Kimalei roti, na Kiswahili mkate maana yake ni 'kilichokatwa'.",
   },
   family: {
+    crk: "pahkwesikan",
+    bo: "plain",
     enf: "plain",
     lb: "braud",
     cic: "plain",
@@ -887,6 +889,8 @@ WORDS.bread = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    crk: ["ᐸᐦᑵᓯᑲᐣ", "pahkweːsikan"],  // English Wiktionary, pahkwêsikan.
+    bo: ["བག་ལེབ", "pʰaʔ˩˧ lep˥"],  // English Wiktionary, བག་ལེབ.
     enf: ["kirba", "kirba"],  // From northeuralex enf кирба (row romanisation).
     lb: ["Brout", "bʁeu̯t"],  // From Central Franconian Brot.
     cic: ["paska", "paska"],
@@ -1181,7 +1185,7 @@ WORDS.bread = {
     gsw: ["Brot", "broːt"],
     wae: ["Brot", "broːt"],
     ksh: ["Brot", "bʁoːt"],
-    sgs: ["duona", "ˈduɔna"],
+    sgs: ["douna", "ˈdɔuna"],
     en_south: ["bread", "bɹɛd"],
     en_app: ["bread", "bɹɛd"],
     en_in: ["bread", "brɛɖ"],

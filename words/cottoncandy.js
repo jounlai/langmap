@@ -75,6 +75,7 @@ WORDS.cottoncandy = {
     sw: "Pipi ya pamba — sukari iliyoyeyushwa na kusokotwa kuwa nyuzi nyembamba kwenye kijiti, tamu ya maonyesho na sherehe. Lugha nyingi huiita pamba: 棉花糖, 솜사탕, algodón de azúcar, na Zuckerwatte na сахарная вата, 'pamba ya sukari'. Nyingine huiona kama uzi uliosokotwa (candyfloss, zucchero filato, Kithai สายไหม 'uzi wa hariri'), sufu (Kiajemi پشمک), au nywele za mtu: Kifaransa barbe à papa 'ndevu za baba', Kigiriki na Kihindi 'nywele za bibi kizee'.",
   },
   family: {
+    gd: "wool",
     en: "thread",
     en_us: "cotton",
     en_ca: "cotton",
@@ -224,6 +225,7 @@ WORDS.cottoncandy = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    gd: ["clòimh mhilis", "kʰl̪ˠɔ̃ːj ˈvilɪʃ"],  // English Wiktionary, clòimh mhilis.
     en: ["candyfloss", "ˈkændiflɒs"],  // The British word; Americans say cotton candy, Australians fairy floss.
     en_us: ["cotton candy", "ˈkɑtn̩ kændi"],  // The American name, after its cotton-like look; Britain says candyfloss.
     en_ca: ["cotton candy", "ˈkɑtn kændi"],  // The North American name, as in the United States.

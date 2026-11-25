@@ -71,6 +71,9 @@ WORDS.germany = {
     sw: "Ujerumani — nchi iliyoko Ulaya ya Kati. Ni nchi chache zenye majina yaliyotawanyika hivi. Wajerumani wenyewe huiita Deutschland, kutoka neno la kale lenye maana ya \"la watu\", na majirani wa kaskazini vivyo hivyo (Kiholanzi Duitsland, Kiswidi Tyskland); Kijapani ドイツ kiliingia kupitia Kiholanzi, na Kichina 德国 na Kikorea 독일 vinatoka neno hilohilo. Kiingereza Germany, Kiitaliano Germania, Kirusi Германия na Kiswahili Ujerumani vinahifadhi jina la Kirumi. Kifaransa Allemagne, Kihispania Alemania, Kiarabu ألمانيا na Kituruki Almanya vinaitaja kwa kabila la Alamanni ng'ambo ya mto Rhine. Kipolandi Niemcy na Kicheki Německo vinatoka Kislavoni němьcь \"mabubu\", yaani wasiozungumza Kislavoni; Kifinlandi Saksa kinawataja Wasaksoni.",
   },
   family: {
+    vls: "deutsch",
+    koi: "nemets",
+    bo: "germania",
     en: "germania",
     zh: "deutsch",
     hi: "germania",
@@ -580,6 +583,9 @@ WORDS.germany = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    vls: ["Duutsland", "ˈdyːtslɑnt"],  // nl.wiktionary Duutsland.
+    koi: ["Немечму", "ɲemetɕmu"],  // translation table + Wikipedia article title koi: Немечму.
+    bo: ["འཇར་མན", "tɕaː˩˧ mɛ̃˥"],  // English Wiktionary, འཇར་མན.
     en: ["Germany", "ˈdʒɜːməni"],  // From Latin Germania, the Roman name for the lands of the Germanic peoples.
     zh: ["德国", "tɤ˧˥ kwo˧˥"],  // 德 Dé is short for 德意志 Déyìzhì, a transcription of Deutsch, plus 国 'country' (Wiktionary).
     hi: ["जर्मनी", "dʒəɾməniː"],  // Borrowed from English Germany (Wiktionary).

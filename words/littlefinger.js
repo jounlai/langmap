@@ -928,7 +928,7 @@ WORDS.littlefinger = {
     cho: ["ibbak ush ahli", "ibbak uʃ ahli"],  // Literally the 'end finger' (ibbak ushi 'finger' + ʋhli 'edge, end'), as iyush ʋhli is the 'end toe'; Byington writes it ibbak ush ʋhli, here with ʋ as a as in the row's other words (achafa for Byington achʋfa).
     hsb: ["małušk", "ˈmawuʃk"],  // Built on mały 'small', like the descriptive mały porst 'small finger' that the dictionary gives beside it; the same word also names the little toe.
     frr: ["latjfainger", "ˈlatʲfaiŋɐ"],  // Literally 'little finger' (latj 'little' + fainger 'finger'); it is also written as two words, di latje fainger.
-    krl: ["čagari", "ˈtʃɑɡɑri"],  // Karelian's own word for the little finger, the same word as Livvi and Ludian čagari.
+    krl: ["čakari", "ˈtʃɑkɑri"],  // Karelian's own word for the little finger, the same word as Livvi and Ludian čagari.
     olo: ["čagari", "ˈtʃaɡari"],  // Livvi's own word for the little finger (genitive čagarin), shared with Karelian Proper and Ludian; VepKar also lists the variant čagoi. No image is recorded for it, so it counts as a word of its own.
     kmh: ["sabdaŋ", "sabədaŋ"],  // Kalam's own word for the little finger, which is also 'one' in the body-part counting system that starts from it; saglaŋ is a synonym. No image is recorded for it, so it counts as a word of its own.
     pau: ["ngalek", "ˈŋalək"],  // The same word as ngalek 'child, baby', so the little finger is the 'child' of the hand.

@@ -77,6 +77,8 @@ WORDS.mirror = {
     sw: "Kioo — kioo unachojiona ndani yake. Majina mengi yamejengwa juu ya kitenzi cha \"kuona\": Kilatini speculum kilizaa espejo na Spiegel, Kilatini mīrārī kilizaa miroir na mirror, na Kirusi зеркало, Kituruki güzgü na Kiarabu مرآة vyote vinatoka \"kuona\". Kiajemi āyina kilienea hadi Kituruki ayna na Kihindi आईना. Kijapani かがみ ni \"kuona kivuli\", Kiswahili kioo ni glasi tu, na Kitamili கண்ணாடி kimejengwa juu ya neno la \"jicho\".",
   },
   family: {
+    prs: "ayna",
+    mwl: "speculum",
     sms: "plain",
     smj: "speculum",
     jiu: "plain",
@@ -294,7 +296,7 @@ WORDS.mirror = {
     chr: "look",
     bal: "ayna",
     yua: "neen",
-    krl: "look",
+    krl: "speculum",
     gmh: "speculum",
     mak: "cermin",
     es_cr: "speculum",
@@ -843,6 +845,8 @@ WORDS.mirror = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    prs: ["آیینه", "ɑːjiːˈna"],  // en.wiktionary Persian entry.
+    mwl: ["speilho", "ˈspɐjʎu"],  // translation table + Wikipedia article title mwl: Speilho.
     sms: ["sueiʹmkar", "ˈsuɛimʲkɒr"],  // From northeuralex sms suei´mkar.
     smj: ["spiedjil", "ˈspiɛdʒil"],  // From northeuralex smj spiedjil.
     jiu: ["a33mɛ44pɹa33ji33", "a˧˧mɛ˦˦pɹa˧˧ji˧˧"],  // From suntb Jinuo: a³³mɛ⁴⁴pɹa³³ji³³.
@@ -1060,7 +1064,7 @@ WORDS.mirror = {
     chr: ["ᎠᏓᎨᏗ", "ataːkʰeːhti"],  // From 'he is looking at himself in a mirror'.
     bal: ["آدینک", "aːdik"],  // Related to Persian آیینه.
     yua: ["néen", "neːn˥"],
-    krl: ["zirkalo", "ˈzʲirkɑlo"],
+    krl: ["peili", "ˈpeili"],
     gmh: ["spiegel", "ˈspiə̯ɡəl"],
     mak: ["carammeng", "tʃaˈramːeŋ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     es_cr: ["espejo", "esˈpeho"],

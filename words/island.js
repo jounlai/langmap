@@ -76,6 +76,10 @@ WORDS.island = {
     sw: "Kisiwa — nchi kavu iliyozungukwa na maji pande zote. Kilatini īnsula kilizaa isla, île na Kijerumani Insel; Kijerumani cha kale eiland na Kiingereza island ni \"nchi katikati ya maji\"; Kislavoni остров na otok ni nchi katikati ya mkondo. Kiarabu jazīra na Kisanskriti dvīpa vilienea Asia, Kipolinesia motu ni \"kilichokatika\", na Kichina 島 kikawa Kivietinamu đảo.",
   },
   family: {
+    prs: "jazira",
+    krc: "plain",
+    gan: "dao",
+    cdo: "dao",
     aa: "jazira",
     abe: "menehsi",
     acw: "jazira",
@@ -836,6 +840,10 @@ WORDS.island = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    prs: ["جزیره", "dʒaziːˈra"],  // en.wiktionary Persian entry.
+    krc: ["айрымкан", "ajrɯmˈkan"],  // translation table + Wikipedia article title krc: Айрымкан.
+    gan: ["岛", "tau˨˩˧"],  // Wiktionary 島.
+    cdo: ["岛", "to˧˧"],  // Wiktionary 島.
     aa: ["gadiri", "ɡadiri"],  // From Arabic jazīra.
     abe: ["mnahan", "mnahan"],
     acw: ["جزيرة", "dʒaziːra"],  // From Arabic jazīra.
@@ -1535,7 +1543,7 @@ WORDS.island = {
     toj: ["isla", "isla"],
     aau: ["oionwaw", "oionwaw"],
     hyw: ["կղզի", "ɡəʁˈzi"],
-    xmf: ["კუნძული", "kʼundzuli"],
+    xmf: ["კოკი", "kʼokʼi"],
     jya: ["tʃə rtɐk", "tʃərtɐk"],
     kr: ["kə́rtá", "kə́rtá"],
     bej: ["jasire", "dʒasire"],

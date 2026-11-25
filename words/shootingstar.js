@@ -64,6 +64,7 @@ WORDS.shootingstar = {
     sw: "Kimondo — mstari wa mwanga wa kimondo kinachoungua angani. Lugha nyingi huona nyota inayoanguka (Kiitaliano stella cadente, Kirusi падающая звезда, Kithai ดาวตก) au inayotiririka mbali (Kijapani 流れ星, Kichina 流星, Kihispania estrella fugaz \"nyota ya kupita\"). Kijerumani Sternschnuppe ni utambi wa mshumaa wa nyota uliokatwa, Kihindi टूटता तारा \"nyota inayovunjika\", na Kikorea 별똥별 na Kimalei tahi bintang ni \"kinyesi cha nyota\". Kiswahili kimondo ni neno lake lenyewe.",
   },
   family: {
+    bo: "other",
     en: "moving",
     zh: "moving",
     yue: "moving",
@@ -396,6 +397,7 @@ WORDS.shootingstar = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    bo: ["སྐར་མདའ", "kaː˥ ta˥"],  // English Wiktionary, སྐར་མདའ.
     en: ["shooting star", "ʃuːtɪŋ stɑː"],  // A star that 'shoots' across the sky; falling star is a common synonym.
     zh: ["流星", "ljoʊ˧˥ ɕiŋ˥"],  // Literally 'flowing star'; the Beijing colloquial alternative is 贼星 'thief star'.
     yue: ["流星", "lɐu˨˩ sɪŋ˥"],  // Literally 'flowing star', as in Mandarin.

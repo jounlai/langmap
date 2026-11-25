@@ -66,6 +66,15 @@ WORDS.cockroach = {
     sw: "mende — mdudu msumbufu wa nyumbani. Neno la Kihispania cucaracha liligeuka kwa Kiingereza kuwa cockroach, kana kwamba ni cock + roach; neno la Kiholanzi kakkerlak lilienea katika lugha za Bahari ya Kaskazini, na neno la Kituruki lilifika mashariki kama таракан ya Kirusi. Kifaransa humwita cafard, kutoka Kiarabu kāfir 'kafiri'. Lugha nyingi humwita kwa jina la watu jirani (Kicheki šváb 'Mswabia', Kilatvia prusaks 'Mprasia'), kwa mkate, mafuta au bafu ya umma (Kituruki hamam böceği). Kijapani ゴキブリ kinatoka gokikaburi 'mtafuna bakuli'.",
   },
   family: {
+    ro: "plain",
+    sq: "plain",
+    za: "plain",
+    su: "plain",
+    sm: "plain",
+    prs: "plain",
+    mi: "cucaracha",
+    kok: "plain",
+    ivv: "sipes",
     mzh: "plain",
     bdk: "plain",
     kek: "plain",
@@ -337,6 +346,15 @@ WORDS.cockroach = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    ro: ["gândac", "ɡɨnˈdak"],  // en.wiktionary gândac "beetle.
+    sq: ["kacabu", "katsaˈbu"],  // Albanian dictionary text in sq.wiktionary: black insect living in houses.
+    za: ["sap", "θaːp˧˥"],  // en.wiktionary sap.
+    su: ["cucunguk", "tʃutʃuŋuk"],  // en.wiktionary cucunguk.
+    sm: ["mogamoga", "moŋamoŋa"],  // en.wiktionary mogamoga.
+    prs: ["مادر کیکان", "mɑːdari kajˈkɑːn"],  // en.wiktionary Persian entry.
+    mi: ["kokoroihe", "kokoɾoihe"],  // translation table + Te Aka Māori Dictionary: kokoroihe.
+    kok: ["जल्लो", "dʒəlːo"],  // English Wiktionary entry जल्लो.
+    ivv: ["ipues", "ipuɨs"],  // English Wiktionary entry ipues.
     mzh: ["nafwuluj", "nafʷulux"],  // From wold, sabor Wichí nafwuluj.
     bdk: ["лем", "lem"],  // From ids Budukh лем.
     kek: ["paachach", "paːtʃatʃ"],  // From wold, sabor Qʼeqchiʼ paachach.

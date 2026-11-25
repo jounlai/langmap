@@ -74,6 +74,9 @@ WORDS.maize = {
     sw: "Mahindi — nafaka iliyolimwa kwanza Amerika. Kihispania kilichukua jina lake kutoka neno la Kitaino mahiz, lakini sehemu kubwa ya dunia iliujua mmea huu bila neno hilo. Lugha nyingi ziliuita kwa jina la nafaka iliyojulikana tayari, au kwa jina la mahali ulikodhaniwa kutoka: Uturuki, Misri, India.",
   },
   family: {
+    pnb: "makka",
+    mn: "plain",
+    gd: "place",
     ace: "grain",
     acn: "plain",
     agr: "plain",
@@ -714,6 +717,9 @@ WORDS.maize = {
     },
   },
   data: {
+    pnb: ["مکی", "məkːiː"],  // title of the pnb Wikipedia article on maize.
+    mn: ["эрдэнэ шиш", "erdene ʃiʃ"],  // translation table + Wikipedia article title mn: Эрдэнэ шиш.
+    gd: ["coirce Innseanach", "ˈkʰɔɾ̥kə ˈĩːʃənəx"],  // English Wiktionary, coirce Innseanach.
     ace: ["jagong", "ɟaɡoŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     acn: ["xau31tʂhaʔ55", "xau˧˩tʂʰaʔ˥˥"],
     agr: ["shaa", "ʃaː"],

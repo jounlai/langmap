@@ -67,6 +67,7 @@ WORDS.wife = {
     sw: "Mke — mwanamke katika ndoa. Lugha nyingi zaidi zina neno lake, nyingine husema tu “mwanamke”, na chache hutumia neno moja kwa wanandoa wote.",
   },
   family: {
+    ne: "unknown",
     rim: "unknown",
     myx: "unknown",
     jqr: "unknown",
@@ -1007,6 +1008,7 @@ WORDS.wife = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    ne: ["पत्नी", "pʌtni"],  // translation table + Wikipedia article title ne: पत्नी.
     rim: ["mukhema", "mukʰema"],  // From grollemundbantu, tls Nyaturu mukhema.
     myx: ["umukhasi", "umukʰasi"],  // From grollemundbantu, tls Lumasaaba umukhasi.
     jqr: ["warmi", "waɾmi"],  // From crossandean Jaqaru warmi.
@@ -1126,7 +1128,7 @@ WORDS.wife = {
     mad: ["bine", "bine"],  // A different word from bebini' 'woman' (Wiktionary), so wife has a word of its own, as Icelandic eiginkona beside kona does.
     mrw: ["kawiŋ", "kawiŋ"],
     sm: ["āvā", "aːvaː"],  // The ABVD Samoan list gives fafine for woman and tāne for husband.
-    tet: ["fen", "fen"],  // The ABVD Tetun list gives feto for woman and la'en for husband.
+    tet: ["feen", "feːn"],  // The ABVD Tetun list gives feto for woman and la'en for husband.
     min: ["bini", "bini"],  // The ABVD Minangkabau list gives padusi for woman and laki for husband.
     sas: ["səninə", "səninə"],  // A different word from nina 'woman, female' (Wiktionary), so wife has a word of its own.
     ljp: ["majəw", "majəw"],  // The ABVD Lampung list gives səbay for woman and lakəy for husband.

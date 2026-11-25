@@ -74,6 +74,7 @@ WORDS.wednesday = {
     sw: "Jumatano — siku ya katikati ya wiki. Roma iliiweka wakfu kwa Mercurius, mungu na sayari ya Zebaki (mercredi, miércoles), na unajimu wa India kwa sayari hiyo hiyo (बुधवार), hadi Kithai พุธ na, kama \"sayari ya maji\", Kijapani 水曜日. Wajerumani wa kale walimweka Woden: Wednesday, woensdag, onsdag. Kijerumani kilitafsiri \"katikati ya wiki\" ya Kilatini cha Kanisa kuwa Mittwoch, kama Kislavoni среда na środa. Kiayalandi Céadaoin ni \"mfungo wa kwanza\". Wiki zinazohesabiwa huifanya \"ya tatu\" (星期三) au \"ya nne\" (Kigiriki Τετάρτη, Kiarabu الأربعاء, Kituruki çarşamba).",
   },
   family: {
+    atj: "count",
     lb: "middle",
     na: "plain",
     afb: "count",
@@ -730,6 +731,7 @@ WORDS.wednesday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    atj: ["nicto kicikaw", "niʃto kiʃikaw"],  // Omniglot, days of the week.
     lb: ["Mëttwoch", "ˈmetvoχ"],
     na: ["Mitwok", "mitwok"],
     afb: ["الاربعا", "ɪlˌərˈbɪʕə"],

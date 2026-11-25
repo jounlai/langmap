@@ -76,6 +76,11 @@ WORDS.cheese = {
     sw: "Jibini — maziwa yaliyogandishwa, kubanwa na kuhifadhiwa. Kilatini cāseus kilizaa Kijerumani Käse, Kiingereza cheese na Kihispania queso, na kupitia Kiingereza Kijapani チーズ. Lakini Warumi pia walisema cāseus formāticus, 'jibini lililotengenezwa kwenye kalibu', na Kifaransa fromage na Kiitaliano formaggio vilibaki na kalibu tu. Kislavoni сыр ni jamaa wa Kilituania sūris, kutoka 'chumvi', Kiajemi panīr kilienda Kituruki peynir na Kihindi पनीर, Kiswahili jibini kinatoka Kiarabu جبن, na kwa Kiyoruba jibini ni 'maziwa machachu' tu.",
   },
   family: {
+    xal: "plain",
+    sgs: "syr",
+    kn: "plain",
+    gcf: "formaticum",
+    apw: "plain",
     lb: "caseus",
     afb: "jubn",
     acw: "jubn",
@@ -611,6 +616,11 @@ WORDS.cheese = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    xal: ["ээзгә", "eːzɡæ"],  // ru.wiktionary ээзгә.
+    sgs: ["sūris", "suːrʲɪs"],  // title of the sgs Wikipedia article and en.wiktionary table.
+    kn: ["ಗಿಣ್ಣು", "ɡiɳːu"],  // translation table + Wikipedia article title kn: ಗಿಣ್ಣು.
+    gcf: ["fomaj", "fomaʒ"],  // English Wiktionary, fomaj.
+    apw: ["ibeʼ nestʼógi", "ibeʔ nestʼóɡi"],  // English Wiktionary, ibeʼ nestʼógi.
     lb: ["Kéis", "kɜɪ̯s"],
     afb: ["جبن", "dʒɪbɪn"],
     acw: ["جبنة", "dʒubna"],
@@ -819,7 +829,7 @@ WORDS.cheese = {
     es_cu: ["queso", "ˈkeso"],
     es_pe: ["queso", "ˈkeso"],
     es_an: ["queso", "ˈkeso"],
-    ext: ["queso", "ˈkeso"],
+    ext: ["quesu", "ˈkesu"],
     ko_hg: ["치즈", "tɕʰidʑɯ"],
     ko_jl: ["치즈", "tɕʰidʑɯ"],
     gsw_w: ["Chääs", "xæːs"],

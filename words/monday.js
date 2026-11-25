@@ -325,7 +325,7 @@ WORDS.monday = {
     rap: "moon",
     niu: "other",
     tkl: "other",
-    dz: "moon",
+    dz: "other",
     dtp: "other",
     crh: "after",
     ban: "moon",
@@ -1062,7 +1062,7 @@ WORDS.monday = {
     rap: ["monirē", "moniɾeː"],  // The same name as Tahitian Monirē. Route by resemblance to the neighbouring forms (rar(Mōnitē) rtm(Mạnre)); no etymology of its own.
     niu: ["Aho Gofua", "aho ŋofua"],  // aho "day" + gofua; Tuesday is Aho Ua "day two". Route by resemblance to the neighbouring forms (sm(Aso Gafua)); no etymology of its own.
     tkl: ["Aho Gafua", "aho ŋafua"],  // aho "day" + gafua; Tuesday is Aho Lua "day two". Route by resemblance to the neighbouring forms (sm(Aso Gafua)); no etymology of its own.
-    dz: ["གཟའ་ཟླ་བ", "za dau"],  // "Planet Moon": gza' "planet, weekday" + zla ba "moon", the Tibetan planetary weekday name. The lead མིག་དམར (Mars) is Tuesday.
+    dz: ["གཟའ་མིག་དམར", "za miɡmar"],  // Dzongkha names the weekdays one day off Tibetan: this is the 'Mars' day, and གཟའ་ཟླ་བ is Sunday (Wiktionary, Omniglot).
     dtp: ["Tadau Tontolu", "tadau tontolu"],  // "Egg day", the first of a week whose days are named egg, hatch, larva, pupa, grow, change, fly; the numbered Tadau Koiso "day one" is also listed.
     crh: ["bazarertesi", "bazarertesi"],  // "The day after Sunday": bazar "market; Sunday" + ertesi "its following day".
     ban: ["Soma", "soma"],  // The second day of the Balinese seven-day saptawara, from Sanskrit soma "moon" (somavāra "moon day").

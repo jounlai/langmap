@@ -78,6 +78,7 @@ WORDS.kiss = {
     sw: "Busu — mguso wa midomo. Lugha za Kijerumani zina neno moja: kiss, Kuss, kyss, na Kilatini bāsium kikawa Kihispania beso, Kiitaliano bacio na Kireno beijo. Neno la Kislavoni linatoka kitenzi kilichomaanisha kwanza 'kusalimu', kutoka 'kamili'; Kiayalandi póg ni busu la amani la Kilatini katika misa; Kiajemi bōsa kilifika Kiarabu na Kiswahili busu. Kuzunguka Pasifiki, kubusu na kunusa ni neno moja: Kitagalog halik na Kiindonesia cium. Kifinlandi suukko kimeundwa kutoka 'mdomo'.",
   },
   family: {
+    mzn: "plain",
     lb: "basium",
     acw: "bosa",
     ko: "mouth",
@@ -634,6 +635,7 @@ WORDS.kiss = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    mzn: ["خش", "xeʃ"],  // English Wiktionary entry خش.
     lb: ["Bees", "beːs"],  // Ultimately from Latin bāsiō.
     acw: ["بوسة", "ˈboːsa"],  // From Classical Persian بوسه bōsa.
     ko: ["입맞춤", "immat̚tɕʰum"],  // 입 'mouth' + 맞춤 'fitting together'.

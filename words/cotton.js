@@ -67,6 +67,7 @@ WORDS.cotton = {
     sw: "Pamba — mmea na nyuzi zake nyeupe. Majina yake yanafuata biashara: Kiarabu qutn kilizaa coton na algodón, Kisanskriti karpāsa kilizaa कपास na Kimalei kapas, Kiajemi pambak kilizaa Kituruki pamuk na Kiswahili pamba. Ulaya ya kaskazini, iliyozoea kondoo, iliita “sufu ya mti”: Baumwolle, bawełna, puuvilla.",
   },
   family: {
+    kw: "qutn",
     jya: "plain",
     haw: "plain",
     aa: "plain",
@@ -666,6 +667,7 @@ WORDS.cotton = {
     },
   },
   data: {
+    kw: ["koton", "ˈkɔtɔn"],  // translation table + Wikipedia article title kw: Koton.
     jya: ["men-pu", "menpu"],  // From naganorgyalrongic rGyalrong (Maerkang Soman): menpu.
     haw: ["pulupulu", "pulupulu"],  // From wold Hawaiian: pulupulu.
     aa: ["tuut", "tuːt"],

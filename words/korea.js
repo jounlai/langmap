@@ -70,6 +70,7 @@ WORDS.korea = {
     sw: "Korea — nchi ya rasi ya Korea. Lugha nyingi duniani huiita kwa jina la Goryeo 高麗, ufalme wa 918–1392 uliojulikana na wafanyabiashara Waarabu na Wazungu: Kiingereza Korea, Kifaransa Corée, Kirusi Корея, Kiarabu كوريا, Kihindi कोरिया. Ndani ya nchi, jina hutegemea upande wa mpaka. Korea Kusini husema 한국 Hanguk, kutokana na makabila ya kale ya Han 韓 ya kusini, na Kijapani 韓国 Kankoku, Kichina 韩国 Hánguó na Kivietinamu Hàn Quốc huifuata. Korea Kaskazini husema 조선 Chosŏn, jina la nasaba ya mwisho, linaloandikwa 朝鮮. Kimongolia Солонгос na Kimanchu Solho ni jina la tatu la kwao.",
   },
   family: {
+    bo: "goryeo",
     en: "goryeo",
     zh: "hanguk",
     hi: "goryeo",
@@ -527,6 +528,7 @@ WORDS.korea = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    bo: ["ལྷོ་ཀོ་རི་ཡ", "ɬo˥ ko˥ ri˩˧ ja˥"],  // English Wiktionary, ལྷོ་ཀོ་རི་ཡ.
     en: ["Korea", "kəˈɹiːə"],  // First attested in English in 1598 from Dutch Core, itself from a Chinese pronunciation (Hokkien Ko-lê) of Goryeo 高麗, Korea's name from 918 to 1392 (Wiktionary).
     zh: ["韩国", "xan˧˥ kwo˧˥"],  // Literally 'Han country', short for 大韩民国, South Korea's official name; Mainland China calls Korea as a whole and North Korea 朝鲜 (Wiktionary).
     hi: ["कोरिया", "koːɾijaː"],  // Borrowed from English Korea, ultimately from Korean 고려 Goryeo (Wiktionary).

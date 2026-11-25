@@ -66,6 +66,7 @@ WORDS.mobilephone = {
     sw: "Simu ya mkononi — neno la kila siku kwa simu ya mkononi. Dunia nzima ilipata kifaa hiki katika miaka ishirini ileile, na majina yaligawanyika kwa sifa iliyochaguliwa: mkono unaoishika (Kijerumani Handy, Kichina 手机, simu ya mkononi), kwamba inahamishika (mobile, móvil, 携帯) au seli za mtandao (cell phone, celular, Kirusi сотовый \"sega la nyuki\").",
   },
   family: {
+    krl: "unknown",
     lb: "hand",
     acw: "carry",
     de_ch: "hand",
@@ -537,6 +538,7 @@ WORDS.mobilephone = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    krl: ["mopikka", "ˈmopikːɑ"],  // North Karelian (VepKar).
     lb: ["Handy", "ˈhændi"],  // Borrowed from German Handy, a pseudo-English word built on 'hand'; it is also the title of the Luxembourgish Wikipedia article.
     acw: ["جوال", "dʒawwaːl"],  // Literally 'roamer, wanderer', from the root ج و ل 'to wander'.
     de_ch: ["Handy", "ˈhɛndi"],  // Swiss usage is split between Handy and the older Swiss term Natel (from Nationales Autotelefon); Handy is the same word as in Germany.

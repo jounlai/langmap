@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    gcf: "distinct",
     wal: "distinct",
     crx: "distinct",
     suk: "borrowed",
@@ -1013,6 +1014,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    gcf: ["blé", "ble"],  // English Wiktionary, blé.
     wal: ["salo milatiya", "salo milatija"],
     crx: ["duldzan", "duldzan"],
     suk: ["bululu", "bululu"],
@@ -1713,7 +1715,7 @@ WORDS.blue = {
     kpj: ["tɨ̃re", "tɨ̃re"],  // Strictly the WALS category is the wider yellow-or-green-or-blue composite, not plain grue; recorded as grue because one term covers blue and green. Karajá has male/female speech variants (tɨ̃re ~ lɨ̃re). WCS writes it tyre; this row writes ɨ.
     kpv: ["лӧз", "lɘz"],  // Komi-Zyrian лӧз vs веж.
     kr: ["liwulla", "liwulla"],  // Donor is Arabic. WOLD's comment on the word form is 'colour of needle = blue / metal' and on the borrowing 'blue ~ silver ~ needle (al-'ibra needle, as-surf silver)'. Green is a separate inherited word kə̀lî — already recorded by Koelle (1854) Grammar of the Bornu or Kanuri Language as kali — so this is a loan beside a native green, not a loan replacing a grue term. Tone stripped to match the row's kime/bul; WOLD's tone-marked form is lìwùllá.
-    krl: ["sinini", "ˈsinini"],  // North Karelian sinini vs vihanta.
+    krl: ["šinini", "ˈʃinini"],  // North Karelian sinini vs vihanta.
     ktz: ["ǀauhn", "ǀaṳ̃"],  // Juǀ'hoan ǀauhn is given for BOTH blue and green — a single cool-range term in a small basic-colour inventory.
     ku: ["şîn", "ʃiːn"],  // Kurmanji: NorthEuraLex gives the identical form şîn for BOTH blue and green — a single cool-range term.
     kum: ["гёк", "ɡøk"],  // Kumyk гёк against яшыл. Most IDS Kumyk dialects give ачыкъ гёк 'light gök' for blue specifically, which is exactly what a grue term needs a modifier for.

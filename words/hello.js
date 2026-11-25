@@ -1731,7 +1731,7 @@ WORDS.hello = {
     thr: ["राम राम", "raːm raːm"],
     bra: ["राधे राधे", "raːdʱe raːdʱe"],
     skr: ["السلام علیکم", "əssəlaːm əleːkum"],
-    sat: ["ᱡᱳᱦᱟᱨ", "dʒohar"],
+    sat: ["ᱡᱚᱦᱟᱨ", "dʒɔhar"],
     kru: ["जोहार", "dʒoːɦaːɾ"],
     mad: ["salam", "salam"],
     hil: ["kamusta", "kaˈmusta"],

@@ -1933,7 +1933,7 @@ WORDS.thanks = {
     mrj: ["тау", "tau"],
     myv: ["сюкпря", "sʲukprʲa"],
     mdf: ["сюкпря", "sʲukprʲa"],
-    krl: ["passibo", "ˈpassibo"],
+    krl: ["passipo", "ˈpɑsːipo"],
     olo: ["passibo", "ˈpassibo"],
     vep: ["spasib", "ˈspasib"],
     vot: ["passibo", "ˈpasːibo"],

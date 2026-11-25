@@ -69,6 +69,7 @@ WORDS.turkey = {
     sw: "Bata mzinga — ndege mkubwa wa asili ya Amerika. Alipofika Ulimwengu wa Kale katika karne ya 16, karibu kila lugha ilimpa jina la mahali pengine pa mbali: Kiingereza kwa Uturuki, Kifaransa, Kituruki, Kirusi na Kiebrania kwa India, Kireno kwa Peru, Kiarabu kwa Roma, Kimalei kwa Uholanzi.",
   },
   family: {
+    nrf: "unknown",
     lb: "local",
     ar: "elsewhere",
     ar_eg: "elsewhere",
@@ -497,6 +498,7 @@ WORDS.turkey = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    nrf: ["picot", "piko"],  // English Wiktionary entry picot.
     lb: ["Schnuddelhong", "ˈʃnudəlhoŋ"],  // Literally "snot hen", a compound of Schnuddel "snot" and Hong "hen", after the bird's dangling wattle.
     ar: ["ديك رومي", "diːk ruːmijj"],  // Literally "Roman (Byzantine) rooster".
     ar_eg: ["ديك رومي", "diːk ruːmi"],  // Literally "Roman (Byzantine) rooster", the same name as Standard Arabic.

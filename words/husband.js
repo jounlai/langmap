@@ -72,6 +72,7 @@ WORDS.husband = {
     sw: "Mume — mwanamume aliyeoa, akitazamwa kutoka upande wa ndoa. Kwa Kijerumani, Kiholanzi na Kifinlandi yeye ni 'mwanamume' tu, kama Kiswahili mume, kifupi cha mwanamume; kwa Kihindi, Kithai na Kiebrania neno hili pia lina maana ya 'bwana, mmiliki'; Kiingereza husband kilikuwa 'bwana wa nyumba'; na Kihispania marido na Kirusi муж ni maneno yao wenyewe.",
   },
   family: {
+    bo: "unknown",
     enf: "unknown",
     rut: "unknown",
     lb: "man",
@@ -1022,6 +1023,7 @@ WORDS.husband = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    bo: ["ཁྱོ་ག", "cʰo˥ ka˥"],  // English Wiktionary, ཁྱོ་ག.
     enf: ["busi", "busi"],  // From northeuralex enf буси (row romanisation).
     rut: ["выгӏыл", "wɨʕɨl"],  // From ids Rutul выгІыл (two dialects).
     lb: ["Mann", "mɑn"],
@@ -1202,7 +1204,7 @@ WORDS.husband = {
     mrj: ["мары", "mɑrə"],
     myv: ["мирде", "mʲirdʲe"],
     mdf: ["мирде", "mʲirdʲe"],
-    krl: ["mies", "mie̯s"],
+    krl: ["mieš", "mie̯ʃ"],
     olo: ["ukko", "ˈukːo"],
     vep: ["mužik", "muʒik"],
     liv: ["mīez", "miːɛz"],
@@ -1315,7 +1317,7 @@ WORDS.husband = {
     es_cu: ["marido", "maˈɾido"],
     es_pe: ["marido", "maˈɾido"],
     es_an: ["marido", "maˈɾido"],
-    ext: ["marido", "maˈɾido"],
+    ext: ["maríu", "maˈɾiu"],
     ko_hg: ["남편", "nampʰjʌn"],
     ko_jl: ["남편", "nampʰjən"],
     gsw_w: ["Mann", "man"],

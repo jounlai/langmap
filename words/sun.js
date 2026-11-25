@@ -1908,7 +1908,7 @@ WORDS.sun = {
     thr: ["सूरज", "suːrədʒ"],
     bra: ["सूरज", "suːrədʒ"],
     skr: ["سجھ", "sɪdʒʱ"],
-    sat: ["ᱥᱤᱸᱜᱤ", "siŋɡi"],
+    sat: ["ᱥᱤᱧ ᱪᱟᱸᱫᱚ", "siɲ tʃãndɔ"],
     kru: ["बीड़ी", "biːɽiː"],
     mad: ["are", "arɛ"],
     hil: ["adlaw", "ˈʔadlaw"],

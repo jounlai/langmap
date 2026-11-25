@@ -1264,7 +1264,7 @@ WORDS.snake = {
     kpf: ["mulum", "mulum"],
     kpj: ["hemɨlala", "hemɨlala"],
     kpv: ["кый", "kɨj"],
-    krl: ["mado", "ˈmɑdo"],  // The same old word as "worm".
+    krl: ["kiärmis", "ˈkiærmis"],  // The same old word as "worm".
     kru: ["नेर्र", "nerr"],
     ks: ["سَرُپھ", "sarupʰ"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     ksb: ["nyoka", "njoka"],

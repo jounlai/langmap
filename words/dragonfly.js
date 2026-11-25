@@ -64,6 +64,7 @@ WORDS.dragonfly = {
     sw: "Kereng'ende — mdudu mwenye mwili mrefu na mabawa manne angavu anayewinda juu ya maji. Kiingereza dragonfly na Kiaisilandi drekafluga humwona joka; Kiwelshi gwas y neidr ni \"mtumishi wa nyoka\", Kislovenia kačji pastir \"mchungaji wa nyoka\". Kihungari szitakötő ni \"msuka chekeche\", Kijojia ნემსიყლაპია \"mmeza sindano\", Kiajemi سنجاقک \"pini ndogo\", na Kifaransa libellule ni \"kipimo kidogo cha usawa\" cha seremala, kwa jinsi anavyoelea sawasawa.",
   },
   family: {
+    sms: "plain",
     nij: "plain",
     mhy: "plain",
     en: "dragon",
@@ -512,6 +513,7 @@ WORDS.dragonfly = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    sms: ["čuõškkvuâppai", "ˈtʃuəʃkːvuɐpːɒi"],  // en.wiktionary and fi.wiktionary.
     nij: ["sansibur", "sansibur"],  // From smithborneo Ngaju: sansibur.
     mhy: ["sansibur", "sansibur"],  // From smithborneo Maanyan: sansibur.
     en: ["dragonfly", "ˈdɹæɡənflaɪ"],  // A compound of dragon + fly.
@@ -831,7 +833,7 @@ WORDS.dragonfly = {
     mnc: ["ᡠᠯᠮᡝ ᡥᡡᠯᡥᠠᡨᡠ", "ulmə xulxatu"],  // Literally 'needle robber', from ulme 'needle' and hūlhatu 'habitual robber'.
     dak: ["susbéčha", "susbétʃʰa"],  // No image is recorded for it, so it counts as a word of its own.
     cic: ["okaʼ paknaʼ tannowaʼ", "okaʔ paknaʔ tanːowaʔ"],  // Okaʼ 'water' + paknaʼ 'on top of' + tannowa 'to pass': the one that passes over the water.
-    krl: ["hukankorenda", "ˈhukɑŋkorendɑ"],  // Hukan 'of a wolf' + korenda 'cowlstaff', like Finnish sudenkorento.
+    krl: ["korentoini", "ˈkorentoini"],  // Hukan 'of a wolf' + korenda 'cowlstaff', like Finnish sudenkorento.
     mtq: ["còng cun", "kɔŋ kun"],  // Còng 'dragonfly, damselfly' + cun 'Muong lord'.
     kw: ["nader margh", "ˈnaːdɛr marx"],  // Literally 'adder horse'; compare archaic English adder fly.
     ti: ["ፈረሰኛ", "fɐrɐsɐɲa"],  // The Tigrinya word for the dragonfly (Wiktionary); the same word is Amharic ፈረሰኛ 'horseman', from ፈረስ 'horse' + -ኛ (Wiktionary), so the insect is the horseman.

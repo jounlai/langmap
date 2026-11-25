@@ -63,6 +63,7 @@ WORDS.sunflower = {
     sw: "Alizeti — mmea mrefu wenye ua kubwa la manjano. Lugha nyingi huuita kwa sababu hugeuka kuelekea jua: Kihispania girasol na Kiitaliano girasole \"kinachozunguka na jua\", Kihungari napraforgó, Kikorea 해바라기 \"kinachotazama jua\", Kichina 向日葵 \"kinachoelekea jua\", Kijapani ひまわり. Nyingine huuita tu ua la jua: Kiingereza sunflower, Kijerumani Sonnenblume, Kiindonesia bunga matahari.",
   },
   family: {
+    gd: "sun",
     en: "sun",
     zh: "turn",
     hi: "turn",
@@ -425,6 +426,7 @@ WORDS.sunflower = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    gd: ["neòinean-grèine", "ˈɲɔ̃ːɲan ˈkɾʲeːɲə"],  // English Wiktionary, neòinean-grèine.
     en: ["sunflower", "ˈsʌnflaʊə"],  // A plain compound of sun + flower.
     zh: ["向日葵", "ɕjɑŋ˥˩ ʐɨ˥˩ kʰweɪ̯˧˥"],  // 向 'to face' + 日 'sun' + 葵 'kui plant': the plant that faces the sun.
     hi: ["सूरजमुखी", "suːɾədʒmʊkʰiː"],  // सूरज 'sun' + मुख 'face' + -ई: 'sun-facing'; the formal variant is सूर्यमुखी.

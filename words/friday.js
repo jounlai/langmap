@@ -74,6 +74,7 @@ WORDS.friday = {
     sw: "Ijumaa — siku kabla ya Jumamosi. Roma iliipa jina la Venus (vendredi, viernes), na unajimu wa India jina la sayari hiyo hiyo (शुक्रवार), lililofika hadi Kijapani 金曜日. Wajerumani wa kale waliweka mungu wao wa kike Frigg mahali pake: Friday, Freitag, fredag. Uislamu uliifanya siku ya kukusanyika kwa sala: Kiarabu الجمعة, Kituruki cuma, Kiindonesia Jumat, Kiswahili Ijumaa. Kigiriki Παρασκευή ni maandalizi ya Sabato, Kiayalandi Aoine ni mfungo, na Kirusi пятница ni \"ya tano\" tu.",
   },
   family: {
+    atj: "unknown",
     lb: "goddess",
     na: "plain",
     acw: "assembly",
@@ -752,6 +753,7 @@ WORDS.friday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    atj: ["tcipaiatikw kicikaw", "tʃipajatikʷ kiʃikaw"],  // Omniglot, days of the week.
     lb: ["Freideg", "ˈfʀɑɪ̯dəɕ"],
     na: ["Preidak", "preidak"],
     acw: ["الجمعة", "aldʒumʕa"],
@@ -1075,7 +1077,7 @@ WORDS.friday = {
     lmo: ["venerdí", "venerˈdi"],
     crs: ["vandredi", "vãdredi"],  // From French vendredi.
     pms: ["vënner", "ˈvəner"],
-    krl: ["pietenisä", "ˈpietenisæ"],  // Borrowed from Russian пятница 'fifth'.
+    krl: ["piätinččä", "ˈpiætintʃːæ"],  // Borrowed from Russian пятница 'fifth'.
     ty: ["mahana pae", "mahana pae"],  // mahana 'day' + pae 'five'.
     st: ["Labohlano", "laboɬano"],  // Contraction of letsatsi la bohlano 'the fifth day'.
     rup: ["Vinjiri", "ˈviɲiri"],

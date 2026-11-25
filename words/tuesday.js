@@ -71,6 +71,7 @@ WORDS.tuesday = {
     sw: "Jumanne — siku baada ya Jumatatu. Roma iliiweka wakfu kwa Mars, mungu wa vita na sayari ya Mihiri (mardi, martes), na unajimu wa India kwa sayari hiyo hiyo (मंगलवार), hadi Kithai อังคาร na, kama \"sayari ya moto\", Kijapani 火曜日. Wajerumani wa kale walimweka mungu wao wa vita: Kiingereza Tuesday ni siku ya Tiw, Kiswidi tisdag ya Tyr, na Kijerumani Dienstag huenda ni ya Thingsus. Wiki zinazohesabiwa huifanya \"ya pili\" (Kirusi вторник, Kihungari kedd) au \"ya tatu\" (Kigiriki Τρίτη, Kireno terça-feira, Kiarabu الثلاثاء, Kiajemi سه‌شنبه).",
   },
   family: {
+    atj: "count",
     huz: "count",
     bdk: "count",
     lb: "god",
@@ -727,6 +728,7 @@ WORDS.tuesday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    atj: ["nicw kicikaw", "niʃʷ kiʃikaw"],  // Omniglot, days of the week.
     huz: ["талат", "talat"],  // From ids Hunzib талат.
     bdk: ["талат", "talat"],  // From ids Budukh талат.
     lb: ["Dënschdeg", "ˈdənʃdəɕ"],

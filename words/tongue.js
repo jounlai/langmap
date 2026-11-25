@@ -2231,7 +2231,7 @@ WORDS.tongue = {
     djk: ["tongo", "toŋo"],
     srm: ["tö́ngö", "tɔ́ŋɡɔ"],
     kwk: ["k̓a̱la̱m", "kʼələm"],
-    blc: ["tica", "titsa"],
+    blc: ["tixca", "tixtsa"],
     sad: ["ǃheŋ", "ǃʰeŋ"],
     pcc: ["linx", "lin˧˩"],
     ium: ["mbietc", "biet˨˩"],

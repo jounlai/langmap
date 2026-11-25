@@ -71,6 +71,7 @@ WORDS.honey = {
     sw: "Asali — chakula kizito na kitamu ambacho nyuki hutengeneza kutokana na nekta ya maua. Lugha ya Kihindi-Ulaya Asilia ilikuwa na maneno mawili kwa ajili yake: moja likatoa mel ya Kilatini, jingine madhu ya Kisanskriti na mead ya Kiingereza.",
   },
   family: {
+    chr: "plain",
     en: "hunang",
     ja: "mit",
     ko: "pskul",
@@ -1116,6 +1117,7 @@ WORDS.honey = {
     plain: {"color":"#94a3b8","emoji":"🔤","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    chr: ["ᏩᏚᎵᏏ", "wadulisi"],  // cherokeedictionary.net.
     // --- UI languages -------------------------------------------------
     en: ["honey", "ˈhʌni"],
     ja: ["蜂蜜", "hatɕimitsɯ"],

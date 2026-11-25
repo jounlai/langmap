@@ -69,6 +69,7 @@ WORDS.india = {
     sw: "Uhindi — nchi ya Asia Kusini. Karibu majina yake yote yanatoka kwenye mto mmoja, Indus, Kisanskriti सिन्धु Sindhu, kwa njia nne. Kiajemi cha kale kiligeuza s kuwa h, na Kiajemi Hind na Hindustan vikaingia Kiarabu الهند, Kituruki Hindistan na Kihindi हिंदुस्तान. Kigiriki kiliacha hata h: Ἰνδία ikawa Kilatini India, na kutoka hapo Kiingereza India, Kifaransa Inde na Kirusi Индия. Mahujaji wa Kichina waliandika 印度, ambayo Kijapani husoma インド, Kikorea 인도 na Kivietinamu Ấn Độ. Lugha za India yenyewe mara nyingi husema भारत Bhārat, kutokana na Bharata, mfalme wa hadithi wa Mahabharata.",
   },
   family: {
+    pdt: "greek",
     en: "greek",
     zh: "yindu",
     hi: "bharat",
@@ -661,6 +662,7 @@ WORDS.india = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    pdt: ["Indien", "ˈɪndiən"],  // en.wiktionary Indien.
     en: ["India", "ˈɪndiə"],  // Re-Latinized from Middle English Inde, ultimately Latin India from Greek Ἰνδία 'land of the Indus', a name that reached Greek through Old Persian Hiⁿdūš (Wiktionary).
     zh: ["印度", "in˥˩ tu˥˩"],  // The spelling 印度 was proposed by the monk Xuanzang in 646 CE in place of older names such as 身毒 and 天竺 (Wiktionary).
     hi: ["भारत", "bʱaːɾət"],  // From Sanskrit Bhārata, the land of King Bharata's line; हिंदुस्तान Hindustān and इंडिया India are also used (Wiktionary).

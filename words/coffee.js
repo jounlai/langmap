@@ -116,6 +116,7 @@ WORDS.coffee = {
     sw: "Kahawa — kinywaji kinachotengenezwa kwa nafaka za kahawa zilizochomwa. Neno la kila siku kwa kinywaji: si mmea, si punje mbichi, si mkahawa, wala si rangi.",
   },
   family: {
+    bo: "qahwa",
     crx: "qahwa",
     ame: "qahwa",
     bzh: "qahwa",
@@ -823,6 +824,7 @@ WORDS.coffee = {
     },
   },
   data: {
+    bo: ["ཁོ་ཕི", "kʰo˥ pʰi˥"],  // English Wiktionary, ཁོ་ཕི.
     crx: ["lugafi", ""],
     ame: ["café", "kafe"],
     bzh: ["kopi", "kopi"],

@@ -75,6 +75,7 @@ WORDS.gold = {
     sw: "Dhahabu — metali ya manjano. Lugha nyingi huipa jina kwa rangi yake: mzizi wa Kihindi-Ulaya wa \"manjano\" ulizaa Kiingereza gold, Kirusi золото na Kiajemi zar, na Kivietinamu vàng ni neno la Kichina la \"manjano\". Kilatini aurum kilizaa oro na or, Kisanskriti suvarṇa \"chenye rangi nzuri\" kilizaa Kihindi सोना, Kituruki altun kilivuka nyika, Kiarabu ذهب kilifika Kiswahili kama dhahabu, na Kichina 金 kilifika Kijapani na Kikorea.",
   },
   family: {
+    sgs: "aurum",
     pmi: "plain",
     jiu: "plain",
     itb: "bulawan",
@@ -956,6 +957,7 @@ WORDS.gold = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    sgs: ["auksos", "auksɔs"],  // title of the sgs Wikipedia article and en.wiktionary table.
     pmi: ["ŋɛ55", "ŋɛ˥˥"],  // From suntb Pumi (Taoba): ŋɛ⁵⁵.
     jiu: ["ɕɯ42", "ɕɯ˦˨"],  // From suntb Jinuo: ɕɯ⁴².
     itb: ["voxawan", "voɣawan"],  // From ACD Itbayaten: voxawan.

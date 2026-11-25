@@ -62,6 +62,7 @@ WORDS.booger = {
     sw: "kamasi makavu — kipande cha kamasi kilichokauka puani. Lugha nyingi hukiita 'mavi ya pua' (鼻屎, 鼻くそ, crotte de nez, tahi hidung); nyingine hutumia jina la zimwi (Kiingereza bogey, Kidenmaki bussemand) au mnyama mdogo (Kirusi козявка 'mbuzi mdogo', Kireno macaco 'tumbili', Kicheki holub 'njiwa'). Kikorea 코딱지 ni 'kigaga cha pua'.",
   },
   family: {
+    vec: "plain",
     de_lu: "plain",
     lb: "plain",
     hsn_hy: "nosedung",
@@ -187,6 +188,7 @@ WORDS.booger = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    vec: ["pétoła", "ˈpetoa"],  // en.wiktionary pétoła.
     de_lu: ["Popel", "ˈpoːpl̩"],  // Colloquial word of uncertain origin.
     lb: ["Koz", "koːts"],  // The Luxembourgish dictionary LOD (entry KOZ1) gives it as Popel / crotte de nez / bogey; IPA from LOD.
     hsn_hy: ["鼻筒屎", "pi˩˩˨ təŋ˩˩˨ sɿ˧˧"],  // 鼻筒 'nose' + 屎 'excrement', the Hengyang word.

@@ -72,6 +72,7 @@ WORDS.paper = {
     sw: "Karatasi — laha nyembamba ya kuandikia. Ilivumbuliwa China na kusafiri magharibi, lakini majina yake yalitoka vifaa vya zamani vya kuandikia: papyrus ya Kilatini, chartēs ya Kigiriki, neno la Kiarabu la jani. Neno la Kiajemi kāġaz lilienea kutoka Balkani hadi Bengal.",
   },
   family: {
+    bxd: "plain",
     clk: "plain",
     pmi: "plain",
     aa: "leaf",
@@ -125,7 +126,7 @@ WORDS.paper = {
     kek: "huhn",
     tzo: "huhn",
     cak: "huhn",
-    krl: "other",
+    krl: "papyrus",
     ks: "kaghaz",
     ky: "kaghaz",
     mdf: "kaghaz",
@@ -804,6 +805,7 @@ WORDS.paper = {
     },
   },
   data: {
+    bxd: ["mau31sau31", "mau˧˩sau˧˩"],  // English Wiktionary, mau³¹sau³¹.
     clk: ["kɑ31ko55pɹɑ55", "kɑ˧˩ko˥˥pɹɑ˥˥"],  // From suntb Idu: kɑ³¹ko⁵⁵pɹɑ⁵⁵.
     pmi: ["ɕɛ55ju53", "ɕɛ˥˥ju˥˧"],  // From suntb Pumi (Taoba): ɕɛ⁵⁵ju⁵³.
     aa: ["warkát", "warkat"],
@@ -857,7 +859,7 @@ WORDS.paper = {
     kek: ["hu", "hu"],
     tzo: ["vun", "vun"],
     cak: ["wuj", "wux"],
-    krl: ["bumuagu", "ˈbumuaɡu"],
+    krl: ["paperi", "ˈpɑperi"],
     ks: ["کاغذ", "kaːɣaz"],
     ky: ["кагаз", "kɑˈɡɑz"],
     mdf: ["кагод", "kaɡod"],  // Route by resemblance to the neighbouring forms (mr,mwr,as); no etymology of its own.

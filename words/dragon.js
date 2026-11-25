@@ -76,6 +76,10 @@ WORDS.dragon = {
     sw: "joka — mnyama mkubwa wa hadithi mwenye umbo la nyoka. Barani Ulaya ni drákōn wa Kigiriki mwenye mabawa anayetema moto (dragon, Drache, дракон); Asia Mashariki ni 龍 lóng aletaye mvua (竜 ryū, 용 yong, rồng). Neno la Kiajemi aždahā lilienea katika ulimwengu wa Kituruki na India, Waslavi wana zmey yao, Asia Kusini-Mashariki humwita kwa jina la nāga wa India, na lugha nyingi humwita tu nyoka mkubwa — kama Kiswahili joka.",
   },
   family: {
+    rgn: "draco",
+    gv: "draco",
+    gd: "serpent",
+    bn: "azhdaha",
     nuf: "plain",
     jiu: "plain",
     acn: "plain",
@@ -653,6 +657,10 @@ WORDS.dragon = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    rgn: ["drêgh", "dreːɡ"],  // en.wiktionary drêgh.
+    gv: ["dragan", "ˈdraɡan"],  // English Wiktionary entry dragan.
+    gd: ["nathair-sgiathach", "ˈn̪ˠahəɾʲ ˈskʲiəhəx"],  // English Wiktionary, nathair-sgiathach.
+    bn: ["আজদাহা", "adʒdaha"],  // English Wiktionary, আজদাহা.
     nuf: ["liu35", "liu˧˥"],  // From suntb Nusu (Bijiang): liu³⁵.
     jiu: ["pu33xo33a33mɔ33", "pu˧˧xo˧˧a˧˧mɔ˧˧"],  // From suntb Jinuo: pu³³xo³³a³³mɔ³³.
     acn: ["mʐui55tʂuŋ31", "mʐui˥˥tʂuŋ˧˩"],  // From suntb Achang (Longchuan): mʐui⁵⁵tʂuŋ³¹.

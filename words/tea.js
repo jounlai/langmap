@@ -1102,7 +1102,7 @@ WORDS.tea = {
     mrj: ["чӓй", "tʃæj"],
     mhr: ["чай", "tʃaj"],
     olo: ["čuaju", "ˈtʃuaju"], // was ["čuaju", "ˈtʃuɑju"] (vi dialect rules 2026-10-06)
-    krl: ["čuaju", "ˈtʃuaju"],
+    krl: ["čäijy", "ˈtʃæijy"],
     vot: ["tšaaju", "ˈtʃaːju"], // was ["čaaju", "ˈtʃaːju"] (vi dialect rules 2026-10-06)
     vep: ["čai", "tʃai"],
     fkv: ["tee", "teː"],

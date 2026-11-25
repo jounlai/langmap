@@ -2933,7 +2933,7 @@ const LANG_DATA = {
   // distinct enough that linguists treat them as separate languages.
   mdf: { name: 'Moksha', native: 'мокшень кяль', lat: 54.18, lng: 45.18, // Saransk
 },
-  krl: { name: 'Karelian', native: 'Karjalan kieli', lat: 61.79, lng: 34.36, // Petrozavodsk
+  krl: { name: 'Karelian', native: 'Karjalan kieli', lat: 65.22, lng: 31.18, // Uhtua (Kalevala): the row is North (Viena) Karelian
 },
   // Livvi-Karelian (Olonets, Aunus) — Uralic Finnic (sister to krl Karelian; some classifications treat as one Karelian language with sub-dialects), ~14K, Russia (Karelia — Olonets/Aunus south of Lake Ladoga).
   // Sources: Ethnologue 27 'olo'; Glottolog livv1244; Pyöli (1996) Russian-Karelian Dictionary (Olonets).

@@ -71,6 +71,7 @@ WORDS.tobacco = {
     sw: "Tumbaku — jani ambalo watu huvuta. Kihispania na Kireno vilibeba neno moja duniani kote, Kiajemi kikalipitisha, na kwingine watu waliliita kwa moshi au dawa.",
   },
   family: {
+    krl: "tabaco",
     acu: "plain",
     bbc: "tanbaku",
     pzh: "tabaco",
@@ -676,6 +677,7 @@ WORDS.tobacco = {
     },
   },
   data: {
+    krl: ["tupakki", "ˈtupɑkːi"],  // North Karelian (VepKar).
     acu: ["tsaang", "tsaːŋ"],  // From huntergatherer Achuar tsaang.
     bbc: ["timbaho", "timbaho"],  // From ACD Toba Batak: timbaho.
     pzh: ["tamaku", "tamaku"],  // From ACD Pazeh: tamaku.

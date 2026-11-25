@@ -78,6 +78,8 @@ WORDS.butter = {
     sw: "Siagi — mafuta yanayopigwa kutoka kwenye malai. Kigiriki βούτυρον kilimaanisha 'jibini la ng'ombe', na kupitia Kilatini kikawa Kiingereza butter, Kijerumani Butter, Kifaransa beurre na baadaye Kijapani バター. Kihispania na Kireno vina maneno yao, manteca na manteiga, yaliyofika hadi Kiindonesia mentega. Kwingineko siagi ni kitu cha kupaka: Kirusi масло kina asili moja na 'kupaka', na Kihindi मक्खन kinatoka neno la Kisanskriti la marhamu. Kituruki yağ na Kichina 黄油 'mafuta ya njano' huiita mafuta tu.",
   },
   family: {
+    sgs: "smear",
+    lkt: "plain",
     lb: "butyrum",
     ayl: "zubda",
     abv: "zubda",
@@ -665,6 +667,8 @@ WORDS.butter = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    sgs: ["svėists", "svʲeːists"],  // title of the sgs Wikipedia article and en.wiktionary table.
+    lkt: ["asáŋpi-glí", "asã́pi ɡlí"],  // English Wiktionary entry asáŋpi-glí.
     lb: ["Botter", "ˈboteʀ"],
     ayl: ["زبدة", "zubda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     abv: ["زبدة", "zubda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

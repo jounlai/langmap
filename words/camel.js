@@ -73,6 +73,8 @@ WORDS.camel = {
     sw: "Ngamia — mnyama wa jangwani mwenye nundu. Majina yake yalisafiri kwenye njia za biashara: gamal ya Kisemiti iliingia Ulaya kupitia Kigiriki na Afrika Mashariki kupitia Kiarabu, úštra ya Kihindi-Kiirani ilifika Kimalei kama unta, tebe ya Kituruki ilivuka Asia ya Kati. верблюд ya Kislavoni ni neno la kale la Kigermanik ambalo huenda liliwahi kumaanisha tembo.",
   },
   family: {
+    kw: "plain",
+    bo: "plain",
     aa: "other",
     ace: "ushtra",
     agx: "tebe",
@@ -780,6 +782,8 @@ WORDS.camel = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    kw: ["kowrvargh", "ˈkɔʊrvarx"],  // translation table + Wikipedia article title kw: Kowrvargh.
+    bo: ["རྔ་མོང", "ŋa˥ moŋ˥"],  // English Wiktionary, རྔ་མོང.
     aa: ["rakúb", "rakub"],
     ace: ["unta", "unta"],
     agx: ["деве", "deve"],  // Route by resemblance to the neighbouring forms (tkr,gag,zza); no etymology of its own.

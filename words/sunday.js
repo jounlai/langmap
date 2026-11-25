@@ -75,6 +75,7 @@ WORDS.sunday = {
     sw: "Jumapili — siku inayofuata Jumamosi. Majina yake yanaonyesha nani aliyeiunda wiki: jua katika Sonntag na 日曜日, Bwana katika domingo na Κυριακή, Ufufuo katika Kirusi, soko katika Kituruki, na namba tu katika Kiebrania na Kiarabu.",
   },
   family: {
+    atj: "unknown",
     ab: "plain",
     af: "sun",
     ak: "plain",
@@ -799,6 +800,7 @@ WORDS.sunday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    atj: ["manactakaniwon", "manaʃtakaniwon"],  // Omniglot, days of the week.
     ab: ["амҽыша", "amʈʂʰɨʂa"],
     af: ["Sondag", "ˈsɔndaχ"],
     ak: ["Kwasiada", "kwasiada"],
@@ -971,7 +973,7 @@ WORDS.sunday = {
     smj: ["sådnåbiejvve", "ˈsɔdnɔbiɛjvːɛ"],  // No opened source supports the route.
     se: ["sotnabeaivi", "ˈsotnɑˌpeɑjvi"],
     smn: ["pasepeivi", "ˈpɑsepeivi"],  // No opened source supports the route.
-    sms: ["pâ´sspei´vv", "ˈpɐsːʲpʲɛivːʲɘ"],  // No opened source supports the route.
+    sms: ["pâʹsspeiʹvv", "ˈpɐsːʲpʲɛivːʲɘ"],  // No opened source supports the route.
     sjd: ["па̄ссьпе̄ййв", "paːɕːpeːjːv"],  // No opened source supports the route.
     mrj: ["рушӓрня", "ruʃærnja"],
     mhr: ["рушарня", "ruʃarɲa"],

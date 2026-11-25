@@ -69,6 +69,8 @@ WORDS.potato = {
     sw: "Kiazi — kiazi cha mmea Solanum tuberosum (si kiazi kitamu). Kiliondoka milima ya Andes karne ya 16, na kila lugha iliyokipokea ililazimika kuamua ni kitu gani: Kihispania kilibaki na neno la Kikechua papa, Kifaransa, Kiholanzi, Kiebrania na Kiajemi vilikiita \"tufaha la ardhi\", Kijerumani na Kirusi vilikipa jina la uyoga truffle, Kijapani jina la Jakarta.",
   },
   family: {
+    xal: "unknown",
+    alq: "unknown",
     lbe: "unknown",
     lb: "earth",
     gcr: "earth",
@@ -704,6 +706,8 @@ WORDS.potato = {
     },
   },
   data: {
+    xal: ["боднцг", "bodntsɡ"],  // ru.wiktionary боднцг.
+    alq: ["padak", "padak"],  // English Wiktionary, padak.
     lbe: ["нувщи", "nuwʃːi"],  // From ids Lak (3 dialects) нувщи.
     lb: ["Gromper", "ˈɡʁompɐ"],  // A contraction of "ground pear" (Grond + Bir), like regional German Grundbirne.
     gcr: ["ponmtè", "pɔ̃mtɛ"],  // From French pomme de terre, "apple of the earth".

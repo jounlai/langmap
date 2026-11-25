@@ -74,6 +74,7 @@ WORDS.twenty = {
     sw: "Ishirini — namba baada ya kumi na tisa. Lugha nyingine husema wazi makumi mawili, nyingine umbo hilo limechakaa, nyingine zina neno lake, na nyingine huhesabu vidole vyote vya mikono na miguu, hivyo ishirini ni mtu mzima mmoja.",
   },
   family: {
+    nds: "fused",
     pkp: "tens",
     ssf: "plain",
     af: "fused",
@@ -906,6 +907,7 @@ WORDS.twenty = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    nds: ["twintig", "ˈtvɪntɪç"],  // translation table + nds.wiktionary twintig.
     pkp: ["luangaulu", "luaŋaulu"],  // From abvd Pukapuka: luangaulu.
     ssf: ["mapushaz", "mapuʃað"],  // From abvd Thao B96: mapù:sað.
     af: ["twintig", "ˈtvəntəχ"],
@@ -1063,13 +1065,13 @@ WORDS.twenty = {
     esu: ["yuinaq", "juinaq"],  // Cell comment in words/hundred.js counts in yuinaq; no source for 'person'.
     zu: ["amashumi amabili", "amaʃumi amaɓili"],
     fkv: ["kaksikymmentä", "ˈkɑksikymːentæ"],
-    krl: ["kaksikymmentä", "ˈkaksikymːentæ"],
+    krl: ["kakšikymmentä", "ˈkɑkʃikymːentæ"],
     olo: ["kaksikymmen", "ˈkaksikymːen"],
     vep: ["kaks'kümne", "ˈkaksʲkymne"],
     sma: ["göökteluhkie", "ˈkøːktɛlʉhkiɛ"],
     smj: ["guoktalåhke", "ˈɡʊuɔktɑlɔhkɛ"],
     se: ["guoktelogi", "ˈkuɔktelɔki"],
-    smn: ["kyeh'tilov", "ˈkyehtilov"],
+    smn: ["kyehtlov", "ˈkyehtlov"],
     sms: ["kuâhttlo", "ˈkuɐxtːlo"],  // The ten of lååi is worn to -lo (Omniglot numbers).
     sjd: ["кӯххтлоагкь", "kuːxːtloaɡk"],
     mrj: ["коклы", "koklə"],  // кок 'two' + лу 'ten', worn to -лы (Omniglot numbers).

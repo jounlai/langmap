@@ -64,6 +64,9 @@ WORDS.louse = {
     sw: "chawa — chawa wa kichwani na mwilini, mmoja wa wadudu wa zamani zaidi walioandamana na binadamu. Lugha nyingi zimerithi jina lake kutoka lugha-mama yao: Kijerumani asilia *lūs (louse, Laus, lus), Kilatini pēdiculus (piojo, pou, pidocchio), Kislavoni asilia *vъšь (вошь, wesz), Kituruki asilia *bit, Kiurali asilia *täje (täi, tetű), Kisemiti qaml (قملة), Kisanskriti yūkā (जूँ), Kidravidi asilia *pēn (பேன்), Kiaustronesia asilia *kuCux (kutu, ʻuku) na Kichina 蝨.",
   },
   family: {
+    wym: "lus",
+    pap: "pediculus",
+    ga: "animal",
     com: "plain",
     wa: "pediculus",
     gsw: "lus",
@@ -602,6 +605,9 @@ WORDS.louse = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    wym: ["łaojs", "waɔjs"],  // en.wiktionary łaojs.
+    pap: ["pieu", "pjeu"],  // en.wiktionary pieu.
+    ga: ["míol cnis", "mʲiːl̪ˠ cnʲɪʃ"],  // English Wiktionary, míol cnis.
     com: ["pusiʼa", "pusiʔa"],  // From utoaztecan pusia.
     wa: ["piou", "pju"],  // From iecor Walloon piou pju.
     gsw: ["Luus", "luːs"],  // From iecor Swiss German Luus luːs.

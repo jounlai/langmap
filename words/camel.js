@@ -920,7 +920,7 @@ WORDS.camel = {
     el: ["καμήλα", "kaˈmila"],
     gu: ["ઊંટ", "ũʈ"],
     ht: ["chamo", "ʃãˈmo"],
-    ha: ["raƙumi", "ɽaːkʼumiː"],  // A very old borrowing, ultimately from Proto-Berber.
+    ha: ["raƙumi", "ɽàːkʼúmíː"],  // A very old borrowing, ultimately from Proto-Berber.
     he: ["גמל", "ɡaˈmal"],  // From Proto-Semitic *gamal-.
     hi: ["ऊँट", "ũːʈ"],  // From Sanskrit उष्ट्र through Prakrit.
     hu: ["teve", "ˈtɛvɛ"],  // Borrowed from a Turkic language; first attested around 1395.

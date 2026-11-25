@@ -870,7 +870,7 @@ WORDS.week = {
     el: ["εβδομάδα", "evðoˈmaða"],
     gu: ["અઠવાડિયું", "ˈəʈʰʋaɖijũ"],  // From a Sanskrit compound with 'eight'.
     ht: ["semèn", "semɛn"],
-    ha: ["mako", "mako"],
+    ha: ["mako", "máːkòː"],
     haw: ["pule", "pule"],  // 'Prayer.'
     he: ["שבוע", "ʃaˈvuʔa"],
     hi: ["सप्ताह", "səptaːɦ"],
@@ -1305,7 +1305,7 @@ WORDS.week = {
     ak: ["nnawɔtwe", "nːawɔtɕᶣe"],  // Literally 'eight days'.
     dnj: ["dhɔ̋ɔgɔ̏", "ɗɔ̋ːɡɔ̏"],  // Literally 'market head': the week follows the market cycle.
     dyu: ["lɔgɔkun", "lɔɡɔkun"],
-    ig: ["izu ụka", "izu ʊka"],  // The seven-day 'church week'; izu alone is the old four-day market week.
+    ig: ["izu ụka", "ízù ʊ́kà"],  // The seven-day 'church week'; izu alone is the old four-day market week.
     izz: ["idzu", "idzu"],
     kbp: ["kpɩtaʋ", "kpɪtaʊ"],
     kpe: ["lɔ̂ku", "lɔ̂ku"],

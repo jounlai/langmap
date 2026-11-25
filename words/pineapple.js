@@ -579,7 +579,7 @@ WORDS.pineapple = {
     ko: ["파인애플", "pʰainɛpʰɯl"],  // Borrowed from English pineapple.
     wuu: ["菠萝蜜", "pu˥˧ lu˨˧ miɪʔ˩˨"],  // In Shanghai 菠萝蜜, the Mandarin word for the jackfruit, names the pineapple.
     ta: ["அன்னாசி", "anːaːsi"],  // From Portuguese ananás, from Old Tupi.
-    ha: ["abarba", "abaɽbaː"],  // Origin not stated in the source. A word of its own, unrelated to Tupi naná and to the pine-cone names.
+    ha: ["abarba", "àbàɽbáː"],  // Origin not stated in the source. A word of its own, unrelated to Tupi naná and to the pine-cone names.
     ms: ["nanas", "ˈnanas"],  // From Dutch ananas, ultimately Old Tupi naná.
     it: ["ananas", "ˈaːnanas"],  // Borrowed unchanged from Portuguese ananás, from Old Tupi naná.
     cjy: ["菠萝", "pɤ˩ lɤ˩"],  // Clipped from 菠萝蜜, the jackfruit.
@@ -679,7 +679,7 @@ WORDS.pineapple = {
     nan_xm: ["王梨", "ɔŋ˨˦ lai˨˦"],  // ông-lâi, a "pear" name; also written 鳳梨.
     nan_zz: ["王梨", "ɔŋ˩˧ lai˩˧"],  // ông-lâi, a "pear" name; also written 鳳梨.
     cjy_xz: ["菠萝", "pɛ˧˩˧ lɛ˧˩"],  // Clipped from 菠萝蜜, the jackfruit.
-    zh_db: ["菠萝", "pɤ˥ lwo˧˥"],  // Clipped from 菠萝蜜, the jackfruit.
+    zh_db: ["菠萝", "pɤ˦ lwo˨˦"],  // Clipped from 菠萝蜜, the jackfruit.
     zh_sc: ["菠萝", "po˥ no˨˩"],  // Clipped from 菠萝蜜, the jackfruit.
     zh_cd: ["菠萝", "po˥˥ no˨˩"],  // Clipped from 菠萝蜜, the jackfruit.
     yue_ts: ["菠萝", "puɔ˧˧ luɔ˨˨"],  // Clipped from 菠萝蜜, the jackfruit.

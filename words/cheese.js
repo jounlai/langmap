@@ -672,7 +672,7 @@ WORDS.cheese = {
     ar_gulf: ["جبن", "dʒɪbɪn"],
     ar_ma: ["جبن", "ʒbun"],
     mt: ["ġobon", "ˈdʒɔbɔn"],
-    ha: ["cuku", "tʃukuː"],
+    ha: ["cuku", "tʃúkúː"],
     om: ["baaduu", "baːduː"],
     af: ["kaas", "kɑːs"],
     gsw: ["Chääs", "xæːs"],

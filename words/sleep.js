@@ -1803,7 +1803,7 @@ WORDS.sleep = {
     aln: ["fle", "fle"],
     fud: ["moe", "moe"],
     // --- Mandarin and Jin — 睡觉, on the 去聲 contour each row already uses
-    zh_db: ["睡觉", "ʂwei˥˩ tɕjau˥˩"],
+    zh_db: ["睡觉", "ʂwei˥˧ tɕjau˥˧"],
     zh_tj: ["睡觉", "suei˥˧ tɕiɑu˥˧"],
     zh_jn: ["睡觉", "ʂuei˨˩ tɕiɔ˨˩"],
     zh_kf: ["睡觉", "ʂuei˧˩˨ tɕiaɔ˧˩˨"],
@@ -1895,7 +1895,7 @@ WORDS.sleep = {
     ee: ["dɔ alɔ̃", "dɔ alɔ̃"],
     dag: ["gbihi", "ɡbihi"],
     bin: ["vbiẹ", "ʋiɛ"],
-    ha: ["yi barci", "ji bartʃiː"],
+    ha: ["yi barci", "jí báɽtʃíː"],
 
     // --- Austronesian — *tuduR and the Philippine ma- forms
     bto: ["turog", "tuɾoɡ"],

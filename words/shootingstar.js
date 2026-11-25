@@ -453,7 +453,7 @@ WORDS.shootingstar = {
     gu: ["ખરતો તારો", "kʰəɾto taːɾo"],  // Literally 'a star falling off', the everyday name per Gujarati Wikipedia.
     ml: ["കൊള്ളിമീൻ", "koɭːimiːn"],  // Built on കൊള്ളി 'firewood, stick' and മീൻ, today 'fish' but an old word for 'star'; ഉൽക്ക is the learned term.
     uk: ["падаюча зірка", "padajutʃɐ zʲirkɐ"],  // Literally 'falling star'.
-    zh_db: ["流星", "ljoʊ˧˥ ɕiŋ˥"],  // 流 'flow' + 星 'star': the flowing star. Harbin also says 贼星 'thief star'.
+    zh_db: ["流星", "ljoʊ˨˦ ɕiŋ˦"],  // 流 'flow' + 星 'star': the flowing star. Harbin also says 贼星 'thief star'.
     zh_tw: ["流星", "ljoʊ˧˥ ɕiŋ˥"],  // 流 'flow' + 星 'star': the flowing star.
     zh_tj: ["贼星", "tsei˦˥ ɕiŋ˨˩"],  // Literally 'thief star', the colloquial northern name; Wiktionary 賊星 glosses it (colloquial) meteor, shooting star.
     zh_jn: ["贼星", "tsei˦˨ ɕiŋ˨˩˧"],  // Literally 'thief star', the colloquial northern name; Wiktionary 賊星 glosses it (colloquial) meteor, shooting star.

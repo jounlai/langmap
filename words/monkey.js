@@ -858,7 +858,7 @@ WORDS.monkey = {
     gsw: ["Aff", "ɑfː"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
     gu: ["વાંદર", "ˈʋandəɾ"],  // From Sanskrit vānara, the "forest one".
     gun: ["kaʼi", "kaˈʔi"],  // From Proto-Tupi-Guarani *kaʔi.
-    ha: ["biri", "biri"],
+    ha: ["biri", "bíɽìː"],
     haw: ["keko", "keko"],
     he: ["קוף", "kof"],  // Likely borrowed from the east, related to Middle Persian kabīg.
     hi: ["बंदर", "bəndəɾ"],  // From Sanskrit vānara through Prakrit; the -d- was added between n and r.
@@ -1199,7 +1199,7 @@ WORDS.monkey = {
     yue_ts: ["马骝", "ma˥˥ leu˥˥"],  // Origin unknown; Wiktionary lists a Tai-Kadai substrate word or a Sino-Tibetan root as possibilities. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山 (the reading it gives for 馬騮) and Wiktionary.
     zh_cd: ["猴子", "xəu˨˩ tsɿ˥˧"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["猴子", "xəu˨˩ tsɿ˦˨"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["猴子", "xoʊ̯˧˥ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["猴子", "xoʊ̯˨˦ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["猴子", "xɤɯ˦˥ tə"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jh: ["猴子", "xəu˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 陽平 ˩˧ (MCPDict 南京 猴 xəu2 = 13; 揚州 xɤɯ ˧˥).
     zh_jiao: ["猴子", "xou˦˨ tsɿ˥˥"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
@@ -1337,7 +1337,7 @@ WORDS.monkey = {
     dnj: ["wɔ̀ɔ", "wɔ̀ː"],
     dyu: ["sula", "sula"],
     ee: ["kese", "kese"],
-    ig: ["enwe", "eŋʷe"],
+    ig: ["enwe", "èŋʷè"],
     izz: ["enwe", "eŋwe"],
     kbp: ["tɩgbayʋ", "tɪɡbajʊ"],
     maw: ["ŋmaaŋŋa", "ŋmaːŋːa"],  // No image is recorded for it, so it counts as a word of its own.

@@ -465,7 +465,7 @@ WORDS.cockroach = {
     ar_ma: ["سراق الزيت", "sərraq zziːt"],  // Compound: sarrāq "thief" + ez-zīt "the oil".
     ti: ["ድዱዕ", "dɨduʕ"],  // Native Tigrinya word.
     mt: ["wirdien", "wɪrˈdɪːn"],  // Inherited from Arabic وردان wardān.
-    ha: ["kyankyaso", "kʲaŋkʲasoː"],  // Native Hausa word.
+    ha: ["kyankyaso", "kʲàŋkʲásòː"],  // Native Hausa word.
     wo: ["mbóot", "mboːt"],  // Native Wolof word.
     rw: ["inyenzi", "iɲenzi"],  // Native Bantu noun, class 9.
     rn: ["inyenzi", "iɲenzi"],  // Native Bantu noun, class 9.

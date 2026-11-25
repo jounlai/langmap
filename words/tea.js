@@ -1144,7 +1144,7 @@ WORDS.tea = {
     zh_kf: ["茶", "tʂʰa˥˧"], // was ["茶", "tʂʰa˦˨"] (vi dialect rules 2026-10-06)
     zh_wh: ["茶", "tsʰa˨˩˧"],
     zh_cq: ["茶", "tsʰa˨˩"],
-    zh_db: ["茶", "tʂʰa˧˥"],
+    zh_db: ["茶", "tʂʰa˨˦"],
     zh_lz: ["茶", "tʂʰa˥˧"],
     zh_jh: ["茶", "tsʰa˩˧"], // was ["茶", "tsʰa˧˥"] (vi dialect rules 2026-10-06)
     zh_hf: ["茶", "tʂʰa˦˥"], // was ["茶", "tʂʰa˥˥"] (vi dialect rules 2026-10-06)
@@ -1373,7 +1373,7 @@ WORDS.tea = {
     gan: ["茶", "tsʰa˨˦"],
     glk: ["چای", "tʃɒːj"],
     gu: ["ચા", "tʃaː"],
-    ha: ["shayi", "ʃaːjiː"], // was ["shayi", "ʃai"] (vi dialect rules 2026-10-06)
+    ha: ["shayi", "ʃáːjì"], // was ["shayi", "ʃai"] (vi dialect rules 2026-10-06)
     hak_cn: ["茶", "tsʰa˩˩"],
     hak_tw: ["茶", "tsʰa˩˩"],
     hi: ["चाय", "tʃaːj"],

@@ -595,7 +595,7 @@ WORDS.japan = {
     ko: ["일본", "ilbon"],  // The Korean reading of 日本 'sun origin' (Wiktionary).
     wuu: ["日本", "zəʔ˩˩ pən˨˧"],  // Literally 'sun origin', read in Shanghainese with the literary zeq for 日 (Wiktionary).
     ta: ["ஜப்பான்", "dʒapːaːn"],  // Borrowed from English Japan; சப்பான் and யப்பான் are other spellings (Wiktionary).
-    ha: ["Japan", "dʒapan"],  // Borrowed from English Japan (Wiktionary).
+    ha: ["Japan", "dʒàpân"],  // Borrowed from English Japan (Wiktionary).
     ms: ["Jepun", "dʒəˈpun"],  // Borrowed from Hokkien 日本 Ji̍t-pún; the older Jepang survives mainly in Indonesia, and Portuguese traders took the name to Europe from Malay (Wiktionary).
     it: ["Giappone", "dʒapˈpoːne"],  // Borrowed from French Japon, from Portuguese Japão (Wiktionary).
     pnb: ["جاپان", "dʒaːpaːn"],  // Borrowed from English Japan (Wiktionary).
@@ -753,7 +753,7 @@ WORDS.japan = {
     pt_br: ["Japão", "ʒaˈpɐ̃w̃"],  // Portuguese took the name from Malay Jepang in the 1500s; English and French Japan/Japon come from it.
     prs: ["جاپان", "dʒɑːˈpɑːn"],  // Borrowed from English Japan, possibly via Pashto or Urdu; Iranian Persian uses the French-derived ژاپن instead.
     hyw: ["Ճափոն", "dʒɑˈpʰon"],  // Western Armenian uses the short form Ճափոն, from a European form like French Japon; Eastern Armenian says Ճապոնիա.
-    zh_db: ["日本", "ʐɨ˥˩ pən˧˩˧"],  // Literally 'sun origin'; Harbin reads it with the same tones as standard Mandarin.
+    zh_db: ["日本", "ʐɨ˥˧ pən˨˩˧"],  // Literally 'sun origin'; Harbin reads it with the same tones as standard Mandarin.
     ar_lev: ["اليابان", "ljaˈbˤaːn"],  // From Arabic al-yābān, ultimately Dutch Japan; Levantine pronounces the b emphatic, likely by analogy with Germany and Spain (Wiktionary).
     en_aave: ["Japan", "dʒəˈpæn"],  // Same name as standard English, from Portuguese Japão via Malay Jepang, ultimately Hokkien 日本 Ji̍t-pún 'sun origin'.
     en_south: ["Japan", "dʒəˈpæn"],  // Same name as standard English, from Portuguese Japão via Malay Jepang, ultimately Hokkien 日本 Ji̍t-pún 'sun origin'.

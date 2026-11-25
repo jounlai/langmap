@@ -761,7 +761,7 @@ WORDS.uncle = {
     yur: ["cheemos", "tʃimɔʂ"],
     zh: ["叔叔", "ʂu˥ ʂu"],  // Father's brother; mother's brother is 舅舅.
     zza: ["ded", "dɛd"],  // Father's brother; mother's brother is daye.
-    ha: ["baffa", "bafːa"],  // Father's brother; mother's brother is kawu.
+    ha: ["baffa", "báfːà"],  // Father's brother; mother's brother is kawu.
     ee: ["tɔɖe", "tɔɖe"],  // Father's brother; mother's brother is wɔfa.
     so: ["adeer", "adeːr"],  // Father's brother; mother's brother is abti.
     la: ["patruus", "ˈpatruus"],  // Father's brother; mother's brother is avunculus.

@@ -603,7 +603,7 @@ WORDS.germany = {
     ko: ["독일", "toɡil"],  // The Korean reading of 獨逸, the Japanese kanji spelling of Doitsu, from Dutch Duits 'German' (Wiktionary).
     wuu: ["德国", "təʔ˧ koʔ˦˦"],  // 德 is short for 德意志, a transcription of Deutsch, plus 国 'country' (Wiktionary).
     ta: ["ஜெர்மனி", "dʒeɾmani"],  // Borrowed from English Germany; the purist spelling செருமனி and the rare இடாய்ச்சுலாந்து (from Deutschland) also exist (Wiktionary).
-    ha: ["Jamus", "dʒaːmus"],  // Listed under the names from Latin Germania; Wiktionary suggests a borrowing from English Germany.
+    ha: ["Jamus", "dʒáːmùs"],  // Listed under the names from Latin Germania; Wiktionary suggests a borrowing from English Germany.
     ms: ["Jerman", "dʒərman"],  // From English German, from Latin Germania (Wiktionary).
     it: ["Germania", "dʒerˈmaːnja"],  // From Latin Germania (Wiktionary).
     pnb: ["جرمنی", "dʒəɾməniː"],  // Borrowed from English Germany (Wiktionary).
@@ -844,7 +844,7 @@ WORDS.germany = {
     pt_br: ["Alemanha", "aleˈmɐ̃ɲɐ"],  // From Latin Alemannia, after the Alamanni tribe.
     prs: ["آلمان", "ɑːlˈmɑːn"],  // Same name as Iranian Persian, via French allemand; the older English-derived جرمنی jarmanī is now less common in Dari.
     hyw: ["Գերմանիա", "kʰeɾˈmɑniɑ"],  // From Classical Armenian, ultimately Latin Germania.
-    zh_db: ["德国", "tɤ˧˥ kwo˧˩˧"],  // 德 short for 德意志 (Deutsch); in Harbin speech 国 is read in the third tone, unlike standard guó.
+    zh_db: ["德国", "tɤ˨˦ kwo˨˩˧"],  // 德 short for 德意志 (Deutsch); in Harbin speech 国 is read in the third tone, unlike standard guó.
     zh_sc: ["德国", "te˨˩ kue˨˩"],  // 德 short for 德意志 (Deutsch); both syllables are old checked-tone words that fall into the low falling tone in Chengdu.
     ar_eg: ["ألمانيا", "ʔalˈmaːnja"],  // From European forms of Alemannia, after the Alamanni tribe.
     ar_lev: ["ألمانيا", "ʔalˈmaːnja"],  // From European forms of Alemannia, after the Alamanni tribe.

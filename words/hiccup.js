@@ -564,7 +564,7 @@ WORDS.hiccup = {
     as: ["হিঁকটি", "ɦikɔti"],  // Inherited from Sanskrit hikkā, built on an onomatopoeic root; also spelled হেঁকটি.
     hy: ["զկռտոց", "zəkərˈtotsʰ"],  // A noun from զկռտալ 'to hiccup'.
     zh: ["打嗝", "ta˧˩˧ kɤ˧˥"],  // 打 'to do, strike' + 嗝, a sound-word for the hiccup; strictly a verb phrase, it is also the everyday name of the condition, and 呃逆 is the technical term.
-    zh_db: ["打嗝", "ta˧˩˧ kɤ˧˥"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_db: ["打嗝", "ta˨˩˧ kɤ˨˦"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
     zh_sc: ["打嗝", "ta˥˧ ke˥˧"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
     zh_cd: ["打嗝", "ta˥˧ ke˥˧"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
     zh_cq: ["打嗝", "ta˦˨ ke˨˩"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
@@ -593,7 +593,7 @@ WORDS.hiccup = {
     skr: ["ہݙکی", "hɪɗkiː"],  // Saraiki, from the verb ہݙکݨ; a Saraiki glossary equates it with Urdu ہچکی 'hiccup'. Route by resemblance to the neighbouring forms (ur(ہچکی)); no etymology of its own.
     ne: ["बाडुली", "baːɖuliː"],  // Nepali dictionaries define it as the hiccupping sound and equate it with hikkā; Turner's Nepali dictionary (1931) marks it, with a query, as onomatopoeic.
     or: ["ହିକ୍କା", "hikːaː"],  // From Sanskrit hikkā, built on an onomatopoeic root.
-    ha: ["shaƙuwa", "ʃakʼuwaː"],  // Used in yi shaƙuwa 'to do a hiccup', the usual way to say 'to hiccup'.
+    ha: ["shaƙuwa", "ʃákʼúwàː"],  // Used in yi shaƙuwa 'to do a hiccup', the usual way to say 'to hiccup'.
     yo: ["èsúkè", "èsúkè"],  // The noun belonging to the verb súkè 'to hiccup'.
     my: ["ကြို့ထိုး", "tɕo̰tʰó"],  // The verb 'to hiccup'; ကြို့ alone also means 'to belch'.
     sr: ["штуцање", "ʃtûtsaːɲe"],  // The verbal noun of штуцати 'to hiccup'. Штуцати imitates the sound.

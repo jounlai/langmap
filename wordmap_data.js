@@ -928,7 +928,7 @@ const LANG_DATA = {
 },
   qu: { name: 'Quechua', native: 'Runasimi', lat: -13.52, lng: -71.97, // Cusco
 },
-  zh_db: { name: "Northeastern Mandarin", native: '东北话', lat: 41.80, lng: 123.43,
+  zh_db: { name: "Northeastern Mandarin", native: '东北话', lat: 45.80, lng: 126.53, // Harbin
 },
   zh_sc: { name: "Sichuan Mandarin", native: '四川话', lat: 30.57, lng: 104.07,
 },

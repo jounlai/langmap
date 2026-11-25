@@ -1076,7 +1076,7 @@ WORDS.right = {
     kn: ["ಬಲ", "bəla"],
     lez: ["эрчӏи", "ertʃʼi"],
     zh: ["右", "joʊ̯˥˩"],
-    ha: ["dama", "dama"],
+    ha: ["dama", "dáːmá"],
     rtm: ["ʻatmại", "ʔatmɔi"],
     to: ["tafaʔaki mataʔu", "tafaʔaki mataʔu"],
     ay: ["kupi", "ˈkupi"],
@@ -1484,7 +1484,7 @@ WORDS.right = {
     deg: ["ụḅavi", "ʊɓəvi"],
     dnj: ["kɔ̏sʌ̏", "kɔ̏sʌ̏"],  // Literally 'good hand'.
     ee: ["ɖusime", "ɖusime"],
-    ig: ["aka nri", "aka nɾi"],
+    ig: ["aka nri", "áká ńɾī"],
     kpe: ["láa mii-yée mɛi-pere", "láː miː jée mɛi pere"],
     kri: ["rayt", "rajt"],
     maw: ["nudirigu", "nudiriɡu"],  // The right hand; facing the sunrise it also names the south.
@@ -1747,7 +1747,7 @@ WORDS.right = {
     ja_rys: ["右", "neːɾa"],
     ja_sd: ["右", "miɡi"],
     ar_sd: ["يمين", "jaˈmiːn"],
-    zh_db: ["右", "joʊ̯˥˩"],
+    zh_db: ["右", "joʊ̯˥˧"],
     zh_jh: ["右", "iəu˦˦"],
     zh_lz: ["右", "jou˩˧"],
     ote: ["ʼñe̲i", "ʔɲɛi"],

@@ -1142,7 +1142,7 @@ WORDS.soap = {
     ee: ["adzalẽ", "adzalẽ"],
     ekp: ["ịca", "ɪtʃa"],
     fon: ["aɖǐ", "aɖǐ"],
-    ig: ["ncha", "ntʃa"],
+    ig: ["ncha", "ńtʃà"],
     izz: ["ncha", "ntʃa"],
     kbp: ["fɔɔfɔɔ", "fɔːfɔː"],
     kri: ["sop", "sop"],

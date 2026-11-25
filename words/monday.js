@@ -917,7 +917,7 @@ WORDS.monday = {
     ar_ma: ["التنين", "ttniːn"],  // "The second (day)", from Arabic al-ithnayn "the two", counting from Sunday.
     ar_gulf: ["الاثنين", "ilaθˈneːn"],  // "The second (day)", from Arabic al-ithnayn "the two", counting from Sunday.
     mt: ["it-Tnejn", "ɪtˈtnɛjn"],  // From Arabic al-ithnayn "the two", i.e. the second day counting from Sunday (il-Ħadd).
-    ha: ["Litinin", "liːtinin"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.
+    ha: ["Litinin", "lìːtìnîn"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.
     wo: ["altine", "altine"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.
     so: ["isniin", "isniːn"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.
     om: ["Wiixata", "wiːtʼata"],  // Oromo name of Monday; etymology not documented in the source.
@@ -1088,7 +1088,7 @@ WORDS.monday = {
     ar_lb: ["التنين", "ttaneːn"],  // "The second (day)", from Arabic al-ithnayn "the two"; the initial a probably comes from التلاتا "Tuesday".
     ar_jo: ["الإتنين", "ilʔitneːn"],  // "The two": the second day, counting Sunday as day one.
     ar_ps: ["الإتنين", "ilʔitˈneːn"],  // "The two": the second day, counting Sunday as day one.
-    zh_db: ["星期一", "ɕiŋ˥ tɕʰi˥ i˥"],  // 星期一 'week one', the Mainland word.
+    zh_db: ["星期一", "ɕiŋ˦ tɕʰi˦ i˦"],  // 星期一 'week one', the Mainland word.
     zh_sc: ["星期一", "ɕin˥ tɕʰi˨˩ i˨˩"],  // 星期一 'week one', the Mainland word.
     zh_cd: ["星期一", "ɕin˥˥ tɕʰi˨˩ i˨˩"],  // 星期一 'week one', the Mainland word.
     zh_cq: ["星期一", "ɕin˥ tɕʰi˥ i˨˩"],  // 星期一 'week one', the Mainland word.
@@ -1243,7 +1243,7 @@ WORDS.monday = {
     kab: ["letnayen", "lətnajən"],  // The everyday name; the newer Berber coinage Arim is used in writing and in CLDR, and the source gives no etymology for letnayen. Route by resemblance to the neighbouring forms (Egyptian Arabic الاتنين, Tarifit ⵔⴻⵜⵏⴰⵢⴻⵏ); no etymology of its own.
     ln: ["mokɔlɔ mwa mosálá mɔ̌kɔ́", "mokɔlɔ mwa mosálá mɔ̌kɔ́"],  // Literally 'day of work one', the first working day; CLDR gives mokɔlɔ mwa yambo, 'the first day'.
     pcm: ["Mọ́ndè", "mɔ́ndè"],  // The Naijá name of Monday in the Unicode locale data; no source here states its origin, though it matches English Monday. Route by resemblance to the neighbouring forms (English Monday, Jamaican Patois Monde); no etymology of its own.
-    ig: ["Mọnde", "mɔnde"],  // An adaptation of English Monday, 'day of the Moon'; the native phrase is ụbọchị mbụ na izuụka, 'first day of the week'.
+    ig: ["Mọnde", "mɔ́ndè"],  // An adaptation of English Monday, 'day of the Moon'; the native phrase is ụbọchị mbụ na izuụka, 'first day of the week'.
     ps: ["دوشنبه", "doʃanbe"],  // The Persian name, du 'two' + shanbe 'Sabbath': the second day after Saturday.
     bal: ["دوشمبه", "doʃambe"],  // Like Persian doshanbe: do 'two' + shambe 'Saturday', the second day counted from Saturday.
     kln: ["Kotaai", "kotaːi"],  // The Kalenjin name of Monday in the Unicode locale data; its make-up is not given there.

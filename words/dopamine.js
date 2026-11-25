@@ -298,7 +298,7 @@ WORDS.dopamine = {
     eo: ["dopamino", "dopaˈmino"],
     ia: ["dopamina", "dopaˈmina"],
     war: ["dopamin", "dopaˈmin"],
-    zh_db: ["多巴胺", "two˥ pa˥ an˥˩"],
+    zh_db: ["多巴胺", "two˦ pa˦ an˥˧"],
     sc: ["dopamina", "dopaˈmina"],
     ug: ["دوپامىن", "dopaˈmin"],
     yue_zs: ["多巴胺", "tɔ˥˥ pa˥˥ ɔn˧˧"],

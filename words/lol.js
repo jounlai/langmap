@@ -513,7 +513,7 @@ WORDS.lol = {
     th_isan: ["555", "haː˨ haː˨ haː˨"],
     th_n: ["555", "haː˥˥˨ haː˥˥˨ haː˥˥˨"],
     th_s: ["555", "haː˥˩ haː˥˩ haː˥˩"],
-    zh_db: ["233", "ɑɚ˥˩ san˥ san˥"],
+    zh_db: ["233", "ɚ˥˧ san˦ san˦"],
     zh_sc: ["233", "ɚ˨˩˧ san˥ san˥"],
     zh_cd: ["233", "ɚ˨˩˧ san˥˥ san˥˥"],
     zh_cq: ["233", "ɚ˨˩˧ san˥ san˥"],

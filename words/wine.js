@@ -1125,7 +1125,7 @@ WORDS.wine = {
     laj: ["koŋo", "koŋo"],
     krl: ["viina", "ˈviːna"],
     izz: ["mẹe", "mɛe"],
-    ig: ["mmanya", "mːaɲa"],
+    ig: ["mmanya", "m̀ːáɲá"],
     dru: ["bava", "bava"],
     cag: ["ɔtxajetax tʼiʔ", "ɔtxajetax tʼiʔ"],
     bin: ["ayọn", "ajɔ̃"],
@@ -1364,7 +1364,7 @@ WORDS.wine = {
     tl: ["alak", "ˈʔalak"],
     h_tagalog: ["ᜀᜎᜃ᜔", "ˈalak"], // was ["ᜀᜎᜃ᜔", "ˈʔalak"] (vi dialect rules 2026-10-06)
     am: ["ወይን", "wəjn"], // was ["ወይን", "wɐjn"] (vi dialect rules 2026-10-06)
-    ha: ["ruwan inabi", "ɽuwan inabiː"], // was ["giya", "ɡija"] (r29 fix 2026-10-02) // was ["ruwan inabi", "ɾuwan inabi"] (vi dialect rules 2026-10-06)
+    ha: ["ruwan inabi", "ɽúwán ínàbíː"], // was ["giya", "ɡija"] (r29 fix 2026-10-02) // was ["ruwan inabi", "ɾuwan inabi"] (vi dialect rules 2026-10-06)
     zu: ["iwayini", "iwaˈjini"],
     mg: ["divay", "diˈvaj"], // was ["divay", "divaj"] (vi dialect rules 2026-10-06)
 
@@ -1598,7 +1598,7 @@ WORDS.wine = {
 
     // --- East Asia — 葡萄酒 is 'grape liquor', the 葡萄 itself an Iranian loan
     zh_tw: ["葡萄酒", "pʰu˧˥ tʰɑʊ̯˧˥ tɕjoʊ̯˧˩˧"],
-    zh_db: ["葡萄酒", "pʰu˧˥ tʰɑʊ̯˧˥ tɕjoʊ̯˧˩˧"],
+    zh_db: ["葡萄酒", "pʰu˨˦ tʰɑʊ̯˨˦ tɕjoʊ̯˨˩˧"],
     nan: ["葡萄酒", "pʰu˨˦ to˨˦ tsiu˥˧"],
     hak_cn: ["葡萄酒", "pʰu˩˩ tʰau˩˩ tsiu˧˩"], // was ["葡萄酒", "pʰu˨˦ tʰo˨˦ tsiu˧˩"] (vi dialect rules 2026-10-06)
     ja_osa: ["ワイン", "waiɴ"],

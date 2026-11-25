@@ -391,7 +391,7 @@ WORDS.goosebumps = {
     vi_c: ["da gà", "jaː˥ ɣaː˦˨"],  // Literally "chicken skin"; one says nổi da gà "to raise chicken skin".
     vi_s: ["da gà", "jaː˧ ɣaː˨˩"],  // Literally "chicken skin"; one says nổi da gà "to raise chicken skin".
     zh_tw: ["雞皮疙瘩", "tɕi˥ pʰi˧˥ kɤ˥ ta"],  // Literally "chicken-skin lumps".
-    zh_db: ["鸡皮疙瘩", "tɕi˥ pʰi˧˥ ka˥ ta"],  // Literally "chicken-skin lumps"; Harbin says the first syllable of 疙瘩 as ka.
+    zh_db: ["鸡皮疙瘩", "tɕi˦ pʰi˨˦ ka˦ ta"],  // Literally "chicken-skin lumps"; Harbin says the first syllable of 疙瘩 as ka.
     zh_cd: ["鸡皮子疙瘩", "tɕi˥˥ pʰi˨˩ tsɿ˥˧ ke˨˩ ta˥˥"],  // Literally "chicken-skin lumps", with Sichuanese 子; 鸡皮绉 "chicken-skin wrinkles" is also said.
     zh_sc: ["鸡皮子疙瘩", "tɕi˥ pʰi˨˩ tsɹ̩˥˧ kɛ˨˩ ta˥"],  // Literally "chicken-skin lumps", with Sichuanese 子 (Chengdu data); 鸡皮绉 "chicken-skin wrinkles" is also said.
     zh_wh: ["鸡皮", "tɕi˥˥ pʰi˨˩˧"],  // Literally "chicken skin"; the full 鸡皮疙瘩 is also used.

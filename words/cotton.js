@@ -828,7 +828,7 @@ WORDS.cotton = {
     enm: ["coton", "kɔˈtuːn"],  // Through Old French and Italian cotone from Arabic quṭn.
     pi: ["कप्पास", "kapːaːsa"],  // From Sanskrit karpāsa.
     sl: ["bombaž", "bɔmˈbaːʃ"],  // Borrowed from Venetan bombaso.
-    ha: ["audùgā", "ʔáudùɡáː"],  // It also means the cotton plant.
+    ha: ["auduga", "ʔáudùɡáː"],  // It also means the cotton plant.
     mzn: ["پمه", "pæmme"],  // From Middle Persian pmbk', the Persian pambak word.
     ba: ["мамыҡ", "mɑˈmɯ̞q"],  // From Chagatai mamuq 'cotton'; it also means cotton wool and down.
     ht: ["koton", "kotɔ̃"],  // From French coton.
@@ -1055,7 +1055,7 @@ WORDS.cotton = {
     deg: ["ạfalafa", "afalafa"],
     dnj: ["yēe̋", "jēe̋"],
     ee: ["deti", "deti"],
-    ig: ["owu", "owu"],
+    ig: ["owu", "òwú"],
     kri: ["kɔtin", "kɔtin"],
     maw: ["gumni", "ɡumni"],  // No image is recorded for it, so it counts as a word of its own.
     chb: ["quihisa", "kihisa"],

@@ -951,7 +951,7 @@ WORDS.kiss = {
     osp: ["beso", "ˈbezo"],
     ee: ["nugbugbɔ", "nuɡbuɡbɔ"],
     ibb: ["ntim inua", "ntim inua"],
-    ig: ["nsụsụ ọnụ", "nsʊsʊ ɔnʊ"],
+    ig: ["nsụsụ ọnụ", "ńsʊ́sʊ̄ ɔ̄nʊ́"],
     izz: ["etsutsu ọnu", "etsutsu ɔnu"],
     kri: ["kis", "kis"],
     yo: ["ìfẹnukonu", "ìfɛnukonu"],

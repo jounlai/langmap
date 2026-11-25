@@ -493,7 +493,7 @@ WORDS.sunflower = {
     cjy_xz: ["葵花花", "kʰuei˧˩˧ xuɑ˧˩˧ xuɑ˧˩˧"],  // Xinzhou says 葵花花, the plain 葵花 'kui flower' with 花 doubled.
     hsn_hy: ["望日莲", "man˨˩˧ ɕi˩˩˨ tien˩˩˨"],  // Literally 'sun-gazing lotus': 望 'gaze at' + 日 'sun' + 莲 'lotus'.
     zh_tw: ["向日葵", "ɕjɑŋ˥˩ ʐɨ˥˩ kʰweɪ̯˧˥"],  // 向 'to face' + 日 'sun' + 葵 'kui plant': the plant that faces the sun.
-    zh_db: ["向日葵", "ɕjɑŋ˥˩ ʐɨ˥˩ kʰweɪ̯˧˥"],  // 向 'to face' + 日 'sun' + 葵 'kui plant': the plant that faces the sun. Harbin also says 葵花 and 毛嗑儿.
+    zh_db: ["向日葵", "ɕjɑŋ˥˧ ʐɨ˥˧ kʰweɪ̯˨˦"],  // 向 'to face' + 日 'sun' + 葵 'kui plant': the plant that faces the sun. Harbin also says 葵花 and 毛嗑儿.
     zh_cd: ["向耳葵", "ɕiaŋ˨˩˧ ɚ˥˧ kʰuei˨˩"],  // Chengdu's spelling of 向日葵 'facing the sun', with 日 heard as 耳 er; 向日葵 is also written.
     zh_sc: ["向耳葵", "ɕiaŋ˨˩˧ ɚ˥˧ kʰuei˨˩"],  // The Sichuanese spelling of 向日葵 'facing the sun', with 日 heard as 耳 er.
     yue_ts: ["向日葵", "hiaŋ˧˧ ŋit˧˨ kʰei˨˩˥"],  // 向 'to face' + 日 'sun' + 葵 'kui plant': the plant that faces the sun.

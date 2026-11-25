@@ -1418,7 +1418,7 @@ WORDS.mountain = {
     guc: ["uuchi", "uːtʃi"],
     gv: ["slieau", "slʲuː"],
     h_vedic: ["पर्वत", "pɐ́rʋɐtɐ"],
-    ha: ["tsauni", "tsauniː"],  // Hausa dutse is one word for stone, rock and mountain, so this matches the standing stone cell exactly. The draft read dúːtsʼèː, which is arguably the better Hausa — ⟨ts⟩ is ejective and the vowels are long — but this row writes ⟨ts⟩ plain (tsuntsu /tsúntsúː/) and marks tone in only 5 of 71 cells. Unifying on the standing form rather than half-correcting the row; the ⟨ts⟩ and tone questions want a row audit.
+    ha: ["tsauni", "tsáunìː"],  // Hausa dutse is one word for stone, rock and mountain, so this matches the standing stone cell exactly. The draft read dúːtsʼèː, which is arguably the better Hausa — ⟨ts⟩ is ejective and the vowels are long — but this row writes ⟨ts⟩ plain (tsuntsu /tsúntsúː/) and marks tone in only 5 of 71 cells. Unifying on the standing form rather than half-correcting the row; the ⟨ts⟩ and tone questions want a row audit.
     hak_cn: ["山", "san˦˦"],
     hak_hl: ["山", "san˥˧"],
     hak_tw: ["山", "san˨˦"],
@@ -1433,7 +1433,7 @@ WORDS.mountain = {
     hy_grab: ["լեառն", "learn"],
     ia: ["montania", "monˈtania"],
     iba: ["bukit", "bukit"],
-    ig: ["ugwu", "uɡʷu"],
+    ig: ["ugwu", "úɡʷú"],
     ik: ["iġġi", "iʁːi"],
     ilo: ["bantay", "banˈtaj"],
     inh: ["лоам", "lɔ̯ɑm"],
@@ -1604,7 +1604,7 @@ WORDS.mountain = {
     zh_sc: ["山", "san˥"],
     wuu: ["山", "sɛ˥˧"],
     zh_jh: ["山", "san˧˩"],
-    zh_db: ["山", "ʂan˥"],
+    zh_db: ["山", "ʂan˦"],
     zh_tj: ["山", "san˨˩"],
     zh_wh: ["山", "san˥˥"],
     zh_zz: ["山", "ʂan˨˦"],

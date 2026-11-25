@@ -197,14 +197,13 @@ const EXCEPTIONS = new Set([
   // (你 冷 我 馬), Min colloquial → 陽去 (五 耳), Wu 陽上 mergers — so the new
   // members moved the majority and the other half of each split now shows.
   // All are as the sources give them.
-  'cdo|五', 'cdo|耳', 'cjy_cz|下', 'cjy_dt|上', 'cnp_gl|上', 'cpx|五', 'cpx|耳', 'gan_yt|下', 'hak_cn|你', 'hak_cn|冷', 'hak_hl|你', 'hak_hl|冷', 'hak_hy|冷', 'hak_hy|我', 'hak_hy|馬', 'hak_mz|你', 'hak_mz|冷', 'hak_tw|你', 'hak_tw|冷', 'hsn_hy|大', 'nan_pn|老', 'nan_pn|雨', 'nan_sg|多', 'nan_te|五', 'nan_te|耳', 'nan|五', 'wuu_jh|五', 'wuu_jh|耳', 'wuu_jh|馬', 'wuu_qt|下', 'wuu_qt|耳', 'wuu_qt|雨', 'wuu_sz|你', 'wuu_sz|我', 'wuu_wz|五', 'wuu_wz|耳', 'wuu|你',
+  'cdo|五', 'cdo|耳', 'cjy_cz|下', 'cjy_dt|上', 'cnp_gl|上', 'cpx|五', 'cpx|耳', 'gan_yt|下', 'hak_cn|你', 'hak_cn|冷', 'hak_hl|你', 'hak_hl|冷', 'hak_hy|冷', 'hak_hy|我', 'hak_hy|馬', 'hak_tw|你', 'hak_tw|冷', 'hsn_hy|大', 'nan_pn|老', 'nan_pn|雨', 'nan_sg|多', 'nan_te|五', 'nan_te|耳', 'nan|五', 'wuu_jh|五', 'wuu_jh|耳', 'wuu_jh|馬', 'wuu_qt|下', 'wuu_qt|耳', 'wuu_qt|雨', 'wuu_sz|你', 'wuu_sz|我', 'wuu_wz|五', 'wuu_wz|耳', 'wuu|你',
   'cjy_lv|五',
   'cnp_gl|不',
   'cpx|行:2',
   'gan_yc|我',
   'hak_cn|我',
   'hak_hl|我', 'hak_hl|行:2',
-  'hak_mz|我', 'hak_mz|行:2',
   'hak_tw|我', 'hak_tw|行:2',
   'mnp|馬', 'mnp|無', 'mnp|兒',
   'msj|頭',
@@ -229,7 +228,7 @@ const EXCEPTIONS = new Set([
   // Old cells newly outvoted by 舌: 白 in 忻州 pæ2, 婁底 pe2, 臨桂兩江 pʰei6 (tables agree).
   // 高 in Singapore Hokkien is 訓讀（懸） kuân (Wiktionary gives no literary reading).
   'wuu|夏', 'wuu|母', 'wuu_sz|夏',
-  'hak_cn|毛', 'hak_mz|毛', 'hak_hl|毛', 'hak_tw|毛', 'gan_yc|毛',
+  'hak_cn|毛', 'hak_hl|毛', 'hak_tw|毛', 'gan_yc|毛',
   'yue|舌', 'yue_hk|舌', 'yue_mo|舌',
   'gan|兔', 'yue_dg|兔', 'cnp_gl|百', 'wuu_jh|千', 'yue_ts|百',
   'cjy_xz|白', 'hsn_ld|白', 'cnp_gl|白',

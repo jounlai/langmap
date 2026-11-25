@@ -1333,7 +1333,7 @@ WORDS.salt = {
     haw: ["paʻakai", "paʔakai"],
     mi: ["tote", "tote"],
     sm: ["masima", "masima"],
-    ha: ["gishiri", "ɡiʃiriː"],
+    ha: ["gishiri", "ɡíʃíɽíː"],
     yo: ["iyọ̀", "ijɔ̀"],
     zu: ["usawoti", "usaˈwoti"],
     xh: ["ityuwa", "icuːwa"],
@@ -1522,7 +1522,7 @@ WORDS.salt = {
 
     // --- Sinitic — 鹽 is 陽平 everywhere -------------------------------
     zh_tw: ["鹽", "jɛn˧˥"],
-    zh_db: ["盐", "jɛn˧˥"],
+    zh_db: ["盐", "jɛn˨˦"],
     zh_tj: ["盐", "ian˦˥"],
     zh_sc: ["盐", "iɛn˨˩"],
     zh_cd: ["盐", "iɛn˨˩"],
@@ -1702,7 +1702,7 @@ WORDS.salt = {
     fud: ["paʻatai", "paʔatai"],
 
     // --- Africa — kɔgɔ, munyu, letswai ------------------------------------
-    ig: ["nnu", "nːu"],
+    ig: ["nnu", "ńːú"],
     ak: ["nkyene", "ntɕene"],
     ee: ["dze", "dze"],
     gej: ["eje", "edʒe"],

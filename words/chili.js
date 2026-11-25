@@ -617,7 +617,7 @@ WORDS.chili = {
     dv: ["މިރުސް", "miɾus̺"],  // From Sanskrit marica 'black pepper'.
     te: ["మిరపకాయ", "miɾapakaːja"],
     ml: ["മുളക്", "muɭɐɡɨ"],  // Originally meant black pepper.
-    ha: ["barkono", "barkoːnoː"],  // Borrowed from Mande.
+    ha: ["barkono", "bàrkòːnóː"],  // Borrowed from Mande.
     ln: ["pilipili", "pilipili"],  // From Swahili pilipili.
     is: ["eldpipar", "ˈɛltpʰɪːpar"],  // eldur 'fire' + pipar 'pepper'.
     ca: ["bitxo", "ˈbitʃu"],  // From vit 'penis'.
@@ -835,7 +835,7 @@ WORDS.chili = {
     yue_zs: ["辣椒", "lat˧ tsiu˥˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
     zh_cd: ["海椒", "xai˥˧ tɕiau˥˥"],  // 'Sea pepper': the chili came from overseas (Wiktionary). Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["海椒", "xai˦˨ tɕiau˥"],  // 'Sea pepper': the chili came from overseas (Wiktionary). Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["辣椒", "la˥˩ tɕjau˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["辣椒", "la˥˧ tɕjau˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["辣椒", "lɐʔ˦ tɕiɔ˨˩˨"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jiao: ["辣椒", "la˦˨ tsiɔ˨˩˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["辣椒", "la˨˩ tɕiɔ˨˩˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
@@ -961,7 +961,7 @@ WORDS.chili = {
     dag: ["naanzua", "naːnzua"],  // No image is recorded for it, so it counts as a word of its own.
     dnj: ["slʌ̏ʌ", "slʌ̏ː"],
     ee: ["atadi", "atadi"],
-    ig: ["ose", "ose"],
+    ig: ["ose", "ósè"],
     kpe: ["kiyɛ̂ŋ", "kijɛ̂ŋ"],
     maw: ["naanzuuwa", "naːnzuːwa"],  // No image is recorded for it, so it counts as a word of its own.
     chb: ["quibsa", "kibsa"],

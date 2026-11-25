@@ -484,7 +484,7 @@ WORDS.milkyway = {
     zh: ["银河", "in˧˥ xɤ˧˥"],  // Literally 'silver river'; 天河 'sky river' is also used.
     yue: ["銀河", "ŋɐn˨˩ hɔː˨˩"],  // Literally 'silver river'.
     zh_tw: ["銀河", "in˧˥ xɤ˧˥"],  // Literally 'silver river'.
-    zh_db: ["天河", "tʰjɛn˥ xɤ˧˥"],  // Literally 'sky river'; 银河 'silver river' is also used in the Northeast, and Harbin also has 牛郎织女河 'the Cowherd and Weaver Girl river'.
+    zh_db: ["天河", "tʰjɛn˦ xɤ˨˦"],  // Literally 'sky river'; 银河 'silver river' is also used in the Northeast, and Harbin also has 牛郎织女河 'the Cowherd and Weaver Girl river'.
     zh_sc: ["天河", "tʰiɛn˥ xo˨˩"],  // Literally 'sky river'; 银河 is also used in Chengdu.
     vi: ["Ngân Hà", "ŋən˧ haː˨˩"],  // Sino-Vietnamese from 銀河 'silver river', usually 'dải Ngân Hà'; also called sông Ngân 'the Silver River'.
     th: ["ทางช้างเผือก", "tʰaːŋ˧tɕʰaːŋ˦˥pʰɯak˨˩"],  // Literally 'the white elephant's path'.
@@ -628,7 +628,7 @@ WORDS.milkyway = {
     azb: ["سامان یولو", "sɑmɑn joˈlu"],  // Literally 'the straw road'; South Azerbaijani Wikipedia also gives سود یولو 'milk road' and آغ یول 'white road'.
     min: ["Bima Sakti", "bima sakti"],  // The Indonesian name, after the hero Bima of the Mahabharata; Minangkabau Wikipedia uses it as its title.
     ilo: ["Ariwanas", "ʔaɾiˈwanas"],  // A native Ilocano word, compare Isneg Ariwanat and Kankanaey Aggiwanas; Tagalog borrowed it as Ariwanas.
-    ha: ["hanya", "hanjaː"],  // Literally 'the road'; Bargery's dictionary also records hanyar Maka 'the road to Mecca'.
+    ha: ["hanya", "hánjàː"],  // Literally 'the road'; Bargery's dictionary also records hanyar Maka 'the road to Mecca'.
     am: ["የወተት ጎዳና", "jəwətət ɡodanːa"],  // Literally 'the road of milk'; Amharic also uses the English loan ሚልኪ ዌይ and the Ge'ez ፍኖተ ሀሊብ 'path of milk'.
     ny: ["chilimira", "tʃilimiɾa"],  // Inherited from a Proto-Bantu word for the Pleiades; gwalalanjovu, mlerang'amba and mbalang'amba are synonyms.
     cpx: ["河溪", "hɒ˩˧ kʰe˥˧˧"],  // Literally 'river-stream', the Puxian name for the Milky Way, used in Putian and Xianyou alongside 天河 'sky river'.

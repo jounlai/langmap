@@ -1215,7 +1215,7 @@ WORDS.snake = {
     guc: ["wüi", "wɨi"],
     gun: ["mboi", "mboˈi"],
     gv: ["aarnieu", "ɛːr nʲˈẽu"],
-    ha: ["maciji", "matʃiːdʒiː"],
+    ha: ["maciji", "mátʃìːdʒíː"],
     haw: ["naheka", "naheka"],  // Learned borrowing from Hebrew נָחָשׁ by Christian missionaries.
     he: ["נחש", "naˈχaʃ"],  // From Proto-Semitic *naḥaš-; compare Akkadian nēšu ša qaqqari, "lion of the ground", for snake.
     her: ["onyoka", "onjoka"],
@@ -1230,7 +1230,7 @@ WORDS.snake = {
     ia: ["serpente", "serˈpente"],  // Route by resemblance to the neighbouring forms (Italian serpente); no etymology of its own.
     iba: ["ular", "ular"],
     id: ["ular", "ˈular"],
-    ig: ["agwọ", "aɡwɔ"],
+    ig: ["agwọ", "áɡwɔ́"],
     ilo: ["uleg", "ˈʔulɛɡ"],  // From Proto-Philippine *quləj, the maggot word (compare Tagalog uod).
     inh: ["лехьа", "ˈleħa"],
     io: ["serpento", "serˈpento"],  // Route by resemblance to the neighbouring forms (Esperanto serpento, Italian serpente); no etymology of its own.
@@ -1707,7 +1707,7 @@ WORDS.snake = {
     yue_zs: ["蛇", "sɛ˥˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
     zh_cd: ["蛇", "se˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["蛇", "se˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["蛇", "ʂɤ˧˥"],  // 蛇, the Chinese word for the snake; 长虫 is also said. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["蛇", "ʂɤ˨˦"],  // 蛇, the Chinese word for the snake; 长虫 is also said. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["蛇", "ʂi˦˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jh: ["蛇", "ɕie˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone value, 陽平 ˩˧ (MCPDict 南京 蛇 ˩˧; 揚州 has ˧˥).
     zh_jiao: ["长虫", "tʃʰaŋ˦˨ tʂʰəŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.

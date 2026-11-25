@@ -1111,7 +1111,7 @@ WORDS.wife = {
     dar: ["хьунул", "xunul"],
     he: ["אישה", "iˈʃa"],
     zh: ["妻子", "tɕʰi˥ tsɨ"],
-    ha: ["mata", "mata"],
+    ha: ["mata", "màːtáː"],
     rap: ["viʻe", "viʔe"],
     to: ["mali", "mali"],
     ay: ["warmi", "ˈwaɾmi"],
@@ -1646,7 +1646,7 @@ WORDS.wife = {
     dyu: ["muso", "muso"],
     efi: ["n̄wan", "ŋwan"],  // The same word means 'woman'.
     fon: ["asi", "asi"],
-    ig: ["nwunye", "ŋʷuɲe"],
+    ig: ["nwunye", "ŋʷúɲè"],
     iso: ["aye", "aje"],
     izz: ["nyee", "ɲeː"],
     kbp: ["halʋ", "halʊ"],

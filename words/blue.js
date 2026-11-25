@@ -1345,7 +1345,7 @@ WORDS.blue = {
     zh_km: ["蓝", "lᴀ̃˧˩"], // was ["蓝", "lã˧˩"] (r48 fix 2026-10-03)
     zh_cq: ["蓝", "lan˨˩"],
     zh_cd: ["蓝", "nan˨˩"],
-    zh_db: ["蓝", "lan˧˥"],
+    zh_db: ["蓝", "lan˨˦"],
     zh_lz: ["蓝", "lɛn˥˧"],
     zh_jh: ["蓝", "lan˩˧"], // was ["蓝", "lã˧˥"] (vi dialect rules 2026-10-06)
     zh_hf: ["蓝", "lɐ̃˦˥"], // was ["蓝", "læ̃˥˥"] (vi dialect rules 2026-10-06)
@@ -1656,7 +1656,7 @@ WORDS.blue = {
     gun: ["ovy", "ovɨ"],  // CLASS NOT SOURCED FOR MBYÁ SPECIFICALLY. ovy is the regular Mbyá reflex of Tupí-Guaraní *oβɨ, which is a grue term in every relative I could check (Paraguayan Guarani hovy 'grue', Chiriguano owɨ = blue and green in IDS). Written ovy in Mbyá orthography, where y = /ɨ/ (cf. this row's pytã).
     gv: ["gorrym", "ˈɡɔrəm"],  // Manx gorrym, the Goidelic gorm; glass covers green/grey.
     gym: ["blure", "bluɾe"],  // The row's tain/ngwen are spelled taen/ngwenen in the WCS list, so the orthographies differ slightly. blure is not obviously a loan (Ngäbere yellow is kwaranen, black drünen).
-    ha: ["shuɗi", "ʃuːɗiː"],  // Hausa shuɗi against kore 'green'. WOLD scores shuɗi as showing no evidence of borrowing. Note that Hausa's genuinely basic colour set is the three-term ja / fari / baƙi of the row's other cells; shuɗi and kore are secondary terms, shuɗi being tied to indigo dyeing. Length and tone are written in the sources and dropped here, as standard Hausa orthography does.
+    ha: ["shuɗi", "ʃúːɗìː"],  // Hausa shuɗi against kore 'green'. WOLD scores shuɗi as showing no evidence of borrowing. Note that Hausa's genuinely basic colour set is the three-term ja / fari / baƙi of the row's other cells; shuɗi and kore are secondary terms, shuɗi being tied to indigo dyeing. Length and tone are written in the sources and dropped here, as standard Hausa orthography does.
     haw: ["uliuli", "uliuli"],  // Hawaiian uli / uliuli is any dark colour — the deep blue of the sea, the dark green of vegetation, the dark of a rain cloud. IDS gives uli for blue. The modern narrow blue polū is an English loan, which WOLD scores as clearly borrowed while uli~uli shows no evidence of borrowing.
     he: ["כחול", "kaˈχol"],  // Hebrew כחול against ירוק. תכלת is the lighter sky-blue, giving Hebrew a two-blue system.
     hi: ["नीला", "ˈniːlaː"],  // नीला vs हरा; आसमानी is sky-blue. NorthEuraLex lists both नीला and आसमानी.

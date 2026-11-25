@@ -908,7 +908,7 @@ WORDS.mirror = {
     gld: ["паня̄чико", "panʲaːtʃikɔ"],
     grt: ["aina", "ajna"],  // From Persian āyina.
     gu: ["દર્પણ", "ˈdəɾpəɳ"],  // From Sanskrit darpaṇa.
-    ha: ["madubi", "maduːbiː"],
+    ha: ["madubi", "mádúːbíː"],
     haw: ["aniani kilo", "anianikilo"],  // Calque of English looking-glass: aniani "glass" + kilo "to look".
     he: ["מראה", "maʁˈʔe"],  // The instrumental noun of רָאָה "to see".
     hi: ["आईना", "aːiːnaː"],  // Borrowed from Classical Persian ā'īna.
@@ -1209,7 +1209,7 @@ WORDS.mirror = {
     alt: ["кӱскӱ", "kysˈky"],  // From Proto-Turkic *köŕ 'eye; to see'.
     ff: ["ndaarorgal", "ndaːɾoɾɡal"],  // From ndaar- 'to look'.
     ay: ["lirpu", "ˈliɾpu"],
-    ig: ["enyo", "eɲo"],
+    ig: ["enyo", "èɲò"],
     krc: ["кюзгю", "kyzˈɡy"],  // As Azerbaijani güzgü.
     lld: ["spidl", "ʃpidl"],
     frr: ["späägel", "ˈspɛːɡəl"],

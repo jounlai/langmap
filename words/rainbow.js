@@ -1057,7 +1057,7 @@ WORDS.rainbow = {
     mi: ["āniwaniwa", "aːniwaniwa"],  // Inherited Polynesian rainbow word (Proto-Nuclear-Polynesian *nuanua), cognate with Hawaiian ānuenue.
     nv: ["náátsʼíílid", "nɑ́ːtsʼíːlɪ̀t"],  // The word's derivation is unknown; Wiktionary notes a possible link to the Navajo root -LID 'burn'. No image is recorded for it, so it counts as a word of its own.
     qu: ["kʼuychi", "ˈkʼujtʃi"],  // The Southern Quechua word for the rainbow. Route by resemblance to the neighbouring forms (qwc(kuychi)); no etymology of its own.
-    zh_db: ["虹", "kaŋ˥˩"],  // Northeastern speakers say the single character 虹 with its colloquial reading gàng rather than the book reading hóng; the word's origin is debated (Schuessler: probably non-Sino-Tibetan).
+    zh_db: ["虹", "kaŋ˥˧"],  // Northeastern speakers say the single character 虹 with its colloquial reading gàng rather than the book reading hóng; the word's origin is debated (Schuessler: probably non-Sino-Tibetan).
     zh_sc: ["虹", "kaŋ˨˩˧"],  // Sichuanese uses the colloquial reading gang4 of 虹 for the rainbow; Chengdu also has the images 天桥 'sky bridge' and 天龙 'sky dragon'.
     cdo: ["虹", "køyŋ˨˦˨"],  // Fuzhou uses the vernacular reading kê̤ṳng of 虹; the character's origin is debated, and its oracle-bone form drew the rainbow as a two-headed dragon.
     bo: ["འཇའ", "tɕa˩˧"],  // An inherited Tibeto-Burman root (Proto-Tibeto-Burman *m-dzya 'rainbow'); the compound འཇའ་ཚོན adds 'colour'.
@@ -1089,7 +1089,7 @@ WORDS.rainbow = {
     ar_gulf: ["قز قزح", "qʊz ˈqʊzəħ"],  // A worn-down form of Arabic qaws quzaḥ 'the bow of Quzah', named after a pre-Islamic Arab weather god.
     ar_ma: ["قوس قزح", "qaws quzaħ"],  // 'The bow of Quzah', inherited from Arabic; Darija also calls the rainbow عروسة السما 'bride of the sky' and قوس النبي 'the Prophet's bow'.
     mt: ["qawsalla", "ʔawˈsalla"],  // Literally 'God's bow' (qaws Alla), a pious replacement for Arabic qaws quzaḥ, which was named after a pre-Islamic god.
-    ha: ["bakan gizo", "bakan ɡizoː"],  // Literally 'the bow of Gizo' (baka 'bow' + -n 'of' + gizo).
+    ha: ["bakan gizo", "bàkán ɡízòː"],  // Literally 'the bow of Gizo' (baka 'bow' + -n 'of' + gizo).
     so: ["qaanso roobaad", "qaːnso roːbaːd"],  // Literally 'rain bow' (qaanso 'bow' + roob 'rain').
     om: ["sabbata waaqaa", "sabːata waːqaː"],  // Literally 'the belt of Waaqa': sabbata is the long band tied round the waist to hold up the trousers, waaqaa means 'of God' or 'of the sky', and Oromo tradition calls the rainbow Waaqa's belt.
     xh: ["umnyama", "umɲaːma"],  // The Xhosa word for the rainbow (noun class 3, plural iminyama). No image is recorded for it, so it counts as a word of its own.

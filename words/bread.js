@@ -1263,7 +1263,7 @@ WORDS.bread = {
     si: ["පාන්", "paːn"],  // From Portuguese pão.
     am: ["ዳቦ", "dabo"],  // Borrowed from Oromo daabboo.
     jv: ["roti", "roti"],
-    ha: ["gurasa", "ɡuraːsaː"],
+    ha: ["gurasa", "ɡùráːsàː"],
     crh: ["ötmek", "øtˈmek"],
     so: ["rooti", "roːti"],
     xh: ["isonka", "isoːᵑka"],
@@ -1353,7 +1353,7 @@ WORDS.bread = {
     yue_ts: ["面包", "men˧˨ pɑu˧˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
     zh_cd: ["面包", "miɛn˨˩˧ pau˥˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["面包", "miɛn˨˩˧ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["面包", "mjɛn˥˩ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["面包", "mjɛn˥˧ pau˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["面包", "mĩ˥˩ pɔ˨˩˨"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jh: ["面包", "mian˦˦ paɔ˧˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 去声 ˦˦ and 陰平 ˧˩ (MCPDict 南京 面 ˦˦, 包 ˧˩; 揚州 has ˥˥, ˨˩).
     zh_jiao: ["面包", "miã˦˨ pɔ˨˩˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
@@ -1447,7 +1447,7 @@ WORDS.bread = {
     ak: ["burodo", "burodo"],  // Akin to Dutch brood.
     dyu: ["buru", "buru"],
     ee: ["abolo", "abolo"],
-    ig: ["achịcha", "atʃɪtʃa"],
+    ig: ["achịcha", "àtʃɪ̀tʃà"],
     izz: ["buredi", "buɾedi"],
     kbp: ["kpɔnɔ", "kpɔnɔ"],
     kpe: ["kpɔ́lo", "kpɔ́lo"],

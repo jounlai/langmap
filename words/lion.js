@@ -1198,7 +1198,7 @@ WORDS.lion = {
     ja_kg: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Kagoshima speech uses as well.
     ja_sd: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Sendai speech uses as well.
     zh_tw: ["獅子", "ʂʅ˥ tsɨ"],  // From Chinese 獅, the shi word. The standard word, used in Taiwan as well; reading as the zh row's own cell (子 neutral, as the row's 金子 tɕin˥ tsɨ).
-    zh_db: ["狮子", "ʂʅ˥ tsɨ"],  // From Chinese 獅, the shi word. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["狮子", "ʂʅ˦ tsɨ"],  // From Chinese 獅, the shi word. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     vi_c: ["sư tử", "ʂɨ˥ tɨ˧˩˨"],  // The same word as standard Vietnamese.
     vi_s: ["sư tử", "ʂɨ˧ tɨ˨˩˦"],  // The same word as standard Vietnamese.
     ar_jo: ["أسد", "ʔasad"],  // Arabic asad.

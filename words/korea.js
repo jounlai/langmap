@@ -698,7 +698,7 @@ WORDS.korea = {
     cjy_lv: ["韩国", "xæ˦˦ kuəʔ˦"],  // The Mainland Chinese short name 韓國 for South Korea, read in Lishi (Lüliang) Jin with the literary reading of 韓.
     cjy_xz: ["韩国", "xɑ̃˧˩ kuɔʔ˦˧"],  // The Mainland Chinese short name 韓國 for South Korea, read in Xinzhou Jin.
     hsn_hy: ["韩国", "xan˩˩˨ kue˨˨"],  // The Mainland Chinese short name 韓國 for South Korea, read in Hengyang Xiang.
-    zh_db: ["韩国", "xan˧˥ kwo˧˩˧"],  // Literally 'Han country', short for 大韩民国; in Harbin speech 国 is read in the third tone, unlike standard guó.
+    zh_db: ["韩国", "xan˨˦ kwo˨˩˧"],  // Literally 'Han country', short for 大韩民国; in Harbin speech 国 is read in the third tone, unlike standard guó.
     ar_lev: ["كوريا", "kuːˈɾijja"],  // An internationalism from Goryeo 高麗; Levantine says kūriyya with a doubled y (Living Arabic).
     ar_ps: ["كوريا", "kuːˈrijja"],  // An internationalism from Goryeo 高麗; Levantine says kūriyya with a doubled y (Living Arabic).
     ar_jo: ["كوريا", "kuːrijja"],  // An internationalism from Goryeo 高麗; Levantine says kūriyya with a doubled y (Living Arabic).

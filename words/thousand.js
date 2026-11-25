@@ -1023,7 +1023,7 @@ WORDS.thousand = {
     he: ["אלף", "ˈelef"],  // A cognate of Arabic alf.
     zh: ["千", "tɕʰjɛn˥"],
     yi: ["טויזנט", "ˈtɔɪ̯zn̩t"],
-    ha: ["dubu", "dubu"],
+    ha: ["dubu", "dúbúː"],
     haw: ["kaukani", "kaukani"],  // From English.
     sw: ["elfu", "ˈelfu"],
     th: ["พัน", "pʰan˧"],
@@ -1499,7 +1499,7 @@ WORDS.thousand = {
     dag: ["tuhili", "tuhili"],
     dnj: ["gblɯ̋", "ɡblɯ̋"],  // Also a basket that holds over a hundred kola nuts.
     dyu: ["waga", "waɡa"],
-    ig: ["puku", "puku"],  // Once 'eight thousand' (20 × 400) in the old count by twenties; now used for a thousand.
+    ig: ["puku", "púkú"],  // Once 'eight thousand' (20 × 400) in the old count by twenties; now used for a thousand.
     kpe: ["wála", "wála"],
     maw: ["tusiri", "tusiri"],
     spp: ["kampwoo", "kampwoː"],

@@ -1675,7 +1675,7 @@ WORDS.foot = {
     ibb: ["ukot", "ukot"],  // ukot covers foot and leg — the Uyo Ibibio Dictionary gives them in one gloss, 'leg and/or foot'.
     id: ["kaki", "ˈkaki"],  // kaki is the whole lower limb; tungkai is a technical 'limb'. tangan/lengan splits the arm, so the row's hand cell behaves differently.
     ie: ["pede", "ˈpede"],  // Occidental-Interlingue keeps pede apart from gambe ‘leg’, as its Romance sources do.
-    ig: ["ụkwụ", "ʊkʷʊ"],  // ụkwụ covers the whole lower limb; the leg-specific word ogwe ụkwụ is a compound on it (CMS Dictionary of the Ibo Language, 1923).
+    ig: ["ụkwụ", "ʊ́kʷʊ́"],  // ụkwụ covers the whole lower limb; the leg-specific word ogwe ụkwụ is a compound on it (CMS Dictionary of the Ibo Language, 1923).
     ii: ["ꏸꑭ", "tɕɿ˧˧ɕɿ˧˧"],  // Gerner's Nuosu grammar writes the foot ꏸꑭ jy xy, ZMYYC 263.21 tɕɿ³³ɕɿ³³; the leg is 264.21 bu³³le³³, the *bwal root Hani and Akha also keep, so Nuosu sits with Loloish against Burmish.
     ik: ["isigak", "isiɣak"],  // The Iñupiaq New Testament washes isigatka at John 13:6 and breaks niu- at 19:31-33, keeping sauniq for the bones at 19:36, so isigak splits from niu. // was ["isigak", "isiɡak"] (vi dialect rules 2026-10-06)
     ilo: ["saka", "ˈsaka"],  // ACD s.v. Ilokano sáka 'foot, leg' in one entry; dapán is the sole and lúlod the shin, neither a rival leg word.
@@ -2369,7 +2369,7 @@ WORDS.foot = {
     zh: ["脚", "tɕi̯ɑʊ̯˨˩˦"],  // Mandarin keeps 脚 (foot) apart from 腿 (leg). Script per this row's simplified convention.
     zh_cd: ["脚", "tɕyo˨˩"],  // Chengdu Mandarin keeps them apart.
     zh_cq: ["脚", "tɕyo˨˩"],  // The row's own 雀 tɕʰio˨˩ is a 藥韻 syllable and fixes the tone; the 見組 medial is撮口 tɕyo per zi.tools, which is the regular split from 精組 tɕʰio.
-    zh_db: ["脚", "tɕjau˨˩˦"],  // Northeastern Mandarin took Beijing's colloquial 上聲 reading of 脚 whole (zi.tools 哈爾濱 tɕiau 上聲), but this row spells that rime tɕjau, not the parent's tɕi̯ɑʊ̯.
+    zh_db: ["脚", "tɕjau˨˩˧"],  // Northeastern Mandarin took Beijing's colloquial 上聲 reading of 脚 whole (zi.tools 哈爾濱 tɕiau 上聲), but this row spells that rime tɕjau, not the parent's tɕi̯ɑʊ̯.
     zh_han: ["足", "cjok"],  // Schuessler LHan 足 = tsiok. 說文 (121 CE) is in-period for this row and settles it: 足 is 「人之足也。在下」 while 腳 is glossed 脛, the shin. // was ["足", "tsiok"] (zh_han rebuild 2026-10-04)
     zh_hf: ["脚", "tɕiɐʔ˦"],  // Jianghuai Mandarin keeps them apart, as the Nanjing row does; 合肥 carries 腿 tʰe as a live reading. MCPDict 合肥 lists 脚 tɕiɐʔ first — iɐʔ is the regular 藥韻開三 reflex and the table marks the tɕyɐʔ of 角 as 新音. ˦ is this row's value for every checked syllable.
     zh_jh: ["脚", "tɕioʔ˥˥"],  // Nanjing still has the entering tone that Beijing lost, so this is the one Mandarin row in the batch whose foot cell carries a stop coda; 维基百科 notes the [-ʔ] itself is variable while the tone category is not.

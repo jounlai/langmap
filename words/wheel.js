@@ -1228,7 +1228,7 @@ WORDS.wheel = {
 
     // --- Sinitic — 輪 alone, or 轮子 with the noun suffix ---------------
     zh_tw: ["輪子", "lwən˧˥ tsɨ"],
-    zh_db: ["轮子", "lwən˧˥ tsɨ"],
+    zh_db: ["轮子", "lwən˨˦ tsɨ"],
     zh_tj: ["轮子", "luən˦˥ tsɿ"],
     zh_lz: ["轮子", "lwən˥˧ tsɨ"],
     zh_zz: ["轮子", "luən˦˨ tsɿ"],
@@ -1753,7 +1753,7 @@ WORDS.wheel = {
     hak_cn: ["车轮", "tsʰa˦˦ lun˩˩"],
     mnp: ["轮", "lœyŋ˧˧"],
     zne: ["ngbagida", "ŋɡbaɡida"],
-    ha: ["wili", "wiːliː"],
+    ha: ["wili", "wíːlìː"],
     zh_wh: ["滚砣", "kuən˦˨ tʰo˨˩˧"],
     wuu_nb: ["轮盘", "ləŋ˨˨ bũ˥˩"],
     cdo: ["车轮", "tsʰia˥˥ luŋ˥˧"],

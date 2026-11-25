@@ -1029,7 +1029,7 @@ WORDS.gold = {
     got: ["𐌲𐌿𐌻𐌸", "ɡulθ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     gu: ["સોનું", "ˈsonũ"],  // From Sanskrit suvarṇa "of a good colour".
     gv: ["airh", "ɛːrʲ"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
-    ha: ["zinari", "ziːnaːriː"],
+    ha: ["zinari", "zíːnáːrìː"],
     haw: ["kula", "kula"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     he: ["זהב", "zaˈhav"],  // From Semitic ḏahab, Arabic ذَهَب.
     hi: ["सोना", "soːnaː"],  // From Sanskrit suvarṇa "of a good colour".
@@ -1388,7 +1388,7 @@ WORDS.gold = {
     yue_zs: ["金", "kɐm˥˥"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
     zh_cd: ["金子", "tɕin˥˥ tsɿ˥˧"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["金子", "tɕin˥ tsɿ˦˨"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["金子", "tɕin˥ tsɨ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["金子", "tɕin˦ tsɨ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["金子", "tɕiən˨˩˨ tə"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jh: ["金子", "tɕiŋ˧˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 陰平 ˧˩ (MCPDict 南京 金 tɕiŋ1 = 31; 揚州 has ˨˩).
     zh_jiao: ["金子", "tɕiə̃˨˩˧ tsɿ˥˥"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.

@@ -1340,7 +1340,7 @@ WORDS.spider = {
     yue_ts: ["蠄蟧", "kʰa˨˨ lɑu˨˩"],  // Borrowed from a Tai language; compare Proto-Tai *krwaːw 'spider' (Wiktionary). Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山 and Wiktionary (Taishanese).
     zh_cd: ["蜘蛛", "tsɿ˥˥ tsu˥˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["蜘蛛", "tse˨˩ tsu˥"],  // Written 蜘蛛 but said as if 蜇蛛, with 蜇 tse (Wiktionary's dialect table for Chongqing); reading from MCPDict 重慶.
-    zh_db: ["蜘蛛", "ʈʂʅ˥ ʈʂu˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["蜘蛛", "ʈʂʅ˦ ʈʂu˦"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["蜘蛛", "tʂi˨˩˨ tʂʉ˨˩˨"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jiao: ["癞癞蛛", "lɛ˦˨ lɛ˦˨ tʃu˨˩˧"],  // Literally 'scabby spider'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["阿郎蛛子", "a˨˩˧ lɑŋ˦˨ tʂu˨˩˧ tsɿ"],  // Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.

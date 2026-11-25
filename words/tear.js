@@ -876,7 +876,7 @@ WORDS.tear = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    ha: ["hawaye", "hawaːjeː"],  // From ids hawaye.
+    ha: ["hawaye", "háwàːjéː"],  // From ids hawaye.
     ssf: ["rushaq", "ɾuʃaq"],  // From ACD Thao: rushaq.
     itb: ["xoho", "ɣoho"],  // From ACD Itbayaten: xoho.
     aa: ["ximo", "ɖiˈmo"],
@@ -1385,7 +1385,7 @@ WORDS.tear = {
     ohu: ["könyü", "køɲy"],
     dnj: ["ya̋nyi̋", "jã̋ji̋"],  // Literally 'eye water'.
     dyu: ["ɲaji", "ɲadʒi"],
-    ig: ["anya mmiri", "aɲa mːiɾi"],
+    ig: ["anya mmiri", "áɲá ḿːīɾí"],
     izz: ["ẹnya-mini", "ɛɲa mini"],
     spp: ["ɲyilwɔhe", "ɲilwɔhe"],
     sus: ["yaye", "jaje"],
@@ -1620,7 +1620,7 @@ WORDS.tear = {
     wuu_sz: ["眼泪", "ŋᴇ˨˧˩ li˨˧˩"],  // Built on the word for eye. 淚 in its colloquial reading.
     wuu_wz: ["眼泪", "ŋa˧˦ lei˨˨"],  // Built on the word for eye.
     zh_cq: ["眼泪", "iɛn˦˨ luei˨˩˧"],  // Built on the word for eye.
-    zh_db: ["眼泪", "jɛn˧˩˧ leɪ̯˥˩"],  // Built on the word for eye.
+    zh_db: ["眼泪", "jɛn˨˩˧ leɪ̯˥˧"],  // Built on the word for eye.
     zh_jiao: ["眼泪", "iã˥˥ le˦˨"],  // Built on the word for eye.
     zh_km: ["眼泪", "iɛ̃˥˧ luəe˨˩˨"],  // Built on the word for eye.
     zh_lz: ["眼泪", "jɛn˦˦˨ nuei˩˧"],  // Built on the word for eye.

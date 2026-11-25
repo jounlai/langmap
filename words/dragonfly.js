@@ -727,7 +727,7 @@ WORDS.dragonfly = {
     cpx: ["千咪叉", "tsʰe˥˧˧ mi˥˧˧ tsʰɒ˥˧˧"],  // Also written 浅咪叉 or 千尾叉; 千咪 alone is also used.
     zh_jn: ["蜻蜓", "tɕʰiŋ˨˩˧ tʰiŋ"],  // The same word as Standard Chinese; Jinan also writes it 蜻蜻 or 蜓蜓.
     yue_nn: ["塘咩", "tʰɔŋ˨˩ mɛ˥˥"],  // 塘 is 'pond'; compare Cantonese 塘尾.
-    zh_db: ["蜻蜓", "tɕʰiŋ˥ tʰiŋ˧˥"],  // The standard word; Harbin also says 蚂螂.
+    zh_db: ["蜻蜓", "tɕʰiŋ˦ tʰiŋ˨˦"],  // The standard word; Harbin also says 蚂螂.
     zh_tw: ["蜻蜓", "tɕʰiŋ˥ tʰiŋ˧˥"],  // The standard word, as in Mainland Mandarin.
     zh_cd: ["虰虰猫儿", "tin˥˥ tin˥˥ mɚ˥˥"],  // Also written 丁丁猫儿; Sichuanese also uses it for a tram.
     ko_jeju: ["밥주리", "pap̚t͈ɕuɾi"],  // The Jeju word; Standard Korean says 잠자리.

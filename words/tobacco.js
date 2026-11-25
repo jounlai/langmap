@@ -1209,7 +1209,7 @@ WORDS.tobacco = {
     ak: ["tawa", "tawa"],
     bem: ["fwaka", "fwaka"],
     ee: ["atama", "atama"],
-    ha: ["taba", "taba"],
+    ha: ["taba", "táːbàː"],
     kj: ["omakaya", "omakaja"],
     kqn: ["fwanka", "fwaŋka"],
     lua: ["makanya", "makaɲa"],

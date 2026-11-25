@@ -1067,7 +1067,7 @@ WORDS.language = {
     tk: ["dil", "dil"],
     mnc: ["ᡤᡳᠰᡠᠨ", "kisun"],
     mt: ["lingwa", "ˈlɪnɡwa"],
-    ha: ["harshe", "haɽʃeː"],
+    ha: ["harshe", "háɽʃèː"],
     wo: ["làkk", "laːkː"],
     so: ["af", "af"],  // Also 'mouth'.
     om: ["afaan", "afaːn"],  // Also 'mouth'; from Proto-Cushitic *ʔaf- 'mouth'.
@@ -1516,7 +1516,7 @@ WORDS.language = {
     yue_zs: ["語言", "ŋy˨˩˧ ŋyn˥˩"],  // 語 'speech' + 言 'words'. Reading from MCPDict 中山.
     zh_cd: ["语言", "y˥˧ iɛn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 成都.
     zh_cq: ["语言", "y˦˨ iɛn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 重慶.
-    zh_db: ["语言", "y˨˩˦ jɛn˧˥"],  // 语 'speech' + 言 'words'. Reading as the zh row's own cell.
+    zh_db: ["语言", "y˨˩˧ jɛn˨˦"],  // 语 'speech' + 言 'words'. Reading as the zh row's own cell.
     zh_hf: ["语言", "jy˨˦ jĩ˦˥"],  // 语 'speech' + 言 'words'. Reading from MCPDict 合肥 (city reading of 語).
     zh_jh: ["语言", "y˨˩˨ ian˩˧"],  // 语 'speech' + 言 'words'. Reading in the row's Nanjing tone values, 上声 ˨˩˨ and 陽平 ˩˧ (MCPDict 南京 語 ˨˩˨, 言 ˩˧; 揚州 has ˦˨, ˧˥).
     zh_jiao: ["语言", "y˥˥ iã˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 青島.
@@ -1657,7 +1657,7 @@ WORDS.language = {
     dnj: ["wȍ", "wȍ"],  // Also 'voice'.
     dyu: ["kan", "kan"],
     fon: ["gbe", "ɡbe"],
-    ig: ["asụsụ", "asʊsʊ"],
+    ig: ["asụsụ", "ásʊ̀sʊ̀"],
     izz: ["opfu-alị", "opɸu alɪ"],
     kbp: ["kʋnʋŋ", "kʊnʊŋ"],
     kpe: ["wóo", "wóo"],

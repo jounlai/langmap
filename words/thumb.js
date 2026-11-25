@@ -794,7 +794,7 @@ WORDS.thumb = {
     ko: ["엄지손가락", "ʌmdʑisonk͈aɾak̚"],  // 엄지 'thumb' plus 손가락 'finger'; the short form 엄지 alone is also common, and 엄지발가락 is the big toe.
     zh: ["大拇指", "ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'; the same word can also mean the big toe.
     zh_tw: ["大拇指", "ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'.
-    zh_db: ["大拇指", "ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧"],  // Literally 'big thumb-finger'; in the Northeast 大拇哥 'big thumb brother' and 大拇指头 are also widely heard.
+    zh_db: ["大拇指", "ta˥˧ mu˨˩˧ ʈʂɨ˨˩˧"],  // Literally 'big thumb-finger'; in the Northeast 大拇哥 'big thumb brother' and 大拇指头 are also widely heard.
     zh_sc: ["大指拇儿", "ta˨˩˧ tsɹ̩˥˧ muɚ˥˧"],  // Literally 'big finger-thumb', with the order of 指 'finger' and 拇 'thumb' reversed from standard 大拇指.
     yue: ["手指公", "sɐu˧˥ tsiː˧˥ kʊŋ˥"],  // Literally 'finger + 公', where 公 means 'grandfather; old man; male'.
     hak_cn: ["手指公", "su˧˩ tsɨ˧˩ kuŋ˦"],  // Literally 'finger + 公' (公 'grandfather; old man; male'), the same word as in Cantonese.
@@ -1122,7 +1122,7 @@ WORDS.thumb = {
     gha: ["ag̣əmmịz", "aɟəmːez"],  // No image is recorded for it, so it counts as a word of its own.
     siz: ["ṭaḍ azwar", "tˤadˤ azwar"],  // Literally 'big finger' (Laoust); Nafusi says the same.
     zh_jiao: ["大拇指头", "tɛ˦˨ mu˥˥ tʂʅ˥˥ tʰou˦˨"],  // Literally 'big thumb-finger-head', the partner of 小拇指头, the little finger.
-    ha: ["babban ɗan yatsa", "babːan ɗan jaːtsaː"],  // Literally 'the big finger' (babba 'big' + ɗan yatsa 'finger'); the Hausa Bible shortens it to babban yatsa.
+    ha: ["babban ɗan yatsa", "bàbːán ɗán jáːtsàː"],  // Literally 'the big finger' (babba 'big' + ɗan yatsa 'finger'); the Hausa Bible shortens it to babban yatsa.
     pcm: ["big finger", "biɡ fiŋɡa"],  // Literally 'big finger'; the Naija Bible calls the big toe 'big toe' and the thumb 'big finger for en rite hand'.
     ig: ["isi mkpụrụ aka", "isi mkpʊɾʊ aka"],  // Literally 'head of the finger' (isi 'head' + mkpụrụ aka 'finger'); the big toe is likewise isi mkpụrụ ụkwụ.
     ln: ["mosapi ya monɛ́nɛ", "mosapi ja monɛ́nɛ"],  // Literally 'the big finger' (mosapi 'finger' + monɛ́nɛ 'big'); the big toe is mosapi ya monɛ́nɛ ya lokolo.

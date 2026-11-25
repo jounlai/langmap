@@ -733,7 +733,7 @@ WORDS.dragon = {
     ta: ["டிராகன்", "ɖɪɾaːɡɐn"],  // Borrowed from English dragon.
     zh: ["龙", "luŋ˧˥"],  // The Chinese dragon word, 龍 in traditional script.
     zh_tw: ["龍", "luŋ˧˥"],  // The same word as Mainland Mandarin.
-    zh_db: ["龙", "luŋ˧˥"],  // The same word as standard Mandarin.
+    zh_db: ["龙", "luŋ˨˦"],  // The same word as standard Mandarin.
     zh_sc: ["龙", "noŋ˨˩"],  // The Chinese dragon word; Sichuanese merges l and n.
     yue: ["龍", "lʊŋ˨˩"],  // The Chinese dragon word, lung4.
     wuu: ["龙", "loŋ˨˧"],  // The Chinese dragon word.
@@ -1044,7 +1044,7 @@ WORDS.dragon = {
     rw: ["ikiyoka", "ikijoka"],  // Shares the stem of inzoka "snake"; the Kinyarwanda Bible (NWT) has ikiyoka kinini "great dragon", beside inzoka for the old serpent.
     ny: ["chinjoka", "tʃiˈndʒoka"],  // Built on njoka "snake"; the Chichewa Bible (NWT) has chinjoka chachikulu "great dragon", beside njoka for the old serpent.
     xh: ["inamba", "inaːmba"],  // Also a name for a large snake; the Xhosa Bible (NWT) has inamba enkulu "great dragon", beside inyoka "snake" for the old serpent.
-    ha: ["babban maciji", "babːan matʃiːdʒiː"],  // Literally "great snake"; the Hausa Bible (NWT) renders the dragon of Revelation as babban maciji.
+    ha: ["babban maciji", "bàbːán mátʃìːdʒíː"],  // Literally "great snake"; the Hausa Bible (NWT) renders the dragon of Revelation as babban maciji.
     tpi: ["traipela snek", "traipela snek"],  // Literally "huge snake"; both the Tok Pisin Bible (NWT) and the Buk Baibel render the dragon of Revelation as a big snek.
     yao: ["lijoka", "lidʒoka"],  // The same word as "snake"; the Yao Bible calls the dragon lijoka lyekulungwa "the great snake".
     te: ["మహాసర్పం", "mahaːsaɾpam"],  // Literally "great serpent" (mahā + sarpam); the Telugu Bible (NWT) renders the dragon of Revelation as మహాసర్పం.

@@ -907,7 +907,7 @@ WORDS.island = {
     gld: ["боача̄к", "bɔatʃaːk"],
     gu: ["દ્વીપ", "dʋip"],  // From Sanskrit dvīpa.
     gv: ["ellan", "ˈelʲan"],
-    ha: ["tsibiri", "tsibiɽiː"],
+    ha: ["tsibiri", "tsìbíɽíː"],
     haw: ["mokupuni", "mokupuni"],  // moku "island, section" + puni "surrounded".
     he: ["אי", "i"],  // Compare Egyptian jw "island" and Phoenician ʾy.
     hi: ["द्वीप", "dʋiːp"],  // From Sanskrit dvīpa.
@@ -1243,7 +1243,7 @@ WORDS.island = {
     yue_ts: ["岛", "ʔɑu˥˥"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
     zh_cd: ["岛子", "tau˥˧ tsɿ˥˧"],  // 岛 'island' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["岛", "tau˦˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["岛", "tau˨˩˦"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["岛", "tau˨˩˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["岛", "tɔ˨˦"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jh: ["岛", "taɔ˨˩˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 上声 ˨˩˨ (MCPDict 南京 島 tɔo3 = 212; 揚州 has ˦˨), rime as the row's 好 xaɔ˨˩˨.
     zh_jiao: ["岛子", "tɔ˥˥ tsɿ˥˥"],  // 岛 'island' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.

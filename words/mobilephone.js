@@ -713,7 +713,7 @@ WORDS.mobilephone = {
     en_my: ["handphone", "ˈhænfoːn"],  // 'Hand phone', often abbreviated HP; compare Chinese 手机 'hand machine'.
     en_sg: ["handphone", "ˈhɛnfoːn"],  // 'Hand phone', often abbreviated HP, matching Chinese 手机 'hand machine'.
     zh_tw: ["手機", "ʂoʊ̯˧˩˧ tɕi˥"],  // Literally 'hand machine'; the formal Taiwanese term is 行動電話 'mobile telephone'.
-    zh_db: ["手机", "ʂoʊ̯˧˩˧ tɕi˥"],  // Literally 'hand machine', the Mainland word.
+    zh_db: ["手机", "ʂoʊ̯˨˩˧ tɕi˦"],  // Literally 'hand machine', the Mainland word.
     zh_sc: ["手机", "səu˥˧ tɕi˥"],  // Literally 'hand machine', the Mainland word.
     nan_xm: ["手机", "tsʰiu˥˧ ki˦˦"],  // Literally 'hand machine'.
     nan_ph: ["手機", "tsʰiu˥˥˦ ki˧˧"],  // Literally 'hand machine'.
@@ -723,7 +723,7 @@ WORDS.mobilephone = {
     hr: ["mobitel", "mǒbitel"],  // Blend of mobilni telefon 'mobile telephone', popularised by the Slovene operator Mobitel; Croatian Wikipedia calls it 'simply mobitel'.
     gan: ["手机", "siu˨˩˧ tɕi˦˨"],  // Literally 'hand machine', the same word as Standard Chinese 手机; it is the title of the Gan-language Wikipedia article.
     fa: ["گوشی", "ɡuːˈʃiː"],  // Literally 'the ear-piece' (گوش 'ear'), first the handset of a landline phone; موبایل 'mobile' and formal تلفن همراه 'companion telephone' are also used.
-    ha: ["wayar hannu", "wajar hanːuː"],  // Literally 'phone of the hand' (waya 'wire, phone' + hannu 'hand'); wayar salula 'cellular phone' is also used.
+    ha: ["wayar hannu", "wájàr hánːúː"],  // Literally 'phone of the hand' (waya 'wire, phone' + hannu 'hand'); wayar salula 'cellular phone' is also used.
     yo: ["fóònù alágbèéká", "fóònù aláɡbèéká"],  // Literally 'phone that is carried about' (fóònù 'phone' + alágbèéká, built on gbé 'carry'); in speech often just fóònù.
     bar: ["Handy", "ˈhɛndi"],  // The German pseudo-anglicism Handy, usually explained from 'hand'; Bavarian Wikipedia gives Mobuitelefon as the formal alternative.
     nds: ["Handy", "ˈhɛndi"],  // The German pseudo-anglicism Handy, usually explained from 'hand'; Mobiltelefon is the formal word.

@@ -846,7 +846,7 @@ WORDS.paper = {
     gcr: ["papyé", "papje"],
     gld: ["хаосан", "xaosan"],
     gv: ["pabyr", "ˈpabər"],  // Route by resemblance to the neighbouring forms (br,kw,sv); no etymology of its own.
-    ha: ["takarda", "takarda"],
+    ha: ["takarda", "tákàrdáː"],
     he: ["נייר", "neˈjaʁ"],
     hr: ["papir", "pǎpiːr"],
     ht: ["papye", "papje"],
@@ -1295,7 +1295,7 @@ WORDS.paper = {
     sga: ["cairt", "karʲtʲ"],  // There was no paper in early Ireland; cairt was the parchment people wrote on.
     dag: ["takada", "takada"],  // Through Hausa takarda, from Latin charta.
     dnj: ["sʌ́ʌdhɛ̋", "sʌ́ːɗɛ̋"],  // From Manding sɛ́bɛ́ 'paper' with dhɛ̋ 'leaf'.
-    ig: ["akwụkwọ", "akʷʊkʷɔ"],
+    ig: ["akwụkwọ", "ákʷʊ́kʷɔ́"],
     kpe: ["kɔlɔ", "kɔlɔ"],
     maw: ["takada", "takada"],  // Through Hausa takarda, from Latin charta.
     sus: ["kɛɛdi", "kɛːdi"],

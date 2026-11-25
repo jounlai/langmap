@@ -1182,7 +1182,7 @@ WORDS.book = {
     tr: ["kitap", "ciˈtap"],
     az: ["kitab", "ciˈtɑb"],
     sw: ["kitabu", "kiˈtabu"],
-    ha: ["littafi", "litːaːfiː"],
+    ha: ["littafi", "lítːáːfìː"],
     fi: ["kirja", "ˈkirjɑ"],
     hu: ["könyv", "køɲv"],
     et: ["raamat", "ˈrɑːmɑt"],
@@ -1367,7 +1367,7 @@ WORDS.book = {
     fon: ["wémà", "wémà"],
     gej: ["xoma", "xoma"],
     gaa: ["wolo", "wolo"],
-    ig: ["akwụkwọ", "akʷʊkʷɔ"],  // On the same leaf→paper→book line this concept declines elsewhere (Yup'ik kalikaq, Hmong ntawv), and kept only because the evidence is stronger: Wiktionary's Igbo entry is a stub glossing just 'leaf', but ig.wikipedia's Akwụkwọ article is the book article — illustrated with a dictionary (akwụkwọ ọkọwa okwu) and a library (ọba akwụkwọ) — and Igbo builds ụlọ akwụkwọ 'school' on it. Its own opening gloss, "a thing used for writing", still leans paper. A dedicated Igbo dictionary would settle it.
+    ig: ["akwụkwọ", "ákʷʊ́kʷɔ́"],  // On the same leaf→paper→book line this concept declines elsewhere (Yup'ik kalikaq, Hmong ntawv), and kept only because the evidence is stronger: Wiktionary's Igbo entry is a stub glossing just 'leaf', but ig.wikipedia's Akwụkwọ article is the book article — illustrated with a dictionary (akwụkwọ ọkọwa okwu) and a library (ọba akwụkwọ) — and Igbo builds ụlọ akwụkwọ 'school' on it. Its own opening gloss, "a thing used for writing", still leans paper. A dedicated Igbo dictionary would settle it.
     iso: ["obe", "obe"],
     kab: ["adlis", "adlis"],
     kbp: ["takayaɣ", "takajaɣ"],
@@ -1533,7 +1533,7 @@ WORDS.book = {
     zh_sc: ["书", "su˥"],
     wuu: ["书", "sz̩˥˧"],
     zh_jh: ["书", "su˧˩"],
-    zh_db: ["书", "ʂu˥"],
+    zh_db: ["书", "ʂu˦"],
     zh_tj: ["书", "ʂu˨˩"],
     zh_wh: ["书", "ɕy˥˥"],
     zh_zz: ["书", "ʂu˨˦"],

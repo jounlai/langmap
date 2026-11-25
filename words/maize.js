@@ -922,7 +922,7 @@ WORDS.maize = {
     id: ["jagung", "ˈdʒaɡuŋ"],  // The same word as Malay jagung, which once meant sorghum.
     tl: ["mais", "maˈʔis"],  // Borrowed from Spanish maíz.
     ht: ["mayi", "maji"],
-    ha: ["agwado", "aɡʷaːdoː"],
+    ha: ["agwado", "àɡʷàːdóː"],
     ab: ["аԥш", "apʰʂ"],
     bn: ["ভুট্টা", "bʱuʈːa"],
     ce: ["хьаьжкӏа", "ˈħæʒkʼa"],  // A compound with 'hajj'.
@@ -1154,7 +1154,7 @@ WORDS.maize = {
     ee: ["bli", "bli"],
     ekp: ["ọka", "ɔka"],
     ibb: ["akpakpa", "akpakpa"],
-    ig: ["ọka", "ɔka"],
+    ig: ["ọka", "ɔ́kà"],
     kpe: ["gbai", "ɡbai"],
     maw: ["kawanni", "kawanːi"],  // No image is recorded for it, so it counts as a word of its own.
     emy: ["ixim", "iʃim"],

@@ -960,7 +960,7 @@ WORDS.left = {
   },
   data: {
     gsw: ["lingg", "lɪŋk"],  // From iecor lingg lɪŋk.
-    ha: ["hagu", "haɡu"],  // From ids, kraftchadic hagu.
+    ha: ["hagu", "háɡú"],  // From ids, kraftchadic hagu.
     tsj: ["minyung", "miɲuŋ"],  // From sagartst Bodic_Tshangla: mi ȵuŋ.
     mdh: ["biwang", "ˈbiwaŋ"],  // From abvd Maguindanaon: bíwang.
     aoz: ["ʼliʼ", "ʔliʔ"],  // From abvd Atoni: ʔliʔ.
@@ -1355,7 +1355,7 @@ WORDS.left = {
     nan_ph: ["倒", "tɤ˦˩"],  // The Hokkien word tò, written with 倒 'to reverse'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Philippines).
     nan_pn: ["倒", "to˨˩"],  // The Hokkien word tò, written with 倒 'to reverse'. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
     zh_cq: ["左", "tso˦˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["左", "tswo˨˩˦"],  // 左, 'left'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["左", "tswo˨˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["左", "tsu˨˦"],  // 左, 'left'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jh: ["左", "tso˨˩˨"],  // 左, 'left'. Word from Wiktionary's dialect table (Yangzhou and Nanjing both have 左); reading in the row's Nanjing tone values, 上声 ˨˩˨ (as 女 ly˨˩˨, 晚 uan˨˩˨).
     zh_jiao: ["左", "tsuə˨˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
@@ -1548,7 +1548,7 @@ WORDS.left = {
     ee: ["miame", "miame"],
     ekp: ["ibida", "ibida"],
     fon: ["amyɔ", "amjɔ"],
-    ig: ["aka ekpe", "aka ekpe"],
+    ig: ["aka ekpe", "áká èkpè"],
     izz: ["ẹkicha", "ɛkitʃa"],
     kbp: ["nɩmɩyɛ", "nɪmɪjɛ"],
     kpe: ["kɔɔ-yée-mɛi-pere", "kɔː jée mɛi pere"],

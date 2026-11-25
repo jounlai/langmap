@@ -927,7 +927,7 @@ WORDS.east = {
     uz: ["sharq", "ʃarq"],  // Borrowed from Arabic شَرْق.
     tk: ["gündogar", "ɡyndoˈʁɑɾ"],  // gün 'sun' + dogmak 'to be born'.
     mt: ["lvant", "ɪlˈvant"],  // From Sicilian livanti, from Latin levans 'rising'.
-    ha: ["gabas", "ɡabas"],
+    ha: ["gabas", "ɡábàs"],
     om: ["baha", "bɐhɐ"],
     xh: ["impumalanga", "iᵐpumaːlaᵑɡa"],  // From -phuma 'to rise' + ilanga 'sun'.
     sco: ["aist", "est"],
@@ -1229,7 +1229,7 @@ WORDS.east = {
     yue_ts: ["东", "ʔəɯŋ˧˧"],  // 东, 'east'. Reading from MCPDict 台山.
     yue_zs: ["東", "tʊŋ˥˥"],  // 東, 'east'. Reading from MCPDict 中山.
     zh_cq: ["东", "toŋ˥"],  // 东, 'east'. Reading from MCPDict 重慶.
-    zh_db: ["东", "tʊŋ˥"],  // 东, 'east'. Reading as the zh row's own cell.
+    zh_db: ["东", "tʊŋ˦"],  // 东, 'east'. Reading as the zh row's own cell.
     zh_hf: ["东", "təŋ˨˩˨"],  // 东, 'east'. Reading from MCPDict 合肥.
     zh_jh: ["东", "toŋ˧˩"],  // 东, 'east'. Reading in the row's Nanjing tone value, 陰平 ˧˩ (MCPDict 南京 東 toŋ1 = 31; 揚州 has ˨˩).
     zh_jiao: ["东", "təŋ˨˩˧"],  // 东, 'east'. Reading from MCPDict 青島.
@@ -1365,7 +1365,7 @@ WORDS.east = {
     dag: ["wulimpuhili", "wulimpuhili"],  // Literally 'sunrise'.
     ee: ["ɣedzeƒe", "ɣedzeɸe"],
     emk: ["kɔrɔn", "kɔɾɔn"],
-    ig: ["ọwụwa anyanwụ", "ɔwʊwa aɲaŋʷʊ"],
+    ig: ["ọwụwa anyanwụ", "ɔ̀wʊ́wá áɲáŋʷʊ̄"],
     izz: ["ụzo ẹnyanwu-awawa", "ʊzo ɛɲaŋwu awawa"],
     kbp: ["wɩsɩ ɖɩlɩyɛ", "wɪsɪ ɖɪlɪjɛ"],
     kpe: ["vóloi à kúla", "vóloi à kúla"],

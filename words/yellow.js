@@ -1077,7 +1077,7 @@ WORDS.yellow = {
     av: ["гӏобилаб", "ʕobilab"],
     dar: ["бухъутӏа", "buqutʼa"],
     zh: ["黄", "xuaŋ˧˥"],
-    ha: ["rawaya", "ɽaːwajaː"],  // Named after a dye plant.
+    ha: ["rawaya", "ɽàːwájàː"],  // Named after a dye plant.
     sw: ["manjano", "maˈndʒano"],  // Also 'turmeric'.
     dsb: ["žołty", "ˈʒɔwtɨ"],
     hsb: ["žołty", "ˈʒɔwtɨ"],
@@ -1097,7 +1097,7 @@ WORDS.yellow = {
     nan: ["黃", "hɔŋ˨˦"],
     zh_tw: ["黃", "xuaŋ˧˥"],
     wuu: ["黄", "ɦuɑ̃˨˧"],
-    zh_db: ["黄", "xuaŋ˧˥"],
+    zh_db: ["黄", "xuaŋ˨˦"],
     zh_sc: ["黄", "xuaŋ˨˩"],
     cdo: ["黄", "uoŋ˥˧"],
     zh_yuan: ["黃", "xuaŋ"],
@@ -1504,7 +1504,7 @@ WORDS.yellow = {
     dnj: ["sóŋ̏yi̋dhē", "sóŋ̏ji̋ɗē"],  // Built on the name of a tree and yi̋ 'water'.
     ee: ["aŋutiɖiɖi", "aŋutiɖiɖi"],
     ekp: ["odo", "odo"],
-    ig: ["edo edo", "edo edo"],
+    ig: ["edo edo", "èdó èdò"],
     kpe: ["kpeleŋ", "kpeleŋ"],
     maw: ["dɔzum", "dɔzum"],  // Named after the yellow powder inside the dawadawa pod.
     mev: ["zóló", "zóló"],  // The same word as red.

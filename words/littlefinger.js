@@ -666,7 +666,7 @@ WORDS.littlefinger = {
     ko: ["새끼손가락", "sɛk͈isonk͈aɾak̚"],  // Literally the 'young-one finger': 새끼 is a young animal or a little one.
     zh: ["小拇指", "ɕi̯ɑʊ̯˨˩˦ mu˨˩˦ ʈʂɨ˨˩˦"],  // The 'small' counterpart of 大拇指, the big thumb-finger; written Chinese also uses 小指.
     zh_tw: ["小指", "ɕi̯ɑʊ̯˨˩˦ ʈʂɨ˨˩˦"],  // Literally 'small finger'; 小拇指 is also used in Taiwan.
-    zh_db: ["小拇哥", "ɕjau˨˩˦ mu˨˩˦ kɤ˥"],  // Literally "little thumb-brother", the Harbin word (Wiktionary dialect table).
+    zh_db: ["小拇哥", "ɕjau˨˩˧ mu˨˩˧ kɤ˦"],  // Literally "little thumb-brother", the Harbin word (Wiktionary dialect table).
     zh_sc: ["幺指拇儿", "iau˥ tsɹ̩˥˧ muɚ˥˧"],  // 幺 means 'youngest' or 'tiny', so this is the 'youngest finger', the partner of 大指拇儿 for the thumb.
     yue: ["手指尾", "sɐu˧˥ tsiː˧˥ mei˥"],  // Literally the 'tail of the fingers', matching 手指公 for the thumb; 尾指 'tail finger' is also common.
     nan: ["尾指", "be˥˧ tsãi˥˧"],  // Literally the 'tail finger', the one at the end of the hand.
@@ -804,7 +804,7 @@ WORDS.littlefinger = {
     ku: ["qilîç", "qɪˈliːtʃ"],  // A word of its own for the little finger or little toe; tiliya biçûk 'small finger' is also used.
     ug: ["چىمچىلاق", "tʃimtʃiˈlɑq"],  // A word of its own for the smallest finger or toe; the Wikipedia form چىمەلتەك is a dialect word.
     za: ["lwgfwngzcod", "lɯk˧ fɯŋ˧˩ ɕoːt˧"],  // Built on lwgfwngz 'finger'; the meaning of the last part, cod, is not given in the source.
-    ha: ["ƙaramin yatsa", "kʼaramin jaːtsaː"],  // Literally 'small finger' (ƙarami 'small' + yatsa 'finger').
+    ha: ["ƙaramin yatsa", "kʼàɽámín jáːtsàː"],  // Literally 'small finger' (ƙarami 'small' + yatsa 'finger').
     yo: ["ìka ọwọ́ kékeré", "ìka ɔwɔ́ kékeɾé"],  // Literally 'small finger of the hand'; older texts use ọmọdirin, and dialects have their own words.
     ig: ["mkpịsịaka nta", "mkpɪsɪaka nta"],  // Literally 'small finger' (mkpịsịaka 'finger' + nta 'small').
     ln: ["mosapi ya mokɛ́", "mosapi ja mokɛ́"],  // Literally 'the small finger' (mosapi 'finger' + mokɛ́ 'small').

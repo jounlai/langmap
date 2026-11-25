@@ -994,7 +994,7 @@ WORDS.money = {
     gv: ["argid", "ˈarɡid"],
     haw: ["kālā", "kaːlaː"],
     ia: ["moneta", "moˈneta"],
-    ig: ["egō", "eɡo"],
+    ig: ["egō", "éɡō"],
     inh: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
     kab: ["idrimen", "idrimən"],
     kek: ["tumin", "tumin"],
@@ -1117,7 +1117,7 @@ WORDS.money = {
     ka: ["ფული", "pʰuli"],  // From Old Georgian ფოლი.
     el: ["χρήματα", "ˈxɾimata"],
     ht: ["lajan", "laʒã"],
-    ha: ["kuɗi", "kuɗiː"],
+    ha: ["kuɗi", "kúɗíː"],
     hu: ["pénz", "peːnz"],
     is: ["fé", "fjɛː"],
     io: ["pekunio", "pekunio"],
@@ -1407,7 +1407,7 @@ WORDS.money = {
     ja_kg: ["お金", "okane"],  // O- + kane 'metal'; the national word, which Kagoshima speech uses as well.
     ja_sd: ["お金", "oɡane"],  // O- + kane 'metal'; the national word, which Sendai speech uses as well, with the Tohoku voicing of k.
     zh_tw: ["錢", "tɕʰjɛn˧˥"],  // 錢, first the name of a coin. The standard word, used in Taiwan as well; reading as the zh row's own cell.
-    zh_db: ["钱", "tɕʰjɛn˧˥"],  // 钱, first the name of a coin. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["钱", "tɕʰjɛn˨˦"],  // 钱, first the name of a coin. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     vi_c: ["tiền", "tiəŋ˦˨"],  // The same word as standard Vietnamese.
     vi_s: ["tiền", "tiəŋ˨˩"],  // The same word as standard Vietnamese.
     ar_eg: ["فلوس", "filuːs"],  // Plural of fils, a small coin, from Byzantine Greek follis.

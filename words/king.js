@@ -1011,8 +1011,8 @@ WORDS.king = {
     uz: ["qirol", "qɨˈrɒl"],  // Borrowed from Russian король.
     mnc: ["ᠸᠠᠩ", "wäŋ"],  // Borrowed from Mandarin 王.
     mt: ["re", "rɛː"],
-    ig: ["eze", "eze"],
-    ha: ["sarki", "saɽkiː"],
+    ig: ["eze", "ézè"],
+    ha: ["sarki", "sáɽkíː"],
     xh: ["inkosi", "iᵑkoːsi"],  // From Proto-Bantu *nkócì 'lion'.
     af: ["koning", "ˈkʊənəŋ"],
     bar: ["Kini", "kʰiːni"],
@@ -1404,7 +1404,7 @@ WORDS.king = {
     yue_ts: ["王", "ʋɔŋ˨˨"],  // 王, 'king'. Reading from MCPDict 台山.
     yue_zs: ["王", "wɔŋ˥˩"],  // 王, 'king'. Reading from MCPDict 中山.
     zh_cq: ["王", "waŋ˨˩"],  // 王, 'king'. Reading from MCPDict 重慶.
-    zh_db: ["王", "wɑŋ˧˥"],  // 王, 'king'. Reading as the zh row's own cell.
+    zh_db: ["王", "wɑŋ˨˦"],  // 王, 'king'. Reading as the zh row's own cell.
     zh_hf: ["王", "uɑ̃˦˥"],  // 王, 'king'. Reading from MCPDict 合肥.
     zh_jh: ["王", "uaŋ˩˧"],  // 王, 'king'. Reading in the row's Nanjing tone value, 陽平 ˩˧ (MCPDict 南京 王 ˩˧; 揚州 has ˧˥).
     zh_jn: ["王", "vɑŋ˦˨"],  // 王, 'king'. Reading from MCPDict 濟南.

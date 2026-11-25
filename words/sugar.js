@@ -1554,7 +1554,7 @@ WORDS.sugar = {
     crk: ["ᓰᐏᓂᑲᐣ", "siːwinikan"],
     pot: ["zisbakwet", "zisbakwət"], // was ["zisbakwet", "sispakwɪt"] (vi dialect rules 2026-10-06)
     oj: ["ziinzibaakwad", "ziːnzibaːkwad"],
-    ha: ["sukari", "sukariː"],
+    ha: ["sukari", "súkàríː"],
     tig: ["ስከር", "sɨkkar"],
     kab: ["sskeṛ", "sːəkərˤ"],
     tzm: ["ⵙⵙⴽⴽⵯⴰⵔ", "sːkːʷar"],
@@ -1665,7 +1665,7 @@ WORDS.sugar = {
     hy: ["շաքար", "ʃɑˈkʰɑɾ"],
     haw: ["kōpaʻa", "koːpaʔa"],
     mi: ["huka", "huka"],
-    zh_db: ["糖", "tʰɑŋ˧˥"],
+    zh_db: ["糖", "tʰɑŋ˨˦"],
     jv: ["gula", "ˈɡulɔ"],
     su: ["gula", "ɡula"],
     ceb: ["asukar", "ʔaˈsukaɾ"], // was ["asukar", "ʔaˈsukar"] (vi dialect rules 2026-10-06)

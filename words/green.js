@@ -1214,7 +1214,7 @@ WORDS.green = {
     ka: ["მწვანე", "mtsʼvane"],
     kbd: ["удзыфэ", "wədzəfa"],  // udz 'grass' + фэ 'colour', the same compound as Adyghe уцышъо already in this row; Wiktionary lemmatises both as colour adjectives, so they are lexicalised terms rather than the ad-hoc "leaf-coloured" descriptions this concept declines — the same reading that lets Swahili kijani in.
     am: ["አረንጓዴ", "arənˈɡʷade"],
-    ha: ["kore", "koːreː"],
+    ha: ["kore", "kóːrèː"],
     zu: ["luhlaza", "luˈɬaːza"],
     xh: ["luhlaza", "luˈɬaːza"],
     so: ["cagaar", "ʕaɡaːr"],
@@ -1516,7 +1516,7 @@ WORDS.green = {
     zh_sc: ["绿", "nu˨˩"],
     wuu: ["绿", "loʔ˩˨"],
     zh_jh: ["绿", "luʔ˥˥"],
-    zh_db: ["绿", "ly˥˩"],
+    zh_db: ["绿", "ly˥˧"],
     mnp: ["绿", "ly˦˨"],
     zh_tj: ["绿", "ly˥˧"],
     zh_wh: ["绿", "nou˨˩˧"],

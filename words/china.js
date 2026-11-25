@@ -636,7 +636,7 @@ WORDS.china = {
     ko: ["중국", "tɕuŋɡuk̚"],  // The Sino-Korean reading of 中國 'middle country' (Wiktionary).
     wuu: ["中国", "tsoŋ˥ koʔ˨˩"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
     ta: ["சீனா", "siːnaː"],  // Same Cīna name as Sanskrit and Hindi, but Wiktionary gives no etymology for the Tamil form. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
-    ha: ["Sin", "sin"],  // Borrowed from Arabic (aṣ-)Ṣīn (Wiktionary).
+    ha: ["Sin", "sín"],  // Borrowed from Arabic (aṣ-)Ṣīn (Wiktionary).
     ms: ["China", "ˈtʃina"],  // From Persian and probably Sanskrit Cīna, attested as Chēna in 1701; the country is spelt China, the people and language Cina (Wiktionary).
     it: ["Cina", "ˈtʃiːna"],  // From Persian čīn under the influence of Medieval Latin Sina, ultimately from Sanskrit Cīna; Marco Polo's Venetian Cina passed it on to Portuguese and Spanish (Wiktionary).
     pnb: ["چین", "tʃiːn"],  // Same name as Urdu cīn; no source gives the Punjabi form's path. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
@@ -855,7 +855,7 @@ WORDS.china = {
     pt_br: ["China", "ˈʃĩnɐ"],  // Via Persian Čīn from Sanskrit Cīna; Brazilian speech nasalizes the i before n.
     prs: ["چین", "tʃiːn"],  // Inherited from Middle Persian čīn, from Sanskrit Cīna; the same name as in Iran (Wiktionary).
     hyw: ["Չինաստան", "tʃʰinɑsˈdɑn"],  // Literally "land of the Chinese", from չինք "the Chinese" with the place suffix -աստան; Old Armenian had Ճենաստան Čenastan, from Middle Persian Čīn (Wiktionary). Western Armenian reads տ as d.
-    zh_db: ["中国", "tʂʊŋ˥ kwo˧˩˧"],  // Literally 'middle country'; in Harbin speech 国 is read in the third tone, unlike standard guó.
+    zh_db: ["中国", "tʂʊŋ˦ kwo˨˩˧"],  // Literally 'middle country'; in Harbin speech 国 is read in the third tone, unlike standard guó.
     zh_sc: ["中国", "tsoŋ˥ kue˨˩"],  // Literally 'middle country'; in Chengdu 国, an old checked-tone syllable, falls into the low falling tone.
     ar_lev: ["الصين", "ɪsˤˈsˤiːn"],  // From Arabic al-ṣīn, ultimately Sanskrit Cīna; the article assimilates to the emphatic ṣ (Wiktionary).
     en_aave: ["China", "ˈtʃaɪnə"],  // Same name as standard English, borrowed in the 16th century from Portuguese and Spanish China, ultimately Sanskrit Cīna (Wiktionary).

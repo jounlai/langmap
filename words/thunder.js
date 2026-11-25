@@ -987,7 +987,7 @@ WORDS.thunder = {
     ko: ["천둥", "tɕʰʌnduŋ"],  // A nativised form of Sino-Korean 天動 'movement of heaven'; the native synonym 우레 comes from a verb 'to roar'.
     zh: ["雷", "leɪ̯˧˥"],  // An old Chinese root, perhaps Sino-Tibetan; the verb 'to thunder' is 打雷 'strike thunder'.
     zh_tw: ["雷", "leɪ̯˧˥"],  // Same word as Mainland Mandarin, an old Chinese root.
-    zh_db: ["雷", "leɪ̯˧˥"],  // Harbin, Changchun and Shenyang all use the standard word 雷.
+    zh_db: ["雷", "leɪ̯˨˦"],  // Harbin, Changchun and Shenyang all use the standard word 雷.
     zh_sc: ["雷", "nuei˨˩"],  // Same word as Standard Mandarin, said with the n- that Sichuanese uses for l-.
     yue: ["雷", "lɵy˨˩"],  // Guangzhou also says 雷公 'Thunder Duke', the thunder god's name.
     wuu: ["雷", "le˨˧"],  // Shanghai and Suzhou use the plain old root 雷.
@@ -1101,7 +1101,7 @@ WORDS.thunder = {
     mt: ["ragħad", "raːt"],  // Inherited from Arabic raʕd; the għ is now silent and only lengthens the vowel.
     urh: ["agbrara", "aɡbɾaɾa"],  // Ukere's Urhobo-English dictionary (1986) glosses agbrara 'thunder' with no analysis; shared with neighbouring Isoko egbrara. No image is recorded for it, so it counts as a word of its own.
     iso: ["egbrara", "eɡbɾaɾa"],  // Shared with neighbouring Urhobo agbrara, which Ukere's Urhobo dictionary glosses 'thunder' with no analysis. Route by resemblance to the neighbouring forms (urh(agbrara)); no etymology of its own.
-    ha: ["tsawa", "tsaːwaː"],  // Three wordlists agree; Wiktionary also lists tàrnatsā for thunder. No image is recorded for it, so it counts as a word of its own.
+    ha: ["tsawa", "tsáːwáː"],  // Three wordlists agree; Wiktionary also lists tàrnatsā for thunder. No image is recorded for it, so it counts as a word of its own.
     so: ["onkod", "onkod"],  // The plural is onkodyo. No image is recorded for it, so it counts as a word of its own.
     om: ["bakakkaa", "ˈbakakːaː"],  // The everyday Oromo word for thunder. No image is recorded for it, so it counts as a word of its own.
     ny: ["bingu", "ˈbiŋɡu"],  // Inherited from the Proto-Bantu word for 'cloud', so thunder is named after the cloud it comes from.

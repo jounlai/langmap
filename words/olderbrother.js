@@ -1016,7 +1016,7 @@ WORDS.olderbrother = {
     haw: ["kaikuaʻana", "kaikuaʔana"],  // Older sibling of the same sex, so a man's older brother; younger: kaikaina; a woman calls any brother kaikunāne.
     mi: ["tuakana", "tuakana"],  // Older sibling of the same sex, so a man's older brother; younger: teina; a woman's brother is tungāne.
     qu: ["wawqi", "ˈwawqi"],  // Quechua marks the speaker's sex (wawqi a man's brother, turi/tura a woman's), and age with kuraq 'elder': kuraq wawqi.
-    zh_db: ["哥哥", "kɤ˥ kɤ"],  // 哥 is thought to be a loan from Xianbei *aqa 'elder brother' (Mei 2015); younger: 弟弟.
+    zh_db: ["哥哥", "kɤ˦ kɤ"],  // 哥 is thought to be a loan from Xianbei *aqa 'elder brother' (Mei 2015); younger: 弟弟.
     zh_sc: ["哥哥", "ko˥ ko˥"],  // Chengdu also says 哥老倌; younger: 弟弟.
     cdo: ["依哥", "i˥˥ ko˥˥"],  // With the same 依 kinship prefix as 依爸 'father'; 哥 is thought to come from Xianbei *aqa 'elder brother'.
     bo: ["ཇོ་ཇོ", "tɕo˥tɕo˥˨"],  // Also used to address any man; younger: ནུ་བོ.
@@ -1040,7 +1040,7 @@ WORDS.olderbrother = {
     ml: ["ചേട്ടൻ", "tʃeːʈːan"],  // From Sanskrit jyeṣṭha 'eldest'; younger: അനിയൻ.
     tg: ["ака", "aˈka"],  // A Turkic loan also used to address men respectfully; the Persian alternative is бародари калонӣ 'big brother'.
     wo: ["mag", "maɡ"],  // mag means 'older sibling' (an older brother is mag ju góor); younger: rakk.
-    ha: ["wa", "waː"],  // Hausa also says yaya for an older sibling; younger: ƙane.
+    ha: ["wa", "wâː"],  // Hausa also says yaya for an older sibling; younger: ƙane.
     si: ["අයියා", "ajəjaː"],  // Younger: මල්ලි.
     ug: ["ئاكا", "ɑkɑ"],  // From Proto-Turkic *āka 'elder brother'; also a polite address for an older man; younger: ئۇكا.
     kk: ["аға", "ɑˈʁɑ"],  // From Proto-Turkic *āka; also 'uncle' and 'senior'; younger: іні.

@@ -739,7 +739,7 @@ WORDS.butter = {
     ar_lev: ["زبدة", "zibde"],
     mey: ["زبدة", "zubda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     mt: ["butir", "buˈtiːr"],
-    ha: ["man shanu", "maːn ʃaːnuː"],  // Literally 'oil of cattle'.
+    ha: ["man shanu", "mâːn ʃáːnúː"],  // Literally 'oil of cattle'.
     rw: ["amavuta", "amavuta"],
     ln: ["manteka", "manteka"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     af: ["botter", "ˈbɔtər"],

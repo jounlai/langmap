@@ -1113,7 +1113,7 @@ WORDS.husband = {
     ar_gulf: ["ريل", "ˈrəjɪl"],
     mey: ["زوج", "zaudʒ"],
     mt: ["raġel", "ˈraːdʒɛl"],
-    ha: ["miji", "midʒiː"],  // The IDS and WOLD Hausa lists give namiji for man beside miji for husband.
+    ha: ["miji", "mídʒìː"],  // The IDS and WOLD Hausa lists give namiji for man beside miji for husband.
     xh: ["umyeni", "um̩jeːni"],
     ln: ["mobali", "mobali"],
     af: ["eggenoot", "ˈɛχəˌnuə̯t"],
@@ -1452,7 +1452,7 @@ WORDS.husband = {
     kaa: ["kúyew", "kyˈjew"],
     mwl: ["home", "ˈomɨ"],  // home is also 'man'.
     grt: ["se", "se"],
-    ig: ["di", "di"],
+    ig: ["di", "dí"],
     kjh: ["ир", "ir"],  // ир is also 'man'.
     ain: ["ホク", "hoku"],
     frr: ["man", "man"],  // man is also 'man'.
@@ -1522,7 +1522,7 @@ WORDS.husband = {
     yue_zs: ["老公", "lou˨˩˧ kʊŋ˥˥"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
     zh_cd: ["男的", "nan˨˩ ni˥˥"],  // Literally 'the male one'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_cq: ["男人", "lan˨˩ zən˨˩"],  // Literally 'man'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
-    zh_db: ["丈夫", "tʂaŋ˥˩ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["丈夫", "tʂaŋ˥˧ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["丈夫", "tʂɑ̃˥˩ fʉ"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
     zh_jiao: ["外头人", "vɛ˦˨ tʰou˦˨ iə̃˦˨"],  // Literally 'the person outside', the one who works outside the home; 当家的 is also said. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["男的", "nã˦˨ ti"],  // Literally 'the male one'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.

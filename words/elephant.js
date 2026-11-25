@@ -849,7 +849,7 @@ WORDS.elephant = {
     grt: ["mongma", "monɡma"],
     gsw: ["Elifant", "ˈelifant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     gu: ["હાથી", "ˈɦatʰi"],  // From Sanskrit hastin, the animal "with a hand" (the trunk), through Prakrit.
-    ha: ["giwa", "ɡiːwaː"],  // From Proto-West-Chadic *giw-.
+    ha: ["giwa", "ɡíːwáː"],  // From Proto-West-Chadic *giw-.
     haw: ["ʻelepani", "ʔelepani"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     he: ["פיל", "pil"],  // Usually regarded as a non-Semitic loanword; compare Akkadian pīru.
     hi: ["हाथी", "ɦaːtʰiː"],  // From Sanskrit hastin, the animal "with a hand" (the trunk), through Prakrit.
@@ -861,7 +861,7 @@ WORDS.elephant = {
     hy: ["փիղ", "pʰiʁ"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     ia: ["elephante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     id: ["gajah", "ˈɡadʒah"],  // From Sanskrit gaja.
-    ig: ["enyi", "eɲi"],  // Compare Yoruba erin.
+    ig: ["enyi", "éɲí"],  // Compare Yoruba erin.
     ilo: ["gadia", "ˈɡadja"],  // Borrowed from Malay gajah, from Sanskrit gaja.
     inh: ["пилл", "pill"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     io: ["elefanto", "eleˈfanto"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
@@ -1213,7 +1213,7 @@ WORDS.elephant = {
     pt_mo: ["elefante", "ilɨˈfɐ̃tɨ"],  // The same word as European Portuguese.
     ja_kg: ["象", "zoː"],  // Sino-Japanese reading of 象; the national word, which Kagoshima speech uses as well.
     ja_sd: ["象", "zoː"],  // Sino-Japanese reading of 象; the national word, which Sendai speech uses as well.
-    zh_db: ["大象", "ta˥˩ ɕjɑŋ˥˩"],  // 象 is the old Chinese word for the elephant; 大 means big. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_db: ["大象", "ta˥˧ ɕjɑŋ˥˧"],  // 象 is the old Chinese word for the elephant; 大 means big. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     vi_c: ["voi", "vɔj˥"],  // The same word as standard Vietnamese.
     vi_s: ["voi", "jɔj˧"],  // The same word as standard Vietnamese.
     ar_eg: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.

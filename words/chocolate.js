@@ -597,7 +597,7 @@ WORDS.chocolate = {
     cjy_lv: ["巧克力", "tɕʰiou˧˩˨ kʰəʔ˦ liəʔ˨˧"],
     hsn_hy: ["巧克力", "tɕʰiau˧˧ kʰe˨˨ ti˩˩˨"],
     czh_wy: ["巧克力", "kʰɒ˨ tɕʰiɔ˥˩ lɔ˥˩"],
-    zh_db: ["巧克力", "tɕʰjɑʊ˧˩˧ kʰɤ˥˩ li˥˩"],
+    zh_db: ["巧克力", "tɕʰjɑʊ˨˩˧ kʰɤ˥˧ li˥˧"],
     yue_nn: ["朱古力", "tʃy˥˥ ku˥˥ lek˥"],
     zh_tj: ["巧克力", "tɕʰiɑu˩˧ kʰɤ˥˧ li˥˧"],
     zh_xa: ["巧克力", "tɕʰiau˥˧ kʰei˨˩ li˨˩"],

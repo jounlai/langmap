@@ -685,7 +685,7 @@ WORDS.india = {
     ko: ["인도", "indo"],  // The Korean reading of Chinese 印度, written 印度 in hanja (Wiktionary).
     wuu: ["印度", "in˥ du˨˩"],  // The Shanghainese reading of 印度 (Wiktionary).
     ta: ["இந்தியா", "ind̪ijaː"],  // Borrowed from English India; பாரதம் Bhāratam is the Sanskrit-derived synonym (Wiktionary).
-    ha: ["Indiya", "ʔindija"],  // Borrowed from English India (Wiktionary).
+    ha: ["Indiya", "ʔíndíjà"],  // Borrowed from English India (Wiktionary).
     ms: ["India", "ˈindia"],  // The Malay Wikipedia name; Hindustan is an older alternative. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     it: ["India", "ˈindja"],  // From Latin India, from Greek Ἰνδία (Wiktionary).
     pnb: ["بھارت", "pàːɾət"],  // Learned borrowing from Sanskrit Bhārata; ہندوستان Hindustān is also used (Wiktionary).
@@ -881,7 +881,7 @@ WORDS.india = {
     cjy_xz: ["印度", "iəŋ˥˨ tu˥˨"],  // The characters 印度 read in Xinzhou Jin.
     hsn_hy: ["印度", "in˧˨˦ tu˨˩˧"],  // The characters 印度 read in Hengyang Xiang.
     czh_wy: ["印度", "iɐin˧˥ tʰu˥˩"],  // The characters 印度 read in Wuyuan Hui; 印度 was the name Xuanzang proposed in the 7th century (Wiktionary).
-    zh_db: ["印度", "in˥˩ tu˥˩"],  // The spelling 印度 was proposed by the monk Xuanzang in 646 CE; Harbin reads it as in standard Mandarin.
+    zh_db: ["印度", "in˥˧ tu˥˧"],  // The spelling 印度 was proposed by the monk Xuanzang in 646 CE; Harbin reads it as in standard Mandarin.
     zh_sc: ["印度", "in˨˩˧ tu˨˩˧"],  // The characters 印度 read in Chengdu (Sichuan) Mandarin.
     zh_tw: ["印度", "in˥˩ tu˥˩"],  // The spelling 印度 was proposed by the monk Xuanzang in 646 CE in place of older names such as 身毒 and 天竺 (Wiktionary).
     ko_kp: ["인디아", "india"],  // North Korea borrows English India, where the South reads Chinese 印度 as Indo (Wiktionary).

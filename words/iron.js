@@ -1271,7 +1271,7 @@ WORDS.iron = {
     ms: ["besi", "bəsi"],
     tl: ["bakal", "ˈbakal"],
     am: ["ብረት", "bɨrət"],
-    ha: ["ƙarfe", "kʼarfeː"],
+    ha: ["ƙarfe", "kʼáɽfèː"],
     yo: ["irin", "iɾĩ"],
     zu: ["insimbi", "inˈsimbi"],
     xh: ["intsimbi", "inˈtsimbi"],
@@ -1720,7 +1720,7 @@ WORDS.iron = {
     gaa: ["dade", "dade"],
     ee: ["ga", "ɡa"],
     fon: ["gan", "ɡã"],
-    ig: ["igwe", "iɡʷe"],
+    ig: ["igwe", "íɡʷè"],
     bin: ["ematọn", "ematɔ̃"],
     urh: ["utehru", "utehɾu"],
     ekp: ["uci", "utʃi"],
@@ -1820,7 +1820,7 @@ WORDS.iron = {
 
     // --- Sinitic — one 陰入 syllable, 鐵, across every branch --------------
     zh_tw: ["鐵", "tʰjɛ˨˩˦"],
-    zh_db: ["铁", "tʰjɛ˨˩˦"],
+    zh_db: ["铁", "tʰjɛ˨˩˧"],
     zh_tj: ["铁", "tʰie˩˧"],
     zh_jn: ["铁", "tʰiə˨˩˧"],
     zh_zz: ["铁", "tʰiɛ˨˦"],

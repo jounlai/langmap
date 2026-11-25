@@ -956,7 +956,7 @@ WORDS.twenty = {
     gcr: ["ven", "vɛ̃"],
     gu: ["વીસ", "ʋis"],
     ht: ["ven", "vɛ̃"],
-    ha: ["ashirin", "aʃirin"],  // From Arabic.
+    ha: ["ashirin", "àʃìrín"],  // From Arabic.
     haw: ["iwakālua", "iwakaːlua"],
     he: ["עשרים", "esˈʁim"],  // The plural of עשר 'ten'.
     hi: ["बीस", "biːs"],
@@ -1154,7 +1154,7 @@ WORDS.twenty = {
     zh_tw: ["二十", "ɚ˥˩ ʂʐ̩˧˥"],
     wuu: ["廿", "ɲie˨˧"],  // 二十 is the written form.
     hak_cn: ["二十", "ŋi˥˧ sɨp˥"],
-    zh_db: ["二十", "ɚ˥˧ ʂʐ̩˧˥"],
+    zh_db: ["二十", "ɚ˥˧ ʂʐ̩˨˦"],
     zh_sc: ["二十", "ɚ˨˩˧ sɹ̩˨˩"],
     cdo: ["二十", "nɛi˨˦˨ sɛiʔ˥"],
     zh_yuan: ["二十", "ʐʅ ʂi"],
@@ -1372,7 +1372,7 @@ WORDS.twenty = {
     ota: ["یكرمی", "jiɾˈmi"],  // Inherited from Proto-Turkic *yẹgirmi 'twenty', like Turkish yirmi.
     aii: ["ܥܣܪܝܢ", "ʕɪsˈrinː"],  // From Aramaic ʿesrīn, the plural of ten, like Arabic عشرون.
     skr: ["ویہہ", "ʋiːh"],  // The same word as Punjabi ਵੀਹ 'twenty'.
-    ig: ["iri abụọ", "iɾi abʊɔ"],  // Literally 'ten two'.
+    ig: ["iri abụọ", "ìɾí ābʊ́ɔ̄"],  // Literally 'ten two'.
     kjb: ["junkʼal", "xunkʼal"],  // The Mayan unit of counting by twenties, like Yucatec junkʼáal.
     kab: ["ɛecrin", "ʕəʃrin"],  // Borrowed from Algerian Arabic عشرين.
     sco: ["toonty", "ˈtunti"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

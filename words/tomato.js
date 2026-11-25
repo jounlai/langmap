@@ -766,7 +766,7 @@ WORDS.tomato = {
     cjy_lv: ["西红柿", "sɿ˨˦ xuʌŋ˦˦ sɿ˥˨"],  // Lishi lists 西红柿 first: 西 'west' + 红 'red' + 柿 'persimmon': the 'western red persimmon'.
     cjy_xz: ["西番柿", "ɕi˧˩˧ fɑ̃˧˩ sɿ˥˨"],  // 西 'west' + 番 'foreign' + 柿 'persimmon', the old Jin name.
     hsn_hy: ["洋班椒", "ian˩˩˨ pan˦˦˥ tɕiau˦˦˥"],  // 洋 'foreign' + 班椒 'chili pepper': the 'foreign pepper'.
-    zh_db: ["西红柿", "ɕi˥ xʊŋ˧˥ ʂɨ˥˩"],  // Harbin lists 西红柿 first: 西 'west' + 红 'red' + 柿 'persimmon': the 'western red persimmon'.
+    zh_db: ["西红柿", "ɕi˦ xʊŋ˨˦ ʂɨ˥˧"],  // Harbin lists 西红柿 first: 西 'west' + 红 'red' + 柿 'persimmon': the 'western red persimmon'.
     zh_sc: ["番茄", "fan˥ tɕʰiɛ˨˩"],  // Chengdu lists 番茄 first: 番 'foreign' + 茄 'eggplant': the 'foreign eggplant'.
     zh_cd: ["番茄", "fan˥˥ tɕʰie˨˩"],  // Chengdu lists 番茄 first: 番 'foreign' + 茄 'eggplant': the 'foreign eggplant'.
     zh_cq: ["番茄", "fan˦˥ tɕʰye˨˩"],  // 番 'foreign' + 茄 'eggplant': the 'foreign eggplant'.
@@ -1184,7 +1184,7 @@ WORDS.tomato = {
     kos: ["tomahto", "tomæto"],  // From English tomato.
     prk: ["lang liao", "laŋ liau"],
     tet: ["tomate", "tomate"],
-    ig: ["tomato", "tomato"],
+    ig: ["tomato", "tòmátò"],
     kg: ["tomate", "tomate"],
     wls: ["tomato", "tomato"],
   },

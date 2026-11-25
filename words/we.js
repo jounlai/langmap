@@ -1470,7 +1470,7 @@ WORDS.we = {
     haw: ["kākou / mākou", "kaːkou / maːkou"],
     mi: ["tātou / mātou", "taːtou / maːtou"],
     qu: ["ñuqanchik / ñuqayku", "ɲuˈqantʃik / ɲuˈqajku"],
-    zh_db: ["咱们 / 我们", "tsan˧˥ mən / wɔ˨˩˦ mən"],
+    zh_db: ["咱们 / 我们", "tsan˨˦ mən / wɔ˨˩˧ mən"],
     zh_sc: ["我们", "ŋo˥˧ mən˨˩"],
     cdo: ["我各侬", "ŋuai˧˧ koʔ˨˦ nøyŋ˥˧"], // was ["我各侬", "ŋuai˧˧ kɔʔ˨˦ nøyŋ˥˧"] (vi dialect rules 2026-10-06)
     bo: ["ང་ཚོ", "ŋa˩˧tsʰo˥"],
@@ -1544,7 +1544,7 @@ WORDS.we = {
     ar_sd: ["نحنا", "ˈniħna"],
     ti: ["ንሕና", "nɨħna"],
     mt: ["aħna", "ˈaħna"],
-    ig: ["anyị", "aɲɪ"],
+    ig: ["anyị", "àɲɪ́"],
     bom: ["wot", "wot"],
     tiv: ["se", "se"],
     efi: ["nnyin", "nɲin"], // was ["nnyịn", "nɲin"] (vi dialect rules 2026-10-06)
@@ -1555,7 +1555,7 @@ WORDS.we = {
     deg: ["eni", "eni"],
     ets: ["mae", "mae"],
     iso: ["ma", "ma"],
-    ha: ["mu", "muː"],
+    ha: ["mu", "múː"],
     xed: ["ámú / áŋní", "ámú / áŋní"],
     ker: ["áŋ / are", "áŋ / aɾe"],
     dbq: ["min tokon / ni", "min tokon / ni"], // was ["hikwân", "hikʷãŋ"] (vi dialect rules 2026-10-06)

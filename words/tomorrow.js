@@ -1201,7 +1201,7 @@ WORDS.tomorrow = {
     to: ["ʻapongipongi", "ʔapoŋipoŋi"],  // ʻApongipongi is ʻa- + pongipongi 'morning' (IDS; Wiktionary).
     sm: ["taeao", "taeao"],  // Taeao means 'morning' as well as 'tomorrow' (Pollex).
     qu: ["paqarin", "paˈqaɾin"],  // Paqarin means both 'morning' and 'tomorrow' (Wiktionary).
-    zh_db: ["明天", "miŋ˧˥ tʰjɛn˥"],  // 明天 is 明 'next, following' + 天 'day'; Harbin and Shenyang also say 明兒個 (Wiktionary dialect synonyms).
+    zh_db: ["明天", "miŋ˨˦ tʰjɛn˦"],  // 明天 is 明 'next, following' + 天 'day'; Harbin and Shenyang also say 明兒個 (Wiktionary dialect synonyms).
     zh_sc: ["明天", "min˨˩ tʰiɛn˥"],  // 明天 is 明 'next, following' + 天 'day'; Chongqing says 明天兒 (Wiktionary dialect synonyms).
     cdo: ["明旦", "miŋ˥˧ taŋ˨˩˧"],  // 明旦 is literally 'next dawn' and in literary Chinese also means 'dawn' or 'tomorrow morning' (Wiktionary).
     bo: ["སང་ཉིན", "saŋ˥ɲĩ˩˨"],  // སང་ཉིན is the ordinary Lhasa word for 'tomorrow' (Wiktionary). Sang 'tomorrow' plus nyin 'day'.
@@ -1264,12 +1264,12 @@ WORDS.tomorrow = {
     arq: ["غدوة", "ɣudwa"],  // Ḡudwa comes from Arabic ḡudwa 'early morning' (Wiktionary).
     mt: ["għada", "ˈaːda"],  // Għada keeps Arabic ḡadan 'tomorrow', as the Maghrebi dialects do (Wiktionary). The root għ-d-w also gives Arabic ghudwa 'early morning'.
     ti: ["ጽባሕ", "tsʼɨbaħ"],  // Ṣəbaḥ is the Tigrinya word for 'tomorrow' (Tigrinya Bible; Wikivoyage). Ṣəbaḥ also means 'morning', the same root as Arabic ṣabāḥ.
-    ig: ["echi", "etʃi"],  // Echi is the Igbo word for 'tomorrow' (Igbo Bible; Wikivoyage). No image is recorded for it, so it counts as a word of its own.
+    ig: ["echi", "étʃí"],  // Echi is the Igbo word for 'tomorrow' (Igbo Bible; Wikivoyage). No image is recorded for it, so it counts as a word of its own.
     bom: ["nahwol", "nahwol"],  // Nahwol is the Berom word for 'tomorrow' (Berom Bible). No image is recorded for it, so it counts as a word of its own.
     tiv: ["kper", "kper"],  // Kper is the Tiv word for 'tomorrow' (Tiv Bible). No image is recorded for it, so it counts as a word of its own.
     efi: ["mkpọñ", "m̩kpɔŋ"],  // Mkpọñ is used for both 'yesterday' and 'tomorrow' (Efik Bible).
     ibb: ["ñkpọñ", "ŋ̩kpɔŋ"],  // Ñkpọñ is used for both 'yesterday' and 'tomorrow' (Ibibio Bible).
-    ha: ["gobe", "ɡoːbe"],  // Gobe is the Hausa word for 'tomorrow' (WOLD; Kraft 1981). Unrelated to safiya 'morning', dare 'night' and jiya 'yesterday'.
+    ha: ["gobe", "ɡòːbé"],  // Gobe is the Hausa word for 'tomorrow' (WOLD; Kraft 1981). Unrelated to safiya 'morning', dare 'night' and jiya 'yesterday'.
     wo: ["ëllëg", "əlːəɡ"],  // Ëllëg is 'tomorrow'; Wolof also says suba, which means 'morning' as well (Wolof Bible; Wiktionary). Ëllëg itself has no recorded image, so it counts as a word of its own.
     srr: ["feet", "feːt"],  // Feet (o feet) is the Serer word for 'tomorrow' (Serer Bible). No image is recorded for it, so it counts as a word of its own.
     so: ["berri", "berːi"],  // Berri is the Somali word for 'tomorrow' (Somali Bible).

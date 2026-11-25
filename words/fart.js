@@ -363,7 +363,7 @@ WORDS.fart = {
     az: ["osturaq", "ostuˈɾɑχ"],  // osturmaq 'to fart' + -aq, deverbal noun (from Proto-Turkic *osur-); Wiktionary osturaq '(informal) fart, flatulence', IPA [ost(u)ˈrɑχ]
     ar_ma: ["حزقة", "ħazqa"],  // Noun from the verb ḥzaq "to fart".
     mt: ["bassa", "ˈbasːa"],  // Maltese noun related to the verb bass "to fart".
-    ha: ["tusa", "tuːsaː"],  // Native Hausa noun.
+    ha: ["tusa", "túːsàː"],  // Native Hausa noun.
     so: ["dhuuso", "ɖuːso"],  // Native Somali noun.
     en_aave: ["fart", "fɑɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_nz: ["fart", "fɐːt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.

@@ -1289,7 +1289,7 @@ WORDS.n99 = {
     rif: ["ⵜⵙⵄⴰ ⵓ ⵜⵙⵄⵉⵏ", "təsʕa u təsʕin"],
     wal: ["uddufun tammanne uddufuna", "udːufun tamːanːe udːufuna"],
     om: ["sagaltamii sagal", "saɡaltamiː saɡal"],
-    ha: ["casaʼin da tara", "tʃasaʔin da tara"],
+    ha: ["casaʼin da tara", "tʃàsàʔín dà tárà"],
     mey: ["تسعة وتسعين", "təsʕa u təsʕajn"],
     ar_lev: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     kde: ["tisini na tisa", "tisini na tisa"],
@@ -1360,7 +1360,7 @@ WORDS.n99 = {
     cjy: ["九十九", "tɕiəu˥˧ səʔ˥˦ tɕiəu˥˧"],
     zh_lz: ["九十九", "tɕiou˦˦˨ ʂɨ˥˧ tɕiou˦˦˨"],
     zh_zz: ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
-    zh_db: ["九十九", "tɕjoʊ̯˧˩˧ ʂʐ̩˧˥ tɕjoʊ̯˧˩˧"],
+    zh_db: ["九十九", "tɕjoʊ̯˨˩˧ ʂʐ̩˨˦ tɕjoʊ̯˨˩˧"],
     zh_jh: ["九十九", "tɕiəu˨˩˨ ʂʅʔ˥˥ tɕiəu˨˩˨"], // was ["九十九", "tɕiɤɯ˨˩˦ ʂʅʔ˥˥ tɕiɤɯ˨˩˦"] (vi dialect rules 2026-10-06)
     zh_sc: ["九十九", "tɕiəu˥˧ sɹ̩˨˩ tɕiəu˥˧"], // was ["九十九", "tɕiəu˥˧ sɿ˨˩ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     glk: ["نود و نه", "nəvəd o no"],

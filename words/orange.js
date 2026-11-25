@@ -1229,7 +1229,7 @@ WORDS.orange = {
     hyw: ["նարինջ", "nɑˈɾintʃʰ"], // was ["նարինճ", "naˈɾintʃ"] (vi dialect rules 2026-10-06)
     haw: ["ʻalani", "ʔalani"],
     mi: ["ārani", "aːɾani"],
-    zh_db: ["橙", "tʂʰɤŋ˧˥"],
+    zh_db: ["橙", "tʂʰɤŋ˨˦"],
     zh_sc: ["橙", "tsʰən˨˩"],
     th_isan: ["ส้ม", "som˨"],
     th_n: ["ส้ม", "som˥˥˨"],
@@ -1275,8 +1275,8 @@ WORDS.orange = {
     ar_sd: ["برتقان", "burtuˈɡaːn"],
     ti: ["ብርቱኳን", "bɨrtukʷan"],
     mt: ["larinġ", "laˈrɪntʃ"], // was ["larinġ", "laˈrɪndʒ"] (vi dialect rules 2026-10-06)
-    ig: ["oroma", "oɾoma"],
-    ha: ["lemu", "leːmuː"],
+    ig: ["oroma", "òɾòmá"],
+    ha: ["lemu", "lèːmúː"],
     wo: ["soraas", "sɔraːs"], // was ["soraas", "soraːs"] (vi dialect rules 2026-10-06)
     so: ["liin macaan", "liːn maʕaːn"], // was ["liin", "liːn"] (vi dialect rules 2026-10-06)
     rw: ["icunga", "itʃuŋɡa"],

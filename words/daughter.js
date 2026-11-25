@@ -1295,7 +1295,7 @@ WORDS.daughter = {
     zu: ["indodakazi", "indodaˈkazi"],
     xh: ["intombi", "inˈtombi"],
     am: ["ሴት ልጅ", "set lɨdʒ"],
-    ha: ["ʼya", "ʔjaː"],
+    ha: ["ʼya", "ʔjáː"],
     yo: ["ọmọbìnrin", "ɔmɔbĩ̀ɾĩ"],
 
     // --- English, dialect by dialect ------------------------------------
@@ -1543,7 +1543,7 @@ WORDS.daughter = {
 
     // --- East Asia -------------------------------------------------------
     zh_tw: ["女兒", "ny˨˩˦ ɚ˧˥"],
-    zh_db: ["闺女", "kuei˥ ny"],
+    zh_db: ["闺女", "kuei˦ ny"],
     zh_sc: ["女儿", "ny˥˧ ɚ˨˩"],
     zh_cd: ["女儿", "ny˥˧ ɚ˨˩"],
     zh_cq: ["女儿", "ly˦˨ ɚ˨˩"],
@@ -1795,7 +1795,7 @@ WORDS.daughter = {
     sbp: ["mwali", "mwali"],
     rwk: ["mwana wa kika", "mwana wa kika"],
     asu: ["mwana wa kibora", "mwana wa kibora"],
-    ig: ["nwa nwaanyị", "ŋʷa ŋʷaːɲɪ"],
+    ig: ["nwa nwaanyị", "ŋʷá ŋʷâːɲɪ̀"],
     bom: ["hwóng", "hwóŋ"],
     tiv: ["wan u kwase", "wan u kʷase"],
     efi: ["eyen an̄wan", "ejɛn aŋwan"],

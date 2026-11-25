@@ -808,7 +808,7 @@ WORDS.tuesday = {
     ky: ["шейшемби", "ʃejʃemˈbi"],
     uz: ["seshanba", "seʃanba"],
     mt: ["Tlieta", "ˈtlɪːta"],
-    ha: ["Talata", "talaːta"],
+    ha: ["Talata", "tàláːtà"],
     xh: ["uLwesibini", "ulʷesiɓiːni"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ny: ["Lachiwiri", "ɽatʃiˈwiɽi"],
     bar: ["Iada", "ˈiɐd̥ɐ"],  // From Middle High German ertac; Old High German ariotag is thought to come from Gothic, a calque of Greek 'day of Ares'.
@@ -1136,7 +1136,7 @@ WORDS.tuesday = {
     yue_ts: ["星期二", "ɬen˧˧ kʰei˨˨ ŋei˧˨"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_cd: ["星期二", "ɕin˥˥ tɕʰi˨˩ ɚ˨˩˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_cq: ["星期二", "ɕin˥ tɕʰi˥ ɚ˨˩˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
-    zh_db: ["星期二", "ɕiŋ˥ tɕʰi˥ ɚ˥˩"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own Monday cell and the zh row's numeral.
+    zh_db: ["星期二", "ɕiŋ˦ tɕʰi˦ ɚ˥˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own Monday cell and the zh row's numeral.
     zh_jh: ["星期二", "ɕiŋ˧˩ tɕʰi˧˩ ɚ˦˦"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_jiao: ["星期二", "siəŋ˨˩˧ tɕʰi˨˩˧ ɭə˦˨"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_jn: ["星期二", "ɕiŋ˨˩˧ tɕʰi˨˩˧ ɚ˨˩"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.

@@ -1227,7 +1227,7 @@ WORDS.snow = {
     haw: ["hau", "hau"],
     mi: ["hukarere", "hukaɾeɾe"],
     qu: ["ritʼi", "ˈɾitʼi"],
-    zh_db: ["雪", "ɕɥɛ˨˩˦"],
+    zh_db: ["雪", "ɕɥɛ˨˩˧"],
     zh_sc: ["雪", "ɕye˨˩"],
     cdo: ["雪", "suɔʔ˨˦"],
     bo: ["ཁ་བ", "kʰawa˥"],
@@ -1781,7 +1781,7 @@ WORDS.snow = {
     sat: ["ᱦᱤᱢ", "him"], // Sanskrit hima
     amw: ["ܬܠܟܐ", "ˈθelka"], // Spitaler/Bergsträsser — inherited Aramaic talgā
     tig: ["ዕጥብ በረድ", "ʕətʼəb barad"], // lit. cotton-ice; bare bäräd alone is hail — Littmann & Höfner
-    ha: ["dusar ƙanƙara", "dusaɾ kʼankʼaraː"], // lit. chaff of ice; ƙanƙara alone is ice/hail
+    ha: ["dusar ƙanƙara", "dùsár kʼànkʼáráː"], // lit. chaff of ice; ƙanƙara alone is ice/hail
     naq: ["tsâmaros", "tsãːmaros"], // Krönlein 1889; distinct from ǃkhoab ice
     loz: ["litwa", "ˈlitwa"], // distinct from litwitwi mist, silami frost, limbwewewe hail
     ny: ["chipale chofewa", "tʃipale tʃofewa"],

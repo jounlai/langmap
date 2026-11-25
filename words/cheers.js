@@ -361,7 +361,7 @@ WORDS.cheers = {
     ja_oki: ["嘉例", "kaɾiː"],  // Karī means 'good fortune, an auspicious thing', so the Okinawan toast wishes luck rather than draining the cup; the longer form is karī sabira.
     ko: ["건배", "kʌnbɛ"],  // Sino-Korean 乾杯 'dry cup'; at group dinners Koreans also shout 위하여 'for (the sake of)!' and 원샷 'one shot'.
     zh: ["干杯", "kan˥ peɪ̯˥"],  // Gānbēi is literally 'dry the cup'.
-    zh_db: ["干杯", "kan˥ peɪ̯˥"],  // The same gānbēi 'dry the cup' as in Standard Mandarin.
+    zh_db: ["干杯", "kan˦ peɪ̯˦"],  // The same gānbēi 'dry the cup' as in Standard Mandarin.
     zh_sc: ["干杯", "kan˥ pei˥"],  // Sichuanese also says 干了 'it's dry (drunk up)!' as in Chengdu.
     zh_cd: ["干杯", "kan˥˥ pei˥˥"],  // Chengdu also says 干了 'it's drunk dry!'; both mean draining the cup.
     zh_wh: ["干杯", "kan˥˥ pei˥˥"],  // The same 'dry the cup' toast as Standard Mandarin.

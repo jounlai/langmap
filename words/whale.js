@@ -788,7 +788,7 @@ WORDS.whale = {
     ar_iq: ["حوت", "ħuːt"],  // The old Arabic word for 'fish'; in Iraq it means the whale, and 'fish' is سمچة.
     zh_jn: ["鲸鱼", "tɕiŋ˨˩˧ y˦˨"],  // 鲸鱼 'whale fish', the Mainland word.
     zh_jh: ["鲸鱼", "tɕiŋ˧˩ y˩˧"],  // 鲸鱼 'whale fish', the Mainland word.
-    zh_db: ["鲸鱼", "tɕiŋ˥ y˧˥"],  // 鲸鱼 'whale fish', the Mainland word.
+    zh_db: ["鲸鱼", "tɕiŋ˦ y˨˦"],  // 鲸鱼 'whale fish', the Mainland word.
     zh_tj: ["鲸鱼", "tɕiŋ˨˩ y˦˥"],  // 鲸鱼 'whale fish', the Mainland word.
     zh_nj: ["鲸鱼", "tɕiŋ˧˩ y˨˦"],  // 鲸鱼 'whale fish', the Mainland word.
     zh_km: ["鲸鱼", "tɕĩ˦˦ i˧˩"],  // 鲸鱼 'whale fish', the Mainland word.

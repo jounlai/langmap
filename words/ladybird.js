@@ -328,7 +328,7 @@ WORDS.ladybird = {
     ko: ["무당벌레", "mudaŋbʌlle"],  // Literally "shaman bug"; its bright colours are commonly said to recall a shaman's ritual robes.
     zh: ["瓢虫", "pʰjau˧˥ tʂʰʊŋ˧˥"],  // Literally "gourd-ladle bug", after its round, ladle-like shape.
     yue: ["瓢蟲", "pʰiːu˨˩ tsʰʊŋ˨˩"],  // Literally "gourd-ladle bug", after its round, ladle-like shape.
-    zh_db: ["花大姐", "xwa˥ ta˥˩ tɕjɛ˨˩˦"],  // Literally "flowery big sister", the northern Mandarin folk name.
+    zh_db: ["花大姐", "xwa˦ ta˥˧ tɕjɛ˨˩˧"],  // Literally "flowery big sister", the northern Mandarin folk name.
     zh_sc: ["瓢虫", "pʰiau˨˩ tsʰoŋ˨˩"],  // Literally "gourd-ladle bug"; Chengdu also says 花姑娘儿 "flowery girl".
     vi: ["bọ rùa", "ɓɔ˧˨ʔ zuə˨˩"],  // Literally "turtle bug", after its domed, shell-like back.
     th: ["เต่าทอง", "taw˨˩tʰɔːŋ˧"],  // Literally "golden turtle", often said as แมลงเต่าทอง "golden-turtle insect".

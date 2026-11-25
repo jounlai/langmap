@@ -732,7 +732,7 @@ WORDS.turkey = {
     ur: ["ٹرکی", "ʈəɾkiː"],  // Borrowed from English turkey; older words are پیرو and فیل مرغ 'elephant fowl'.
     pa: ["ਟਰਕੀ", "ʈəɾkiː"],  // Borrowed from English turkey.
     ps: ["فيلمرغ", "filmorɣ"],  // Literally 'elephant fowl', as in Urdu فیل مرغ and Persian; Pashto Wikipedia uses the descriptive شونډکيز چرگ.
-    ig: ["torotoro", "toɾotoɾo"],  // Related to Hausa tàlotàlo, whose name spread across Nigerian languages; the variant tòlótòló is marked as from Hausa.
+    ig: ["torotoro", "tòɾótòɾó"],  // Related to Hausa tàlotàlo, whose name spread across Nigerian languages; the variant tòlótòló is marked as from Hausa.
     su: ["kalkun", "kalkun"],  // From Dutch kalkoen, named after the Indian port of Calicut, as with Indonesian kalkun.
     ml: ["കൽക്കം", "kalkːam"],  // Also called ടർക്കി and വാങ്കോഴി, a cognate of Tamil வான்கோழி. Route by resemblance to the neighbouring forms (nl(kalkoen) sv(kalkon)); no etymology of its own.
     sd: ["ٽرڪي", "ʈərkiː"],  // Borrowed from English turkey.
@@ -772,7 +772,7 @@ WORDS.turkey = {
     dag: ["torotoro", "torotoro"],  // Borrowed from Hausa tàlotàlo, the probably imitative name that spread across Nigerian and Ghanaian languages; the plural is torotoronima.
     rgn: ["galinàz", "ɡaliˈnaz"],  // Literally 'big hen', the Romagnol counterpart of Italian gallinaccio; Ercolani also lists birén for the turkey.
     ksw: ["ဆီကဆီ", "sʰɔkəsʰɔ"],  // A native compound built on ဆီ 'chicken'.
-    zh_db: ["外国鸡", "waɪ̯˥˩ kwo˧˩˧ tɕi˥"],  // Literally "foreign chicken", the name Wiktionary's dialect survey records for Harbin (and Beijing and Tianjin).
+    zh_db: ["外国鸡", "waɪ̯˥˧ kwo˨˩˧ tɕi˦"],  // Literally "foreign chicken", the name Wiktionary's dialect survey records for Harbin (and Beijing and Tianjin).
     ext: ["pavu", "ˈpaβu"],  // From Latin pāvō "peacock", like Spanish pavo, with the Astur-Leonese final -u.
     aii: ["ܟ̰ܝܼܪܘܿ", "tʃiːroː"],  // An imitative word, from the bird's call; the cock is qārōyā d-miṣrēn, the 'Egyptian rooster'.
     cbk: ["pavo", "ˈpabo"],  // Inherited from Spanish pavo, originally 'peacock'.

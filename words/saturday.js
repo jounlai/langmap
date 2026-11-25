@@ -787,7 +787,7 @@ WORDS.saturday = {
     gcr: ["sanmdi", "sãmdi"],
     gu: ["શનિવાર", "ˈʃəniʋaɾ"],
     ht: ["samdi", "samdi"],
-    ha: ["Asabar", "asabar"],
+    ha: ["Asabar", "àsábàr"],
     haw: ["Pōʻaono", "poːʔaono"],
     he: ["יום שבת", "jom ʃaˈbat"],
     hi: ["शनिवार", "ʃənɪʋaːɾ"],
@@ -1109,7 +1109,7 @@ WORDS.saturday = {
     de_ch: ["Samstag", "ˈsamstaːk"],  // Same word as standard German; initial s as in the row's Sonntag ˈsɔntaːk.
     de_at: ["Samstag", "ˈsamstaːk"],  // Same word as standard German; initial s as in the row's Sonntag ˈsɔntaːk.
     zh_tw: ["星期六", "ɕiŋ˥ tɕʰi˧˥ ljoʊ̯˥˩"],  // Same word as the mainland row; Taiwan reads 期 in the second tone, as in the row's 星期一 ɕiŋ˥ tɕʰi˧˥ i˥.
-    zh_db: ["星期六", "ɕiŋ˥ tɕʰi˥ ljoʊ̯˥˩"],  // Same word as the standard row; the row's 星期一 to 星期四 are read as in zh.
+    zh_db: ["星期六", "ɕiŋ˦ tɕʰi˦ ljoʊ̯˥˧"],  // Same word as the standard row; the row's 星期一 to 星期四 are read as in zh.
     vi_c: ["thứ bảy", "tʰɨ˨˦ ɓaj˧˩˨"],  // Same word as standard Vietnamese, in the row's Central tones (thứ tʰɨ˨˦ as in its Monday).
     vi_s: ["thứ bảy", "tʰɨ˧˥ ɓaj˨˩˦"],  // Same word as standard Vietnamese, in the row's Southern tones (thứ tʰɨ˧˥ as in its Monday).
     ja_kg: ["土曜日", "dojoːbi"],  // The standard word, read as in Tokyo, like the row's 月曜日 ɡetsɯjoːbi.

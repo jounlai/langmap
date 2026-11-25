@@ -1122,7 +1122,7 @@ WORDS.yesterday = {
     haw: ["nehinei", "nehinei"],  // tomorrow: ʻapōpō; nehinei goes back to Polynesian *i-nanafi, like Māori inanahi.
     mi: ["inanahi", "inanahi"],  // tomorrow: āpōpō.
     qu: ["qayna", "ˈqajna"],  // tomorrow: paqarin, which also means 'morning'; qayna also means 'previous'.
-    zh_db: ["昨天", "tswo˧˥ tʰjɛn˥"],  // tomorrow: 明天; in Harbin and Shenyang 昨儿个 is a common colloquial alternative.
+    zh_db: ["昨天", "tswo˨˦ tʰjɛn˦"],  // tomorrow: 明天; in Harbin and Shenyang 昨儿个 is a common colloquial alternative.
     zh_sc: ["昨天", "tso˨˩ tʰiɛn˥"],  // tomorrow: 明天; Chongqing speakers often add -儿 (昨天儿).
     cdo: ["昨暝", "soʔ˥ maŋ˥˧"],  // tomorrow: 明旦; literally 'last night', the same characters mean 'last night' in Hokkien.
     orh: ["tiinəwə", "tiinəwə"],  // tomorrow: tɪmaana.
@@ -1159,7 +1159,7 @@ WORDS.yesterday = {
     ti: ["ትማሊ", "tɨmali"],  // tomorrow: ጽባሕ.
     mt: ["lbieraħ", "lˈbɪːraħ"],  // tomorrow: għada.
     ig: ["ụnyaahụ", "ʊɲaːhʊ"],  // tomorrow: echi.
-    ha: ["jiya", "dʒija"],  // tomorrow: gobe.
+    ha: ["jiya", "dʒíjà"],  // tomorrow: gobe.
     wo: ["démb", "demb"],  // Tomorrow is ëllëg.
     so: ["shalay", "ʃalaj"],  // tomorrow: berri; shalay is distinct from xalay 'last night'.
     om: ["kaleessa", "kaleːsːa"],  // tomorrow: boor (boru).

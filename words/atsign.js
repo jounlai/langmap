@@ -611,7 +611,7 @@ WORDS.atsign = {
     an: ["arroba", "aˈroβa"],
     wa: ["arobasse", "aʁɔˈbas"],
     de_lu: ["Klammeraffe", "ˈklamɐˌʔafə"],
-    zh_db: ["艾特", "aɪ̯˥˩ tʰɤ˥˩"],
+    zh_db: ["艾特", "aɪ̯˥˧ tʰɤ˥˧"],
     co: ["ciuvodda", "tʃuˈvɔɖɖa"],
     ku: ["at", "ɑːt"],
     nrf: ["à", "a"],

@@ -1611,7 +1611,7 @@ WORDS.butterfly = {
     pt_br: ["borboleta", "boʁboˈletɐ"],
     en_yk: ["butterfly", "ˈbʊtəflaɪ"],
     nan_hai: ["飞蝶", "ɓue˨˧ ia˧˧"],
-    zh_db: ["蝴蝶儿", "xu˧˥ tjɐɻ˧˥"],
+    zh_db: ["蝴蝶儿", "xu˨˦ tjɐɻ˨˦"],
     en_south: ["butterfly", "ˈbʌɾɚflaː"],
     en_nz: ["butterfly", "ˈbɐtəflɑɪ"],
     zh_zz: ["蝴蝶儿", "xu˦˨ tiɛɻ˦˨"],

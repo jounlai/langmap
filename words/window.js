@@ -975,7 +975,7 @@ WORDS.window = {
     kl: ["igalaaq", "iɡalaaq"],
     gu: ["બારી", "ˈbaɾi"],
     ht: ["fenèt", "fenɛt"],
-    ha: ["taga", "taːɡaː"],  // From Arabic طاقة through Kanuri.
+    ha: ["taga", "táːɡàː"],  // From Arabic طاقة through Kanuri.
     hi: ["खिड़की", "kʰɪɽkiː"],  // From a Prakrit form of Sanskrit khaṭakkikā.
     hu: ["ablak", "ˈɒblɒk"],
     is: ["gluggi", "ˈklʏcːɪ"],

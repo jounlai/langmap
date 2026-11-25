@@ -934,7 +934,7 @@ WORDS.bat = {
     haw: ["ʻōpeʻapeʻa", "ʔoːpeʔapeʔa"],  // The name of the Hawaiian hoary bat, the islands' endemic bat. A reduplication like Māori pekapeka, a Polynesian word for the bat.
     mi: ["pekapeka", "pekapeka"],  // A reduplication of an older word peka 'bat'.
     qu: ["chiñi", "ˈtʃiɲi"],  // A Quechua word for the bat. Unrelated to ukucha 'mouse' and pisqu 'bird'.
-    zh_db: ["蝙蝠", "pjɛn˥ fu˧˥"],  // Harbin uses 蝙蝠 alongside local 燕别咕 'eaves-bat' forms; 蝙蝠 expands Old Chinese 蝠 'bat'.
+    zh_db: ["蝙蝠", "pjɛn˦ fu˨˦"],  // Harbin uses 蝙蝠 alongside local 燕别咕 'eaves-bat' forms; 蝙蝠 expands Old Chinese 蝠 'bat'.
     zh_sc: ["檐老鼠儿", "iɛn˨˩ nau˥˧ suɚ˥˧"],  // Literally 'eaves mouse': 檐 'eaves' plus 老鼠 'mouse, rat'.
     za: ["vumzvauz", "βum˧˩ βaːu˧˩"],  // The second syllable matches Bouyei waauz 'bat'. Wiktionary gives only the Bouyei cognate, and it is unrelated to nou 'rat' and roeg 'bird'. No image is recorded for it, so it counts as a word of its own.
     jv: ["lawa", "lɔwɔ"],  // Inherited from Old Javanese lawā 'bat'; kalong is the large fruit bat and kampret a small bat.
@@ -1123,7 +1123,7 @@ WORDS.bat = {
     pcm: ["bat", "bat"],  // Taken over from English bat.
     cjy: ["夜壁蝠", "iɛ˦˥ piəʔ˨ fəʔ˨"],  // The Taiyuan word: 夜 'night' and 壁 'wall' added to 蝠, the old Chinese word for the bat.
     kn: ["ಬಾವಲಿ", "baːʋali"],  // A Dravidian word shared with Tamil vauvāl and Malayalam vavvāl.
-    ig: ["ụsụ", "ʊsʊ"],  // The everyday Igbo word for the bat; the plural is ụmụ ụsụ. Unrelated to òké 'rat' and nnụnụ 'bird'.
+    ig: ["ụsụ", "ʊ́sʊ́"],  // The everyday Igbo word for the bat; the plural is ụmụ ụsụ. Unrelated to òké 'rat' and nnụnụ 'bird'.
     or: ["ବାଦୁଡ଼ି", "baːduɽi"],  // Inherited from Sanskrit vālguḍa 'bat', shared with Bengali bāduṛ; ଚାମଚିକା is the small house bat.
     awa: ["चमगादड़", "tʃəmɡaːdəɽ"],  // The same word as Hindi चमगादड़, literally something like 'leather-jackal'.
     sd: ["چمڙو", "tʃəmɪɽoː"],  // Turner traces it to Sanskrit carmacaṭaka, a 'leather-sparrow'.

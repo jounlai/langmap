@@ -840,7 +840,7 @@ WORDS.grandmother = {
     acw: ["ست", "sitt"],  // From Arabic sayyida 'lady'. One word for either grandmother.
     zh: ["奶奶", "nai˨˩˦ nai"],  // Father's mother; mother's mother: 外婆 wàipó or, in the north, 姥姥 lǎolao (外 'outside' marks the mother's side).
     zh_tw: ["奶奶", "nai˨˩˦ nai"],  // Father's mother; mother's mother: 外婆 wàipó (the Hokkien loan 阿嬤 is also used for both).
-    zh_db: ["奶奶", "nai˨˩˦ nai"],  // Father's mother; mother's mother: 姥姥 lǎolao.
+    zh_db: ["奶奶", "nai˨˩˧ nai"],  // Father's mother; mother's mother: 姥姥 lǎolao.
     zh_sc: ["婆婆", "po˨˩ po˨˩"],  // Father's mother in Chengdu and Chongqing (in Standard Mandarin 婆婆 means a husband's mother); mother's mother: 外婆 or 家家.
     yue: ["嫲嫲", "maː˨˩ maː˨˩"],  // Father's mother; mother's mother: 婆婆 or 阿婆 (外婆 when speaking about her).
     nan: ["阿媽", "a˦˦ ma˥˧"],  // Father's mother (also used loosely for both); mother's mother: 外媽 guā-má, 'outside grandma'.
@@ -960,7 +960,7 @@ WORDS.grandmother = {
     ar_gulf: ["يدة", "ˈjadda"],  // The Gulf Arabic word for grandmother, cognate with jadda. One word for either grandmother.
     ar_ma: ["حنة", "ˈħanna"],  // Also the word for 'henna'. One word for either grandmother.
     ar_sd: ["حبوبة", "ħabˈboːba"],  // The Sudanese Arabic word for grandmother. One word for either grandmother.
-    ha: ["kaka", "kaːkaː"],  // One word for any grandparent; kaka mace 'female kaka' specifies the grandmother.
+    ha: ["kaka", "kàːkáː"],  // One word for any grandparent; kaka mace 'female kaka' specifies the grandmother.
     wo: ["maam", "maːm"],  // Means any grandparent, grandfather or grandmother.
     om: ["akkayyaa", "akːajjaː"],  // The Oromo word for grandmother.
     rn: ["nyogokuru", "ɲoɡokuɾu"],  // The Rundi word for grandmother.
@@ -1068,7 +1068,7 @@ WORDS.grandmother = {
     ceb: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother (older native úyang).
     hil: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother.
     tn: ["nkoko", "ŋkʊkʊ"],  // The word for grandmother in the Bantu Basic Vocabulary list. KinBank gives mme-mogolo for both the father's and the mother's mother.
-    ig: ["nne nna", "nːe nːa"],  // Literally 'mother of father'; mother's mother: nne nne 'mother of mother' or nne ochie 'old mother'.
+    ig: ["nne nna", "ńːé ńːà"],  // Literally 'mother of father'; mother's mother: nne nne 'mother of mother' or nne ochie 'old mother'.
     tiv: ["ngo u tamen", "ŋɡo u tamen"],  // Built on ngo 'mother'; one term for either grandmother.
     sr: ["баба", "bâba"],  // One word for either grandmother (also 'old woman'); the affectionate бака baka is very common.
     as: ["আইতা", "aita"],  // One word for either grandmother; some sources note ābu as a variant for the mother's mother.

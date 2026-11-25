@@ -907,7 +907,7 @@ WORDS.greece = {
     nl_be: ["Griekenland", "ˈɣrikənlɑnt"],  // Griek 'Greek' plus land, from Middle Dutch Griekenlant (Wiktionary); Griek goes back to Latin Graecus (Wikipedia).
     ca_va: ["Grècia", "ˈɡɾɛsia"],  // A learned borrowing from Latin Graecia; Hèl·lada is a formal, poetic name.
     zh_tw: ["希臘", "ɕi˥ lä˥˩"],  // Ultimately from Ancient Greek Ἑλλάς Hellas, the Greeks' own name; the spelling is attested from 1837 (Wiktionary).
-    zh_db: ["希腊", "ɕi˥ la˥˩"],  // The Chinese name 希臘, based on Hellas, read with Harbin character readings (MCPDict).
+    zh_db: ["希腊", "ɕi˦ la˥˧"],  // The Chinese name 希臘, based on Hellas, read with Harbin character readings (MCPDict).
     cjy_lv: ["希腊", "sɿ˨˦ laʔ˨˧"],  // The Chinese name 希臘, based on Hellas, read with Lishi character readings, where 希 is sɿ (MCPDict).
     cjy_xz: ["希腊", "ɕi˧˩˧ lɑʔ˦˧"],  // The Chinese name 希臘, based on Hellas, read with Xinzhou character readings (MCPDict).
     hsn_hy: ["希腊", "ɕi˦˦˥ la˩˩˨"],  // The Chinese name 希臘, based on Hellas, read with Hengyang character readings (MCPDict).

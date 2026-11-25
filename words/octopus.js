@@ -606,7 +606,7 @@ WORDS.octopus = {
     fr_qc: ["pieuvre", "pjœːvʁ"],  // From Guernsey Norman, ultimately Latin polypus < Greek polýpous 'many-footed'.
     ar_lev: ["إخطبوط", "ʔixtˤaˈbuːtˤ"],  // From Greek oktṓpous 'eight-foot'; the Syrian colloquial dictionary vocalises it with i-.
     ar_tn: ["قرنيط", "qarˈniːtˤ"],  // Borrowed from Latin cornūta 'horned'; the Maghrebi word for octopus, also Maltese qarnit.
-    zh_db: ["八大鱼", "pa˥ ta˥˩ y˧˥"],  // Literally 'eight-big fish'; recorded for Harbin, where the standard 章鱼 is not given.
+    zh_db: ["八大鱼", "pa˦ ta˥˧ y˨˦"],  // Literally 'eight-big fish'; recorded for Harbin, where the standard 章鱼 is not given.
     yue_ts: ["八爪鱼", "pat˧˧ tsau˥˥ ŋui˨˩˥"],  // Literally 'eight-claw fish', as in Cantonese.
     yue_nn: ["八爪鱼", "pɛt˧ tʃɛu˧˥ jy˨˩"],  // Literally 'eight-claw fish'; the Nanning Cantonese word for octopus.
     lt: ["aštuonkojis", "ɐʃtuɔŋˈkoːjɪs"],  // Literally 'eight-leg': aštuoni 'eight' + koja 'leg'.

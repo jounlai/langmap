@@ -1418,7 +1418,7 @@ WORDS.black = {
     ar_gulf: ["أسود", "ˈʔaswad"],
     ar_ma: ["كحل", "kħəl"],
     ti: ["ጸሊም", "tsʼɐllim"],
-    ha: ["baƙi", "bakʼiː"],
+    ha: ["baƙi", "bákʼíː"],
     om: ["gurraacha", "ɡurːaːtʃaː"],
     cop: ["ⲕⲁⲙⲉ", "kame"],
     syc: ["ܐܘܟܡܐ", "ʔukkaːmaː"],
@@ -1706,7 +1706,7 @@ WORDS.black = {
     yue_gz: ["黑", "hak̚˥"],
     wuu: ["黑", "həʔ˥"],
     zh_tw: ["黑", "xei˥"],
-    zh_db: ["黑", "xei˥"],
+    zh_db: ["黑", "xei˦"],
     och: ["黑", "*m̥ˤək"],
     zh_tang: ["黑", "hək"],
 

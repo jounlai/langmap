@@ -788,7 +788,7 @@ WORDS.potato = {
     pcd: ["pétote", "petɔt"],  // Picard also has pun-d'tière, "earth apple", like French pomme de terre. Route by resemblance to the neighbouring forms (nrf(patate), French patate); no etymology of its own.
     szl: ["kartofel", "karˈtɔfɛl"],  // From German Kartoffel; Silesian spelling also kartŏfel.
     qu: ["papa", "ˈpapa"],  // The original Andean word for the potato, which Spanish borrowed as papa.
-    zh_db: ["土豆", "tʰu˧˩˧ tou˥˩"],  // Literally "earth bean"; the everyday word across Northeast China.
+    zh_db: ["土豆", "tʰu˨˩˧ tou˥˧"],  // Literally "earth bean"; the everyday word across Northeast China.
     zh_sc: ["洋芋", "iaŋ˨˩ y˨˩˧"],  // Literally "foreign taro": the old word for taro with 洋 'foreign, from overseas'.
     cdo: ["番囝薯", "huaŋ˥˥ kiaŋ˧˧ sy˥˧"],  // Literally "foreigners' tuber", 番囝 being the Fuzhou word for a foreigner.
     jv: ["kenthang", "kənʈaŋ"],  // An older Javanese word for a tuber, which Malay and Indonesian borrowed as kentang.
@@ -820,7 +820,7 @@ WORDS.potato = {
     ar_ma: ["بطاطا", "btˤaːtˤa"],  // From the batata word for the potato.
     ti: ["ድንሽ", "dɨnnɨʃ"],  // The Ethiopian tuber word shared with Amharic ድንች and Oromo dinnicha.
     mt: ["patata", "paˈtaːta"],  // From Italian/Spanish patata, from the Taíno batata.
-    ha: ["dankalin turawa", "dankalin tuːraːwaː"],  // Literally "sweet potato of the Europeans": the native sweet-potato word with 'Europeans' added.
+    ha: ["dankalin turawa", "dànkálìn túːráːwáː"],  // Literally "sweet potato of the Europeans": the native sweet-potato word with 'Europeans' added.
     wo: ["pombiteer", "pɔmbitɛːr"],  // Borrowed from French pomme de terre, "apple of the earth".
     om: ["dinnicha", "dinːitʃa"],  // The Ethiopian tuber word, also borrowed into Amharic ድንች; Wiktionary's taxon note points to the native Ethiopian potato (Coleus edulis), so check that it is the everyday word for Solanum tuberosum.
     xh: ["itapile", "itapiːle"],  // Borrowed from Afrikaans aartappel, "earth apple".

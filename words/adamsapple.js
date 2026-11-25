@@ -562,7 +562,7 @@ WORDS.adamsapple = {
     is: ["barkakýli", "ˈpar̥kacʰiːlɪ"],  // Literally 'windpipe boil', from barki 'windpipe' + kýli 'boil'; the word covers both the Adam's apple and the larynx, and adamsepli is the less common synonym.
     wuu_jh: ["喉咙珠", "eu˧˩˧ loŋ˧˩˧ tɕy˧˧˦"],  // Literally 'throat bead'.
     wuu_hz: ["喉结", "ɦei˨˩˧ tɕieʔ˥"],  // Literally 'throat knot', as in Standard Chinese.
-    zh_db: ["喉结", "xoʊ̯˧˥ tɕjɛ˧˥"],  // Literally 'throat knot', the standard word; Harbin also says 喉结儿 and 嗓胡芦.
+    zh_db: ["喉结", "xoʊ̯˨˦ tɕjɛ˨˦"],  // Literally 'throat knot', the standard word; Harbin also says 喉结儿 and 嗓胡芦.
     vi_nom: ["咽喉", "iət˧˥ həw˨˩"],  // yết hầu is the Sino-Vietnamese reading of 咽喉 'throat', written with the Chinese characters.
     mak: ["buttu kallong", "butːu kalːoŋ"],  // Literally 'bump of the neck': buttu 'bump, knob' + kallong 'neck'.
     ja_oki: ["喉ぐーふ", "nuːdiːɡuːɸu"],  // Okinawan nuudiiguufu, literally 'throat lump' (ぐーふ 'bump, lump'); standard Japanese 喉仏.

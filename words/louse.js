@@ -624,7 +624,7 @@ WORDS.louse = {
     crs: ["lipou", "lipu"],  // From wold Seychelles Creole lipou.
     kek: ["ukʼ", "ukʼ"],  // From wold Qʼeqchiʼ uk’.
     mg: ["hao", "ˈhau"],  // From wold Malagasy hào.
-    ha: ["kwarkwata", "kʷaɽkʷataː"],  // From ids Hausa kˀwarkˀwata, kraftchadic kwârkwatā̀.
+    ha: ["kwarkwata", "kʷârkʷátàː"],  // From ids Hausa kˀwarkˀwata, kraftchadic kwârkwatā̀.
     sbp: ["isosolo", "isosolo"],  // From grollemundbantu, tls Sangu isosolo.
     tum: ["nyinda", "ɲinda"],  // From grollemundbantu N21 ɲinda.
     xog: ["nsekerere", "nsekerere"],  // From grollemundbantu JE16, tls Lusoga nsekerere.

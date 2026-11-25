@@ -813,7 +813,7 @@ WORDS.wednesday = {
     uz: ["chorshanba", "tʃɒrʃanba"],
     tk: ["çarşenbe", "ˌtʃɑːɾʃenˈbe"],
     mt: ["Erbgħa", "ˈɛrba"],
-    ha: ["Laraba", "laːrabaː"],
+    ha: ["Laraba", "làːràbáː"],
     om: ["Roobbii", "roːbːiː"],
     xh: ["uLwesithathu", "ulʷesitʰaːtʰu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ny: ["Lachitatu", "ɽatʃiˈtatu"],
@@ -1134,7 +1134,7 @@ WORDS.wednesday = {
     yue_ts: ["星期三", "ɬen˧˧ kʰei˨˨ ɬam˧˧"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_cd: ["星期三", "ɕin˥˥ tɕʰi˨˩ san˥˥"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_cq: ["星期三", "ɕin˥ tɕʰi˥ san˥"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
-    zh_db: ["星期三", "ɕiŋ˥ tɕʰi˥ san˥"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own Monday cell and the zh row's numeral.
+    zh_db: ["星期三", "ɕiŋ˦ tɕʰi˦ san˦"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own Monday cell and the zh row's numeral.
     zh_jh: ["星期三", "ɕiŋ˧˩ tɕʰi˧˩ san˧˩"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_jiao: ["星期三", "siəŋ˨˩˧ tɕʰi˨˩˧ sã˨˩˧"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_jn: ["星期三", "ɕiŋ˨˩˧ tɕʰi˨˩˧ sã˨˩˧"],  // 星期 'week' + 三 'three', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.

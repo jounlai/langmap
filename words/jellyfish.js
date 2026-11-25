@@ -442,7 +442,7 @@ WORDS.jellyfish = {
     vi_c: ["sứa", "ʂɨə˨˦"],  // A native monosyllable of unknown origin.
     vi_s: ["sứa", "ʂɨə˧˥"],  // A native monosyllable of unknown origin.
     zh_tw: ["水母", "ʂweɪ̯˧˩˧ mu˧˩˧"],  // Literally 'water mother'; 海蜇 is also used in Taiwan.
-    zh_db: ["海蜇", "xai˧˩˧ tʂɤ˧˥"],  // 'Sea' plus 蜇, itself a word for jellyfish.
+    zh_db: ["海蜇", "xai˨˩˧ tʂɤ˨˦"],  // 'Sea' plus 蜇, itself a word for jellyfish.
     zh_cd: ["海蜇", "xai˥˧ tsɛ˨˩"],  // 'Sea' plus 蜇, itself a word for jellyfish.
     zh_sc: ["海蜇", "xai˥˧ tsɛ˨˩"],  // 'Sea' plus 蜇, itself a word for jellyfish.
     zh_jn: ["海蜇", "xɛ˥˥ tʂə˨˩˧"],  // 'Sea' plus 蜇, itself a word for jellyfish.

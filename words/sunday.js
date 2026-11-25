@@ -846,7 +846,7 @@ WORDS.sunday = {
     gcr: ["dimanch", "dimãʃ"],
     gu: ["રવિવાર", "ˈɾəʋiʋaːɾ"],
     ht: ["dimanch", "dimãʃ"],
-    ha: ["Lahadi", "lahadi"],
+    ha: ["Lahadi", "láhàdì"],
     haw: ["Lāpule", "laːpule"],
     he: ["יום ראשון", "jom ʁiʃon"],  // Literally 'first day'.
     hi: ["रविवार", "ɾəʋɪʋaːɾ"],
@@ -1470,7 +1470,7 @@ WORDS.sunday = {
     wuu_nb: ["礼拜日", "li˨˩˧ pa˦˦ ȵiɪʔ˨˨"],  // Literally 'worship day'; 礼拜 is also the week.
     wuu_sz: ["礼拜日", "li˨˧˩ pɑ˥˨˧ ȵiəʔ˧"],  // Literally 'worship day'; 礼拜 is also the week. 日 in its colloquial reading.
     zh_cd: ["星期天", "ɕin˥˥ tɕʰi˨˩ tʰiɛn˥˥"],  // 星期 'week' + 天 'day'.
-    zh_db: ["星期天", "ɕiŋ˥ tɕʰi˥ tʰjɛn˥"],  // 星期 'week' + 天 'day'.
+    zh_db: ["星期天", "ɕiŋ˦ tɕʰi˦ tʰjɛn˦"],  // 星期 'week' + 天 'day'.
     zh_hf: ["礼拜天", "zɿ˨˦ pᴇ˥˩ tʰĩ˨˩˨"],  // Literally 'worship day'; 礼拜 is also the week.
     zh_jiao: ["礼拜天", "li˥˥ pɛ˦˨ tʰiã˨˩˧"],  // Literally 'worship day'; 礼拜 is also the week.
     zh_jn: ["星期天", "ɕiŋ˨˩˧ tɕʰi˨˩˧ tʰiɛ̃˨˩˧"],  // 星期 'week' + 天 'day'.

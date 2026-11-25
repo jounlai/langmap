@@ -1366,7 +1366,7 @@ WORDS.hundred = {
     gan: ["百", "paʔ˥"],
     zh_nj: ["百", "pəʔ˥"],
     zh_hf: ["百", "pəʔ˦"],
-    zh_db: ["百", "pai˨˩˦"],
+    zh_db: ["百", "pai˨˩˧"],
     vi_han: ["百", "ɓak˧˥"],
     ja_kanbun: ["百", "momo"],
     ja_chu: ["百", "momo"],
@@ -1628,7 +1628,7 @@ WORDS.hundred = {
     // --- Africa --------------------------------------------------------------
     so: ["boqol", "boqol"],
     om: ["dhibba", "ɗibːa"],
-    ha: ["ɗari", "ɗaɽiː"],
+    ha: ["ɗari", "ɗàɽíː"],
     wo: ["téeméer", "teːmeːr"],
     bm: ["kɛmɛ", "kɛmɛ"],
     ig: ["narị", "naɾɪ"],

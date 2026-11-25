@@ -336,6 +336,157 @@ WORDS.cockroach = {
     izh: "tarakan",
     btx: "sipes",
     mqy: "plain",
+    ayl: "plain",
+    ar_gulf: "plain",
+    ar_sy: "sarsur",
+    ar_sd: "sarsur",
+    yo: "plain",
+    ak: "plain",
+    rif: "oil",
+    ssw: "plain",
+    nd: "plain",
+    aii: "plain",
+    kr: "plain",
+    bm: "plain",
+    rtm: "cucaracha",
+    to: "plain",
+    pmt: "plain",
+    mh: "plain",
+    ace: "plain",
+    bik: "sipes",
+    tsg: "plain",
+    iba: "plain",
+    gor: "plain",
+    ami: "sipes",
+    szy: "sipes",
+    pwn: "plain",
+    tay: "sipes",
+    bnn: "plain",
+    tsu: "plain",
+    pyu: "plain",
+    ssf: "plain",
+    dru: "plain",
+    ckv: "sipes",
+    pzh: "plain",
+    bew: "tsua",
+    mfa: "sipes",
+    abs: "kakkerlak",
+    mak: "sipes",
+    lo: "plain",
+    th_n: "plain",
+    th_s: "plain",
+    kmc: "plain",
+    swi: "plain",
+    mmd: "plain",
+    mlm: "plain",
+    gqu: "plain",
+    lic: "plain",
+    mra: "plain",
+    kca: "tarakan",
+    kpv: "tarakan",
+    sjd: "tarakan",
+    sah: "tarakan",
+    bxr: "tarakan",
+    krl: "tarakan",
+    olo: "people",
+    vep: "people",
+    vot: "tarakan",
+    vro: "people",
+    liv: "people",
+    se: "kakkerlak",
+    smn: "tarakan",
+    sms: "tarakan",
+    ko_jeju: "plain",
+    ko_bus: "plain",
+    ko_jl: "plain",
+    ko_em: "plain",
+    ja_heian: "plain",
+    ja_chu: "oil",
+    ja_edo: "plain",
+    kn: "plain",
+    kfa: "plain",
+    mnc: "plain",
+    tyz: "plain",
+    grt: "plain",
+    lb: "kakkerlak",
+    ga: "plain",
+    gd: "plain",
+    br: "plain",
+    kw: "plain",
+    fo: "kakkerlak",
+    dsb: "plain",
+    os: "plain",
+    scn: "latin",
+    wa: "kafir",
+    mwl: "barata",
+    rmy: "plain",
+    sa: "plain",
+    hop: "plain",
+    tpi: "cucaracha",
+    pis: "cucaracha",
+    nci: "plain",
+    nch: "plain",
+    nhe: "plain",
+    nhx: "plain",
+    ppl: "plain",
+    ykg: "tarakan",
+    gn: "plain",
+    gun: "plain",
+    yua: "plain",
+    cbk: "cucaracha",
+    tzo: "plain",
+    dar: "plain",
+    agr: "plain",
+    acu: "plain",
+    car: "plain",
+    ht: "plain",
+    bi: "cucaracha",
+    ady: "plain",
+    mch: "plain",
+    ani: "tarakan",
+    huz: "tarakan",
+    khv: "tarakan",
+    kjj: "tarakan",
+    rut: "tarakan",
+    bbl: "tarakan",
+    kry: "plain",
+    guc: "plain",
+    emp: "plain",
+    chb: "plain",
+    srm: "plain",
+    mpt: "plain",
+    mcf: "plain",
+    tca: "plain",
+    jup: "plain",
+    kgp: "plain",
+    bwi: "plain",
+    wuu: "plain",
+    zh_db: "plain",
+    zh_sc: "oil",
+    cdo: "tsua",
+    cjy: "plain",
+    hsn: "oil",
+    mnp: "tsua",
+    nan_te: "tsua",
+    yue_ts: "tsua",
+    cnp: "plain",
+    nan_ph: "tsua",
+    nan_pn: "tsua",
+    wuu_nb: "plain",
+    wuu_sz: "plain",
+    wuu_wz: "tsua",
+    nan_hai: "tsua",
+    cpx: "tsua",
+    wuu_hz: "plain",
+    yue_nn: "tsua",
+    zh_cq: "oil",
+    zh_jn: "plain",
+    zh_km: "oil",
+    zh_xa: "plain",
+    wuu_jh: "plain",
+    zh_nj: "plain",
+    hsn_hy: "oil",
+    zh_wenyan_edu: "plain",
   },
   routes: {
     cucaracha: {"color":"#d97706","emoji":"🇪🇸","en":"from Spanish cucaracha (cockroach)","ja":"スペイン語 cucaracha から (cockroach)","ko":"스페인어 cucaracha에서 (cockroach)","zh":"来自西班牙语 cucaracha (cockroach)","yue":"嚟自西班牙文 cucaracha (cockroach)","vi":"từ tiếng Tây Ban Nha cucaracha (cockroach)","th":"จากภาษาสเปน cucaracha (cockroach)","id":"dari cucaracha Spanyol (cockroach)","hi":"स्पेनी cucaracha से (cockroach)","de":"aus spanisch cucaracha (cockroach)","fr":"de l'espagnol cucaracha (cockroach)","it":"dallo spagnolo cucaracha (cockroach)","es":"del español cucaracha (cockroach)","pt":"do espanhol cucaracha (cockroach)","ru":"от испанского cucaracha (cockroach)","uk":"від іспанського cucaracha (cockroach)","ar":"من الإسبانية cucaracha (cockroach)","he":"מהספרדית cucaracha (cockroach)","sw":"kutoka Kihispania cucaracha (cockroach)"},
@@ -625,5 +776,156 @@ WORDS.cockroach = {
     izh: ["tarakkana", "ˈtɑrɑkːɑnɑ"],  // also prusakka
     btx: ["lipas", "lipas"],  // Neumann has ipes 'brown cockroach'
     mqy: ["cigir", "tʃiɡir"],
+    ayl: ["زقرلو", "zəɡrəlːu"],  // en.Wiktionary (Libyan Arabic).
+    ar_gulf: ["زهيوي", "ˈzheːwi"],  // en.Wiktionary (Gulf Arabic).
+    ar_sy: ["صرصور", "sˤarˈsˤuːr"],  // Living Arabic, Levantine Arabic–English dictionary.
+    ar_sd: ["صرصار", "sˤirˈsˤaːr"],  // Living Arabic, Sudanese dictionary.
+    yo: ["aáyán", "aájã́"],  // en.Wiktionary (Yoruba); Wikidata Q1661828 yo label; yo.wikipedia 'Aáyán'.
+    ak: ["tɛfrɛ", "tɛfrɛ"],  // en.Wiktionary (Akan, ref. LearnAkan); Wikidata Q1661828 ak label; tw.wikipedia 'Mmoa Din' ("tɛfrɛ cockroach").
+    rif: ["ⵙⵔⴰⵇⴻⵣⵣⵉⵜ", "sɾˤaqəzːiθ"],  // en.Wiktionary (Tarifit, ref. Kossmann 2009); WOLD Tarifiyt Berber.
+    ssw: ["liphela", "lipʰela"],  // en.Wiktionary (Swazi).
+    nd: ["iwuwu", "iwuwu"],  // en.Wiktionary (Northern Ndebele).
+    aii: ["ܨܸܨܪܵܐ", "sˤɪsˤraː"],  // en.Wiktionary (Assyrian Neo-Aramaic).
+    kr: ["nàná sálgámà", "nàná sálɡámà"],  // WOLD (Kanuri); Gravina Chadic CLDF (Kanuri).
+    bm: ["ɲɛbɛrɛ", "ɲɛ̀bɛrɛ"],  // Bamadaba (Bambara–French dictionary, Corpus Bambara de Référence).
+    rtm: ["kạkrojo", "kɔkrotʃo"],  // IDS (lexibank ids) Rotuman.
+    to: ["mongomonga", "moŋomoŋa"],  // IDS (lexibank ids) Tongan.
+    pmt: ["kakarū", "kakaruː"],  // IDS (lexibank ids) Tuamotuan.
+    mh: ["kuļuļ", "kʷilʷilʷ"],  // en.wiktionary kuļuļ.
+    ace: ["keuraleuëp", "kɯralɯəp"],  // en.wiktionary keuraleuëp.
+    bik: ["ipis", "ˈʔipis"],  // en.wiktionary ipis (Bikol Central).
+    tsg: ["kuuk", "kuˈʔuk"],  // en.wiktionary kuuk (Tausug).
+    iba: ["gerinang", "ɡərinaŋ"],  // en.wiktionary gerinang; lexibank smithborneo.
+    gor: ["titiʼo", "titiʔo"],  // en.wiktionary titi'o.
+    ami: ["dadipis", "daðipis"],  // en.wiktionary dadipis (Amis).
+    szy: ["dadipis", "dadipis"],  // en.wiktionary dadipis (Sakizaya).
+    pwn: ["qauzung", "qauzuŋ"],  // en.wiktionary qauzung.
+    tay: ["hepux", "həpux"],  // en.wiktionary hepux.
+    bnn: ["hatabang", "hatabaŋ"],  // en.wiktionary hatabang; ACD.
+    tsu: ["kaemema", "kaemema"],  // en.wiktionary kaemema.
+    pyu: ["lalaib", "ɭaɭaib"],  // en.wiktionary lalaib.
+    ssf: ["dadaruna", "dadaɾuna"],  // en.wiktionary dadaruna.
+    dru: ["atatabange", "atatabaŋə"],  // en.wiktionary atatabange; ACD.
+    ckv: ["sipes", "sipəs"],  // en.wiktionary sipes; ACD.
+    pzh: ["hipet", "hipət"],  // en.wiktionary hipet.
+    bew: ["kecoa", "kətʃoa"],  // en.wiktionary kecoa (Betawi).
+    mfa: ["lipah", "lipah"],  // en.wiktionary ليڤه (Pattani Malay).
+    abs: ["kakarlak", "kakarlak"],  // en.wiktionary kakarlak (Ambonese Malay).
+    mak: ["kulipasaʼ", "kuˈlipasaʔ"],  // en.wiktionary kulipasaʼ (Makasar).
+    lo: ["ແມງສາບ", "mɛːŋ˧˥ saːp˧˩"],  // en.wiktionary cockroach (translations); ru.wiktionary таракан.
+    th_n: ["แมงสาบ", "mɛːŋ˧ saːp˨˩"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Khamuang (Chiang Mai variety).
+    th_s: ["แมงสาบ", "mɛːŋ˥ saːp˨˩"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Southern Tai (Songkhla variety).
+    kmc: ["kwap323", "kwap˧˨˧"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Southern Kam.
+    swi: ["ʔdaap7", "ʔdaːp˧˥"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Sui.
+    mmd: ["ʔda:p8", "ʔdaːp˨˦"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Maonan.
+    mlm: ["ʔɣəp7", "ʔɣəp˥˥"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Mulam.
+    gqu: ["cau42 ma42", "cau˦˨ ma˦˨"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Qau Kelao.
+    lic: ["pɯ1 rom3", "pɯ˥˧ rom˩˩"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Hlai (Baoting variety).
+    mra: ["muk krup", "muk krup"],  // IDS (lexibank/ids, Peiros Kra-Dai/Austroasiatic lists) Mlabri.
+    kca: ["таракан", "ˈtarakan"],  // IDS (lexibank/ids) Khanty, Kochkareva & Lyskova.
+    kpv: ["гӧрд тӧрӧкан", "ɡɘrd ˈtɘrɘkan"],  // IDS (lexibank/ids) Komi, Adolf Turkin.
+    sjd: ["тоаркан", "toarkan"],  // WOLD Kildin Saami (lexibank/wold).
+    sah: ["таракаан", "taraˈkaːn"],  // SakhaTyla.ru Russian-Yakut dictionary; ru.wiktionary таракаан.
+    bxr: ["тархаан", "tarxaːŋ"],  // burlang.ru Russian-Buryat dictionary.
+    krl: ["torokkana", "ˈtorokːɑnɑ"],  // VepKar (dictorpus.krc.karelia.ru).
+    olo: ["brusakku", "ˈbrusakːu"],  // VepKar (dictorpus.krc.karelia.ru).
+    vep: ["brusak", "ˈbrusak"],  // VepKar (dictorpus.krc.karelia.ru).
+    vot: ["torokkana", "ˈtorokːana"],  // Vadja keele sõnaraamat (EKI).
+    vro: ["prussak", "ˈprusːɑk"],  // synaq.org Võro-Estonian dictionary (Sullõv et al.).
+    liv: ["prūš", "pruːʃ"],  // en.wiktionary prūš (ref. Livonian-Estonian-Latvian dictionary).
+    se: ["kakkerláhkká", "ˈkakːerlaːhkːa"],  // Giella dictionaries via satni.org (gtnobsme, gtsmefin, Sammallahti sme-fin).
+    smn: ["torakka", "ˈtorakːa"],  // Giella fin-smn / smn-fin via satni.org.
+    sms: ["toorkân", "ˈtoːrkɐn"],  // Giella fin-sms via satni.org.
+    ko_jeju: ["자치", "tɕatɕʰi"],  // en.wiktionary 자치 (Jeju).
+    ko_bus: ["강구", "kaŋɡu"],  // 우리말샘 바퀴「003」 지역어.
+    ko_jl: ["바쿠", "pakʰu"],  // 우리말샘 바쿠「003」.
+    ko_em: ["박회", "pakʰwe"],  // 우리말샘 박회「004」(옛말) citing 역어유해 1690.
+    ja_heian: ["芥虫", "akutamusi"],  // 日本国語大辞典（精選版, kotobank）あくたむし.
+    ja_chu: ["油虫", "abuɾamuɕi"],  // 日本国語大辞典（精選版, kotobank）油虫②.
+    ja_edo: ["御器噛", "ɡokikabɯɾi"],  // 日本国語大辞典（精選版, kotobank）ごきかぶり; WOLD Japanese.
+    kn: ["ಜಿರಳೆ", "dʒiɾaɭe"],  // en.wiktionary ಜಿರಳೆ / ಜೀರಳೆ; DEDR 2797.
+    kfa: ["ಪಾತೆ", "paːte"],  // DEDR 4123 (Burrow & Emeneau, DSAL).
+    mnc: ["ᠠᠨᠴᡠᠨ ᡠᠮᡳᠶᠠᡥᠠ", "antʃun umijaxa"],  // en.wiktionary ᠠᠨᠴᡠᠨ ᡠᠮᡳᠶᠠᡥᠠ / ᡠᠮᡳᠶᠠᡥᠠ.
+    tyz: ["slap", "ɬaːp̚˧˥"],  // en.wiktionary slap (Tày), ref. Hoàng Văn Ma et al..
+    grt: ["ka·rao", "kaʔrao"],  // STEDT lexicon, Burling 2003 Garo (Modhupur Mandi).
+    lb: ["Kakerlack", "kɑkɐˈlɑk"],  // LOD (Lëtzebuergeschen Online Dictionnaire) KAKERLACK1.
+    ga: ["ciaróg dhubh", "ˈciəɾˠoːɡ ɣʊvˠ"],  // focloir.ie (New English-Irish Dictionary) + en.wiktionary ciaróg.
+    gd: ["càrnan-gallda", "ˈkʰaːrˠn̪ˠan ˈkaul̪ˠt̪ə"],  // Am Faclair Beag (faclair.com).
+    br: ["c'hwil-du", "xwilˈdyː"],  // IDS (lexibank) Breton + fr.wiktionary cʼhwil-du.
+    kw: ["hwil du", "ʍil dyː"],  // en.wiktionary hwil (Cornish).
+    fo: ["kakkulakkur", "kʰahkʊˈlahkʊɹ"],  // Føroysk orðabók (sprotin.fo, FØ-FØ).
+    dsb: ["šwoba", "ˈʃwɔba"],  // WOLD Lower Sorbian (lexibank) + pl.wiktionary karaluch.
+    os: ["хъӕбыза", "qæbɨza"],  // IDS (lexibank) Ossetic + Abaev Russian–Ossetian dictionary (1970), cited in os.wikipedia.
+    scn: ["bratta", "ˈbratta"],  // scn.wiktionary bratta.
+    wa: ["cafård", "kaˈfaːʀ"],  // wa.wiktionary cafård.
+    mwl: ["brata", "ˈbɾatɐ"],  // pt.wiktionary brata (Mirandês).
+    rmy: ["gindako", "ɡindako"],  // IDS (lexibank) Romani.
+    sa: ["परोष्णी", "pɐɾoːʂɳiː"],  // IDS Sanskrit + Apte + Platts (DSAL).
+    hop: ["kyahakhoya", "kjahakhoja"],  // English Wiktionary (Hopi).
+    tpi: ["kokoros", "kokoros"],  // English Wiktionary (Tok Pisin).
+    pis: ["kokoros", "kokoros"],  // English Wiktionary (Pijin), cites Jourdan 2002:105–6.
+    nci: ["cacalachin", "kakaˈlatʃin"],  // English Wiktionary (Classical Nahuatl).
+    nch: ["xopilij", "ʃoˈpilih"],  // English Wiktionary (Central Huasteca Nahuatl).
+    nhe: ["xopili", "ʃoˈpili"],  // English Wiktionary (Eastern Huasteca Nahuatl).
+    nhx: ["xopilin", "ʃoˈpilin"],  // English Wiktionary (Mecayapan Nahuatl), cites Wolgemuth et al. 2002:204,226.
+    ppl: ["kaltapach", "kalˈtapatʃ"],  // English Wiktionary (Pipil).
+    ykg: ["таракаан", "tarakaːn"],  // English Wiktionary (Northern Yukaghir), cites Nikolaeva 2006:426; Kurilov 2001.
+    gn: ["tarave", "taɾaˈʋe"],  // English Wiktionary (Paraguayan Guarani), cites Neeryru p.104.
+    gun: ["tarave", "taɾaˈve"],  // English Wiktionary (Mbya Guarani).
+    yua: ["xkʼuuruch", "ʃkʼuːɾutʃ"],  // English Wiktionary (Yucatec Maya), cites Diccionario maya popular p.256; Cordemex p.424.
+    cbk: ["cucaracha", "kukaˈɾatʃa"],  // English Wiktionary (Chavacano).
+    tzo: ["makoʼ", "makoʔ"],  // WOLD (Zinacantán Tzotzil, Miller 2020), via lexibank.
+    dar: ["тусухӏяр", "tusuħaˤr"],  // IDS (Dargwa), via lexibank.
+    agr: ["tukajách", "tukaˈhatʃ"],  // Hunter-Gatherer DB (Overall 2007; Wipio 1996), via lexibank.
+    acu: ["shurúk", "ʃuɾuk"],  // Hunter-Gatherer DB (Fast & Fast 1996), via lexibank.
+    car: ["arawe", "aɾawe"],  // Hunter-Gatherer DB (Kariña, Courtz 2007:238) + WOLD (Kali'na alawe).
+    ht: ["ravèt", "ɣavɛt"],  // Glosbe en–ht (+ ht.wikipedia "Ravèt").
+    bi: ["kakros", "kakros"],  // en.wiktionary kakros (Crowley 2003).
+    ady: ["шъуапэ", "ʂʷaːpa"],  // en.wiktionary шъуапэ.
+    mch: ["jüʼjö", "hɨʔhə"],  // en.wiktionary jü'jö (R:mch:Cáceres).
+    ani: ["таракан", "tarakan"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    huz: ["таракан", "tarakan"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    khv: ["таракан", "tarakan"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    kjj: ["таракан", "tʰarakʰan"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    rut: ["таракан", "tarakan"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    bbl: ["ტარაკაჼ", "tʼarakʼã"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    kry: ["lem", "lem"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    guc: ["kanserai", "kanserai"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    emp: ["kẽberre", "kẽbeˈre"],  // IDS (lexibank/ids cldf, param 3-816 cockroach).
+    chb: ["chutagui", "tʃutaɡi"],  // IDS (lexibank/ids cldf, param 3-816 cockroach) + Hunter-Gatherer DB (lexibank/huntergatherer, 88_cockroach).
+    srm: ["ahalakpákpa", "ahalak͡pák͡pa"],  // WOLD Saramaccan (lexibank/wold 3-816).
+    mpt: ["tanam", "tanam"],  // TransNewGuinea.org (lexibank/transnewguineaorg, Loughnane & Fedden 2011).
+    mcf: ["padacquid", "padakkid"],  // Hunter-Gatherer DB (lexibank/huntergatherer, 88_cockroach) (Fleck et al. 2012 Diccionario Matsés).
+    tca: ["orawe", "oɾawe"],  // Hunter-Gatherer DB (lexibank/huntergatherer, 88_cockroach).
+    jup: ["dadáp", "dadáp"],  // WOLD Hup (Epps) + Hunter-Gatherer DB (lexibank/huntergatherer, 88_cockroach).
+    kgp: ["kruj", "kɾuj"],  // Hunter-Gatherer DB (lexibank/huntergatherer, 88_cockroach) (Wiesemann 1981 Dicionário Kaingang).
+    bwi: ["poléta", "poléta"],  // Hunter-Gatherer DB (lexibank/huntergatherer, 88_cockroach) (Ramirez 2001 Dicionário Baniwa).
+    wuu: ["蟑螂", "tsɑ̃˥˧ lɑ̃˨˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 上海.tsv (蟑 tsɑ̃1, 螂 lɑ̃6).
+    zh_db: ["蟑螂", "ʈʂaŋ˦ laŋ˨˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 哈爾濱.tsv (蟑 tʂaŋ1, 螂 laŋ2).
+    zh_sc: ["偷油婆", "tʰəu˥ iəu˨˩ pʰo˨˩"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 成都.tsv (偷 tʰəu1, 油 iəu2, 婆 pʰo2).
+    cdo: ["虼蚻", "ka˨˦˨ saʔ˥"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 虼蚻 (Fuzhou BUC gâ-săk, IPA /ka²⁴²⁻⁵⁵ (s-)laʔ⁵/).
+    cjy: ["蟑螂", "tsɒ̃˩ lɒ̃˩"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 太原.tsv (蟑 tsɒ̃1, 螂 lɒ̃1).
+    hsn: ["偷油婆", "tʰəu˧˧ iəu˩˧ po˩˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 長沙.tsv (偷 tʰɵʊ1, 油 iɵʊ2, 婆 po2).
+    mnp: ["蚻", "tsuɛ˦˨"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 蚻 (Jian'ou KCR cuòi, IPA /t͡suɛ⁴²/).
+    nan_te: ["虼蚻", "ka˧˧ tsuaʔ˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 虼蚻 (Teochew ga1 zuah8 /ka³³ t͡suaʔ⁴/); MCPDict 潮州.tsv 曱 ka1 / 甴 ts.
+    yue_ts: ["曱甴", "kʰa˧˧ tʰat˨˩˥"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 曱甴 (Taishanese ka1 tat4*, IPA /kʰa³³ tʰat̚²¹⁻²¹⁵/).
+    cnp: ["臊甲", "ɬau˥˧ kap˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 南寧亭子.tsv: 臊 ɬau1 '~甲,蟑螂'; 甲 kap7b.
+    nan_ph: ["虼蚻", "ka˧˧ tsuaʔ˨˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 虼蚻 (Jinjiang, Philippines /ka³³⁻²² t͡suaʔ²⁴/).
+    nan_pn: ["虼蚻", "kaʔ˦ tsuaʔ˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 檳城閩南話.tsv: □ kaʔ8 '~tsuaʔ4:蟑螂'.
+    wuu_nb: ["蟑螂", "tsɔ̃˥˨ lɔ̃˧˩˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 寧波.tsv (蟑 tsɔ̃1, 螂 lɔ̃2).
+    wuu_sz: ["蟑螂", "tsɑ̃˦˦ lɑ̃˨˨˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 蘇州.tsv (蟑 tsɑ̃1, 螂 lɑ̃2).
+    wuu_wz: ["胶蚻", "kuɔ˧˧ za˨˩˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 溫州.tsv: 膠 kuɔ1; 蚻 za8 '膠~,蟑螂'.
+    nan_hai: ["虼蚻", "ka˨˧ tua˧˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 海口.tsv: 虼 ka1 '~𳀅:蟑螂'; 𳀅 tua6 '虼~:蟑螂' (from 《海口方言詞典》).
+    cpx: ["虼蚻", "kɒʔ˦ ɬuaʔ˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 虼蚻 (Putian gorh7 suah7, IPA /kɒʔ⁴⁻²¹ ɬuaʔ⁴/).
+    wuu_hz: ["蟑螂", "tsæ̃˧˧ læ̃˨˩˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 杭州.tsv (螂 læ̃2; 蟑 not in table, read as its homophone 章 tsæ̃1; 灶 glos.
+    yue_nn: ["曱甴", "kat˨ tʃat˨"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 南寧.tsv: 曱 kat8 '~甴,蟑螂'; 甴 tʃat8 '曱~,蟑螂'.
+    zh_cq: ["偷油婆", "tʰəu˥ iəu˨˩ pʰo˨˩"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 重慶.tsv (偷 tʰəu1, 油 iəu2, 婆 pʰo2).
+    zh_jn: ["蟑螂", "tʂɑŋ˨˩˧ lɑŋ˦˨"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 濟南.tsv (螂 lɑŋ2; 蟑 not in table, read as homophone 章 tʂɑŋ1).
+    zh_km: ["偷油婆", "tʰəu˦˦ iəu˧˩ pʰo˧˩"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 昆明.tsv (偷 tʰəu1, 油 iəu2, 婆 pʰo2).
+    zh_xa: ["蟑螂", "tʂaŋ˨˩ laŋ˨˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 西安.tsv (蟑 tʂɑɣ̃1; 螂 not in table, homophone 郎 lɑɣ̃2).
+    wuu_jh: ["蟑虫", "tɕiɑŋ˧˧˦ dʑioŋ˧˩˧"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 金華.tsv (蟑 tɕiɑŋ1, 蟲 dʑioŋ2).
+    zh_nj: ["蟑螂", "tʂã˧˩ lã˨˦"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 南京.tsv (蟑 tʂã1, 螂 lã2).
+    hsn_hy: ["油炸婆", "iu˩˩˨ tsa˧˨˦ po˩˩˨"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 衡陽.tsv (油 iu2, 炸 tsa5, 婆 po2).
+    zh_wenyan_edu: ["蜚蠊", "fei˧˥ liːm˨˩"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 蜚蠊 (literary/formal 'cockroach'; Cantonese fei2 lim4 /fei̯³⁵ liːm².
   },
 };

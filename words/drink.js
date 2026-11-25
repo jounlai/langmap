@@ -1220,6 +1220,21 @@ WORDS.drink = {
     egy_dem: "plain",
     vi_mid: "viet",
     bxd: "sok",
+    tdd: "plain",
+    guz: "nyoa",
+    hay: "nyoa",
+    akl: "inum",
+    krj: "inum",
+    ibg: "inum",
+    jra: "plain",
+    rad: "plain",
+    rsk: "peh",
+    izh: "jexe",
+    gwc: "peh",
+    shu: "shrb",
+    btx: "inum",
+    mqy: "inum",
+    sxn: "inum",
   },
   routes: {
     peh: {"color":"#2563eb","emoji":"🍷","en":"Proto-Indo-European *peh₃- (beber, пить, पीना)","ja":"印欧祖語 *peh₃- (beber, пить, पीना)","ko":"인도유럽 조어 *peh₃- (beber, пить, पीना)","zh":"原始印欧语 *peh₃- (beber, пить, पीना)","yue":"原始印歐語 *peh₃- (beber, пить, पीना)","vi":"tiếng Ấn-Âu nguyên thủy *peh₃- (beber, пить, पीना)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *peh₃- (beber, пить, पीना)","id":"Proto-Indo-Eropa *peh₃- (beber, пить, पीना)","hi":"आदि-हिंद-यूरोपीय *peh₃- (beber, пить, पीना)","de":"urindogermanisch *peh₃- (beber, пить, पीना)","fr":"le proto-indo-européen *peh₃- (beber, пить, पीना)","it":"il protoindoeuropeo *peh₃- (beber, пить, पीना)","es":"el protoindoeuropeo *peh₃- (beber, пить, पीना)","pt":"o proto-indo-europeu *peh₃- (beber, пить, पीना)","ru":"праиндоевропейское *peh₃- (beber, пить, पीना)","uk":"праіндоєвропейське *peh₃- (beber, пить, पीना)","ar":"الهندية الأوروبية الأم *peh₃- (beber، пить، पीना)","he":"הפרוטו-הודו-אירופית *peh₃- (beber, пить, पीना)","sw":"Kihindi-Kiulaya asilia *peh₃- (beber, пить, पीना)"},
@@ -2466,5 +2481,21 @@ WORDS.drink = {
     egy_dem: ["swr", "soː"],
     vi_mid: ["uống", "uəŋ˧˥"],
     bxd: ["ʃauʔ55", "ʃauʔ˥˥"],
+    tdd: ["ᥘᥧᥖᥴ", "lut˧˥"],  // IDS also kin.6, the word for eat
+    guz: ["konywa", "koɲwa"],  // infinitive
+    hay: ["okunywa", "okuɲwa"],
+    akl: ["inom", "ʔiˈnom"],  // root form; stress from ABVD
+    krj: ["inëm", "ʔinɨm"],  // root form
+    ibg: ["uminum", "ʔuminum"],
+    jra: ["mơñum", "məɲuːm"],
+    rad: ["mnăm", "mnam"],
+    rsk: ["пиц", "pits"],
+    izh: ["joovva", "ˈjoːʋːɑ"],
+    gwc: ["پُوگ", "puːɡ"],  // Infinitive
+    shu: ["شرب", "ʃirib"],  // Perfect 3sg.m.
+    btx: ["minem", "minəm"],
+    mqy: ["inung", "inuŋ"],
+    sxn: ["manginung", "maŋinuŋ"],  // root inung
+    hac: ["—", "—"],
   }
 };

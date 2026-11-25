@@ -1162,6 +1162,21 @@ WORDS.egg = {
     har: "anqoqho",
     bxd: "u",
     bej: "plain",
+    tdd: "qraj",
+    guz: "plain",
+    hay: "plain",
+    akl: "qicelur",
+    krj: "qicelur",
+    ibg: "plain",
+    rad: "plain",
+    rsk: "aje",
+    izh: "muna",
+    gwc: "plain",
+    hac: "plain",
+    shu: "bays",
+    btx: "plain",
+    mqy: "plain",
+    sxn: "qicelur",
   },
   routes: {
     owyom: {"color":"#2563eb","emoji":"🥚","en":"Proto-Indo-European *h₂ōwyóm (αυγό, ձու, vezë)","ja":"印欧祖語 *h₂ōwyóm (αυγό, ձու, vezë)","ko":"인도유럽 조어 *h₂ōwyóm (αυγό, ձու, vezë)","zh":"原始印欧语 *h₂ōwyóm (αυγό, ձու, vezë)","yue":"原始印歐語 *h₂ōwyóm (αυγό, ձու, vezë)","vi":"tiếng Ấn-Âu nguyên thủy *h₂ōwyóm (αυγό, ձու, vezë)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₂ōwyóm (αυγό, ձու, vezë)","id":"Proto-Indo-Eropa *h₂ōwyóm (αυγό, ձու, vezë)","hi":"आदि-भारोपीय *h₂ōwyóm (αυγό, ձու, vezë)","de":"urindogermanisch *h₂ōwyóm (αυγό, ձու, vezë)","fr":"le proto-indo-européen *h₂ōwyóm (αυγό, ձու, vezë)","it":"il protoindoeuropeo *h₂ōwyóm (αυγό, ձու, vezë)","es":"el protoindoeuropeo *h₂ōwyóm (αυγό, ձու, vezë)","pt":"o proto-indo-europeu *h₂ōwyóm (αυγό, ձու, vezë)","ru":"праиндоевропейское *h₂ōwyóm (αυγό, ձու, vezë)","uk":"праіндоєвропейське *h₂ōwyóm (αυγό, ձու, vezë)","ar":"الهندو-أوروبية الأم *h₂ōwyóm (αυγό، ձու، vezë)","he":"הפרוטו-הודו-אירופית *h₂ōwyóm (αυγό, ձու, vezë)","sw":"Kihindi-Kiulaya asilia *h₂ōwyóm (αυγό, ձու, vezë)"},
@@ -2335,5 +2350,20 @@ WORDS.egg = {
     har: ["aquḥ", "ɑquħ"],
     bxd: ["ṵ35", "ṵ˧˥"],
     bej: ["kwhi", "kʷhi"],
+    tdd: ["ᥑᥭᥱ", "xaj˩"],
+    guz: ["rigena", "ɾiɣena"],  // the same word as "stone"
+    hay: ["eihuli", "eiuli"],  // HG writes eiuli, without the silent h
+    akl: ["itlog", "ˈʔitloɡ"],
+    krj: ["itlog", "ʔitloɡ"],
+    ibg: ["illuk", "ʔilluk"],  // ABVD and Isabela: illug
+    rad: ["boh mnŭ", "bɔːh mnuʔ"],
+    rsk: ["вайцо", "ˈvajtsɔ"],
+    izh: ["muna", "ˈmunɑ"],
+    gwc: ["ان", "ɑn"],
+    hac: ["hêłe", "heːɫa"],
+    shu: ["بيض", "beːd"],  // Collective
+    btx: ["tinaruh", "tinaruh"],
+    mqy: ["ruha", "ruha"],
+    sxn: ["tělluhě", "təlːuhəʔ"],
   },
 };

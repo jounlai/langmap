@@ -785,6 +785,18 @@ WORDS.sunday = {
     njo: "other",
     cr: "other",
     gag: "market",
+    tdd: "sun",
+    guz: "other",
+    akl: "lord",
+    krj: "lord",
+    jra: "count",
+    rad: "other",
+    rsk: "rest",
+    izh: "holy",
+    gwc: "count",
+    shu: "count",
+    btx: "lord",
+    mqy: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1510,5 +1522,17 @@ WORDS.sunday = {
     njo: ["deobar", "deobaɹ"],  // Borrowed from Assamese দেওবাৰ, 'God' plus 'day'.
     cr: ["ᐊᔭᒥᐦᐁᐏ ᑮᓯᑳᐤ", "ajamiheːwi kiːsikaːw"],  // Literally 'prayer day'.
     gag: ["pazar", "paˈzar"],  // The market day, from Persian bāzār.
+    tdd: ["ᥖᥣᥘᥣᥒᥰᥘᥨᥭᥱ", "taː˧laːŋ˥loj˩"],  // IDS also van.2 sin.1
+    guz: ["Omokubio", "omokuβio"],  // also "holiday"
+    akl: ["Dominggo", "doˈmiŋɡo"],  // dictionary also "week"
+    krj: ["Dominggo", "domiŋɡo"],
+    jra: ["hrơi tơjuh", "hɾəːj tədʒuːh"],  // 'day seven'
+    rad: ["hruê kăm", "hrue kam"],  // also hruê kjuh 'day seven'
+    rsk: ["нєдзеля", "ɲɛˈdzɛʎa"],
+    izh: ["pyhä", "ˈpyhæ"],
+    gwc: ["یٞک شمہ", "jak ɕɑmɑ"],
+    shu: ["أحد", "ahad"],
+    btx: ["Minggu", "miŋɡu"],
+    mqy: ["leso Minggu", "ləso miᵑɡu"],
   },
 };

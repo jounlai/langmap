@@ -1063,6 +1063,22 @@ WORDS.snake = {
     ik: "plain",
     moh: "plain",
     lmo: "other",
+    tdd: "ngu",
+    guz: "plain",
+    hay: "nyoka",
+    akl: "plain",
+    krj: "plain",
+    ibg: "plain",
+    jra: "sular",
+    rad: "sular",
+    rsk: "gad",
+    izh: "worm",
+    gwc: "plain",
+    hac: "mar",
+    shu: "plain",
+    btx: "plain",
+    mqy: "sular",
+    sxn: "plain",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -2086,5 +2102,21 @@ WORDS.snake = {
     ik: ["nimiġiaq", "nimiʁiaq"],  // Also used for the sea lamprey and eels. No image is recorded for it, so it counts as a word of its own.
     moh: ["ò:niareʼ", "òːnjareʔ"],  // No image is recorded for it, so it counts as a word of its own.
     lmo: ["biss", "bis"],  // The Milanese word; Italian biscia, Venetian bisa.
+    tdd: ["ᥒᥧᥰ", "ŋu˥"],
+    guz: ["eng'endanse", "ɛŋɛndanse"],  // short for eng'iti engenda inse (TLS, GR) "animal that goes on the ground"
+    hay: ["enjoka", "endʒoka"],
+    akl: ["sawa", "saˈwa"],
+    krj: ["man-ëg", "manʔɨɡ"],  // Wiktionary: sawa
+    ibg: ["iraw", "ʔiɾaw"],
+    jra: ["ala", "alaː"],
+    rad: ["ala", "alaː"],
+    rsk: ["гад", "ɦat"],
+    izh: ["mato", "ˈmɑto"],
+    gwc: ["ناگ", "nɑːɡ"],
+    hac: ["mar", "maːɾ"],
+    shu: ["دابي", "daːbi"],
+    btx: ["nipe", "nipe"],
+    mqy: ["ular", "ular"],  // ACD: rat snake; diacl nepa
+    sxn: ["těmpu", "təmpu"],
   },
 };

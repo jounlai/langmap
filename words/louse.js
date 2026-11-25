@@ -582,6 +582,22 @@ WORDS.louse = {
     pzh: "kutu",
     io: "lus",
     fud: "kutu",
+    tdd: "plain",
+    guz: "plain",
+    hay: "plain",
+    akl: "kutu",
+    krj: "kutu",
+    ibg: "kutu",
+    jra: "kutu",
+    rad: "kutu",
+    rsk: "vosh",
+    izh: "taje",
+    gwc: "yuka",
+    hac: "spis",
+    shu: "qaml",
+    btx: "kutu",
+    mqy: "kutu",
+    sxn: "kutu",
   },
   routes: {
     lus: {"color":"#2563eb","emoji":"🌲","en":"Germanic *lūs (louse, Laus, lus)","ja":"ゲルマン祖語 *lūs (louse, Laus, lus)","ko":"게르만 조어 *lūs (louse, Laus, lus)","zh":"原始日耳曼语 *lūs (louse, Laus, lus)","yue":"原始日耳曼語 *lūs (louse, Laus, lus)","vi":"tiếng German nguyên thủy *lūs (louse, Laus, lus)","th":"ภาษาเจอร์แมนิกดั้งเดิม *lūs (louse, Laus, lus)","id":"Proto-Jermanik *lūs (louse, Laus, lus)","hi":"आदि-जर्मनिक *lūs (louse, Laus, lus)","de":"urgermanisch *lūs (louse, Laus, lus)","fr":"le proto-germanique *lūs (louse, Laus, lus)","it":"il protogermanico *lūs (louse, Laus, lus)","es":"el protogermánico *lūs (louse, Laus, lus)","pt":"o protogermânico *lūs (louse, Laus, lus)","ru":"прагерманское *lūs (louse, Laus, lus)","uk":"прагерманське *lūs (louse, Laus, lus)","ar":"الجرمانية الأم *lūs (louse, Laus, lus)","he":"הפרוטו-גרמאנית *lūs (louse, Laus, lus)","sw":"Kijerumani asilia *lūs (louse, Laus, lus)"},
@@ -1123,5 +1139,21 @@ WORDS.louse = {
     pzh: ["kusu", "kusu"],  // Inherited from PAN *kuCux.
     io: ["lauso", "ˈlauso"],  // From the Germanic louse word (German Laus, English louse).
     fud: ["kutu", "kutu"],  // Inherited from Proto-Polynesian *kutu < PAN *kuCux.
+    tdd: ["ᥞᥝᥴ", "haw˧˥"],  // head louse; min.2 is the body louse
+    guz: ["enda", "enda"],
+    hay: ["enda", "enda"],
+    akl: ["kuto", "ˈkuto"],
+    krj: ["kuto", "kuto"],
+    ibg: ["kutu", "kutu"],  // ABVD also lita
+    jra: ["kơtâo", "kətəw"],
+    rad: ["ktâo", "ktəw"],
+    rsk: ["вша", "fʃa"],  // also уша (from Carpathian Rusyn)
+    izh: ["täi", "tæi"],
+    gwc: ["جوئیں", "dʑũːi"],
+    hac: ["heşpişî", "haʃpɪʃiː"],
+    shu: ["قمل", "ɡamul"],  // Collective
+    btx: ["kutu", "kutu"],
+    mqy: ["hutu", "hutu"],  // ABVD utu
+    sxn: ["kutu", "kutu"],
   },
 };

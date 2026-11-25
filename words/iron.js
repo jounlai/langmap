@@ -1110,6 +1110,19 @@ WORDS.iron = {
     tca: "plain",
     mbc: "plain",
     mus: "plain",
+    tdd: "hlek",
+    guz: "jyuma",
+    hay: "plain",
+    akl: "plain",
+    jra: "besi",
+    rad: "besi",
+    rsk: "zelezo",
+    izh: "rauta",
+    hac: "hacwa",
+    shu: "hadid",
+    btx: "besi",
+    mqy: "besi",
+    sxn: "plain",
   },
   routes: {
     isarna: {"color":"#2563eb","emoji":"⚔️","en":"Proto-Germanic *īsarną (iron, Eisen, ijzer)","ja":"ゲルマン祖語 *īsarną (iron, Eisen, ijzer)","ko":"게르만 조어 *īsarną (iron, Eisen, ijzer)","zh":"原始日耳曼语 *īsarną (iron, Eisen, ijzer)","yue":"原始日耳曼語 *īsarną (iron, Eisen, ijzer)","vi":"tiếng German nguyên thủy *īsarną (iron, Eisen, ijzer)","th":"ภาษาเจอร์แมนิกดั้งเดิม *īsarną (iron, Eisen, ijzer)","id":"Proto-Jermanik *īsarną (iron, Eisen, ijzer)","hi":"आदि-जर्मेनिक *īsarną (iron, Eisen, ijzer)","de":"urgermanisch *īsarną (iron, Eisen, ijzer)","fr":"le proto-germanique *īsarną (iron, Eisen, ijzer)","it":"il protogermanico *īsarną (iron, Eisen, ijzer)","es":"el protogermánico *īsarną (iron, Eisen, ijzer)","pt":"o protogermânico *īsarną (iron, Eisen, ijzer)","ru":"прагерманское *īsarną (iron, Eisen, ijzer)","uk":"прагерманське *īsarną (iron, Eisen, ijzer)","ar":"الجرمانية الأم *īsarną (iron، Eisen، ijzer)","he":"הפרוטו-גרמאנית *īsarną (iron, Eisen, ijzer)","sw":"Kijerumani asilia *īsarną (iron, Eisen, ijzer)"},
@@ -2286,5 +2299,18 @@ WORDS.iron = {
     tca: ["fieru", "fieɾu"],
     mbc: ["ferro", "fero"],
     mus: ["cvto", "tʃəto"],  // Also the word for stone.
+    tdd: ["ᥘᥥᥐᥱ", "lek˩"],
+    guz: ["ekioma", "ekioma"],  // dictionary: metal thing
+    hay: ["ekyooma", "ekjoːma"],
+    akl: ["saesaeon", "saɣˈsaɣon"],
+    jra: ["pơsơi", "pəsəːj"],
+    rad: ["msei", "msɛːj"],
+    rsk: ["желєзо", "ʒɛˈʎɛzɔ"],
+    izh: ["rauta", "ˈrɑutɑ"],
+    hac: ["asin", "aːsɪn"],
+    shu: ["حديد", "hadiːd"],
+    btx: ["besi", "bəsi"],
+    mqy: ["beci", "bətʃi"],
+    sxn: ["uase", "uase"],  // ACD wase
   },
 };

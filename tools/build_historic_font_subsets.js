@@ -68,6 +68,7 @@ const SCRIPTS = [
   { key: 'Javanese',       repo: 'NotoSansJavanese',             range: 'U+A980-A9DF',   blocks: [[0xA980,0xA9DF]], family: 'Brahmic Subset' },
   { key: 'Brahmi',         repo: 'NotoSansBrahmi',               range: 'U+11000-1107F', blocks: [[0x11000,0x1107F]], family: 'Brahmic Subset' },
   { key: 'Tagalog',        repo: 'NotoSansTagalog',              range: 'U+1700-171F',   blocks: [[0x1700,0x171F]], family: 'Brahmic Subset' },
+  { key: 'TaiLe',          repo: 'NotoSansTaiLe',                range: 'U+1950-197F',   blocks: [[0x1950,0x197F]], family: 'Brahmic Subset' },
   { key: 'NewTaiLue',      repo: 'NotoSansNewTaiLue',            range: 'U+1980-19DF',   blocks: [[0x1980,0x19DF]], family: 'Brahmic Subset' },
   { key: 'TaiViet',        repo: 'NotoSansTaiViet',              range: 'U+AA80-AADF',   blocks: [[0xAA80,0xAADF]], family: 'Brahmic Subset' },
   { key: 'Cham',           repo: 'NotoSansCham',                 range: 'U+AA00-AA5F',   blocks: [[0xAA00,0xAA5F]], family: 'Brahmic Subset' },

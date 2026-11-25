@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1202 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1218 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1104,6 +1104,38 @@ const LANG_DATA = {
   acn: { name: 'Achang', native: 'Ngac\u02bcang', lat: 24.35, lng: 97.79, // Husa, Longchuan, Dehong, Yunnan
 },
   bxd: { name: "Pela", native: "pə31 la55", lat: 24.21, lng: 97.92, // Glottolog point, Longchuan area, Dehong, Yunnan (Zaiwa sits at Mangshi)
+},
+  sxn: { name: "Sangir", native: "Sangihẹ̌", lat: 3.61, lng: 125.49, // Tahuna, Great Sangir (Sangihe Besar), North Sulawesi
+},
+  mqy: { name: "Manggarai", native: "Tombo Manggarai", lat: -8.61, lng: 120.46, // Ruteng, Manggarai Regency, Flores (Central Manggarai)
+},
+  btx: { name: "Karo Batak", native: "Cakap Karo", lat: 3.10, lng: 98.49, // Kabanjahe, Karo Regency, North Sumatra (eastern Karo dialect)
+},
+  shu: { name: "Chadian Arabic", native: "عربي تشادي", lat: 12.13, lng: 15.05, // N'Djamena, Chad
+},
+  hac: { name: "Hawrami", native: "هەورامی", lat: 35.16, lng: 46.20, // Nowsud (Hawraman-i Luhon), Kermanshah, Iran
+},
+  gwc: { name: "Gawri", native: "گاؤری", lat: 35.48, lng: 72.59, // Kalam, Swat, Khyber Pakhtunkhwa, Pakistan
+},
+  izh: { name: "Ingrian", native: "ižoran keeli", lat: 59.77, lng: 28.55, // Soikinsky Peninsula (Soikkola), Leningrad Oblast, Russia
+},
+  rsk: { name: "Pannonian Rusyn", native: "руски язик", lat: 45.57, lng: 19.42, // Ruski Krstur (Руски Керестур), Bačka, Vojvodina, Serbia
+},
+  rad: { name: "Rade", native: "Klei Êđê", lat: 12.67, lng: 108.04, // Buôn Ma Thuột, Đắk Lắk
+},
+  jra: { name: "Jarai", native: "Tơlơi Jrai", lat: 13.39, lng: 108.45, // Ayun Pa (Cheo Reo), Gia Lai, the dialect of Siu 2009
+},
+  ibg: { name: "Ibanag", native: "Ibanag", lat: 17.61, lng: 121.73, // Tuguegarao, Cagayan
+},
+  krj: { name: "Kinaray-a", native: "Kinaray-a", lat: 10.74, lng: 121.94, // San Jose de Buenavista, Antique
+},
+  akl: { name: "Aklanon", native: "Inakeanon", lat: 11.70, lng: 122.37, // Kalibo, Aklan, Panay
+},
+  hay: { name: "Haya", native: "Oluhaya", lat: -1.50, lng: 31.65, // Kihanja dialect, Bukoba Rural, Tanzania
+},
+  guz: { name: "Gusii", native: "Ekegusii", lat: -0.68, lng: 34.77, // Kisii, Kenya
+},
+  tdd: { name: "Dehong Dai", native: "ᥖᥭᥰ ᥖᥬᥲ ᥑᥨᥒᥰ", lat: 24.43, lng: 98.59, // Mangshi, Dehong Dai and Jingpo Autonomous Prefecture, Yunnan (Dehong dialect)
 },
   // Jino — Loloish; the last of the 56 nationalities to be recognised (1979).
   jiu: { name: 'Jino', native: 'Kino', lat: 22.06, lng: 100.98, // Jinuo Mountain, Jinghong, Xishuangbanna, Yunnan

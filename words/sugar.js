@@ -922,6 +922,17 @@ WORDS.sugar = {
     bej: "assukkar",
     ja_mvi: "tang",
     saq: "sharkara",
+    tdd: "other",
+    guz: "sharkara",
+    akl: "assukkar",
+    jra: "tang",
+    rsk: "sharkara",
+    izh: "sharkara",
+    hac: "sharkara",
+    shu: "sharkara",
+    btx: "guda",
+    mqy: "guda",
+    sxn: "guda",
   },
   routes: {
     sharkara: { color: "#b45309", emoji: "💎", en: "from Sanskrit śarkarā", ja: "サンスクリット śarkarā 由来", ko: "산스크리트 śarkarā 유래", zh: "源自梵语 śarkarā", yue: "源自梵文 śarkarā", vi: "từ tiếng Phạn śarkarā", th: "จากภาษาสันสกฤต śarkarā", id: "dari bahasa Sanskerta śarkarā", hi: "संस्कृत शर्करा से", de: "vom Sanskrit śarkarā", fr: "du sanskrit śarkarā", it: "dal sanscrito śarkarā", es: "del sánscrito śarkarā", pt: "do sânscrito śarkarā", ru: "от санскр. śarkarā", uk: "від санскр. śarkarā", ar: "من السنسكريتية śarkarā", he: "מסנסקריט śarkarā", sw: "kutoka Kisanskriti śarkarā" },
@@ -1831,5 +1842,16 @@ WORDS.sugar = {
     bej: ["sukwar", "sukʷar"],
     ja_mvi: ["砂糖", "sata"],
     saq: ["sukari", "sukari"],
+    tdd: ["ᥐᥫᥝᥣᥢᥴ", "kə˧waːn˧˥"],  // IDS lam.4 ʔɔi.3
+    guz: ["esukari", "esukaɾi"],
+    akl: ["asukar", "ʔaˈsukaɾ"],  // white sugar
+    jra: ["đương", "ɗɯəŋ"],  // from Vietnamese đường; Siu also sĭk
+    rsk: ["цукер", "ˈtsukɛr"],
+    izh: ["saahkara", "ˈsɑːhkɑrɑ"],
+    hac: ["şekir", "ʃakɪɾ"],
+    shu: ["سكر", "sukkar"],
+    btx: ["gula", "ɡula"],
+    mqy: ["gola", "ɡola"],
+    sxn: ["guḷa", "ɡuɭa"],
   },
 };

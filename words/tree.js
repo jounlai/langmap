@@ -1222,6 +1222,20 @@ WORDS.tree = {
     egy_dem: "plain",
     vi_mid: "gel",
     bxd: "plain",
+    tdd: "mwaj",
+    guz: "mti",
+    hay: "mti",
+    akl: "kasiw",
+    jra: "kasiw",
+    rad: "kasiw",
+    rsk: "doru",
+    izh: "puwe",
+    gwc: "plain",
+    hac: "draxt",
+    shu: "shajara",
+    btx: "kasiw",
+    mqy: "kasiw",
+    sxn: "kasiw",
   },
   routes: {
     doru: {"color":"#2563eb","emoji":"🌳","en":"Proto-Indo-European *dóru (tree, дерево, δέντρο)","ja":"印欧祖語 *dóru (tree, дерево, δέντρο)","ko":"인도유럽 조어 *dóru (tree, дерево, δέντρο)","zh":"原始印欧语 *dóru (tree, дерево, δέντρο)","yue":"原始印歐語 *dóru (tree, дерево, δέντρο)","vi":"tiếng Ấn-Âu nguyên thủy *dóru (tree, дерево, δέντρο)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *dóru (tree, дерево, δέντρο)","id":"Proto-Indo-Eropa *dóru (tree, дерево, δέντρο)","hi":"आदि-भारोपीय *dóru (tree, дерево, δέντρο)","de":"urindogermanisch *dóru (tree, дерево, δέντρο)","fr":"le proto-indo-européen *dóru (tree, дерево, δέντρο)","it":"il protoindoeuropeo *dóru (tree, дерево, δέντρο)","es":"el protoindoeuropeo *dóru (tree, дерево, δέντρο)","pt":"o proto-indo-europeu *dóru (tree, дерево, δέντρο)","ru":"праиндоевропейское *dóru (tree, дерево, δέντρο)","uk":"праіндоєвропейське *dóru (tree, дерево, δέντρο)","ar":"الهندو-أوروبية الأم *dóru (tree، дерево، δέντρο)","he":"הפרוטו-הודו-אירופית *dóru (tree, дерево, δέντρο)","sw":"Kihindi-Kiulaya asilia *dóru (tree, дерево, δέντρο)"},
@@ -2480,5 +2494,21 @@ WORDS.tree = {
     egy_dem: ["šn", "ʃeːn"],
     vi_mid: ["cây", "kəj˧"],
     bxd: ["sak55", "sak˥˥"],  // Also means wood (Wiktionary).
+    tdd: ["ᥖᥨᥢᥲᥛᥭᥳ", "ton˧˩maj˥˧"],
+    guz: ["omote", "omote"],
+    hay: ["omuti", "omuti"],
+    akl: ["kahoy", "ˈkahoj"],
+    jra: ["kơyâo", "kəjəw"],
+    rad: ["kơyâo", "kəjəw"],
+    rsk: ["древо", "ˈdrɛvɔ"],
+    izh: ["puu", "puː"],
+    gwc: ["تم", "tɑm"],
+    hac: ["dirext", "dɪɾaxt"],  // dar is also 'tree'
+    shu: ["شدر", "ʃadar"],  // Collective; from شجر
+    btx: ["batang kayu", "bataŋ kaju"],
+    mqy: ["haju", "hadʒu"],  // also 'wood'
+    sxn: ["kalu", "kalu"],  // also 'wood'
+    ibg: ["—", "—"],
+    krj: ["—", "—"],
   },
 };

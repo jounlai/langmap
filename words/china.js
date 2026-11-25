@@ -604,6 +604,11 @@ WORDS.china = {
     doi: "cina",
     lmo: "cina",
     pms: "cina",
+    jra: "other",
+    rsk: "khitan",
+    izh: "khitan",
+    btx: "cina",
+    mqy: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1154,5 +1159,10 @@ WORDS.china = {
     doi: ["चीन", "tʃiːn"],
     lmo: ["Cina", "ˈtʃina"],
     pms: ["Cin-a", "ˈtʃiŋa"],
+    jra: ["čar Khăč", "tʃaːɾ kʰatʃ"],  // čar 'country' + Khăč 'Chinese'
+    rsk: ["Китай", "ˈkitaj"],
+    izh: ["Kitaja", "ˈkitɑːjɑ"],
+    btx: ["Cina", "tʃina"],
+    mqy: ["Cina", "tʃina"],
   },
 };

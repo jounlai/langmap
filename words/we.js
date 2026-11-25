@@ -1217,6 +1217,22 @@ WORDS.we = {
     la_late: "single",
     egy_dem: "single",
     bxd: "clusive",
+    tdd: "clusive",
+    guz: "single",
+    hay: "single",
+    akl: "clusive",
+    krj: "clusive",
+    ibg: "clusive",
+    jra: "clusive",
+    rad: "clusive",
+    rsk: "single",
+    izh: "single",
+    gwc: "single",
+    hac: "single",
+    shu: "single",
+    btx: "clusive",
+    mqy: "clusive",
+    sxn: "clusive",
   },
   routes: {
     clusive: { color: "#7c3aed", emoji: "👥", en: "two words · inclusive ≠ exclusive", ja: "二語・「あなたを含む/含まない」を区別", ko: "두 낱말 · 듣는 이를 넣느냐 빼느냐", zh: "两个词・包括式与排除式有别", yue: "兩個詞 · 包括式同排除式有別", vi: "hai từ · bao gộp ≠ loại trừ", th: "สองคำ · รวมผู้ฟัง ≠ ไม่รวมผู้ฟัง", id: "dua kata · inklusif ≠ eksklusif", hi: "दो शब्द · समावेशी ≠ अपवर्जी", de: "zwei Wörter · inklusiv ≠ exklusiv", fr: "deux mots · inclusif ≠ exclusif", it: "due parole · inclusivo ≠ esclusivo", es: "dos palabras · inclusivo ≠ exclusivo", pt: "duas palavras · inclusivo ≠ exclusivo", ru: "два слова · инклюзив ≠ эксклюзив", uk: "два слова · інклюзив ≠ ексклюзив", ar: "كلمتان · شاملة ≠ غير شاملة", he: "שתי מילים · כוללת ≠ בלעדית", sw: "maneno mawili · jumuishi ≠ tengefu" },
@@ -2426,5 +2442,21 @@ WORDS.we = {
     la_late: ["nos", "nos"],
     egy_dem: ["jnn", "aˈnon"],
     bxd: ["ŋă55 maʔ31", "ŋă˥˥ maʔ˧˩"],  // Listed under "we (inclusive)" in the source; no exclusive form is given.
+    tdd: ["ᥞᥝᥰ / ᥖᥧ", "haw˥ / tu˧"],  // inclusive / exclusive
+    guz: ["intwe", "intwe"],
+    hay: ["ichwe", "itʃwe"],
+    akl: ["kita / kami", "kiˈta / kaˈmi"],
+    krj: ["kita / kami", "kita / kami"],
+    ibg: ["sittam / sikami", "sittam / sikami"],
+    jra: ["ta / gơmơi", "taː / ɡəməːj"],  // inclusive / exclusive
+    rad: ["drei / hmei", "drɛːj / hmɛːj"],  // inclusive / exclusive
+    rsk: ["ми", "mi"],
+    izh: ["möö", "møː"],
+    gwc: ["مٞہ", "ma"],
+    hac: ["ême", "eːma"],
+    shu: ["أنحن", "aniːna"],  // Written أَنِحْنَ, said aniina in N'Djamena and Abeche (Wiktionary)
+    btx: ["kita / kami", "kita / kami"],
+    mqy: ["ité / ami", "ite / ami"],
+    sxn: ["kitẹ / kami", "kiteʔ / kami"],
   },
 };

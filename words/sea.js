@@ -1132,6 +1132,19 @@ WORDS.sea = {
     jpr: "jrayas",
     p_jpk: "plain",
     p_viet: "plain",
+    tdd: "plain",
+    guz: "nyanja",
+    akl: "darat",
+    krj: "darat",
+    ibg: "plain",
+    jra: "tasik",
+    rad: "tasik",
+    rsk: "mori",
+    izh: "mori",
+    gwc: "jrayas",
+    btx: "plain",
+    mqy: "tasik",
+    sxn: "plain",
   },
   routes: {
     mori: {"color":"#2563eb","emoji":"🌊","en":"Proto-Indo-European *móri (Meer, mare, море)","ja":"印欧祖語 *móri (Meer, mare, море)","ko":"인도유럽 조어 *móri (Meer, mare, море)","zh":"原始印欧语 *móri (Meer, mare, море)","yue":"原始印歐語 *móri (Meer, mare, море)","vi":"tiếng Ấn-Âu nguyên thủy *móri (Meer, mare, море)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *móri (Meer, mare, море)","id":"Proto-Indo-Eropa *móri (Meer, mare, море)","hi":"आदि-भारोपीय *móri (Meer, mare, море)","de":"urindogermanisch *móri (Meer, mare, море)","fr":"le proto-indo-européen *móri (Meer, mare, море)","it":"il protoindoeuropeo *móri (Meer, mare, море)","es":"el protoindoeuropeo *móri (Meer, mare, море)","pt":"o proto-indo-europeu *móri (Meer, mare, море)","ru":"праиндоевропейское *móri (Meer, mare, море)","uk":"праіндоєвропейське *móri (Meer, mare, море)","ar":"الهندو-أوروبية الأم *móri (Meer، mare، море)","he":"הפרוטו-הודו-אירופית *móri (Meer, mare, море)","sw":"Kihindi-Kiulaya asilia *móri (Meer, mare, море)"},
@@ -2234,5 +2247,18 @@ WORDS.sea = {
     jpr: ["דריא", "dærjɒː"],
     p_jpk: ["*omi", "omi"],
     p_viet: ["*peh ~ *pes", "peh ~ pes"],
+    tdd: ["ᥘᥛᥳᥙᥣᥐᥱᥘᥣᥭᥱ", "lam˥˧paːk˩laːj˩"],  // ABVD has paaŋ3 laai3
+    guz: ["enyancha", "eɲantʃa"],  // also used of a lake
+    akl: ["dagat", "ˈdaɡat"],
+    krj: ["dagat", "daɡat"],  // ABVD also lawod
+    ibg: ["bebay", "bebaj"],
+    jra: ["rơsĭ", "ɾəsiʔ"],
+    rad: ["êa ksĭ", "ʔjaː ksiʔ"],
+    rsk: ["морйо", "ˈmɔrjɔ"],
+    izh: ["meri", "ˈmeri"],
+    gwc: ["دریاب", "darjɑːb"],
+    btx: ["lawit", "lawit"],  // also 'lake'; ABVD lawet is the lowered vowel
+    mqy: ["tacik", "tatʃik"],
+    sxn: ["sasị", "sasiʔ"],  // Holle and NT also laudě
   }
 };

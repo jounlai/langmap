@@ -603,6 +603,14 @@ WORDS.tomato = {
     ig: "nahuatl",
     kg: "nahuatl",
     wls: "nahuatl",
+    guz: "nyaanya",
+    hay: "nyaanya",
+    akl: "nahuatl",
+    rad: "other",
+    rsk: "apple",
+    gwc: "nahuatl",
+    shu: "nahuatl",
+    btx: "nahuatl",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวาตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -1191,5 +1199,13 @@ WORDS.tomato = {
     ig: ["tomato", "tòmátò"],
     kg: ["tomate", "tomate"],
     wls: ["tomato", "tomato"],
+    guz: ["enyanya", "eɲaːɲa"],
+    hay: ["enyanya", "eɲaɲa"],
+    akl: ["kamatis", "kaˈmatis"],
+    rad: ["trŏng drun", "trɔŋ druːn"],  // a kind of trŏng 'eggplant'
+    rsk: ["парадича", "paraˈditʃa"],
+    gwc: ["ٹماٞٹٞر", "ʈamaːʈar"],
+    shu: ["طماطم", "tamaːtim"],  // Collective
+    btx: ["tomat", "tomat"],
   },
 };

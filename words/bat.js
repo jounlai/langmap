@@ -816,6 +816,16 @@ WORDS.bat = {
     gag: "yar",
     rm: "bird",
     rup: "bird",
+    tdd: "plain",
+    guz: "plain",
+    hay: "plain",
+    akl: "plain",
+    rsk: "other",
+    izh: "other",
+    shu: "plain",
+    btx: "plain",
+    mqy: "plain",
+    sxn: "paniki",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1595,5 +1605,15 @@ WORDS.bat = {
     gag: ["yarasa", "jaraˈsa"],
     rm: ["utschè-mezmieur", "utʃɛmɛtsˈmjewr"],  // Literally 'half-mouse bird'.
     rup: ["puljiu di noaptea", "ˈpuʎu di ˈno̯aptea"],  // Literally 'the bird of the night'.
+    tdd: ["ᥛᥤᥴᥛᥦᥒᥳ", "mi˧˥mɛŋ˥˧"],  // IDS also gives miŋ.5 mɛŋ.4
+    guz: ["ekenyamato", "ekeɲamato"],  // the dictionary also has egetaboramato and egesungusama
+    hay: ["oluhuguhugu", "oluuɡuuɡu"],
+    akl: ["kabog", "kaˈboɡ"],  // fruit bat
+    rsk: ["пергач", "ˈpɛrɦatʃ"],
+    izh: ["nahkasiipi", "ˈnɑhkɑˌsiːpi"],  // literally "skin wing"
+    shu: ["أبن رقيع", "abunriɡeːʔ"],
+    btx: ["arip", "arip"],  // KI: a small kind of bat
+    mqy: ["wér", "ver"],  // also niki
+    sxn: ["paniki", "paniki"],
   },
 };

@@ -1233,6 +1233,21 @@ WORDS.sun = {
     egy_dem: "plain",
     vi_mid: "blooj",
     bxd: "plain",
+    tdd: "ngwan",
+    guz: "plain",
+    hay: "ijuba",
+    akl: "qalejaw",
+    krj: "qalejaw",
+    jra: "wari",
+    rad: "wari",
+    rsk: "sohwl",
+    izh: "pajwa",
+    gwc: "surya",
+    hac: "plain",
+    shu: "plain",
+    btx: "wari",
+    mqy: "qalejaw",
+    sxn: "qalejaw",
   },
   routes: {
     sohwl: {"color":"#2563eb","emoji":"☀️","en":"Proto-Indo-European *sóh₂wl̥ (sun, sol, солнце)","ja":"印欧祖語 *sóh₂wl̥ (sun, sol, солнце)","ko":"인도유럽 조어 *sóh₂wl̥ (sun, sol, солнце)","zh":"原始印欧语 *sóh₂wl̥ (sun, sol, солнце)","yue":"原始印歐語 *sóh₂wl̥ (sun, sol, солнце)","vi":"tiếng Ấn-Âu nguyên thủy *sóh₂wl̥ (sun, sol, солнце)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *sóh₂wl̥ (sun, sol, солнце)","id":"Proto-Indo-Eropa *sóh₂wl̥ (sun, sol, солнце)","hi":"आदि-भारोपीय *sóh₂wl̥ (sun, sol, солнце)","de":"urindogermanisch *sóh₂wl̥ (sun, sol, солнце)","fr":"le proto-indo-européen *sóh₂wl̥ (sun, sol, солнце)","it":"il protoindoeuropeo *sóh₂wl̥ (sun, sol, солнце)","es":"el protoindoeuropeo *sóh₂wl̥ (sun, sol, солнце)","pt":"o proto-indo-europeu *sóh₂wl̥ (sun, sol, солнце)","ru":"праиндоевропейское *sóh₂wl̥ (sun, sol, солнце)","uk":"праіндоєвропейське *sóh₂wl̥ (sun, sol, солнце)","ar":"الهندو-أوروبية الأم *sóh₂wl̥ (sun، sol، солнце)","he":"הפרוטו-הודו-אירופית *sóh₂wl̥ (sun, sol, солнце)","sw":"Kihindi-Kiulaya asilia *sóh₂wl̥ (sun, sol, солнце)"},
@@ -2489,5 +2504,21 @@ WORDS.sun = {
     egy_dem: ["rꜥ", "reː"],
     vi_mid: ["mặt blời", "mat˧˨ʔ bləːj˨˩"],
     bxd: ["pui55", "pui˥˥"],  // The same word means day or date in compounds (Wiktionary).
+    tdd: ["ᥝᥢᥰ", "wan˥"],  // also 'day'
+    guz: ["risase", "ɾisase"],
+    hay: ["eizooba", "eizoːba"],
+    akl: ["adlaw", "ˈʔadlaw"],
+    krj: ["adlaw", "ʔadlaw"],
+    jra: ["yang hrơi", "jaːŋ hɾəːj"],  // hrơi 'day' < PMP *waRi (Wiktionary); yang 'spirit'
+    rad: ["yang hruê", "jaːŋ hrue"],  // hruê 'day'; yang 'spirit'
+    rsk: ["слунко", "ˈsluŋkɔ"],
+    izh: ["päivyt", "ˈpæiʋyt"],
+    gwc: ["سِیر", "siːr"],
+    hac: ["řojyar", "roːʒjaːɾ"],
+    shu: ["حراي", "harraːj"],  // شمس chamis is also used
+    btx: ["matawari", "matawari"],
+    mqy: ["mataleso", "mataləso"],  // lit. 'eye of the day'
+    sxn: ["matangěllo", "mataŋəlːo"],  // lit. 'eye of the day'
+    ibg: ["—", "—"],
   },
 };

@@ -1182,6 +1182,21 @@ WORDS.mountain = {
     fit: "vare",
     na: "plain",
     bxd: "plain",
+    tdd: "plain",
+    guz: "plain",
+    hay: "plain",
+    akl: "bukij",
+    krj: "bukij",
+    jra: "plain",
+    rad: "plain",
+    rsk: "gwerh",
+    izh: "maki",
+    gwc: "plain",
+    hac: "plain",
+    shu: "jabal",
+    btx: "plain",
+    mqy: "plain",
+    sxn: "plain",
   },
   routes: {
     men: {"color":"#2563eb","emoji":"⛰️","en":"Proto-Indo-European *men- (montagne, mountain, mynydd)","ja":"印欧祖語 *men- (montagne, mountain, mynydd)","ko":"인도유럽 조어 *men- (montagne, mountain, mynydd)","zh":"原始印欧语 *men- (montagne, mountain, mynydd)","yue":"原始印歐語 *men- (montagne, mountain, mynydd)","vi":"tiếng Ấn-Âu nguyên thủy *men- (montagne, mountain, mynydd)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *men- (montagne, mountain, mynydd)","id":"Proto-Indo-Eropa *men- (montagne, mountain, mynydd)","hi":"आदि-भारोपीय *men- (montagne, mountain, mynydd)","de":"urindogermanisch *men- (montagne, mountain, mynydd)","fr":"le proto-indo-européen *men- (montagne, mountain, mynydd)","it":"il protoindoeuropeo *men- (montagne, mountain, mynydd)","es":"el protoindoeuropeo *men- (montagne, mountain, mynydd)","pt":"o proto-indo-europeu *men- (montagne, mountain, mynydd)","ru":"праиндоевропейское *men- (montagne, mountain, mynydd)","uk":"праіндоєвропейське *men- (montagne, mountain, mynydd)","ar":"الهندو-أوروبية الأم *men- (montagne، mountain، mynydd)","he":"הפרוטו-הודו-אירופית *men- (montagne, mountain, mynydd)","sw":"Kihindi-Kiulaya asilia *men- (montagne, mountain, mynydd)"},
@@ -2342,5 +2357,20 @@ WORDS.mountain = {
     fit: ["vaara", "ˈʋɑːrɑ"],
     na: ["etowdudu", "etowdudu"],
     bxd: ["pam55", "pam˥˥"],  // Also 'hill' and 'pile' (Wiktionary).
+    tdd: ["ᥘᥩᥭ", "lɔj˧"],
+    guz: ["egetunwa", "eɣetunwa"],  // TLS ogotunwa
+    hay: ["eibanga", "eibaŋɡa"],
+    akl: ["bukid", "ˈbukid"],
+    krj: ["bukid", "bukid"],
+    jra: ["čư̆", "tʃɯʔ"],
+    rad: ["čư̆", "cɨʔ"],
+    rsk: ["гора", "ˈɦɔra"],
+    izh: ["mäki", "ˈmæki"],  // also hill
+    gwc: ["کھن", "kʰɑn"],
+    hac: ["keş", "kaʃ"],
+    shu: ["جبل", "dʒabal"],
+    btx: ["deleng", "dələŋ"],
+    mqy: ["poco", "potʃo"],
+    sxn: ["buḷudẹ", "buɭudeʔ"],
   }
 };

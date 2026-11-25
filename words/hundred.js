@@ -1134,6 +1134,19 @@ WORDS.hundred = {
     pban: "plain",
     har: "plain",
     bxd: "prja",
+    tdd: "bai",
+    guz: "plain",
+    hay: "plain",
+    akl: "racus",
+    krj: "racus",
+    jra: "plain",
+    rad: "plain",
+    rsk: "kmtom",
+    izh: "sheta",
+    gwc: "plain",
+    shu: "miat",
+    btx: "racus",
+    mqy: "racus",
   },
   routes: {
     kmtom: {"color":"#2563eb","emoji":"🐺","en":"Proto-Indo-European *ḱm̥tóm (hundred, cent, сто)","ja":"インド・ヨーロッパ祖語 *ḱm̥tóm (hundred, cent, сто)","ko":"인도유럽 조어 *ḱm̥tóm (hundred, cent, сто)","zh":"原始印欧语 *ḱm̥tóm (hundred, cent, сто)","yue":"原始印歐語 *ḱm̥tóm (hundred, cent, сто)","vi":"tiếng Ấn-Âu nguyên thủy *ḱm̥tóm (hundred, cent, сто)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ḱm̥tóm (hundred, cent, сто)","id":"Proto-Indo-Eropa *ḱm̥tóm (hundred, cent, сто)","hi":"आदि-हिन्द-यूरोपीय *ḱm̥tóm (hundred, cent, сто)","de":"urindogermanisch *ḱm̥tóm (hundred, cent, сто)","fr":"le proto-indo-européen *ḱm̥tóm (hundred, cent, сто)","it":"il protoindoeuropeo *ḱm̥tóm (hundred, cent, сто)","es":"el protoindoeuropeo *ḱm̥tóm (hundred, cent, сто)","pt":"o proto-indo-europeu *ḱm̥tóm (hundred, cent, сто)","ru":"праиндоевропейское *ḱm̥tóm (hundred, cent, сто)","uk":"праіндоєвропейське *ḱm̥tóm (hundred, cent, сто)","ar":"الهندية الأوروبية الأم *ḱm̥tóm (hundred، cent، сто)","he":"הפרוטו-הודו-אירופית *ḱm̥tóm (hundred, cent, сто)","sw":"Kihindi-Kiulaya asilia *ḱm̥tóm (hundred, cent, сто)"},
@@ -2310,5 +2323,18 @@ WORDS.hundred = {
     pban: ["*kámá", "kámá"],
     har: ["bäqlä", "bəqlə"],
     bxd: ["ja55", "ja˥˥"],
+    tdd: ["ᥙᥣᥐᥱ", "paːk˩"],
+    guz: ["rigana", "ɾiɣana"],  // also emia
+    hay: ["kikumi", "kikumi"],
+    akl: ["gatos", "ɡaˈtos"],
+    krj: ["sangkagatos", "saŋkaɡatos"],  // "one hundred"
+    jra: ["rơtuh", "ɾətuːh"],
+    rad: ["êtuh", "etuːh"],
+    rsk: ["сто", "stɔ"],
+    izh: ["sata", "ˈsɑtɑ"],
+    gwc: ["پنج بِش", "pɑ̃ɲbiɕ"],  // 'five twenties'
+    shu: ["مية", "mija"],
+    btx: ["seratus", "səratus"],
+    mqy: ["ceratus", "tʃəratus"],
   },
 };

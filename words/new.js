@@ -1179,6 +1179,22 @@ WORDS.new = {
     p_jpk: "plain",
     ktz: "plain",
     bxd: "gsik",
+    tdd: "hmol",
+    guz: "plain",
+    hay: "pia",
+    akl: "baqeruh",
+    krj: "baqeruh",
+    ibg: "baqeruh",
+    jra: "baqeruh",
+    rad: "baqeruh",
+    rsk: "newos",
+    izh: "wude",
+    gwc: "newos",
+    hac: "plain",
+    shu: "jadid",
+    btx: "baqeruh",
+    mqy: "baqeruh",
+    sxn: "baqeruh",
   },
   routes: {
     newos: {"color":"#2563eb","emoji":"🆕","en":"Proto-Indo-European *néwos / *néwyos (new, नया, новый)","ja":"印欧祖語 *néwos / *néwyos (new, नया, новый)","ko":"인도유럽 조어 *néwos / *néwyos (new, नया, новый)","zh":"原始印欧语 *néwos / *néwyos (new, नया, новый)","yue":"原始印歐語 *néwos / *néwyos (new, नया, новый)","vi":"tiếng Ấn-Âu nguyên thủy *néwos / *néwyos (new, नया, новый)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *néwos / *néwyos (new, नया, новый)","id":"Proto-Indo-Eropa *néwos / *néwyos (new, नया, новый)","hi":"आदि-भारोपीय *néwos / *néwyos (new, नया, новый)","de":"urindogermanisch *néwos / *néwyos (new, नया, новый)","fr":"le proto-indo-européen *néwos / *néwyos (new, नया, новый)","it":"il protoindoeuropeo *néwos / *néwyos (new, नया, новый)","es":"el protoindoeuropeo *néwos / *néwyos (new, नया, новый)","pt":"o proto-indo-europeu *néwos / *néwyos (new, नया, новый)","ru":"праиндоевропейское *néwos / *néwyos (new, नया, новый)","uk":"праіндоєвропейське *néwos / *néwyos (new, नया, новый)","ar":"الهندية الأوروبية الأم *néwos / *néwyos (new، नया، новый)","he":"הפרוטו-הודו-אירופית *néwos / *néwyos (new, नया, новый)","sw":"Kihindi-Ulaya asilia *néwos / *néwyos (new, नया, новый)"},
@@ -2367,5 +2383,21 @@ WORDS.new = {
     p_jpk: ["*nipi-", "nipi-"],
     ktz: ["zaqi", "zaˤi"],
     bxd: ["sak55", "sak˥˥"],  // Sounds the same as sak⁵⁵ 'tree, wood' (Wiktionary).
+    tdd: ["ᥛᥬᥱ", "maɯ˩"],
+    guz: ["-yia", "jia"],  // adjective stem, cited with a hyphen in the dictionary
+    hay: ["-hya", "ja"],  // adjective stem, cited with a hyphen
+    akl: ["bag-o", "ˈbaɡʔo"],
+    krj: ["bag-o", "baɡʔo"],
+    ibg: ["bagu", "baɡu"],
+    jra: ["phrâo", "pʰɾəw"],
+    rad: ["mrâo", "mrəw"],
+    rsk: ["нови", "ˈnɔvi"],
+    izh: ["uus", "uːs"],
+    gwc: ["نٞم", "nam"],
+    hac: ["taze", "taːza"],
+    shu: ["جديد", "dʒadiːd"],
+    btx: ["baru", "baru"],  // IK has mbaru
+    mqy: ["weru", "vəru"],
+    sxn: ["buhu", "buhu"],
   }
 };

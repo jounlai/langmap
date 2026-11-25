@@ -178,6 +178,9 @@ WORDS.booger = {
     nan_zz: "nosedung",
     wuu_jh: "nosedung",
     zh_cd: "nosedung",
+    tdd: "plain",
+    jra: "plain",
+    btx: "plain",
   },
   routes: {
     nosedung: {"color":"#92400e","emoji":"💩","en":"the nose's dung (鼻屎, crotte de nez, tahi hidung)","ja":"鼻のふん (鼻屎, crotte de nez, tahi hidung)","ko":"코의 똥 (鼻屎, crotte de nez, tahi hidung)","zh":"鼻子的屎 (鼻屎, crotte de nez, tahi hidung)","yue":"鼻嘅屎 (鼻屎, crotte de nez, tahi hidung)","vi":"phân của mũi (鼻屎, crotte de nez, tahi hidung)","th":"ขี้ของจมูก (鼻屎, crotte de nez, tahi hidung)","id":"tahi hidung (鼻屎, crotte de nez, tahi hidung)","hi":"नाक की टट्टी (鼻屎, crotte de nez, tahi hidung)","de":"der Kot der Nase (鼻屎, crotte de nez, tahi hidung)","fr":"la crotte du nez (鼻屎, crotte de nez, tahi hidung)","it":"la cacca del naso (鼻屎, crotte de nez, tahi hidung)","es":"la caca de la nariz (鼻屎, crotte de nez, tahi hidung)","pt":"o cocó do nariz (鼻屎, crotte de nez, tahi hidung)","ru":"носовой помёт (鼻屎, crotte de nez, tahi hidung)","uk":"носовий послід (鼻屎, crotte de nez, tahi hidung)","ar":"براز الأنف (鼻屎، crotte de nez، tahi hidung)","he":"צואת האף (鼻屎, crotte de nez, tahi hidung)","sw":"mavi ya pua (鼻屎, crotte de nez, tahi hidung)"},
@@ -304,5 +307,8 @@ WORDS.booger = {
     nan_zz: ["鼻屎", "pʰĩ˨˨ sai˥˧"],  // nose + excrement, a compound recorded in the dictionary.
     wuu_jh: ["鼻头涴", "biəʔ˨˩˨ diu˧˩˧ uɤ˥˥"],  // nose (鼻头) + dung (涴 uɤ5, glossed 屎), the Jinhua word; 头 diu2 (not tiu3)
     zh_cd: ["鼻屎", "pi˨˩ sɿ˥˧"],  // nose + excrement, a compound recorded in the dictionary.
+    tdd: ["ᥑᥤᥲᥛᥧᥐ", "xi˧˩muk˥˧"],  // IDS gloss: mucus (nasal)
+    jra: ["kơmai adŭng", "kəmaːj aduŋ"],
+    btx: ["cikuang", "tʃikuaŋ"],  // only one dictionary
   },
 };

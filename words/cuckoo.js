@@ -568,6 +568,8 @@ WORDS.cuckoo = {
     ee: "plain",
     grt: "plain",
     skr: "plain",
+    rsk: "plain",
+    izh: "kaki",
   },
   routes: {
     call: {"color":"#2563eb","emoji":"🔊","en":"named after its call (Kuckuck, koekoek, κούκος)","ja":"鳴き声から (Kuckuck, koekoek, κούκος)","ko":"울음소리에서 온 이름 (Kuckuck, koekoek, κούκος)","zh":"以叫声得名 (Kuckuck, koekoek, κούκος)","yue":"以叫聲得名 (Kuckuck, koekoek, κούκος)","vi":"đặt tên theo tiếng kêu (Kuckuck, koekoek, κούκος)","th":"ตั้งชื่อตามเสียงร้อง (Kuckuck, koekoek, κούκος)","id":"dinamai menurut suaranya (Kuckuck, koekoek, κούκος)","hi":"बोली की नकल पर बना नाम (Kuckuck, koekoek, κούκος)","de":"nach seinem Ruf benannt (Kuckuck, koekoek, κούκος)","fr":"nommé d'après son cri (Kuckuck, koekoek, κούκος)","it":"dal suo verso (Kuckuck, koekoek, κούκος)","es":"nombre tomado de su canto (Kuckuck, koekoek, κούκος)","pt":"nome tirado do seu canto (Kuckuck, koekoek, κούκος)","ru":"назван по крику (Kuckuck, koekoek, κούκος)","uk":"назва за криком (Kuckuck, koekoek, κούκος)","ar":"مسمى بصوته (Kuckuck، koekoek، κούκος)","he":"על שם קריאתו (Kuckuck, koekoek, κούκος)","sw":"jina linalotokana na mlio wake (Kuckuck, koekoek, κούκος)"},
@@ -1139,5 +1141,7 @@ WORDS.cuckoo = {
     ee: ["dzrekuku", "dzrekuku"],
     grt: ["koil do·o", "koil doʔo"],  // Koil do·o is the koel; do·o is 'bird'.
     skr: ["کوئل", "koːɪl"],
+    rsk: ["куковка", "kuˈkɔwka"],
+    izh: ["käkö", "ˈkækøi"],
   },
 };

@@ -256,6 +256,15 @@ WORDS.fart = {
     nan_xm: "pi",
     nan_zz: "pi",
     zh_cd: "pi",
+    tdd: "plain",
+    guz: "plain",
+    hay: "plain",
+    akl: "qetut",
+    jra: "plain",
+    rad: "qetut",
+    izh: "plain",
+    btx: "plain",
+    mqy: "plain",
   },
   routes: {
     perd: {"color":"#2563eb","emoji":"🌍","en":"Indo-European *perd- (fart, Furz, πορδή, पाद)","ja":"印欧祖語 *perd- (fart, Furz, πορδή, पाद)","ko":"인도유럽 조어 *perd- (fart, Furz, πορδή, पाद)","zh":"原始印欧语 *perd- (fart, Furz, πορδή, पाद)","yue":"原始印歐語 *perd- (fart, Furz, πορδή, पाद)","vi":"tiếng Ấn-Âu nguyên thủy *perd- (fart, Furz, πορδή, पाद)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *perd- (fart, Furz, πορδή, पाद)","id":"Proto-Indo-Eropa *perd- (fart, Furz, πορδή, पाद)","hi":"आदि-भारोपीय *perd- (fart, Furz, πορδή, पाद)","de":"indogermanisch *perd- (fart, Furz, πορδή, पाद)","fr":"l'indo-européen *perd- (fart, Furz, πορδή, पाद)","it":"l'indoeuropeo *perd- (fart, Furz, πορδή, पाद)","es":"el indoeuropeo *perd- (fart, Furz, πορδή, पाद)","pt":"o indo-europeu *perd- (fart, Furz, πορδή, पाद)","ru":"индоевропейское *perd- (fart, Furz, πορδή, पाद)","uk":"індоєвропейське *perd- (fart, Furz, πορδή, पाद)","ar":"الهندية الأوروبية الأم *perd- (fart، Furz، πορδή، पाद)","he":"ההודו-אירופית *perd- (fart, Furz, πορδή, पाद)","sw":"Kihindi-Kiulaya asilia *perd- (fart, Furz, πορδή, पाद)"},
@@ -460,5 +469,14 @@ WORDS.fart = {
     nan_xm: ["屁", "pʰui˨˩"],  // Inherited Chinese 屁, colloquial reading.
     nan_zz: ["屁", "pʰui˨˩"],  // Inherited Chinese 屁, colloquial reading.
     zh_cd: ["屁", "pʰi˨˩˧"],  // Inherited Chinese 屁.
+    tdd: ["ᥖᥨᥖᥱ", "tot˩"],
+    guz: ["risuri", "ɾisuɾi"],
+    hay: ["ekinyampo", "ekiɲampo"],
+    akl: ["utot", "ʔuˈtot"],
+    jra: ["kơtŭ", "kətuʔ"],  // verb and noun
+    rad: ["ktŭt", "ktut"],  // verb and noun
+    izh: ["peeru", "ˈpeːru"],
+    btx: ["kesut", "kəsut"],
+    mqy: ["pecu", "pətʃu"],  // ACD pecut 'to break wind'
   },
 };

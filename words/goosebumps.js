@@ -277,6 +277,9 @@ WORDS.goosebumps = {
     liv: "bird",
     rm: "bird",
     vot: "bird",
+    guz: "plain",
+    rsk: "other",
+    izh: "other",
   },
   family2: {
     ko: "bird",
@@ -504,5 +507,8 @@ WORDS.goosebumps = {
     liv: ["kanālejā", "ˈkɑnɑːˌlejɑː"],
     rm: ["pel-giaglina", "pɛldʑaˈʎina"],  // Literally 'hen skin'.
     vot: ["kanaliha", "ˈkanaliha"],  // Literally 'hen flesh', like Finnish kananliha.
+    guz: ["ebinyomba", "eβiɲomba"],
+    rsk: ["мраз", "mras"],  // also frost
+    izh: ["kylmäsuurima", "ˈkylmæˌsuːrimɑ"],  // singular; literally "cold groat"
   },
 };

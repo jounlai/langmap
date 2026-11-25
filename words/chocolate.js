@@ -639,5 +639,7 @@ WORDS.chocolate = {
     kok: ["चॉकलेट", "tʃɔkleʈ"],
     kmb: ["xokolate", "ʃokolate"],
     liv: ["šokolād", "ˈʃokolɑːd"],
+    akl: ["sikolati", "sikoˈlati"],  // dictionary also sokoláti, tsokoláte
+    rsk: ["чоколада", "tʃɔkɔˈlada"],
   }
 };

@@ -596,6 +596,12 @@ WORDS.littlefinger = {
     ik: "plain",
     qu: "child",
     liv: "small",
+    akl: "plain",
+    rad: "unknown",
+    rsk: "small",
+    izh: "small",
+    btx: "plain",
+    mqy: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1143,5 +1149,11 @@ WORDS.littlefinger = {
     ik: ["itigguuraq", "itiɣːuːʐaq"],  // No image is recorded for it, so it counts as a word of its own.
     qu: ["chana rukʼana", "ˈtʃana ɾuˈkʼana"],  // Literally 'last-born finger': chana 'the last of the children' + rukʼana 'finger'.
     liv: ["piškisuoŗm", "ˈpiʃkiˌsuorʲm"],
+    akl: ["kumaingking", "kumaˈʔiŋkiŋ"],
+    rad: ["kđiêng đai", "kɗieŋ ɗaːj"],
+    rsk: ["мали палєц", "ˈmali ˈpaʎɛts"],
+    izh: ["pikkurilli", "ˈpikːuˌrilʲːi"],
+    btx: ["kidel-kidel", "kidəl kidəl"],
+    mqy: ["kindé", "kiⁿde"],
   },
 };

@@ -1212,6 +1212,21 @@ WORDS.white = {
     ja_mvi: "plain",
     p_jpk: "plain",
     bxd: "plain",
+    tdd: "xaw",
+    guz: "plain",
+    hay: "plain",
+    akl: "putiq",
+    krj: "putiq",
+    ibg: "plain",
+    rad: "plain",
+    rsk: "belu",
+    izh: "welketa",
+    gwc: "plain",
+    hac: "plain",
+    shu: "abyad",
+    btx: "plain",
+    mqy: "plain",
+    sxn: "plain",
   },
   routes: {
     hwitaz: {"color":"#2563eb","emoji":"🛡️","en":"Proto-Germanic *hwītaz (white, weiß, hvítur)","ja":"ゲルマン祖語 *hwītaz (white, weiß, hvítur)","ko":"게르만 조어 *hwītaz (white, weiß, hvítur)","zh":"原始日耳曼语 *hwītaz (white, weiß, hvítur)","yue":"原始日耳曼語 *hwītaz (white, weiß, hvítur)","vi":"tiếng German nguyên thủy *hwītaz (white, weiß, hvítur)","th":"ภาษาเจอร์แมนิกดั้งเดิม *hwītaz (white, weiß, hvítur)","id":"Proto-Jermanik *hwītaz (white, weiß, hvítur)","hi":"आदि-जर्मनिक *hwītaz (white, weiß, hvítur)","de":"urgermanisch *hwītaz (white, weiß, hvítur)","fr":"le proto-germanique *hwītaz (white, weiß, hvítur)","it":"il protogermanico *hwītaz (white, weiß, hvítur)","es":"el protogermánico *hwītaz (white, weiß, hvítur)","pt":"o protogermânico *hwītaz (white, weiß, hvítur)","ru":"прагерманское *hwītaz (white, weiß, hvítur)","uk":"прагерманське *hwītaz (white, weiß, hvítur)","ar":"الجرمانية الأم *hwītaz (white، weiß، hvítur)","he":"הפרוטו-גרמאנית *hwītaz (white, weiß, hvítur)","sw":"Kijerumani asilia *hwītaz (white, weiß, hvítur)"},
@@ -2419,5 +2434,20 @@ WORDS.white = {
     ja_mvi: ["白", "sːu"],
     p_jpk: ["*siro-", "siro-"],
     bxd: ["pʰju55", "pʰju˥˥"],
+    tdd: ["ᥑᥣᥝᥴ", "xaːw˧˥"],  // IDS phək.9
+    guz: ["-rabu", "ɾaβu"],  // adjective stem, cited with a hyphen in the dictionary
+    hay: ["kweela", "kweːla"],  // infinitive "be white"
+    akl: ["puti'", "puˈtiʔ"],
+    krj: ["puti", "putiʔ"],  // the phrasebook marks the final glottal stop
+    ibg: ["furaw", "fuɾaw"],
+    rad: ["kô̆", "koʔ"],
+    rsk: ["били", "ˈbili"],
+    izh: ["valkia", "ˈʋɑlkiɑ"],
+    gwc: ["پنٞر", "panar"],
+    hac: ["çerme", "tʃaɾma"],
+    shu: ["أبيض", "abjad"],
+    btx: ["mbentar", "mbəntar"],  // ABVD mbulan 'white, pale'
+    mqy: ["bakok", "bakok"],
+    sxn: ["mawira", "mawira"],
   },
 };

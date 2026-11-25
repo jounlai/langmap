@@ -1233,6 +1233,22 @@ WORDS.hand = {
     egy_dem: "plain",
     vi_mid: "sii",
     bxd: "lak",
+    tdd: "mwu",
+    guz: "boko",
+    hay: "ganja",
+    akl: "qalima",
+    krj: "qalima",
+    ibg: "qalima",
+    jra: "tangan",
+    rad: "tangan",
+    rsk: "ranka",
+    izh: "kate",
+    gwc: "plain",
+    hac: "ghasta",
+    shu: "yad",
+    btx: "tangan",
+    mqy: "qalima",
+    sxn: "qalima",
   },
   routes: {
     ghesor: {"color":"#2563eb","emoji":"✋","en":"Proto-Indo-European *ǵʰésōr (χέρι, ձեռք, dorë)","ja":"印欧祖語 *ǵʰésōr (χέρι, ձեռք, dorë)","ko":"인도유럽 조어 *ǵʰésōr (χέρι, ձեռք, dorë)","zh":"原始印欧语 *ǵʰésōr (χέρι, ձեռք, dorë)","yue":"原始印歐語 *ǵʰésōr (χέρι, ձեռք, dorë)","vi":"tiếng Ấn-Âu nguyên thủy *ǵʰésōr (χέρι, ձեռք, dorë)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ǵʰésōr (χέρι, ձեռք, dorë)","id":"Proto-Indo-Eropa *ǵʰésōr (χέρι, ձեռք, dorë)","hi":"आदि-भारोपीय *ǵʰésōr (χέρι, ձեռք, dorë)","de":"urindogermanisch *ǵʰésōr (χέρι, ձեռք, dorë)","fr":"le proto-indo-européen *ǵʰésōr (χέρι, ձեռք, dorë)","it":"il protoindoeuropeo *ǵʰésōr (χέρι, ձեռք, dorë)","es":"el protoindoeuropeo *ǵʰésōr (χέρι, ձեռք, dorë)","pt":"o proto-indo-europeu *ǵʰésōr (χέρι, ձեռք, dorë)","ru":"праиндоевропейское *ǵʰésōr (χέρι, ձեռք, dorë)","uk":"праіндоєвропейське *ǵʰésōr (χέρι, ձեռք, dorë)","ar":"الهندو-أوروبية الأم *ǵʰésōr (χέρι، ձեռք، dorë)","he":"הפרוטו-הודו-אירופית *ǵʰésōr (χέρι, ձեռք, dorë)","sw":"Kihindi-Kiulaya asilia *ǵʰésōr (χέρι, ձեռք, dorë)"},
@@ -2489,5 +2505,21 @@ WORDS.hand = {
     egy_dem: ["ḏr.t", "toːre"],
     vi_mid: ["tay", "taj˧"],
     bxd: ["laʔ31", "laʔ˧˩"],  // One word for hand and arm (Wiktionary).
+    tdd: ["ᥛᥪᥰ", "mɯ˥"],
+    guz: ["okoboko", "ɔkɔβɔkɔ"],  // also the arm
+    hay: ["ekiganja", "ekiɡandʒa"],
+    akl: ["alima", "ʔaˈlima"],
+    krj: ["alima", "ʔalima"],
+    ibg: ["lima", "lima"],
+    jra: ["tơngan", "təŋaːn"],  // also arm
+    rad: ["kngan", "kŋaːn"],
+    rsk: ["рука", "ˈruka"],
+    izh: ["käsi", "ˈkæsi"],
+    gwc: ["تھیر", "tʰeːr"],  // Also given for the arm
+    hac: ["des", "das"],
+    shu: ["إيد", "iːd"],
+    btx: ["tan", "tan"],  // contracted from tangan
+    mqy: ["limé", "lime"],
+    sxn: ["lima", "lima"],  // same word as five
   },
 };

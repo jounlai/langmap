@@ -764,6 +764,17 @@ WORDS.thumb = {
     tcy: "plain",
     ik: "plain",
     nrf_gg: "big",
+    tdd: "mother",
+    guz: "big",
+    hay: "other",
+    akl: "plain",
+    rad: "mother",
+    rsk: "big",
+    izh: "palka",
+    gwc: "angustha",
+    btx: "plain",
+    mqy: "plain",
+    sxn: "mother",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1486,5 +1497,16 @@ WORDS.thumb = {
     tcy: ["ಕೊಂಬ ಬಿರೆಳ್", "komba biɾeɭɯ"],  // No image is recorded for the first part; ಬಿರೆಳ್ is 'finger'.
     ik: ["kuvlu", "kuvlu"],  // No image is recorded for it, so it counts as a word of its own.
     nrf_gg: ["gros deigt", "ɡro dɛ"],  // Literally "big finger".
+    tdd: ["ᥞᥨᥝᥴᥛᥥᥛᥪᥰ", "ho˧˥me˧mɯ˥"],
+    guz: ["ekiara ekenene", "ekiaɾa ɛkɛnɛnɛ"],  // "big finger"; also egechara ekenene
+    hay: ["ekyaala kishaija", "ekjaːla kiʃaidʒa"],  // "male finger" (cf. omushaija "man")
+    akl: ["kumaeagko'", "kumaˈɣaɡkoʔ"],  // also big toe
+    rad: ["kđiêng ana", "kɗieŋ anaː"],  // ana 'female, mother (of animals)'
+    rsk: ["вельки палєц", "ˈvɛʎki ˈpaʎɛts"],
+    izh: ["peukalo", "ˈpeukɑlo"],
+    gwc: ["اٞنگُوڄ", "aŋuːʈʂ"],
+    btx: ["kambal-kambal", "kambal kambal"],
+    mqy: ["limé ponggo", "lime poᵑɡo"],
+    sxn: ["inang u lima", "inaŋ u lima"],  // lit. 'mother of the hand'
   },
 };

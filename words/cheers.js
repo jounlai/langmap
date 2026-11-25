@@ -348,6 +348,7 @@ WORDS.cheers = {
     liv: "wish",
     rm: "wish",
     vot: "wish",
+    rsk: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -641,5 +642,6 @@ WORDS.cheers = {
     liv: ["prōzit", "ˈproːzit"],
     rm: ["Viva!", "ˈviva"],  // Literally 'may you live'.
     vot: ["pruuzit", "ˈpruːzit"],  // Like German prosit.
+    rsk: ["наздраве", "naˈzdravɛ"],
   },
 };

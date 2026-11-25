@@ -651,6 +651,15 @@ WORDS.potato = {
     tvl: "papa",
     hif: "alu",
     unr: "alu",
+    tdd: "yangyu",
+    guz: "other",
+    akl: "papa",
+    rad: "other",
+    rsk: "earth",
+    izh: "earth",
+    gwc: "alu",
+    btx: "kentang",
+    mqy: "kentang",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quéchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kikechua papa · Kitaino batata"},
@@ -1288,5 +1297,14 @@ WORDS.potato = {
     tvl: ["pateta", "pateta"],  // From English potato.
     hif: ["aalu", "aːluː"],
     unr: ["alu", "alu"],
+    tdd: ["ᥕᥣᥒᥲᥕᥤᥱ", "jaːŋ˧˩ji˩"],
+    guz: ["egiasi", "eɣiasi"],
+    akl: ["patatas", "paˈtatas"],
+    rad: ["hbei", "hbɛːj"],  // general word for tubers
+    rsk: ["кромпля", "ˈkrɔmpʎa"],
+    izh: ["maamuna", "ˈmɑːˌmunɑ"],  // literally "earth egg"
+    gwc: ["اٞلُو", "aluː"],
+    btx: ["kentang", "kəntaŋ"],
+    mqy: ["kentang", "kəⁿtaŋ"],
   },
 };

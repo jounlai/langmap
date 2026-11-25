@@ -1113,6 +1113,19 @@ WORDS.book = {
     abe: "plain",
     bxd: "plain",
     sdo: "plain",
+    tdd: "plain",
+    guz: "kitab",
+    hay: "kitab",
+    akl: "liber",
+    ibg: "liber",
+    jra: "ce",
+    rad: "plain",
+    rsk: "knjiga",
+    izh: "kirja",
+    hac: "kitab",
+    shu: "kitab",
+    btx: "kitab",
+    mqy: "plain",
   },
   routes: {
     boks: {"color":"#2563eb","emoji":"📕","en":"Proto-Germanic *bōks (book, Buch, bók)","ja":"ゲルマン祖語 *bōks (book, Buch, bók)","ko":"게르만 조어 *bōks (book, Buch, bók)","zh":"原始日耳曼语 *bōks (book, Buch, bók)","yue":"原始日耳曼語 *bōks (book, Buch, bók)","vi":"tiếng German nguyên thủy *bōks (book, Buch, bók)","th":"ภาษาเจอร์แมนิกดั้งเดิม *bōks (book, Buch, bók)","id":"Proto-Jermanik *bōks (book, Buch, bók)","hi":"आदि-जर्मेनिक *bōks (book, Buch, bók)","de":"urgermanisch *bōks (book, Buch, bók)","fr":"le proto-germanique *bōks (book, Buch, bók)","it":"il protogermanico *bōks (book, Buch, bók)","es":"el protogermánico *bōks (book, Buch, bók)","pt":"o protogermânico *bōks (book, Buch, bók)","ru":"прагерманское *bōks (book, Buch, bók)","uk":"прагерманське *bōks (book, Buch, bók)","ar":"الجرمانية الأم *bōks (book، Buch، bók)","he":"הפרוטו-גרמאנית *bōks (book, Buch, bók)","sw":"Kijerumaniki asilia *bōks (book, Buch, bók)"},
@@ -2214,5 +2227,18 @@ WORDS.book = {
     abe: ["awighigan", "awiɡhiɡan"],
     bxd: ["mau31sau31", "mau˧˩sau˧˩"],  // Borrowed from Jingpho maisau 'paper', and means paper as well (Wiktionary).
     sdo: ["buk", "buk"],
+    tdd: ["ᥘᥣᥭᥰ", "laːj˥"],
+    guz: ["egetabu", "eɣetaβu"],  // same Arabic–Swahili loan as kitabu
+    hay: ["ekitabo", "ekitabo"],  // in the example sentences
+    akl: ["libro", "ˈlibɾo"],
+    ibg: ["libru", "libɾu"],
+    jra: ["hră sač", "hɾaʔ saːtʃ"],  // hră 'paper, letter' + Vietnamese sách
+    rad: ["hdruôm hră", "hdruom hraʔ"],
+    rsk: ["кнїжка", "ˈkɲiʃka"],
+    izh: ["kirja", "ˈkirjɑ"],
+    hac: ["kitêb", "kɪteːb"],
+    shu: ["كتاب", "kitaːb"],
+    btx: ["kitap", "kitap"],
+    mqy: ["surak", "surak"],  // also 'letter'
   }
 };

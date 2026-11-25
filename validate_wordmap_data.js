@@ -1205,6 +1205,19 @@ for (const code of codes) {
                 // bxd (Pela, 2026-11-19): no form in Sagart et al. 2019 (Huang 1992) or Wiktionary;
                 // night only in Mann 1998, whose tone system differs from the row's.
                 bxd: new Set(['cat', 'hello', 'night']),
+                // New rows of 2026-11-26 (review 836): no usable form in the rows' sources.
+                sxn: new Set(['love', 'cat', 'hello']),
+                mqy: new Set(['thanks']),
+                shu: new Set(['hello']),
+                hac: new Set(['fire', 'i', 'you', 'drink', 'hello', 'thanks']),
+                gwc: new Set(['love', 'hello', 'thanks']),
+                rad: new Set(['hello']),
+                jra: new Set(['star', 'thanks']),
+                ibg: new Set(['sun', 'love', 'tree', 'hello']),
+                krj: new Set(['tongue', 'blood', 'love', 'tree', 'hello']),
+                akl: new Set(['hello']),
+                hay: new Set(['hello', 'thanks']),
+                tdd: new Set(['hello', 'thanks']),
                 // zh_jiao (Qingdao, 2026-10-25): no Qingdao source for these six (Wiktionary dial-syn has no
                 // Qingdao line or no module; 名兒 is erhua with no sourced reading).
                 zh_jiao: new Set(['heart', 'hello', 'love', 'night', 'name']),

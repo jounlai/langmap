@@ -897,6 +897,13 @@ WORDS.wheel = {
     pura: "plain",
     tzh: "plain",
     zh_hf: "gulu",
+    tdd: "plain",
+    jra: "plain",
+    rsk: "kolo",
+    izh: "plain",
+    shu: "ajala",
+    btx: "roda",
+    mqy: "roda",
   },
   routes: {
     kwekwlos: {"color":"#2563eb","emoji":"🎡","en":"Proto-Indo-European *kʷékʷlos (wheel, चक्र, چرخ)","ja":"インド・ヨーロッパ祖語 *kʷékʷlos (wheel, चक्र, چرخ)","ko":"인도유럽 조어 *kʷékʷlos (wheel, चक्र, چرخ)","zh":"原始印欧语 *kʷékʷlos (wheel, चक्र, چرخ)","yue":"原始印歐語 *kʷékʷlos (wheel, चक्र, چرخ)","vi":"tiếng Ấn-Âu nguyên thủy *kʷékʷlos (wheel, चक्र, چرخ)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *kʷékʷlos (wheel, चक्र, چرخ)","id":"Proto-Indo-Eropa *kʷékʷlos (wheel, चक्र, چرخ)","hi":"आदि-भारोपीय *kʷékʷlos (wheel, चक्र, چرخ)","de":"urindogermanisch *kʷékʷlos (wheel, चक्र, چرخ)","fr":"le proto-indo-européen *kʷékʷlos (wheel, चक्र, چرخ)","it":"il protoindoeuropeo *kʷékʷlos (wheel, चक्र, چرخ)","es":"el protoindoeuropeo *kʷékʷlos (wheel, चक्र, چرخ)","pt":"o proto-indo-europeu *kʷékʷlos (wheel, चक्र, چرخ)","ru":"праиндоевропейское *kʷékʷlos (wheel, चक्र, چرخ)","uk":"праіндоєвропейське *kʷékʷlos (wheel, चक्र, چرخ)","ar":"الهندية الأوروبية الأم *kʷékʷlos (wheel، चक्र، چرخ)","he":"הפרוטו-הודו-אירופית *kʷékʷlos (wheel, चक्र, چرخ)","sw":"Kiindo-Ulaya asilia *kʷékʷlos (wheel, चक्र, چرخ)"},
@@ -1861,5 +1868,12 @@ WORDS.wheel = {
     pura: ["*peŋärä", "peŋæræ"],
     tzh: ["xotol", "ʃotol"],
     zh_hf: ["轱辘子", "ku˨˩˨ nu tə"],
+    tdd: ["ᥘᥤᥛᥰᥘᥦᥒᥴ", "lim˥lɛŋ˧˥"],
+    jra: ["pong", "pɔːŋ"],  // also cage
+    rsk: ["колєсо", "kɔˈʎɛsɔ"],
+    izh: ["veero", "ˈʋeːro"],  // also ratas, pöörä, veeru
+    shu: ["عجل", "adʒal"],
+    btx: ["roda", "roda"],
+    mqy: ["roda", "roda"],
   }
 };

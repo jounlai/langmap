@@ -48,8 +48,8 @@
     "hash": "79303aacc79cf6a6"
   },
   "lang_names/en.js": {
-    "version": 235,
-    "hash": "ea953d8121a74046"
+    "version": 236,
+    "hash": "b18072bdb7bea504"
   },
   "lang_names_shim.js": {
     "version": 6,
@@ -108,8 +108,8 @@
     "hash": "687382022957af9c"
   },
   "progress_data.js": {
-    "version": 831,
-    "hash": "108bada2249d7858"
+    "version": 832,
+    "hash": "073be6b367c94c80"
   },
   "pwa.js": {
     "version": 4,
@@ -208,15 +208,15 @@
     "hash": "ebe067f2d50d98a3"
   },
   "word_manifest.js": {
-    "version": 1823,
+    "version": 1824,
     "hash": "fa0d96f2360ed6ce"
   },
   "wordmap_data.js": {
-    "version": 373,
-    "hash": "ef9be59e63e290c7"
+    "version": 374,
+    "hash": "b758e82497108c50"
   },
   "wordmap_meta_lite.js": {
-    "version": 468,
-    "hash": "9561e2d5e054a312"
+    "version": 470,
+    "hash": "474e8fe994b182a6"
   }
 }

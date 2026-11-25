@@ -1224,6 +1224,22 @@ WORDS.eat = {
     egy_dem: "plain",
     vi_mid: "qan",
     bxd: "dza",
+    tdd: "kin",
+    guz: "dia",
+    hay: "dia",
+    akl: "kaen",
+    krj: "kaen",
+    ibg: "kaen",
+    jra: "plain",
+    rad: "plain",
+    rsk: "hed",
+    izh: "sewe",
+    gwc: "khadati",
+    hac: "hwar",
+    shu: "akal",
+    btx: "plain",
+    mqy: "kaen",
+    sxn: "kaen",
   },
   routes: {
     hed: {"color":"#2563eb","emoji":"🌍","en":"Proto-Indo-European *h₁ed- (eat, есть, edere)","ja":"印欧祖語 *h₁ed- (eat, есть, edere)","ko":"인도유럽 조어 *h₁ed- (eat, есть, edere)","zh":"原始印欧语 *h₁ed- (eat, есть, edere)","yue":"原始印歐語 *h₁ed- (eat, есть, edere)","vi":"tiếng Ấn-Âu nguyên thủy *h₁ed- (eat, есть, edere)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₁ed- (eat, есть, edere)","id":"Proto-Indo-Eropa *h₁ed- (eat, есть, edere)","hi":"आदि-भारोपीय *h₁ed- (eat, есть, edere)","de":"urindogermanisch *h₁ed- (eat, есть, edere)","fr":"le proto-indo-européen *h₁ed- (eat, есть, edere)","it":"il protoindoeuropeo *h₁ed- (eat, есть, edere)","es":"el protoindoeuropeo *h₁ed- (eat, есть, edere)","pt":"o proto-indo-europeu *h₁ed- (eat, есть, edere)","ru":"праиндоевропейское *h₁ed- (eat, есть, edere)","uk":"праіндоєвропейське *h₁ed- (eat, есть, edere)","ar":"الهندو-أوروبية الأم *h₁ed- (eat، есть، edere)","he":"הפרוטו-הודו-אירופית *h₁ed- (eat, есть, edere)","sw":"Kihindi-Kiulaya asilia *h₁ed- (eat, есть, edere)"},
@@ -2469,5 +2485,21 @@ WORDS.eat = {
     egy_dem: ["wnm", "uoːm"],
     vi_mid: ["ăn", "an˧"],
     bxd: ["ta31", "ta˧˩"],
+    tdd: ["ᥐᥤᥢ", "kin˧"],
+    guz: ["koria", "koɾia"],  // infinitive
+    hay: ["okulya", "okulja"],
+    akl: ["kaon", "ˈkaʔon"],  // root form
+    krj: ["kaën", "kaʔɨn"],  // root form
+    ibg: ["kuman", "kuman"],
+    jra: ["ƀŏng", "ɓɔŋ"],  // of any food but steamed rice; huă is to eat rice or a meal with rice
+    rad: ["ƀơ̆ng", "ɓəŋ"],  // huă is to eat rice
+    rsk: ["єсц", "jɛsts"],
+    izh: ["söövvä", "ˈsøːʋːæ"],
+    gwc: ["کھاگ", "kʰɑːɡ"],  // Infinitive
+    hac: ["ward̂ey", "waːɾðaj"],  // Infinitive
+    shu: ["أكل", "akal"],  // Perfect 3sg.m.
+    btx: ["man", "man"],  // root pan (ABVD)
+    mqy: ["hang", "haŋ"],
+    sxn: ["kumaěng", "kumaəŋ"],
   }
 };

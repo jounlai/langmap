@@ -571,6 +571,12 @@ WORDS.whale = {
     iba: "fish",
     ik: "plain",
     liv: "fish",
+    tdd: "fish",
+    guz: "plain",
+    akl: "balaena",
+    rsk: "ketos",
+    izh: "ketos",
+    mqy: "paus",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -1099,5 +1105,11 @@ WORDS.whale = {
     iba: ["ikan paus", "ikan paus"],  // ikan is the row's word for fish; paus is the Malay whale word.
     ik: ["aġviq", "aʁviq"],  // The bowhead whale, the whale of the Iñupiat hunt; the same inherited word as Greenlandic arfeq.
     liv: ["vālkalā", "ˈvɑːlˌkɑlɑː"],
+    tdd: ["ᥙᥣᥓᥤᥢᥕᥤᥳ", "paː˧tsin˧ji˥˧"],
+    guz: ["enyangumi", "eɲaːŋɡumi"],  // Swahili nyangumi (dictionary note)
+    akl: ["balyena", "balˈjena"],
+    rsk: ["кит", "kit"],
+    izh: ["kiitta", "ˈkiːtːɑ"],
+    mqy: ["paus", "paus"],
   },
 };

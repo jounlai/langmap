@@ -725,6 +725,7 @@ WORDS.computer = {
     syc: "abacus",
     xpr: "plain",
     arp: "plain",
+    rsk: "english",
   },
   routes: {
     english: {"color":"#2563eb","emoji":"💻","en":"English computer (Computer, компьютер, コンピューター)","ja":"英語 computer (Computer, компьютер, コンピューター)","ko":"영어 computer (Computer, компьютер, コンピューター)","zh":"英语 computer (Computer, компьютер, コンピューター)","yue":"英語 computer (Computer, компьютер, コンピューター)","vi":"tiếng Anh computer (Computer, компьютер, コンピューター)","th":"ภาษาอังกฤษ computer (Computer, компьютер, コンピューター)","id":"Inggris computer (Computer, компьютер, コンピューター)","hi":"अंग्रेज़ी computer (Computer, компьютер, コンピューター)","de":"englisch computer (Computer, компьютер, コンピューター)","fr":"l'anglais computer (Computer, компьютер, コンピューター)","it":"l'inglese computer (Computer, компьютер, コンピューター)","es":"el inglés computer (Computer, компьютер, コンピューター)","pt":"o inglês computer (Computer, компьютер, コンピューター)","ru":"английское computer (Computer, компьютер, コンピューター)","uk":"англійське computer (Computer, компьютер, コンピューター)","ar":"الإنجليزية computer (Computer، компьютер، コンピューター)","he":"האנגלית computer (Computer, компьютер, コンピューター)","sw":"Kiingereza computer (Computer, компьютер, コンピューター)"},
@@ -1427,5 +1428,6 @@ WORDS.computer = {
     syc: ["ܟܪܡܐ", "karmɑ"],  // There were no computers; a karmā was the counting table, the abacus on which sums were worked out.
     xpr: ["ʾḥmrkr", "ahmaːrkar"],  // There were no computers; an ahmārkar was the accountant who did the reckoning.
     arp: ["koonohʼeʼínoʼ", "koːnohʔeʔínoʔ"],
+    rsk: ["компютер", "kɔmˈpjutɛr"],
   },
 };

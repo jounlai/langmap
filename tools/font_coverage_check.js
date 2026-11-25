@@ -35,6 +35,7 @@ const BLOCKS = [
     ['Tagalog',                 0x1700, 0x171F, 'Noto Sans Tagalog'],
     ['Mongolian',               0x1800, 0x18AF, 'Noto Sans Mongolian'],
     ['Limbu',                   0x1900, 0x194F, 'Noto Sans Limbu'],
+    ['Tai Le',                  0x1950, 0x197F, 'Noto Sans Tai Le'],
     ['New Tai Lue',             0x1980, 0x19DF, 'Noto Sans New Tai Lue'],
     ['Sundanese',               0x1B80, 0x1BBF, 'Noto Sans Sundanese'],
     ['Coptic',                  0x2C80, 0x2CFF, 'Noto Sans Coptic'],

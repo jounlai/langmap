@@ -494,6 +494,12 @@ WORDS.dragonfly = {
     liv: "plain",
     olo: "other",
     rm: "libellula",
+    guz: "plain",
+    akl: "plain",
+    jra: "unknown",
+    rad: "plain",
+    izh: "creature",
+    btx: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -943,5 +949,11 @@ WORDS.dragonfly = {
     liv: ["liestāpārmaz", "ˈliestɑːˌpɑːrmɑz"],  // No image is recorded for it, so it counts as a word of its own.
     olo: ["vezikorendo", "ˈvezikorendo"],  // Literally "water yoke"; plain korendo, "yoke", is also used for the dragonfly.
     rm: ["libella", "liˈbɛla"],
+    guz: ["egesora", "ɛɣɛsɔːɾa"],
+    akl: ["tambibidli'", "tambiˈbidliʔ"],
+    jra: ["čĭm čep", "tʃim tʃɛːp"],  // contains čĭm 'bird'
+    rad: ["tăng măng", "taŋ maŋ"],
+    izh: ["suenkorenta", "ˈsuenˌkorentɑ"],  // literally "wolf's yoke"
+    btx: ["siri-siri", "siri siri"],  // KI also keser-keser 'a kind of dragonfly'
   },
 };

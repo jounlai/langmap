@@ -851,6 +851,17 @@ WORDS.tear = {
     ik: "plain",
     win: "eyewater",
     li: "tahra",
+    tdd: "eyewater",
+    guz: "plain",
+    hay: "plain",
+    akl: "luseq",
+    jra: "eyewater",
+    rsk: "slza",
+    izh: "kunele",
+    hac: "plain",
+    shu: "dima",
+    btx: "luseq",
+    mqy: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -1661,5 +1672,16 @@ WORDS.tear = {
     ik: ["qulvi", "qulvi"],  // No image is recorded for it, so it counts as a word of its own.
     win: ["hišja nįį", "hiʃdʒa nĩː"],  // Literally 'eye water'.
     li: ["traon", "trɔːn"],
+    tdd: ["ᥘᥛᥳᥖᥣ", "lam˥˧taː˧"],
+    guz: ["amariga", "amaɾiɣa"],  // plural "tears"
+    hay: ["eilila", "eilila"],
+    akl: ["euha'", "ˈɣuhaʔ"],
+    jra: ["ia mơta", "ia mətaː"],
+    rsk: ["слиза", "ˈsliza"],
+    izh: ["kyynel", "ˈkyːnel"],
+    hac: ["helsî", "halsiː"],  // Also 'sob'
+    shu: ["دمعة", "damʔe"],
+    btx: ["iluh", "iluh"],
+    mqy: ["waé lu'u", "vae luʔu"],
   },
 };

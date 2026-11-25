@@ -1069,6 +1069,16 @@ WORDS.thanks = {
     la_late: "gratia",
     vi_mid: "camon",
     bxd: "plain",
+    guz: "plain",
+    akl: "salamat",
+    krj: "salamat",
+    ibg: "plain",
+    rad: "plain",
+    rsk: "dekovati",
+    izh: "kiittaa",
+    shu: "shukr",
+    btx: "plain",
+    sxn: "terimakasih",
   },
   routes: {
     thank: {"color":"#2563eb","emoji":"💡","en":"Germanic *þankaz / *þankōną (thank you, danke, takk)","ja":"ゲルマン祖語 *þankaz / *þankōną (thank you, danke, takk)","ko":"게르만 조어 *þankaz / *þankōną (thank you, danke, takk)","zh":"原始日耳曼语 *þankaz / *þankōną (thank you, danke, takk)","yue":"原始日耳曼語 *þankaz / *þankōną (thank you, danke, takk)","vi":"tiếng German nguyên thủy *þankaz / *þankōną (thank you, danke, takk)","th":"ภาษาเจอร์แมนิกดั้งเดิม *þankaz / *þankōną (thank you, danke, takk)","id":"Proto-Jermanik *þankaz / *þankōną (thank you, danke, takk)","hi":"आदि-जर्मेनिक *þankaz / *þankōną (thank you, danke, takk)","de":"urgermanisch *þankaz / *þankōną (thank you, danke, takk)","fr":"le proto-germanique *þankaz / *þankōną (thank you, danke, takk)","it":"il protogermanico *þankaz / *þankōną (thank you, danke, takk)","es":"el protogermánico *þankaz / *þankōną (thank you, danke, takk)","pt":"o protogermânico *þankaz / *þankōną (thank you, danke, takk)","ru":"прагерманское *þankaz / *þankōną (thank you, danke, takk)","uk":"прагерманське *þankaz / *þankōną (thank you, danke, takk)","ar":"الجرمانية الأم *þankaz / *þankōną (thank you، danke، takk)","he":"הפרוטו-גרמאנית *þankaz / *þankōną (thank you, danke, takk)","sw":"Kijerumaniki asilia *þankaz / *þankōną (thank you, danke, takk)"},
@@ -2302,5 +2312,21 @@ WORDS.thanks = {
     la_late: ["gratias", "ˈɡratsjas"],
     vi_mid: ["cám ơn", "kaːm˧˥ əːn˧"],
     bxd: ["a31kjṵ55 kɔ̰35 vɛ35", "a˧˩kjṵ˥˥ kɔ̰˧˥ vɛ˧˥"],  // A calque of Jingpho chyeju kaba sai, literally 'the kindness has been big' (Wiktionary).
+    guz: ["imbuya mono", "imbuja mɔnɔ"],  // dictionary: "thank you, please"
+    akl: ["saeamat", "saˈɣamat"],
+    krj: ["salamat", "salamat"],
+    ibg: ["mabbalo'", "mabbaloʔ"],
+    rad: ["lač jăk", "laːc ɟak"],  // lač 'say' + jăk 'good'
+    rsk: ["дзекуєм", "dzɛˈkujɛm"],
+    izh: ["kiitos", "ˈkiːtos"],
+    shu: ["شكرا", "ʃukran"],
+    btx: ["bujur", "budʒur"],  // also bujur melala
+    sxn: ["tarimakasẹ", "tarimakaseʔ"],
+    mqy: ["—", "—"],
+    hac: ["—", "—"],
+    gwc: ["—", "—"],
+    jra: ["—", "—"],
+    hay: ["—", "—"],
+    tdd: ["—", "—"],
   }
 };

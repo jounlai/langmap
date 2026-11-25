@@ -1179,6 +1179,22 @@ WORDS.sleep = {
     aoc: "plain",
     ja_mvi: "plain",
     xmf: "plain",
+    tdd: "nwun",
+    guz: "dada",
+    hay: "plain",
+    akl: "tudur",
+    krj: "tudur",
+    ibg: "tudur",
+    jra: "plain",
+    rad: "plain",
+    rsk: "swep",
+    izh: "magat",
+    gwc: "plain",
+    hac: "swep",
+    shu: "nwm",
+    btx: "plain",
+    mqy: "plain",
+    sxn: "plain",
   },
   routes: {
     swep: {"color":"#2563eb","emoji":"😴","en":"Proto-Indo-European *swep- (sova, спать, सोना)","ja":"印欧祖語 *swep- (sova, спать, सोना)","ko":"인도유럽 조어 *swep- (sova, спать, सोना)","zh":"原始印欧语 *swep- (sova, спать, सोना)","yue":"原始印歐語 *swep- (sova, спать, सोना)","vi":"tiếng Ấn-Âu nguyên thủy *swep- (sova, спать, सोना)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *swep- (sova, спать, सोना)","id":"Proto-Indo-Eropa *swep- (sova, спать, सोना)","hi":"आदि-भारोपीय *swep- (sova, спать, सोना)","de":"urindogermanisch *swep- (sova, спать, सोना)","fr":"le proto-indo-européen *swep- (sova, спать, सोना)","it":"il protoindoeuropeo *swep- (sova, спать, सोना)","es":"el protoindoeuropeo *swep- (sova, спать, सोना)","pt":"o proto-indo-europeu *swep- (sova, спать, सोना)","ru":"праиндоевропейское *swep- (sova, спать, सोना)","uk":"праіндоєвропейське *swep- (sova, спать, सोना)","ar":"الهندو-أوروبية الأم *swep- (sova، спать، सोना)","he":"הפרוטו-הודו-אירופית *swep- (sova, спать, सोना)","sw":"Kihindi-Kiulaya asilia *swep- (sova, спать, सोना)"},
@@ -2403,5 +2419,21 @@ WORDS.sleep = {
     aoc: ["eknunnö", "eknunːə"],
     ja_mvi: ["寝", "niʋ"],
     xmf: ["ლურა", "lura"],
+    tdd: ["ᥘᥩᥢᥰ", "lɔn˥"],
+    guz: ["korara", "koɾaɾa"],  // infinitive
+    hay: ["okunyiama", "okuɲiama"],  // also "lie down"; TLS kunagila
+    akl: ["tueog", "ˈtuɣoɡ"],  // root form
+    krj: ["maturog", "matuɾoɡ"],
+    ibg: ["makkaturug", "makkatuɾuɡ"],
+    jra: ["pĭt", "pit"],
+    rad: ["pĭt", "pit"],
+    rsk: ["спац", "spats"],
+    izh: ["maata", "ˈmɑɑtɑ"],
+    gwc: ["نِین بٞچُوگ", "niːn batɕuːɡ"],  // Infinitive, 'to go (to) sleep'
+    hac: ["witey", "wɪtaj"],  // Infinitive
+    shu: ["نام", "naːm"],  // Perfect 3sg.m.
+    btx: ["medem", "mədəm"],
+    mqy: ["toko", "toko"],
+    sxn: ["mětikị", "mətikiʔ"],
   },
 };

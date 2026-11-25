@@ -818,6 +818,16 @@ WORDS.tea = {
     kqn: "te",
     war: "cha",
     sma: "other",
+    guz: "cha",
+    akl: "cha",
+    krj: "cha",
+    rad: "cha",
+    rsk: "cha",
+    izh: "cha",
+    gwc: "cha",
+    hac: "cha",
+    shu: "cha",
+    mqy: "te",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1656,5 +1666,15 @@ WORDS.tea = {
     kqn: ["tii", "tiː"],
     war: ["tsaa", "tsaʔa"],
     sma: ["löövje", "ˈløːβjɛ"],  // Also "brew, decoction" and "tree sap".
+    guz: ["echae", "etʃaːe"],
+    akl: ["tsa", "tʃa"],
+    krj: ["tsaa", "tʃaʔa"],
+    rad: ["čê", "ceː"],
+    rsk: ["чай", "tʃaj"],  // тея (from Hungarian) also used
+    izh: ["caaju", "ˈtʃɑːju"],
+    gwc: ["چئی", "tɕɑj"],
+    hac: ["çay", "tʃaːj"],
+    shu: ["شاهي", "ʃaːhi"],
+    mqy: ["té", "te"],
   },
 };

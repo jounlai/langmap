@@ -730,6 +730,18 @@ WORDS.saturday = {
     arp: "other",
     chy: "other",
     gn: "count",
+    tdd: "saturn",
+    guz: "other",
+    akl: "sabbath",
+    krj: "sabbath",
+    jra: "count",
+    rad: "count",
+    rsk: "sabbath",
+    izh: "sabbath",
+    gwc: "sabbath",
+    shu: "sabbath",
+    btx: "sabbath",
+    mqy: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1402,5 +1414,17 @@ WORDS.saturday = {
     arp: ["hoxóbetiiníísiʼ", "hoxóbetiːníːsiʔ"],  // Literally 'rations day'.
     chy: ["Tšėškeʼmaʼheóneéšeēva", "tʃeʃkeʔmaʔheóneéʃeeva"],  // Literally 'little holy day'.
     gn: ["arapokõi", "aɾapoˈkõĩ"],  // ára 'day' + pokõi 'seven': the seventh day, counting from Sunday (arateĩ).
+    tdd: ["ᥓᥢᥱᥘᥥᥱ", "tsan˩le˩"],
+    guz: ["Omotero", "omoteːɾo"],  // also Chumamosi, Esabato
+    akl: ["Sabado", "sabaˈdo"],
+    krj: ["Sabado", "sabado"],
+    jra: ["hrơi năm", "hɾəːj nam"],  // 'day six'
+    rad: ["hruê năm", "hrue nam"],  // 'day six'
+    rsk: ["собота", "sɔˈbɔta"],
+    izh: ["soovotta", "ˈsoːʋotːɑ"],
+    gwc: ["شمہ", "ɕɑmɑ"],
+    shu: ["سبت", "sabit"],
+    btx: ["Sabtu", "sabtu"],
+    mqy: ["Sapatu", "sapatu"],
   },
 };

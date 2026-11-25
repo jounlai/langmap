@@ -912,6 +912,20 @@ WORDS.right = {
     guc: "plain",
     ik: "taliq",
     nhe: "plain",
+    tdd: "loan",
+    guz: "dio",
+    hay: "dio",
+    akl: "straight",
+    krj: "straight",
+    ibg: "wanan",
+    jra: "plain",
+    rad: "plain",
+    rsk: "straight",
+    izh: "straight",
+    gwc: "unknown",
+    btx: "plain",
+    mqy: "wanan",
+    sxn: "wanan",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1774,5 +1788,19 @@ WORDS.right = {
     guc: ["ekia", "ekia"],  // No image is recorded for it, so it counts as a word of its own.
     ik: ["taliqpik", "taliqpik"],  // Also the right arm.
     nhe: ["nejmatl", "ˈnehmatɬ"],
+    tdd: ["ᥑᥣᥴ", "xaː˧˥"],  // IDS pa.3 xa.1 'right side'
+    guz: ["okorio", "okoɾio"],
+    hay: ["ogulyo", "oɡuljo"],  // right hand; TLS obulyo
+    akl: ["tuo", "tuˈʔo"],
+    krj: ["tuo", "tuʔo"],
+    ibg: ["ziwanan", "ziwanan"],
+    jra: ["gah hơnuă", "ɡaːh hənuaʔ"],  // gah 'side'
+    rad: ["hnuă", "hnuaʔ"],
+    rsk: ["прави", "ˈpravi"],
+    izh: ["oikia", "ˈoikiɑ"],
+    gwc: ["لاڄھِیم", "lɑːʈʂʰim"],
+    btx: ["kemuhen", "kəmuhən"],  // ABVD spells kemuhun
+    mqy: ["wanang", "vanaŋ"],
+    sxn: ["koaneng", "koaneŋ"],
   },
 };

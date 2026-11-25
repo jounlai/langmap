@@ -826,6 +826,18 @@ WORDS.grandmother = {
     ik: "one",
     nrf_gg: "one",
     xmf: "one",
+    tdd: "split",
+    guz: "unknown",
+    hay: "unknown",
+    akl: "one",
+    jra: "unknown",
+    rad: "unknown",
+    rsk: "one",
+    izh: "one",
+    gwc: "split",
+    hac: "one",
+    shu: "one",
+    btx: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1596,5 +1608,17 @@ WORDS.grandmother = {
     ik: ["aana", "aːna"],  // One word for either grandmother; aaka 'mother' is also used for a grandmother.
     nrf_gg: ["grand'-mère", "ɡrɑ̃mɛːr"],
     xmf: ["ბები", "bebi"],
+    tdd: ["ᥕᥣ", "jaː˧"],  // mother's mother is la:i.2 (ᥘᥣᥭᥰ, Wiktionary)
+    guz: ["magokoro", "maːɣokoɾo"],  // "my grandmother"
+    hay: ["mawenkulu", "maweŋkulu"],  // "my grandmother"
+    akl: ["lola", "ˈlola"],
+    jra: ["yă", "jaʔ"],
+    rad: ["aduôn", "aduon"],  // also yă
+    rsk: ["баба", "ˈbaba"],
+    izh: ["ämmä", "ˈæmːæ"],
+    gwc: ["دید", "deːd"],  // Father's mother; mother's mother is میم
+    hac: ["mama", "maːmaː"],
+    shu: ["إية", "ija"],
+    btx: ["nini tudung", "nini tuduŋ"],  // eastern (Kabanjahe) term; one term for both sides
   },
 };

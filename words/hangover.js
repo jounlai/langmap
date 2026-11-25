@@ -247,6 +247,9 @@ WORDS.hangover = {
     li: "kater",
     liv: "plain",
     rm: "plain",
+    akl: "plain",
+    rsk: "plain",
+    izh: "pohmel",
   },
   routes: {
     hangover: {"color":"#2563eb","emoji":"🥴","en":"English hangover","ja":"英語 hangover","ko":"영어 hangover","zh":"英语 hangover","yue":"英語 hangover","vi":"tiếng Anh hangover","th":"ภาษาอังกฤษ hangover","id":"bahasa Inggris hangover","hi":"अंग्रेज़ी hangover","de":"englisch hangover","fr":"l’anglais hangover","it":"l’inglese hangover","es":"el inglés hangover","pt":"o inglês hangover","ru":"английское hangover","uk":"англійське hangover","ar":"الإنجليزية hangover","he":"אנגלית hangover","sw":"Kiingereza hangover"},
@@ -448,5 +451,8 @@ WORDS.hangover = {
     li: ["kater", "ˈkaːtər"],
     liv: ["pagird", "ˈpɑɡird"],
     rm: ["barbagiat", "barbaˈdʑat"],
+    akl: ["pasok", "paˈsok"],
+    rsk: ["вчерайшосц", "fʃtʃɛˈrajʃɔsts"],  // literally "yesterday-ness"
+    izh: ["pohmelo", "ˈpohmelo"],
   },
 };

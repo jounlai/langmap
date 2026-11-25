@@ -965,6 +965,18 @@ WORDS.language = {
     njo: "plain",
     tsj: "plain",
     bor: "speech",
+    tdd: "speech",
+    guz: "mouth",
+    akl: "speech",
+    jra: "unknown",
+    rad: "unknown",
+    rsk: "tongue",
+    izh: "tongue",
+    hac: "tongue",
+    shu: "lugha",
+    btx: "speech",
+    mqy: "speech",
+    sxn: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1869,5 +1881,17 @@ WORDS.language = {
     njo: ["oshi", "oʃi"],  // No image is recorded for it, so it counts as a word of its own.
     tsj: ["kauko", "kauko"],  // No image is recorded for it, so it counts as a word of its own.
     bor: ["bataru", "bataɾu"],  // The same word means word or speech.
+    tdd: ["ᥑᥣᥛᥰ", "xaːm˥"],
+    guz: ["omonwa", "omonwa"],  // the same word as "mouth"
+    akl: ["hambae", "ˈhambaɣ"],  // "speech, to speak"; the dictionary gives Inakeanon nga hambae "the Aklanon language"
+    jra: ["tơlơi", "tələːj"],
+    rad: ["klei", "klɛːj"],
+    rsk: ["язик", "ˈjazik"],
+    izh: ["keeli", "ˈkeːli"],
+    hac: ["zwan", "zwaːn"],  // The same word as 'tongue'
+    shu: ["لغة", "luxxa"],  // Written with a doubled غ in the lexicon (لُغَّة)
+    btx: ["cakap", "tʃakap"],  // lit. 'speech'
+    mqy: ["tombo", "toᵐbo"],  // lit. 'talk'; tombo Manggarai is the name of the language
+    sxn: ["bahasa", "bahasa"],
   },
 };

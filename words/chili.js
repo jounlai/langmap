@@ -566,6 +566,14 @@ WORDS.chili = {
     chy: "hot",
     br: "spice",
     ku: "plain",
+    tdd: "hot",
+    guz: "pepper",
+    akl: "plain",
+    rad: "unknown",
+    gwc: "pepper",
+    shu: "plain",
+    btx: "plain",
+    mqy: "plain",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -1072,5 +1080,13 @@ WORDS.chili = {
     chy: ["tsé-haʼháeénoʼe", "tséhaʔháeénoʔe"],  // Literally 'that which tastes spicy'.
     br: ["pimant", "ˈpimɑ̃nt"],  // As French piment.
     ku: ["îsot", "iːˈsoːt"],
+    tdd: ["ᥛᥣᥐᥱᥚᥤᥖᥚᥥᥖᥱ", "maːk˩pʰit˥˧pʰet˩"],  // phet.9 = spicy
+    guz: ["ebiribiri", "eβiɾiβiɾi"],  // dictionary: pepper, chili
+    akl: ["kotikot", "kotiˈkot"],  // Capsicum frutescens
+    rad: ["amrê̆č", "amrec"],
+    gwc: ["مٞرچکٞئی", "martɕakaj"],  // Borrowed from Pashto (2004 paper); listed as the plural 'chillies' in the conversation book
+    shu: ["شتة", "ʃette"],
+    btx: ["lacina", "latʃina"],  // also cina
+    mqy: ["nggurus", "ᵑɡurus"],
   },
 };

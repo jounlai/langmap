@@ -1148,6 +1148,18 @@ WORDS.love = {
     egy_dem: "plain",
     vi_mid: "plain",
     bxd: "plain",
+    tdd: "rak",
+    guz: "plain",
+    hay: "plain",
+    akl: "plain",
+    jra: "plain",
+    rad: "plain",
+    rsk: "lewbh",
+    izh: "plain",
+    hac: "ishq",
+    shu: "hubb",
+    btx: "plain",
+    mqy: "plain",
   },
   routes: {
     lewbh: {"color":"#2563eb","emoji":"❤️","en":"Proto-Indo-European *lewbʰ- (love, Liebe, любовь)","ja":"インド・ヨーロッパ祖語 *lewbʰ- (love, Liebe, любовь)","ko":"인도유럽 조어 *lewbʰ- (love, Liebe, любовь)","zh":"原始印欧语 *lewbʰ- (love, Liebe, любовь)","yue":"原始印歐語 *lewbʰ- (love, Liebe, любовь)","vi":"tiếng Ấn-Âu nguyên thủy *lewbʰ- (love, Liebe, любовь)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *lewbʰ- (love, Liebe, любовь)","id":"Proto-Indo-Eropa *lewbʰ- (love, Liebe, любовь)","hi":"आदि-भारोपीय *lewbʰ- (love, Liebe, любовь)","de":"urindogermanisch *lewbʰ- (love, Liebe, любовь)","fr":"le proto-indo-européen *lewbʰ- (love, Liebe, любовь)","it":"il protoindoeuropeo *lewbʰ- (love, Liebe, любовь)","es":"el protoindoeuropeo *lewbʰ- (love, Liebe, любовь)","pt":"o proto-indo-europeu *lewbʰ- (love, Liebe, любовь)","ru":"праиндоевропейское *lewbʰ- (love, Liebe, любовь)","uk":"праіндоєвропейське *lewbʰ- (love, Liebe, любовь)","ar":"الهندية الأوروبية الأم *lewbʰ- (love، Liebe، любовь)","he":"הפרוטו-הודו-אירופית *lewbʰ- (love, Liebe, любовь)","sw":"Kihindi-Ulaya asilia *lewbʰ- (love, Liebe, любовь)"},
@@ -2387,5 +2399,21 @@ WORDS.love = {
     egy_dem: ["mr", "me"],
     vi_mid: ["yêu", "iəw˧"],
     bxd: ["ŋø55", "ŋø˥˥"],  // The same verb means to like.
+    tdd: ["ᥞᥐ", "hak˥˧"],
+    guz: ["obwanchani", "oβwantʃani"],  // noun; verb ancha
+    hay: ["engonzi", "eŋɡonzi"],  // noun
+    akl: ["higugma", "hiˈɡuɡma"],
+    jra: ["amuăih", "amuajh"],
+    rad: ["khăp", "kʰap"],
+    rsk: ["любов", "ˈʎubɔw"],
+    izh: ["suvata", "ˈsuʋɑtɑ"],  // verb "to love"
+    hac: ["ëeşq", "ʕaʃq"],
+    shu: ["حب", "hubb"],  // ريدة reede is also 'love'
+    btx: ["keleng", "kələŋ"],
+    mqy: ["momang", "momaŋ"],
+    sxn: ["—", "—"],
+    gwc: ["—", "—"],
+    ibg: ["—", "—"],
+    krj: ["—", "—"],
   }
 };

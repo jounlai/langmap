@@ -936,6 +936,16 @@ WORDS.rainbow = {
     hoc: "serpent",
     arp: "plain",
     bor: "plain",
+    tdd: "rung",
+    guz: "unknown",
+    akl: "balangaw",
+    jra: "unknown",
+    rad: "unknown",
+    rsk: "bow",
+    izh: "other",
+    gwc: "plain",
+    shu: "other",
+    btx: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1829,5 +1839,15 @@ WORDS.rainbow = {
     hoc: ["rulbing", "rulbiŋ"],  // The Hos say 'rulbing ongtadae' for a rainbow: rulbing is a snake believed to stop the rain by blowing.
     arp: ["bohʼóoonoyóot", "bohʔóoːnojóːt"],
     bor: ["jure", "dʒuɾe"],
+    tdd: ["ᥞᥧᥒᥰ", "huŋ˥"],  // IDS huŋ.2 va:i.3 fa.4
+    guz: ["omokubinyongo", "omokuβiɲoːŋɡo"],
+    akl: ["baeangaw", "baɣaˈŋaw"],
+    jra: ["amrŏt", "amɾɔt"],
+    rad: ["kê̆ñ krô", "keɲ kroː"],
+    rsk: ["дуга", "ˈduɦa"],
+    izh: ["vihmakaarre", "ˈʋihmɑˌkɑːrːe"],
+    gwc: ["ہِدان", "hidɑːn"],
+    shu: ["حجاز المطر", "hadʒdʒaːz al-matar"],
+    btx: ["benteha", "bəntəha"],
   },
 };

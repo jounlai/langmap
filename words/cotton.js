@@ -612,6 +612,15 @@ WORDS.cotton = {
     rm: "plain",
     sc: "qutn",
     xmf: "pambak",
+    tdd: "plain",
+    hay: "pambak",
+    akl: "qutn",
+    jra: "karpasa",
+    rad: "karpasa",
+    izh: "treewool",
+    shu: "qutn",
+    btx: "karpasa",
+    mqy: "karpasa",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -1212,5 +1221,14 @@ WORDS.cotton = {
     rm: ["mangola", "manˈɡɔla"],  // No image is recorded for it, so it counts as a word of its own.
     sc: ["cotone", "koˈtone"],
     xmf: ["ბამბე", "bambe"],
+    tdd: ["ᥐᥧᥭ", "kuj˧"],  // IDS writes koi.6 (second variant, after lun.6 'kapok'); Wiktionary ᥐᥧᥭ
+    hay: ["epamba", "epamba"],  // from Swahili (marked in the list)
+    akl: ["algudon", "ʔalɡuˈdon"],
+    jra: ["kơpaih", "kəpajh"],
+    rad: ["kpaih", "kpajh"],
+    izh: ["puuvilla", "ˈpuːˌʋilːɑ"],
+    shu: ["قطن", "ɡutun"],  // Collective
+    btx: ["kapas", "kapas"],
+    mqy: ["kampas", "kaᵐpas"],
   },
 };

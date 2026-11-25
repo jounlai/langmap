@@ -933,6 +933,19 @@ WORDS.rice = {
     fud: "plain",
     hif: "camala",
     bor: "plain",
+    tdd: "qaw",
+    guz: "mchele",
+    hay: "mchele",
+    akl: "beras",
+    jra: "beras",
+    rad: "beras",
+    rsk: "oryza",
+    izh: "oryza",
+    gwc: "plain",
+    hac: "birinj",
+    shu: "ruzz",
+    btx: "beras",
+    mqy: "plain",
   },
   routes: {
     oryza: {"color":"#2563eb","emoji":"🏛️","en":"Ancient Greek ὄρυζα (rice, riz, Reis)","ja":"古代ギリシア語 ὄρυζα (rice, riz, Reis)","ko":"고대 그리스어 ὄρυζα (rice, riz, Reis)","zh":"古希腊语 ὄρυζα (rice, riz, Reis)","yue":"古希臘語 ὄρυζα (rice, riz, Reis)","vi":"tiếng Hy Lạp cổ ὄρυζα (rice, riz, Reis)","th":"ภาษากรีกโบราณ ὄρυζα (rice, riz, Reis)","id":"Yunani Kuno ὄρυζα (rice, riz, Reis)","hi":"प्राचीन यूनानी ὄρυζα (rice, riz, Reis)","de":"altgriechisch ὄρυζα (rice, riz, Reis)","fr":"le grec ancien ὄρυζα (rice, riz, Reis)","it":"il greco antico ὄρυζα (rice, riz, Reis)","es":"el griego antiguo ὄρυζα (rice, riz, Reis)","pt":"o grego antigo ὄρυζα (rice, riz, Reis)","ru":"древнегреческое ὄρυζα (rice, riz, Reis)","uk":"давньогрецьке ὄρυζα (rice, riz, Reis)","ar":"اليونانية القديمة ὄρυζα (rice، riz، Reis)","he":"היוונית העתיקה ὄρυζα (rice, riz, Reis)","sw":"Kigiriki cha Kale ὄρυζα (rice, riz, Reis)"},
@@ -1838,5 +1851,18 @@ WORDS.rice = {
     fud: ["laisi", "laisi"],
     hif: ["chaaur", "tʃaːur"],
     bor: ["iro", "iɾo"],
+    tdd: ["ᥑᥝᥲ", "xaw˧˩"],
+    guz: ["omochere", "ɔmɔtʃɛːɾɛ"],
+    hay: ["omuchele", "omutʃele"],  // from Swahili (marked in the list)
+    akl: ["bugas", "buˈɡas"],  // husked rice
+    jra: ["braih", "bɾajh"],  // husked rice
+    rad: ["braih", "brajh"],  // husked rice
+    rsk: ["рискаша", "risˈkaʃa"],
+    izh: ["riissu", "ˈriːsːu"],
+    gwc: ["تلُون", "tɑluːn"],
+    hac: ["birinc", "bɪɾɪndʒ"],  // Polished rice; rice in the husk is çełtûk
+    shu: ["رز", "rizz"],
+    btx: ["beras", "bəras"],
+    mqy: ["déa", "dea"],  // husked rice; the plant is woja
   }
 };

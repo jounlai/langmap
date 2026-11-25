@@ -327,6 +327,15 @@ WORDS.cockroach = {
     zh_cd: "oil",
     ltg: "people",
     io: "latin",
+    tdd: "plain",
+    guz: "plain",
+    hay: "plain",
+    akl: "cucaracha",
+    rad: "plain",
+    rsk: "plain",
+    izh: "tarakan",
+    btx: "sipes",
+    mqy: "plain",
   },
   routes: {
     cucaracha: {"color":"#d97706","emoji":"🇪🇸","en":"from Spanish cucaracha (cockroach)","ja":"スペイン語 cucaracha から (cockroach)","ko":"스페인어 cucaracha에서 (cockroach)","zh":"来自西班牙语 cucaracha (cockroach)","yue":"嚟自西班牙文 cucaracha (cockroach)","vi":"từ tiếng Tây Ban Nha cucaracha (cockroach)","th":"จากภาษาสเปน cucaracha (cockroach)","id":"dari cucaracha Spanyol (cockroach)","hi":"स्पेनी cucaracha से (cockroach)","de":"aus spanisch cucaracha (cockroach)","fr":"de l'espagnol cucaracha (cockroach)","it":"dallo spagnolo cucaracha (cockroach)","es":"del español cucaracha (cockroach)","pt":"do espanhol cucaracha (cockroach)","ru":"от испанского cucaracha (cockroach)","uk":"від іспанського cucaracha (cockroach)","ar":"من الإسبانية cucaracha (cockroach)","he":"מהספרדית cucaracha (cockroach)","sw":"kutoka Kihispania cucaracha (cockroach)"},
@@ -607,5 +616,14 @@ WORDS.cockroach = {
     zh_cd: ["偷油婆", "tʰəu˥˥ iəu˨˩ pʰo˨˩"],  // steal + oil + old woman, a compound recorded in the dictionary.
     ltg: ["brusaks", "ˈbrusaks"],  // Borrowed from a Slavic word 'Prussian' (cf. Russian прусак).
     io: ["blato", "ˈblato"],  // From Latin blatta via the Romance languages.
+    tdd: ["ᥛᥦᥒᥰᥔᥣᥙᥱ", "mɛŋ˥saːp˩"],
+    guz: ["esobono", "esoβono"],
+    hay: ["enyenje", "eɲendʒe"],
+    akl: ["kuratsa", "kuˈɾatʃa"],  // marked as a Spanish loan in the dictionary
+    rad: ["tăk", "tak"],
+    rsk: ["кухньов хробак", "ˈkuxɲɔw ˈxrɔbak"],  // literally "kitchen bug"; also шваб
+    izh: ["tarakkana", "ˈtɑrɑkːɑnɑ"],  // also prusakka
+    btx: ["lipas", "lipas"],  // Neumann has ipes 'brown cockroach'
+    mqy: ["cigir", "tʃiɡir"],
   },
 };

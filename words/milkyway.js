@@ -466,6 +466,8 @@ WORDS.milkyway = {
     rm: "milk",
     vep: "milk",
     xmf: "road",
+    rsk: "milk",
+    izh: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -876,5 +878,7 @@ WORDS.milkyway = {
     rm: ["via da latg", "via da latɕ"],  // Literally 'the road of milk'.
     vep: ["Maidte", "ˈmaidte"],  // Literally "milk road".
     xmf: ["მეშხურეშ შარა", "meʃxureʃ ʃara"],  // Literally 'the shepherd's road'.
+    rsk: ["Млєчна драга", "ˈmʎɛtʃna ˈdraɦa"],
+    izh: ["Tähtirata", "ˈtæhtiˌrɑtɑ"],  // "star path"
   },
 };

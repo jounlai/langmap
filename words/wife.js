@@ -979,6 +979,21 @@ WORDS.wife = {
     apw: "own",
     piu: "spouse",
     win: "own",
+    tdd: "mia",
+    guz: "own",
+    hay: "woman",
+    akl: "spouse",
+    krj: "own",
+    ibg: "spouse",
+    jra: "woman",
+    rad: "own",
+    rsk: "woman",
+    izh: "woman",
+    gwc: "woman",
+    hac: "woman",
+    shu: "woman",
+    btx: "own",
+    mqy: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1920,5 +1935,20 @@ WORDS.wife = {
     apw: ["biʼaa", "biʔaː"],
     piu: ["miiṯa", "miːʈa"],  // The same word means husband: the Luritja Bible uses miiṯa for either spouse.
     win: ["hicawį", "hitʃawĩ"],  // The word for a woman is hinų́k.
+    tdd: ["ᥛᥥᥰ", "me˥"],
+    guz: ["omorugi", "omoɾuɣi"],
+    hay: ["omukazi", "omukazi"],  // also "woman"
+    akl: ["asawa", "ʔaˈsawa"],  // glossed "spouse; husband/wife"
+    krj: ["sawa", "sawa"],
+    ibg: ["atawa", "ʔatawa"],
+    jra: ["bơnai", "bənaːj"],
+    rad: ["mô̆", "moʔ"],
+    rsk: ["жена", "ˈʒɛna"],
+    izh: ["nain", "nɑin"],
+    gwc: ["اِس", "is"],  // Also 'woman'
+    hac: ["jenî", "ʒaniː"],  // Also 'woman'
+    shu: ["مرة", "mara"],  // 'woman'; used for wife as in neighbouring Arabic
+    btx: ["ndehara", "ndəhara"],
+    mqy: ["wina", "vina"],  // also 'woman'
   },
 };

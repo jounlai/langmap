@@ -1172,6 +1172,21 @@ WORDS.horse = {
     nys: "plain",
     bxd: "mrang",
     dak: "plain",
+    tdd: "maa",
+    guz: "faras",
+    hay: "faras",
+    akl: "caballo_es",
+    krj: "caballo_es",
+    jra: "seh",
+    rad: "seh",
+    rsk: "kon",
+    izh: "hepo",
+    gwc: "plain",
+    hac: "ekwos",
+    shu: "plain",
+    btx: "plain",
+    mqy: "jaran",
+    sxn: "caballo_es",
   },
   routes: {
     ekwos: {"color":"#2563eb","emoji":"🏇","en":"Proto-Indo-European *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ja":"印欧祖語 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ko":"인도유럽 조어 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","zh":"原始印欧语 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","yue":"原始印歐語 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","vi":"tiếng Ấn-Âu nguyên thủy *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","id":"Proto-Indo-Eropa *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","hi":"आदि-भारोपीय *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","de":"urindogermanisch *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","fr":"le proto-indo-européen *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","it":"il protoindoeuropeo *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","es":"el protoindoeuropeo *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","pt":"o proto-indo-europeu *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ru":"праиндоевропейское *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","uk":"праіндоєвропейське *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ar":"الهندو-أوروبية الأم *h₁éḱwos (equus، ἵππος، अश्वः، اسب)","he":"הפרוטו-הודו-אירופית *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","sw":"Kihindi-Kiulaya asilia *h₁éḱwos (equus, ἵππος, अश्वः, اسب)"},
@@ -2324,5 +2339,20 @@ WORDS.horse = {
     nys: ["ngort", "ŋoɻt"],
     bxd: ["mjɔ̃31", "mjɔ̃˧˩"],
     dak: ["šuŋktáŋka", "ʃũktã́ka"],  // 'big dog' (šúŋka + táŋka)
+    tdd: ["ᥛᥣᥳ", "maː˥˧"],
+    guz: ["ebarasi", "eβaɾaːsi"],
+    hay: ["embalaasi", "embalaːsi"],
+    akl: ["kabayo'", "kaˈbajoʔ"],
+    krj: ["kabayo", "kabajo"],
+    jra: ["aseh", "asɛːh"],  // Wiktionary: possibly from Khmer សេះ
+    rad: ["aseh", "asɛːh"],  // cf. Jarai aseh, which Wiktionary compares with Khmer សេះ
+    rsk: ["конь", "kɔɲ"],
+    izh: ["hepoin", "ˈhepoin"],
+    gwc: ["گھور", "ɡoːr"],
+    hac: ["esp", "asp"],
+    shu: ["جواد", "dʒuwaːd"],
+    btx: ["kuda", "kuda"],
+    mqy: ["jarang", "dʒaraŋ"],
+    sxn: ["kawaḷo", "kawaɭo"],
   }
 };

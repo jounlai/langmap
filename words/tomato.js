@@ -940,7 +940,7 @@ WORDS.tomato = {
     ko_yb: ["일년감", "illjʌnɡam"],  // 일년 'one year' + 감 'persimmon': a persimmon that grows in a single year.
     wuu_hz: ["番茄", "fᴇ̃˧˧ ɡɑ˨˩˧"],  // 番 'foreign' + 茄 'eggplant'.
     ar_tn: ["طماطم", "ˈtˤmaːtˤəm"],  // Tunisian ṭmāṭem, the same Spanish-derived word as Standard Arabic طماطم, from Nahuatl tomatl.
-    nan_te: ["番茄", "huaŋ˧˧ ɡie˥˥"],  // 番 'foreign' + 茄 'eggplant'; Teochew uses the Mandarin-type word, not Taiwanese 柑仔蜜.
+    nan_te: ["番茄", "huaŋ˧˧ kio˥˥"],  // 番 'foreign' + 茄 'eggplant'; Teochew uses the Mandarin-type word, not Taiwanese 柑仔蜜.
     nan_ph: ["柑仔得", "kam˧˧ a˥˥˦ tit˥"],  // From Tagalog kamatis, from Spanish tomate, from Nahuatl tomatl.
     nan_qz: ["柑仔得", "kam˧˧ ma˥˥˦ tit˥"],  // From Tagalog kamatis, from Spanish tomate, from Nahuatl tomatl; 臭柿仔 'stinky persimmon' is also used.
     nan_xm: ["臭柿仔", "tsʰau˨˩ kʰi˨˨ a˥˧"],  // Literally 'stinky little persimmon'; 柑仔得, from Tagalog kamatis, is less common in Xiamen.

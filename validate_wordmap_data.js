@@ -1041,7 +1041,7 @@ for (const code of codes) {
                 trv: new Set(['milk', 'computer']),   // r105: wrong cell removed; no sourced form found
                 bzh: new Set(['chocolate']),   // r105: wrong cell removed; no sourced form found
                 xul: new Set(['eat', 'drink']),   // r105: wrong cell removed; no sourced form found
-                aer: new Set(['sun', 'drink']),   // r105: wrong cell removed; no sourced form found
+                aer: new Set(['love']),   // review 494: mwerre is 'good', not 'love'; no sourced form found
                 nej: new Set(['red', 'fish', 'name', 'two', 'three', 'you']),   // r105: wrong cell removed; no sourced form found
                 frr_amr: new Set(['wheel']),   // r105: wrong cell removed; no sourced form found
                 nxq: new Set(['wine']),   // r104: wrong cell removed; no sourced form found

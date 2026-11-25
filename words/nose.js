@@ -1446,7 +1446,7 @@ WORDS.nose = {
     rn: ["izuru", "izuɾu"],
     xh: ["impumlo", "impumːlo"],
     sn: ["mhino", "mʱino"],
-    ln: ["zolo", "zóló"],
+    ln: ["zólo", "zólo"],
     ny: ["mphuno", "ˈmpʰuno"],
     en_aave: ["nose", "noʊz"],
     en_nz: ["nose", "nɐʉz"],

@@ -26,4 +26,8 @@ Historical & proto-language reviewer; source-traceable reconstructions. Read-onl
 - **Source:** Monier-Williams s.v. dvi- (nom. dvau); parallel h_vedic 'two' = द्वौ dvau.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 0 applied, 3 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+pal, psem: already fixed. sa two → द्वौ (Wiktionary: nom. masc. dual of द्व).

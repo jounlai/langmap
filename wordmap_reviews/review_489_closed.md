@@ -32,4 +32,8 @@ Mongolic/Tungusic reviewer; Cyrillic/Manchu script, reconstructions. Read-only r
 - **Source:** mn_cn column is defined with native ᠮᠣᠩᠭᠣᠯ (Traditional Mongolian script); all other mn_cn cells follow it — internal consistency.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 3 applied, 1 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

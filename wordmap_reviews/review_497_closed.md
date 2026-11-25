@@ -32,4 +32,8 @@ Caucasian & isolates reviewer; Georgian/Cyrillic, Basque. Read-only review; ever
 - **Source:** Ainu phonology: /c/ realized [t͡ʃ]; internal inconsistency vs bird/cat/house/star cells and the チェ katakana.
 - **Disposition:** APPLIED (`9e3587f3`)
 
-**File status: OPEN** — 2 applied, 2 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+niv, palochka: already fixed; the last lowercase word with a capital palochka (octopus ce) fixed now. Word-initial capitals in ce/inh "India" and av "Milky Way" are kept.

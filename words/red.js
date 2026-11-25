@@ -1628,7 +1628,7 @@ WORDS.red = {
     kxc: ["tiima", "tiːma"],
     drs: ["diimmo", "diːmːo"],
     dsh: ["bur", "bur"],
-    rw: ["utukura", "utukuɾa"],
+    rw: ["umutuku", "umutuku"],
     rn: ["gutukura", "ɡutukuɾa"],
     xh: ["bomvu", "ɓoːmvu"],
     sn: ["tsvuku", "tsvuku"],

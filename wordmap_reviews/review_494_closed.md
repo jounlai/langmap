@@ -32,4 +32,8 @@ Australian Aboriginal reviewer; retroflex/lamino notation. Read-only review; eve
 - **Source:** Wikivoyage/Arrernte glossaries and Henderson & Dobson: mwerre = 'good, well'.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 1 applied, 3 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+aer drink → antyweme and eat → arlkweme (Eastern & Central Arrernte learners' dictionary, iadpd.com.au/ecarrernte). aer love → — (mwerre is "good").

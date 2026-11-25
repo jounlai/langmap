@@ -50,4 +50,8 @@ Oceanic/Polynesian reviewer; macrons, glottal stops, ABVD/POLLEX. Read-only revi
 - **Source:** Internal consistency (dataset's own mh cells); Marshallese ⟨j⟩ = [tʲ~dʲ] (Marshallese-English Dictionary).
 - **Disposition:** APPLIED (`9e3587f3`)
 
-**File status: OPEN** — 5 applied, 2 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

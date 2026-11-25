@@ -32,4 +32,8 @@ Bantu reviewer; noun-class citation, tone. Read-only review; every finding below
 - **Source:** Internal convention of ln cells in repo; Glosbe / dic.lingala.be entry 'zólo' = nose.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 0 applied, 4 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+ki, bem: already fixed. rw red → umutuku (French Wiktionary: Kinyarwanda tuku "red"; umutuku in learner colour lists; the row cites colours in this shape). ln nose → zólo (Wiktionary: alternative form of zolo).

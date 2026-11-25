@@ -733,7 +733,7 @@ WORDS.octopus = {
     kbd: ["осьминог", "osʲminoɡ"],
     myv: ["кавксопильге", "kafksopilʲɡe"],
     udm: ["тямыспыд", "tʲamɨsˈpɨd"],
-    ce: ["бархӀкогберг", "ˈbarhkoɡberɡ"],  // Built on бархӀ 'eight' and ког 'leg', like Russian осьминог.
+    ce: ["бархӏкогберг", "ˈbarhkoɡberɡ"],  // Built on бархӏ 'eight' and ког 'leg', like Russian осьминог.
     nds: ["Kraken", "ˈkraːkn̩"],
     tyv: ["осьминог", "osʲmiˈnok"],  // Borrowed from Russian осьминог 'eight legs'.
     am: ["ኦክቶፐስ", "oktopəs"],  // Borrowed from English octopus, Greek "eight-foot".

@@ -20,4 +20,8 @@ Western Malayo-Polynesian reviewer; ABVD, native scripts. Read-only review; ever
 - **Source:** Blust (2003) Thao Dictionary phonology / standard Thao orthography (lh = /ɬ/); internal consistency with the other four ssf 'lh' cells in this dataset.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 0 applied, 2 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

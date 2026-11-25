@@ -38,4 +38,8 @@ Romance philologist (es/pt/fr/it/ro/ca/oc/sc + Romance creoles); Wiktionary, dia
 - **Source:** en.wiktionary.org/wiki/noapte (/ˈno̯ap.te/); internal consistency with ro soare/stea/coadă
 - **Disposition:** APPLIED (`9e3587f3`)
 
-**File status: OPEN** — 3 applied, 2 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

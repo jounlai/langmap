@@ -38,4 +38,8 @@ Japonic/Koreanic/Ainu specialist; OJ kō/otsu, MK tone, Ryukyuan, Ainu katakana.
 - **Source:** Standard Ainu phonology (single affricate /c/ ≈ [t͡ʃ]); internal inconsistency across ain rows.
 - **Disposition:** APPLIED (`9e3587f3`)
 
-**File status: OPEN** — 1 applied, 4 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

@@ -50,4 +50,8 @@ Papuan/Trans-New-Guinea reviewer; Fedden & field grammars. Read-only review; eve
 - **Source:** Fedden (2011) A Grammar of Mian — as 'tree; wood; fire'; kweil 'hand'; ninin 'name'.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 0 applied, 7 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

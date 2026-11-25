@@ -2017,7 +2017,7 @@ WORDS.eat = {
     pjt: ["ngalkuṉi", "ˈŋalkuɳi"],
     wbp: ["ngarni", "ŋaɳi"],
     piu: ["ngalkuni", "ŋalkuni"],
-    aer: ["arlkenge", "aɭkɛŋe"],
+    aer: ["arlkweme", "aɭkʷəmə"],
     nha: ["ngala", "ŋala"],
     olk: ["ichan", "itʃan"],
     adt: ["ngarlku-", "ŋaɭku"],

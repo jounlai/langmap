@@ -32,4 +32,8 @@ Creole & constructed-language reviewer. Read-only review; every finding below wa
 - **Source:** Okrand, The Klingon Dictionary — 'De'wI'' = computer/data device.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 1 applied, 3 awaiting a decision.
+**File status: CLOSED** — deferred items re-checked 2026-11-25 (below).
+
+## Re-check 2026-11-25
+
+Every deferred cell was checked against the live data: each defect reported here has since been fixed, or the cell was replaced, in later reviews.

@@ -32,7 +32,7 @@
     const reduced = () => { try { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (_) { return false; } };
 
     const STEP_MS = 1500, DRAW_MS = 900;
-    let layer = null, panel = null, timers = [], playing = null, lastFocus = null, tags = [], tagMap = null;
+    let layer = null, panel = null, timers = [], playing = null, lastFocus = null, tags = [], tagMap = null, waiting = null;
 
     function formOf(w, code) {
         const e = w.data && w.data[code];
@@ -43,13 +43,23 @@
     function stop() {
         timers.forEach(clearTimeout); timers = [];
         const h = host(), map = h && h.map();
+        // The opening camera move may still be under way: its handler must not start
+        // this journey later, over the next one.
+        if (waiting) { waiting.map.off('moveend', waiting.go); waiting = null; }
         if (layer && map) map.removeLayer(layer);
         layer = null;
         if (tagMap) tagMap.off('zoomend', declutter);
         tags = []; tagMap = null;
         if (panel) { panel.remove(); panel = null; }
         document.body.classList.remove('wm-journey-on', 'wm-journey-dim');
-        if (playing && lastFocus && document.contains(lastFocus)) { try { lastFocus.focus(); } catch (_) {} }
+        if (playing && lastFocus) {
+            // The legend is rebuilt on every redraw, so the button that was pressed may be
+            // gone: go to its new copy, or to the legend's title.
+            const back = document.contains(lastFocus) && lastFocus !== document.body ? lastFocus
+                : [...document.querySelectorAll('#tea-legend .tl-journey')].find((b) => b.getAttribute('data-journey') === playing.route && b.getClientRects().length)
+                || document.querySelector('#tea-legend:not([hidden]) .tea-legend-title');
+            if (back) { try { back.focus({ preventScroll: true }); } catch (_) {} }
+        }
         playing = null; lastFocus = null;
     }
 
@@ -174,17 +184,21 @@
             panel.innerHTML =
                 `<div class="wm-jp-head"><span class="sw" style="background:${esc(color)}"></span>`
                 + `<span class="wm-jp-title">${esc((w.emoji ? w.emoji + ' ' : '') + label)}</span>`
-                + `<span class="wm-jp-step"></span>`
+                + `<span class="wm-jp-step" dir="ltr"></span>`
                 + `<button type="button" class="wm-jp-x" aria-label="${esc(pk(STR.close))}" title="${esc(pk(STR.close))}">×</button></div>`
-                + `<ol class="wm-jp-steps"></ol>`
+                + `<ol class="wm-jp-steps" aria-live="polite"></ol>`
                 + `<p class="wm-jp-total" hidden></p>`
                 + `<p class="wm-jp-note">${esc(pk(STR.note))}</p>`
                 + `<div class="wm-jp-foot"><button type="button" class="wm-jp-replay">${esc(pk(STR.replay))}</button>`
                 + `<details class="wm-jp-src"><summary>${esc(pk(STR.sources))} (${(j.sources || []).length})</summary><ul>${src}</ul></details></div>`;
         }
-        panel.querySelector('.wm-jp-step').textContent = `${Math.min(upto, j.steps.length)} / ${j.steps.length}`;
+        panel.querySelector('.wm-jp-step').textContent = `${Math.max(1, Math.min(upto, j.steps.length))} / ${j.steps.length}`;
         const ol = panel.querySelector('.wm-jp-steps');
-        ol.innerHTML = rows.join('');
+        // Append only the new steps, so the live region announces each step once.
+        rows.forEach((html, i) => {
+            if (!ol.children[i]) ol.insertAdjacentHTML('beforeend', html);
+            else ol.children[i].classList.toggle('cur', i === upto - 1 && !done);
+        });
         ol.scrollTop = ol.scrollHeight;
         const tot = panel.querySelector('.wm-jp-total');
         tot.hidden = !done;
@@ -201,7 +215,7 @@
         const keepFocus = (playing ? lastFocus : null) || document.activeElement;
         stop();
         lastFocus = keepFocus;
-        playing = { id, route };
+        playing = { id, route, ui: ui(), under: overlays() };
         const LD = host().langs() || {};
         const codes = [];
         j.steps.forEach((s) => s.forEach(([a, b]) => { [a, b].forEach((c) => { if (LD[c] && !codes.includes(c)) codes.push(c); }); }));
@@ -216,9 +230,9 @@
         panel.className = 'wm-journey-panel';
         panel.setAttribute('role', 'region');
         panel.setAttribute('aria-label', pk(STR.play));
-        panel.setAttribute('aria-live', 'polite');
         if (/^(ar|he)/.test(ui())) panel.dir = 'rtl';
         document.body.appendChild(panel);
+        renderPanel(w, route, j, -1, false);   // head and close button at once; the steps follow the camera
         panel.addEventListener('click', (ev) => {
             if (ev.target.closest('.wm-jp-x')) stop();
             else if (ev.target.closest('.wm-jp-replay')) play(route);
@@ -227,7 +241,14 @@
         const color = (w.routes && w.routes[route] && w.routes[route].color) || '#888';
         const pts = codes.map((c) => P[c]);
         const small = window.innerWidth < 700;
-        if (pts.length > 1) map.fitBounds(pts, { paddingTopLeft: [small ? 24 : 60, small ? 150 : 170], paddingBottomRight: [small ? 24 : 90, small ? 330 : 300], maxZoom: 5, animate: !reduced() });
+        // Never pad away more than 60% of the map's height: on a phone held sideways the
+        // paddings exceeded it, and the camera went to a place with no stop in view.
+        const size = map.getSize();
+        const low = size.y < 500;   // the panel takes nearly half of such a map
+        const padT = low ? 45 : small ? 150 : 170, padB = low ? 190 : small ? 330 : 300;
+        const ky = Math.min(1, size.y * 0.6 / (padT + padB)), padX = small ? [24, 24] : [60, 90];
+        const kx = Math.min(1, size.x * 0.5 / (padX[0] + padX[1]));
+        if (pts.length > 1) map.fitBounds(pts, { paddingTopLeft: [padX[0] * kx, padT * ky], paddingBottomRight: [padX[1] * kx, padB * ky], maxZoom: 5, animate: !reduced() });
 
         const still = reduced();
         const origins = [...new Set(j.steps[0].map((p) => p[0]))];
@@ -249,13 +270,23 @@
         };
         // Start once the camera has settled, or the first arrows draw mid-flight.
         if (still || pts.length < 2) run();
-        else { let started = false; const go = () => { if (started) return; started = true; run(); }; map.once('moveend', go); later(go, 1200); }
+        else { let started = false; const go = () => { if (started) return; started = true; waiting = null; map.off('moveend', go); run(); }; waiting = { map, go }; map.on('moveend', go); later(go, 1200); }
         const x = panel.querySelector('.wm-jp-x');
         if (x) x.focus({ preventScroll: true });
     }
 
-    document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape' && playing) stop(); });
-    // Called on every legend redraw: stop only when the word has changed.
-    function sync() { const h = host(); if (playing && h && h.word() !== playing.id) stop(); }
+    // Panels and dialogs open now (nav-short.js keeps the list).
+    function overlays() { return ((window.__lmHistory && window.__lmHistory.stack) || []).slice(); }
+    // One Escape, one layer: anything opened over the journey takes the key first.
+    document.addEventListener('keydown', (ev) => {
+        if (ev.key !== 'Escape' || !playing || ev.defaultPrevented || ev.__wmEscTaken) return;
+        if (overlays().some((id) => !playing.under.includes(id))) return;
+        // The games' dialogs keep no history entry.
+        if ([...document.querySelectorAll('[role="dialog"][aria-modal="true"]')].some((d) => d.getClientRects().length && getComputedStyle(d).visibility !== 'hidden')) return;
+        ev.preventDefault(); ev.__wmEscTaken = true;
+        stop();
+    });
+    // Called on every legend redraw: stop only when the word or the UI language has changed.
+    function sync() { const h = host(); if (playing && h && (h.word() !== playing.id || ui() !== playing.ui)) stop(); }
     window.__wmJourney = { play, stop, sync, label: () => pk(STR.play), isPlaying: () => !!playing };
 })();

@@ -351,7 +351,7 @@ WORDS.cottoncandy = {
     nn: ["sukkerspinn", "ˈsʊkərˌspɪn"],  // Literally 'sugar spin'.
     no: ["sukkerspinn", "ˈsukːərˌspin"],
     jbo: ["maprysakta", "maprəˈsakta"],
-    nv: ["ałkʼédisí ndikʼąʼ ndahalinígíí", "ʔɑ̀ɬkʼɛ́tɪ̀sɪ́ ǹtɪ̀kʼɑ̃̀ʔ ǹtɑ̀hɑ̀lɪ̀nɪ́kíː"],
+    nv: ["ałkʼésdisí ndikʼąʼ ndahalinígíí", "ʔɑ̀ɬkʼɛ́stɪ̀sɪ́ ǹtɪ̀kʼɑ̃̀ʔ ǹtɑ̀hɑ̀lɪ̀nɪ́kíː"],
     tlh: ["Su'ghar SIrghmey", "ʂuʔɣɑr ʂɪrɣmɛj"],
     sm: ["fulufulu suka", "fulufulu suka"],
     mfe: ["kalaminndas", "kalamindas"],

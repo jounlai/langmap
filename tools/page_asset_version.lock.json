@@ -28,8 +28,8 @@
     "hash": "afbb9716fa94f6ad"
   },
   "ipa_synth/speak.js": {
-    "version": 64,
-    "hash": "2723b3b85f6b80ff"
+    "version": 65,
+    "hash": "e2708d2f0086abda"
   },
   "ipa_synth/tract.js": {
     "version": 56,
@@ -200,15 +200,15 @@
     "hash": "1adc390baa30fd72"
   },
   "word_journey.js": {
-    "version": 2,
-    "hash": "a973eaf6e0bfe440"
+    "version": 4,
+    "hash": "f4d7b18d5b162fbd"
   },
   "word_labels.js": {
     "version": 155,
     "hash": "ebe067f2d50d98a3"
   },
   "word_manifest.js": {
-    "version": 1812,
+    "version": 1813,
     "hash": "fa0d96f2360ed6ce"
   },
   "wordmap_data.js": {

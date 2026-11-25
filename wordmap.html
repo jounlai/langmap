@@ -757,7 +757,6 @@
         #word-modal #word-modal-seo { margin: -6px 0 10px; }
         #word-definition .word-seo-link { margin-top: 6px; }
         body.is-3d #word-definition .word-seo-link { color: #8ab4f8; }
-        @media (prefers-color-scheme: dark) { html[data-theme="dark"] .word-seo-link { color: #8ab4f8; } }
         #word-modal #word-modal-body {
             flex: 1 1 auto; min-height: 0;
             overflow-y: auto; overscroll-behavior: contain;
@@ -1583,6 +1582,7 @@
         .wm-jp-x:hover { background: rgba(0,0,0,0.07); }
         .wm-jp-steps { list-style: none; margin: 8px 0 0; padding: 0; max-height: 30vh; overflow-y: auto; }
         @media (max-width: 700px) { .wm-jp-steps { max-height: 19vh; } .wm-jp-note { display: none; } }
+        @media (max-height: 500px) { .wm-jp-steps { max-height: 14vh; } .wm-jp-note { display: none; } }
         .wm-jp-steps li { display: flex; gap: 8px; padding: 3px 0; opacity: .62; }
         .wm-jp-steps li.cur, .wm-jp-steps li:last-child { opacity: 1; }
         .wm-jp-n { flex: none; width: 18px; height: 18px; border-radius: 50%; background: #e8e8e8; font-size: 11px; display: grid; place-items: center; font-variant-numeric: tabular-nums; }
@@ -4055,7 +4055,7 @@
     </script>
     <script src="wordmap_data.js?v=370"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="word_manifest.js?v=1812"></script>
+    <script src="word_manifest.js?v=1813"></script>
     <script src="word_labels.js?v=155"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -4084,8 +4084,8 @@
             meta:     477,
             trivia:   126,
             triviaI18n: 158,
-            words:      1812,
-            langWords:    1435,
+            words:      1813,
+            langWords:    1436,
             labels:      155,
             metaI18nCoverage: 16,
             metaI18nCoverage2: 6,
@@ -4256,7 +4256,7 @@
     <script>window.__langNamesVersion(235); window.__langNamesBoot();</script>
     <!-- word_journey.js: the route legend's "watch the journey" player. Loaded before the main
          script so the first legend render already finds window.__wmJourney. -->
-    <script src="word_journey.js?v=2"></script>
+    <script src="word_journey.js?v=4"></script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->
@@ -6734,7 +6734,7 @@
             if (window.__wmJourney) window.__wmJourney.sync();
             const W = (typeof currentWord !== 'undefined' && window.WORDS) ? WORDS[currentWord] : null;
             if (!W || !W.routes || !W.family) {
-                el.hidden = true; el.setAttribute('aria-hidden', 'true'); el.innerHTML = ''; return;
+                el.hidden = true; el.setAttribute('aria-hidden', 'true'); el.innerHTML = ''; el._html = ''; return;
             }
             const base = uiLang.split('_')[0];
             const name = (W.label && (W.label[uiLang] || W.label[base] || W.label.en)) || currentWord;
@@ -6765,9 +6765,24 @@
             // Open by default — the colours mean nothing without it — and the
             // reader's choice carries over to the next route word.
             const open = routeLegendOpen(Object.keys(W.routes).length);
-            el.innerHTML = `<button type="button" class="tea-legend-title" aria-expanded="${open}">`
+            const html = `<button type="button" class="tea-legend-title" aria-expanded="${open}">`
                          + `<span>${escapeHtml(title)}</span><span class="tl-chev" aria-hidden="true"></span></button>`
                          + `<div class="tea-legend-rows"${open ? '' : ' hidden'}>${rows}${journeyButtons(W, base)}</div>`;
+            // Every pan redraws this: leave an unchanged legend alone, and keep the reader's
+            // place and focus in one that changed (a new word starts at the top).
+            if (html !== el._html) {
+                const old = el.querySelector('.tea-legend-rows'), a = document.activeElement;
+                const same = el._word === currentWord, top = same && old ? old.scrollTop : 0, elTop = same ? el.scrollTop : 0;
+                const at = same && a && el.contains(a) ? { r: a.getAttribute('data-route'), j: a.getAttribute('data-journey') } : null;
+                el.innerHTML = html; el._html = html; el._word = currentWord;
+                const now = el.querySelector('.tea-legend-rows');
+                if (now) now.scrollTop = top;
+                el.scrollTop = elTop;
+                if (at) {
+                    const t = at.r || at.j ? [...el.querySelectorAll('[data-route], [data-journey]')].find(n => at.r ? n.getAttribute('data-route') === at.r : n.getAttribute('data-journey') === at.j) : el.querySelector('.tea-legend-title');
+                    if (t) t.focus({ preventScroll: true });
+                }
+            }
             el.classList.toggle('collapsed', !open);
             el.hidden = false; el.setAttribute('aria-hidden', 'false');
             wireRouteLegendClicks(el);
@@ -6780,7 +6795,7 @@
             return Object.keys(W.journey).filter(fam => W.routes[fam]).map(fam => {
                 const r = W.routes[fam];
                 const text = r[uiLang] || r[base] || r.en || fam;
-                return `<button type="button" class="tl-journey" data-journey="${escapeHtml(fam)}" title="${escapeHtml(play + ' — ' + text)}">`
+                return `<button type="button" class="tl-journey" data-journey="${escapeHtml(fam)}" title="${escapeHtml(play + ' — ' + text)}" aria-label="${escapeHtml(play + ' — ' + text)}">`
                      + `<span class="tl-jplay" aria-hidden="true" style="background:${escapeHtml(r.color || '#888')}"></span>`
                      + `<span>${escapeHtml(play)}</span></button>`;
             }).join('');
@@ -13119,7 +13134,7 @@
                 if (!b || !window.__speakIpa) return;
                 e.preventDefault();
                 b.classList.add('on');
-                window.__speakIpa(b.getAttribute('data-ipa'), target() || '').then(ms => setTimeout(() => b.classList.remove('on'), ms || 0));
+                window.__speakIpa(b.getAttribute('data-say'), target() || '').then(ms => setTimeout(() => b.classList.remove('on'), ms || 0));
             });
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
             document.body.appendChild(modal);
@@ -13135,7 +13150,7 @@
                 const cell = w.data[t]; if (!cell[0] || cell[0] === '—') continue;
                 const lbl = (w.label && (w.label[ui()] || w.label[ui().split('_')[0]] || w.label.en)) || concept;
                 // 🔊 plays the clue through the pronunciation synthesizer (ipa_synth/speak.js __speakIpa).
-                const sayBtn = (cell[1] && window.__speakIpa) ? `<button type="button" class="lm-langle-say" data-ipa="${String(cell[1]).replace(/[&<>"']/g, c => '&#' + c.charCodeAt(0) + ';')}" aria-label="${pk(T.listen)}: ${lbl}" title="${pk(T.listen)}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg></button>` : '';
+                const sayBtn = (cell[1] && window.__speakIpa) ? `<button type="button" class="lm-langle-say" data-say="${String(cell[1]).replace(/[&<>"']/g, c => '&#' + c.charCodeAt(0) + ';')}" aria-label="${pk(T.listen)}: ${lbl}" title="${pk(T.listen)}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg></button>` : '';
                 rows += `<div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:5px 0;border-bottom:1px solid #f0f1f4"><span style="color:#5f6368;font-size:12px">${lbl}</span><span style="font-weight:600;display:inline-flex;align-items:center;gap:6px"><span><bdi>${cell[0]}</bdi> <bdi dir="ltr" style="color:#5f6368;font-weight:400;font-size:12px">/${cell[1]}/</bdi></span>${sayBtn}</span></div>`;
                 anySay = anySay || !!sayBtn;
                 shown++;
@@ -13843,6 +13858,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else setTimeout(init, 0);
     })();
     </script>
-<script src="ipa_synth/speak.js?v=64" defer></script>
+<script src="ipa_synth/speak.js?v=65" defer></script>
 </body>
 </html>

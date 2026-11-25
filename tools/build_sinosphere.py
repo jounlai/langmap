@@ -426,8 +426,8 @@ def index_page(posts):
     for p in posts:
         for t in p['tags']:
             all_tags[t] = all_tags.get(t, 0) + 1
-    chips = '<button type="button" class="chip on" data-tag="">All</button>' + ''.join(
-        f'<button type="button" class="chip" data-tag="{html.escape(t)}">{html.escape(t)} <small>{n}</small></button>'
+    chips = '<button type="button" class="chip on" data-tag="" aria-pressed="true">All</button>' + ''.join(
+        f'<button type="button" class="chip" aria-pressed="false" data-tag="{html.escape(t)}">{html.escape(t)} <small>{n}</small></button>'
         for t, n in sorted(all_tags.items(), key=lambda kv: (-kv[1], kv[0])))
     cards = []
     for p in posts:
@@ -444,7 +444,8 @@ def index_page(posts):
 (function () {
   var chips = document.querySelectorAll('.chip'), cards = document.querySelectorAll('.card');
   function apply(tag) {
-    chips.forEach(function (c) { c.classList.toggle('on', c.getAttribute('data-tag') === tag); });
+    if (![].some.call(chips, function (c) { return c.getAttribute('data-tag') === tag; })) tag = '';
+    chips.forEach(function (c) { var on = c.getAttribute('data-tag') === tag; c.classList.toggle('on', on); c.setAttribute('aria-pressed', String(on)); });
     cards.forEach(function (c) {
       c.hidden = !!tag && (' ' + c.getAttribute('data-tags') + ' ').indexOf(' ' + tag + ' ') < 0;
     });

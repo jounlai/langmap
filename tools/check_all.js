@@ -970,7 +970,14 @@ line('data/trivia_seo.json freshness', num(s, /stale: (\d+)/));
     const BAD = /[가-힣][ᅠ-ᇿힰ-퟿]/g;
     const ROOT = path.join(__dirname, '..');
     const files = ['data.js', 'hanmap_data.js', 'hanmap_trivia.js', 'wordmap_data.js', 'wordmap_meta.js']
-        .concat(fs.readdirSync(path.join(ROOT, 'words')).filter(f => f.endsWith('.js')).map(f => 'words/' + f));
+        .concat(fs.readdirSync(path.join(ROOT, 'words')).filter(f => f.endsWith('.js')).map(f => 'words/' + f))
+        .concat(fs.readdirSync(ROOT).filter(f => /_trivia.*\.js$/.test(f) && f !== 'hanmap_trivia.js'))
+        .concat(fs.readdirSync(path.join(ROOT, 'sinosphere', 'posts')).map(d => `sinosphere/posts/${d}/post.md`));
+    for (const d of fs.readdirSync(ROOT)) {
+        if (/_trivia/.test(d) && fs.statSync(path.join(ROOT, d)).isDirectory()) {
+            for (const f of fs.readdirSync(path.join(ROOT, d))) if (f.endsWith('.js')) files.push(d + '/' + f);
+        }
+    }
     let n = 0;
     for (const f of files) {
         const p = path.join(ROOT, f);

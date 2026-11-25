@@ -7642,6 +7642,7 @@
         // A slot may name stand-ins: Min is Xiamen (the reference Amoy reading), Taiwanese
         // only when Xiamen has no IPA for the character.
         const SPEAK_TOUR = ['zh_tang', 'zh', 'wuu', 'yue', ['nan_xm', 'nan'], 'ko', 'ja', 'vi'];
+        window.__speakTourKey = () => currentWord;
         window.__speakTour = function () {
             const out = [];
             for (const slot of SPEAK_TOUR) {
@@ -14559,6 +14560,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else setTimeout(init, 0);
     })();
     </script>
-<script src="ipa_synth/speak.js?v=64" defer></script>
+<script src="ipa_synth/speak.js?v=65" defer></script>
 </body>
 </html>

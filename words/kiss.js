@@ -119,7 +119,7 @@ WORDS.kiss = {
     ar_ma: "bosa",
     mt: "bosa",
     af: "plain",
-    yi: "plain",
+    yi: "kus",
     is: "kus",
     gd: "peace",
     nap: "basium",

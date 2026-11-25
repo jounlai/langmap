@@ -111,7 +111,7 @@ WORDS.fart = {
     sa: "perd",
     bn: "perd",
     ur: "perd",
-    ta: "plain",
+    ta: "sound",
     en: "perd",
     de: "perd",
     fr: "peditum",
@@ -139,7 +139,7 @@ WORDS.fart = {
     no: "plain",
     da: "sound",
     ga: "plain",
-    cy: "plain",
+    cy: "perd",
     hy: "plain",
     hyw: "plain",
     nv: "plain",
@@ -314,7 +314,7 @@ WORDS.fart = {
     sa: ["पर्द", "pɐɾdɐ"],  // Sanskrit parda m. 'fart' (lex., i.e. lexicographers only); root √pard 'to fart', cf. párdatē 'farts' (CDIAL 7931, 7933)
     bn: ["পাদ", "pad"],  // Samsad (Biswas) 'পাদ1 pāda n. (vul.) a fart'; inherited from Sanskrit parda 'fart' (CDIAL 7931 'B. pād')
     ur: ["پاد", "paːd"],  // Inherited from Sanskrit पर्द.
-    ta: ["குசு", "kusɯ"],  // Native Tamil word.
+    ta: ["குசு", "kusɯ"],  // Onomatopoeic (Wiktionary).
     en: ["fart", "fɑːt"],  // Inherited from Old English *feortan, Proto-Germanic *fertaną.
     de: ["Furz", "fʊʁts"],  // Inherited from Proto-Germanic *fertaz.
     fr: ["pet", "pɛ"],  // Inherited from Latin pēditum.
@@ -342,7 +342,7 @@ WORDS.fart = {
     no: ["fis", "fiːs"],  // Inherited from Old Norse fīs.
     da: ["prut", "pʁut"],  // Onomatopoeic word.
     ga: ["broim", "bˠɾˠɪmʲ"],  // Inherited from Old Irish broimm.
-    cy: ["rhech", "r̥eːχ"],  // Native Welsh word.
+    cy: ["rhech", "r̥eːχ"],  // From Proto-Celtic *ɸrikkā, PIE *perd- (Wiktionary).
     hy: ["տեռ", "ter"],  // Wiktionary Armenian տեռ '(vulgar) fart, flatus (loud)'; probably onomatopoeic, cf. Kurmanji tirr (Ačaṙean 1913:1024b). Synonym թիս 'quiet fart'.
     hyw: ["թիս", "tʰis"],  // Wiktionary Armenian թիս '(vulgar) quiet fart', with Western Armenian audio; probably onomatopoeic.
     nv: ["tłʼid", "tɬʼɪt"],  // Native Navajo word.

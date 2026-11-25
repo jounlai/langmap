@@ -1031,8 +1031,8 @@ WORDS.uncle = {
     kpe: ["nâŋ", "nâŋ"],  // Also 'father'. The mother's brother is kêra.
     tpn: ["tuba", "ˈtuβa"],  // The mother's brother is tutyra; the father's brother is called by the word for father.
     mg: ["dadatoa", "dadaˈtua"],
-    nd: ["umalume", "umalume"],
-    ve: ["malume", "malume"],
+    nd: ["umalume", "umalume"],  // The mother's brother (Wiktionary); the father's brother has no sourced form yet.
+    ve: ["malume", "malume"],  // The mother's brother (Wiktionary); the father's brother has no sourced form yet.
     an: ["tío", "ˈtio"],
     fra_jer: ["oncl'ye", "ɔ̃kʎ"],
     lmo: ["zio", "ˈzio"],

@@ -77,7 +77,7 @@ WORDS.hiccup = {
     mr: "imitative",
     tl: "sinok",
     ko: "imitative",
-    ta: "wekk",
+    ta: "plain",
     it: "singultus",
     es: "imitative",
     pl: "imitative",
@@ -118,15 +118,15 @@ WORDS.hiccup = {
     no: "imitative",
     uz: "imitative",
     ckb: "unknown",
-    kn: "wekk",
+    kn: "plain",
     si: "imitative",
-    te: "wekk",
+    te: "plain",
     om: "imitative",
     ki: "plain",
     bik: "sinok",
     th: "other",
     fa: "imitative",
-    ml: "wekk",
+    ml: "plain",
     as: "imitative",
     hy: "unknown",
     zh: "imitative",
@@ -472,7 +472,7 @@ WORDS.hiccup = {
     rw: "plain",
     zu: "plain",
     ace: "plain",
-    tcy: "wekk",
+    tcy: "plain",
     bor: "plain",
     it_dan: "singultus",
     liv: "plain",
@@ -484,7 +484,6 @@ WORDS.hiccup = {
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
     singultus: {"color":"#2563eb","emoji":"🏛️","en":"Latin singultus (singhiozzo, soluço, sughiț)","ja":"ラテン語 singultus (singhiozzo, soluço, sughiț)","ko":"라틴어 singultus (singhiozzo, soluço, sughiț)","zh":"拉丁语 singultus (singhiozzo, soluço, sughiț)","yue":"拉丁語 singultus (singhiozzo, soluço, sughiț)","vi":"tiếng Latinh singultus (singhiozzo, soluço, sughiț)","th":"ภาษาละติน singultus (singhiozzo, soluço, sughiț)","id":"bahasa Latin singultus (singhiozzo, soluço, sughiț)","hi":"लैटिन singultus (singhiozzo, soluço, sughiț)","de":"lateinisch singultus (singhiozzo, soluço, sughiț)","fr":"le latin singultus (singhiozzo, soluço, sughiț)","it":"il latino singultus (singhiozzo, soluço, sughiț)","es":"el latín singultus (singhiozzo, soluço, sughiț)","pt":"o latim singultus (singhiozzo, soluço, sughiț)","ru":"латинское singultus (singhiozzo, soluço, sughiț)","uk":"латинське singultus (singhiozzo, soluço, sughiț)","ar":"اللاتينية singultus (singhiozzo، soluço، sughiț)","he":"הלטינית singultus (singhiozzo, soluço, sughiț)","sw":"Kilatini singultus (singhiozzo, soluço, sughiț)"},
-    wekk: {"color":"#d97706","emoji":"🌶️","en":"Proto-Dravidian *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","ja":"ドラヴィダ祖語 *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","ko":"드라비다 조어 *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","zh":"原始达罗毗荼语 *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","yue":"原始達羅毗荼語 *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","vi":"tiếng Dravida nguyên thủy *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","th":"ภาษาดราวิเดียนดั้งเดิม *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","id":"Proto-Dravida *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","hi":"आदि-द्रविड़ *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","de":"urdravidisch *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","fr":"le proto-dravidien *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","it":"il protodravidico *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","es":"el protodravídico *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","pt":"o proto-drávida *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","ru":"прадравидийское *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","uk":"прадравідійське *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","ar":"الدرافيدية الأم *wekk- (விக்கல்، ಬಿಕ್ಕಳಿಕೆ، ఎక్కిళ్ళు)","he":"הפרוטו-דרווידית *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)","sw":"Kidravidi asilia *wekk- (விக்கல், ಬಿಕ್ಕಳಿಕೆ, ఎక్కిళ్ళు)"},
     sedu: {"color":"#be185d","emoji":"🌴","en":"Proto-Austronesian *sedu (sedu, mitjezu, soduʼ)","ja":"オーストロネシア祖語 *sedu (sedu, mitjezu, soduʼ)","ko":"오스트로네시아 조어 *sedu (sedu, mitjezu, soduʼ)","zh":"原始南岛语 *sedu (sedu, mitjezu, soduʼ)","yue":"原始南島語 *sedu (sedu, mitjezu, soduʼ)","vi":"tiếng Nam Đảo nguyên thủy *sedu (sedu, mitjezu, soduʼ)","th":"ภาษาออสโตรนีเซียนดั้งเดิม *sedu (sedu, mitjezu, soduʼ)","id":"Proto-Austronesia *sedu (sedu, mitjezu, soduʼ)","hi":"आदि-ऑस्ट्रोनेशियाई *sedu (sedu, mitjezu, soduʼ)","de":"uraustronesisch *sedu (sedu, mitjezu, soduʼ)","fr":"le proto-austronésien *sedu (sedu, mitjezu, soduʼ)","it":"il protoaustronesiano *sedu (sedu, mitjezu, soduʼ)","es":"el protoaustronesio *sedu (sedu, mitjezu, soduʼ)","pt":"o proto-austronésio *sedu (sedu, mitjezu, soduʼ)","ru":"праавстронезийское *sedu (sedu, mitjezu, soduʼ)","uk":"праавстронезійське *sedu (sedu, mitjezu, soduʼ)","ar":"الأسترونيزية الأم *sedu (sedu، mitjezu، soduʼ)","he":"הפרוטו-אוסטרונזית *sedu (sedu, mitjezu, soduʼ)","sw":"Kiaustronesia asilia *sedu (sedu, mitjezu, soduʼ)"},
     sinok: {"color":"#0891b2","emoji":"🏝️","en":"Philippine sinók ~ sid-uk (sinok, sid-ok, saiddek)","ja":"フィリピン諸語 sinók ~ sid-uk (sinok, sid-ok, saiddek)","ko":"필리핀 제어 sinók ~ sid-uk (sinok, sid-ok, saiddek)","zh":"菲律宾诸语 sinók ~ sid-uk (sinok, sid-ok, saiddek)","yue":"菲律賓諸語 sinók ~ sid-uk (sinok, sid-ok, saiddek)","vi":"các ngôn ngữ Philippines sinók ~ sid-uk (sinok, sid-ok, saiddek)","th":"ภาษากลุ่มฟิลิปปินส์ sinók ~ sid-uk (sinok, sid-ok, saiddek)","id":"rumpun Filipina sinók ~ sid-uk (sinok, sid-ok, saiddek)","hi":"फ़िलिपीनी भाषाएँ sinók ~ sid-uk (sinok, sid-ok, saiddek)","de":"philippinisch sinók ~ sid-uk (sinok, sid-ok, saiddek)","fr":"le philippin sinók ~ sid-uk (sinok, sid-ok, saiddek)","it":"il filippino sinók ~ sid-uk (sinok, sid-ok, saiddek)","es":"el filipino sinók ~ sid-uk (sinok, sid-ok, saiddek)","pt":"o filipino sinók ~ sid-uk (sinok, sid-ok, saiddek)","ru":"филиппинское sinók ~ sid-uk (sinok, sid-ok, saiddek)","uk":"філіппінське sinók ~ sid-uk (sinok, sid-ok, saiddek)","ar":"الفلبينية sinók ~ sid-uk (sinok، sid-ok، saiddek)","he":"הפיליפינית sinók ~ sid-uk (sinok, sid-ok, saiddek)","sw":"Kifilipino sinók ~ sid-uk (sinok, sid-ok, saiddek)"},
     chuqub: {"color":"#4f46e5","emoji":"🌽","en":"Mayan *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","ja":"マヤ諸語 *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","ko":"마야어족 *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","zh":"玛雅语 *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","yue":"瑪雅語 *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","vi":"các ngôn ngữ Maya *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","th":"ภาษามายา *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","id":"rumpun Maya *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","hi":"माया भाषाएँ *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","de":"mayanisch *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","fr":"le maya *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","it":"il maya *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","es":"el maya *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","pt":"o maia *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","ru":"майяское *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","uk":"майянське *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","ar":"المايوية *chuqʼubʼ ~ *chokʼ (chuqʼubʼ، txuqʼubʼ، txokʼ)","he":"המאיה *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)","sw":"Kimaya *chuqʼubʼ ~ *chokʼ (chuqʼubʼ, txuqʼubʼ, txokʼ)"},
@@ -553,13 +552,13 @@ WORDS.hiccup = {
     ckb: ["نزگەرە", "nɪzɡaɾa"],  // Compare Laki نِزگیرە.
     kn: ["ಬಿಕ್ಕಳಿಕೆ", "bikːaɭike"],  // Related to ಬಿಕ್ಕು 'to sob, to hiccough' (Kittel); cognate with Tamil விக்கல். Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
     si: ["ඉක්කාව", "ikːaːʋə"],  // Carter glosses the learned හික්කාව hikkāva with this everyday form. From Sanskrit hikkā, an imitative word like Hindi हिचकी.
-    te: ["ఎక్కిళ్ళు", "ekːiɭːu"],  // The plural of ఎక్కిలి, the usual way to name the condition. Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
+    te: ["ఎక్కిళ్ళు", "ekːiɭːu"],  // The plural of ఎక్కిలి, the usual way to name the condition. Wiktionary makes it a cognate of Tamil விக்கல்; DEDR keeps it in a separate entry (772, not 5383).
     om: ["hirqinfuu", "hirkʼinfuː"],  // Of onomatopoeic origin; cognate with Kambaata hiqqe and Sidamo heqqo.
     ki: ["mwegetho", "mwɛɣɛðɔ"],  // From kwegetha 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     bik: ["sinok", "siʔˈnok"],  // The same word as Tagalog sinok. Route by resemblance to the neighbouring forms (h_tagalog(ᜐᜒᜈᜓᜃ᜔)); no etymology of its own.
     th: ["สะอึก", "sa˨˩ʔɯk˨˩"],  // สะ is Proto-Tai *sak 'plugged', which Pittayaporn's Phonology of Proto-Tai (2009, after Kullavanijaya 1992) finds preserved in this word, and English Wiktionary takes อึก as the cognate of อก 'chest': a 'plugged chest'. Thai Wiktionary calls it possibly imitative.
     fa: ["سکسکه", "sekseˈke"],  // Moein gives it as from Arabic; هکه hokke is a synonym. A reduplicated imitation of the sound, like synonym hokke.
-    ml: ["ഇക്കിൾ", "ikːiɭ"],  // എക്കിൾ ekkiḷ is a synonym; cognate with Tamil விக்கல். Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
+    ml: ["ഇക്കിൾ", "ikːiɭ"],  // എക്കിൾ ekkiḷ is a synonym; cognate with Tamil விக்கல். Wiktionary makes it a cognate of Tamil விக்கல்; DEDR keeps it in a separate entry (772, not 5383).
     as: ["হিঁকটি", "ɦikɔti"],  // Inherited from Sanskrit hikkā, built on an onomatopoeic root; also spelled হেঁকটি.
     hy: ["զկռտոց", "zəkərˈtotsʰ"],  // A noun from զկռտալ 'to hiccup'.
     zh: ["打嗝", "ta˧˩˧ kɤ˧˥"],  // 打 'to do, strike' + 嗝, a sound-word for the hiccup; strictly a verb phrase, it is also the everyday name of the condition, and 呃逆 is the technical term.

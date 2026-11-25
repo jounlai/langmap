@@ -170,8 +170,8 @@ WORDS.cockroach = {
     te: "plain",
     ml: "plain",
     tg: "bread",
-    ku: "plain",
-    ckb: "plain",
+    ku: "sarsur",
+    ckb: "sarsur",
     ps: "plain",
     az: "tarakan",
     ug: "oil",
@@ -201,7 +201,7 @@ WORDS.cockroach = {
     yi: "tarakan",
     is: "kakkerlak",
     nap: "latin",
-    ca: "bread",
+    ca: "plain",
     gl: "plain",
     oc: "plain",
     be: "tarakan",
@@ -231,7 +231,7 @@ WORDS.cockroach = {
     en_est: "cucaracha",
     en_sg: "cucaracha",
     nn: "kakkerlak",
-    fr_qc: "kakkerlak",
+    fr_qc: "plain",
     fr_be: "kafir",
     fr_ch: "kafir",
     es_co: "cucaracha",
@@ -316,7 +316,7 @@ WORDS.cockroach = {
     tarakan: {"color":"#2563eb","emoji":"🐎","en":"a Turkic word, via Russian таракан","ja":"テュルク系の語、ロシア語 таракан 経由","ko":"튀르크계 단어, 러시아어 таракан을 거쳐","zh":"突厥语词，经俄语 таракан","yue":"突厥語詞，經俄文 таракан","vi":"từ gốc Turk, qua tiếng Nga таракан","th":"คำเตอร์กิก ผ่านภาษารัสเซีย таракан","id":"kata Turkik, lewat таракан Rusia","hi":"तुर्की शब्द, रूसी таракан के ज़रिए","de":"ein Turkwort, über russisch таракан","fr":"un mot turc, par le russe таракан","it":"una parola turca, tramite il russo таракан","es":"una palabra túrquica, por el ruso таракан","pt":"uma palavra túrquica, pelo russo таракан","ru":"тюркское слово, через русское таракан","uk":"тюркське слово, через російське таракан","ar":"كلمة تركية عبر الروسية таракан","he":"מילה טורקית, דרך הרוסית таракан","sw":"neno la Kituruki, kupitia Kirusi таракан"},
     kafir: {"color":"#7c3aed","emoji":"🌙","en":"from Arabic kāfir 'unbeliever' (cafard)","ja":"アラビア語 kāfir「不信心者」から (cafard)","ko":"아랍어 kāfir '불신자'에서 (cafard)","zh":"来自阿拉伯语 kāfir“不信者” (cafard)","yue":"嚟自阿拉伯文 kāfir「唔信嘅人」 (cafard)","vi":"từ tiếng Ả Rập kāfir 'kẻ ngoại đạo' (cafard)","th":"จากคำอาหรับ kāfir 'ผู้ไม่ศรัทธา' (cafard)","id":"dari kāfir Arab 'kafir' (cafard)","hi":"अरबी kāfir 'काफ़िर' से (cafard)","de":"aus arabisch kāfir 'Ungläubiger' (cafard)","fr":"de l'arabe kāfir « infidèle » (cafard)","it":"dall'arabo kāfir 'infedele' (cafard)","es":"del árabe kāfir 'infiel' (cafard)","pt":"do árabe kāfir 'infiel' (cafard)","ru":"от арабского kāfir «неверный» (cafard)","uk":"від арабського kāfir «невірний» (cafard)","ar":"من العربية «كافر» (cafard)","he":"מהערבית kāfir 'כופר' (cafard)","sw":"kutoka Kiarabu kāfir 'kafiri' (cafard)"},
     people: {"color":"#be185d","emoji":"🧑‍🤝‍🧑","en":"named after a neighbouring people (šváb, prusaks)","ja":"近隣の民族の名 (šváb, prusaks)","ko":"이웃 민족의 이름 (šváb, prusaks)","zh":"以邻近民族命名 (šváb, prusaks)","yue":"用隔籬民族嘅名 (šváb, prusaks)","vi":"theo tên dân tộc láng giềng (šváb, prusaks)","th":"ตั้งตามชื่อชนชาติเพื่อนบ้าน (šváb, prusaks)","id":"dinamai menurut bangsa tetangga (šváb, prusaks)","hi":"पड़ोसी जाति के नाम पर (šváb, prusaks)","de":"nach einem Nachbarvolk benannt (šváb, prusaks)","fr":"nommé d'après un peuple voisin (šváb, prusaks)","it":"dal nome di un popolo vicino (šváb, prusaks)","es":"por el nombre de un pueblo vecino (šváb, prusaks)","pt":"pelo nome de um povo vizinho (šváb, prusaks)","ru":"по названию соседнего народа (šváb, prusaks)","uk":"за назвою сусіднього народу (šváb, prusaks)","ar":"باسم شعب مجاور (šváb, prusaks)","he":"על שם עם שכן (šváb, prusaks)","sw":"kwa jina la watu jirani (šváb, prusaks)"},
-    bread: {"color":"#b45309","emoji":"🍞","en":"the bread bug (хлебарка, panerola)","ja":"パンの虫 (хлебарка, panerola)","ko":"빵 벌레 (хлебарка, panerola)","zh":"面包虫 (хлебарка, panerola)","yue":"麵包蟲 (хлебарка, panerola)","vi":"con bọ bánh mì (хлебарка, panerola)","th":"แมลงขนมปัง (хлебарка, panerola)","id":"serangga roti (хлебарка, panerola)","hi":"रोटी का कीड़ा (хлебарка, panerola)","de":"der Brotkäfer (хлебарка, panerola)","fr":"l'insecte du pain (хлебарка, panerola)","it":"l'insetto del pane (хлебарка, panerola)","es":"el bicho del pan (хлебарка, panerola)","pt":"o bicho do pão (хлебарка, panerola)","ru":"хлебный жук (хлебарка, panerola)","uk":"хлібний жук (хлебарка, panerola)","ar":"حشرة الخبز (хлебарка, panerola)","he":"חרק הלחם (хлебарка, panerola)","sw":"mdudu wa mkate (хлебарка, panerola)"},
+    bread: {"color":"#b45309","emoji":"🍞","en":"the bread bug (хлебарка, нонхӯрак)","ja":"パンの虫 (хлебарка, нонхӯрак)","ko":"빵 벌레 (хлебарка, нонхӯрак)","zh":"面包虫 (хлебарка, нонхӯрак)","yue":"麵包蟲 (хлебарка, нонхӯрак)","vi":"con bọ bánh mì (хлебарка, нонхӯрак)","th":"แมลงขนมปัง (хлебарка, нонхӯрак)","id":"serangga roti (хлебарка, нонхӯрак)","hi":"रोटी का कीड़ा (хлебарка, нонхӯрак)","de":"der Brotkäfer (хлебарка, нонхӯрак)","fr":"l'insecte du pain (хлебарка, нонхӯрак)","it":"l'insetto del pane (хлебарка, нонхӯрак)","es":"el bicho del pan (хлебарка, нонхӯрак)","pt":"o bicho do pão (хлебарка, нонхӯрак)","ru":"хлебный жук (хлебарка, нонхӯрак)","uk":"хлібний жук (хлебарка, нонхӯрак)","ar":"حشرة الخبز (хлебарка, нонхӯрак)","he":"חרק הלחם (хлебарка, нонхӯрак)","sw":"mdudu wa mkate (хлебарка, нонхӯрак)"},
     oil: {"color":"#ca8a04","emoji":"🫒","en":"the oil or sesame bug (アブラムシ, তেলাপোকা, तिलचट्टा)","ja":"油・ゴマの虫 (アブラムシ, তেলাপোকা, तिलचट्टा)","ko":"기름·참깨 벌레 (アブラムシ, তেলাপোকা, तिलचट्टा)","zh":"油或芝麻的虫 (アブラムシ, তেলাপোকা, तिलचट्टा)","yue":"油或者芝麻嘅蟲 (アブラムシ, তেলাপোকা, तिलचट्टा)","vi":"con bọ dầu hay vừng (アブラムシ, তেলাপোকা, तिलचट्टा)","th":"แมลงน้ำมันหรืองา (アブラムシ, তেলাপোকা, तिलचट्टा)","id":"serangga minyak atau wijen (アブラムシ, তেলাপোকা, तिलचट्टा)","hi":"तेल या तिल का कीड़ा (アブラムシ, তেলাপোকা, तिलचट्टा)","de":"der Öl- oder Sesamkäfer (アブラムシ, তেলাপোকা, तिलचट्टा)","fr":"l'insecte de l'huile ou du sésame (アブラムシ, তেলাপোকা, तिलचट्टा)","it":"l'insetto dell'olio o del sesamo (アブラムシ, তেলাপোকা, तिलचट्टा)","es":"el bicho del aceite o del sésamo (アブラムシ, তেলাপোকা, तिलचट्टा)","pt":"o bicho do óleo ou do gergelim (アブラムシ, তেলাপোকা, तिलचट्टा)","ru":"масляный или кунжутный жук (アブラムシ, তেলাপোকা, तिलचट्टा)","uk":"олійний чи кунжутний жук (アブラムシ, তেলাপোকা, तिलचट्टा)","ar":"حشرة الزيت أو السمسم (アブラムシ, তেলাপোকা, तिलचट्टा)","he":"חרק השמן או השומשום (アブラムシ, তেলাপোকা, तिलचट्टा)","sw":"mdudu wa mafuta au ufuta (アブラムシ, তেলাপোকা, तिलचट्टा)"},
     warm: {"color":"#0891b2","emoji":"♨️","en":"the bug of the bathhouse or oven (hamam böceği)","ja":"浴場やかまどの虫 (hamam böceği)","ko":"목욕탕이나 아궁이의 벌레 (hamam böceği)","zh":"澡堂或炉灶的虫 (hamam böceği)","yue":"澡堂或者灶頭嘅蟲 (hamam böceği)","vi":"con bọ nhà tắm hay lò (hamam böceği)","th":"แมลงโรงอาบน้ำหรือเตา (hamam böceği)","id":"serangga pemandian atau tungku (hamam böceği)","hi":"हमाम या चूल्हे का कीड़ा (hamam böceği)","de":"der Badehaus- oder Ofenkäfer (hamam böceği)","fr":"l'insecte du bain public ou du four (hamam böceği)","it":"l'insetto del bagno pubblico o del forno (hamam böceği)","es":"el bicho del baño público o del horno (hamam böceği)","pt":"o bicho do banho público ou do forno (hamam böceği)","ru":"жук бани или печи (hamam böceği)","uk":"жук лазні чи печі (hamam böceği)","ar":"حشرة الحمّام أو الفرن (hamam böceği)","he":"חרק בית המרחץ או התנור (hamam böceği)","sw":"mdudu wa bafu au jiko (hamam böceği)"},
     tsua: {"color":"#059669","emoji":"🏮","en":"from Min 蚻 (虼蚻, kecoak)","ja":"閩語の 蚻 から (虼蚻, kecoak)","ko":"민어 蚻에서 (虼蚻, kecoak)","zh":"来自闽语“蚻” (虼蚻, kecoak)","yue":"嚟自閩語「蚻」 (虼蚻, kecoak)","vi":"từ tiếng Mân 蚻 (虼蚻, kecoak)","th":"จากภาษาหมิ่น 蚻 (虼蚻, kecoak)","id":"dari 蚻 bahasa Min (虼蚻, kecoak)","hi":"मिन 蚻 से (虼蚻, kecoak)","de":"aus Min 蚻 (虼蚻, kecoak)","fr":"du min 蚻 (虼蚻, kecoak)","it":"dal min 蚻 (虼蚻, kecoak)","es":"del min 蚻 (虼蚻, kecoak)","pt":"do min 蚻 (虼蚻, kecoak)","ru":"от миньского 蚻 (虼蚻, kecoak)","uk":"від міньського 蚻 (虼蚻, kecoak)","ar":"من لغة مين 蚻 (虼蚻, kecoak)","he":"מניב מין 蚻 (虼蚻, kecoak)","sw":"kutoka Kimin 蚻 (虼蚻, kecoak)"},
@@ -366,7 +366,7 @@ WORDS.cockroach = {
     de_ch: ["Kakerlake", "kakɐˈlaːkə"],  // Borrowed from Dutch kakkerlak.
     pt_ao: ["barata", "bɐˈɾatɐ"],  // Of uncertain origin, perhaps from Latin blatta.
     es_ve: ["cucaracha", "kukaˈɾatʃa"],  // Spanish derivative of cuca 'bug' with the suffix -aracha.
-    ca_va: ["panerola", "paneˈɾola"],  // Catalan word of uncertain origin.
+    ca_va: ["panerola", "paneˈɾola"],  // Variant of panderola, from Latin pandus "curved" (Catalan Wiktionary).
     ja: ["ゴキブリ", "ɡokibɯɾi"],  // From 御器かぶり gokikaburi 'bowl-gnawer', shortened.
     ja_osa: ["アブラムシ", "abɯɾamɯɕi"],  // abura 'oil' + mushi 'bug', compound; Kansai dialect word.
     ja_oki: ["ひーらー", "hiːɾaː"],  // Native Okinawan word.
@@ -395,7 +395,7 @@ WORDS.cockroach = {
     pt_br: ["barata", "baˈɾatɐ"],  // Of uncertain origin, perhaps from Latin blatta.
     ru: ["таракан", "tərɐˈkan"],  // Borrowed from a Turkic source.
     ar: ["صرصور", "sˤurˈsˤuːr"],  // Native Arabic reduplicated formation.
-    he: ["ג׳וק", "dʒuk"],  // Colloquial word of uncertain origin.
+    he: ["ג׳וק", "dʒuk"],  // From Russian жук "beetle" (Wiktionary).
     tr: ["hamam böceği", "haˈmam bœdʒeˈi"],  // hamam 'bathhouse' + böcek 'bug', compound.
     fa: ["سوسک", "suːsk"],  // Persian word of uncertain origin.
     sw: ["mende", "ˈmende"],  // Native Swahili word.
@@ -432,8 +432,8 @@ WORDS.cockroach = {
     te: ["బొద్దింక", "bodːiŋka"],  // Native Telugu word.
     ml: ["പാറ്റ", "paːtːa"],  // Native Malayalam word.
     tg: ["нонхӯрак", "nonχɵˈrak"],  // non 'bread' + xūr 'eat' + -ak, compound.
-    ku: ["sîsirk", "siːsɪɾk"],  // Native Kurdish word.
-    ckb: ["سیسرک", "siːsɪɾk"],  // Native Kurdish word.
+    ku: ["sîsirk", "siːsɪɾk"],  // From Arabic صُرْصُور (Kurdish Wiktionary).
+    ckb: ["سیسرک", "siːsɪɾk"],  // The same word as Northern Kurdish sîsirk, from Arabic صُرْصُور (Kurdish Wiktionary).
     ps: ["ګړندۍ", "ɡaɽanˈdəi"],  // Native Pashto word.
     az: ["tarakan", "tɑɾɑˈkɑn"],  // Borrowed from Russian таракан.
     ug: ["مايقۇرت", "majqurt"],  // Compound of may "oil, grease" + qurt "worm".
@@ -463,10 +463,10 @@ WORDS.cockroach = {
     yi: ["טאַראַקאַן", "taraˈkan"],  // Borrowed from Russian таракан.
     is: ["kakkalakki", "ˈkʰaʰkːaˌlaʰkːɪ"],  // Borrowed via Danish kakerlak.
     nap: ["scarrafóne", "skarraˈfonə"],  // From Latin scarabaeus with augmentative suffix.
-    ca: ["panerola", "pənəˈɾɔlə"],  // Native Catalan name, from pa "bread".
+    ca: ["panerola", "pənəˈɾɔlə"],  // Variant of panderola, from Latin pandus "curved" (Catalan Wiktionary).
     gl: ["cascuda", "kasˈkuða"],  // From cascudo "hard-shelled".
     oc: ["barbaròt", "barbaˈrɔt"],  // Native Occitan name for a beetle or cockroach.
-    be: ["тарака́н", "taraˈkan"],  // Of Turkic origin, via Russian.
+    be: ["таракан", "taraˈkan"],  // Of Turkic origin, via Russian.
     cs: ["šváb", "ʃvaːp"],  // From Šváb "Swabian", an ethnonym.
     sk: ["šváb", "ʃvaːp"],  // From Šváb "Swabian", an ethnonym.
     sl: ["ščurek", "ˈʃtʃuːrək"],  // Native Slovene word.
@@ -493,7 +493,7 @@ WORDS.cockroach = {
     en_est: ["cockroach", "ˈkɒkɹəʊtʃ"],  // Compound of cock + roach, folk-etymological reshaping of Spanish cucaracha.
     en_sg: ["cockroach", "ˈkɔkrotʃ"],  // Compound of cock + roach, folk-etymological reshaping of Spanish cucaracha.
     nn: ["kakerlakk", "kɑkəˈlɑkː"],  // Borrowed via Dutch kakkerlak.
-    fr_qc: ["coquerelle", "kɔkʁɛl"],  // Canadian French, from Dutch kakkerlak.
+    fr_qc: ["coquerelle", "kɔkʁɛl"],  // Canadian French, coque + -er + -elle (Wiktionary).
     fr_be: ["cafard", "kafaʁ"],  // From Arabic kāfir "unbeliever".
     fr_ch: ["cafard", "kafaʁ"],  // From Arabic kāfir "unbeliever".
     es_co: ["cucaracha", "kukaˈɾatʃa"],  // Spanish, from cuca "bug" + diminutive suffix.

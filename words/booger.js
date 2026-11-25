@@ -172,7 +172,7 @@ WORDS.booger = {
     zh_wh: "nosedung",
     hak_hl: "nosedung",
     yue_dg: "nosedung",
-    zh_jn: "plain",
+    zh_jn: "crust",
     nan_xm: "nosedung",
     nan_zz: "nosedung",
     wuu_jh: "nosedung",
@@ -242,7 +242,7 @@ WORDS.booger = {
     sco: ["boakie", "ˈbokɪ"],  // Dictionaries of the Scots Language, BOAKIE: 'the hardened discharge from the nostrils' (Banffshire, Aberdeenshire); Ayrshire has bowsey.
     gsw: ["Böögg", "bøːk"],  // Wiktionary (Alemannic German): 'booger, bogey'; also the bogeyman figure, like English bogey.
     ca: ["burilla", "buˈɾiʎə"],  // Slang extension of burilla 'cigarette butt'.
-    be: ["казя́ўка", "kaˈzʲawka"],  // From каза "goat", diminutive; cf. Russian козявка.
+    be: ["казяўка", "kaˈzʲawka"],  // From каза "goat", diminutive; cf. Russian козявка.
     cs: ["holub", "ˈɦolup"],  // Colloquial sense of holub "pigeon".
     et: ["koll", "kolː"],  // Colloquial use of koll 'bugbear, bogeyman'.
     as: ["খাঁকৰু", "kʰãkoɹu"],  // Candrakanta Abhidhan: 'dried mucus in the nostril'.
@@ -265,7 +265,7 @@ WORDS.booger = {
     fr_be: ["crotte de nez", "kʁɔt də ne"],  // crotte "dropping" + de nez "of nose", a set phrase recorded in the dictionary.
     fr_ch: ["crotte de nez", "kʁɔt də ne"],  // crotte "dropping" + de nez "of nose", a set phrase recorded in the dictionary.
     ja_chu: ["鼻糞", "ɸanakuso"],  // 鼻 'nose' + 糞 'dung'; 日本国語大辞典 はなくそ ①, first cited in the 羅葡日辞書 (1595).
-    cjy: ["鼻涕痂痂", "pəʔ˥˦ tʰi˦˥ tɕia˩ tɕia˩"],  // 鼻涕 runny nose + 痂痂 scab, the Taiyuan word in the dictionary.
+    cjy: ["鼻涕痂痂", "piəʔ˥˦ tʰi˦˥ tɕia˩ tɕia˩"],  // 鼻涕 runny nose + 痂痂 scab, the Taiyuan word in the dictionary.
     hsn: ["鼻屎痂", "pi˨˦ ʂʅ˦˩ ka˧˧"],  // nose 鼻 + dung 屎 + scab 痂, the Changsha word in the dictionary.
     gan: ["鼻屎", "pʰit˨ sɿ˨˩˧"],  // nose + dung, the Nanchang Gan form listed in the dictionary.
     hil: ["púng-it", "ˈpuŋʔit"],  // Kaufmann's Visayan-English Dictionary: 'dry mucus adhering to the nostrils'.

@@ -125,22 +125,22 @@
         if (col && col.parentNode) col.parentNode.insertBefore(panel, col.nextSibling); else document.body.appendChild(panel);
         canvas = panel.querySelector('canvas');
         specCv = panel.querySelector('.sp-spec');
-        specCv.addEventListener('click', () => { if (lastEl) say(lastEl); });
+        specCv.addEventListener('click', () => { endTour(); if (lastEl) say(lastEl); });
         elWord = panel.querySelector('.sp-word'); elIpa = panel.querySelector('.sp-ipa'); elName = panel.querySelector('.sp-name'); elHint = panel.querySelector('.sp-hint');
         voiceSel = panel.querySelector('.sp-voice');
         try { voiceSel.value = localStorage.getItem('lm_speak_voice') || 'female'; } catch (_) {}
-        voiceSel.addEventListener('change', () => { try { localStorage.setItem('lm_speak_voice', voiceSel.value); } catch (_) {} if (lastEl) say(lastEl); });
+        voiceSel.addEventListener('change', () => { try { localStorage.setItem('lm_speak_voice', voiceSel.value); } catch (_) {} endTour(); if (lastEl) say(lastEl); });
         panel.querySelector('.sp-close').addEventListener('click', close);
         // One history entry while it is open, like every other panel over the map
         // (nav-short.js __lmOverlay): Back closed nothing and left the page with
         // the panel still open; now Back closes it and Forward reopens it.
         if (window.__lmOverlay) window.__lmOverlay('speak', { el: panel, attrs: ['hidden'],
             isOpen: () => !panel.hidden, close: () => { if (open) close(); }, open: () => { if (!open) show(); } });
-        panel.querySelector('.sp-replay').addEventListener('click', () => { if (lastEl) say(lastEl); });
+        panel.querySelector('.sp-replay').addEventListener('click', () => { endTour(); if (lastEl) say(lastEl); });
         // "Play the main readings": a page that sets window.__speakTour (the Han Map) gets a button
         // that reads a fixed list of label elements one after another (see tour() below).
         panel.querySelector('.sp-tour').addEventListener('click', () => (touring ? endTour() : tour()));
-        for (const x of [elWord, elIpa]) x.addEventListener('click', () => { if (lastEl) say(lastEl); });   // the panel's own word replays
+        for (const x of [elWord, elIpa]) x.addEventListener('click', () => { endTour(); if (lastEl) say(lastEl); });   // the panel's own word replays
         // One Escape, one layer (the rule on every page): a language panel, picker or dialog
         // opened over this panel owns the newer history entry and takes the key alone. One
         // Escape closed both and stepped Back over two entries.
@@ -206,7 +206,6 @@
         const tb = panel.querySelector('.sp-tour');
         tb.hidden = typeof window.__speakTour !== 'function';
         tb.textContent = touring ? '■ ' + T('stopTour') : '▶▶ ' + T('tour');
-        tb.setAttribute('aria-pressed', String(!!touring));
         voiceSel.options[0].textContent = T('female'); voiceSel.options[1].textContent = T('male'); voiceSel.options[2].textContent = T('child');
         const locked = AC == null || AC.state === 'suspended';
         elHint.textContent = (open && locked && canHover() ? T('unlock') + ' ' : '') + (canHover() ? T('hintHover') : T('hintTap'));
@@ -443,10 +442,12 @@
         const list = (typeof window.__speakTour === 'function' && window.__speakTour()) || [];
         if (!list.length) return;
         const me = touring = Date.now();
+        // The list belongs to one character: a switch on the map ends the tour.
+        const key = () => (typeof window.__speakTourKey === 'function' ? window.__speakTourKey() : null), key0 = key();
         relabel();
         try { if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)(); if (AC.state !== 'running') AC.resume().catch(() => {}); } catch (_) {}
         for (const item of list) {
-            if (touring !== me || !open) break;
+            if (touring !== me || !open || key() !== key0) break;
             const el = item.el || item;
             if (item.before) { try { item.before(el); } catch (_) {} }
             const ms = await say(el);

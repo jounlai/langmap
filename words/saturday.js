@@ -865,7 +865,7 @@ WORDS.saturday = {
     tk: ["şenbe", "ʃenbe"],
     udm: ["кӧснунал", "kɘsnuˈnal"],  // 'Dry day.'
     uk: ["субота", "suˈbɔtɐ"],
-    ur: ["ہفتہ", "həftaː"],  // Also 'week'.
+    ur: ["ہفتہ", "ɦəftaː"],  // Also 'week'.
     ug: ["شەنبە", "ʃɛnbɛ"],
     uz: ["shanba", "ʃænˈbæ"],
     vec: ["sabo", "ˈsabo"],

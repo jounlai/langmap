@@ -895,7 +895,7 @@ WORDS.dragon = {
     vi_mid: ["ròu᷃", "rəwŋ͡m˨˩"],  // Middle Vietnamese spelling of rồng; from Proto-Vietic *-roːŋ, ultimately from Old Chinese 龍.
     ium: ["jung", "tɕuŋ˧"],  // From Proto-Hmong-Mien *-roŋ, from Chinese 龍; the same word as the row's rainbow cell.
     xal: ["лу", "lu"],  // Kalmyk лу, the Mongolic word for the dragon, borrowed from Chinese 龍.
-    xct: ["འབྲུག", "bruɡ"],  // The Tibetan word for the dragon, which also means thunder; from Proto-Sino-Tibetan *m-bru(ŋ/k) 'dragon; thunder', a cognate rather than a loan of Chinese 龍.
+    xct: ["འབྲུག", "bruk"],  // The Tibetan word for the dragon, which also means thunder; from Proto-Sino-Tibetan *m-bru(ŋ/k) 'dragon; thunder', a cognate rather than a loan of Chinese 龍.
     xct_litpr: ["འབྲུག", "ʈʂu"],  // The Tibetan word for the dragon, which also means thunder; from Proto-Sino-Tibetan *m-bru(ŋ/k) 'dragon; thunder', a cognate rather than a loan of Chinese 龍.
     shn: ["ၼၵႃး", "na˨˦kaː˥"],  // Borrowed from Burmese နဂါး, from Sanskrit nāga.
     rhg: ["nagá", "naɡa"],  // The word used for the dragon of Revelation in the Rohingya New Testament: 'nagá wa re dórifelaiye' (Revelation 20:2).

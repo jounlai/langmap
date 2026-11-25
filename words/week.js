@@ -886,7 +886,7 @@ WORDS.week = {
     krl: ["nedäli", "ˈnedæli"],
     ks: ["ہفتہٕ", "haftɨ"],  // Route by resemblance to the neighbouring forms (dv,lez,tg); no etymology of its own.
     csb: ["tidzéń", "ˈtidzeɲ"],
-    kk: ["жұма", "ʒumɑ"],  // Also 'Friday'.
+    kk: ["жұма", "ʒʊmɑ"],  // Also 'Friday'.
     km: ["អាទិត្យ", "ʔaːtɨt"],
     ko: ["주", "tɕu"],
     ky: ["апта", "ɑpˈtɑ"],
@@ -1426,7 +1426,7 @@ WORDS.week = {
     ake: ["suntaaka", "suntaːka"],
     ar_ma: ["سيمانة", "siːˈmaːna"],
     ar_tn: ["جمعة", "ˈʒəmʕa"],
-    cni: ["tominko", "tominko"],
+    cni: ["tominko", "tomiŋko"],
     guc: ["semaana", "semaːna"],
     gun: ["semana", "seˈmɐnɐ"],  // From Portuguese semana.
     hot: ["sonda", "sɔnda"],

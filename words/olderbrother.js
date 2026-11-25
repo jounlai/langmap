@@ -1046,7 +1046,7 @@ WORDS.olderbrother = {
     kk: ["аға", "ɑˈʁɑ"],  // From Proto-Turkic *āka; also 'uncle' and 'senior'; younger: іні.
     ky: ["байке", "bɑjˈke"],  // The inherited Turkic ага is also used; younger: ини.
     uz: ["aka", "aˈka"],  // From Proto-Turkic *āka; also a respectful 'sir' to an older man; younger: uka.
-    tk: ["aga", "aːˈʁa"],  // dogan is 'sibling' of either sex; younger: ini.
+    tk: ["aga", "ɑːˈʁɑ"],  // dogan is 'sibling' of either sex; younger: ini.
     mnc: ["ᠠᡥᡡᠨ", "axʊn"],  // From Proto-Tungusic *akun, like Oroqen akɪn; younger: ᡩᡝᠣ (deo).
     mn_cn: ["ᠠᠬ᠎ᠠ", "ɑχ"],  // Compare the Xianbei word *aqa behind Chinese 哥; younger: дүү (Cyrillic spelling).
     th_s: ["พี่บ่าว", "pʰiː˥˩ baːw˨˩"],  // Literally 'older-sibling man', with Southern Thai บ่าว 'young man'; younger: น้องบ่าว.

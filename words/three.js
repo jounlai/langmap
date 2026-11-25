@@ -1507,7 +1507,7 @@ WORDS.three = {
     aiw: ["makken", "makːen"],
     sgw: ["ሶስት", "sost"],
     mg: ["telo", "ˈtelu"],
-    ain: ["レ", "re"],
+    ain: ["レ", "ɾe"],
     fi: ["kolme", "ˈkolme"],
     hu: ["három", "ˈhaːrom"],
     ohu: ["három", "ˈhaːrom"],

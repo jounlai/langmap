@@ -420,7 +420,7 @@ WORDS.cheers = {
     sk: ["na zdravie", "na zdravɪ̯e"],  // Literally 'for health'; some answer nech slúži 'may it serve (us)'.
     lt: ["į sveikatą", "iː sʲvʲɛɪkɑːtɑː"],  // Literally 'to health', possibly a calque of Polish na zdrowie.
     lv: ["priekā", "ˈpriɛkaː"],  // Priekā is the locative of prieks 'joy', roughly 'in joy'.
-    et: ["terviseks", "ˈterviseks"],  // Terviseks is the translative of tervis 'health', 'for health'.
+    et: ["terviseks", "ˈterʋiseks"],  // Terviseks is the translative of tervis 'health', 'for health'.
     fy: ["tsjoch", "tsjox"],  // From the anthem line Frysk bloed, tsjoch op! 'Frisian blood, rise up!'.
     gl: ["saúde", "saˈuðe"],  // Saúde means 'health'.
     gd: ["slàinte", "ˈslaːntʃə"],  // Slàinte means 'health'.

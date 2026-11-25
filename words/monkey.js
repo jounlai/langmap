@@ -936,7 +936,7 @@ WORDS.monkey = {
     pms: ["sumia", "ˈsymja"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
     ppl: ["usumati", "usuˈmati"],
     ps: ["بيزو", "biˈzo"],
-    pt: ["macaco", "maˈkaku"],  // From Portuguese macaco, itself thought to come from a Bantu language.
+    pt: ["macaco", "mɐˈkaku"],  // From Portuguese macaco, itself thought to come from a Bantu language.
     qu: ["kʼusillu", "kʼuˈsiʎu"],
     rim: ["ntumbii", "ntumbii"],
     rn: ["inkima", "inkima"],

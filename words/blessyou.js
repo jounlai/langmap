@@ -292,7 +292,7 @@ WORDS.blessyou = {
     sk: ["na zdravie", "na zdravɪ̯e"],  // Literally 'to health'.
     sl: ["na zdravje", "na zdraːʋjɛ"],  // Literally 'to health'; folk usage also says res je 'it is true', as if the sneeze confirmed what was just said.
     bg: ["наздраве", "nɐˈzdravɛ"],  // Literally 'to health'; the same word is the drinking toast.
-    lt: ["į sveikatą", "iː sʲvʲɛɪkaːtaː"],  // Literally 'to health', possibly calqued on Polish na zdrowie.
+    lt: ["į sveikatą", "iː sʲvʲɛɪkɑːtɑː"],  // Literally 'to health', possibly calqued on Polish na zdrowie.
     lv: ["uz veselību", "uz vɛsɛliːbu"],  // Literally 'to health'.
     sq: ["shëndet", "ʃənˈdɛt"],  // Literally 'health'; the sneezer may answer shëndet paç 'may you have health'.
     et: ["terviseks", "ˈterʋiseks"],  // Literally 'for health'; the same word is the drinking toast.

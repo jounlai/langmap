@@ -876,7 +876,7 @@ WORDS.paper = {
     rue: ["папірь", "paˈpʲirʲ"],  // Route by resemblance to the neighbouring forms (br,hr,ia); no etymology of its own.
     rup: ["hãrtii", "hərˈtii"],
     sah: ["кумааҕы", "kumaːɣɯ"],
-    shp: ["kirika", "kirika"],
+    shp: ["kirika", "kiɻika"],
     si: ["කඩදාසිය", "kaɖadaːsijə"],  // Route by resemblance to the neighbouring forms (ml); no etymology of its own.
     sk: ["papier", "ˈpapjɛr"],
     sl: ["papír", "paˈpiːr"],
@@ -922,7 +922,7 @@ WORDS.paper = {
     tsg: ["kātas", "kaːˈtas"],
     tum: ["pepala", "pepala"],  // Route by resemblance to the neighbouring forms (en); no etymology of its own.
     vot: ["paperi", "ˈpaperi"],
-    yrl: ["papera", "paˈpera"],
+    yrl: ["papera", "paˈpeɾa"],
     zu: ["iphepha", "ipʰepʰa"],
     ady: ["тхылъыпӏэ", "txəɬəpʼa"],
     kbd: ["тхылъымпӏэ", "txəɬəmpʼa"],
@@ -1367,7 +1367,7 @@ WORDS.paper = {
     gn: ["kuatia", "kʷaˈtia"],  // No image is recorded for it, so it counts as a word of its own.
     guu: ["papʰeo", "papʰeo"],
     jup: ["cugʼæ̌t", "cuɡʼæ̌t"],
-    kgp: ["vẽnh rá", "wɛ̃ɲ ɾə"],
+    kgp: ["vẽnh rá", "wẽɲ ɾə"],
     mbc: ["kaareta", "kaareta"],
     moc: ["papel", "papel"],
     pbb: ["ets", "ets"],  // The same word as leaf.

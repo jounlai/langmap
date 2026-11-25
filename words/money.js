@@ -1189,7 +1189,7 @@ WORDS.money = {
     kca: ["вох", "wox"],
     mns: ["олн", "oln"],
     sel: ["ӄөмта", "qømta"],
-    yrk: ["еся", "jeːsʲɑ"],
+    yrk: ["еся", "jesʲa"],
     nio: ["бадяˮ", "bɐdʲɐʔ"],
     ku: ["pere", "pɛˈrɛ"],
     hyw: ["փող", "pʰoʁ"],

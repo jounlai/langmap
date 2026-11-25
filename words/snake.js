@@ -1562,7 +1562,7 @@ WORDS.snake = {
     h_vedic: ["अहिः", "ɐ́hiɦ"],  // Rigveda Ahi, the serpent slain by Indra; from Proto-Indo-European *h₁ógʷʰis.
     arc: ["חִוְיָא", "ħiwjaː"],
     sux: ["𒈲", "muʃ"],
-    p_ine: ["*h₁ógʷʰis", "h₁ógʷʰis"],
+    p_ine: ["*h₁ógʷʰis", "h₁óɡʷʰis"],
     p_jpn: ["*paimpi", "paimpi"],  // Possibly cognate with Middle Korean poyyam.
     ptrk: ["*yï̄lan", "jɯːlan"],  // From *yï̄l- "to creep".
     p_tun: ["*müikī", "myikiː"],

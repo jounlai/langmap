@@ -2090,7 +2090,7 @@ WORDS.book = {
     tue: ["paperatuti", "paˈpeɾatuti"],
     tca: ["popera", "popeɾa"],
     mez: ["masēnahekan", "maseːnahekan"],
-    jup: ["cugʼæ̌t", "tʃuɡʼæ̌t"],
+    jup: ["cugʼæ̌t", "cuɡʼæ̌t"],
     yue_gz: ["书", "si˥˨"],
     yue_dg: ["书", "ʃy˨˧"],
     yue_nn: ["书", "ʃy˥˥"],

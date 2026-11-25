@@ -14,4 +14,8 @@ Metadata/coordinates reviewer; pin-in-country plausibility. Read-only review; ev
 - **Source:** Row's own meta.description ("displaced ... into the Levant (Lebanon/Syria) ... survives almost entirely in diaspora") and meta.countries="Lebanon"; coordinate 40.99,28.96 reverse-geocodes to Istanbul, Turkey. Ethnologue/Wikipedia list Lebanon (Beirut) as the principal living Western Armenian community.
 - **Disposition:** DEFERRED — needs a decision (surface/script change, meta, or multi-target)
 
-**File status: OPEN** — 0 applied, 1 awaiting a decision.
+**File status: CLOSED** — owner decision 2026-11-25 (below).
+
+## Owner decision 2026-11-25
+
+The pin stays in Istanbul. meta.countries already lists Turkey (Lebanon, Syria, Turkey, …), so pin and countries agree; no data change.

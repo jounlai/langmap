@@ -417,7 +417,7 @@ WORDS.turkey = {
     ja_kg: "shichimencho",
     szy: "local",
     tsg: "elsewhere",
-    ja_oki: "local",
+    ja_oki: "shichimencho",
     mnw: "local",
     tao: "local",
     afb: "elsewhere",

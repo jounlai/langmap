@@ -387,7 +387,7 @@ WORDS.you = {
     ar_ma: "anta",
     arq: "anta",
     mey: "anta",
-    ar_tn: "plain",
+    ar_tn: "anta",
     ar_sd: "anta",
     ti: "plain",
     mt: "anta",

@@ -629,7 +629,7 @@ WORDS.four = {
     bgq: "plain",
     cng: "li",
     dsh: "plain",
-    dtp_kzj: "plain",
+    dtp_kzj: "sepat",
     ee: "gbene",
     ets: "plain",
     eve: "dugun",

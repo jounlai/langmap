@@ -723,7 +723,7 @@ WORDS.book = {
     car: "plain",
     tiw: "plain",
     trv: "plain",
-    ja_rys: "plain",
+    ja_rys: "hon",
     yrk: "plain",
     stq: "boks",
     krl: "kirja",

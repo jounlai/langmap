@@ -573,7 +573,6 @@ WORDS.cat = {
     ang: "kattuz",
     ofs: "kattuz",
     non: "kattuz",
-    cu: "kotu",
     pi: "bidala",
     pi_edu: "bidala",
     pmh: "marjara",
@@ -1736,7 +1735,7 @@ WORDS.cat = {
     ofs: ["katte", "ˈkatːe"],
     non: ["kǫttr", "kɔtːr"],
     got: ["—", "—"],
-    cu: ["котъка", "kotŭka"],
+    cu: ["—", "—"],  // No cat word in the Old Church Slavonic canon: котъка is there once, and means 'anchor' (Vasmer, Wiktionary).
     pi: ["बिळाल", "biɭaːla"],
     pi_edu: ["biḷāra", "biɭaːra"],
     pmh: ["मज्जार", "madʒːaːra"],

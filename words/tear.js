@@ -790,7 +790,7 @@ WORDS.tear = {
     cpx: "eye",
     dng: "eye",
     gan: "eye",
-    hak_cn: "eyewater",
+    hak_cn: "eye",
     hsn: "eye",
     hsn_hy: "eye",
     mnp: "eye",

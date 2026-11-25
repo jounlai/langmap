@@ -76,6 +76,13 @@ WORDS.dragon = {
     sw: "joka — mnyama mkubwa wa hadithi mwenye umbo la nyoka. Barani Ulaya ni drákōn wa Kigiriki mwenye mabawa anayetema moto (dragon, Drache, дракон); Asia Mashariki ni 龍 lóng aletaye mvua (竜 ryū, 용 yong, rồng). Neno la Kiajemi aždahā lilienea katika ulimwengu wa Kituruki na India, Waslavi wana zmey yao, Asia Kusini-Mashariki humwita kwa jina la nāga wa India, na lugha nyingi humwita tu nyoka mkubwa — kama Kiswahili joka.",
   },
   family: {
+    nuf: "plain",
+    jiu: "plain",
+    acn: "plain",
+    clk: "plain",
+    jya: "plain",
+    pmi: "bruk",
+    duu: "plain",
     es: "draco",
     es_cr: "draco",
     es_hn: "draco",
@@ -646,6 +653,13 @@ WORDS.dragon = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    nuf: ["liu35", "liu˧˥"],  // From suntb Nusu (Bijiang): liu³⁵.
+    jiu: ["pu33xo33a33mɔ33", "pu˧˧xo˧˧a˧˧mɔ˧˧"],  // From suntb Jinuo: pu³³xo³³a³³mɔ³³.
+    acn: ["mʐui55tʂuŋ31", "mʐui˥˥tʂuŋ˧˩"],  // From suntb Achang (Longchuan): mʐui⁵⁵tʂuŋ³¹.
+    clk: ["bɯ31ɹuɑ35", "bɯ˧˩ɹuɑ˧˥"],  // From suntb Idu: bɯ³¹|ɹuɑ³⁵.
+    jya: ["ta-rmok", "tarmok"],  // From suntb rGyalrong: ta_rmok.
+    pmi: ["bʐo55", "bʐo˥˥"],  // From suntb Pumi (Taoba): bʐo⁵⁵.
+    duu: ["dʑuʔ", "dʑuʔ"],  // From suntb Trung [Dulong]: dʑŭʔ⁵⁵.
     es: ["dragón", "dɾaˈɣon"],  // From Latin dracōnem, from Greek δράκων.
     es_cr: ["dragón", "dɾaˈɣon"],  // From Latin dracōnem, from Greek δράκων; the same word as standard Spanish.
     es_hn: ["dragón", "dɾaˈɣon"],  // From Latin dracōnem, from Greek δράκων; the same word as standard Spanish.
@@ -682,7 +696,7 @@ WORDS.dragon = {
     lb: ["Draach", "dʁaːχ"],  // From Old High German trahho, a borrowing of Latin dracō.
     nl: ["draak", "draːk"],  // An early Germanic borrowing of Latin dracō.
     nl_be: ["draak", "draːk"],  // The same word as Netherlands Dutch, from Latin dracō.
-    en: ["dragon", "ˈdræɡən"],  // From Latin dracō, from Greek δράκων.
+    en: ["dragon", "ˈdɹæɡən"],  // From Latin dracō, from Greek δράκων.
     en_us: ["dragon", "ˈdɹæɡən"],  // From Latin dracō, from Greek δράκων.
     en_ca: ["dragon", "ˈdɹæɡən"],  // From Latin dracō, from Greek δράκων.
     en_wls: ["dragon", "ˈdɾaɡən"],  // From Latin dracō, from Greek δράκων.
@@ -801,7 +815,7 @@ WORDS.dragon = {
     lv: ["pūķis", "ˈpuːcis"],  // Borrowed from Old Norse púki "demon, evil spirit".
     et: ["lohe", "ˈlohe"],  // From Finnish lohikäärme, from Old Swedish floghdraki "fly-dragon".
     sq: ["dragua", "dɾaˈɡua"],  // From Latin draco; in folklore also the dragon-slayer hero.
-    fj: ["drekoni", "ⁿrekoni"],  // Borrowed from English dragon.
+    fj: ["drekoni", "ndrekoni"],  // Borrowed from English dragon.
     en_aave: ["dragon", "ˈdɹæɡən"],  // From Old French dragon, from Latin draco, from Greek δράκων.
     en_nz: ["dragon", "ˈdɹæɡən"],  // From Old French dragon, from Latin draco, from Greek δράκων.
     en_au: ["dragon", "ˈdɹæɡən"],  // From Old French dragon, from Latin draco, from Greek δράκων.
@@ -1033,7 +1047,7 @@ WORDS.dragon = {
     ha: ["babban maciji", "babːan matʃiːdʒiː"],  // Literally "great snake"; the Hausa Bible (NWT) renders the dragon of Revelation as babban maciji.
     tpi: ["traipela snek", "traipela snek"],  // Literally "huge snake"; both the Tok Pisin Bible (NWT) and the Buk Baibel render the dragon of Revelation as a big snek.
     yao: ["lijoka", "lidʒoka"],  // The same word as "snake"; the Yao Bible calls the dragon lijoka lyekulungwa "the great snake".
-    te: ["మహాసర్పం", "mahaːsarpam"],  // Literally "great serpent" (mahā + sarpam); the Telugu Bible (NWT) renders the dragon of Revelation as మహాసర్పం.
+    te: ["మహాసర్పం", "mahaːsaɾpam"],  // Literally "great serpent" (mahā + sarpam); the Telugu Bible (NWT) renders the dragon of Revelation as మహాసర్పం.
     kn: ["ಘಟಸರ್ಪ", "ɡʱaʈasaɾpa"],  // A compound of ಸರ್ಪ "serpent"; the Kannada Bible (NWT) renders the dragon of Revelation as ದೊಡ್ಡ ಘಟಸರ್ಪ "great serpent".
     hns: ["barka saap", "bəɽkaː saːp"],  // Literally "big snake"; the Sarnami New Testament calls the dragon of Revelation barka laal saap "big red snake".
     abv: ["تنين", "tinniːn"],  // The Arabic word, from the old Semitic tannīn.

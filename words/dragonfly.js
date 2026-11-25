@@ -64,6 +64,8 @@ WORDS.dragonfly = {
     sw: "Kereng'ende — mdudu mwenye mwili mrefu na mabawa manne angavu anayewinda juu ya maji. Kiingereza dragonfly na Kiaisilandi drekafluga humwona joka; Kiwelshi gwas y neidr ni \"mtumishi wa nyoka\", Kislovenia kačji pastir \"mchungaji wa nyoka\". Kihungari szitakötő ni \"msuka chekeche\", Kijojia ნემსიყლაპია \"mmeza sindano\", Kiajemi سنجاقک \"pini ndogo\", na Kifaransa libellule ni \"kipimo kidogo cha usawa\" cha seremala, kwa jinsi anavyoelea sawasawa.",
   },
   family: {
+    nij: "plain",
+    mhy: "plain",
     en: "dragon",
     zh: "qingting",
     ar: "plain",
@@ -510,7 +512,9 @@ WORDS.dragonfly = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    en: ["dragonfly", "ˈdræɡənflaɪ"],  // A compound of dragon + fly.
+    nij: ["sansibur", "sansibur"],  // From smithborneo Ngaju: sansibur.
+    mhy: ["sansibur", "sansibur"],  // From smithborneo Maanyan: sansibur.
+    en: ["dragonfly", "ˈdɹæɡənflaɪ"],  // A compound of dragon + fly.
     zh: ["蜻蜓", "tɕʰiŋ˥ tʰiŋ˧˥"],  // 蜻蜓 is a two-syllable insect name of its own, attested since Classical Chinese.
     ar: ["يعسوب", "jaʕsuːb"],  // يعسوب also once meant 'queen bee' and 'leader'.
     fr: ["libellule", "libɛlyl"],  // From the New Latin libellula, a little 'carpenter's level', after the insect's level hovering.
@@ -525,7 +529,7 @@ WORDS.dragonfly = {
     vi: ["chuồn chuồn", "tɕuən˨˩ tɕuən˨˩"],  // A reduplication of chuồn.
     tr: ["yusufçuk", "jusufˈtʃuk"],  // Yusuf 'Joseph' + the diminutive -çuk, a name it shares with the turtle dove; kızböceği 'girl bug' is a synonym.
     mr: ["चतुर", "tɕətuɾ"],  // Etymology not given by the sources. Route by resemblance to the neighbouring forms (hy(ճպուռ)); no etymology of its own.
-    te: ["తూనీగ", "tuːniːɡa"],  // Telugu Wiktionary splits it as తూను + ఈగ 'fly'.
+    te: ["తూనీగ", "t̪uːniːɡa"],  // Telugu Wiktionary splits it as తూను + ఈగ 'fly'.
     tl: ["tutubi", "tutuˈbi"],  // A word of its own; etymology not given by the sources.
     ko: ["잠자리", "tɕamdʑaɾi"],  // Attested since 1481 as Middle Korean cancali; unrelated to its homograph 잠자리 'bed'.
     wuu: ["蜻蜓", "ɕin˥˧ din˨˧"],  // The same word as Standard Chinese 蜻蜓; Shanghainese also says it with chin- in the first syllable.
@@ -546,7 +550,7 @@ WORDS.dragonfly = {
     hsn: ["洋咪咪", "ian˩˧ mi˧˧ mi˧"],  // The characters spell the sound; it is also written 暘咩咩.
     uz: ["ninachi", "ninatʃi"],  // Etymology not given by the sources. No image is recorded for it, so it counts as a word of its own.
     my: ["ပုစဉ်း", "bəzɪ́ɴ"],  // ပု, perhaps from ပိုး 'insect', + စဉ်း of uncertain origin.
-    zu: ["uzekamanzi", "uzeɠaˈmaːnzi"],  // A class 1a noun built on amanzi 'water'.
+    zu: ["uzekamanzi", "uzekaˈmaːnzi"],  // A class 1a noun built on amanzi 'water'.
     ceb: ["alindanaw", "ʔalinˈdanaw"],  // Not to be confused with alindahaw 'drizzle'; children also say helikopter.
     ro: ["libelulă", "libeˈlulə"],  // Borrowed from French libellule.
     nl: ["libel", "liˈbɛl"],  // From Latin libella 'level' or libellula.
@@ -666,7 +670,7 @@ WORDS.dragonfly = {
     mni: ["ꯆꯔꯥꯡ", "tʃəraŋ"],  // Romanised carāng; Sharma's dictionary glosses it 'dragonfly', and no source traces the word. No image is recorded for it, so it counts as a word of its own.
     egl: ["frè", "frɛː"],  // The Bolognese word for a friar or monk, from Latin frater 'brother', also names the dragonfly.
     yi: ["ליבעלע", "ˈlibələ"],  // Wiktionary glosses it 'dragonfly'; Yiddish Wikipedia calls the order ליבעלעס, and באַבעלע (from Ukrainian бабка) is also recorded. Route by resemblance to the neighbouring forms (de(Libelle) nl(libel) eo(libelo) ro(libelulă)); no etymology of its own.
-    eu: ["burruntzi", "buruntsi"],  // Also the word for a roasting spit or skewer; sorgin-orratz 'witch's needle' and mariorratz are other names.
+    eu: ["burruntzi", "burunts̻i"],  // Also the word for a roasting spit or skewer; sorgin-orratz 'witch's needle' and mariorratz are other names.
     cbk: ["apan", "aˈpan"],  // Borrowed from Hiligaynon apán 'adult locust'; Wiktionary marks it Cotabateño and Zamboangueño, with tutubi in Caviteño and Ternateño.
     khb: ["ᦀᦲᦰᦢᦲᧉ", "ʔi biː˩˧"],  // The animal prefix ʔi- plus bii, tone 3; a variant ᦀᦲᦰ ᦥᦲ is also listed.
     ets: ["anene", "anene"],  // Glossed 'dragonfly' in the University of Benin Etsako (Yekhee) dictionary, which records no make-up. No image is recorded for it, so it counts as a word of its own.

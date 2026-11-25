@@ -1030,7 +1030,7 @@ WORDS.good = {
     yai: "plain",
     srn: "dwenos",
     djk: "plain",
-    srm: "plain",
+    srm: "dwenos",
     kwk: "plain",
     blc: "plain",
     sad: "plain",

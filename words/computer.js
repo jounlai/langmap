@@ -1073,7 +1073,7 @@ WORDS.computer = {
     "h_vedic": ["गणक", "ɡɐɳɐkɐ"],
     "wa": ["ordinateur", "ɔʁdinaˈtøʁ"],
     "wae": ["Computer", "komˈpjuːtər"],
-    "war": ["kompyuter", "komˈpjutɛr"],
+    "war": ["kompyuter", "komˈpjutɛɾ"],
     "wuu": ["电脑", "di˨˨ nɔ˦˦"],
     "wuu_hz": ["电脑", "diᴇ̃˩˧ nɔ˥˧"],
     "wuu_jh": ["电脑", "diã˩˦ nɑu˥˧˥"],
@@ -1406,7 +1406,7 @@ WORDS.computer = {
     pot: ["tasomkekos", "tasomkəkos"],
     dzg: ["kômputir", "kòmpútɨ̀r"],  // From English (marked ang.).
     zh_jiao: ["电脑","tiã˦˨ nɔ˥˥"],  // Literally 'electric brain'; same word as Standard Mandarin.
-    tsi: ["haʼlitʼmiism na̱xnox", "haʔlitʼmiːsm nʌxnox"],
+    tsi: ["haʼlitʼmiism na̱xnox", "haʔlitʼmiːsm nʌχnox"],
     lkt: ["wóuŋspe omnáye", "wóũspe omnáje"],
     ady: ["компутер", "kʷomputer"],  // Borrowed through Russian компьютер, Turkish kompüter and Arabic كمبيوتر, ultimately from English computer; the coinage шӏэнгъэпс 'knowledge builder' is also used.
     el_koi: ["ἄβαξ", "ˈabaks"],

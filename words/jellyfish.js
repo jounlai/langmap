@@ -462,7 +462,7 @@ WORDS.jellyfish = {
     bho: ["जेलीफिश", "dʒeliːfɪʃ"],  // Borrowed from English jellyfish; Bhojpuri Wikipedia also gives जेली मछरी "jelly fish".
     mai: ["जेली फिस", "dʒeːliː pʰis"],  // Borrowed from English jellyfish.
     ne: ["जेली फिस", "dzeliː pʰis"],  // Borrowed from English jellyfish; Nepali Wikipedia notes it looks like jelly, as the name says.
-    ta: ["சொறி மீன்", "soɾi miːn"],  // Literally "itch fish", for its sting; the Tamil Lexicon lists சொறி alone as "a kind of jelly fish".
+    ta: ["சொறி மீன்", "sori miːn"],  // Literally "itch fish", for its sting; the Tamil Lexicon lists சொறி alone as "a kind of jelly fish".
     ms: ["ampai-ampai", "ampai ampai"],  // Kamus Dewan gives ubur-ubur and obor-obor as synonyms; its origin is not given.
     jv: ["uwur-uwur", "uwur uwur"],  // A reduplicated word, the Javanese counterpart of Indonesian and Malay ubur-ubur.
     de: ["Qualle", "ˈkvalə"],  // From Low German, probably related to quellen "to swell"; Meduse is the scientific synonym.

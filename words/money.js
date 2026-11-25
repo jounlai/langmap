@@ -70,6 +70,7 @@ WORDS.money = {
     sw: "Pesa — kitu cha kulipia. Lugha nyingi bado huiita kwa jina la madini: argent ya Kifaransa na כסף ya Kiebrania ni “fedha”, 金 ya Kijapani ni “dhahabu”. Nyingine hutumia jina la sarafu, kama dinero kutoka denari ya Kirumi, au पैसा ya Kihindi. Geld ya Kijerumani ni malipo, na money ya Kiingereza inarudi kwenye kiwanda cha sarafu cha Roma.",
   },
   family: {
+    enf: "plain",
     abs: "coin",
     agx: "coin",
     bdk: "coin",
@@ -294,7 +295,7 @@ WORDS.money = {
     sjd: "plain",
     mrj: "coin",
     mhr: "coin",
-    kpv: "coin",
+    kpv: "other",
     koi: "coin",
     kca: "plain",
     mns: "plain",
@@ -960,6 +961,7 @@ WORDS.money = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    enf: ["byasi", "bʲasi"],  // From northeuralex enf бяси (row romanisation).
     abs: ["kepeng", "kəpeŋ"],  // No opened source supports the route.
     agx: ["пул", "pul"],
     bdk: ["пул", "pul"],
@@ -987,7 +989,7 @@ WORDS.money = {
     cjs: ["ақча", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     crh: ["aqça", "aqˈtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     crs: ["pesa", "pesa"],
-    fo: ["pengar", "ˈpɛŋːar"],  // Route by resemblance to the neighbouring forms (no); no etymology of its own.
+    fo: ["pengar", "ˈpɛŋːaɹ"],  // Route by resemblance to the neighbouring forms (no); no etymology of its own.
     gcr: ["lajan", "laʒã"],  // Route by resemblance to the neighbouring forms (ht,mfe); no etymology of its own.
     gv: ["argid", "ˈarɡid"],
     haw: ["kālā", "kaːlaː"],
@@ -1003,7 +1005,7 @@ WORDS.money = {
     lld: ["muneida", "muˈnɛida"],
     mg: ["vola", "ˈvula"],  // No opened source supports the route.
     nog: ["акша", "aqˈʃa"],  // Route by resemblance to the neighbouring forms (kk,ba,ky); no etymology of its own.
-    om: ["qarshii", "qarʃiː"],
+    om: ["qarshii", "kʼarʃiː"],
     pap: ["plaka", "plaka"],  // No opened source supports the route.
     pcm: ["mọní", "mɔni"],
     rcf: ["larzan", "larzã"],  // Route by resemblance to the neighbouring forms (mfe); no etymology of its own.
@@ -1012,7 +1014,7 @@ WORDS.money = {
     rom: ["love", "love"],
     ruq: ["pari", "pari"],
     rw: ["amafaranga", "amafaɾaŋɡa"],
-    shn: ["ငိုၼ်", "ŋɤn˨˦"],  // Route by resemblance to the neighbouring forms (lo,th); no etymology of its own.
+    shn: ["ငိုၼ်း", "ŋɯn˥"],  // Route by resemblance to the neighbouring forms (lo,th); no etymology of its own.
     si: ["මුදල්", "mudal"],
     so: ["lacag", "laʕaɡ"],
     sq: ["para", "ˈpaɾa"],
@@ -1044,7 +1046,7 @@ WORDS.money = {
     be: ["грошы", "ˈɣroʂɨ"],
     sl: ["denar", "dɛˈnaːr"],
     hr: ["novac", "nǒʋats"],  // Named after a new coinage (novi denarii); archaic sense "coin" (Wiktionary).
-    mn: ["мөнгө", "møŋɡ"],
+    mn: ["мөнгө", "mɵŋɡ"],
     lv: ["nauda", "ˈnauda"],
     ltg: ["nauda", "ˈnauda"],
     bg: ["пари", "ˈpari"],
@@ -1072,7 +1074,7 @@ WORDS.money = {
     pau: ["diall", "dialː"],
     szy: ["kalisiw", "kalisiw"],
     ckv: ["kelisiw", "kəlisiw"],
-    ami: ["pida", "pida"],
+    ami: ["pida", "piða"],
     tao: ["nizpi", "nizpi"],
     dtp: ["tusin", "tusin"],
     blt: ["ꪹꪉꪷꪙ", "ŋən˥"],
@@ -1143,7 +1145,7 @@ WORDS.money = {
     nap: ["sordi", "ˈsɔrda"],
     niv: ["чӽа", "cʰχæ"],
     or: ["ପଇସା", "pɔisa"],
-    os: ["ӕхца", "əxtsa"],  // Route by resemblance to the neighbouring forms (cv,tt); no etymology of its own.
+    os: ["ӕхца", "æxtsa"],  // Route by resemblance to the neighbouring forms (cv,tt); no etymology of its own.
     ps: ["پيسې", "paiˈse"],
     pis: ["selen", "selen"],
     pt: ["dinheiro", "diˈɲɐjɾu"],  // From a coin of little value, from Vulgar Latin.
@@ -1184,7 +1186,7 @@ WORDS.money = {
     sjd: ["те̄ӈӈьк", "tʲeːŋːjk"],  // No opened source supports the route.
     mrj: ["окса", "ˈoksɑ"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
     mhr: ["окса", "okˈsa"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
-    kpv: ["деньга", "ɟeɲɡa"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
+    kpv: ["сьӧм", "ɕɘm"],  // Also 'fish scale', one word in Wiktionary (Uralic *śëme, cf. Finnish suomu 'scale').
     koi: ["деньга", "ɟeɲɡa"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     kca: ["вох", "wox"],
     mns: ["олн", "oln"],
@@ -1417,7 +1419,7 @@ WORDS.money = {
     ar_jo: ["مصاري", "masˤaːri"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
     ar_ps: ["مصاري", "masˤaːri"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
     ar_lev: ["مصاري", "masˤaːɾi"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
-    ar_sy: ["مصاري", "masˤaːɾi"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
+    ar_sy: ["مصاري", "masˤaːri"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
     ar_lb: ["مصاري", "masˤaːɾi"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
     ar_sd: ["قروش", "ɡuruːʃ"],  // Plural of qirš 'piastre', from Ottoman Turkish.
     el_koi: ["ἀργύριον", "arˈɡyrion"],

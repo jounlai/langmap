@@ -789,7 +789,7 @@ WORDS.india = {
     zza: ["Hindıstan", "hindɨsˈtan"],  // Zaza name for India, shaped like Turkish Hindistan with the -stan ending; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     sl: ["Indija", "ˈiːndija"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Slovene Wikipedia).
     gl: ["India", "ˈindja"],  // From Latin India, from Greek Ἰνδία, named after the Indus river; the reintegrationist spelling is Índia (Wiktionary).
-    kok: ["भारत", "bʱaːɽət"],  // A learned borrowing of Sanskrit Bhārata, the name of the land in the epics; Romi Konkani writes it Bharot (Wiktionary).
+    kok: ["भारत", "bʱaːɾət"],  // A learned borrowing of Sanskrit Bhārata, the name of the land in the epics; Romi Konkani writes it Bharot (Wiktionary).
     ay: ["Indya", "ˈindja"],  // Aymara name for the country; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ce: ["ХӀиндойчоь", "ˈhindojtʃø"],  // Built with -чоь "land", like other Chechen country names; Инди, from Russian, is also listed (Wiktionary). Built on the Persian Hind.
     mer: ["India", "india"],  // Meru name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
@@ -1145,7 +1145,7 @@ WORDS.india = {
     khb: ["ᦊᦲᧃᧈᦎᦴᧈ", "jin˧˥ tuː˧˥"],
     prk: ["In Ndi Ax", "ʔin di ʔaʔ"],
     hil: ["India", "ˈʔindja"],
-    ilo: ["India", "india"],
+    ilo: ["India", "ʔindia"],
     pam: ["India", "ˈʔindja"],
     war: ["Indya", "ˈʔindja"],  // From Spanish.
     el_kath: ["Ἰνδία", "inˈðia"],

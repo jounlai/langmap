@@ -835,7 +835,7 @@ WORDS.lion = {
     ang: ["leo", "leoː"],  // From Latin leo or Greek leon, directly or through a later language.
     ar: ["أسد", "ʔasad"],  // Arabic asad.
     as: ["সিংহ", "xiŋɦɔ"],  // From Sanskrit siṃha.
-    ast: ["lleón", "lleon"],  // From Latin leo or Greek leon, directly or through a later language.
+    ast: ["lleón", "ʎeˈon"],  // From Latin leo or Greek leon, directly or through a later language.
     ayl: ["صيد", "sˤeːd"],
     az: ["aslan", "ɑsˈlɑn"],  // From Turkic arslan.
     ba: ["арыҫлан", "ɑrɯ̞θˈɫɑn"],  // From Turkic arslan.
@@ -883,7 +883,7 @@ WORDS.lion = {
     gu: ["સિંહ", "sĩɦ"],  // From Sanskrit siṃha.
     haw: ["liona", "liona"],  // From Latin leo or Greek leon, directly or through a later language.
     he: ["אריה", "aʁˈje"],
-    hi: ["शेर", "ʃeːr"],  // From Persian šēr.
+    hi: ["शेर", "ʃeːɾ"],  // From Persian šēr.
     ht: ["lyon", "ljɔ̃"],  // From Latin leo or Greek leon, directly or through a later language.
     hts: ["seseme", "seseme"],
     hu: ["oroszlán", "ˈoroslaːn"],  // From Turkic arslan.
@@ -903,10 +903,10 @@ WORDS.lion = {
     kmb: ["hoji", "hoʒi"],
     kn: ["ಸಿಂಹ", "simhɑ"],  // From Sanskrit siṃha.
     ko: ["사자", "sadʑa"],  // From Chinese 獅, the shi word.
-    kok: ["शींव", "ʃĩːw"],  // From Sanskrit siṃha.
+    kok: ["शींव", "ʃĩːʋ"],  // From Sanskrit siṃha.
     kqn: ["bokwe", "bokwe"],
     ks: ["پادَر سٕہہ", "paːdar sɨh"],  // sɨh is the Kashmiri reflex of Sanskrit siṃha (Turner, CDIAL 13384: K. sᵃh 'tiger, leopard'), here with pādar in front.
-    ksb: ["shimba", "shimba"],
+    ksb: ["shimba", "ʃimba"],
     ku: ["şêr", "ʃeːɾ"],  // From Persian šēr.
     kum: ["арслан", "arslan"],  // From Turkic arslan.
     kw: ["lew", "lɛˑʊ"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -967,17 +967,17 @@ WORDS.lion = {
     scn: ["liuni", "liˈuni"],  // From Latin leo or Greek leon, directly or through a later language.
     sd: ["شينهن", "ʂĩːɦɯ̃"],  // From Sanskrit siṃha.
     se: ["ledjon", "ˈleːɟɟon"],  // Route by resemblance to the neighbouring forms (sv(lejon) fi(leijona)); no etymology of its own.
-    shn: ["သၢင်ႇသီႈ", "sʰaːŋ˩ sʰiː˧˧˨"],  // Wiktionary compares Burmese ခြင်္သေ့. Route by resemblance to the neighbouring forms (my(ခြင်္သေ့)); no etymology of its own.
+    shn: ["သၢင်ႇသီႈ", "sʰaːŋ˩ sʰiː˧˨"],  // Wiktionary compares Burmese ခြင်္သေ့. Route by resemblance to the neighbouring forms (my(ခြင်္သေ့)); no etymology of its own.
     si: ["සිංහයා", "siŋhəjaː"],  // From Sanskrit siṃha.
     sk: ["lev", "ʎev"],  // From Latin leo or Greek leon, directly or through a later language.
     sm: ["leona", "leona"],  // From Latin leo or Greek leon, directly or through a later language.
-    so: ["aar", "aar"],
+    so: ["aar", "aːr"],
     sq: ["luan", "luˈan"],  // From Latin leo or Greek leon, directly or through a later language.
     srn: ["lew", "lew"],  // From Latin leo or Greek leon, directly or through a later language.
     ssw: ["silo", "silo"],
     ssy: ["lubak", "lubak"],
     st: ["tau", "tau"],
-    suk: ["shimba", "shimba"],
+    suk: ["shimba", "ʃimba"],
     sv: ["lejon", "ˈlɛjːɔn"],  // From Latin leo or Greek leon, directly or through a later language.
     sw: ["simba", "ˈsimba"],
     syc: ["ܐܪܝܐ", "ʔarjɑ"],
@@ -997,7 +997,7 @@ WORDS.lion = {
     tzm: ["ⵉⵣⵎ", "izm"],
     udi: ["аслан", "aslan"],  // From Turkic arslan.
     udm: ["лев", "lev"],  // Route by resemblance to the neighbouring forms (kpv(лев) ru(лев)); no etymology of its own.
-    ug: ["ئارسلان", "ʔɑrslɑn"],  // From Turkic arslan.
+    ug: ["ئارسلان", "ɑrslɑn"],  // From Turkic arslan.
     uk: ["лев", "ɫɛu̯"],  // From Latin leo or Greek leon, directly or through a later language.
     umb: ["hosi", "hosi"],
     ur: ["شیر", "ʃeːɾ"],  // From Persian šēr.
@@ -1009,7 +1009,7 @@ WORDS.lion = {
     vo: ["leon", "leˈon"],  // From Latin leo or Greek leon, directly or through a later language.
     xal: ["арслң", "arˈsləŋk"],  // From Turkic arslan.
     yao: ["lisimba", "lisimba"],
-    yi: ["לייב", "ˈɫeɪ̯b"],  // From Latin leo or Greek leon, directly or through a later language.
+    yi: ["לייב", "ˈleɪ̯b"],  // From Latin leo or Greek leon, directly or through a later language.
     yue: ["獅子", "siː˥ tsiː˧˥"],  // From Chinese 獅, the shi word.
     zh: ["狮子", "ʂʅ˥ tsɨ"],  // From Chinese 獅, the shi word.
     ar_eg: ["أسد", "ʔasad"],  // Arabic asad; سبع sabʕ is also used.

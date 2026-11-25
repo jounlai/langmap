@@ -69,6 +69,7 @@ WORDS.potato = {
     sw: "Kiazi — kiazi cha mmea Solanum tuberosum (si kiazi kitamu). Kiliondoka milima ya Andes karne ya 16, na kila lugha iliyokipokea ililazimika kuamua ni kitu gani: Kihispania kilibaki na neno la Kikechua papa, Kifaransa, Kiholanzi, Kiebrania na Kiajemi vilikiita \"tufaha la ardhi\", Kijerumani na Kirusi vilikipa jina la uyoga truffle, Kijapani jina la Jakarta.",
   },
   family: {
+    lbe: "unknown",
     lb: "earth",
     gcr: "earth",
     cic: "other",
@@ -703,6 +704,7 @@ WORDS.potato = {
     },
   },
   data: {
+    lbe: ["нувщи", "nuwʃːi"],  // From ids Lak (3 dialects) нувщи.
     lb: ["Gromper", "ˈɡʁompɐ"],  // A contraction of "ground pear" (Grond + Bir), like regional German Grundbirne.
     gcr: ["ponmtè", "pɔ̃mtɛ"],  // From French pomme de terre, "apple of the earth".
     cic: ["ahiʼ", "ahiʔ"],  // A native word inherited from Proto-Muskogean *ahiCa, not a loan.
@@ -800,7 +802,7 @@ WORDS.potato = {
     mr: ["बटाटा", "bəʈaːʈaː"],  // From Portuguese batata, a Taíno word.
     gu: ["બટાટો", "ˈbəʈaːʈo"],  // From Portuguese batata; the variant બટાકો/બટાકા is also very common.
     si: ["අර්තාපල්", "artaːpal"],  // Borrowed from Dutch aardappel "earth apple", from the Dutch period in Sri Lanka; අල ala is the general word for a tuber.
-    te: ["బంగాళాదుంప", "baŋɡaːɭaːdumpa"],  // Literally "Bengal root"; Telangana mostly says ఆలుగడ్డ and coastal Andhra ఉర్లగడ్డ.
+    te: ["బంగాళాదుంప", "baŋɡaːɭaːd̪umpa"],  // Literally "Bengal root"; Telangana mostly says ఆలుగడ్డ and coastal Andhra ఉర్లగడ్డ.
     kn: ["ಆಲೂಗಡ್ಡೆ", "aːluːɡaɖːe"],  // Hindustani ālū (an old Sanskrit tuber word) plus Kannada gaḍḍe "tuber"; ಬಟಾಟೆ is also used.
     ml: ["ഉരുളക്കിഴങ്ങ്", "uɾuɭakːiɻaŋːɨ"],  // Literally "round tuber".
     tg: ["себзаминӣ", "sebzamini"],  // Literally "apple of the earth", like Persian سیب‌زمینی; colloquial картошка (from Russian) is also common.

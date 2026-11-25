@@ -1049,7 +1049,7 @@ WORDS.greece = {
     bra: ["यूनान", "juːnaːn"],  // यूनान is the name of Greece in the Braj Bible, the same word as Hindi यूनान from Persian یونان Yunan.
     rim: ["Yunani", "junani"],  // Yunani is the name of Greece in the Kirimi Bible, written with the place-name prefix u- (uYunani) like uMakedonia.
     dtp: ["Yunani", "junani"],  // Yunani is the name of Greece in the Kadazandusun Bible, as in Malay.
-    urh: ["Gris", "ɡris"],  // Gris is the name of Greece in the Urhobo Bible.
+    urh: ["Gris", "ɡɾis"],  // Gris is the name of Greece in the Urhobo Bible.
     asu: ["Ugriki", "uɡriki"],  // Ugriki is the name of Greece in the Chasu New Testament.
     lij: ["Grêcia", "ˈɡreːtʃia"],  // Grêcia is the title of the Ligurian Wikipedia article on Greece.
     tet: ["Grésia", "ˈɡrɛsia"],  // Grésia is the title of the Tetum Wikipedia article on Greece.

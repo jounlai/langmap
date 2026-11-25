@@ -1649,7 +1649,7 @@ WORDS.head = {
     mrw: ["olo", "olo"],
     tsg: ["ū", "ʔuː"],
     hr: ["glava", "ɡlǎːʋa"],
-    bs: ["glava", "ˈɡlava"],
+    bs: ["glava", "ˈɡlaʋa"],
     iba: ["pala", "pala"],
     xal: ["толһа", "tolɣa"],
     ave: ["𐬯𐬀𐬭𐬀𐬵", "sarah"],

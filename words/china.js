@@ -733,7 +733,7 @@ WORDS.china = {
     mzn: ["چین", "tʃiːn"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     vec: ["Cina", "ˈtʃina"],  // From Classical Persian Čīn, ultimately Sanskrit Cīna; Venetian Cina is thought to be the source of Portuguese and Spanish China.
     ka: ["ჩინეთი", "tʃʰinetʰi"],  // Čineti; Wiktionary gives no etymology for it. The same Cīna name as Persian چین, with the Georgian place suffix -eti.
-    ace: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
+    ace: ["Cina", "cina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     czh: ["中国", "tsan˩˩ kuə˥"],  // The characters 中国 "Middle Kingdom" read in Tunxi Hui.
     glk: ["چين", "tʃin"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     bjn: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
@@ -994,7 +994,7 @@ WORDS.china = {
     co: ["China", "ˈkina"],  // The Corsican Wikipedia's article on the country is titled China (a China), with ch read /k/ as in Corsican turchinu.
     frp: ["Ch·ina", "ˈtʃina"],  // The Arpitan Wikipedia's article on the country and region is titled Ch·ina in the ORB supradialectal spelling, where ch· stands for the sound written tʃ in this row's ch·ocolât.
     bpy: ["চীন", "tʃin"],  // The Bishnupriya Manipuri Wikipedia calls the People's Republic গণচীন 'People's China' and uses plain চীন for the country in running text and in its list of country names.
-    pwn: ["Tailiku", "tailiku"],  // The Paiwan Wikipedia titles its article on the People's Republic of China Tailiku. Route by resemblance to the neighbouring forms (bnn(Tailuku)), which are glossed "mainland".
+    pwn: ["Tailiku", "taiɭiku"],  // The Paiwan Wikipedia titles its article on the People's Republic of China Tailiku. Route by resemblance to the neighbouring forms (bnn(Tailuku)), which are glossed "mainland".
     bnn: ["Tailuku", "taiɬuku"],  // Glossed 'mainland China' in the ILRDF Bunun dictionary, the usual way China is named in Taiwan.
     kl: ["Kina", "kina"],  // Kina, as in Danish Kina; Greenlandic says Kinami 'in China' and Kinamiut 'Chinese people'. Route by resemblance to the neighbouring forms (da(Kina)); no etymology of its own.
     mh: ["Jaina", "tʲæɰjinʲæɰ"],  // Borrowed from English China (Wiktionary); Jehovah's Witnesses' Marshallese publications spell it Jaina, with Ri Jaina 'Chinese people'.
@@ -1024,7 +1024,7 @@ WORDS.china = {
     wym: ["Hīna", "ˈhiːna"],  // Recorded in Mojmir's 1930 dictionary of the Wilamowice dialect as the name of China.
     la: ["Sīnae", "ˈsiːnae"],  // From Greek Σῖναι, probably from Sanskrit Cīna; the people reached by sea, while the Sērēs were reached overland.
     el_grc: ["Σῖναι", "sîːnai̯"],  // Possibly through Arabic and Middle Persian from Sanskrit Cīna; Ptolemy's people of southern China, reached by sea.
-    sa: ["चीनाः", "tʃiːnaːh"],  // The Cīnas, a people of classical literature usually identified as the Chinese, perhaps after the state of Qin.
+    sa: ["चीनाः", "tɕiːnaːh"],  // The Cīnas, a people of classical literature usually identified as the Chinese, perhaps after the state of Qin.
     fa_clas: ["چین", "tʃiːn"],  // Inherited from Middle Persian čīn, from Sanskrit Cīna.
     ar_qur: ["الصين", "asˤsˤiːn"],  // From Middle Persian čīn; the country name always takes the article.
     ja_heian: ["もろこし", "moɾokosi"],  // First attested in the Man'yōshū: moro- 'many' + koshi, a reading of 越, after the Hundred Yue peoples of southern China.

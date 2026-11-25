@@ -1173,7 +1173,7 @@ WORDS.tea = {
     tyz: ["chè", "cɛ˧˨"], // was ["chè", "tɕɛ˨˩"] (vi dialect rules 2026-10-06)
     cic: ["tii", "tiː"],
     shn: ["ၼမ်ႉၼဵင်ႈ", "nam˦˨ˀ neŋ˧˨"],
-    moh: ["tí", "ti"],
+    moh: ["tí", "tí"],
     cho: ["ti", "ti"],
     nv: ["dééh", "téːh"],
     niv: ["чай", "tʃʰaj"], // was ["чай", "tʃaj"] (vi dialect rules 2026-10-06)
@@ -1186,7 +1186,7 @@ WORDS.tea = {
     zza: ["çay", "tʃaj"],
     egl: ["tä", "tæ"],
     pdt: ["Tee", "teː"],
-    mn_cn: ["ᠴᠠᠢ", "tsʰai"],
+    mn_cn: ["ᠴᠠᠢ", "tʃʰai"],
     bxr: ["сай", "saj"],
     ja_aom: ["お茶", "otɕa"],
     ja_sd: ["お茶", "otɕa"],

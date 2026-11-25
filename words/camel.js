@@ -784,7 +784,7 @@ WORDS.camel = {
     ace: ["unta", "unta"],
     agx: ["деве", "deve"],  // Route by resemblance to the neighbouring forms (tkr,gag,zza); no etymology of its own.
     bdk: ["деве", "deve"],  // Route by resemblance to the neighbouring forms (tkr,gag,zza); no etymology of its own.
-    rut: ["деве", "deve"],  // Route by resemblance to the neighbouring forms (tkr,gag,zza); no etymology of its own.
+    rut: ["деве", "dewe"],  // Route by resemblance to the neighbouring forms (tkr,gag,zza); no etymology of its own.
     tab: ["деве", "deve"],  // Route by resemblance to the neighbouring forms (tkr,gag,zza); no etymology of its own.
     tkr: ["дева", "deva"],
     kjj: ["даьваь", "dævæ"],  // Route by resemblance to the neighbouring forms (tkr,az,gag); no etymology of its own.
@@ -835,7 +835,7 @@ WORDS.camel = {
     ne: ["ऊँट", "ũʈ"],  // Route by resemblance to the neighbouring forms (pa,sat,bn); no etymology of its own.
     nog: ["туье", "tyje"],
     nrf: ["chanmeau", "ʃɑ̃mo"],
-    nv: ["ghą́ą́ʼaskʼidii", "ɣɑ̃́ːʔaskʼidiː"],
+    nv: ["ghą́ą́ʼaskʼidii", "ɣɑ̃́ːʔɑ̀skʼìtìː"],
     ps: ["اوښ", "uʂ"],
     rhg: ["uñth", "ũtʰ"],  // Route by resemblance to the neighbouring forms (th,as,lo); no etymology of its own.
     rm: ["chamel", "tɕaˈmɛl"],
@@ -860,7 +860,7 @@ WORDS.camel = {
     wa: ["chamo", "ʃamɔ"],
     wo: ["giléem", "ɡileːm"],  // An old borrowing, likely from Tamahaq aɣlam.
     xmf: ["არქემი", "arkʰemi"],
-    yo: ["ràkùnmí", "ràkũ̀mí"],
+    yo: ["ràkùnmí", "ɾàkũ̀mí"],
     zza: ["deve", "dɛvɛ"],
     zh: ["骆驼", "lwo˥˩ tʰwo˧˥"],
     yue: ["駱駝", "lɔːk˧ tʰɔː˨˩"],
@@ -978,8 +978,8 @@ WORDS.camel = {
     fr_cm: ["chameau", "ʃamo"],
     de_lu: ["Kamel", "kaˈmeːl"],
     en_ng2: ["camel", "ˈkæməl"],
-    es_bo: ["camello", "kaˈmeʝo"],
-    es_py: ["camello", "kaˈmeʝo"],
+    es_bo: ["camello", "kaˈmeʎo"],
+    es_py: ["camello", "kaˈmeʎo"],
     es_pa: ["camello", "kaˈmeʝo"],
     en_my: ["camel", "ˈkæməl"],
     en_wls: ["camel", "ˈkaməl"],

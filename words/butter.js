@@ -744,7 +744,7 @@ WORDS.butter = {
     ln: ["manteka", "manteka"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     af: ["botter", "ˈbɔtər"],
     bar: ["Butta", "ˈb̥utːɐ"],
-    yi: ["פוטער", "ˈpʊtəʁ"],
+    yi: ["פוטער", "ˈpʊtər"],
     is: ["smjör", "ˈsmjœːr"],
     gd: ["ìm", "iːm"],  // From Old Irish imb; compare Latin unguen 'grease'.
     br: ["amann", "ãˈmãnː"],  // From Proto-Celtic *amban, from a root meaning 'anoint'.
@@ -801,7 +801,7 @@ WORDS.butter = {
     lbe: ["нагь", "nah"],
     ady: ["тхъу", "tχʷə"],
     ab: ["ахəша", "aχəʂa"],
-    os: ["нӕлхӕ", "nəlxə"],  // From Ingush налха.
+    os: ["нӕлхӕ", "nælxæ"],  // From Ingush налха.
     mh: ["bōta", "pˠʌdˠɑ"],
     tet: ["manteiga", "manteiɡa"],
     dz: ["མར", "mɑː"],
@@ -811,7 +811,7 @@ WORDS.butter = {
     ast: ["mantega", "manˈteɣa"],
     wa: ["boûre", "buːʀ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     koi: ["ви", "vi"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
-    udm: ["вӧй", "ʋɘj"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
+    udm: ["вӧй", "vɘj"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     myv: ["ой", "oj"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     mdf: ["вай", "vaj"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     krl: ["voi", "voi̯"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -822,7 +822,7 @@ WORDS.butter = {
     ba: ["май", "mɑj"],  // From Proto-Turkic *bań 'fat'.
     ksw: ["ဝံၣ်သိစီ", "wìθósɔ́"],
     kr: ["fə́là", "fə́là"],
-    moh: ["owistóhseraʼ", "ʔowisdóʰseraʔ"],
+    moh: ["owistóhseraʼ", "owisdóʰseraʔ"],
     ess: ["пара", "para"],
     dsb: ["butra", "ˈbutra"],
     gv: ["eeym", "iːm"],  // From Old Irish imb; compare Latin unguen 'grease'.
@@ -838,8 +838,8 @@ WORDS.butter = {
     srn: ["botro", "botro"],
     srm: ["bótófátu", "bótófátu"],
     mnw: ["ထဝ်ဗာတ်", "tʰɔpàt"],  // From Burmese ထောပတ်.
-    kek: ["manteek", "manteek"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    sid: ["buuro", "buːɾo"],
+    kek: ["manteek", "manteːk"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    sid: ["buuro", "buːro"],
     uln: ["Butter", "buta"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     bew: ["mentéga", "menteɡa"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     io: ["butro", "ˈbutro"],
@@ -863,7 +863,7 @@ WORDS.butter = {
     fr_cm: ["beurre", "bœʁ"],
     de_lu: ["Butter", "ˈbʊtɐ"],
     en_ng2: ["butter", "ˈbʌtə"],
-    es_bo: ["mantequilla", "manteˈkiʝa"],
+    es_bo: ["mantequilla", "manteˈkiʎa"],
     es_py: ["manteca", "manˈteka"],  // In the Río de la Plata and Paraguay the everyday word for butter is manteca (Wiktionary: Rioplatense, Paraguay).
     es_pa: ["mantequilla", "manteˈkiʝa"],
     en_my: ["butter", "ˈbatə"],
@@ -968,7 +968,7 @@ WORDS.butter = {
     tk: ["mesge", "mesˈɡe"],  // Borrowed from Persian مسکه.
     zu: ["ibhotela", "iboˈteːla"],
     an: ["manteca", "manˈteka"],
-    shn: ["ထေႃးပၢတ်ႈ", "tʰɔː˥paːt̚˧˧˨"],  // From Burmese ထောပတ်.
+    shn: ["ထေႃးပၢတ်ႈ", "tʰɔː˥paːt˧˨"],  // From Burmese ထောပတ်.
     crh: ["sarı yağ", "saˈrɯ jaɣ"],  // 'Yellow fat'.
     so: ["subag", "subaɡ"],
     xh: ["ibhotolo", "iboːtoːlo"],  // Borrowed from Afrikaans botter.
@@ -1058,7 +1058,7 @@ WORDS.butter = {
     egy_dem: ["sr", "ˈsaire"],
     arc: ["שְׁמַן", "ʃman"],
     mn_cn: ["ᠰᠢᠷ᠎ᠠ ᠲᠣᠰᠤ", "ʃɑr tɔs"],
-    mjg: ["qighaan tuusi", "tɕiʁaːn tuːsɿ"],  // 'White fat': tuusi is fat, oil.
+    mjg: ["qighaan tuusi", "tɕʰiʁaːn tuːsɿ"],  // 'White fat': tuusi is fat, oil.
     mvf: ["qighaan tuusi", "ʨaɢaan tuusə"],  // 'White fat': tuusi is fat, oil.
     ybe: ["jaɣ", "jaɣ"],  // Also 'oil, grease'.
     pt_mo: ["manteiga", "mɐ̃ˈtɐjɣɐ"],

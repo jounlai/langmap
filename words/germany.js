@@ -708,7 +708,7 @@ WORDS.germany = {
     mzn: ["آلمان", "ɒːlˈmɒːn"],  // Same form as Persian ālmān, borrowed from French Allemagne, from the Alamanni tribe.
     vec: ["Zermània", "zerˈmanja"],  // From Latin Germania, with the Venetian change of g- to z- (compare zente 'people').
     ka: ["გერმანია", "ɡermania"],  // From Latin Germānia.
-    ace: ["Jeureuman", "dʒɯrɯman"],  // From Latin Germania, via Malay Jerman.
+    ace: ["Jeureuman", "ɟɯrɯman"],  // From Latin Germania, via Malay Jerman.
     glk: ["آلمان", "ɒːlmɒːn"],  // Same form as Persian ālmān, borrowed from French Allemagne, from the Alamanni tribe.
     ban: ["Jerman", "dʒərman"],  // Same name as Indonesian Jerman, from Latin Germania.
     lt: ["Vokietija", "voːkʲiɛtʲɪˈjɛ"],  // Built on vókietis 'a German'; the origin of the Baltic vok-/vāc- root is unclear.
@@ -749,7 +749,7 @@ WORDS.germany = {
     cv: ["Германи", "ɡerˈmani"],  // Germany in Chuvash; no source found naming the donor. Route by resemblance to the neighbouring forms (ce(Германи) he(גרמניה)); no etymology of its own.
     av: ["Германия", "ɡermanija"],  // Germany in Avar Wikipedia; Wiktionary also lists Алмания; no source found naming the donor. Route by resemblance to the neighbouring forms (uz(Germaniya) bg(Германия)); no etymology of its own.
     lez: ["Германия", "ɡerˈmanija"],  // Germany in Lezgian; no source found naming the donor. Route by resemblance to the neighbouring forms (uz(Germaniya) bg(Германия)); no etymology of its own.
-    new: ["जर्मनी", "dʒəɾməni"],  // Germany in Newar; no source found naming the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
+    new: ["जर्मनी", "dʑəɾməni"],  // Germany in Newar; no source found naming the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     pnt: ["Γερμανία", "ʝermaˈnia"],  // Germany in Pontic Greek, the same form as Standard Greek; no source found naming the donor. Route by resemblance to the neighbouring forms (el(Γερμανία) he(גרמניה)); no etymology of its own.
     ve: ["Dzheremane", "dʒeremane"],  // Germany in Venda, as in the German Foreign Office's official Venda rendering; no source found naming the donor. Route by resemblance to the neighbouring forms (ny(Jeremani) id(Jerman)); no etymology of its own.
     gor: ["Jerman", "ˈdʒerman"],  // Germany in Gorontalo Wikipedia, the same form as Indonesian Jerman; no source found naming the donor. Route by resemblance to the neighbouring forms (id(Jerman) ms(Jerman)); no etymology of its own.

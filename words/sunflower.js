@@ -441,7 +441,7 @@ WORDS.sunflower = {
     yue: ["向日葵", "hœːŋ˧ jɐt˨ kʷʰɐi˨˩"],  // 向 'to face' + 日 'sun' + 葵 'kui plant'.
     vi: ["hướng dương", "hɨəŋ˧˥ zɨəŋ˧"],  // Sino-Vietnamese 向陽 'facing the sun'.
     mr: ["सूर्यफूल", "suːɾjəpʰul"],  // सूर्य 'sun' + फूल 'flower'.
-    te: ["పొద్దుతిరుగుడు", "podːutiɾuɡuɖu"],  // పొద్దు 'sun' + తిరుగుడు 'turning': the flower that turns with the sun.
+    te: ["పొద్దుతిరుగుడు", "pod̪ːut̪iɾuɡuɖu"],  // పొద్దు 'sun' + తిరుగుడు 'turning': the flower that turns with the sun.
     tl: ["mirasol", "miɾaˈsol"],  // Borrowed from Spanish mirasol 'sun-watcher'; hirasol (from girasol) is a synonym.
     ko: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'.
     wuu: ["向日葵", "ɕiã˧˧ zəʔ˥˥ ɡue˨˩"],  // 向 'to face' + 日 'sun' + 葵 'kui plant'.

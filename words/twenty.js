@@ -74,6 +74,8 @@ WORDS.twenty = {
     sw: "Ishirini — namba baada ya kumi na tisa. Lugha nyingine husema wazi makumi mawili, nyingine umbo hilo limechakaa, nyingine zina neno lake, na nyingine huhesabu vidole vyote vya mikono na miguu, hivyo ishirini ni mtu mzima mmoja.",
   },
   family: {
+    pkp: "tens",
+    ssf: "plain",
     af: "fused",
     ain: "base",
     sq: "base",
@@ -101,7 +103,7 @@ WORDS.twenty = {
     crh: "plain",
     cs: "fused",
     da: "base",
-    dar: "unknown",
+    dar: "plain",
     dv: "fused",
     nl: "fused",
     eo: "tens",
@@ -236,14 +238,14 @@ WORDS.twenty = {
     smj: "tens",
     se: "tens",
     smn: "tens",
-    sms: "unknown",
+    sms: "fused",
     sjd: "tens",
-    mrj: "unknown",
+    mrj: "fused",
     mhr: "plain",
     mdf: "plain",
     myv: "plain",
     koi: "tens",
-    kpv: "tens",
+    kpv: "plain",
     kca: "plain",
     mns: "plain",
     yrk: "tens",
@@ -253,7 +255,7 @@ WORDS.twenty = {
     hr: "tens",
     nn: "fused",
     en: "fused",
-    evn: "unknown",
+    evn: "tens",
     gld: "plain",
     ab: "tens",
     ady: "base",
@@ -904,6 +906,8 @@ WORDS.twenty = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    pkp: ["luangaulu", "luaŋaulu"],  // From abvd Pukapuka: luangaulu.
+    ssf: ["mapushaz", "mapuʃað"],  // From abvd Thao B96: mapù:sað.
     af: ["twintig", "ˈtvəntəχ"],
     ain: ["ホッ", "hot"],
     sq: ["njëzet", "ɲəˈzɛt"],  // Literally 'one score'.
@@ -931,7 +935,7 @@ WORDS.twenty = {
     crh: ["yigirmi", "jiɡirˈmi"],
     cs: ["dvacet", "ˈdvatsɛt"],
     da: ["tyve", "ˈtyːvə"],  // The unit behind halvfems, 90.
-    dar: ["гъал", "ʁal"],  // No opened source supports the route.
+    dar: ["гъал", "ʁal"],  // A word of its own in a decimal count (Omniglot numbers).
     dv: ["ވިހި", "ʋihi"],
     nl: ["twintig", "ˈtʋɪntəx"],
     eo: ["dudek", "ˈdudek"],
@@ -956,7 +960,7 @@ WORDS.twenty = {
     haw: ["iwakālua", "iwakaːlua"],
     he: ["עשרים", "esˈʁim"],  // The plural of עשר 'ten'.
     hi: ["बीस", "biːs"],
-    hop: ["sunat", "sunat"],
+    hop: ["sunat", "sɨnat"],
     hu: ["húsz", "huːs"],
     is: ["tuttugu", "ˈtʰʏhtʏɣʏ"],
     id: ["dua puluh", "ˌdua ˈpuluh"],
@@ -1057,7 +1061,7 @@ WORDS.twenty = {
     yo: ["ogún", "oɡṹ"],
     yua: ["junkʼáal", "hunkʼaːl"],  // Literally 'one score'.
     esu: ["yuinaq", "juinaq"],  // Cell comment in words/hundred.js counts in yuinaq; no source for 'person'.
-    zu: ["amashumi amabili", "amaʃumi amabili"],
+    zu: ["amashumi amabili", "amaʃumi amaɓili"],
     fkv: ["kaksikymmentä", "ˈkɑksikymːentæ"],
     krl: ["kaksikymmentä", "ˈkaksikymːentæ"],
     olo: ["kaksikymmen", "ˈkaksikymːen"],
@@ -1066,14 +1070,14 @@ WORDS.twenty = {
     smj: ["guoktalåhke", "ˈɡʊuɔktɑlɔhkɛ"],
     se: ["guoktelogi", "ˈkuɔktelɔki"],
     smn: ["kyeh'tilov", "ˈkyehtilov"],
-    sms: ["kuâhttlo", "ˈkuɐxtːlo"],  // No opened source supports the route.
+    sms: ["kuâhttlo", "ˈkuɐxtːlo"],  // The ten of lååi is worn to -lo (Omniglot numbers).
     sjd: ["кӯххтлоагкь", "kuːxːtloaɡk"],
-    mrj: ["коклы", "koklə"],  // No opened source supports the route.
+    mrj: ["коклы", "koklə"],  // кок 'two' + лу 'ten', worn to -лы (Omniglot numbers).
     mhr: ["коло", "ˈkolo"],
     mdf: ["комсь", "komsʲ"],
     myv: ["комсь", "komsʲ"],
     koi: ["кыкдас", "kɨkdas"],
-    kpv: ["кыкдас", "kɨkdas"],
+    kpv: ["кызь", "kɨʑ"],
     kca: ["хус", "xus"],
     mns: ["хус", "χus"],
     yrk: ["сидя юˮ", "sʲidʲɑ ʲuʔ"],
@@ -1083,7 +1087,7 @@ WORDS.twenty = {
     hr: ["dvadeset", "dʋǎːdeset"],
     nn: ["tjue", "ˈçʉːə"],
     en: ["twenty", "ˈtwɛnti"],
-    evn: ["дю̄р-дя̄р", "dʒuːrdʒaːr"],  // No opened source supports the route.
+    evn: ["дю̄р-дя̄р", "dʒuːrdʒaːr"],  // дюр 'two' + дян 'ten' (Wiktionary).
     gld: ["хорин", "xɔrin"],
     ab: ["ҩажәа", "ɥaʒʷa"],
     ady: ["тӏокӏы", "tʼʷaˈtʃʼə"],
@@ -1098,7 +1102,7 @@ WORDS.twenty = {
     crs: ["ven", "vɛ̃"],
     dsb: ["dwaźasća", "ˈdvaʑasʲtɕa"],
     orh: ["urin", "urin"],
-    tzo: ["tob", "tob"],
+    tzo: ["tob", "toɓ"],
     kek: ["junmay", "χunmaj"],  // Literally 'one score'.
     cnh: ["kûl", "kuːl"],
     ban: ["duaŋdasə", "duaŋdasə"],

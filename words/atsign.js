@@ -67,7 +67,6 @@ WORDS.atsign = {
     vi: "bentA",
     nl: "monkeytail",
     ro: "monkeytail",
-    lb: "monkeytail",
     af: "monkeytail",
     de: "spidermonkey",
     it: "snail",
@@ -156,6 +155,7 @@ WORDS.atsign = {
     littlemouse: { emoji: "🐭", en: "little mouse", ja: "子ネズミ", ko: "생쥐", zh: "小老鼠", yue: "小老鼠", vi: "chuột nhắt", th: "หนูน้อย", id: "tikus kecil", hi: "छोटा चूहा", de: "Mäuschen", fr: "petite souris", it: "topolino", es: "ratoncito", pt: "ratinho", ru: "мышка", uk: "мишка", ar: "فأر صغير", he: "עכבר קטן", sw: "panya mdogo" },
   },
   family: {
+    lb: "at",
     ja: "at",
     ko: "whelk",
     zh: "at",
@@ -479,7 +479,7 @@ WORDS.atsign = {
     // === More Western Europe ===
     gl: ["arroba", "aˈrɔβa"],
     oc: ["arròba", "aˈrɔβɔ"],
-    lb: ["—", "—"],
+    lb: ["At-Zeechen", ""],
     fo: ["kurla", "ˈkʰʊɭa"],
     af: ["aapstert", "ˈɑːpstɛrt"],
     // === Baltic ===

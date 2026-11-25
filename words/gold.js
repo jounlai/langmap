@@ -75,6 +75,9 @@ WORDS.gold = {
     sw: "Dhahabu — metali ya manjano. Lugha nyingi huipa jina kwa rangi yake: mzizi wa Kihindi-Ulaya wa \"manjano\" ulizaa Kiingereza gold, Kirusi золото na Kiajemi zar, na Kivietinamu vàng ni neno la Kichina la \"manjano\". Kilatini aurum kilizaa oro na or, Kisanskriti suvarṇa \"chenye rangi nzuri\" kilizaa Kihindi सोना, Kituruki altun kilivuka nyika, Kiarabu ذهب kilifika Kiswahili kama dhahabu, na Kichina 金 kilifika Kijapani na Kikorea.",
   },
   family: {
+    pmi: "plain",
+    jiu: "plain",
+    itb: "bulawan",
     aa: "dahab",
     ace: "emas",
     acw: "dahab",
@@ -953,6 +956,9 @@ WORDS.gold = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    pmi: ["ŋɛ55", "ŋɛ˥˥"],  // From suntb Pumi (Taoba): ŋɛ⁵⁵.
+    jiu: ["ɕɯ42", "ɕɯ˦˨"],  // From suntb Jinuo: ɕɯ⁴².
+    itb: ["voxawan", "voɣawan"],  // From ACD Itbayaten: voxawan.
     aa: ["dahab", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
     ace: ["meuh", "mɯh"],
     acw: ["ذهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
@@ -962,7 +968,7 @@ WORDS.gold = {
     aii: ["ܕܗܒܐ", "dahwɑː"],  // From Semitic ḏahab, Arabic ذَهَب.
     ak: ["sika", "sika"],
     alt: ["алтын", "altɯn"],  // Turkic *altun / Mongolic *altan.
-    am: ["ወርቅ", "wərk"],
+    am: ["ወርቅ", "wərkʼ"],
     an: ["oro", "ˈoɾo"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     ang: ["gold", "ɡold"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     ani: ["мисиди", "misidi"],
@@ -1052,7 +1058,7 @@ WORDS.gold = {
     kk: ["алтын", "ɑlˈtɯn"],  // Turkic *altun / Mongolic *altan.
     kl: ["kuulti", "kuulti"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     km: ["មាស", "miəh"],
-    kn: ["ಚಿನ್ನ", "tʃin̪n̪a"],
+    kn: ["ಚಿನ್ನ", "tʃinna"],
     ko: ["금", "kɯm"],  // From Chinese 金.
     koi: ["зарни", "ˈzarɲi"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     kok: ["भांगर", "bʱaːŋəɾ"],  // From Sanskrit bhṛṅgāra.
@@ -1067,7 +1073,7 @@ WORDS.gold = {
     lg: ["zaabu", "zaːbu"],  // From Semitic ḏahab, Arabic ذَهَب.
     lij: ["öo", "ˈɔːu"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     liv: ["kūlda", "ˈkuːldɑ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
-    lmo: ["oro", "ˈoɾo"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
+    lmo: ["oro", "ˈoro"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     ln: ["wólo", "wólo"],
     lo: ["ຄຳ", "kʰam˧˥"],  // From Chinese 金.
     lt: ["auksas", "ˈauksɐs"],  // From Proto-Indo-European *h₂éh₂usom "dawn; gold"; cognate with Latin aurum.
@@ -1223,7 +1229,7 @@ WORDS.gold = {
     en_aave: ["gold", "ɡoʊld"],
     de_at: ["Gold", "ɡɔlt"],
     rmy: ["sumnakaj", "sumnakaj"],
-    smj: ["golli", "ˈkɔlːliː"],
+    smj: ["gålle", "ˈɡɔlːɛ"],
     en_south: ["gold", "ɡoʊld"],
     en_ie: ["gold", "ɡoːld"],
     en_yk: ["gold", "ɡoːld"],
@@ -1284,7 +1290,7 @@ WORDS.gold = {
     he_mis: ["זהב", "zaˈhav"],  // Mishnah Bava Metzia 4:1 "gold acquires silver".
     hy_grab: ["ոսկի", "oski"],  // Origin unclear.
     sukh: ["ทอง", "dɔːŋ"],  // From Old Chinese 銅 "copper"; Ram Khamhaeng inscription ("ค้าทอง").
-    qwc: ["quri", "quri"],
+    qwc: ["quri", "quɾi"],
     obr: ["ရှုယ်", "r̥uj"],  // From Proto-Sino-Tibetan *s-rwəj.
     ett: ["zamathi", "ˈtsamatʰi"],  // Written 𐌆𐌀𐌌𐌀𐌈𐌉.
     el_kath: ["χρυσός", "xriˈsos"],  // Probably a Semitic loan in Ancient Greek.
@@ -1406,7 +1412,7 @@ WORDS.gold = {
     en_my: ["gold", "ɡoːld"],  // The same word as standard English.
     en_jam: ["gold", "ɡoːld"],  // The same word as standard English.
     en_sg: ["gold", "ɡoːld"],  // The same word as standard English.
-    en_in: ["gold", "ɡoːld"],  // The same word as standard English.
+    en_in: ["gold", "ɡoːlɖ"],  // The same word as standard English.
     en_ng: ["gold", "ɡold"],  // The same word as standard English.
     en_ph: ["gold", "ɡold"],  // The same word as standard English.
     en_ke: ["gold", "ɡold"],  // The same word as standard English.

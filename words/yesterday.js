@@ -1277,7 +1277,7 @@ WORDS.yesterday = {
     ast: ["ayeri", "aˈʝeɾi"],  // tomorrow: mañana, which also means 'morning'; ayeri is from Latin herī.
     an: ["ayer", "aˈʝeɾ"],  // Also spelled ahier; from Latin herī. Tomorrow is maitín.
     ext: ["ayel", "aˈʝel"],  // IPA read from the Spanish-style spelling. Tomorrow is mañana.
-    lmo: ["jer", "jeːɾ"],  // tomorrow: doman; jer is from Latin herī.
+    lmo: ["jer", "jeːr"],  // tomorrow: doman; jer is from Latin herī.
     crh: ["dün", "dyn"],  // tomorrow: yarın; the synonym tünevin is also used.
     tt: ["кичә", "kiˈtɕæ"],  // tomorrow: иртәгә; кичә comes from Proto-Turkic *kēče 'evening', and иртәгә from a word for 'morning'.
     ba: ["кисә", "kiˈsæ"],  // tomorrow: иртәгә; кисә comes from Proto-Turkic *kēče 'night, evening'.
@@ -1374,7 +1374,7 @@ WORDS.yesterday = {
     sn: ["nezuro", "nezuro"],  // tomorrow: mangwana.
     lo: ["ມື້ວານ", "mɯː˥˨ ʋaːn˧˥"],  // tomorrow: ມື້ອື່ນ; literally 'day' + 'past' versus 'day' + 'other'.
     sat: ["ᱦᱚᱞᱟ", "hɔla"],  // tomorrow: ᱜᱟᱯᱟ (gapa).
-    kab: ["iḍelli", "idˤəlli"],  // tomorrow: azekka.
+    kab: ["iḍelli", "idˤəlːi"],  // tomorrow: azekka.
     pnb: ["کلھ", "kəlː"],  // tomorrow: کلھ; one word for both days, the verb's tense tells them apart.
     awa: ["काल्हि", "kaːlʱi"],  // tomorrow: काल्हि; Turner records one word for both days, as in Hindi कल.
     nso: ["maabane", "maːbane"],  // tomorrow: gosasa.
@@ -1446,7 +1446,7 @@ WORDS.yesterday = {
     ngl: ["osilo", "osilo"],  // tomorrow: omelo.
     max: ["kalamaring", "kalamariŋ"],  // tomorrow: beso; kalamaring is a form of Malay kelmarin, and beso of besok.
     abs: ["kamareng", "kamareŋ"],  // tomorrow: eso; kamareng is a form of Malay kemarin, and eso of esok.
-    quc: ["iwir", "iwir"],  // tomorrow: chweꞌq.
+    quc: ["iwir", "iwiɾ"],  // tomorrow: chweꞌq.
     toi: ["jilo", "dʒilo"],  // tomorrow: juunza.
     kbd: ["дыгъуасэ", "dəʁʷaːsa"],  // tomorrow: пщэдей; compare Adyghe тыгъуасэ.
     nd: ["izolo", "izolo"],  // tomorrow: kusasa; the same words as Zulu.
@@ -1628,7 +1628,7 @@ WORDS.yesterday = {
     bzh: ["veseveng", "βətʃəβəŋ"],  // veseveng is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mapos Buang New Testament. Tomorrow is neheng.
     crs: ["yer", "jer"],  // tomorrow: demen; from French hier, used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Seychellois Creole Bible.
     cr: ["ᐅᑖᑯᓰᕽ", "otaːkosiːhk"],  // tomorrow: ᐚᐸᐦᑭ; Wolvengrey's Cree: Words also glosses otâkosîhk "the previous evening", and the Plains Cree Bible uses it for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
-    meu: ["varani", "varani"],  // tomorrow: kerukeru; varani is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Motu Bible.
+    meu: ["varani", "vaɾani"],  // tomorrow: kerukeru; varani is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Motu Bible.
     ch: ["nigap", "ˈniɡap"],  // tomorrow: agupa; nigap is yesterday in John 4:52 and Acts 7:28 of the Chamorro Gospels and Acts.
     ja_oki: ["ちぬー", "tɕinuː"],  // tomorrow: あちゃー; cognate with Japanese きのう, it was spelled ちぬふ in the 1896 Okinawan dictionary, per JLect.
     niu: ["ne afi", "ne afi"],  // tomorrow: pogipogi; ne afi continues Proto-Oceanic *qana-(n)afi, the source of Tongan ʔaneafi.
@@ -1694,7 +1694,7 @@ WORDS.yesterday = {
     mer: ["ĩgoro", "eɡoɾo"],  // tomorrow: rũũjũ; naarua is 'today'.
     shn: ["မိူဝ်ႈဝႃး", "mɤː˧˨ waː˥"],  // tomorrow: မိူဝ်ႈၽုၵ်ႈ; both words begin with မိူဝ်ႈ 'time, day'.
     sdh: ["دویەکه", "dwijækæ"],  // tomorrow: سو; ئیمڕو is 'today'.
-    kru: ["चेरो", "tʃeːroː"],  // tomorrow: नेला; इन्ना is 'today'.
+    kru: ["चेरो", "tʃeːɾoː"],  // tomorrow: नेला; इन्ना is 'today'.
     tyz: ["vằn ngòa", "van˧˨ ŋwaː˧˨"],  // tomorrow: vằn pjuc; vằn is 'day'.
     mtq: ["ngày dấp", "ŋaj jəp"],  // tomorrow: ngày dao; ngày is 'day', as in Vietnamese.
     nus: ["pan", "pan"],  // tomorrow: ruun; wa̱lɛ is 'today'.
@@ -1735,7 +1735,7 @@ WORDS.yesterday = {
     mh: ["inne", "jinʲnʲɛj"],  // tomorrow: ilju; the Marshallese-English Dictionary also gives raan eo turun inne for the day before yesterday.
     tru: ["ܐܬܡܠ", "aθməl"],  // tomorrow: ܪܡܚܠ ramħəl; ܐܬܡܠ goes back to Aramaic ʾeṯmāly, and the Turoyo Bible has it at John 4:52, Acts 7:28 and Hebrews 13:8.
     aae: ["dje", "djɛ"],  // tomorrow: nestrë; dje is the same word as Standard Albanian dje.
-    mgo: ["rɨwɔ̀", "rɨwɔ"],  // tomorrow: ɨsɔ; the Metaʼ New Testament has rɨwɔ̀ at John 4:52, Acts 7:28 ("à kəʼ zwiirɨ wə̀d Ijìpt we rɨwɔ̀") and Hebrews 13:8, and ɨsɔ for tomorrow at Matthew 6:34 and James 4:13-14.
+    mgo: ["rɨwɔ̀", "rɨwɔ̀"],  // tomorrow: ɨsɔ; the Metaʼ New Testament has rɨwɔ̀ at John 4:52, Acts 7:28 ("à kəʼ zwiirɨ wə̀d Ijìpt we rɨwɔ̀") and Hebrews 13:8, and ɨsɔ for tomorrow at Matthew 6:34 and James 4:13-14.
     vro: ["eeläq", "ˈeːlæʔ"],  // tomorrow: hummõń; eeläq continues Proto-Finnic *eklen, like Estonian eile and Finnish eilen.
     abq: ["йацы", "jatsə"],  // tomorrow: уачӏвы; йацуахъ is 'last night'.
     sip: ["མདང", "dãː"],  // tomorrow: tʰorãː; the day before yesterday is kʰanup.

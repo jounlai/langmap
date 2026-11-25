@@ -1231,7 +1231,7 @@ WORDS.thunder = {
     emp: ["ba", "ba"],  // IDS traces it to a shared Chocoan word *pa. No image is recorded for it, so it counts as a word of its own.
     akb: ["ronggur", "roŋɡur"],  // The same word as Toba Batak ronggur. Route by resemblance to the neighbouring forms (bbc(ronggur)); no etymology of its own.
     kos: ["puhlahl", "pʌlæl"],  // Written puhlahl in Kosraean spelling, said pʌlæl. No image is recorded for it, so it counts as a word of its own.
-    meu: ["guba rahua", "ɡuba rahua"],  // The first word, guba, is the Motu word for sky.
+    meu: ["guba rahua", "ɡuba ɾahua"],  // The first word, guba, is the Motu word for sky.
     tkl: ["faaititili", "faːititili"],  // Inherited from Polynesian *faititili, the same word as Samoan fāititili and Māori whaitiri.
     mfe: ["loraz", "loʁaz"],  // From French l'orage 'the storm', with the article fused on; toner, from tonnerre, is a synonym.
     crs: ["loraz", "loraz"],  // From French l'orage 'the storm', with the article fused on.
@@ -1288,7 +1288,7 @@ WORDS.thunder = {
     ug: ["گۈلدۈرماما", "ɡyldyrmɑˈmɑ"],  // Kept apart from چاقماق, the lightning, in Exodus 9:23. Built on güldür-, imitating the rumble.
     pcm: ["tonda", "tɔnda"],  // Used in the Naija Bible for thunder in Mark, Exodus and John. Route by resemblance to the neighbouring forms (English thunder); no etymology of its own.
     kri: ["tɛnda", "ˈtɛnda"],  // Kept apart from laytin, the lightning, in Revelation 4:5. Route by resemblance to the neighbouring forms (Nigerian Pidgin and Jamaican tonda, Bislama and Pijin tanda); no etymology of its own.
-    ht: ["loray", "loraj"],  // Kept apart from zeklè, the lightning, in Exodus 9:23. Route by resemblance to the neighbouring forms (mfe(loraz) crs(loraz)); no etymology of its own.
+    ht: ["loray", "loɣaj"],  // Kept apart from zeklè, the lightning, in Exodus 9:23. Route by resemblance to the neighbouring forms (mfe(loraz) crs(loraz)); no etymology of its own.
     ee: ["dziɖegbe", "dziɖeɡbe"],  // Literally 'the sky utters a voice', dzi 'sky' + ɖe gbe, as the paraphrase 'dzie ɖe gbe' in John 12:29 shows; lightning is dzikedzo.
     ak: ["aprannaa", "apranːaː"],  // Kept apart from anyinam, the lightning, in Revelation 4:5. No image is recorded for it, so it counts as a word of its own.
     ibb: ["aduma", "aduma"],  // Used for thunder in Mark, Exodus and John in the Ibibio Bible. No image is recorded for it, so it counts as a word of its own.
@@ -1605,7 +1605,7 @@ WORDS.thunder = {
     liv: ["pițki", "ˈpicki"],  // Built on pitkā 'long' (Wiktionary), like Estonian pikne, which the Estonian etymological dictionary lists under pikk 'long' and says first meant the tongue of fire thrown down by the souls of the dead.
     ess: ["калъюк", "kaɬjuk"],  // The Yupik Bible's 'sons of thunder' in Mark 3:17 is Калъюгым.
     yur: ["hlʼeʼgoh", "ɬʔeʔɣɔh"],  // The Yurok Language Project dictionary glosses hl'e'goh as the noun 'thunder', with a recording by Jessie Van Pelt. No image is recorded for it, so it counts as a word of its own.
-    ssf: ["barumbun", "barumbun"],  // The ILRDF Thao dictionary marks barumbun 'thunder' as onomatopoeic (狀聲詞); it also means a bell.
+    ssf: ["barumbun", "baɾumbun"],  // The ILRDF Thao dictionary marks barumbun 'thunder' as onomatopoeic (狀聲詞); it also means a bell.
     pqm: ["petakiyik", "petakijik"],  // An animate plural, 'the thunders', as in Petakihik motiyakuwok 'thunders are heard rumbling'; the singular petak is rarely used.
     dsb: ["grimanje", "ˈɡrimaɲɛ"],  // A verbal noun of grimaś 'to thunder', inherited from Proto-Slavic; the 1868 Lower Sorbian Bible has 'błysk a grimanje a głosy' in Revelation 4:5.
     yap: ["dirraʼ", "dirːaʔ"],  // The Yapese Bible calls James and John 'Yow bod e Dirra'', 'sons of thunder' (Mark 3:17), and says 'me chub e dirra'', 'it thundered' (Revelation 8:5). No image is recorded for it, so it counts as a word of its own.
@@ -1724,7 +1724,7 @@ WORDS.thunder = {
     smj: ["átjek", "ˈatʃɛk"],  // NorthEuraLex Lule Sami, the list this row matches.
     ckt: ["йъилкээв", "jʔiɬkeːβ"],  // NorthEuraLex Chukchi, the list this row matches.
     yrk: ["мунота", "munoːtɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches.
-    bsk: ["ġaráo", "ɡ̇aˈraɔ"],  // NorthEuraLex Burushaski, the list this row matches.
+    bsk: ["ġaráo", "ɣaˈraɔ"],  // NorthEuraLex Burushaski, the list this row matches.
     ykg: ["мөнэр", "møner"],  // NorthEuraLex Northern Yukaghir, the list this row matches.
     sms: ["tie´rmes", "ˈtiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches.
     smn: ["juuṛâ", "ˈjuːrɐ"],  // NorthEuraLex Inari Sami, the list this row matches.

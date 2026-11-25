@@ -3165,7 +3165,7 @@ const HAN_DATA = {
       "yue_mo": "seoi2",
       "nan_my": "tsuí",
       "sjo": "muke",
-      "ko_mid": ":sywu",
+      "ko_mid": ":syuy",
       "ja_ojp": "swi",
       "ko_kp": "su",
       "pst": "*tujH",
@@ -3267,7 +3267,7 @@ const HAN_DATA = {
       "yue_mo": "sɵy˧˥",
       "nan_my": "tsui˥˧",
       "sjo": "mutɕə",
-      "ko_mid": "sju˩˥",
+      "ko_mid": "sjuj˩˥",
       "ja_ojp": "swi",
       "ko_kp": "su",
       "pst": "*tujH",
@@ -3303,7 +3303,7 @@ const HAN_DATA = {
       "ko": "수",
       "zh_phagspa": "ꡮꡟꡠ",
       "sjo": "ᠮᡠᡣᡝ",
-      "ko_mid": ":슈",
+      "ko_mid": ":ᄉᆔ",
       "ja_ojp": "スヰ",
       "ko_kp": "수",
       "ja_kun": "みず",
@@ -5242,7 +5242,7 @@ const HAN_DATA = {
       "nan_sg": "khián",
       "nan_my": "khián",
       "sjo": "indahūn",
-      "ko_mid": ":khyen",
+      "ko_mid": ":khywen",
       "ja_ojp": "kwen",
       "ko_kp": "kyŏn",
       "ptb": "*kʷəy",
@@ -5343,7 +5343,7 @@ const HAN_DATA = {
       "nan_sg": "kʰiɛn˦˨",
       "nan_my": "kʰiɛn˥˧",
       "sjo": "indaʁun",
-      "ko_mid": "kʰjən˩˥",
+      "ko_mid": "kʰjwən˩˥",
       "ja_ojp": "kwen",
       "ko_kp": "kjʌn",
       "ptb": "*kʷəy",
@@ -5378,7 +5378,7 @@ const HAN_DATA = {
       "ko": "견",
       "zh_phagspa": "ꡁꡧꡦꡋ",
       "sjo": "ᡞᠨᡩᠠᡥᡡᠨ",
-      "ko_mid": ":켠",
+      "ko_mid": ":ᄏᆑᆫ",
       "ja_ojp": "クヱン",
       "ko_kp": "견",
       "ja_kun": "いぬ",
@@ -6600,7 +6600,7 @@ const HAN_DATA = {
       "nan_sg": "niau",
       "nan_my": "niau",
       "sjo": "kesike",
-      "ko_mid": "myo",
+      "ko_mid": "myow",
       "vi_ohan": "mèo",
       "ko_kp": "myo",
       "ptai": "*mɛːw.A",
@@ -6699,7 +6699,7 @@ const HAN_DATA = {
       "nan_sg": "niau˦˦",
       "nan_my": "niãu˧˧",
       "sjo": "kəsitɕə",
-      "ko_mid": "mjo˩",
+      "ko_mid": "mjow˩",
       "vi_ohan": "mɛw˨˩",
       "ko_kp": "mjo",
       "ptai": "*mɛːw˧",
@@ -6728,7 +6728,7 @@ const HAN_DATA = {
       "zkt": "—",
       "ko": "묘",
       "sjo": "ᡣᡝᠰᡞᡣᡝ",
-      "ko_mid": "묘",
+      "ko_mid": "묘ᇢ",
       "ko_kp": "묘",
       "ja_kun": "ねこ",
       "ko_hun": "고양이",
@@ -7043,7 +7043,7 @@ const HAN_DATA = {
       "yue_hk": "sau2",
       "yue_mo": "sau2",
       "sjo": "gala",
-      "ko_mid": ":sywu",
+      "ko_mid": ":syuw",
       "ja_ojp": "syu",
       "ko_kp": "su",
       "pko": "*son",
@@ -7140,7 +7140,7 @@ const HAN_DATA = {
       "yue_hk": "sɐu˧˥",
       "yue_mo": "sɐu˧˥",
       "sjo": "ɢala",
-      "ko_mid": "sju˩˥",
+      "ko_mid": "sjuw˩˥",
       "ja_ojp": "ɕu",
       "ko_kp": "su",
       "pko": "*son",
@@ -7174,7 +7174,7 @@ const HAN_DATA = {
       "ko": "수",
       "zh_phagspa": "ꡮꡞꡓ",
       "sjo": "ᡤᠠᠯᠠ",
-      "ko_mid": ":슈",
+      "ko_mid": ":슈ᇢ",
       "ja_ojp": "シュ",
       "ko_kp": "수",
       "ja_kun": "て",
@@ -7491,11 +7491,11 @@ const HAN_DATA = {
       "gan": "muʔ⁵",
       "cnp": "mœk²⁴",
       "zh_yuan": "mu4",
-      "zh_phagspa": "mu",
+      "zh_phagspa": "wu",
       "yue_hk": "muk6",
       "yue_mo": "muk6",
       "sjo": "yasa",
-      "ko_mid": "·myuk",
+      "ko_mid": "·mok",
       "ja_ojp": "moku",
       "ko_kp": "mok",
       "pko": "*nun",
@@ -7588,11 +7588,11 @@ const HAN_DATA = {
       "za_sd": "ta˨˦",
       "zkt": "—",
       "zh_yuan": "mu˥˩",
-      "zh_phagspa": "mu",
+      "zh_phagspa": "wu",
       "yue_hk": "mʊk̚˨",
       "yue_mo": "mʊk̚˨",
       "sjo": "jaza",
-      "ko_mid": "mjuk̚˥",
+      "ko_mid": "mok̚˥",
       "ja_ojp": "moku",
       "ko_kp": "mok̚",
       "pko": "*nun",
@@ -7624,9 +7624,9 @@ const HAN_DATA = {
       "juc": "—",
       "zkt": "—",
       "ko": "목",
-      "zh_phagspa": "ꡏꡟ",
+      "zh_phagspa": "ꡓꡟ",
       "sjo": "ᠶᠠᠰᠠ",
-      "ko_mid": "·뮥",
+      "ko_mid": "·목",
       "ja_ojp": "モク",
       "ko_kp": "목",
       "ja_kun": "め",
@@ -8881,7 +8881,7 @@ const HAN_DATA = {
       "nan_th": "neʔ⁵",
       "zh_jiao": "you⁴²",
       "hak_mz": "ngiuk",
-      "zh_gl": "zou³¹"
+      "zh_gl": "you³¹"
     },
     "ipa": {
       "phm": "*ɴɢej",
@@ -8979,7 +8979,7 @@ const HAN_DATA = {
       "nan_th": "neʔ˥",
       "zh_jiao": "iou˦˨",
       "hak_mz": "ŋiuk̚˩",
-      "zh_gl": "zou˧˩"
+      "zh_gl": "iu˧˩"
     },
     "en": {
       "gloss": "meat",
@@ -13287,7 +13287,7 @@ const HAN_DATA = {
       "yue_hk": "zau2",
       "yue_mo": "zau2",
       "sjo": "sujumbi",
-      "ko_mid": ":cwu",
+      "ko_mid": ":cwuw",
       "ja_ojp": "su",
       "ko_kp": "chu",
       "pko": "*tʌt-",
@@ -13381,7 +13381,7 @@ const HAN_DATA = {
       "yue_hk": "tsɐu˧˥",
       "yue_mo": "tsɐu˧˥",
       "sjo": "sudʑum",
-      "ko_mid": "tsu˩˥",
+      "ko_mid": "tsuw˩˥",
       "ja_ojp": "su",
       "ko_kp": "tsu",
       "pko": "*tʌt-",
@@ -13413,7 +13413,7 @@ const HAN_DATA = {
       "ko": "주",
       "zh_phagspa": "ꡒꡜꡞꡓ",
       "sjo": "ᠰᡠᠵᡠᠮᠪᡞ",
-      "ko_mid": ":주",
+      "ko_mid": ":주ᇢ",
       "ja_ojp": "ス",
       "ko_kp": "주",
       "ja_kun": "はしる",
@@ -14987,6 +14987,7 @@ const HAN_DATA = {
   },
   "無": {
     "surface": {
+      "ko_mid": "mwu",
       "txg": "mjij1",
       "za": "fu³³²",
       "yue_gz": "muou4",
@@ -15075,6 +15076,7 @@ const HAN_DATA = {
       "zh_cd": "vu²¹"
     },
     "ipa": {
+      "ko_mid": "mu˩",
       "txg": "mjij˩",
       "za": "fu˧˧˨",
       "yue_gz": "mu̯ɔw˨˩˦",
@@ -15167,6 +15169,7 @@ const HAN_DATA = {
       "pinyin_simple": "wú"
     },
     "native": {
+      "ko_mid": "무",
       "txg": "𗤋",
       "mnc": "ᠠᡴᡡ",
       "vi_s": "vô",
@@ -15617,6 +15620,7 @@ const HAN_DATA = {
   },
   "家": {
     "surface": {
+      "ko_mid": "ka",
       "za": "ka⁵³",
       "yue_gz": "gaa1",
       "zh_jh": "tɕia²¹",
@@ -15716,6 +15720,7 @@ const HAN_DATA = {
       "zh_cd": "jia⁵⁵"
     },
     "ipa": {
+      "ko_mid": "ka˩",
       "za": "ka˥˧",
       "yue_gz": "kaː˥˨",
       "zh_jh": "tɕia˨˩",
@@ -15819,6 +15824,7 @@ const HAN_DATA = {
       "pinyin_simple": "jiā"
     },
     "native": {
+      "ko_mid": "가",
       "txg": "𗫌",
       "mnc": "ᠪᠣᠣ",
       "za_sd": "𭓨",
@@ -16480,6 +16486,7 @@ const HAN_DATA = {
   },
   "紅": {
     "surface": {
+      "ko_mid": "hhwong",
       "txg": "njij1",
       "za": "hoŋ³³²",
       "zh_jh": "xoŋ³⁵",
@@ -16578,6 +16585,7 @@ const HAN_DATA = {
       "zh_cd": "hong²¹"
     },
     "ipa": {
+      "ko_mid": "ɣoŋ˩",
       "txg": "njij˩",
       "za": "hoŋ˧˧˨",
       "zh_jh": "xoŋ˧˥",
@@ -16680,6 +16688,7 @@ const HAN_DATA = {
       "pinyin_simple": "hóng"
     },
     "native": {
+      "ko_mid": "ᅘᅩᆼ",
       "txg": "𘔚",
       "mnc": "ᡶ᠋ᡠᠯᡤᡳᠶᠠᠨ",
       "juc": "—",
@@ -16925,6 +16934,7 @@ const HAN_DATA = {
   },
   "知": {
     "surface": {
+      "ko_mid": "ti",
       "txg": "nwə1",
       "za": "tɕi⁵³",
       "yue_gz": "dei1",
@@ -17026,6 +17036,7 @@ const HAN_DATA = {
       "zh_cd": "zi⁵⁵"
     },
     "ipa": {
+      "ko_mid": "ti˩",
       "txg": "nwə˩",
       "za": "tɕi˥˧",
       "yue_gz": "ɗɛj˥˨",
@@ -17131,6 +17142,7 @@ const HAN_DATA = {
       "pinyin_simple": "zhī"
     },
     "native": {
+      "ko_mid": "디",
       "txg": "𗄻",
       "mnc": "ᠰᠠᠮᠪᡳ",
       "za_sd": "𮀊",
@@ -18243,6 +18255,7 @@ const HAN_DATA = {
   },
   "多": {
     "surface": {
+      "ko_mid": "ta",
       "txg": "rejr2",
       "za": "tɔ⁵³",
       "yue_gz": "do1",
@@ -18342,6 +18355,7 @@ const HAN_DATA = {
       "zh": "duō"
     },
     "ipa": {
+      "ko_mid": "ta˩",
       "txg": "rejr˨",
       "za": "tɔ˥˧",
       "yue_gz": "ɗɔ˥˨",
@@ -18445,6 +18459,7 @@ const HAN_DATA = {
       "pinyin_simple": "duō"
     },
     "native": {
+      "ko_mid": "다",
       "txg": "𗮅",
       "mnc": "ᠯᠠᠪᡩᡠ",
       "za_sd": "𫯓",
@@ -19543,6 +19558,7 @@ const HAN_DATA = {
   },
   "遠": {
     "surface": {
+      "ko_mid": ":ngwen",
       "txg": "khwa1",
       "za": "jin³⁴",
       "yue_gz": "win5",
@@ -19642,6 +19658,7 @@ const HAN_DATA = {
       "zh": "yuǎn"
     },
     "ipa": {
+      "ko_mid": "ŋwən˩˥",
       "txg": "kʰwa˩",
       "za": "jin˧˦",
       "yue_gz": "ʋin˨˩˦",
@@ -19745,6 +19762,7 @@ const HAN_DATA = {
       "pinyin_simple": "yuǎn"
     },
     "native": {
+      "ko_mid": ":ᅌᅯᆫ",
       "txg": "𗈲",
       "mnc": "ᡤᠣᡵᠣ",
       "za_sd": "𮟧",
@@ -20871,6 +20889,7 @@ const HAN_DATA = {
   },
   "飯": {
     "surface": {
+      "ko_mid": "·ppen",
       "txg": "tshji1",
       "bfs": "pe4",
       "za": "faːn²¹",
@@ -20968,6 +20987,7 @@ const HAN_DATA = {
       "zh": "fàn"
     },
     "ipa": {
+      "ko_mid": "p͈ən˥",
       "txg": "tsʰji˩",
       "bfs": "pe˧",
       "za": "faːn˨˩",
@@ -21069,6 +21089,7 @@ const HAN_DATA = {
       "pinyin_simple": "fàn"
     },
     "native": {
+      "ko_mid": "·뻔",
       "txg": "𗣣",
       "mnc": "ᠪᡠᡩᠠ",
       "za_sd": "𬖙",
@@ -21313,6 +21334,7 @@ const HAN_DATA = {
   },
   "綠": {
     "surface": {
+      "ko_mid": "·lok",
       "txg": "dźjow1",
       "za": "lʊk³⁴",
       "yue_gz": "luk6",
@@ -21408,6 +21430,7 @@ const HAN_DATA = {
       "zh": "lǜ"
     },
     "ipa": {
+      "ko_mid": "lok̚˥",
       "txg": "dʑjow˩",
       "za": "lʊk̚˧˦",
       "yue_gz": "lʊk̚˨˨",
@@ -21507,6 +21530,7 @@ const HAN_DATA = {
       "pinyin_simple": "lǜ"
     },
     "native": {
+      "ko_mid": "·록",
       "txg": "𗺭",
       "mnc": "ᠨᡳᠣᠸᠠᠩᡤᡳᠶᠠᠨ",
       "za_sd": "𫇯",
@@ -21970,6 +21994,7 @@ const HAN_DATA = {
   },
   "豬": {
     "surface": {
+      "ko_mid": "tye",
       "za": "tɕi⁵³",
       "yue_gz": "zi1",
       "zh_jh": "tsᵊʉβ²¹",
@@ -22071,6 +22096,7 @@ const HAN_DATA = {
       "zh": "zhū"
     },
     "ipa": {
+      "ko_mid": "tjə˩",
       "za": "tɕi˥˧",
       "yue_gz": "tsi˥˨",
       "zh_jh": "tsᵊʉβ˨˩",
@@ -22176,6 +22202,7 @@ const HAN_DATA = {
       "pinyin_simple": "zhū"
     },
     "native": {
+      "ko_mid": "뎌",
       "txg": "𗘅",
       "mnc": "ᡠᠯᡤᡳᠶᠠᠨ",
       "juc": "—",
@@ -22195,6 +22222,7 @@ const HAN_DATA = {
   },
   "蛇": {
     "surface": {
+      "ko_mid": "ssya",
       "za": "ɕe³³²",
       "yue_gz": "ce4",
       "zh_jh": "ɕiɪ³⁵",
@@ -22296,6 +22324,7 @@ const HAN_DATA = {
       "zh": "shé"
     },
     "ipa": {
+      "ko_mid": "s͈ja˩",
       "za": "ɕe˧˧˨",
       "yue_gz": "tsʰɛ˨˩˦",
       "zh_jh": "ɕiɪ˧˥",
@@ -22401,6 +22430,7 @@ const HAN_DATA = {
       "pinyin_simple": "shé"
     },
     "native": {
+      "ko_mid": "쌰",
       "txg": "𗀋",
       "sjo": "ᠮᡝᡞᡥᡝ",
       "mnc": "ᠮᡝᡳᡥᡝ",
@@ -23088,6 +23118,7 @@ const HAN_DATA = {
   },
   "有": {
     "surface": {
+      "ko_mid": ":ngwuw",
       "za": "jou³⁴",
       "zh_jh": "iɤɯ⁴²",
       "phm": "*n-mɛj",
@@ -23187,6 +23218,7 @@ const HAN_DATA = {
       "zh": "yǒu"
     },
     "ipa": {
+      "ko_mid": "ŋuw˩˥",
       "za": "jou˧˦",
       "zh_jh": "iɤɯ˦˨",
       "phm": "*n-mɛj",
@@ -23290,6 +23322,7 @@ const HAN_DATA = {
       "pinyin_simple": "yǒu"
     },
     "native": {
+      "ko_mid": ":ᅌᅮᇢ",
       "txg": "𗁁",
       "mnc": "ᠪᡳᠮᠪᡳ",
       "juc": "—",
@@ -23309,6 +23342,7 @@ const HAN_DATA = {
   },
   "鐵": {
     "surface": {
+      "ko_mid": "·thyelq",
       "ptai": "*hlek.D",
       "ptb": "*l-tsyak",
       "pst": "*ƛ[ia]k",
@@ -23409,6 +23443,7 @@ const HAN_DATA = {
       "zh": "tiě"
     },
     "ipa": {
+      "ko_mid": "tʰjəlʔ˥",
       "ptai": "*hlek̚",
       "ptb": "*l-tsyak",
       "pst": "*ƛ[ia]k",
@@ -23513,6 +23548,7 @@ const HAN_DATA = {
       "pinyin_simple": "tiě"
     },
     "native": {
+      "ko_mid": "·텨ᇙ",
       "mnc": "ᠰᡝᠯᡝ",
       "juc": "—",
       "txg": "𘟪",
@@ -24176,6 +24212,7 @@ const HAN_DATA = {
   },
   "鼠": {
     "surface": {
+      "ko_mid": ":sye",
       "gan_yc": "ʃy²¹",
       "gan_ja": "ɕy⁵³",
       "gan_fz": "su⁴⁵",
@@ -24268,6 +24305,7 @@ const HAN_DATA = {
       "za_sd": "nou"
     },
     "ipa": {
+      "ko_mid": "sjə˩˥",
       "gan_yc": "ʃy˨˩",
       "gan_ja": "ɕy˥˧",
       "gan_fz": "su˦˥",
@@ -24364,6 +24402,7 @@ const HAN_DATA = {
       "pinyin_simple": "shǔ"
     },
     "native": {
+      "ko_mid": ":셔",
       "zh_phagspa": "ꡮꡦꡟ",
       "dng": "чўъ",
       "ja_kun": "ねずみ",
@@ -24382,6 +24421,7 @@ const HAN_DATA = {
   },
   "兔": {
     "surface": {
+      "ko_mid": "·thwo",
       "gan_ja": "tʰu¹¹",
       "gan_fz": "tʰu⁴¹",
       "gan_yt": "tʰu⁵³",
@@ -24474,6 +24514,7 @@ const HAN_DATA = {
       "za_sd": "doq"
     },
     "ipa": {
+      "ko_mid": "tʰo˥",
       "gan_ja": "tʰu˩˩",
       "gan_fz": "tʰu˦˩",
       "gan_yt": "tʰu˥˧",
@@ -24570,6 +24611,7 @@ const HAN_DATA = {
       "pinyin_simple": "tù"
     },
     "native": {
+      "ko_mid": "·토",
       "zh_phagspa": "ꡉꡟ",
       "dng": "тўь",
       "ja_kun": "うさぎ",
@@ -24589,6 +24631,7 @@ const HAN_DATA = {
   },
   "猴": {
     "surface": {
+      "ko_mid": "hhwuw",
       "gan_yc": "xeu³³",
       "gan_ja": "hɛu¹¹",
       "gan_fz": "hɛːu²⁴",
@@ -24676,6 +24719,7 @@ const HAN_DATA = {
       "za_sd": "lingz"
     },
     "ipa": {
+      "ko_mid": "ɣuw˩",
       "gan_yc": "xeu˧˧",
       "gan_ja": "hɛu˩˩",
       "gan_fz": "hɛːu˨˦",
@@ -24767,6 +24811,7 @@ const HAN_DATA = {
       "pinyin_simple": "hóu"
     },
     "native": {
+      "ko_mid": "ᅘᅮᇢ",
       "zh_phagspa": "ꡣꡞꡓ",
       "dng": "ху",
       "ja_kun": "さる",
@@ -25224,6 +25269,7 @@ const HAN_DATA = {
   },
   "毛": {
     "surface": {
+      "ko_mid": "mwow",
       "bfs": "ma1",
       "yue_gz": "muou4",
       "gan_yc": "mau³⁵",
@@ -25322,6 +25368,7 @@ const HAN_DATA = {
       "za_sd": "bwn"
     },
     "ipa": {
+      "ko_mid": "mow˩",
       "bfs": "ma˥",
       "yue_gz": "mu̯ɔw˨˩˦",
       "gan_yc": "mau˧˥",
@@ -25424,6 +25471,7 @@ const HAN_DATA = {
       "pinyin_simple": "máo"
     },
     "native": {
+      "ko_mid": "모ᇢ",
       "zh_phagspa": "ꡏꡓ",
       "dng": "мо",
       "ja_kun": "け",
@@ -26466,6 +26514,7 @@ const HAN_DATA = {
   },
   "高": {
     "surface": {
+      "ko_mid": "kwow",
       "bfs": "ka1",
       "yue_gz": "guou1",
       "gan_yc": "kau³⁵",
@@ -26559,6 +26608,7 @@ const HAN_DATA = {
       "za_sd": "sang"
     },
     "ipa": {
+      "ko_mid": "kow˩",
       "bfs": "ka˥",
       "yue_gz": "ku̯ɔw˥˨",
       "gan_yc": "kau˧˥",
@@ -26656,6 +26706,7 @@ const HAN_DATA = {
       "pinyin_simple": "gāo"
     },
     "native": {
+      "ko_mid": "고ᇢ",
       "zh_phagspa": "ꡂꡓ",
       "dng": "го",
       "ja_kun": "たかい",
@@ -26673,6 +26724,7 @@ const HAN_DATA = {
   },
   "新": {
     "surface": {
+      "ko_mid": "sin",
       "gan_yc": "sin³⁵",
       "gan_ja": "ɕin³³⁴",
       "gan_fz": "sin³¹",
@@ -26768,6 +26820,7 @@ const HAN_DATA = {
       "za_sd": "moq"
     },
     "ipa": {
+      "ko_mid": "sin˩",
       "gan_yc": "sin˧˥",
       "gan_ja": "ɕin˧˧˦",
       "gan_fz": "sin˧˩",
@@ -26867,6 +26920,7 @@ const HAN_DATA = {
       "pinyin_simple": "xīn"
     },
     "native": {
+      "ko_mid": "신",
       "zh_phagspa": "ꡛꡞꡋ",
       "dng": "щин",
       "ja_kun": "あたらしい",
@@ -26886,6 +26940,7 @@ const HAN_DATA = {
   },
   "好": {
     "surface": {
+      "ko_mid": ":hwow",
       "bfs": "xu3",
       "yue_gz": "huou2",
       "gan_yc": "xau²¹",
@@ -26978,6 +27033,7 @@ const HAN_DATA = {
       "za_sd": "ndei"
     },
     "ipa": {
+      "ko_mid": "how˩˥",
       "bfs": "xu˧",
       "yue_gz": "hu̯ɔw˧˥",
       "gan_yc": "xau˨˩",
@@ -27074,6 +27130,7 @@ const HAN_DATA = {
       "pinyin_simple": "hǎo"
     },
     "native": {
+      "ko_mid": ":호ᇢ",
       "zh_phagspa": "ꡜꡓ",
       "dng": "хоъ",
       "ja_kun": "よい",
@@ -27091,6 +27148,7 @@ const HAN_DATA = {
   },
   "少": {
     "surface": {
+      "ko_mid": ":syow",
       "gan_yc": "ʃeu²¹",
       "gan_fz": "sau⁴⁵",
       "gan_yt": "sɑu³⁵",
@@ -27180,6 +27238,7 @@ const HAN_DATA = {
       "za_sd": "noix"
     },
     "ipa": {
+      "ko_mid": "sjow˩˥",
       "gan_yc": "ʃeu˨˩",
       "gan_fz": "sau˦˥",
       "gan_yt": "sɑu˧˥",
@@ -27273,6 +27332,7 @@ const HAN_DATA = {
       "pinyin_simple": "shǎo"
     },
     "native": {
+      "ko_mid": ":쇼ᇢ",
       "zh_phagspa": "ꡮꡠꡓ",
       "dng": "шоъ",
       "ja_kun": "すくない",
@@ -29167,6 +29227,7 @@ const HAN_DATA = {
   },
   "今": {
     "surface": {
+      "ko_mid": "kum",
       "bfs": "kɛ1",
       "gan_fz": "tɕim³¹",
       "gan_yt": "tɕin³³",
@@ -29255,6 +29316,7 @@ const HAN_DATA = {
       "za": "kem⁵³"
     },
     "ipa": {
+      "ko_mid": "kɯm˩",
       "bfs": "kɛ˥",
       "gan_fz": "tɕim˧˩",
       "gan_yt": "tɕin˧˧",
@@ -29347,6 +29409,7 @@ const HAN_DATA = {
       "pinyin_simple": "jīn"
     },
     "native": {
+      "ko_mid": "금",
       "zh_phagspa": "ꡂꡞꡏ",
       "dng": "җин",
       "ja_kun": "いま",
@@ -38891,6 +38954,12 @@ const HAN_VARIANTS = {
         "surface": "ja",
         "ipa": "dʑa",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "ダ",
+        "surface": "da",
+        "ipa": "da",
+        "label": "慣用音 / Kan'yō-on"
       }
     ],
     "nan_lei": [
@@ -40409,6 +40478,12 @@ const HAN_VARIANTS = {
         "surface": "nyo",
         "ipa": "njo",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "ニョウ",
+        "surface": "nyō",
+        "ipa": "njoː",
+        "label": "慣用音 / Kan'yō-on"
       }
     ],
     "nan_te": [
@@ -41895,6 +41970,12 @@ const HAN_VARIANTS = {
         "surface": "fu",
         "ipa": "ɸɯ",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "ブ",
+        "surface": "bu",
+        "ipa": "bɯ",
+        "label": "慣用音 / Kan'yō-on"
       }
     ]
   },
@@ -42089,6 +42170,12 @@ const HAN_VARIANTS = {
         "surface": "gu",
         "ipa": "ɡɯ",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "ク",
+        "surface": "ku",
+        "ipa": "kɯ",
+        "label": "慣用音 / Kan'yō-on"
       }
     ],
     "cpx": [
@@ -42945,6 +43032,18 @@ const HAN_VARIANTS = {
         "surface": "shiku",
         "ipa": "ɕikɯ",
         "label": "唐音 / Tō-on"
+      },
+      {
+        "native": "シャク",
+        "surface": "shaku",
+        "ipa": "ɕakɯ",
+        "label": "慣用音 / Kan'yō-on"
+      },
+      {
+        "native": "コク",
+        "surface": "koku",
+        "ipa": "kokɯ",
+        "label": "慣用音（容積の単位） / Kan'yō-on (unit of volume)"
       }
     ],
     "msj": [
@@ -50407,6 +50506,12 @@ const HAN_VARIANTS = {
         "surface": "jū",
         "ipa": "dʑɯː",
         "label": "唐音 / Tō-on"
+      },
+      {
+        "native": "ト",
+        "surface": "to",
+        "ipa": "to",
+        "label": "慣用音 / Kan'yō-on"
       }
     ],
     "nan_xm": [

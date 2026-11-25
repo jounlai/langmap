@@ -242,7 +242,7 @@ WORDS.booger = {
     sco: ["boakie", "ˈbokɪ"],  // Dictionaries of the Scots Language, BOAKIE: 'the hardened discharge from the nostrils' (Banffshire, Aberdeenshire); Ayrshire has bowsey.
     gsw: ["Böögg", "bøːk"],  // Wiktionary (Alemannic German): 'booger, bogey'; also the bogeyman figure, like English bogey.
     ca: ["burilla", "buˈɾiʎə"],  // Slang extension of burilla 'cigarette butt'.
-    be: ["казяўка", "kaˈzʲawka"],  // From каза "goat", diminutive; cf. Russian козявка.
+    be: ["казяўка", "kaˈzʲau̯ka"],  // From каза "goat", diminutive; cf. Russian козявка.
     cs: ["holub", "ˈɦolup"],  // Colloquial sense of holub "pigeon".
     et: ["koll", "kolː"],  // Colloquial use of koll 'bugbear, bogeyman'.
     as: ["খাঁকৰু", "kʰãkoɹu"],  // Candrakanta Abhidhan: 'dried mucus in the nostril'.

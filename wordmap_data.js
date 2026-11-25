@@ -130,8 +130,6 @@ const LANG_DATA = {
       "father": { "evidence": "direct", "source": "Wiktionary Comanche lemma ahpʉ 'father'", "note": "replaces pʊ" },
       "star":   { "evidence": "direct", "source": "Wiktionary Comanche lemma tatsinuupi 'star (celestial body)'; ASJP tacinupi", "note": "orthography corrected from tatsinʉʉpʉ — two independent sources write -uupi" },
       "hand":   { "evidence": "direct", "source": "native-languages.org Comanche body-part chart — mo'o; Wiktionary glosses nami, the form this cell used to hold, as 'younger sister'" },
-      "cat":    { "evidence": "disputed", "source": "no source found", "note": "ɨsʉ mixes ɨ and ʉ in a row that otherwise writes ʉ throughout, and its IPA ɪsɨ uses /ɪ/, which Comanche does not have. Numic isa is 'wolf, coyote'. Left as-is only because no Comanche word for the domestic cat could be sourced" },
-      "love":   { "evidence": "disputed", "source": "no source found", "note": "wʊʊʰa is not in Wiktionary, ASJP or the Comanche Nation materials. Left as-is pending a source" }
     } },
   "one": { "name": "Oneida", "native": "Onʌyota'káhkahʌ", "lat": 43, "lng": -75.5 },
   "ono": { "name": "Onondaga", "native": "Onoñdaʼgegáʼ nigaweñoʼdeñʼ", "lat": 42.95, "lng": -76.2 },
@@ -3369,7 +3367,7 @@ const LANG_DATA = {
 
     wordEvidence: {
       fire:   { evidence: 'direct', source: 'Hale (1973) "Deep–surface canonical disparities…", Current Trends in Linguistics 11; Hale & Nash (1997) "Damin and Lardil phonotactics" — Damin l!ii covers fire/burning; note: l! denotes a click-stop-onset characteristic of the register', note: 'Damin\'s ~200 items each abstract a class of ordinary Lardil meanings; "l!ii" is one of the few items that maps cleanly onto a single Swadesh concept.' },
-      water:  { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
+      water:  { evidence: 'direct', source: "Hale & Nash (1997): n!2u 'liquid'", note: 'Each Damin word covers a class of ordinary Lardil meanings.' },
       sun:    { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
       moon:   { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
       mother: { evidence: 'inferred', note: 'Damin doesn\'t lexicalize a single "mother" lexeme — the closest Damin kin term n!aa abstracts over all same-moiety male kin (the inverse term didi covers opposite-moiety kin), so it cross-cuts the Swadesh "mother/father" axis (Hale 1973; Hale & Nash 1997).' },
@@ -3378,15 +3376,15 @@ const LANG_DATA = {
       drink:  { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
       love:   { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
       heart:  { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
-      tree:   { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
+      tree:   { evidence: 'direct', source: "Hale & Nash (1997): wiijpu 'wood' (incl. woody plants)", note: 'Each Damin word covers a class of ordinary Lardil meanings.' },
       house:  { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
-      dog:    { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
+      dog:    { evidence: 'direct', source: "Hale & Nash (1997): nh!2u, the Damin word for 'dog' in their example sentence", note: 'Each Damin word covers a class of ordinary Lardil meanings.' },
       cat:    { evidence: 'inferred', note: 'Cats post-date Damin\'s active use and were never integrated into the register; no attested Damin form.' },
-      hand:   { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
-      eye:    { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
+      hand:   { evidence: 'direct', source: "Hale & Nash (1997): nguuwii 'hand, foot'", note: 'Each Damin word covers a class of ordinary Lardil meanings.' },
+      eye:    { evidence: 'direct', source: "Hale & Nash (1997): k'uu 'eye'", note: 'Each Damin word covers a class of ordinary Lardil meanings.' },
       hello:  { evidence: 'inferred', note: 'Damin is a ceremonial register confined to post-Warama-initiation seclusion; no Swadesh-style greeting formula is documented (Hale 1973; Hale & Nash 1997).' },
       thanks: { evidence: 'inferred', note: 'Damin is a ceremonial register confined to post-Warama-initiation seclusion; no Swadesh-style thanks formula is documented (Hale 1973; Hale & Nash 1997).' },
-      one:    { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' },
+      one:    { evidence: 'direct', source: "Hale & Nash (1997): thuuku 'one, another; place'", note: 'Each Damin word covers a class of ordinary Lardil meanings.' },
       good:   { evidence: 'inferred', note: 'Damin doesn\'t lexicalize this concept directly — its 200-item lexicon abstracts semantic classes rather than naming Swadesh basic-vocab items (Hale 1973; Hale & Nash 1997).' }
     }},
   // Tangkic — closely related to Lardil; spoken on Forsyth Island and adjacent north-eastern
@@ -3515,12 +3513,7 @@ const LANG_DATA = {
   // Language DB #119 (phonemic; surface===ipa; tone marked).
   kwa: { name: 'Dâw', native: 'Dâw', lat: -0.1, lng: -67.0 }, // middle Rio Negro, Brazil
   // Mura (linguistic isolate, Amazonia)
-  myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
-
-    wordEvidence: {
-      heart: { evidence: 'inferred', note: 'Pirahã "aoʔaago" reflects emotional/inner-state concept; same form appears for "good" — pending source confirmation (Audit Task 120)' },
-      good:  { evidence: 'inferred', note: 'Pirahã "aoʔaago" — same form as "heart"; semantic overlap pending source confirmation (Audit Task 120)' }
-    }},
+  myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30 }, // Maici River
   // Tukanoan (Eastern Tukanoan — NW Amazon Vaupés / Papurí river basin)
   // Tuyuca is the canonical textbook example of OBLIGATORY EVIDENTIALITY: every finite verb form must specify
   // the speaker's source of information through one of five evidential markers — visual (you saw it),
@@ -4023,8 +4016,8 @@ const LANG_DATA = {
   enq: { name: 'Enga', native: 'Enga', lat: -5.47, lng: 143.71, // Wabag
 
     wordEvidence: {
-      fire: { evidence: 'inferred', note: 'Enga "ita" — same form as "tree" (firewood/tree polysemy possible); pending source confirmation (Audit Task 120)' },
-      tree: { evidence: 'inferred', note: 'Enga "ita" — same form as "fire" (firewood/tree polysemy possible); pending source confirmation (Audit Task 120)' }
+      fire: { evidence: 'direct', source: 'ASJP Enga: ita, itate; same word as tree' },
+      tree: { evidence: 'direct', source: 'ASJP Enga: ita; same word as fire' }
     }},
   // Middle Iranian (Parthian, distinct from Pahlavi)
   // xpr Parthian wordEvidence: per Codex review 6, most cells are Iranian
@@ -4034,25 +4027,25 @@ const LANG_DATA = {
   xpr: { name: 'Parthian', native: 'Pārthawānīg', lat: 37.97, lng: 58.20, // Nisa, Turkmenistan
 
     wordEvidence: {
-      water:  { evidence: 'proxy', source: 'Iranian cognate (Middle Persian āb)' },
-      fire:   { evidence: 'proxy', source: 'Iranian cognate (MP ādar)' },
-      sun:    { evidence: 'proxy', source: 'Iranian cognate (Avestan hvar)' },
-      moon:   { evidence: 'proxy', source: 'Iranian cognate (MP māh)' },
-      mother: { evidence: 'proxy', source: 'Iranian cognate (MP mād)' },
-      father: { evidence: 'proxy', source: 'Iranian cognate (MP pid/pidar)' },
-      eat:    { evidence: 'proxy', source: 'Iranian cognate (MP xwardan); verbal stem' },
-      drink:  { evidence: 'proxy', source: 'Iranian cognate (MP nōšīdan); verbal stem' },
-      love:   { evidence: 'proxy', source: 'Iranian cognate (MP frīyādan)' },
-      heart:  { evidence: 'proxy', source: 'Iranian cognate (MP dil)' },
-      tree:   { evidence: 'proxy', source: 'Iranian cognate (MP dār)' },
-      house:  { evidence: 'proxy', source: 'Iranian cognate (MP xānag)' },
+      water:  { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [āb] c. 'water'" },
+      fire:   { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian, p. 8: 'dwr [ādur] c. 'fire'" },
+      sun:    { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [mihr] Pth. 'sun'" },
+      moon:   { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [māh] c. 'moon'" },
+      mother: { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [mād] c. 'mother'" },
+      father: { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [pid] c. 'father'" },
+      eat:    { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian, p. 20: 'xwr- [āxwar-] Pth. 'eat'" },
+      drink:  { evidence: 'proxy', source: 'Middle Iranian verbal stem' },
+      love:   { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian, p. 39: fryhyft [frihīft] Pth. 'love'" },
+      heart:  { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [zird] Pth. 'heart'" },
+      tree:   { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian, p. 35: drxt [draxt] c. 'tree'" },
+      house:  { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian, p. 99: x'n [xān] Pth. 'house'" },
       dog:    { evidence: 'proxy', source: 'Iranian cognate (MP sag)' },
-      hand:   { evidence: 'proxy', source: 'Iranian cognate (MP dast)' },
-      eye:    { evidence: 'proxy', source: 'Iranian cognate (MP čašm)' },
-      hello:  { evidence: 'proxy', source: 'Middle Iranian greeting (MP drōd); Parthian citation pending' },
-      thanks: { evidence: 'proxy', source: 'Middle Iranian (MP spās); Parthian citation pending' },
-      one:    { evidence: 'proxy', source: 'Iranian cognate (MP ēw)' },
-      good:   { evidence: 'proxy', source: 'Iranian cognate (MP nēw); confusion with NP risk' },
+      hand:   { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [dast] c. 'hand'" },
+      eye:    { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [čašm] c. 'eye'" },
+      hello:  { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian, p. 35: drwd [drōd] c. 'well-being', used in formulae of greeting" },
+      thanks: { evidence: 'proxy', source: 'Middle Persian spās; Parthian not found in Boyce 1977' },
+      one:    { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [ēw] c. 'one'" },
+      good:   { evidence: 'direct', source: "Boyce 1977, Word-List of Manichaean Middle Persian and Parthian: [nēw] c. 'good; brave'" },
     } },
   // Karakhanid (Old Turkic of Kashgar)
   xqa: { name: 'Karakhanid', native: 'تركي', lat: 39.47, lng: 75.99, // Kashgar
@@ -4259,14 +4252,7 @@ const LANG_DATA = {
 },
   // === Phase 7: regional gap-fillers ===
   // Trans-New Guinea (Papuan)
-  mpt: { name: 'Mian', native: 'Mian', lat: -5.13, lng: 141.61, // Telefomin
-
-    wordEvidence: {
-      sun:    { evidence: 'inferred', note: 'Mian "kep" — same form as "good"; pending source confirmation (Audit Task 120)' },
-      good:   { evidence: 'inferred', note: 'Mian "kep" — same form as "sun" (sunlight/positive polysemy possible); pending source confirmation (Audit Task 120)' },
-      mother: { evidence: 'inferred', note: 'Mian "na" — same form as "love"; pending source confirmation (Audit Task 120)' },
-      love:   { evidence: 'inferred', note: 'Mian "na" — same form as "mother" (kinship/affection polysemy possible); pending source confirmation (Audit Task 120)' }
-    }},
+  mpt: { name: 'Mian', native: 'Mian', lat: -5.13, lng: 141.61 }, // Telefomin
   ygr: { name: 'Yagaria', native: 'Yagaria', lat: -6.58, lng: 145.39, // Eastern Highlands
 
     wordEvidence: {
@@ -4517,8 +4503,8 @@ const LANG_DATA = {
       eat:    { evidence: 'proxy',  source: 'Old Iranian *xwar-' },
       heart:  { evidence: 'proxy',  source: 'Old Iranian zard-' },
       hand:   { evidence: 'proxy',  source: 'Old Iranian zasta' },
-      eye:    { evidence: 'proxy',  source: 'Old Iranian čašm-' },
-      one:    { evidence: 'proxy',  source: 'Old Iranian *aiwa-' },
+      eye:    { evidence: 'disputed', source: "Herodotus 4.27: spou 'eye'", note: 'Herodotus gives it as the Scythian word; scholars doubt his analysis of the name Arimaspoi.' },
+      one:    { evidence: 'disputed', source: "Herodotus 4.27: arima 'one'", note: 'Herodotus gives it as the Scythian word; scholars doubt his analysis of the name Arimaspoi.' },
       good:   { evidence: 'proxy',  source: 'Avestan vohu-' },
     } },
   // Old Thai (Sukhothai era) — 13c. Ramkhamhaeng inscription (1283), the earliest

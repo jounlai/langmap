@@ -1089,7 +1089,7 @@ WORDS.king = {
     nyn: ["omugabe", "omuɡaβe"],
     nyo: ["omukama", "omukama"],
     mus: ["mēkko", "míkːo"],
-    lmo: ["rex", "ɾɛʒ"],
+    lmo: ["rex", "rɛʒ"],
     dsb: ["kral", "kral"],
     kw: ["mytern", "mɪˈtɛrn"],
     mns: ["хо̄н", "χoːn"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -1097,7 +1097,7 @@ WORDS.king = {
     tsg: ["raja", "radʒa"],
     hr: ["kralj", "krâːʎ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     iba: ["raja", "radʒa"],
-    tzm: ["ⴰⴳⵍⵍⵉⴷ", "aɡllid"],
+    tzm: ["ⴰⴳⵍⵍⵉⴷ", "aɡlːid"],
     xal: ["хан", "xan"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ave: ["𐬑𐬱𐬀𐬚𐬭𐬌𐬌𐬀", "xʃaθrija"],
     syc: ["ܡܠܟܐ", "malkɑ"],
@@ -1105,7 +1105,7 @@ WORDS.king = {
     goh: ["kuning", "ˈkuniŋɡ"],
     osp: ["rey", "ˈrei"],
     okz: ["រាជ", "raːc"],
-    mfe: ["lerwa", "leɰwa"],
+    mfe: ["lerwa", "leʁwa"],
     sga: ["rí", "ˈrʲiː"],
     bsk: ["tham", "tʰam"],
     srn: ["kownu", "kownu"],
@@ -1174,7 +1174,7 @@ WORDS.king = {
     prs: ["شاه", "ʃuː"],
     en_aave: ["king", "kɪŋ"],
     en_au: ["king", "kɪŋ"],
-    smj: ["gonagas", "ˈkɔnakas"],
+    smj: ["gånågis", "ˈɡɔnɔɡis"],
     en_south: ["king", "kɪŋ"],
     en_app: ["king", "kɪŋ"],
     en_in: ["king", "kɪŋ"],
@@ -1249,7 +1249,7 @@ WORDS.king = {
     kaw: ["ꦫꦠꦸ", "ratu"],  // From Proto-Malayo-Polynesian *datu.
     hbo: ["מלך", "ˈmɛlɛx"],  // From Proto-Semitic *malk-.
     he_mis: ["מלך", "ˈmeleχ"],  // Mishnah Sanhedrin 2:2.
-    hy_grab: ["թագաւոր", "tʰaɡawor"],  // Crown-bearer, from Parthian *tag(a)-βar.
+    hy_grab: ["թագաւոր", "tʰaɡawoɾ"],  // Crown-bearer, from Parthian *tag(a)-βar.
     xng: ["ᠬᠠᠭᠠᠨ", "qaɣan"],  // Possibly borrowed from Turkic.
     cmg: ["ᠬᠠᠭᠠᠨ", "qaɣan"],
     otk: ["𐰴𐰍𐰣", "qaɣan"],  // From Proto-Turkic *kagan.
@@ -1724,12 +1724,12 @@ WORDS.king = {
     fud: ["sau", "sau"],
     pkp: ["aliki", "aliki"],
     pmt: ["ariki", "ariki"],
-    kok: ["राजा", "raːdʒaː"],
+    kok: ["राजा", "ɾaːdʒaː"],
     ctu: ["rey", "rej"],
     gn: ["rréi", "ˈrei"],
     nv: ["naatʼáanii", "nɑ̀ːtʼɑ́ːnìː"],
     quc: ["rey", "rej"],
-    quz: ["rey", "rej"],
+    quz: ["rey", "ɾej"],
     tzo: ["ajvalil", "ʔahvalil"],
     yua: ["rey", "rej"],
     hyw: ["թագաւոր", "tʰɑkʰɑˈvoɾ"],

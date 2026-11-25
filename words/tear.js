@@ -66,6 +66,9 @@ WORDS.tear = {
     sw: "Chozi — tone linaloanguka kutoka jichoni tunapolia. Katika lugha nyingi za Asia na Pasifiki ni \"maji ya jicho\" tu: Kiindonesia air mata, Kithai น้ำตา, Kikorea 눈물, Kivietinamu nước mắt. Kichina 眼淚 na Kituruki gözyaşı pia huanzia kwenye neno la jicho, huku lugha nyingi za Ulaya zikiwa na neno lake, kama Träne, larme na слеза.",
   },
   family: {
+    ha: "plain",
+    ssf: "luseq",
+    itb: "luseq",
     aa: "plain",
     ab: "plain",
     acw: "dima",
@@ -873,6 +876,9 @@ WORDS.tear = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    ha: ["hawaye", "hawaːjeː"],  // From ids hawaye.
+    ssf: ["rushaq", "ɾuʃaq"],  // From ACD Thao: rushaq.
+    itb: ["xoho", "ɣoho"],  // From ACD Itbayaten: xoho.
     aa: ["ximo", "ɖiˈmo"],
     ab: ["аламӡы", "alamdzə"],
     acw: ["دمع", "damʕ"],
@@ -895,7 +901,7 @@ WORDS.tear = {
     bm: ["ɲɛji", "ɲɛdʒi"],  // Built from the words for eye and water or liquid. Compare ɲɛ 'eye', ji 'water'.
     bn: ["অশ্রু", "osɾu"],
     bo: ["མིག་ཆུ", "miʔ˩˧ tɕʰu˥"],  // Built from the words for eye and water or liquid. Compare མིག 'eye', ཆུ 'water'.
-    br: ["dour", "ˈduːr"],  // The word for water or body fluid, used for tears.
+    br: ["dour", "duːr"],  // The word for water or body fluid, used for tears.
     ca: ["llàgrima", "ˈʎaɣɾimə"],
     car: ["anaku", "anaːku"],
     cbk: ["lagrimas", "ˈlaɡɾimas"],
@@ -913,8 +919,8 @@ WORDS.tear = {
     da: ["tåre", "ˈtɔːrə"],
     dar: ["бисала кӏаитӏ", "bisala kʼaitʼ"],
     ddo: ["мо", "mo"],
-    de: ["Träne", "ˈtrɛːnə"],
-    dv: ["ކަރުނަ", "karuna"],
+    de: ["Träne", "ˈtʁɛːnə"],
+    dv: ["ކަރުނަ", "kaɾuna"],
     egl: ["lègruma", "ˈlɛːɡruma"],
     el: ["δάκρυ", "ˈðakɾi"],
     enm: ["teer", "tɛ̝ːr"],
@@ -972,11 +978,11 @@ WORDS.tear = {
     kpv: ["синва", "ɕinvɑ"],  // Built from the words for eye and water or liquid. Compare син 'eye', ва 'water'.
     kri: ["wata", "wata"],  // The word for water or body fluid, used for tears.
     ks: ["اۆش", "oʃ"],
-    ksb: ["meshozi", "meshozi"],
+    ksb: ["meshozi", "meʃozi"],
     ku: ["hêsir", "heːsɪr"],
     kw: ["dager", "ˈdaɡɛr"],
     ky: ["жаш", "dʒɑʃ"],
-    la: ["lacrima", "ˈɫakrɪma"],
+    la: ["lacrima", "ˈlakrɪma"],
     lb: ["Tréin", "tʀɜɪ̯n"],
     lbe: ["макь", "maqʼ"],
     lez: ["вилин нагъв", "wilin naʁʷ"],  // Built on the word for eye (вил).
@@ -998,7 +1004,7 @@ WORDS.tear = {
     mra: ["hwaj mat", "hwaj mat"],  // Built on the word for eye (mat).
     mrj: ["сӹнзӓвӹд", "sɯnzævɯð"],  // Built from the words for eye and water or liquid. Compare сӹнзӓ 'eye', вӹд 'water'.
     mrw: ["loʼ", "loʔ"],
-    ms: ["air mata", "ˌaer ˈmatə"],  // Built from the words for eye and water or liquid. Compare mata 'eye', air 'water'.
+    ms: ["air mata", "ˌaer ˈmata"],  // Built from the words for eye and water or liquid. Compare mata 'eye', air 'water'.
     mt: ["demgħa", "ˈdɛma"],
     my: ["မျက်ရည်", "mjɛʔ jè"],  // Built from the words for eye and water or liquid.
     myv: ["сельведь", "sʲelʲvedʲ"],  // Built from the words for eye and water or liquid. Compare сельме 'eye', ведь 'water'.
@@ -1051,7 +1057,7 @@ WORDS.tear = {
     so: ["ilmo", "ilmo"],  // Built on the word for eye (il).
     sq: ["lot", "lɔt"],
     sr: ["суза", "sûza"],
-    suk: ["jisoshi", "jisoshi"],
+    suk: ["jisoshi", "jisoʃi"],
     sv: ["tår", "toːr"],
     sw: ["chozi", "ˈtʃozi"],
     syc: ["ܕܡܥܬܐ", "dɛmʕəθɑ"],
@@ -1078,7 +1084,7 @@ WORDS.tear = {
     ttj: ["iziga", "iziɡa"],
     tyz: ["nặm tha", "nam˧˨ʔ tʰaː˧˧"],  // Built from the words for eye and water or liquid. Compare tha 'eye', nặm 'water'.
     tzm: ["ⴰⵎⵟⵟⴰ", "amtˤtˤa"],
-    udm: ["синву", "ɕinˈʋu"],  // Built from the words for eye and water or liquid. Compare син 'eye', ву 'water'.
+    udm: ["синву", "ɕinˈvu"],  // Built from the words for eye and water or liquid. Compare син 'eye', ву 'water'.
     ug: ["ياش", "jɑʃ"],
     uk: ["сльоза", "sʲlʲɔˈza"],
     ur: ["آنسو", "ãːsuː"],
@@ -1148,7 +1154,7 @@ WORDS.tear = {
     es_sv: ["lágrima", "ˈlaɡɾima"],
     fr_lu: ["larme", "laʁm"],
     fr_cm: ["larme", "laʁm"],
-    de_lu: ["Träne", "ˈtrɛːnə"],
+    de_lu: ["Träne", "ˈtʁɛːnə"],
     en_ng2: ["tear", "tia"],
     es_bo: ["lágrima", "ˈlaɡɾima"],
     es_py: ["lágrima", "ˈlaɡɾima"],

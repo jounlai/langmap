@@ -1633,7 +1633,7 @@ WORDS.mountain = {
     st: ["thaba", "tʰaba"],
     wo: ["tangor", "taŋɡɔr"],
     rw: ["umusozi", "umusozi"],
-    ts: ["ntshava", "ntsʰava"],
+    ts: ["ntshava", "ntsʰaβa"],
     en_wls: ["mountain", "ˈmaʊntɪn"],
     nl_be: ["berg", "bɛrx"],
     de_ch: ["Berg", "bɛrk"],

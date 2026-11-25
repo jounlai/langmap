@@ -1121,7 +1121,7 @@ WORDS.wine = {
     mgo: ["mɨnoʼ", "mɨnoʔ"],
     men: ["ndɔ", "ndɔ"],
     mbc: ["wuku", "wuku"], // was ["woʔ", "woʔ"] (vi dialect rules 2026-10-06)
-    maw: ["daam", "daam"],
+    maw: ["daam", "daːm"],
     laj: ["koŋo", "koŋo"],
     krl: ["viina", "ˈviːna"],
     izz: ["mẹe", "mɛe"],
@@ -1672,7 +1672,7 @@ WORDS.wine = {
     ixl: ["vino", "ˈbino"],
     mam: ["vino", "ˈbino"],
     shp: ["vino", "ˈbino"],
-    ter: ["víyum", "ˈvĩjũ"],
+    ter: ["víyum", "ˈwĩjũ"],
     cab: ["diweín", "diweˈin"],
     mpt: ["waen", "waen"],
     kpf: ["waiŋ", "waiŋ"],
@@ -1901,7 +1901,7 @@ WORDS.wine = {
     kam: ["ndivai", "ndiβai"], // was ["mbinyu", "mbiɲu"] (vi dialect rules 2026-10-06)
     suk: ["mvinya", "mviɲa"], // was ["divai", "divai"] (vi dialect rules 2026-10-06)
     nym: ["mvinyo", "mviɲo"],
-    rim: ["divai", "divai"],
+    rim: ["divai", "diβai"],
     ksb: ["mvinyo", "mviɲo"],
     jmc: ["mfinyo", "mfiɲo"],
     sbp: ["idivaayi", "idivaːji"],

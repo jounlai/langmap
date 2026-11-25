@@ -3161,7 +3161,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "i kahi kamaʻa"
+          "i kahi lole"
         ],
         [
           "G",
@@ -5564,40 +5564,40 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "jIH"
-        ],
-        [
-          "D",
-          "Sut"
-        ],
-        [
-          "G",
-          "vIlegh"
-        ],
-        [
-          "H",
-          "Daq"
-        ],
-        [
-          "I",
-          "mIpwI'"
+          "K",
+          "mebpa'mey"
         ],
         [
           "J",
           "retlh"
         ],
         [
-          "K",
-          "qach"
+          "I",
+          "ngevwI' qach"
+        ],
+        [
+          "H",
+          "‌Daq"
+        ],
+        [
+          "D",
+          "malja' HIp"
+        ],
+        [
+          "G",
+          "vIleghpu'bogh"
         ],
         [
           "C",
-          "vInIH"
+          "vIwaH"
         ],
         [
           "B",
           "vIneH"
+        ],
+        [
+          "A",
+          "jIH"
         ]
       ],
       "jbo": [
@@ -9988,20 +9988,20 @@ const SENTENCES = [
       ],
       "mg": [
         [
-          "D",
-          "Tanaka"
+          "B",
+          "Ny anara"
         ],
         [
-          "B",
-          "no anarana"
+          "A",
+          "‌ko"
         ],
         [
           "C",
           "dia"
         ],
         [
-          "A",
-          "ahy"
+          "D",
+          "Tanaka"
         ]
       ],
       "ain": [
@@ -19546,7 +19546,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ස්ථානය"
+          "දුම්රියපොළ"
         ],
         [
           "C",
@@ -20123,20 +20123,20 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "Sum"
-        ],
-        [
-          "B",
-          "raQpo'"
-        ],
-        [
           "C",
           "nuqDaq"
         ],
         [
           "D",
           "'oH"
+        ],
+        [
+          "A",
+          "Sumqu'bogh"
+        ],
+        [
+          "B",
+          "manggha''e'"
         ]
       ],
       "jbo": [
@@ -23814,15 +23814,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "huwa"
+          "huwa bnin"
         ],
         [
           "C",
           "ħafna"
-        ],
-        [
-          "D",
-          "bnin"
         ]
       ],
       "so": [
@@ -52141,6 +52137,14 @@ const SENTENCES = [
       ],
       "tlh": [
         [
+          "F",
+          "wa'Hu'"
+        ],
+        [
+          "B",
+          "paq ngevwI' qachDaq"
+        ],
+        [
           "E",
           "paq"
         ],
@@ -52155,14 +52159,6 @@ const SENTENCES = [
         [
           "A",
           "jIH"
-        ],
-        [
-          "B",
-          "paq vIngDaq"
-        ],
-        [
-          "F",
-          "wa'Hu'"
         ]
       ],
       "jbo": [
@@ -64702,7 +64698,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "աշխատանք"
+          "աշխատանքի"
         ],
         [
           "C",
@@ -65961,24 +65957,24 @@ const SENTENCES = [
       ],
       "tlh": [
         [
+          "E",
+          "Hoch jaj"
+        ],
+        [
           "B",
           "Qu'Daq"
         ],
         [
           "C",
-          "vIjaH"
+          "jIjaHmeH"
+        ],
+        [
+          "D",
+          "lupwI' mIr vIlIgh"
         ],
         [
           "A",
           "jIH"
-        ],
-        [
-          "D",
-          "raQpo'Daq"
-        ],
-        [
-          "E",
-          "Hoch jaj"
         ]
       ],
       "jbo": [
@@ -109556,7 +109552,7 @@ const SENTENCES = [
       "tlh": [
         [
           "C",
-          "SojmeH ghItlh"
+          "HIDjolev"
         ],
         [
           "D",
@@ -131986,7 +131982,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "كۆلەڭگەمنى"
+          "كۈنلۈكۈمنى"
         ],
         [
           "C",
@@ -132243,8 +132239,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
+          "D",
+          "lupwI' mIrDaq"
+        ],
+        [
           "B",
-          "SIS ngo'wI'"
+          "SIS yoDwIj"
         ],
         [
           "C",
@@ -132253,10 +132253,6 @@ const SENTENCES = [
         [
           "A",
           "jIH"
-        ],
-        [
-          "D",
-          "raQpo'Daq"
         ]
       ],
       "jbo": [
@@ -136743,7 +136739,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "plano"
+          "may'ron raS"
         ],
         [
           "C",
@@ -136754,12 +136750,12 @@ const SENTENCES = [
           "‌laH"
         ],
         [
-          "A",
-          "ghaH"
+          "D",
+          "‌chu'"
         ],
         [
-          "D",
-          "pov"
+          "A",
+          "ghaH"
         ]
       ],
       "jbo": [
@@ -140955,7 +140951,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "yoj"
+          "tetlhnagh"
         ]
       ],
       "jbo": [
@@ -144977,6 +144973,10 @@ const SENTENCES = [
           "Ez"
         ],
         [
+          "E",
+          "dixwazim"
+        ],
+        [
           "D",
           "ji bo firavinê"
         ],
@@ -144986,11 +144986,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "xwarin"
-        ],
-        [
-          "E",
-          "dixwazim"
+          "bixwim"
         ]
       ],
       "ug": [
@@ -149457,12 +149453,12 @@ const SENTENCES = [
           "kienet"
         ],
         [
-          "C",
-          "ħafna"
-        ],
-        [
           "D",
           "nadifa"
+        ],
+        [
+          "C",
+          "ħafna"
         ]
       ],
       "so": [
@@ -149512,7 +149508,7 @@ const SENTENCES = [
       "ig": [
         [
           "A",
-          "Ọnụ ụlọ ahịa"
+          "Ọnụ ụlọ nkwari"
         ],
         [
           "B",
@@ -149976,7 +149972,7 @@ const SENTENCES = [
       "tlh": [
         [
           "A",
-          "qach juHqo'"
+          "mebpa'mey"
         ],
         [
           "E",
@@ -155096,11 +155092,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ta aginana ka"
+          "ta in-inayadem"
         ],
         [
           "C",
-          "nga agsao"
+          "ti agsao"
         ]
       ],
       "or": [
@@ -161790,7 +161786,7 @@ const SENTENCES = [
       "si": [
         [
           "C",
-          "ස්ථානයේ"
+          "දුම්රියපොළේ"
         ],
         [
           "A",
@@ -162388,7 +162384,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "raQpo'Daq"
+          "mangghaDaq"
         ],
         [
           "D",
@@ -171182,12 +171178,12 @@ const SENTENCES = [
           "naDev"
         ],
         [
-          "B",
-          "jul tlhap"
-        ],
-        [
           "C",
           "'IH"
+        ],
+        [
+          "B",
+          "tlhom chum"
         ]
       ],
       "jbo": [
@@ -185763,7 +185759,7 @@ const SENTENCES = [
       "br": [
         [
           "E",
-          "O lenn emañ"
+          "O lenn emaon"
         ],
         [
           "A",
@@ -191750,7 +191746,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tapykuépe"
+          "akóinte"
         ],
         [
           "D",
@@ -195772,7 +195768,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌هاي"
+          "‌هذا"
         ],
         [
           "E",
@@ -199327,16 +199323,16 @@ const SENTENCES = [
           "Ez"
         ],
         [
+          "D",
+          "dixwazim"
+        ],
+        [
           "B",
           "li seranserê cîhanê"
         ],
         [
           "C",
-          "geriyanê"
-        ],
-        [
-          "D",
-          "dixwazim"
+          "bigerim"
         ]
       ],
       "ug": [
@@ -204465,7 +204461,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "bIr por"
+          "qImroq bIr"
         ],
         [
           "C",
@@ -204473,7 +204469,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "moj"
+          "‌choH"
         ],
         [
           "A",
@@ -204857,7 +204853,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "‌هاي"
+          "‌هذا"
         ],
         [
           "A",
@@ -219670,6 +219666,10 @@ const SENTENCES = [
           "Ez"
         ],
         [
+          "D",
+          "dixwazim"
+        ],
+        [
           "E",
           "wê"
         ],
@@ -219679,11 +219679,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "temaşekirinê"
-        ],
-        [
-          "D",
-          "dixwazim"
+          "temaşe bikim"
         ]
       ],
       "ug": [
@@ -225211,7 +225207,7 @@ const SENTENCES = [
       "tlh": [
         [
           "F",
-          "DujDaq"
+          "verghDaq"
         ],
         [
           "E",
@@ -233591,7 +233587,7 @@ const SENTENCES = [
       "ha": [
         [
           "A|E",
-          "Kakkata"
+          "Kakata"
         ],
         [
           "D",
@@ -243743,15 +243739,15 @@ const SENTENCES = [
       "tlh": [
         [
           "A|D",
-          "Du"
+          "Du'HomDaq"
+        ],
+        [
+          "C|E",
+          "lew"
         ],
         [
           "B",
           "'InSong"
-        ],
-        [
-          "C|E",
-          "tay"
         ]
       ],
       "jbo": [
@@ -262071,7 +262067,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "rindliga"
+          "flótandi"
         ]
       ],
       "jam": [
@@ -265970,11 +265966,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "nagh"
+          "mIllogh"
         ],
         [
           "D",
-          "vInop"
+          "vIqon"
         ],
         [
           "E",
@@ -266334,7 +266330,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "لهاي المعبد"
+          "لهذا المعبد"
         ]
       ],
       "hak_cn": [
@@ -273421,7 +273417,7 @@ const SENTENCES = [
       "br": [
         [
           "D",
-          "O teskiñ emañ"
+          "O teskiñ emaon"
         ],
         [
           "A",
@@ -277778,7 +277774,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "mokolo"
+          "na sima"
         ],
         [
           "D",
@@ -277853,20 +277849,20 @@ const SENTENCES = [
           "qepDaq"
         ],
         [
-          "C",
-          "ghIQ"
-        ],
-        [
           "E",
-          "paw"
-        ],
-        [
-          "A",
-          "ghaH"
+          "pawDI'"
         ],
         [
           "B",
           "reH"
+        ],
+        [
+          "C",
+          "paS"
+        ],
+        [
+          "A",
+          "ghaH"
         ]
       ],
       "jbo": [
@@ -278848,7 +278844,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tapykuépe"
+          "akóinte"
         ],
         [
           "D",
@@ -282357,20 +282353,20 @@ const SENTENCES = [
           "Ez"
         ],
         [
-          "B",
-          "vê pirtûkê"
+          "E",
+          "dixwazim"
         ],
         [
           "C",
           "heta dawiya mehê"
         ],
         [
-          "D",
-          "xwendinê"
+          "B",
+          "vê pirtûkê"
         ],
         [
-          "E",
-          "dixwazim"
+          "D",
+          "bixwînim"
         ]
       ],
       "ug": [
@@ -283058,7 +283054,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "هاي الكتاب"
+          "هذا الكتاب"
         ],
         [
           "C",
@@ -290089,11 +290085,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "HoS nob"
+          "vIHuj"
         ],
         [
           "D",
-          "vInIS"
+          "‌nIS"
         ],
         [
           "A",
@@ -302488,7 +302484,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ይውስውስ"
+          "እውስውስ"
         ]
       ],
       "wo": [
@@ -302603,12 +302599,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "C",
-          "wej"
-        ],
-        [
           "E",
           "Hoch Hogh"
+        ],
+        [
+          "C",
+          "wejlogh"
         ],
         [
           "B",
@@ -302616,7 +302612,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "vIDoy'"
+          "jIqeq"
         ],
         [
           "A",
@@ -306861,7 +306857,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ይኽእል ድየ"
+          "እኽእል ድየ"
         ]
       ],
       "wo": [
@@ -321427,16 +321423,16 @@ const SENTENCES = [
           "Ez"
         ],
         [
+          "D",
+          "dixwazim"
+        ],
+        [
           "B",
           "bilêvkirina xwe"
         ],
         [
           "C",
-          "baştirkirinê"
-        ],
-        [
-          "D",
-          "dixwazim"
+          "baştir bikim"
         ]
       ],
       "ug": [
@@ -321700,7 +321696,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "mu'tlheghwIj"
+          "QIch wab Ho'DoSwIj"
         ],
         [
           "C",
@@ -335453,11 +335449,11 @@ const SENTENCES = [
       "xh": [
         [
           "A",
-          "Ndi"
+          "Bendi"
         ],
         [
           "C",
-          "bendihleli"
+          "‌linde"
         ],
         [
           "B",
@@ -335561,7 +335557,7 @@ const SENTENCES = [
       "br": [
         [
           "C",
-          "O c'hortoz emañ"
+          "O c'hortoz emaon"
         ],
         [
           "A",
@@ -347146,16 +347142,20 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "B|D|E",
-          "yoj ngu'"
+          "A",
+          "ghaH"
         ],
         [
           "C",
           "mer"
         ],
         [
-          "A",
-          "ghaH"
+          "E",
+          "tetlhnagh"
+        ],
+        [
+          "B",
+          "gher'ID"
         ]
       ],
       "jbo": [
@@ -351300,12 +351300,12 @@ const SENTENCES = [
           "Ndinofunga"
         ],
         [
-          "A",
-          "uyu"
-        ],
-        [
           "B",
           "purani"
+        ],
+        [
+          "A",
+          "iyi"
         ],
         [
           "C",
@@ -361990,7 +361990,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ይኣምን"
+          "እኣምን"
         ]
       ],
       "wo": [
@@ -375001,11 +375001,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "vIDoy'"
+          "jIqeq"
         ],
         [
           "D",
-          "vInID"
+          "'e' vInID"
         ],
         [
           "A",
@@ -379208,12 +379208,8 @@ const SENTENCES = [
           "Ta"
         ],
         [
-          "C",
-          "jäi"
-        ],
-        [
-          "B",
-          "külmetuse"
+          "B|C",
+          "külmetus"
         ],
         [
           "E",
@@ -388930,7 +388926,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "snjaldsíma mín"
+          "snildfonina mína"
         ],
         [
           "A",
@@ -391973,7 +391969,7 @@ const SENTENCES = [
       "sq": [
         [
           "A",
-          "Kjo"
+          "Ky"
         ],
         [
           "B",
@@ -392003,15 +391999,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hija"
+          "hija utli"
         ],
         [
           "C",
           "ħafna"
-        ],
-        [
-          "D",
-          "utli"
         ]
       ],
       "so": [
@@ -392781,7 +392773,7 @@ const SENTENCES = [
       "ar_iq": [
         [
           "A",
-          "هاي"
+          "هذا"
         ],
         [
           "B",
@@ -400566,7 +400558,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ngoghmey"
+          "chaw' ngoq"
         ],
         [
           "D",
@@ -401972,11 +401964,11 @@ const SENTENCES = [
         ],
         [
           "G",
-          "باسورد"
+          "الباسورد"
         ],
         [
           "E",
-          "البتاع"
+          "بتاع"
         ],
         [
           "F",
@@ -412916,8 +412908,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
+          "D",
+          "jungwoq DIS chu' wIlopDI'"
+        ],
+        [
           "B",
-          "chab nay"
+          "chab"
         ],
         [
           "C",
@@ -412926,10 +412922,6 @@ const SENTENCES = [
         [
           "A",
           "maH"
-        ],
-        [
-          "D",
-          "DIS chu' logh"
         ]
       ],
       "jbo": [
@@ -418418,23 +418410,23 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌vam"
+          "‌vamDaq"
         ],
         [
           "D",
-          "bov tuj"
+          "qImroq tuj"
+        ],
+        [
+          "G",
+          "qaS"
         ],
         [
           "F",
-          "lopno"
+          "lopno'"
         ],
         [
           "E",
           "law'"
-        ],
-        [
-          "G",
-          "qaSlu'"
         ]
       ],
       "jbo": [
@@ -418894,7 +418886,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌هاي"
+          "‌هذا"
         ],
         [
           "C",
@@ -419408,7 +419400,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "nógvir"
+          "nógvar"
         ],
         [
           "F",
@@ -419416,7 +419408,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "hildin"
+          "hildnar"
         ]
       ],
       "jam": [
@@ -428047,15 +428039,19 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "yaS pa'"
+          "yaS pa'Daq"
         ],
         [
           "C",
-          "vIjaH"
+          "jIjaHmeH"
         ],
         [
           "A",
-          "tlhIch Du'Hom"
+          "qam Do Duj vIngIt"
+        ],
+        [
+          "D",
+          "jIH"
         ]
       ],
       "jbo": [
@@ -436293,7 +436289,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ස්ථානයට"
+          "දුම්රියපොළට"
         ],
         [
           "B",
@@ -436879,7 +436875,7 @@ const SENTENCES = [
       "tlh": [
         [
           "C",
-          "raQpo'"
+          "manggha"
         ],
         [
           "B",
@@ -436891,7 +436887,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "mIqwI' tIn"
+          "Soj ngevwI' qach tIn"
         ]
       ],
       "jbo": [
@@ -441428,7 +441424,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "vIra'"
+          "vIvun"
         ],
         [
           "B",
@@ -443453,15 +443449,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "सम्झना"
+          "स्मारिका"
         ],
         [
           "C",
-          "कतिको"
+          "कति"
         ],
         [
           "D",
-          "छ"
+          "पर्छ"
         ]
       ],
       "en": [
@@ -445895,7 +445891,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "هاي"
+          "هذا"
         ],
         [
           "B",

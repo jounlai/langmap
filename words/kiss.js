@@ -817,7 +817,7 @@ WORDS.kiss = {
     xqa: ["öpmäk", "øpmæk"],  // The verb "to kiss"; from Proto-Turkic *öp-.
     sga: ["póc", "poːɡ"],  // From Latin (dare) pācem "to give peace", the kiss of peace.
     hbo: ["נשיקה", "nəʃiːˈqɔː"],  // Song of Songs 1:2 (nəšîqôt "kisses").
-    hy_grab: ["համբոյր", "hambojr"],  // From Parthian *ham-bōδ.
+    hy_grab: ["համբոյր", "hambojɾ"],  // From Parthian *ham-bōδ.
     qwc: ["muchʼa", "mutʃʼa"],  // Also muchʼay "to kiss, adore, worship".
     ota: ["اوپش", "øˈpyʃ"],  // From the Turkic verb öp- "to kiss".
     en_em: ["kiss", "kɪs"],  // From Old English coss.
@@ -858,7 +858,7 @@ WORDS.kiss = {
     sc: ["basu", "ˈbasu"],
     av: ["убач", "ubatʃ"],
     hil: ["haluk", "ˈhaluk"],  // From Proto-Malayo-Polynesian *hajək 'smell, sniff, kiss'.
-    war: ["harok", "ˈharok"],  // From Proto-Malayo-Polynesian *hajək 'smell, sniff, kiss'.
+    war: ["harok", "ˈhaɾok"],  // From Proto-Malayo-Polynesian *hajək 'smell, sniff, kiss'.
     qu: ["muchʼa", "ˈmutʃʼa"],
     vec: ["baxo", "ˈbazo"],
     rm: ["bitsch", "bitʃ"],
@@ -871,7 +871,7 @@ WORDS.kiss = {
     xmf: ["ჯუნა", "dʒuna"],
     kjh: ["ӧбӱс", "øˈbys"],
     rom: ["ćumi", "tʃumi"],  // Inherited from Sanskrit cumba.
-    ltg: ["bučīņs", "ˈbutʃiːɲs"],
+    ltg: ["bučīņs", "ˈbutʃiːnʲs"],
     rgn: ["béṣ", "beːz"],
     sr: ["пољубац", "pǒʎubats"],  // From љубити 'to love, to kiss'.
     bs: ["poljubac", "ˈpoʎubats"],  // From ljubiti 'to love, to kiss'.
@@ -1088,7 +1088,7 @@ WORDS.kiss = {
     tsg: ["sīyum", "ˈsiːjum"],
     bjn: ["ciuman", "tʃiuman"],
     chk: ["kiis", "kiːs"],
-    fj: ["iregu", "ireŋɡu"],
+    fj: ["iregu", "ireŋu"],
     pon: ["metik", "metik"],
     cnh: ["hnamh", "hnamʔ"],
     my: ["နမ်း", "náɴ"],

@@ -75,6 +75,11 @@ WORDS.left = {
     sw: "Kushoto — upande, si \"kilichobaki\". Ikiwa kulia mara nyingi ni sifa, kushoto mara nyingi ni dharau au neno la kukopwa. Kifaransa gauche kinatoka \"kupinda\", Kiromania stâng kutoka \"aliyechoka\", Kiajemi چپ kutoka mzizi wa \"kupinda\", na Kigaeli cha Uskoti ceàrr pia maana yake \"kosa\". Kihispania izquierda na Kireno esquerda vinatoka Kibasque ezker, na Kithai ซ้าย kutoka Kichina cha Kale 左. Kilatini sinister huenda lilikuwa jina la heshima, \"upande wenye faida zaidi\", na Kigiriki αριστερός kinaonekana kujengwa juu ya \"bora kabisa\". Kimongolia зүүн pia maana yake mashariki.",
   },
   family: {
+    gsw: "link",
+    ha: "plain",
+    tsj: "plain",
+    mdh: "plain",
+    aoz: "plain",
     lb: "link",
     slr: "other",
     ja: "pintari",
@@ -954,6 +959,11 @@ WORDS.left = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    gsw: ["lingg", "lɪŋk"],  // From iecor lingg lɪŋk.
+    ha: ["hagu", "haɡu"],  // From ids, kraftchadic hagu.
+    tsj: ["minyung", "miɲuŋ"],  // From sagartst Bodic_Tshangla: mi ȵuŋ.
+    mdh: ["biwang", "ˈbiwaŋ"],  // From abvd Maguindanaon: bíwang.
+    aoz: ["ʼliʼ", "ʔliʔ"],  // From abvd Atoni: ʔliʔ.
     lb: ["lénks", "leŋks"],
     slr: ["yolaq", "jolɑχ"],  // According to Tenishev, cognate with Turkish yolak 'path'.
     ja: ["左", "hidaɾi"],
@@ -997,7 +1007,7 @@ WORDS.left = {
     hu: ["bal", "bɒl"],
     el: ["αριστερός", "aɾisteˈɾos"],  // From Ancient Greek ἀριστερός, apparently from ἄριστος 'best'.
     nl: ["links", "lɪŋks"],
-    pl: ["lewy", "ˈlɛvɘ"],
+    pl: ["lewy", "ˈlɛvɨ"],
     szl: ["lewy", "ˈlɛvɪ"],
     uk: ["лівий", "ˈlʲiʋei̯"],
     sv: ["vänster", "ˈvɛnːstɛr"],
@@ -1026,7 +1036,7 @@ WORDS.left = {
     mnc: ["ᡥᠠᠰᡥᡡ", "χäsχʊ"],
     mt: ["xellug", "ʃɛlˈluːk"],  // Uncertain; seemingly from a Maghrebi Arabic word for the scirocco wind.
     sco: ["caur", "kɑːr"],  // Borrowed from Scottish Gaelic ceàrr 'wrong; left'.
-    yi: ["לינק", "ɫɪŋk"],
+    yi: ["לינק", "lɪŋk"],
     is: ["vinstri", "ˈvɪnstrɪ"],
     gd: ["ceàrr", "kʲʰɛːrˠ"],  // Also 'wrong'; from Old Irish cerr 'crooked, maimed'.
     br: ["kleiz", "klɛis"],
@@ -1048,7 +1058,7 @@ WORDS.left = {
     as: ["বাওঁ", "bɑʊ̃"],
     or: ["ବାମ", "bamɔ"],
     nn: ["venstre", "ˈʋɛnstrə"],
-    fo: ["vinstri", "ˈvɪnstrɪ"],
+    fo: ["vinstri", "ˈvɪnstɹɪ"],
     la: ["sinister", "ˈsinister"],  // Possibly a euphemism, 'the more favourable side'; also 'unlucky'.
     enm: ["lift", "lift"],
     ang: ["winestra", "ˈwinestrɑ"],
@@ -1080,7 +1090,7 @@ WORDS.left = {
     csb: ["lewi", "ˈlɛvi"],
     ast: ["izquierdu", "iθˈkjeɾdu"],  // From Basque ezker 'left'.
     wa: ["hintche", "hɛ̃tʃ"],
-    kpv: ["шульга", "ʃuʎɡa"],
+    kpv: ["шуйга", "ˈʃujɡa"],
     udm: ["паллян", "palːʲan"],
     mhr: ["шола", "ʃoˈla"],
     mrj: ["шалахай", "ʃɑlɑxɑj"],
@@ -1106,7 +1116,7 @@ WORDS.left = {
     fro: ["senestre", "səˈnɛstrə"],
     osp: ["siniestro", "siˈnjestɾo"],
     sga: ["clé", "ˈkʲlʲeː"],
-    bsk: ["ġaíl", "ɡ̇aˈil"],
+    bsk: ["ġaíl", "ɣaˈil"],
     pcc: ["soix", "soːi˧˩"],  // From Old Chinese 左.
     xng: ["ᠵᠡᠭᠦᠨ", "dʒewyn"],
     khb: ["ᦌᦻᧉ", "saːj˩"],  // From Old Chinese 左.
@@ -1181,7 +1191,7 @@ WORDS.left = {
     en_nz: ["left", "left"],
     en_au: ["left", "left"],
     de_at: ["link", "lɪŋk"],
-    smj: ["gurut", "ˈkuruːht"],
+    smj: ["gåro", "ˈɡɔruɔ"],
     en_south: ["left", "lɛft"],
     en_app: ["left", "lɛft"],
     en_in: ["left", "lɛfʈ"],
@@ -1665,7 +1675,7 @@ WORDS.left = {
     dta: ["ǯun", "dʒun"],
     dyu: ["numan", "numan"],
     emi: ["uaise", "uaise"],
-    fj: ["mawī", "maβiː"],
+    fj: ["mawī", "mawiː"],
     gan_ja: ["左", "tso˥˧"],
     gil: ["maing", "maiŋ"],  // No image is recorded for it, so it counts as a word of its own.
     ho: ["lauri", "lauri"],
@@ -1702,7 +1712,7 @@ WORDS.left = {
     mdf: ["кержи", "ˈkʲerʒi"],
     nch: ["arraves", "aˈrabes"],
     nhw: ["opoch", "ˈopotʃ"],
-    bor: ["pegareu jagwai", "peɡaɾew jaɡwai"],  // The bad (pegareu) side.
+    bor: ["pegareu jagwai", "peɡaɾew dʒaɡwai"],  // The bad (pegareu) side.
     bzd: ["bakli̱ʼkka", "baklĩʔkka"],
     djr: ["wiṉʼkuŋu", "wiɳʔkuŋu"],
     mxv: ["ichin", "itʃin"],

@@ -850,7 +850,7 @@ WORDS.friday = {
     sl: ["petek", "ˈpeːtək"],
     bg: ["петък", "ˈpɛtɐk"],
     lv: ["piektdiena", "ˈpiɛɡdiɛna"],
-    sq: ["e premte", "ɛˈprɛmtɛ"],  // From the name of Prenda, a goddess; probably a calque of Latin diēs Veneris.
+    sq: ["e premte", "ɛˈpɾɛmtɛ"],  // From the name of Prenda, a goddess; probably a calque of Latin diēs Veneris.
     et: ["reede", "ˈreːde"],  // From Old Swedish frē(a)dagher, 'day of Frigg'.
     ht: ["vandredi", "vãdɣedi"],
     pap: ["djabièrnè", "dʒabiɛrnɛ"],
@@ -1068,7 +1068,7 @@ WORDS.friday = {
     rw: ["Kwagatanu", "kwaɡatanu"],  // 'Fifth'.
     nds: ["Freedag", "ˈfreːdax"],
     pdt: ["Friedach", "ˈfɾiːdax"],
-    ab: ["ахәаша", "aχʷaʃa"],
+    ab: ["ахәаша", "aχʷaʂa"],
     min: ["Jumaik", "dʒumaiʔ"],
     ami: ["safudawan", "safuðawan"],
     wo: ["àjjuma", "adʒːuma"],
@@ -1258,7 +1258,7 @@ WORDS.friday = {
     nd: ["Lwesihlanu", "lwesiɬanu"],
     swb: ["idjimwa", "idʒimwa"],
     toi: ["Bwasanu", "bwasanu"],
-    ts: ["Ravuntlhanu", "ravuntɬʰanu"],
+    ts: ["Ravuntlhanu", "raβuntɬʰanu"],
     umb: ["Votãlo", "votãlo"],
     vmw: ["Namathanu", "namatʰanu"],
     aae: ["e prëmtja", "e ˈpɾəmtja"],

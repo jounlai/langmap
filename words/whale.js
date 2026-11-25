@@ -63,6 +63,7 @@ WORDS.whale = {
     sw: "Nyangumi — mamalia mkubwa wa baharini. Lugha nyingi bado humwita samaki: Kiholanzi walvis, Kichina 鲸鱼, Kivietinamu cá voi \"samaki tembo\". Kiingereza whale, Kifaransa baleine na Kirusi кит ni maneno yao. Lugha zilizo mbali na bahari mara nyingi hazina neno lake.",
   },
   family: {
+    itb: "plain",
     lb: "hwal",
     gcr: "balaena",
     es_pr: "balaena",
@@ -589,6 +590,7 @@ WORDS.whale = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    itb: ["royong", "rojoŋ"],  // From ACD Itbayaten: royoŋ.
     lb: ["Wal", "vaːl"],  // From German Wal, the old Germanic whale word (Old High German wal), cognate with English whale.
     gcr: ["balenn", "balɛn"],  // Inherited from French baleine, from Latin balaena.
     es_pr: ["ballena", "baˈʝena"],  // From Latin ballaena, a form of balaena 'whale', from Greek phálaina.
@@ -680,7 +682,7 @@ WORDS.whale = {
     sm: ["tafolā", "tafolaː"],  // Inherited from Proto-Polynesian *tafolaqa 'whale', like Hawaiian koholā and Māori tohorā.
     to: ["tofuāʻa", "tofuaːʔa"],  // The Tongan word for the whale.
     mr: ["देवमासा", "deʋmaːsaː"],  // Literally 'god fish': देव 'god' plus मासा 'fish'.
-    te: ["తిమింగలం", "timiŋɡalam"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish.
+    te: ["తిమింగలం", "t̪imiŋɡalam"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish.
     kn: ["ತಿಮಿಂಗಿಲ", "timiŋɡila"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish.
     ml: ["തിമിംഗിലം", "timiŋɡilam"],  // From Sanskrit timiṅgila, 'that which swallows the timi', a mythical giant fish.
     ckb: ["نەھەنگ", "nahaŋɡ"],  // The same word as Persian nahang 'whale'.
@@ -717,7 +719,7 @@ WORDS.whale = {
     lt: ["banginis", "bɐnˈɡʲɪnʲɪs"],  // Derived from banga 'wave': the whale is the 'wave creature'.
     lv: ["valis", "ˈvalis"],  // Borrowed from German; the older form valzivs added zivs 'fish', which has since dropped off.
     sq: ["balenë", "baˈlɛnə"],  // Borrowed from Italian balena.
-    et: ["vaal", "ʋaːl"],  // Borrowed from German Wal.
+    et: ["vaal", "ʋɑːl"],  // Borrowed from German Wal.
     ht: ["balèn", "baˈlɛn"],  // Inherited from French baleine.
     se: ["fális", "ˈfaːliːs"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs.
     sjd: ["ва̄лесь", "vaːlʲesʲ"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs.

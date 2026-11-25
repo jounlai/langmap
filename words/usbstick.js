@@ -184,7 +184,7 @@ WORDS.usbstick = {
     he: ["דיסק און קי", "disk on ki"],  // A genericized trademark: DiskOnKey, M-Systems' first USB drive (2000).
     ur: ["یو ایس بی", "juː eːs biː"],  // The device is called by the letters of its plug, USB.
     vi: ["USB", "u˧ ɛt˧˥ ɓe˧"],  // Usually just called USB, read "u ét bê".
-    hi: ["फ़्लैश ड्राइव", "flɛːʃ ɖraːɪʋ"],  // From English flash drive.
+    hi: ["फ़्लैश ड्राइव", "flɛːʃ ɖɾaːɪʋ"],  // From English flash drive.
     mr: ["पेन ड्राईव्ह", "peːn ɖɾaːiʋʱ"],  // From English pen drive.
     gu: ["પેન ડ્રાઈવ", "peːn ɖraːiʋ"],  // From English pen drive.
     bho: ["पेन ड्राइव", "peːn ɖraːɪʋ"],  // From English pen drive.

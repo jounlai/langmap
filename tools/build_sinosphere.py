@@ -298,7 +298,7 @@ def footer():
     return f'''<footer class="foot">
   <p>First posted to the <a href="{FB_GROUP}" target="_blank" rel="noopener">SINOSPHERE 漢字文化圈</a> Facebook group, revised for this site.
   <a href="feed.xml">RSS</a></p>
-  <p>© <a href="https://heuron.com" target="_blank" rel="noopener">Heuron Inc.</a> · <a href="/">LangMap</a></p>
+  <p>© <a href="https://heuron.com" target="_blank" rel="noopener">Heuron Inc.</a> · <a href="/">LangMap</a> · <a href="https://www.facebook.com/groups/29019680361024843" target="_blank" rel="noopener">Join the LangMap Facebook group</a></p>
 </footer>
 '''
 

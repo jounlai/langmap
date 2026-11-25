@@ -65,6 +65,7 @@ WORDS.octopus = {
     sw: "Pweza — mnyama wa baharini mwenye mwili laini na mikono minane. Lugha nyingi huhesabu mikono: Kiingereza octopus (Kigiriki \"miguu minane\"), Kirusi осьминог, Kiajemi هشت‌پا, Kivietinamu bạch tuộc kutoka Kichina 八足 \"miguu minane\". Kihispania pulpo, Kiitaliano polpo na Kifaransa pieuvre hutokana na Kigiriki polýpous \"mwenye miguu mingi\". Kicheki chobotnice ni \"mwenye mkonga\", Kiaisilandi kolkrabbi \"kaa wa makaa\", na Kimalei gurita na Kitagalog pugita huhifadhi neno la Kiaustronesia la maelfu ya miaka.",
   },
   family: {
+    emi: "kurita",
     en: "eight",
     zh: "zhangyu",
     ar: "eight",
@@ -411,6 +412,7 @@ WORDS.octopus = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    emi: ["uita", "uita"],  // From ACD Mussau: uita.
     en: ["octopus", "ˈɒktəpəs"],  // Borrowed via Latin from Greek oktṓpous, 'eight-foot'.
     zh: ["章鱼", "ʈʂɑŋ˥ y˧˥"],  // The standard name; colloquial 八爪鱼 'eight-claw fish' is also used, and the origin of 章 here is not given in the sources.
     ar: ["أخطبوط", "ʔuxtˤubuːtˤ"],  // From Greek oktṓpous 'eight-foot'; also vocalised ʔaxṭabūṭ.

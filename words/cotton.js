@@ -67,6 +67,8 @@ WORDS.cotton = {
     sw: "Pamba — mmea na nyuzi zake nyeupe. Majina yake yanafuata biashara: Kiarabu qutn kilizaa coton na algodón, Kisanskriti karpāsa kilizaa कपास na Kimalei kapas, Kiajemi pambak kilizaa Kituruki pamuk na Kiswahili pamba. Ulaya ya kaskazini, iliyozoea kondoo, iliita “sufu ya mti”: Baumwolle, bawełna, puuvilla.",
   },
   family: {
+    jya: "plain",
+    haw: "plain",
     aa: "plain",
     acw: "qutn",
     afb: "qutn",
@@ -664,6 +666,8 @@ WORDS.cotton = {
     },
   },
   data: {
+    jya: ["men-pu", "menpu"],  // From naganorgyalrongic rGyalrong (Maerkang Soman): menpu.
+    haw: ["pulupulu", "pulupulu"],  // From wold Hawaiian: pulupulu.
     aa: ["tuut", "tuːt"],
     acw: ["قطن", "ɡutˤun"],  // From Arabic qutn.
     afb: ["قطن", "ˈɡɪtˤɪn"],  // From Arabic qutn.
@@ -1155,7 +1159,7 @@ WORDS.cotton = {
     nan_zz: ["棉花", "mĩ˩˧ hua˦˦"],  // The same word as Mandarin 棉花, read with the colloquial mĩ.
     wuu: ["棉花", "mi˨˨ ho˦˦"],
     ja_edo: ["木綿", "momeɴ"],
-    ar_sd: ["قطن", "ɡutun"],
+    ar_sd: ["قطن", "ɡutˤun"],
     mixtec: ["kachi", "katʃi"],
     mxv: ["kachi", "katʃi"],
     ote: ["nda̲", "ndɔ"],

@@ -66,6 +66,15 @@ WORDS.cockroach = {
     sw: "mende — mdudu msumbufu wa nyumbani. Neno la Kihispania cucaracha liligeuka kwa Kiingereza kuwa cockroach, kana kwamba ni cock + roach; neno la Kiholanzi kakkerlak lilienea katika lugha za Bahari ya Kaskazini, na neno la Kituruki lilifika mashariki kama таракан ya Kirusi. Kifaransa humwita cafard, kutoka Kiarabu kāfir 'kafiri'. Lugha nyingi humwita kwa jina la watu jirani (Kicheki šváb 'Mswabia', Kilatvia prusaks 'Mprasia'), kwa mkate, mafuta au bafu ya umma (Kituruki hamam böceği). Kijapani ゴキブリ kinatoka gokikaburi 'mtafuna bakuli'.",
   },
   family: {
+    mzh: "plain",
+    bdk: "plain",
+    kek: "plain",
+    mg: "plain",
+    mhy: "sipes",
+    nij: "sipes",
+    bbc: "sipes",
+    itb: "sipes",
+    haw: "plain",
     es_cr: "cucaracha",
     es_hn: "cucaracha",
     es_ni: "cucaracha",
@@ -328,6 +337,15 @@ WORDS.cockroach = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    mzh: ["nafwuluj", "nafʷulux"],  // From wold, sabor Wichí nafwuluj.
+    bdk: ["лем", "lem"],  // From ids Budukh лем.
+    kek: ["paachach", "paːtʃatʃ"],  // From wold, sabor Qʼeqchiʼ paachach.
+    mg: ["kalalao", "kalaˈlau"],  // From wold Malagasy kalalào.
+    mhy: ["lipes", "lipes"],  // From smithborneo Maanyan: lipes.
+    nij: ["lipes", "lipes"],  // From smithborneo Ngaju: lipes.
+    bbc: ["ipos", "ipos"],  // From ACD Toba Batak: ipos.
+    itb: ["ipes", "ipɨs"],  // From ACD Itbayaten: ipes.
+    haw: ["ʻelelū", "ʔeleluː"],  // From wold Hawaiian: `elelū.
     es_cr: ["cucaracha", "kukaˈɾatʃa"],  // Spanish derivative of cuca 'bug' with the suffix -aracha.
     es_hn: ["cucaracha", "kukaˈɾatʃa"],  // Spanish derivative of cuca 'bug' with the suffix -aracha.
     es_ni: ["cucaracha", "kukaˈɾatʃa"],  // Spanish derivative of cuca 'bug' with the suffix -aracha.
@@ -417,21 +435,21 @@ WORDS.cockroach = {
     eu: ["labezomorro", "labes̻omoro"],  // labe 'oven' + zomorro 'bug', compound.
     cy: ["chwilen ddu", "ˈχwilɛn ðiː"],  // chwilen 'beetle' + du 'black', a compound recorded in the dictionary.
     ka: ["ტარაკანი", "tʼarakʼani"],  // Borrowed from Russian таракан.
-    hy: ["ուտիճ", "utitʃ"],  // Native Armenian word.
-    nv: ["chʼoshtsoh", "tʃʼoʃtsʰoh"],  // chʼosh 'bug' + -tsoh 'big', compound.
+    hy: ["ուտիճ", "uˈtitʃ"],  // Native Armenian word.
+    nv: ["chʼoshtsoh", "tʃʼòʃtsʰòh"],  // chʼosh 'bug' + -tsoh 'big', compound.
     orh: ["tarakan", "tarakan"],  // Borrowed from Russian таракан.
     jv: ["coro", "tʃɔrɔ"],  // Native Javanese word.
     ceb: ["ipos", "ˈʔipos"],  // Native Philippine word.
     ilo: ["ipes", "ˈʔipɛs"],  // Native Philippine word.
     fj: ["kokoroti", "kokoroti"],  // Borrowed from English cockroach.
-    pa: ["ਕਾਕਰੋਚ", "kaːkroːtʃ"],  // Borrowed from English cockroach.
+    pa: ["ਕਾਕਰੋਚ", "kaːkɾoːtʃ"],  // Borrowed from English cockroach.
     ne: ["झिङुर", "dzʱiŋur"],  // Turner Nepali Dict.: 'झिङुर् jhiṅur, or jhĩgur, s. A cockroach'; from *jhiṅgura (CDIAL 5387 '*jhiṅgura cockroach ... N. jhiṅur cockroach')
     mr: ["झुरळ", "dʒʱuɾəɭ"],  // Native Marathi word.
     gu: ["વંદો", "ʋəndo"],  // Native Gujarati word.
     si: ["කැරපොත්තා", "kærapotːaː"],  // Carter Sinhalese-English Dict.: 'කැරපොත්තා kærapottā, n cockroach'
-    te: ["బొద్దింక", "bodːiŋka"],  // Native Telugu word.
+    te: ["బొద్దింక", "bod̪ːiŋka"],  // Native Telugu word.
     ml: ["പാറ്റ", "paːtːa"],  // Native Malayalam word.
-    tg: ["нонхӯрак", "nonχɵˈrak"],  // non 'bread' + xūr 'eat' + -ak, compound.
+    tg: ["нонхӯрак", "nonxɵˈrak"],  // non 'bread' + xūr 'eat' + -ak, compound.
     ku: ["sîsirk", "siːsɪɾk"],  // From Arabic صُرْصُور (Kurdish Wiktionary).
     ckb: ["سیسرک", "siːsɪɾk"],  // The same word as Northern Kurdish sîsirk, from Arabic صُرْصُور (Kurdish Wiktionary).
     ps: ["ګړندۍ", "ɡaɽanˈdəi"],  // Native Pashto word.
@@ -461,7 +479,7 @@ WORDS.cockroach = {
     de_at: ["Kakerlake", "kakɐˈlaːkə"],  // From Dutch kakkerlak, of uncertain origin.
     pdt: ["Schaub", "ʃaup"],  // Cognate with German Schabe.
     yi: ["טאַראַקאַן", "taraˈkan"],  // Borrowed from Russian таракан.
-    is: ["kakkalakki", "ˈkʰaʰkːaˌlaʰkːɪ"],  // Borrowed via Danish kakerlak.
+    is: ["kakkalakki", "ˈkʰahkaˌlahcɪ"],  // Borrowed via Danish kakerlak.
     nap: ["scarrafóne", "skarraˈfonə"],  // From Latin scarabaeus with augmentative suffix.
     ca: ["panerola", "pənəˈɾɔlə"],  // Variant of panderola, from Latin pandus "curved" (Catalan Wiktionary).
     gl: ["cascuda", "kasˈkuða"],  // From cascudo "hard-shelled".
@@ -546,7 +564,7 @@ WORDS.cockroach = {
     syl: ["তেলচুরা", "telsuɾa"],  // Native Sylheti word.
     cho: ["bila ʋpa", "bila apa"],  // grease (bila) + eat (ʋpa), a compound recorded in the dictionary.
     zza: ["nankewerık", "nankeweɾɨk"],  // Native Zazaki word.
-    mbc: ["masarɨwa", "masaɾɨwa"],  // Native Macushi word.
+    mbc: ["masarɨwa", "masarɨwa"],  // Native Macushi word.
     crt: ["tʔatosey", "tʔatosej"],  // Native Chorote word.
     tpy: ["tɨlɨxui", "tɨlɨxui"],  // Native Trumai word.
     tue: ["kasiawɨ̃", "kasiˈawɨ̃"],  // Native Tuyuca word, singular in -wɨ̃.

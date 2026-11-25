@@ -63,6 +63,9 @@ WORDS.grandmother = {
     sw: "Bibi — mama wa mzazi. Lugha nyingi huuliza ni upande upi: Kiswidi farmor na mormor, Kihindi दादी na नानी, Kithai ย่า na ยาย, Kichina 奶奶 na 外婆 (bibi \"wa nje\", upande wa mama). Kiingereza, Kifaransa na Kirusi vina neno moja. Pale lugha inapotofautisha, ramani inaonyesha mama wa baba.",
   },
   family: {
+    mbc: "one",
+    jya: "unknown",
+    tsj: "unknown",
     lb: "one",
     acw: "one",
     zh: "split",
@@ -123,8 +126,8 @@ WORDS.grandmother = {
     nv: "split",
     haw: "one",
     mi: "one",
-    niv: "unknown",
-    ain: "unknown",
+    niv: "one",
+    ain: "one",
     ykg: "one",
     cv: "split",
     sah: "one",
@@ -175,7 +178,7 @@ WORDS.grandmother = {
     mr: "one",
     te: "split",
     kn: "one",
-    ml: "unknown",
+    ml: "split",
     tg: "one",
     ckb: "one",
     ps: "one",
@@ -253,7 +256,7 @@ WORDS.grandmother = {
     crh: "one",
     fur: "one",
     ast: "one",
-    ee: "unknown",
+    ee: "one",
     pnt: "one",
     srn: "one",
     mwl: "one",
@@ -302,7 +305,7 @@ WORDS.grandmother = {
     ky: "split",
     azb: "one",
     so: "unknown",
-    rw: "unknown",
+    rw: "one",
     sn: "one",
     am: "one",
     ti: "one",
@@ -320,11 +323,11 @@ WORDS.grandmother = {
     pcc: "unknown",
     kok: "one",
     tcy: "one",
-    ssw: "unknown",
+    ssw: "one",
     nd: "unknown",
     nbl: "unknown",
     sc: "one",
-    grt: "unknown",
+    grt: "one",
     mfe: "one",
     bjn: "one",
     ach: "one",
@@ -336,7 +339,7 @@ WORDS.grandmother = {
     pag: "one",
     ay: "one",
     sid: "unknown",
-    aa: "unknown",
+    aa: "one",
     ii: "unknown",
     luo: "one",
     quc: "unknown",
@@ -353,7 +356,7 @@ WORDS.grandmother = {
     aii: "unknown",
     szl: "one",
     guc: "one",
-    cab: "unknown",
+    cab: "one",
     cak: "unknown",
     yua: "one",
     oc: "one",
@@ -391,7 +394,7 @@ WORDS.grandmother = {
     lua: "one",
     qu: "unknown",
     ln: "one",
-    bm: "unknown",
+    bm: "one",
     st: "one",
     ht: "one",
     nds: "one",
@@ -435,7 +438,7 @@ WORDS.grandmother = {
     tsg: "one",
     dag: "unknown",
     quz: "unknown",
-    sus: "unknown",
+    sus: "one",
     mnk: "unknown",
     kbp: "unknown",
     hoc: "unknown",
@@ -518,7 +521,7 @@ WORDS.grandmother = {
     hyw: "one",
     gsw: "one",
     th_isan: "split",
-    kac: "unknown",
+    kac: "one",
     dz: "one",
     loz: "one",
     lue: "one",
@@ -529,7 +532,7 @@ WORDS.grandmother = {
     aoz: "split",
     nia: "one",
     kaa: "unknown",
-    ahk: "unknown",
+    ahk: "one",
     inh: "split",
     rup: "unknown",
     tet: "one",
@@ -545,7 +548,7 @@ WORDS.grandmother = {
     bi: "one",
     tab: "unknown",
     gil: "one",
-    cnh: "unknown",
+    cnh: "one",
     dng: "split",
     pwn: "one",
     tay: "one",
@@ -588,7 +591,7 @@ WORDS.grandmother = {
     yur: "one",
     tsi: "one",
     tlh: "one",
-    yux: "unknown",
+    yux: "one",
     ssf: "one",
     enf: "one",
     cay: "one",
@@ -606,7 +609,7 @@ WORDS.grandmother = {
     kpy: "unknown",
     jbo: "one",
     chy: "one",
-    pqm: "unknown",
+    pqm: "one",
     nys: "unknown",
     zh_tang: "split",
     ar_qur: "one",
@@ -640,7 +643,7 @@ WORDS.grandmother = {
     nij: "unknown",
     mhy: "unknown",
     akb: "unknown",
-    ami: "unknown",
+    ami: "one",
     tcs: "one",
     ja_oki: "unknown",
     ko_mid: "unknown",
@@ -649,11 +652,11 @@ WORDS.grandmother = {
     ckv: "one",
     ja_kanbun: "split",
     jup: "unknown",
-    tpy: "unknown",
+    tpy: "one",
     crt: "unknown",
     moc: "unknown",
     tob: "one",
-    kpj: "unknown",
+    kpj: "one",
     es_uy: "one",
     ltg: "unknown",
     sga: "one",
@@ -713,8 +716,8 @@ WORDS.grandmother = {
     udi: "unknown",
     kjj: "unknown",
     chb: "one",
-    ckt: "unknown",
-    ess: "unknown",
+    ckt: "one",
+    ess: "one",
     evn: "one",
     xal: "split",
     nog: "unknown",
@@ -729,7 +732,7 @@ WORDS.grandmother = {
     hif: "split",
     rif: "unknown",
     xkz: "unknown",
-    blc: "unknown",
+    blc: "one",
     afb: "unknown",
     el_koi: "one",
     la_late: "one",
@@ -830,6 +833,9 @@ WORDS.grandmother = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    mbc: ["koʔkoʔ", "koʔkoʔ"],  // From ids Macushi koʔkoʔ.
+    jya: ["ta-wi", "tawi"],  // From naganorgyalrongic rGyalrong (Maerkang Soman): ta-wi.
+    tsj: ["api", "api"],  // From suntb Tsangla (Motuo): ʔapi.
     lb: ["Groussmamm", "ˈɡʁəʊ̯zmɑm"],  // Literally 'great mum' (grouss + Mamm), used for either grandmother; the informal synonym is Boma.
     acw: ["ست", "sitt"],  // From Arabic sayyida 'lady'. One word for either grandmother.
     zh: ["奶奶", "nai˨˩˦ nai"],  // Father's mother; mother's mother: 外婆 wàipó or, in the north, 姥姥 lǎolao (外 'outside' marks the mother's side).
@@ -957,7 +963,7 @@ WORDS.grandmother = {
     ha: ["kaka", "kaːkaː"],  // One word for any grandparent; kaka mace 'female kaka' specifies the grandmother.
     wo: ["maam", "maːm"],  // Means any grandparent, grandfather or grandmother.
     om: ["akkayyaa", "akːajjaː"],  // The Oromo word for grandmother.
-    rn: ["nyogokuru", "ɲoɡokuru"],  // The Rundi word for grandmother.
+    rn: ["nyogokuru", "ɲoɡokuɾu"],  // The Rundi word for grandmother.
     xh: ["umakhulu", "umakʰuːlu"],  // Literally 'my/our grandmother', in the same class-1a form as umama 'mother'.
     ny: ["agogo", "aɡoɡo"],  // Means any grandparent, with the respectful a- prefix as in amayi 'mother'.
     jv: ["éyang putri", "ejaŋ putri"],  // One term for either grandmother, with putri marking the female (simbah putri is a synonym).
@@ -1092,7 +1098,7 @@ WORDS.grandmother = {
     nbl: ["ugogo", "uɡoɡo"],  // A class 1a kin noun, plural abogogo.
     sc: ["jaja", "ˈjaja"],  // Probably from Spanish yaya or Greek γιαγιά; grandfather is jaju. One word for either grandmother.
     grt: ["ambi", "ambi"],  // The a- is the kin-term prefix; ambigipa and ambitang are the formal forms.
-    mfe: ["granmer", "ɡɰɑ̃mɛː"],  // From French grand-mère; families of Indian descent also say dadi (father's mother) and nani (mother's mother). One word for either grandmother.
+    mfe: ["granmer", "ɡʁɑ̃mɛː"],  // From French grand-mère; families of Indian descent also say dadi (father's mother) and nani (mother's mother). One word for either grandmother.
     bjn: ["nini", "nini"],  // One word for either grandmother.
     ach: ["daa", "daː"],  // One word for either grandmother.
     ve: ["makhulu", "makʰulu"],  // One word for either grandmother.
@@ -1160,7 +1166,7 @@ WORDS.grandmother = {
     ln: ["nkɔ́kɔ-mwǎsí", "ŋkɔ́kɔ mwǎsí"],  // Literally 'female grandparent' (nkɔ́kɔ 'grandparent, ancestor' + mwǎsí 'woman'), used for either grandmother; the grandfather is nkɔ́kɔ-mobáli.
     bm: ["mɔmuso", "mɔmuso"],  // Built on muso 'woman'; mamuso and mamamuso are synonyms.
     st: ["nkgono", "ŋxʊnʊ"],  // Literally 'old mother'; every female relative above the parents' generation, on either side, is nkgono (the grandfather is ntatemoholo).
-    ht: ["grann", "ɡran"],  // From French grand-mère via grand; one word for the mother's mother or the father's mother.
+    ht: ["grann", "ɡɣan"],  // From French grand-mère via grand; one word for the mother's mother or the father's mother.
     nds: ["Grootmoder", "ˈɡroːtmoːdɐ"],  // Literally 'great mother'; the side is added as a phrase, Grootmoder op de Moder ehr Sied 'grandmother on the mother's side'.
     bar: ["Großmuatta", "ˈɡroːsmuɐtɐ"],  // Literally 'great mother'; the side is added as a phrase, Großmuatta vätalichaseits 'grandmother on the father's side'.
     awa: ["दादी", "daːdiː"],  // Father's mother; the mother's mother is नानी nānī.
@@ -1285,7 +1291,7 @@ WORDS.grandmother = {
     hyw: ["տատ", "dɑd"],  // One word for either grandmother; տատիկ is the affectionate form.
     gsw: ["Grossmueter", "ˈɡroːsmuə̯tər"],  // Literally 'great mother'; one word for either grandmother, Grosi in family speech.
     th_isan: ["ย่า", "ɲaː˦"],  // Father's mother, said with a nasal ny- in Isan; mother's mother: ยาย, a different word.
-    kac: ["kawoi", "kəwoi˧"],  // Built on woi 'grandmother' with the prefix ka-; woi dwi is the affectionate form, and no source checked says whether the two sides are told apart.
+    kac: ["kawoi", "kəwoi˧"],  // Built on woi 'grandmother' with the prefix ka-; woi dwi is the affectionate form. One word for both, by Murdock's (1970) coding in KinDiv.
     dz: ["ཨང་རྒས", "aŋɡɛː"],  // One word for either grandmother, the father's mother and the mother's mother alike (Tshering 2013).
     loz: ["kuku", "kuku"],  // A word for a grandparent of either sex, used for both grandmothers (Gluckman 1950).
     lue: ["kaka", "kaka"],  // A word for a grandparent of either sex; the Bible says kaka wapwevo, 'female grandparent', for Timothy's grandmother.
@@ -1294,7 +1300,7 @@ WORDS.grandmother = {
     hwc: ["tutu", "tutu"],  // From Hawaiian tūtū; also a respectful word for any elderly woman, and granma is used too.
     os: ["фыды мад", "fɨdɨ mad"],  // Literally 'father's mother'; mother's mother: мады мад, while стыр мад 'big mother' covers either side.
     aoz: ["beʼif", "beʔif"],  // Father's mother, with the -f ending of ainaf 'mother'; mother's mother: ain baba (Schulte Nordholt 1981).
-    nia: ["awe", "ave"],  // One word for either grandmother, as tua is for either grandfather (Beatty 1992).
+    nia: ["awe", "awe"],  // One word for either grandmother, as tua is for either grandfather (Beatty 1992).
     kaa: ["kempir apa", "kempir apa"],  // Built on kempir 'old woman' and apa, a word for an elder female relative; áje and qız apa are regional variants.
     ahk: ["a pi", "a˨˩pʰi˨˩"],  // The Thai Akha form with two low tones (Hansson 1989); the Yunnan form has a high tone on the second syllable.
     inh: ["даь-нана", "dænaːna"],  // Literally 'father's mother'; the mother's mother is наьна-нана 'mother's mother', and нани is a general word.
@@ -1402,7 +1408,7 @@ WORDS.grandmother = {
     pmy: ["nene", "nene"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (ko pu nene Lois); cf. Malay nenek.
     max: ["nene", "nene"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (ngana pe nene Lois); cf. Malay nenek.
     bug: ["néné", "nene"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (nénému Lois 'your grandmother Lois'); cf. Malay nenek.
-    ace: ["nék", "nek"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (nék gata Lois 'your grandmother Lois'); cf. Malay nenek.
+    ace: ["nék", "neʔ"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (nék gata Lois 'your grandmother Lois'); cf. Malay nenek.
     sas: ["niniq", "niniʔ"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (niniqde 'your grandmother'); cf. Sundanese nini.
     nij: ["tambi", "tambi"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (tambim Lois 'your grandmother Lois').
     mhy: ["itak", "itak"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (itaknu hi Lois 'your grandmother Lois').
@@ -1416,11 +1422,11 @@ WORDS.grandmother = {
     ckv: ["bai", "bai"],  // Kavalan bai, glossed 祖母, 奶奶 and 外婆: one word for both grandmothers.
     ja_kanbun: ["祖母", "sobo"],  // Classical Chinese 祖母 (the father's mother; the mother's mother is 外祖母), read on'yomi sobo; NKD そぼ【祖母】. The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
     jup: ["ʔɔ́h", "ʔɔ́h"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the World Loanword Database (Hup).
-    tpy: ["hatseda", "hatseda"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Trumai list.
+    tpy: ["hatseda", "hatseda"],  // The source gives one word for grandmother; by Murdock's (1970) coding in KinDiv it covers both. From the IDS Trumai list.
     crt: ["eji", "eji"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Chorote list (-eyi).
     moc: ["lkomeena", "lkomeena"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Mocoví list (l-komeena).
     tob: ["lkote", "lkote"],  // From the IDS Toba list (l-kote). KinBank gives one word for both the father's and the mother's mother, both from that list and from Miller's 1966 study of Toba kin terms (icote).
-    kpj: ["lahi", "lahi"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Karajá list.
+    kpj: ["lahi", "lahi"],  // The source gives one word for grandmother; by Murdock's (1970) coding in KinDiv it covers both. From the IDS Karajá list.
     es_uy: ["abuela", "aˈβwela"],  // The same word as standard Spanish; one word for either grandmother.
     ltg: ["vace", "ˈvatsʲæ"],  // Latgalian vace 'grandmother', from vacs 'old'.
     sga: ["senmáthair", "ˈsʲenβ̃aːθəɾʲ"],  // Old Irish sen 'old' + máthir 'mother'; Würzburg glosses (Wb 29d13): 'the faith of your mother and grandmother'.
@@ -1496,7 +1502,7 @@ WORDS.grandmother = {
     hif: ["aaji", "aːdʒiː"],  // Father's mother, inherited from Bhojpuri आजी; the mother's mother is naani (Fiji Hindi Wiktionary).
     rif: ["ⵃⴻⵏⵏⴰ", "ħɐnnɛ"],  // Borrowed from Moroccan Arabic حنة ḥanna; the source does not say whether the two grandmothers are told apart.
     xkz: ["aiya", "aija"],  // The source gives one word for grandmother and does not say whether the two grandmothers are told apart.
-    blc: ["kikya", "kikja"],  // Inherited from Proto-Salish *kayaʔ; the source does not say whether it covers both grandmothers.
+    blc: ["kikya", "kikja"],  // Inherited from Proto-Salish *kayaʔ. One word for both, by Murdock's (1970) coding in KinDiv.
     afb: ["يدة", "ˈjədːə"],  // Inherited from Arabic جدة 'grandmother'; the source does not say whether it covers both grandmothers.
     el_koi: ["μάμμη", "ˈmamme̝"],
     la_late: ["avia", "ˈaβja"],

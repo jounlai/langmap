@@ -1369,7 +1369,7 @@ WORDS.sugar = {
     tiw: ["tingati", "tiŋati"],
     poh: ["asuukar", "asuːkar"],
     itz: ["chʼuuk", "tʃʼuːk"],
-    toj: ["sakal askal", "sakal ʔaskal"],
+    toj: ["sakal askal", "sakal askal"],
     ixl: ["asukaal", "asukaːl"],
     kek: ["asuukr", "asuːkɾ"],
     mus: ["vsoklv", "əsoklə"],

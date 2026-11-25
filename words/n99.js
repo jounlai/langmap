@@ -1096,7 +1096,7 @@ WORDS.n99 = {
     ng: ["omilongo omugoyi nomugoyi", "omiloŋɡo omuɡoji nomuɡoji"],
     new: ["गुइगु", "ɡuiɡu"],
     ndc: ["makumi mapfumbamwe nepfumbamwe", "makumi mapfumbamwe nepfumbamwe"], // was ["makumi mapfumbamwe na mapfumbamwe", "makumi mapfumbamwe na mapfumbamwe"] (vi dialect rules 2026-10-06)
-    nd: ["amatshumi aficamunwemunye lesificamunwemunye", "amatʃumi afiǀamunwemunje lesifiǀamunwemunje"],
+    nd: ["amatshumi aficamunwemunye lesificamunwemunye", "amatʃumi afiǀamunwemuɲe lesifiǀamunwemuɲe"],
     nbl: ["amatjhumi alithoba nethoba", "amatʃʰumi alitʰoɓa netʰoɓa"],
     naq: ["khoesedisikhoeseǀa", "kʰoesedisikʰoeseǀa"],
     nag: ["ninyanve", "ninjanve"],
@@ -1213,7 +1213,7 @@ WORDS.n99 = {
     mlq: ["bixononto-nin-xononto", "bixonontoninxononto"],
     nan_ph: ["九十九", "kau˥˥˦ tsap˨˦ kau˥˥˦"],
     vi_han: ["九十九", "kɨw˧˩˧ tʰəp˨˩˨ kɨw˧˩˧"],
-    shn: ["ၵဝ်ႈသိပ်းၵဝ်ႈ", "kaw˧˨ sip˥ kaw˧˨"], // was ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"] (vi dialect rules 2026-10-06)
+    shn: ["ၵဝ်ႈသိပ်းၵဝ်ႈ", "kaw˧˨ sʰip˥ kaw˧˨"], // was ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"] (vi dialect rules 2026-10-06)
     bug: ["aséra pulona aséra", "asera pulona asera"],
     bjn: ["sambilan puluh sambilan", "sambilan puluh sambilan"],
     rki: ["ကိုးဆယ့်ကိုး", "kó sʰḛ kó"], // was ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"] (r51 audit 2026-10-04)
@@ -1240,7 +1240,7 @@ WORDS.n99 = {
     tyz: ["cẩu slíp cẩu", "kəw˨˩˧ ɬip̚˧˥ kəw˨˩˧"], // was ["cẩu slíp cẩu", "kəw˨˩˧ ɬip˧˥ kəw˨˩˧"] (vi dialect rules 2026-10-06)
     th_s: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
     th_isan: ["เก้าสิบเก้า", "kaːw˧˩ sip˨˦ kaːw˧˩"],
-    th_n: ["เก้าสิบเก้า", "kaːw˥˩ sip˩˧ kaːw˥˩"], // was ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"] (vi dialect rules 2026-10-06)
+    th_n: ["เก้าสิบเก้า", "kaːw˥˥˨ sip˩˧ kaːw˥˥˨"], // was ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"] (vi dialect rules 2026-10-06)
     lo: ["ເກົ້າສິບເກົ້າ", "kaw˥˨ sip˧˥ kaw˥˨"], // was ["ເກົ້າສິບເກົ້າ", "kaːw˥˨ sip˧˥ kaːw˥˨"] (vi dialect rules 2026-10-06)
     ceb: ["nobentay nuybe", "noˈbentaj ˈnujbe"],  // The Spanish loan, which everyone knows. The native Cebuano form is kasiyaman ug siyam, shortened to kasiyamag siyam.
     war: ["nobentay nuybe", "noˈbentaj ˈnujbe"],  // The Spanish loan, as in the Samarenyo Bible at Luke 15:4. The native form, kasiyaman kag siyam, is almost unheard of.
@@ -1456,7 +1456,7 @@ WORDS.n99 = {
     sl:     ["devetindevetdeset", "dɛˈʋeːtindɛˈʋeːddɛsɛt"],  // r73: Slovene says unit-and-tens (SSKJ/en.wiktionary devetindevetdeset), route unit; was "devetdeset devet" (tens-first, the Croatian/Serbian order).
     sk: ["deväťdesiat deväť", "ˈɟɛvɛɟːɛsjat ˈɟɛvɛc"], // was ["deväťdesiat deväť", "ˈdɛvɛcdɛsɪat ˈdɛvɛc"] (vi dialect rules 2026-10-06)
     hr:     ["devedeset devet", "deʋeděseːt dêʋet"],
-    sr:     ["деведесет девет", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
+    sr:     ["деведесет девет", "deʋeděseːt dêʋet"],
     bs:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
     mk: ["деведесет и девет", "dɛˈvɛdɛsɛt i ˈdɛvɛt"], // was ["деведесет и девет", "dɛvɛˈdɛsɛt i ˈdɛvɛt"] (vi dialect rules 2026-10-06)
     lv: ["deviņdesmit deviņi", "ˈdɛviɲdɛsmit ˈdɛviɲi"], // was ["deviņdesmit deviņi", "ˈdeviɲdesmit ˈdeviɲi"] (vi dialect rules 2026-10-06)
@@ -1465,7 +1465,7 @@ WORDS.n99 = {
     gl: ["noventa e nove", "noˈβenta e ˈnɔβe"], // was ["noventa e nove", "noˈβɛnta e ˈnoβe"] (vi dialect rules 2026-10-06)
     oc:     ["nonanta-nòu", "nuˈnantɔ ˈnɔw"],
     tt:     ["туксан тугыз", "tuksan tuˈɣɯz"],
-    ba:     ["туҡһан туғыҙ", "tuqhan tuˈɣɯð"],
+    ba:     ["туҡһан туғыҙ", "tuqhan tuˈʁɯð"],
     ky: ["токсон тогуз", "toqˈson toˈʁuz"], // was ["токсон тогуз", "tokson toˈɡuz"] (vi dialect rules 2026-10-06)
     tk:     ["togsan dokuz", "toʁˈsɑn doˈkuz"],
     ug: ["توقسان توققۇز", "toqsɑn toqquz"], // was ["توقسان توققۇز", "toqsan toqˈquz"] (vi dialect rules 2026-10-06)

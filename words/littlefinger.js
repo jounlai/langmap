@@ -64,6 +64,7 @@ WORDS.littlefinger = {
     sw: "Kidole cha mwisho — kidole cha tano na kidogo kabisa cha mkono. Lugha nyingi hukiita tu \"kidogo\" (little finger, 小指, kleiner Finger, petit doigt), na Kiswahili \"cha mwisho\". Nyingine hukifanya kitinda mimba: Kikorea 새끼손가락 ni \"kidole cha mtoto\", na Kirusi мизинец zamani kilimaanisha \"mwana wa mwisho\". Tazama pia ramani ya \"kidole gumba\".",
   },
   family: {
+    mhy: "kalinkin",
     en: "small",
     en_wls: "small",
     en_jam: "small",
@@ -610,6 +611,7 @@ WORDS.littlefinger = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    mhy: ["kiŋkiŋ", "kiŋkiŋ"],  // From smithborneo Maanyan: kiŋkiᵏŋ.
     en: ["little finger", "ˈlɪtl̩ ˈfɪŋɡə"],  // Simply the 'little' finger, a phrase going back to Old English lȳtel finger; informally also pinkie.
     en_wls: ["little finger", "ˈlɪtl̩ ˈfɪŋɡə"],  // Simply the 'little' finger, a phrase going back to Old English lȳtel finger; informally also pinkie.
     en_jam: ["little finger", "ˈlɪtl̩ ˈfɪŋɡə"],  // Simply the 'little' finger, a phrase going back to Old English lȳtel finger; informally also pinkie.
@@ -691,7 +693,7 @@ WORDS.littlefinger = {
     sah: ["ылгын", "ɯlɡɯn"],  // The same word names the youngest, best-loved child of a family.
     ckb: ["تووتە", "tuːta"],  // The everyday Sorani word; it covers the little toe too. No image is recorded for it, so it counts as a word of its own.
     ka: ["ნეკი", "nekʼi"],  // Also said in full as ნეკა თითი with თითი 'finger'. Wiktionary gives no etymology; it is unrelated to პატარა 'small' and ბავშვი 'child'. No image is recorded for it, so it counts as a word of its own.
-    lzz: ["წულუ კითი", "tsʼulu kʼiti"],  // Literally 'small finger'; Armenian borrowed its word for the little finger from a Kartvelian form like this.
+    lzz: ["წულუ კითი", "tsʼulu kʼitʰi"],  // Literally 'small finger'; Armenian borrowed its word for the little finger from a Kartvelian form like this.
     hy: ["ճկույթ", "tʃəˈkujtʰ"],  // Borrowed long ago from a Kartvelian compound meaning 'small finger', compare Laz ǯulu ǩiti.
     hyw: ["ճկոյթ", "dʒəˈɡujtʰ"],  // Borrowed long ago from a Kartvelian compound meaning 'small finger', compare Laz ǯulu ǩiti.
     nv: ["áláyáázh", "ʔɑ́lɑ́jɑ́ːʒ"],  // Starts like álaʼ 'hand' and álátsoh 'thumb'. yáázh is 'little, small; young' (Wiktionary, from Proto-Athabaskan *-yažʷə), as the thumb álátsoh ends in tsoh 'big'.
@@ -803,7 +805,7 @@ WORDS.littlefinger = {
     ug: ["چىمچىلاق", "tʃimtʃiˈlɑq"],  // A word of its own for the smallest finger or toe; the Wikipedia form چىمەلتەك is a dialect word.
     za: ["lwgfwngzcod", "lɯk˧ fɯŋ˧˩ ɕoːt˧"],  // Built on lwgfwngz 'finger'; the meaning of the last part, cod, is not given in the source.
     ha: ["ƙaramin yatsa", "kʼaramin jaːtsaː"],  // Literally 'small finger' (ƙarami 'small' + yatsa 'finger').
-    yo: ["ìka ọwọ́ kékeré", "ìka ɔwɔ́ kékeré"],  // Literally 'small finger of the hand'; older texts use ọmọdirin, and dialects have their own words.
+    yo: ["ìka ọwọ́ kékeré", "ìka ɔwɔ́ kékeɾé"],  // Literally 'small finger of the hand'; older texts use ọmọdirin, and dialects have their own words.
     ig: ["mkpịsịaka nta", "mkpɪsɪaka nta"],  // Literally 'small finger' (mkpịsịaka 'finger' + nta 'small').
     ln: ["mosapi ya mokɛ́", "mosapi ja mokɛ́"],  // Literally 'the small finger' (mosapi 'finger' + mokɛ́ 'small').
     om: ["quba xinnaa", "kʼuba tʼinːaː"],  // Literally 'small finger' (quba 'finger' + xinnaa 'small').
@@ -1044,7 +1046,7 @@ WORDS.littlefinger = {
     h_tagalog: ["ᜃᜎᜒᜅ᜔ᜃᜒᜅᜈ᜔", "kaliŋkiˈŋan"],  // Noceda & Sanlucar 1754: Calingquingan, 'dedo meñique'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     pmt: ["manemanea karereka", "manemanea karereka"],  // Tregear: the little finger (under MANEMANEA)
     sm: ["limatama", "limatama"],  // Pratt LIMATAMA the little finger; lima hand + tama child
-    gil: ["ukire", "ukire"],  // Bingham "Ukire, n. the little finger, the little toe"
+    gil: ["ukire", "ukiɾe"],  // Bingham "Ukire, n. the little finger, the little toe"
     roo: ["kokorai kova", "kokoɾai koβa"],  // "little finger or toe. Meaning the last to be born"
     cbk: ["kalamangking", "kalamaŋˈkiŋ"],  // Composite: "kalingking, the little finger", ZM kalamangking
     nij: ["tunjuk angking", "tundʒuk aŋkiŋ"],  // Hardeland: "ANGKING, tundjuk angking, der kleine Finger", repeated under TUNDJOK; both scans; dj > j as in the row

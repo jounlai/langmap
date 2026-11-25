@@ -375,7 +375,7 @@ WORDS.hangover = {
     hr: ["mamurluk", "mamǔrluk"],  // Borrowed from Ottoman Turkish mahmurluk 'hangover'.
     sr: ["мамурлук", "mamǔrluk"],  // Borrowed from Ottoman Turkish mahmurluk 'hangover'.
     fa: ["خماری", "xomɒːˈɾiː"],  // From Arabic xumār 'after-effect of drink'; Dehkhoda defines it as the illness that follows drinking too much wine (formal synonym می‌زدگی 'wine-struckness').
-    tg: ["хуморӣ", "χumori"],  // From Arabic-Persian xumār 'after-effect of drink'; in colloquial speech the Russian loan бодун is also used (Tajik Wikipedia).
+    tg: ["хуморӣ", "xumori"],  // From Arabic-Persian xumār 'after-effect of drink'; in colloquial speech the Russian loan бодун is also used (Tajik Wikipedia).
     hi: ["हैंगओवर", "ɦɛːŋɡoːʋəɾ"],  // A loan of English hangover, used as the title of Hindi Wikipedia's article; the Delhi word भंड is regional.
     az: ["xumarlıq", "xumɑɾˈlɯx"],  // From xumar (Arabic-Persian xumār 'after-effect of drink') + -lıq; the Russian loan paxmel is colloquial and proscribed.
     yue: ["宿醉", "sʊk˥ tsɵy˧"],  // Literally 'overnight drunkenness' (宿 'stay the night' + 醉 'drunk').

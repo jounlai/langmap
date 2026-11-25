@@ -1,5 +1,5 @@
 /**
- * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 37 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
+ * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 21 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
  */
 WORDS.we = {
   emoji: "👥",
@@ -126,7 +126,7 @@ WORDS.we = {
     slr: "single",
     ybe: "single",
     yuy: "clusive",
-    mjg: "unknown",
+    mjg: "single",
     sce: "clusive",
     cjs: "single",
     dlg: "single",
@@ -300,7 +300,7 @@ WORDS.we = {
     kmc: "clusive",
     gqu: "single",
     shx: "single",
-    peh: "unknown",
+    peh: "clusive",
     orh: "clusive",
     acn: "single",
     dta: "clusive",
@@ -1094,7 +1094,7 @@ WORDS.we = {
     rut: "single",
     kim: "single",
     tpn: "clusive",
-    uln: "unknown", // route was single (vi dialect rules 2026-10-06)
+    uln: "single", // route was single (vi dialect rules 2026-10-06)
     wmt: "clusive",
     wuu_hz: "single",
     xag: "single",
@@ -1157,38 +1157,38 @@ WORDS.we = {
     // sourced whether the language splits it. Marked `unknown` rather than left
     // out, so the map says "not determined" instead of showing nothing — see
     // docs/dev-handoff.md #51 for the list and the method.
-    adx: "unknown",
+    adx: "clusive",
     jya: "clusive",
     bca: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     atb: "clusive",
     blk: "unknown",
-    bfq: "unknown",
-    iru: "unknown",
+    bfq: "clusive",
+    iru: "clusive",
     bft: "clusive",
     lbj: "clusive",
-    khg: "unknown",
+    khg: "clusive",
     ker: "clusive",
     dbq: "clusive", // route was unknown (vi dialect rules 2026-10-06)
-    dsh: "unknown",
+    dsh: "clusive",
     bzh: "clusive",
     dnj: "clusive",
     zts: "single",
     maz: "clusive",
-    jqr: "unknown",
+    jqr: "clusive",
     zh_tj: "unknown",
     zh_lz: "unknown",
     dng: "unknown",
-    lis: "unknown",
+    lis: "clusive",
     nxq: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     chy: "clusive",
     arp: "clusive",
     bhb: "unknown",
     cja: "unknown",
-    cjm: "unknown",
-    kos: "unknown",
+    cjm: "clusive",
+    kos: "clusive",
     kky: "clusive",
     mbc: "clusive",
-    kpj: "unknown",
+    kpj: "clusive",
     guu: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     cag: "clusive",
     pcc: "clusive",
@@ -1201,8 +1201,8 @@ WORDS.we = {
     wbm: "clusive",
     pll: "clusive",
     nut: "unknown",
-    mam: "unknown",
-    sdo: "unknown",
+    mam: "clusive",
+    sdo: "clusive",
     ktz: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     kry: "clusive",
     tca: "clusive",
@@ -1216,7 +1216,7 @@ WORDS.we = {
     el_koi: "single",
     la_late: "single",
     egy_dem: "single",
-    bxd: "unknown",
+    bxd: "clusive",
   },
   routes: {
     clusive: { color: "#7c3aed", emoji: "👥", en: "two words · inclusive ≠ exclusive", ja: "二語・「あなたを含む/含まない」を区別", ko: "두 낱말 · 듣는 이를 넣느냐 빼느냐", zh: "两个词・包括式与排除式有别", yue: "兩個詞 · 包括式同排除式有別", vi: "hai từ · bao gộp ≠ loại trừ", th: "สองคำ · รวมผู้ฟัง ≠ ไม่รวมผู้ฟัง", id: "dua kata · inklusif ≠ eksklusif", hi: "दो शब्द · समावेशी ≠ अपवर्जी", de: "zwei Wörter · inklusiv ≠ exklusiv", fr: "deux mots · inclusif ≠ exclusif", it: "due parole · inclusivo ≠ esclusivo", es: "dos palabras · inclusivo ≠ exclusivo", pt: "duas palavras · inclusivo ≠ exclusivo", ru: "два слова · инклюзив ≠ эксклюзив", uk: "два слова · інклюзив ≠ ексклюзив", ar: "كلمتان · شاملة ≠ غير شاملة", he: "שתי מילים · כוללת ≠ בלעדית", sw: "maneno mawili · jumuishi ≠ tengefu" },
@@ -1294,7 +1294,7 @@ WORDS.we = {
     slr: ["piser", "pʰisɤɹ"], // was ["biser", "biser"] (vi dialect rules 2026-10-06)
     ybe: ["mïs", "mɯs"], // was ["mɨs", "mɯs"] (vi dialect rules 2026-10-06)
     yuy: ["budas / buda", "budas / buda"], // was ["будас / буда", "budas / buda"] (r48 B fix 2026-10-03)
-    mjg: ["buda", "puda"],  // One form, unlabelled; no source in hand says whether Mangghuer tells inclusive from exclusive, and its neighbour Mongghul hints that it may (Qidar: budangula 'we', Budas 'we, you and I'). Open until Slater's Mangghuer grammar (2003) is read.
+    mjg: ["buda", "puda"],  // One form, unlabelled; Grambank has no inclusive and exclusive forms here (Slater 2003: 84).
     sce: ["matan / bijien", "mɑˈtʰɑn / piˈtɕjən"], // was ["matan / bijien", "matan / pitɕiən"] (vi dialect rules 2026-10-06)
     peh: ["bədə", "bədə"],
     cjs: ["пис", "pis"],
@@ -2039,7 +2039,7 @@ WORDS.we = {
     cja: ["دري", "drej"],
     cjm: ["ꨁꨓꨩ", "ʔitaː"], // was ["ꨁꨓꨩ", "itaː"] (vi dialect rules 2026-10-06)
     meu: ["ita / ai", "ita / ai"],
-    pon: ["kitail / kiht", "kitajl / kiht"],
+    pon: ["kitail / kiht", "kitajl / kiːt"],
     kos: ["kut", "kut"],
     myz: ["ࡀࡍࡉࡍ", "ˈanin"],
     vmw: ["hiyo", "hijo"],
@@ -2257,7 +2257,7 @@ WORDS.we = {
     pwn: ["titjen / tiamen", "titʲən / tiamən"],
     tay: ["itaʼ / sami", "itaʔ / sami"],
     bnn: ["kata / kaimin", "kata / kaimin"],
-    trv: ["ita / yami", "ʔita / jami"],
+    trv: ["ita / yami", "ita / jami"],
     tsu: ["aʼto / aʼmi", "aʔto / aʔmi"], // was ["aʼati / aʼami", "aʔati / aʔami"] (vi dialect rules 2026-10-06)
     tao: ["yaten / yamen", "jatən / jamən"],
     pyu: ["tayta / mimi", "tajta / mimi"], // was ["taita / mimi", "taita / mimi"] (vi dialect rules 2026-10-06)
@@ -2295,7 +2295,7 @@ WORDS.we = {
     cak: ["röj", "rʊx"],
     kek: ["laaʼo", "laːʔo"], // was ["laʼo", "laʔo"] (vi dialect rules 2026-10-06)
     poh: ["hoj", "hox"],
-    kjb: ["ayonh", "ʔajoŋ"],
+    kjb: ["ayonh", "ajoŋ"],
     ctu: ["joñonla / joñon lojon", "hoɲonla / hoɲon lohon"],
     toj: ["keʼntik / keʼntikon", "keʔntik / keʔntikon"],
     bzd: ["seʼ / saʼ", "seʔ / saʔ"],

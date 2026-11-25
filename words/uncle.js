@@ -65,12 +65,13 @@ WORDS.uncle = {
     sw: "Ami / mjomba — kaka wa mzazi. Lugha nyingi huuliza ni upande gani: Kituruki amca na dayı, Kiarabu عم na خال, Kihindi चाचा na मामा, Kifinlandi setä na eno. Kiingereza, Kifaransa na Kirusi vina neno moja kwa wote wawili. Pale lugha inapowatenganisha, ramani inaonyesha kaka wa baba, na maelezo yanampa kaka wa mama.",
   },
   family: {
+    mhy: "unknown",
     aa: "split",
     aau: "split",
     ady: "split",
     af: "one",
     agx: "one",
-    ami: "unknown",
+    ami: "one",
     aqc: "one",
     ar: "split",
     ar_eg: "split",
@@ -111,17 +112,17 @@ WORDS.uncle = {
     fa: "split",
     fi: "split",
     fr: "one",
-    frr: "unknown",
+    frr: "one",
     ga: "one",
     gl: "one",
     gmh: "split",
     goh: "split",
     grt: "split",
-    gv: "unknown",
+    gv: "one",
     haw: "one",
     he: "one",
     hi: "split",
-    ht: "unknown",
+    ht: "one",
     hy: "split",
     ia: "one",
     iba: "one",
@@ -133,7 +134,7 @@ WORDS.uncle = {
     it: "one",
     ja: "one",
     ka: "one",
-    kab: "unknown",
+    kab: "one",
     kea: "unknown",
     kgp: "split",
     kha: "split",
@@ -142,7 +143,7 @@ WORDS.uncle = {
     kpv: "split",
     ks: "split",
     kw: "one",
-    lb: "unknown",
+    lb: "one",
     lez: "split",
     lij: "one",
     liv: "split",
@@ -180,13 +181,13 @@ WORDS.uncle = {
     rgn: "unknown",
     rmy: "one",
     ro: "one",
-    rom: "unknown",
+    rom: "one",
     ru: "one",
     rue: "unknown",
     rut: "split",
     rw: "split",
     sa: "split",
-    sc: "unknown",
+    sc: "one",
     scn: "one",
     sd: "split",
     se: "split",
@@ -216,7 +217,7 @@ WORDS.uncle = {
     uk: "one",
     ur: "split",
     vi: "split",
-    vo: "unknown",
+    vo: "one",
     vot: "one",
     wa: "one",
     yrl: "one",
@@ -268,11 +269,11 @@ WORDS.uncle = {
     nio: "one",
     mnw: "one",
     kok: "split",
-    ain: "unknown",
+    ain: "one",
     war: "unknown",
     niv: "unknown",
-    ln: "unknown",
-    ksw: "unknown",
+    ln: "split",
+    ksw: "one",
     ket: "one",
     szl: "one",
     yux: "one",
@@ -280,7 +281,7 @@ WORDS.uncle = {
     gu: "split",
     sah: "split",
     lzz: "one",
-    ykg: "unknown",
+    ykg: "split",
     brh: "one",
     mdr: "unknown",
     sce: "split",
@@ -600,6 +601,7 @@ WORDS.uncle = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    mhy: ["mamaʔ", "mamaʔ"],  // From smithborneo Maanyan: mamaʔ.
     aa: ["qammi", "ˈʕamːi"],  // Father's brother; mother's brother is abu.
     aau: ["aio", "ˈaio"],  // Father's brother; mother's brother is kam.
     ady: ["ятэш", "jaːtaʃ"],  // Father's brother; mother's brother is янэш.
@@ -620,7 +622,7 @@ WORDS.uncle = {
     bn: ["চাচা", "tʃatʃa"],  // Father's brother; mother's brother is মামা.
     br: ["eontr", "ˈẽwntʁ"],
     ca: ["tio", "ˈtiu"],
-    cab: ["iyawürite", "iˈjawɨrite"],
+    cab: ["iyawürite", "iˈjawɨɾite"],
     cbk: ["tio", "ˈtio"],
     ceb: ["tito", "ˈtito"],
     chb: ["zepaba", "zepaba"],  // Father's brother; mother's brother is zuecha.
@@ -661,7 +663,7 @@ WORDS.uncle = {
     ia: ["oncle", "ˈonkle"],  // Wiktionary's tables give oncle for both the paternal and the maternal uncle.
     iba: ["aya", "ajaʔ"],
     id: ["paman", "ˈpaman"],
-    ik: ["akkak", "akkak"],  // Father's brother; mother's brother is aŋatchiaq.
+    ik: ["akkak", "akːak"],  // Father's brother; mother's brother is aŋatchiaq.
     ilo: ["tio", "ˈtijo"],
     io: ["onklulo", "onˈklulo"],  // Defined as 'fratulo di onua genitoro', a brother of one's parent (Ido Wiktionary); onklo is an uncle or aunt.
     is: ["föðurbróðir", "ˈfœːðʏrˌprouːðɪr"],  // Father's brother; mother's brother is móðurbróðir.
@@ -708,7 +710,7 @@ WORDS.uncle = {
     pbb: ["yũũkwe", "jũːkwe"],  // Father's brother; mother's brother is kahka.
     pdc: ["Onkel", "ˈɔŋkəl"],
     pjt: ["mama", "ˈmama"],  // Father's brother; mother's brother is kamuṟu.
-    pl: ["stryj", "strɘj"],  // Father's brother; mother's brother is wuj.
+    pl: ["stryj", "strɨj"],  // Father's brother; mother's brother is wuj.
     pms: ["barba", "ˈbarba"],  // The brother of either parent: Sant'Albino defines it as 'fratello del padre o della madre', and Zalli gives it for both sides.
     prg: ["tēwis", "teːwis"],  // Father's brother (tēvis in KinBank, after Schmalstieg); the mother's brother is awis, glossed 'Oheim' in the Elbing Vocabulary.
     pt: ["tio", "ˈtiu"],
@@ -806,8 +808,8 @@ WORDS.uncle = {
     ain: ["アチャ", "atɕa"],  // The same word also means father and a middle-aged man; the source does not say which side.
     war: ["tatang", "taˈtaŋ"],  // From Philippine Spanish tata 'daddy' with the diminutive -ng.
     niv: ["ытык", "ɯtɯk"],  // The same word means father, and several in-laws; the source does not say which side.
-    ln: ["noko", "noko"],  // The source does not say which side.
-    ksw: ["ဖါတံၢ်", "pʰati"],  // The source gives one word, which also means a full-grown male animal, and does not say whether the two uncles are told apart.
+    ln: ["noko", "noko"],  // The mother's brother; the father's is tata-kulutu or tata-leki (KinBank).
+    ksw: ["ဖါတံၢ်", "pʰati"],  // The source gives one word, which also means a full-grown male animal; KinBank gives it for both the father's and the mother's brother.
     ket: ["беʼп", "bɛʔp"],  // One word for an elder sibling of either parent, uncle or aunt.
     szl: ["ujek", "ˈujɛk"],  // One word for the brother or brother-in-law of either parent, inherited from Old Polish ujek.
     yux: ["чаачаа", "tʃaːtʃaː"],  // One word for an elder brother of either parent; it also means elder brother.
@@ -861,7 +863,7 @@ WORDS.uncle = {
     en_nz: ["uncle", "ˈɐŋkəl"],
     en_au: ["uncle", "ˈɐŋkəl"],
     de_at: ["Onkel", "ˈɔŋkl̩"],
-    smj: ["eahki", "ˈea̯hkiː"],
+    smj: ["iehke", "ˈiɛhkɛ"],  // Father's elder brother (Wiktionary); ænoj is the other word (NorthEuraLex).
     en_south: ["uncle", "ˈʌŋkəl"],
     en_in: ["uncle", "ˈʌŋkəl"],
     en_ie: ["uncle", "ˈʌŋkəl"],
@@ -1074,7 +1076,7 @@ WORDS.uncle = {
     smn: ["čeeci", "ˈtʃeːtsi"],  // Father's younger brother; his older brother is eehi, and the mother's brother is iänui.
     bho: ["काका", "kaːkaː"],
     yua: ["tío", "tio"],
-    prs: ["کاکا", "kʰɑːˈkʰɑː"],  // Mother's brother: ماما (māmā).
+    prs: ["کاکا", "kɑːˈkɑː"],  // Mother's brother: ماما (māmā).
     nso: ["rangwane", "raŋwane"],  // The father's younger brother; the mother's brother is malome.
     tn: ["rangwane", "raŋwane"],  // The father's younger brother; the mother's brother is malome.
     xh: ["utatomncinci", "utatomŋǀiːŋǀi"],  // The father's younger brother ("little father"); the mother's brother is umalume.

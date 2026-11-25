@@ -77,6 +77,9 @@ WORDS.mirror = {
     sw: "Kioo — kioo unachojiona ndani yake. Majina mengi yamejengwa juu ya kitenzi cha \"kuona\": Kilatini speculum kilizaa espejo na Spiegel, Kilatini mīrārī kilizaa miroir na mirror, na Kirusi зеркало, Kituruki güzgü na Kiarabu مرآة vyote vinatoka \"kuona\". Kiajemi āyina kilienea hadi Kituruki ayna na Kihindi आईना. Kijapani かがみ ni \"kuona kivuli\", Kiswahili kioo ni glasi tu, na Kitamili கண்ணாடி kimejengwa juu ya neno la \"jicho\".",
   },
   family: {
+    sms: "plain",
+    smj: "speculum",
+    jiu: "plain",
     abq: "plain",
     acw: "look",
     ady: "plain",
@@ -840,6 +843,9 @@ WORDS.mirror = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    sms: ["sueiʹmkar", "ˈsuɛimʲkɒr"],  // From northeuralex sms suei´mkar.
+    smj: ["spiedjil", "ˈspiɛdʒil"],  // From northeuralex smj spiedjil.
+    jiu: ["a33mɛ44pɹa33ji33", "a˧˧mɛ˦˦pɹa˧˧ji˧˧"],  // From suntb Jinuo: a³³mɛ⁴⁴pɹa³³ji³³.
     abq: ["гӏвыга", "ʕʷəɡa"],
     acw: ["مراية", "miˈraːja"],  // Inherited from Arabic mirʔāh, from the root of "to see".
     ady: ["гъунджэ", "ʁʷərdʒa"],
@@ -914,7 +920,7 @@ WORDS.mirror = {
     hy: ["հայելի", "hɑjeˈli"],  // Inherited from Old Armenian հայելի, from հայել 'to look' + -i, as in the hy_grab row.
     iba: ["cheremin", "tʃərəmin"],  // Malay cermin.
     id: ["cermin", "tʃərˈmin"],  // Malay cermin.
-    ik: ["taġġaqtuun", "taʁʁaqtuun"],
+    ik: ["taġġaqtuun", "taʁʁaqtuːn"],
     io: ["spegulo", "speˈɡulo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     is: ["spegill", "ˈspeijɪtl̥"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     iso: ["ughẹgbe", "uɡhɛɡbe"],
@@ -967,7 +973,7 @@ WORDS.mirror = {
     nn: ["spegel", "ˈspeːɡəl"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     no: ["speil", "spæjl"],  // Route by resemblance to the neighbouring forms (Swedish spegel, Danish spejl); no etymology of its own.
     nog: ["бийала", "bijala"],
-    oc: ["espelh", "esˈpelʃ"],  // Route by resemblance to the neighbouring forms (Catalan espill); no etymology of its own.
+    oc: ["espelh", "esˈpeʎ"],  // Route by resemblance to the neighbouring forms (Catalan espill); no etymology of its own.
     olo: ["zirkalo", "ˈzirkalo"],  // Route by resemblance to the neighbouring forms (Russian зеркало); no etymology of its own.
     or: ["ଆଇନା", "aina"],  // From Persian āyina.
     os: ["айдӕн", "ajdæn"],  // From Persian āyina.
@@ -1025,7 +1031,7 @@ WORDS.mirror = {
     tt: ["көзге", "køzɡe"],  // Route by resemblance to the neighbouring forms (Bashkir көҙгө, from *köŕ- "to see"); no etymology of its own.
     ty: ["hiʻo", "hiʔo"],  // Also the verb 'to see, to look' (Wiktionary hiʻo); the mirror is named as the thing you look into.
     tyv: ["көрүнчүк", "kørynˈtʃyq"],  // Route by resemblance to the neighbouring forms (x); no etymology of its own.
-    udm: ["синучкон", "sʲinutɕkon"],
+    udm: ["синучкон", "ɕinutɕkon"],
     ug: ["كۆزگۈ", "køzɡy"],  // Cognate with Turkish gözgü, from göz "eye".
     uk: ["дзеркало", "ˈdzɛrkɐɫɔ"],  // From Proto-Slavic *zьrkadlo, from *zьrěti "to look at".
     ur: ["آئینہ", "aːiːnaː"],  // From Persian āyina.
@@ -1035,7 +1041,7 @@ WORDS.mirror = {
     vi: ["gương", "ɣɨəŋ˧"],  // A non-Sino-Vietnamese reading of Chinese 鏡.
     vo: ["lok", "lok"],
     vot: ["špeili", "ˈʃpeili"],  // Route by resemblance to the neighbouring forms (Finnish peili); no etymology of its own.
-    vro: ["piigli", "piiɡli"],  // Route by resemblance to the neighbouring forms (Estonian peegel); no etymology of its own.
+    vro: ["piigli", "piːɡli"],  // Route by resemblance to the neighbouring forms (Estonian peegel); no etymology of its own.
     wa: ["muroe", "myʀwɛ"],  // Route by resemblance to the neighbouring forms (French miroir); no etymology of its own.
     war: ["espeho", "ʔesˈpeho"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     xal: ["толь", "tolʲ"],
@@ -1056,7 +1062,7 @@ WORDS.mirror = {
     yua: ["néen", "neːn˥"],
     krl: ["zirkalo", "ˈzʲirkɑlo"],
     gmh: ["spiegel", "ˈspiə̯ɡəl"],
-    mak: ["carammeng", "caˈramːeŋ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    mak: ["carammeng", "tʃaˈramːeŋ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     es_cr: ["espejo", "esˈpeho"],
     es_hn: ["espejo", "esˈpeho"],
     es_ni: ["espejo", "esˈpeho"],
@@ -1198,7 +1204,7 @@ WORDS.mirror = {
     pdc: ["Schpiggel", "ˈʃpɪɡəl"],
     nrf: ["mitheux", "miðø"],  // From Old French mireor, from mirer 'to look at'.
     tab: ["гюзги", "ɡyzɡi"],  // As Azerbaijani güzgü.
-    ssw: ["sibuko", "sibuko"],  // From -buka 'to look'.
+    ssw: ["sibuko", "siɓuko"],  // From -buka 'to look'.
     slr: ["kozgo", "kozɡo"],  // From Proto-Turkic *köŕ- 'to see'.
     alt: ["кӱскӱ", "kysˈky"],  // From Proto-Turkic *köŕ 'eye; to see'.
     ff: ["ndaarorgal", "ndaːɾoɾɡal"],  // From ndaar- 'to look'.
@@ -1210,7 +1216,7 @@ WORDS.mirror = {
     nhe: ["tezcatl", "ˈteskatɬ"],
     kmb: ["lumwenu", "lumwenu"],  // From mwena 'to sight, glimpse'.
     nhx: ["te̱scaꞌ", "teːskaʔ"],
-    wym: ["śpigel", "ˈɕpiɡɛl"],
+    wym: ["śpigel", "ˈʃpiɡɛl"],
     mns: ["вӣльтсуснэ ке̄р", "ˈwiːlʲtsusne keːr"],  // вӣльт 'face' + суснэ 'looking' + ке̄р 'iron'.
     cdo: ["镜", "kiaŋ˨˩˧"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
     cjy: ["镜子", "tɕiŋ˦˥ tsəʔ˨"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原 and Wiktionary (Taiyuan), with 子 as in the row's own cells.

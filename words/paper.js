@@ -72,6 +72,8 @@ WORDS.paper = {
     sw: "Karatasi — laha nyembamba ya kuandikia. Ilivumbuliwa China na kusafiri magharibi, lakini majina yake yalitoka vifaa vya zamani vya kuandikia: papyrus ya Kilatini, chartēs ya Kigiriki, neno la Kiarabu la jani. Neno la Kiajemi kāġaz lilienea kutoka Balkani hadi Bengal.",
   },
   family: {
+    clk: "plain",
+    pmi: "plain",
     aa: "leaf",
     ab: "kaghaz",
     acn: "plain",
@@ -802,6 +804,8 @@ WORDS.paper = {
     },
   },
   data: {
+    clk: ["kɑ31ko55pɹɑ55", "kɑ˧˩ko˥˥pɹɑ˥˥"],  // From suntb Idu: kɑ³¹ko⁵⁵pɹɑ⁵⁵.
+    pmi: ["ɕɛ55ju53", "ɕɛ˥˥ju˥˧"],  // From suntb Pumi (Taoba): ɕɛ⁵⁵ju⁵³.
     aa: ["warkát", "warkat"],
     ab: ["ақьаад", "akʲaːd"],  // Route by resemblance to the neighbouring forms (tr,kk); no etymology of its own.
     acn: ["lai31tseʔ55", "lai˧˩tseʔ˥˥"],
@@ -912,12 +916,12 @@ WORDS.paper = {
     kl: ["pappiala", "pappiala"],
     kok: ["कागद", "kaːɡəd"],
     kw: ["paper", "ˈpapər"],
-    liv: ["papīer", "ˈpapiːer"],
+    liv: ["papīer", "ˈpɑpiːer"],
     mak: ["karattasaʼ", "kaˈratːasaʔ"],  // Route by resemblance to the neighbouring forms (mdh,mrw,mg); no etymology of its own.
     mh: ["peba", "pʲeːbˠɑ"],
     mn: ["цаас", "tsʰaːs"],
     om: ["waraqaa", "waraqaː"],  // Route by resemblance to the neighbouring forms (ar); no etymology of its own.
-    rw: ["urupapuro", "urupapuɾo"],  // Route by resemblance to the neighbouring forms (en,fr); no etymology of its own.
+    rw: ["urupapuro", "uɾupapuɾo"],  // Route by resemblance to the neighbouring forms (en,fr); no etymology of its own.
     tn: ["pampiri", "pampiri"],  // Route by resemblance to the neighbouring forms (rm); no etymology of its own.
     tsg: ["kātas", "kaːˈtas"],
     tum: ["pepala", "pepala"],  // Route by resemblance to the neighbouring forms (en); no etymology of its own.
@@ -1135,7 +1139,7 @@ WORDS.paper = {
     pqm: ["pilasq", "pilaskʷ"],  // The same word also names new-growth birch bark.
     pwo: ["စၭခီၫ", "saʔ kʰauɴ"],  // Borrowed from Mon စက္ခူ cakkhū.
     syc: ["ܘܪܩܬܐ", "warraqtaː"],  // Borrowed from Arabic ورقة; the same word means leaf.
-    crx: ["dus̲tlʼus", "dʌstlʼʌs"],
+    crx: ["dus̲tlʼus", "dʌstɬʼʌs"],
     ja_osa: ["紙", "kami"],
     ja_aom: ["紙", "kami"],
     ja_hak: ["紙", "kami"],

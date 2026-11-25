@@ -78,6 +78,7 @@ WORDS.bread = {
     sw: "Mkate — unga uliokandwa kwa maji na kuokwa. Kilatini pānis bado kipo katika Kifaransa pain, Kihispania pan na Kiitaliano pane, na Kireno pão kilisafiri kwa meli hadi Japani kikawa パン, kisha Korea kikawa 빵. Lugha za Kijerumani zilikuwa na maneno mawili: Kiingereza bread na Kijerumani Brot, na neno la zamani zaidi, Kiingereza loaf, ambalo Kislavoni kilikopa kama хлеб na Kifinlandi kama leipä. Kiajemi nān kilienea Asia ya Kati yote, Kihindustani roṭī kikawa Kimalei roti, na Kiswahili mkate maana yake ni 'kilichokatwa'.",
   },
   family: {
+    enf: "plain",
     lb: "braud",
     cic: "plain",
     trn: "plain",
@@ -886,7 +887,8 @@ WORDS.bread = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    lb: ["Brout", "breu̯t"],  // From Central Franconian Brot.
+    enf: ["kirba", "kirba"],  // From northeuralex enf кирба (row romanisation).
+    lb: ["Brout", "bʁeu̯t"],  // From Central Franconian Brot.
     cic: ["paska", "paska"],
     trn: ["ʔsomo", "ʔsomo"],
     ayl: ["خبز", "xubz"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -1073,7 +1075,7 @@ WORDS.bread = {
     wa: ["pan", "pɑ̃"],
     koi: ["нянь", "ɲaɲ"],
     udm: ["нянь", "ɲäɲ"],
-    mhr: ["няня", "ɲaˈɲa"],
+    mhr: ["кинде", "ˈkinde"],
     mrj: ["киндӹ", "ˈkində"],
     myv: ["кши", "kʃi"],
     mdf: ["кши", "kʃi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -1084,7 +1086,7 @@ WORDS.bread = {
     liv: ["lēba", "ˈleːbɑ"],
     tt: ["икмәк", "ikˈmæk"],
     ba: ["икмәк", "ikˈmæk"],
-    shn: ["ၶဝ်ႈမုၼ်း", "kʰaw˧˧˨mun˥"],  // Built on ၶဝ်ႈ 'rice'.
+    shn: ["ၶဝ်ႈမုၼ်း", "kʰaw˧˨mun˥"],  // Built on ၶဝ်ႈ 'rice'.
     ttj: ["omugaate", "omuɡaːte"],  // From Swahili mkate.
     kr: ["búródì", "búródì"],
     lmo: ["pan", "paː"],
@@ -1138,7 +1140,7 @@ WORDS.bread = {
     vi: ["bánh mì", "ɓaɲ˧˥ mi˨˩"],  // From bánh 'cake, pastry' and mì 'wheat'.
     he: ["לחם", "ˈleχem"],  // The same root as Arabic لحم laḥm 'meat'.
     sw: ["mkate", "mˈkate"],  // From -kata 'to cut'.
-    hi: ["रोटी", "roːʈiː"],  // Roti, the everyday flat bread; a baked loaf is डबल रोटी or ब्रेड.
+    hi: ["रोटी", "ɾoːʈiː"],  // Roti, the everyday flat bread; a baked loaf is डबल रोटी or ब्रेड.
     es_cr: ["pan", "pan"],
     es_hn: ["pan", "pan"],
     es_ni: ["pan", "pan"],
@@ -1289,7 +1291,7 @@ WORDS.bread = {
     arn: ["kofke", "kofke"],
     kek: ["kaxlan wa", "kaʃlan wa"],  // kaxlan 'Spanish' + wa 'tortilla'.
     lus: ["chhang", "tʃʰaŋ"],
-    tzo: ["kaxlan vaj", "kʰaʃlan vah"],  // 'Castilian tortilla'.
+    tzo: ["kaxlan vaj", "kaʃlan vah"],  // 'Castilian tortilla'.
     pdc: ["Brot", "broːt"],
     lad: ["pan", "pan"],
     nog: ["оьтпек", "øtˈpek"],

@@ -498,7 +498,7 @@ WORDS.adamsapple = {
     mn: ["төвөнх", "tɵwɵŋx"],  // The Mongolian name, given as the title of the Mongolian Wikipedia article; no etymology is given. No image is recorded for it, so it counts as a word of its own.
     no: ["adamseple", "ˈɑːdɑmsˌeːplə"],  // Literally 'Adam's apple', from Adam + eple 'apple', a calque of medieval Latin pomum Adami.
     scn: ["pumu d'Adamu", "pumu dadamu"],  // Literally 'Adam's apple'; pumu 'apple' alone is also used for it.
-    be: ["адамаў яблык", "adamaw jablɨk"],  // Literally 'Adam's apple', after the biblical legend; кадык is a synonym.
+    be: ["адамаў яблык", "adamau̯ jablɨk"],  // Literally 'Adam's apple', after the biblical legend; кадык is a synonym.
     ug: ["بۇغدىيەك", "buʁdijek"],  // The Uyghur name, the title of the Uyghur Wikipedia article on the Adam's apple; no etymology is given.
     af: ["adamsappel", "ˈɑːdamsapəl"],  // Literally 'Adam's apple', like Dutch adamsappel.
     ky: ["коко", "koˈko"],  // Yudakhin's dictionary gives коко, in full кекиртек кокосу, for the Adam's apple; no etymology is given.

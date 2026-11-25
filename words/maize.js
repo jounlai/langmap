@@ -714,7 +714,7 @@ WORDS.maize = {
     },
   },
   data: {
-    ace: ["jagong", "dʒaɡoŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
+    ace: ["jagong", "ɟaɡoŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     acn: ["xau31tʂhaʔ55", "xau˧˩tʂʰaʔ˥˥"],
     agr: ["shaa", "ʃaː"],
     agx: ["хІаджикІа", "ħadʒikʼa"],  // Route by resemblance to the neighbouring forms (ce); no etymology of its own.
@@ -784,7 +784,7 @@ WORDS.maize = {
     kw: ["ýs", "iːs"],
     ky: ["жүгөрү", "dʒyɡøˈry"],  // Borrowed from Chagatai juwārī.
     lad: ["maís", "maˈis"],
-    lkt: ["wagmiza", "waɡmiza"],
+    lkt: ["wagmíza", "waɡmíza"],
     lmo: ["formentón", "furmenˈton"],
     vec: ["formenton", "formenˈton"],  // Route by resemblance to the neighbouring forms (lmo); no etymology of its own.
     lus: ["vaimîm", "vaimiːm"],  // From vai 'foreigner' and mîm 'Job's tears'.
@@ -819,8 +819,8 @@ WORDS.maize = {
     rom: ["bobo", "bobo"],
     ru: ["кукуруза", "kʊkʊˈruzə"],
     rut: ["къаргъадалый", "qarʁadalij"],
-    tkr: ["къаргъыдалий", "qarʁɨdalij"],
-    udi: ["къардали", "qardali"],
+    tkr: ["къаргъыдалий", "ɢarʁɨdalij"],
+    udi: ["къардали", "qʼardali"],
     rw: ["ikigori", "ikiɡoɾi"],
     sah: ["кукурууза", "kukuruːza"],  // Route by resemblance to the neighbouring forms (be,hr,lv); no etymology of its own.
     sat: ["ᱡᱚᱸᱰᱨᱟ", "dʒɔ̃ɖra"],
@@ -841,7 +841,7 @@ WORDS.maize = {
     trn: ["sponi", "sponi"],
     tsu: ["pohe", "pohe"],
     tt: ["кукуруз", "kukuˈruz"],
-    tue: ["horika", "ˈhorika"],
+    tue: ["horika", "ˈhoɾika"],
     tum: ["ngoma", "ŋɡoma"],
     tzm: ["ⴰⵙⵏⴳⴰⵔ", "asənɡar"],
     ug: ["كۆممىقوناق", "kømmiqonaq"],

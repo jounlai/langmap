@@ -693,7 +693,7 @@ WORDS.cheese = {
     lv: ["siers", "siɛrs"],
     sq: ["djathë", "ˈdjaθə"],  // From Proto-Indo-European *dʰédʰh₁i 'milk'; compare Sanskrit दधि 'sour milk'.
     ht: ["fwomaj", "fwomaʒ"],
-    pap: ["keshi", "keshi"],
+    pap: ["keshi", "keʃi"],
     rmy: ["šajto", "sajto"],
     tpi: ["sis", "sis"],
     se: ["vuostá", "ˈvuo̯sːtaː"],
@@ -745,7 +745,7 @@ WORDS.cheese = {
     srm: ["kási", "kási"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tkl: ["hihi", "hihi"],
     pam: ["kesu", "ˈkesu"],
-    kek: ["kees", "kees"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    kek: ["kees", "keːs"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     stq: ["Síes", "siːs"],
     bbl: ["ნაჩხ", "natʃx"],
     io: ["fromajo", "froˈmaʒo"],
@@ -794,7 +794,7 @@ WORDS.cheese = {
     vmf: ["Käse", "ˈkɛːsə"],
     wae: ["Chääs", "xæːs"],
     ksh: ["Käse", "ˈkɛːzə"],
-    smj: ["vuostá", "ˈvuɔ̯sːtaː"],
+    smj: ["vuosstá", "ˈvuɔsːta"],
     en_south: ["cheese", "tʃiːz"],
     en_app: ["cheese", "tʃiːz"],
     en_in: ["cheese", "ʈʃiːz"],
@@ -839,7 +839,7 @@ WORDS.cheese = {
     ptrk: ["*irim", "irim"],  // From *iri- "to curdle".
     pal: ["𐭯𐭭𐭩𐭫", "paniːr"],  // From Proto-Iranian *nayH- "to churn".
     fa_clas: ["پنیر", "paniːr"],  // From Middle Persian panīr.
-    hy_grab: ["պանիր", "panir"],  // An Iranian borrowing.
+    hy_grab: ["պանիր", "paniɾ"],  // An Iranian borrowing.
     ota: ["پنیر", "peˈniɾ"],  // From Persian panīr.
     fr_class: ["fromage", "frɔmaʒ"],  // From Latin fōrmāticum "made in a mould".
     goh: ["kāsi", "ˈkaːsi"],  // From Latin cāseus.
@@ -1085,7 +1085,7 @@ WORDS.cheese = {
     ngl: ["ekeixu", "ekeiʃu"],
     sma: ["vuasta", "ˈβʉasta"],
     kam: ["matulu ma ĩia", "matulu ma ea"],  // Literally "curds of milk".
-    nd: ["itshizi", "itʃʼizi"],  // Borrowed from English cheese.
+    nd: ["itshizi", "itʃizi"],  // Borrowed from English cheese.
     sid: ["burbuxxo", "burbutʼːo"],
     bik: ["keso", "ˈkeso"],
     bts: ["keju", "kedʒu"],

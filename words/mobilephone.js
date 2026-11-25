@@ -601,7 +601,7 @@ WORDS.mobilephone = {
     uz: ["mobil telefon", "mobil telefon"],  // Literally 'mobile telephone'.
     ug: ["يانفون", "jɑnpon"],  // The Uyghur word for a mobile phone, ending in فون 'phone'.
     ar_eg: ["موبايل", "mobaːjl"],  // Borrowed from English 'mobile'; محمول 'carried' is the more formal word.
-    is: ["farsími", "ˈfarsiːmɪ"],  // Literally 'travelling telephone' (far- 'mobile, distant' + sími); the informal gemsi (from GSM) fell out of use with smartphones, now just sími or farsími.
+    is: ["farsími", "ˈfar̥siːmɪ"],  // Literally 'travelling telephone' (far- 'mobile, distant' + sími); the informal gemsi (from GSM) fell out of use with smartphones, now just sími or farsími.
     ca: ["mòbil", "ˈmɔβil"],  // Short for telèfon mòbil 'mobile telephone', from Latin mobilis.
     gl: ["móbil", "ˈmɔβil"],  // Short for teléfono móbil 'mobile telephone'.
     cs: ["mobil", "ˈmobɪl"],  // Colloquial short form of mobilní telefon 'mobile telephone', the everyday word.
@@ -900,7 +900,7 @@ WORDS.mobilephone = {
     crs: ["telefonn", "telefɔn"],  // From French téléphone "telephone", used for the mobile; mobayl (from English "mobile") also occurs.
     tvl: ["selefoni", "selefoni"],  // Borrowed from English "cell phone"; telefoni "telephone" is also used.
     niu: ["selafoni", "selafoni"],  // Borrowed from English "cell phone"; the 2013 text says telefoni utafano instead.
-    gil: ["tareboon", "taɾeboon"],  // From English "telephone", used for the mobile; the 2013 text writes the fuller tareboon aika uouotaki.
+    gil: ["tareboon", "taɾeboːn"],  // From English "telephone", used for the mobile; the 2013 text writes the fuller tareboon aika uouotaki.
     haw: ["kelepona paʻa lima", "kelepona paʔa lima"],  // Literally "telephone held in the hand" (kelepona "telephone" + paʻa "hold" + lima "hand"), the Māmaka Kaiao coinage; kelulā "cellular" is also listed.
     tok: ["ilo toki luka", "ilo toki luka"],  // Literally "hand talking-tool": ilo toki "phone" + luka "hand", because it is held and carried in the hand.
     ast: ["móvil", "ˈmoβil"],  // Short for teléfonu móvil "mobile telephone".

@@ -74,6 +74,8 @@ WORDS.thousand = {
     sw: "Elfu — mia kumi. Lugha nyingi zilichukua neno hili kutoka kwa jirani, mara nyingi Kiajemi hazār, Kiarabu alf (chanzo cha elfu yetu) au Kichina 千, ndiyo maana njia zake zinapita ramani nzima.",
   },
   family: {
+    dsb: "strong",
+    itb: "ribu",
     ab: "plain",
     aa: "alf",
     af: "strong",
@@ -122,7 +124,7 @@ WORDS.thousand = {
     mdf: "strong",
     myv: "strong",
     udm: "other",
-    kpv: "strong",
+    kpv: "other",
     koi: "strong",
     hu: "hazar",
     kca: "other",
@@ -912,6 +914,8 @@ WORDS.thousand = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    dsb: ["tysac", "ˈtɨsats"],  // From wold Lower Sorbian tysac.
+    itb: ["rivo", "rivo"],  // From abvd Itbayaten: ʔumrivuʔ.
     ab: ["зықы", "zəkə"],
     aa: ["alfi", "alfi"],
     af: ["duisend", "ˈdœi̯sənt"],
@@ -959,13 +963,13 @@ WORDS.thousand = {
     mhr: ["тӱжем", "tyʒem"],  // No opened source supports the route.
     mdf: ["тёжянь", "ˈtʲoʒaɲ"],
     myv: ["тыща", "tɨʃtʃa"],  // Route by resemblance to the neighbouring forms (kpv,koi); no etymology of its own.
-    udm: ["сюрс", "sʲurs"],  // From Indo-Iranian.
-    kpv: ["тысяча", "ˈtɨɕatɕa"],  // From Russian.
+    udm: ["сюрс", "ɕurs"],  // From Indo-Iranian.
+    kpv: ["сюрс", "ɕurs"],  // From Indo-Iranian.
     koi: ["тысяча", "tɨɕatɕa"],  // From Russian.
     hu: ["ezer", "ˈɛzɛr"],  // From Iranian.
     kca: ["сюрас", "ˈsʲuras"],  // From Indo-Iranian.
     mns: ["со̄ты̄р", "ˈsoːtɪːr"],  // From Indo-Iranian.
-    hi: ["हज़ार", "həzaːɾ"],
+    hi: ["हज़ार", "ɦəzaːɾ"],
     ur: ["ہزار", "həzaːɾ"],
     ps: ["زر", "zər"],  // A cognate of Persian hazār.
     fa: ["هزار", "hæˈzɒːɾ"],
@@ -1041,7 +1045,7 @@ WORDS.thousand = {
     dtp: ["soribu", "soribu"],
     km: ["ពាន់", "pŏən"],  // From Thai.
     lo: ["ພັນ", "pʰan˧˥"],
-    ne: ["हजार", "ɦʌzar"],
+    ne: ["हजार", "ɦʌdzaːr"],
     ms: ["ribu", "ribu"],
     mr: ["हजार", "ɦəzaɾ"],
     gu: ["હજાર", "ˈɦədʒaɾ"],
@@ -1216,7 +1220,7 @@ WORDS.thousand = {
     arn: ["waranka", "waɾaŋka"],  // No origin is recorded for it, so it counts as a word of its own.
     bpy: ["হাজার", "hadʒar"],  // The Persian loan hazār, as in Bengali হাজার.
     cop: ["ϣⲟ", "ʃoʔ"],  // From Demotic ḫꜣ, from Egyptian ḫꜣ 'thousand'.
-    hne: ["सहस", "səhəs"],  // Inherited through Prakrit sahassa from Sanskrit sahasra.
+    hne: ["सहस", "səɦəs"],  // Inherited through Prakrit sahassa from Sanskrit sahasra.
     ki: ["ngiri", "ŋɡiɾi"],  // No image is recorded for it, so it counts as a word of its own.
     mh: ["to̧ujin", "tˠæwitʲinʲ"],  // Borrowed from English thousand.
     ojp: ["千", "ti"],  // The native Old Japanese word read ti, not the Chinese loan sen.
@@ -1584,7 +1588,7 @@ WORDS.thousand = {
     ctu: ["mil", "mil"],
     emi: ["airari", "aiɾaɾi"],
     enq: ["tausene", "tausene"],
-    fj: ["udolu", "udolu"],
+    fj: ["udolu", "undolu"],
     gan_ja: ["千", "tɕʰiɛn˧˧˦"],
     hwc: ["tousan", "taʊzən"],
     kmu: ["vani tauseni", "vani tauseni"],

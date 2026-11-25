@@ -73,6 +73,10 @@ WORDS.spider = {
     sw: "Buibui — mdudu wa miguu minane anayesuka utando. Kijerumani Spinne, Kiswidi spindel na Kiingereza spider vyote vina maana ya \"msokotaji\", na Kituruki örümcek kinatoka kitenzi cha Kiturki \"kusokota\". Kilatini arānea kilizaa araña na ragno, Kislavoni kilizaa паук na pająk, Kisemiti kilizaa عنكبوت, na Kisanskriti markaṭa kilizaa Kihindi मकड़ी. Majina mengine ni picha ndogo: Kimalayalam \"miguu minane\", Kiayalandi \"paa dume mdogo mkali\".",
   },
   family: {
+    jiu: "plain",
+    mhy: "lawaq",
+    agt: "lawa",
+    aoz: "plain",
     aa: "plain",
     aau: "plain",
     abe: "plain",
@@ -887,8 +891,12 @@ WORDS.spider = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    jiu: ["tɕi44tʃo33pa42tʃo33", "tɕi˦˦tʃo˧˧pa˦˨tʃo˧˧"],  // From suntb Jinuo: tɕi⁴⁴tʃo³³pa⁴²tʃo³³.
+    mhy: ["gandralawaʔ", "ɡandralawaʔ"],  // From abvd Ma'anyan: ganraŋ|lawaʔ.
+    agt: ["alawlawa", "ʔalawlawa"],  // From abvd Agta: ʔʌlʌwlʌwʌ.
+    aoz: ["lilnaʼo", "lilnaʔo"],  // From abvd Atoni: lilnaʔo.
     aa: ["qaro", "ʕaro"],
-    aau: ["arampou", "arampow"],
+    aau: ["arampou", "aɾampow"],
     abe: ["mamselabika", "mamselabika"],
     ady: ["бэджы", "badʒə"],  // бэ "a lot" + джын "to spin".
     af: ["spinnekop", "ˈspənəkɔp"],  // From Dutch spinnekop.
@@ -922,7 +930,7 @@ WORDS.spider = {
     ce: ["гезг", "ɡezɡ"],
     ceb: ["kaka", "kaka"],
     cgg: ["orutangura", "orutanɡura"],
-    chf: ["ajchiwoʼ", "ʔahtʃiwoʔ"],
+    chf: ["ajchiwoʼ", "ahtʃiwoʔ"],
     cia: ["laβalaβa", "laβalaβa"],
     ckb: ["جاڵجاڵۆکە", "dʒaːɫdʒaːɫoːka"],
     ckv: ["paqaw", "paqaw"],
@@ -986,18 +994,18 @@ WORDS.spider = {
     ia: ["aranea", "aˈranea"],  // From Latin arānea or Greek ἀράχνη.
     iba: ["empelawa", "əmpəlawaʔ"],
     id: ["laba-laba", "ˌlaba ˈlaba"],
-    ik: ["aasrivak", "aasʐivak"],
+    ik: ["aasrivak", "aːsʐivak"],
     ilo: ["lawwa", "lawwa"],
     inh: ["гизг", "ɡizɡ"],
     is: ["könguló", "ˈkʰœiŋkʏˌlou"],  // From Old Norse kǫngurváfa; the first element is from Proto-Germanic *kang-.
     it: ["ragno", "ˈraɲɲo"],  // From Latin arāneus.
     ivv: ["hahawa", "hahawa"],
     ja: ["蜘蛛", "kɯmo"],  // A native word written with the Chinese characters; its derivation is unknown.
-    jmc: ["mbwii", "mbwii"],
+    jmc: ["mbwii", "mbwiː"],
     ka: ["ობობა", "oboba"],
     kam: ["mbUavUI", "mbuaβui"],
     kgg: ["pəŋga", "pəŋɡa"],
-    khw: ["شوبیناک", "ɕubinɑk"],  // šu "bolt of cloth" + binák "weaver": the cloth-weaver.
+    khw: ["شوبیناک", "ʃubinɑk"],  // šu "bolt of cloth" + binák "weaver": the cloth-weaver.
     ki: ["mbũmbũĩ", "mbomboe"],
     kjh: ["ірімӌік", "ɘrɘmdʒɘk"],  // A spinner: from a verb "to spin".
     kk: ["өрмекші", "ørmekʃi"],  // From Proto-Turkic *ȫrmekči, from *ȫr- "to spin".
@@ -1005,7 +1013,7 @@ WORDS.spider = {
     kl: ["aasiak", "aasiak"],
     km: ["ពីងពាង", "piːŋ piəŋ"],  // From Proto-Mon-Khmer *ɓiŋ, with ablauting reduplication.
     ko: ["거미", "kʌmi"],
-    koi: ["черань", "tɕʲeraɲ"],
+    koi: ["черань", "tɕeraɲ"],
     kos: ["pwepwenu", "pwepwenu"],
     kpv: ["черань", "ˈtɕeraɲ"],
     krl: ["hämehikki", "ˈhæmeˌhikːi"],
@@ -1030,7 +1038,7 @@ WORDS.spider = {
     maz: ["mexe", "meʃe"],
     mbc: ["moyoi", "mojoi"],
     mdh: ["lalawa", "lalawa"],
-    meu: ["magera", "maɡera"],
+    meu: ["magera", "maɡeɾa"],
     mg: ["halabe", "haˈlabe"],
     mi: ["pūngāwerewere", "puːŋaːwerewere"],
     mic: ["goʼgwejij", "koːkʷetʃitʃ"],
@@ -1105,7 +1113,7 @@ WORDS.spider = {
     sk: ["pavúk", "ˈpavuːk"],  // From Proto-Slavic *paǫkъ.
     sl: ["pajek", "ˈpaːjək"],  // From Proto-Slavic *paǫkъ.
     slr: ["böy", "pøj"],
-    so: ["caaro", "ʕaaro"],
+    so: ["caaro", "ʕaːro"],
     sq: ["merimangë", "mɛɾiˈmaŋɡə"],  // Borrowed from Greek μυρμήγκι "ant", per its first attestation.
     sr: ["паук", "pâuːk"],  // From Proto-Slavic *paǫkъ.
     srn: ["anansi", "aˈnansi"],  // From Akan ananse "spider".
@@ -1162,7 +1170,7 @@ WORDS.spider = {
     kpy: ["аняпэль", "ʔæɲapʲelʲ"],  // From аня 'grandma' + -пэль.
     ket: ["элым", "ɛ˩˧lɯm˧˩"],
     yo: ["alantakun", "aláŋ̀takũ̀"],  // Literally 'one who weaves with string'.
-    yur: ["ʼwes", "ˀweʂ"],
+    yur: ["ʼwes", "ʔweʂ"],
     cag: ["siwɔklɔk", "siwɔklɔk"],
     ltg: ["ziernyuklis", "ˈzʲiɛ̯rnɨu̯kʲlʲis"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     es_cr: ["araña", "aˈɾaɲa"],
@@ -1201,7 +1209,7 @@ WORDS.spider = {
     en_aave: ["spider", "ˈspaɪdə"],
     en_au: ["spider", "ˈspɑɪdə"],
     de_at: ["Spinne", "ˈʃpɪnə"],
-    smj: ["heavdni", "ˈhea̯vːtniː"],
+    smj: ["hievnne", "ˈhiɛvnːɛ"],
     en_south: ["spider", "ˈspaɪdɚ"],
     en_in: ["spider", "ˈspaɪɖər"],
     en_ie: ["spider", "ˈspaɪdəɹ"],
@@ -1245,7 +1253,7 @@ WORDS.spider = {
     xct: ["སྡོམ", "sdom"],
     xct_litpr: ["སྡོམ", "tom"],
     hbo: ["עכביש", "ʕakkɔːˈviːʃ"],  // Isaiah 59:5, Job 8:14.
-    hy_grab: ["սարդ", "sard"],  // From Proto-Indo-European *ḱer- "to weave, plait".
+    hy_grab: ["սարդ", "saɾd"],  // From Proto-Indo-European *ḱer- "to weave, plait".
     qwc: ["apasanka", "apasaŋka"],
     sa_edu: ["तन्तुवायः", "tɐntuʋaːjɐh"],  // Thread-weaver: tantu + vāya.
     h_vedic: ["ऊर्णवाभिः", "uːrɳɐʋáːbʱiɦ"],  // Wool-weaver; Śatapatha Brāhmaṇa.
@@ -1293,7 +1301,7 @@ WORDS.spider = {
     kea: ["aranha", "aˈɾaɲa"],
     frp: ["aragne", "aˈraɲe"],
     mzn: ["وند", "vend"],
-    nbl: ["isiwebu", "isiwebu"],
+    nbl: ["isiwebu", "isiweɓu"],
     pnt: ["αράχνα", "aˈraxna"],
     tig: ["ሳሬት", "saret"],
     vls: ["kobbe", "ˈkɔbə"],  // From Middle Dutch coppe, as English cob(web).
@@ -1461,7 +1469,7 @@ WORDS.spider = {
     kry: ["urumceg", "urumdʒeɡ"],
     ku: ["pîrê", "piːˈɾeː"],  // Pîr also means 'old (man, woman)'.
     qxq: ["şeytan", "ʃejˈtɑn"],  // The same word as 'devil'.
-    rut: ["хашамкӏа лый", "xaʃamkʼa lɨj"],
+    rut: ["хашамкӏа лый", "χaʃamkʼa lɨj"],
     tab: ["хашв", "χaʃʷ"],
     tkr: ["диндаранг гиндаранг", "dindaranɡ ɡindaranɡ"],
     udi: ["джолакӏ", "dʒolakʼ"],

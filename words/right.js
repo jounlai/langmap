@@ -72,6 +72,10 @@ WORDS.right = {
     sw: "Kulia — upande wa pili wa kushoto. Hakuna kitu duniani kinachouonyesha, kwa hiyo lugha huuita kwa jina la kitu kingine: kilicho nyoofu, kilicho bora zaidi, mkono wa kulia chakula, au kusini ukielekea mawio ya jua.",
   },
   family: {
+    gsw: "straight",
+    aoz: "plain",
+    ssf: "plain",
+    jiu: "plain",
     aa: "plain",
     af: "straight",
     sq: "dexter",
@@ -192,7 +196,7 @@ WORDS.right = {
     mhr: "plain",
     udm: "good",
     koi: "plain",
-    kpv: "plain",
+    kpv: "straight",
     kca: "plain",
     mns: "plain",
     ku: "straight",
@@ -930,6 +934,10 @@ WORDS.right = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    gsw: ["rächt", "ræxt"],  // From iecor rächt ræxt.
+    aoz: ["ʼneʼu", "ʔneʔu"],  // From abvd Atoni: ʔneʔu.
+    ssf: ["tanadu", "tanadu"],  // From abvd Thao B96: tana-du.
+    jiu: ["la33mɔ44", "la˧˧mɔ˦˦"],  // From suntb Jinuo: la³³mɔ⁴⁴.
     aa: ["migda", "miɡda"],
     af: ["regs", "rɛχs"],
     sq: ["djathtë", "ˈdjaθtə"],
@@ -1050,7 +1058,7 @@ WORDS.right = {
     mhr: ["пурла", "purla"],  // No opened source supports the route.
     udm: ["бур", "bur"],  // Also 'good'.
     koi: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
-    kpv: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
+    kpv: ["веськыд", "ˈveɕkɨd"],  // Also 'straight, correct' (IDS).
     kca: ["ям", "jam"],
     mns: ["ёмаспал", "ˈjomaspal"],
     ku: ["rastê", "rasˈte"],  // Kurdish rast is 'straight' and 'correct' as well as 'right (side)', the same Iranian word as Persian راست (Wiktionary, Kurmanji rast).
@@ -1634,7 +1642,7 @@ WORDS.right = {
     agu: ["sbʼal", "sɓal"],
     ar_ma: ["ليمن", "ˈliːman"],
     hch: ["serieta", "seɾieta"],
-    izz: ["ẹkutara", "ɛkutara"],
+    izz: ["ẹkutara", "ɛkutaɾa"],
     kek: ["nim", "nim"],  // Literally 'big (hand)'.
     ln: ["lobɔ́kɔ ya mobáli", "lobɔ́kɔ ja mobáli"],  // Literally 'the man's hand'.
     mic: ["inaqanei", "inaxanej"],
@@ -1642,7 +1650,7 @@ WORDS.right = {
     nhw: ["nejmac", "ˈnehmak"],
     pdc: ["recht", "rɛçt"],
     quc: ["wikiaqʼabʼ", "wikiaqʼaɓ"],
-    bor: ["pemegareu jagwai", "pemeɡaɾew jaɡwai"],  // The good (pemegareu) side.
+    bor: ["pemegareu jagwai", "pemeɡaɾew dʒaɡwai"],  // The good (pemegareu) side.
     bzd: ["buaʼkka", "buaʔkka"],  // Contains buaʼ 'good'.
     cho: ["ibbak isht impaka", "ibbak iʃt impaka"],  // The hand one eats with.
     rup: ["ndreptu", "ˈndreptu"],  // From Latin dīrēctus 'straight'.

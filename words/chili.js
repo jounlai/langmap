@@ -75,6 +75,7 @@ WORDS.chili = {
     sw: "Pilipili — tunda kali la mmea wa Capsicum, lililokuja kutoka Amerika baada ya mwaka 1492. Jina lake la Kinahuatl chīlli lilizaa chile na chili. Sehemu kubwa ya Dunia ya Kale ililiita kwa jina la pilipili iliyoijua tayari: Kihindi मिर्च na Kithai พริก vinatoka Kisanskriti marica 'pilipili manga', Kikorea 고추 kwanza kilimaanisha pilipili manga, na Kiswahili pilipili kinatoka Kiajemi pilpil, Kisanskriti pippali. Kijapani 唐辛子 ni 'haradali ya kigeni'.",
   },
   family: {
+    jiu: "plain",
     trn: "plain",
     ayl: "pepper",
     ja: "foreign",
@@ -580,6 +581,7 @@ WORDS.chili = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    jiu: ["mja33pɹi33", "mja˧˧pɹi˧˧"],  // From suntb Jinuo: mja³³pɹi³³.
     trn: ["ʔčeti", "ʔceti"],
     ayl: ["فلفل أحمر", "fəlfəl ɑħmər"],  // Literally 'red pepper'.
     ja: ["唐辛子", "toːɡaɾaɕi"],  // 唐 'Chinese, foreign' + 辛子 'mustard'.
@@ -599,7 +601,7 @@ WORDS.chili = {
     my: ["ငရုတ်", "ŋəjoʊʔ"],  // From Pali marica 'black pepper'.
     fi: ["chilipippuri", "ˈtʃiliˌpipːuri"],  // chili + pippuri.
     hu: ["csilipaprika", "ˈtʃilipɒprikɒ"],  // csili + paprika.
-    el: ["καυτερή πιπεριά", "kafteˈri pipeˈrʝa"],  // Literally 'hot pepper'; μπούκοβο is the word for chili flakes.
+    el: ["καυτερή πιπεριά", "kafteˈɾi pipeˈɾʝa"],  // Literally 'hot pepper'; μπούκοβο is the word for chili flakes.
     nl: ["chilipeper", "ˈtʃiliˌpeːpər"],  // chili + peper.
     pl: ["chilli", "ˈtʂili"],  // From English chilli.
     uk: ["червоний перець", "tʃerˈwɔnei̯ ˈpɛretsʲ"],  // Literally 'red pepper', as Russian красный перец.
@@ -623,7 +625,7 @@ WORDS.chili = {
     sk: ["paprika", "ˈpaprika"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
     lv: ["čili", "ˈtʃili"],
     sq: ["spec", "spɛts"],  // From Italian spezie 'spices'.
-    et: ["tšiili pipar̃", "tsiilipipar"],  // tšiili + pipar 'pepper'.
+    et: ["tšiili pipar̃", "tʃiːlipipɑr"],  // tšiili + pipar 'pepper'.
     rom: ["paprika", "paprika"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     rmy: ["paprika", "paprika"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tpi: ["lombo", "lombo"],  // From Indonesian lombok.
@@ -633,7 +635,7 @@ WORDS.chili = {
     nci: ["chilli", "ˈtʃiːlːi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     nhx: ["tecpínchi̱l", "tekˈpintʃiːl"],  // tecpin 'flea' + chīlli.
     ppl: ["chil", "tʃil"],
-    cbk: ["ají", "aji"],  // The same word as Spanish ají, from Taíno.
+    cbk: ["ají", "ahi"],  // The same word as Spanish ají, from Taíno.
     agr: ["hima", "hima"],
     pbb: ["ãwã", "ãwã"],
     mh: ["peba", "pʲeːbˠɑ"],  // From English pepper.
@@ -847,7 +849,7 @@ WORDS.chili = {
     zh_xa: ["辣椒", "la˨˩ tɕiau˨˩"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["辣椒", "la˨˦ tɕiau˨˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
     hr: ["čili", "tʃîli"],  // From English chili, ultimately Nahuatl chīlli; ljuta papričica 'hot little pepper' and feferon are also said.
-    sr: ["љута паприка", "ˈʎuːta ˈpaprika"],  // Literally 'hot pepper'; паприка comes from папар 'pepper'. Чили is also used, mostly for the spice and in чили папричица.
+    sr: ["љута паприка", "ʎûːta pǎprika"],  // Literally 'hot pepper'; паприка comes from папар 'pepper'. Чили is also used, mostly for the spice and in чили папричица.
     bs: ["ljuta paprika", "ˈʎuːta ˈpaprika"],  // Literally 'hot pepper', as in Serbian; čili is nearly as common, mostly for the spice and in čili papričica.
     es_uy: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
     en_nz: ["chili", "ˈtʃəli"],  // The same word as standard English.

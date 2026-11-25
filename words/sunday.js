@@ -253,7 +253,7 @@ WORDS.sunday = {
     mhr: "other",
     mdf: "plain",
     koi: "plain",
-    kpv: "plain",
+    kpv: "resurrection",
     kca: "plain",
     ku: "count",
     hy_grab: "lord",
@@ -909,7 +909,7 @@ WORDS.sunday = {
     pa: ["ਐਤਵਾਰ", "ɛːtʋaːɾ"],
     qu: ["intichaw", "inˈtitʃaw"],
     rcf: ["dimans", "dimãs"],
-    rom: ["kurko", "kurko"],
+    rom: ["kurko", "ˈkurko"],
     ro: ["duminică", "duˈminikə"],
     rm: ["dumengia", "duˈmɛɲdʒa"],
     ru: ["воскресенье", "vəskrʲɪˈsʲenʲje"],  // Literally 'Resurrection'; the old word неделя moved to mean 'week'.
@@ -938,7 +938,7 @@ WORDS.sunday = {
     ta: ["ஞாயிறு", "ɲaːjirɯ"],
     tt: ["якшәмбе", "jɑqʃæmbe"],
     tsg: ["Ahad", "ʔaˈhad"],
-    te: ["ఆదివారం", "aːdiʋaːɾam"],
+    te: ["ఆదివారం", "aːd̪iʋaːɾam"],
     tet: ["loron-domingu", "lorondominɡu"],
     th: ["วันอาทิตย์", "wan˧ʔaː˧tʰit˦˥"],
     ti: ["ሰንበት", "sɐnbɐt"],  // No opened source supports the route.
@@ -977,7 +977,7 @@ WORDS.sunday = {
     mhr: ["рушарня", "ruʃarɲa"],
     mdf: ["таргоши", "tarɡoʃi"],  // No opened source supports the route.
     koi: ["кресення", "krʲeɕeɲːa"],  // No opened source supports the route.
-    kpv: ["кресення", "krʲeɕeɲːa"],  // No opened source supports the route.
+    kpv: ["вӧскресенньӧ", "vɘskreɕenɲɘ"],  // From Russian воскресенье; вежалун is the native word.
     kca: ["сютсяты хатӆ", "sʲutsʲatɪ xatɬ"],
     ku: ["yekşemb", "jɛkˈʃɛmb"],  // Route by resemblance to the neighbouring forms (ug,fa,tk); no etymology of its own.
     hy_grab: ["կիրակի", "kiɾaki"],
@@ -1061,17 +1061,17 @@ WORDS.sunday = {
     ady: ["тхьаумаф", "tħaːwəˈmaːf"],  // No opened source supports the route.
     ddo: ["гьатӏан", "hatʼan"],  // Same word as Avar гьатӏан, tied to 'law, prayer'.
     lbe: ["алхӏат", "alħat"],  // No opened source supports the route.
-    dar: ["алхIят", "alχijat"],  // No opened source supports the route.
+    dar: ["алхIят", "alħijat"],  // No opened source supports the route.
     zh: ["星期日", "ɕiŋ˥ tɕʰi˥ ʐɨ˥˩"],  // 'Week-day'; 星期 is 'star period'.
     bdk: ["базар", "bazar"],
     rut: ["базар", "bazar"],
     kjj: ["базар", "bazar"],
     osp: ["domingo", "doˈmiŋɡo"],
     gmh: ["suntac", "ˈzuntak"],  // No opened source supports the route.
-    rmy: ["kurko", "kurko"],
+    rmy: ["kurko", "ˈkurko"],
     crt: ["injo-ʔmannijin", "injoʔmannijin"],
     cag: ["jamejkˀoja", "jamejkˀoja"],
-    kr: ["ládə̀", "ladə"],  // No opened source supports the route.
+    kr: ["ládə̀", "ládə̀"],  // No opened source supports the route.
     dsb: ["njeźela", "ˈnʲɛʑɛla"],
     mg: ["alahàdy", "alaˈhadi"],  // Route by resemblance to the neighbouring forms (ha); no etymology of its own.
     tzo: ["rominko", "rominko"],  // No opened source supports the route.

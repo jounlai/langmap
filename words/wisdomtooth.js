@@ -347,7 +347,7 @@ WORDS.wisdomtooth = {
     sl: ["modrostni zob", "mɔˈdroːstni zoːp"],  // Literally 'wisdom tooth'.
     hi: ["अक़्ल-दाढ़", "əql daːɽʱ"],  // Literally 'molar of intellect', with अक़्ल from Arabic ʿaql 'reason'.
     bn: ["আক্কেল দাঁত", "akkel dãt"],  // Literally 'tooth of good sense', from Arabic ʿaql 'reason'.
-    ta: ["அறிவுப்பல்", "aɾiʋuppal"],  // Literally 'wisdom tooth'; ஞானப்பல் with Sanskrit ஞானம் 'knowledge' is also used.
+    ta: ["அறிவுப்பல்", "ariʋupːal"],  // Literally 'wisdom tooth'; ஞானப்பல் with Sanskrit ஞானம் 'knowledge' is also used.
     az: ["ağıl dişi", "ɑˈɣɯl diˈʃi"],  // Literally 'tooth of reason'.
     uz: ["aql tishi", "aql tiˈʃi"],  // Literally 'tooth of the mind'.
     es_bo: ["muela del juicio", "ˈmwela del ˈxwisjo"],  // Literally 'molar of judgement'; the same term as in Spain (DLE gives no regional variant).
@@ -409,7 +409,7 @@ WORDS.wisdomtooth = {
     en_au: ["wisdom tooth", "ˈwɪzdəm tʉːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_south: ["wisdom tooth", "ˈwɪzdəm tuːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_app: ["wisdom tooth", "ˈwɪzdəm tuːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
-    en_in: ["wisdom tooth", "ˈʋɪzɖəm t̪uːt̪ʰ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
+    en_in: ["wisdom tooth", "ˈʋɪzɖəm ʈuːt̪ʰ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_ie: ["wisdom tooth", "ˈwɪzdəm tuːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_sco: ["wisdom tooth", "ˈwɪzdəm tuːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_yk: ["wisdom tooth", "ˈwɪzdəm tʊθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
@@ -438,7 +438,7 @@ WORDS.wisdomtooth = {
     pa: ["ਅਕਲ ਦਾੜ੍ਹ", "əkəl daːɽ˥"],  // Literally 'molar of intellect', with ਅਕਲ from Arabic ʿaql 'reason'.
     pnb: ["عقل داڑھ", "əkəl dáːɽ"],  // Literally 'molar of intellect', with عقل from Arabic ʿaql 'reason'.
     gu: ["ડહાપણની દાઢ", "ɖəɦaːpəɳniː daːɖʱ"],  // Literally 'molar of wisdom' (ડહાપણ 'wisdom, good sense' + દાઢ 'molar').
-    te: ["జ్ఞాన దంతం", "dʒɲaːna dantam"],  // Literally 'tooth of knowledge' (Sanskrit jñāna 'knowledge' + danta 'tooth').
+    te: ["జ్ఞాన దంతం", "dʒɲaːna d̪ant̪am"],  // Literally 'tooth of knowledge' (Sanskrit jñāna 'knowledge' + danta 'tooth').
     ps: ["د عقل غاښ", "də aql ɣɑʂ"],  // Literally 'tooth of reason', with عقل from Arabic ʿaql 'reason'.
     so: ["gowska garashada", "ɡowska ɡaraʃada"],  // Literally 'the molar of understanding', from garo 'to understand'.
     ml: ["വിവേകദന്തം", "ʋiʋeːkad̪an̪t̪am"],  // Literally 'tooth of discernment' (വിവേകം 'wisdom' + ദന്തം 'tooth'), named because it comes in at the age of understanding.

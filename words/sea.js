@@ -1732,7 +1732,7 @@ WORDS.sea = {
     aja: ["axu", "axu"],
     loz: ["liwate", "liwate"],
     ng: ["efuta", "efuta"],
-    lue: ["kalungalwiji", "kaluŋɡalwidʒi"],
+    lue: ["kalungalwiji", "kaluŋɡalwiʒi"],
     pcd: ["mèr", "mɛʁ"],
     rcf: ["lamer", "lamɛr"],
     pnt: ["θάλασσα", "ˈθalasa"],

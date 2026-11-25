@@ -725,7 +725,7 @@ WORDS.japan = {
     eo: ["Japanio", "japaˈnio"],  // Built from japano "a Japanese person" plus the country suffix -io; Japanujo and Nipono are also used. Route by resemblance to the neighbouring forms (fi(Japani) sm(Iapani)); no etymology of its own.
     ja_oki: ["大和", "jamatu"],  // Yamatu, the native Okinawan name for Japan, used especially for mainland Japan as opposed to Okinawa.
     fo: ["Japan", "ˈjaːpan"],  // From Danish Japan, via Dutch and Malay, ultimately Hokkien Ji̍t-pún.
-    alt: ["Јопон", "joˈpon"],  // Japan in Altai. Route by resemblance to the neighbouring forms (fa(ژاپن) hu(Japán)); no etymology of its own.
+    alt: ["Јопон", "dʲoˈpon"],  // Japan in Altai. Route by resemblance to the neighbouring forms (fa(ژاپن) hu(Japán)); no etymology of its own.
     mi: ["Hapani", "hapani"],  // A loanword for Japan in Māori; Tiapana and Nipono are also used. Route by resemblance to the neighbouring forms (fi(Japani) sm(Iapani)).
     nrf: ["Japon", "ʒapɔ̃"],  // Borrowed from French Japon.
     ja_rys: ["大和", "jamatu"],  // Yamatu, the native Ryukyuan name for Japan, cognate with Japanese Yamato.

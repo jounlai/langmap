@@ -65,6 +65,7 @@ WORDS.tomorrow = {
     sw: "Kesho — siku inayofuata leo. Katika lugha nyingi za Ulaya inaitwa kwa jina la asubuhi inayoianza: Kihispania mañana na Kijerumani morgen pia humaanisha \"asubuhi\", Kirusi завтра ni \"baada ya asubuhi\", Kifaransa demain kinatoka Kilatini \"tangu asubuhi\". Katika Kihindi na Kiurdu कल / کل ni neno lilelile la \"jana\". Tazama pia ramani ya \"jana\".",
   },
   family: {
+    har: "plain",
     es: "morning",
     es_mx: "morning",
     es_cr: "morning",
@@ -1062,6 +1063,7 @@ WORDS.tomorrow = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    har: ["giš", "ɡiʃ"],  // From felekesemitic Harari giš.
     es: ["mañana", "maˈɲana"],  // Mañana means both 'tomorrow' and 'morning', from Latin māne 'in the morning' (Wiktionary).
     es_mx: ["mañana", "maˈɲana"],  // Mañana means both 'tomorrow' and 'morning', from Latin māne 'in the morning' (Wiktionary).
     es_cr: ["mañana", "maˈɲana"],  // Mañana means both 'tomorrow' and 'morning', from Latin māne 'in the morning' (Wiktionary).
@@ -1220,12 +1222,12 @@ WORDS.tomorrow = {
     ket: ["аноксь", "anɔkɕ"],  // Аноксь contains the old element *hək 'early in the morning', also found in ӄоноксь 'morning' (Wiktionary).
     niv: ["пат", "pat"],  // Amur Nivkh says пат and East Sakhalin Nivkh пыт (Wiktionary). Unrelated to т’ыт 'morning' and the words for 'night'.
     ykg: ["эгуойиэ", "eɡuojie"],  // Эгуойиэ goes back to Proto-Yukaghir *öŋkǝ- (Wiktionary, after Nikolaeva 2006).
-    nio: ["талу", "talu"],  // Талу is one of two Nganasan words for 'tomorrow'; the other, күз̌иахүˮ, resembles күз̌иату 'morning' (NorthEuraLex).
+    nio: ["талу", "tɐlu"],  // Талу is one of two Nganasan words for 'tomorrow'; the other, күз̌иахүˮ, resembles күз̌иату 'morning' (NorthEuraLex).
     sel: ["тялы", "tʲalɨ"],  // Тялы is the Northern Selkup word for 'tomorrow' (NorthEuraLex; IDS).
     kca: ["хаӆэват", "ˈxaɬəwat"],  // Хаӆэват is the Northern Khanty word for 'tomorrow' (NorthEuraLex; IDS). No image is recorded for it, so it counts as a word of its own.
     acn: ["pʰă55nap55", "pʰă˥˥nap˥˥"],  // Longchuan Achang says pʰă⁵⁵nap⁵⁵ (Sun 1991; Sagart et al. 2019). The second syllable nap is also the Achang word for 'morning' (Mann's Burmish lexicon).
     clk: ["ɑ31nɑ55jɑ55", "ɑ˧˩nɑ˥˥jɑ˥˥"],  // Idu says ɑ³¹nɑ⁵⁵jɑ⁵⁵ (Sun 1991; Sagart et al. 2019). No image is recorded for it, so it counts as a word of its own.
-    jv: ["sésuk", "sesuk"],  // Sésuk is the ngoko word for 'tomorrow'; the polite krama form is bénjing (Wikivoyage; Javanese Wiktionary). Built on ésuk 'morning', as Sundanese isuk means both.
+    jv: ["sésuk", "sesuʔ"],  // Sésuk is the ngoko word for 'tomorrow'; the polite krama form is bénjing (Wikivoyage; Javanese Wiktionary). Built on ésuk 'morning', as Sundanese isuk means both.
     ceb: ["ugma", "ˈʔuɡmaʔ"],  // Ugma is the everyday Cebuano word for 'tomorrow' (Wiktionary; Wikivoyage). No image is recorded for it, so it counts as a word of its own.
     tg: ["пагоҳ", "paɡoh"],  // Пагоҳ means both 'morning, dawn' and 'tomorrow'; the more formal word is фардо (Wiktionary).
     ku: ["sibê", "sɪˈbeː"],  // Sibê is borrowed from Arabic ṣabāḥ 'morning' (Wiktionary).
@@ -1254,7 +1256,7 @@ WORDS.tomorrow = {
     ml: ["നാളെ", "naːɭe"],  // Nāḷe is inherited from Proto-Dravidian *nāḷ, shared with Kannada nāḷe and Tamil nāḷai (Wiktionary).
     ar_eg: ["بكرة", "ˈbokɾa"],  // Bukra comes from Arabic bukra 'early morning' (Wiktionary).
     ar_lev: ["بكرة", "ˈbukɾa"],  // Bukra comes from Arabic bukra 'early morning' (Wiktionary).
-    ar_sd: ["بكرا", "ˈbukɾa"],  // Bukra comes from Arabic bukra 'early morning' (Wiktionary).
+    ar_sd: ["بكرا", "ˈbukra"],  // Bukra comes from Arabic bukra 'early morning' (Wiktionary).
     ar_gulf: ["باچر", "baːtʃir"],  // Bāčir comes from Arabic bākir 'early', with k softened to č (Wiktionary).
     ar_iq: ["باچر", "baːtʃir"],  // Bāčir comes from Arabic bākir 'early', with k softened to č (Wiktionary).
     ar_ma: ["غدا", "ɣadda"],  // Ḡadda keeps Classical Arabic ḡadan 'tomorrow', which most eastern dialects replaced with bukra (Wiktionary). The root gh-d-w also gives ghudwa 'early morning'.
@@ -1320,7 +1322,7 @@ WORDS.tomorrow = {
     bg: ["утре", "ˈutrɛ"],  // Утре is a frozen locative of *utro 'dawn', so 'at dawn' (Wiktionary).
     lt: ["rytoj", "rʲiːˈtoːj"],  // Rytoj is related to rýtas 'morning' (Wiktionary).
     lv: ["rīt", "riːt"],  // Rīt shifted from 'in the following morning' to 'tomorrow', like Spanish mañana; rīts is 'morning' (Wiktionary).
-    sq: ["nesër", "ˈnɛsər"],  // Nesër is usually derived from nes 'after'; another theory links it to the word for 'night' (Wiktionary, after Orel).
+    sq: ["nesër", "ˈnɛsəɾ"],  // Nesër is usually derived from nes 'after'; another theory links it to the word for 'night' (Wiktionary, after Orel).
     et: ["homme", "ˈhomːe"],  // Homme comes from Proto-Finnic *hoomën 'morning', which also gives hommik 'morning' (Wiktionary).
     ht: ["demen", "demɛ̃"],  // From French demain, itself from Latin dē māne 'early in the morning' (Wiktionary).
     jam: ["tumaro", "tumaro"],  // From English tomorrow, itself from Old English tō morgne 'on the morning' (Wiktionary).
@@ -1484,7 +1486,7 @@ WORDS.tomorrow = {
     st: ["hosane", "hosane"],  // Hosane is the Sesotho word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     tn: ["kamoso", "kamoso"],  // Kamoso, also written ka moso, is the Setswana word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     ts: ["mundzuku", "mundzuku"],  // Mundzuku is the Xitsonga word for tomorrow. No image is recorded for it, so it counts as a word of its own.
-    kab: ["azekka", "azəkka"],  // Azekka is the Kabyle word, cognate with Tashelhit azkka. Route by resemblance to the neighbouring forms (shi(ⴰⵣⴽⴽⴰ)); no etymology of its own.
+    kab: ["azekka", "azəkːa"],  // Azekka is the Kabyle word, cognate with Tashelhit azkka. Route by resemblance to the neighbouring forms (shi(ⴰⵣⴽⴽⴰ)); no etymology of its own.
     shi: ["ⴰⵣⴽⴽⴰ", "azkka"],  // Built on zikk 'early', so roughly 'the early (day)' (Wiktionary, after Stroomer).
     rif: ["ⵜⵉⵡⴻⵛⵛⴰ", "θiwəʃːa"],  // Tiwecca is the Tarifit word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     av: ["метер", "meter"],  // Метер is the Avar word for tomorrow. Unrelated to радал 'morning' and сордо 'night'.
@@ -1820,7 +1822,7 @@ WORDS.tomorrow = {
     sip: ["ཐོ་རངས", "tʰorãː"],  // Tʰorãː is the Sikkimese word for tomorrow; yesterday is a different word, dãː མདང, and the day after tomorrow is náŋtsi. No image is recorded for it, so it counts as a word of its own.
     cng: ["təpȵi", "təpȵi"],  // Təp-ȵi is the Ronghong Qiang word for tomorrow; yesterday is a different word, nə-s ('last day'). No image is recorded for it, so it counts as a word of its own.
     ekp: ["sele", "sele"],  // Se!le (with a downstep) is the Ẹkpẹyẹ word for tomorrow; ụ̀bò lị̀ covers both the day after tomorrow and the day before yesterday. No image is recorded for it, so it counts as a word of its own.
-    aae: ["nestrë", "nɛstrə"],  // Nestrë is the Arbëresh form of Albanian nesër, usually derived from nes 'after'; another theory links it to the word for 'night' (Wiktionary, after Orel); yesterday is dje.
+    aae: ["nestrë", "nɛstɾə"],  // Nestrë is the Arbëresh form of Albanian nesër, usually derived from nes 'after'; another theory links it to the word for 'night' (Wiktionary, after Orel); yesterday is dje.
     ch: ["agupaʼ", "aˈɡupaʔ"],  // Agupaʼ is the Chamorro word for tomorrow (Matthew 6:34 'y para agupa'), and esta agupaʼ means 'see you tomorrow'; yesterday is nigap. No image is recorded for it, so it counts as a word of its own.
     toj: ["jechel", "hetʃel"],  // Jechel is 'tomorrow' in both Tojolabal Bibles, written with the article as ja jecheli ('ja ya'n sok ja jecheli', 'today and tomorrow', Luke 13:32); yesterday is a different word, eke. No image is recorded for it, so it counts as a word of its own.
     ja_rys: ["あっつぁ", "attsa"],  // Miyara (Ishigaki) attsa, Hatoma atsa, comes from the word written 安志多 ashita in the Man'yōshū, which first meant 'the next morning', like Japanese 明日 ashita; yesterday is a different word, kɨnu.

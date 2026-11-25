@@ -71,6 +71,13 @@ WORDS.tobacco = {
     sw: "Tumbaku — jani ambalo watu huvuta. Kihispania na Kireno vilibeba neno moja duniani kote, Kiajemi kikalipitisha, na kwingine watu waliliita kwa moshi au dawa.",
   },
   family: {
+    acu: "plain",
+    bbc: "tanbaku",
+    pzh: "tabaco",
+    njo: "plain",
+    nmf: "plain",
+    jiu: "plain",
+    pmi: "smoke",
     ab: "smoke",
     ace: "plain",
     sq: "smoke",
@@ -669,6 +676,13 @@ WORDS.tobacco = {
     },
   },
   data: {
+    acu: ["tsaang", "tsaːŋ"],  // From huntergatherer Achuar tsaang.
+    bbc: ["timbaho", "timbaho"],  // From ACD Toba Batak: timbaho.
+    pzh: ["tamaku", "tamaku"],  // From ACD Pazeh: tamaku.
+    njo: ["moko", "moko"],  // From marrisonnaga Ao Chungli: mo◦ko.
+    nmf: ["meikhari", "meikʰari"],  // From marrisonnaga Tangkhul: meikhari.
+    jiu: ["jɔ44kho42", "jɔ˦˦kʰo˦˨"],  // From suntb Jinuo: jɔ⁴⁴kho⁴².
+    pmi: ["jɛ55pa55", "jɛ˥˥pa˥˥"],  // From suntb Pumi (Taoba): jɛ⁵⁵pa⁵⁵.
     ab: ["аҭаҭын", "atʼatʼən"],
     ace: ["bakông", "bakoŋ"],
     sq: ["duhan", "duˈhan"],  // From Arabic for 'smoke', through Ottoman.
@@ -697,7 +711,7 @@ WORDS.tobacco = {
     da: ["tobak", "toˈbak"],
     nl: ["tabak", "taːˈbɑk"],
     eo: ["tabako", "taˈbako"],
-    et: ["tubakas", "ˈtubakas"],  // Through Swedish or German.
+    et: ["tubakas", "ˈtubɑkɑs"],  // Through Swedish or German.
     fo: ["tubbak", "ˈtʰʊpːak"],
     fi: ["tupakka", "ˈtupɑkːɑ"],  // Through Swedish.
     fr: ["tabac", "taba"],
@@ -871,7 +885,7 @@ WORDS.tobacco = {
     yo: ["tábà", "tábà"],  // Borrowed from Hausa tāba, ultimately from Arabic ṭubbāq.
     hop: ["piva", "piva"],  // From Proto-Uto-Aztecan *pipaC.
     hch: ["yá", "ja"],  // From Proto-Uto-Aztecan *pipaC.
-    sid: ["araddo", "aɾadːo"],  // No origin is recorded for it, so it counts as a word of its own.
+    sid: ["araddo", "aradːo"],  // No origin is recorded for it, so it counts as a word of its own.
     krc: ["тютюн", "tyˈtyn"],  // From Proto-Turkic *tütün; the same word means smoke.
     haw: ["paka", "paka"],  // From English tobacco.
     ami: ["tamako^", "tamakoʔ"],  // No etymology is given; it resembles Japanese tabako.
@@ -892,7 +906,7 @@ WORDS.tobacco = {
     nog: ["туьтин", "tytin"],  // From Proto-Turkic *tütün, like Turkish tütün, a word for smoke.
     khb: ["ᦊᦱ", "jaː˥"],  // The word for medicine, from Proto-Tai *ˀjɯəᴬ 'medicine', like Thai ยา.
     rif: ["ⵟⵟⴰⴱⴰ", "tˤːɑβˤɑ"],  // Borrowed from Moroccan Arabic طابة ṭāba, from French tabac.
-    tig: ["ትምባክ", "tɨmbæːk"],  // Also 'tobacco pipe'. Route by resemblance to the neighbouring forms (Amharic ትምባሆ, Tigrinya ትምባኾ); no etymology of its own.
+    tig: ["ትምባክ", "təmbæːk"],  // Also 'tobacco pipe'. Route by resemblance to the neighbouring forms (Amharic ትምባሆ, Tigrinya ትምባኾ); no etymology of its own.
     ono: ["oyę́ʼgwaʼ", "ojɛ̃́ʔɡwaʔ"],  // No image is recorded for it, so it counts as a word of its own.
     lkt: ["čhaŋlí", "tʃʰãlí"],  // It also means 'cigarette'. No image is recorded for it, so it counts as a word of its own.
     pdt: ["Tobbak", "ˈtɔbak"],  // Ultimately from Spanish tabaco; compare German Tobak.

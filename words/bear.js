@@ -62,6 +62,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Matawi ya kaskazini ya lugha za Kihindi-Ulaya yaliacha jina la zamani, huenda kwa kuhofia kwamba kulitaja ni kumwita: lugha za Kigermanik humwita «yule wa kahawia», na za Kislavoni «mlaji wa asali».",
   },
   family: {
+    duu: "inherited",
     ibb: "unknown",
     tlh: "unknown",
     doi: "inherited",
@@ -1010,6 +1011,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    duu: ["ɕɯi", "ɕɯi"],  // From suntb Trung [Dulong]: ɕɯi⁵⁵.
     ibb: ["amọnikọd", "amɔnikɔd"],
     tlh: ["mIl'oD", "mɪlʔoɖ"],
     doi: ["रिच्छ", "ritʃːʰ"],
@@ -1265,7 +1267,7 @@ WORDS.bear = {
     tpi: ["bea", "bea"],
     so: ["orso", "orso"],
     zu: ["ibhere", "iˈbʱeːre"],
-    rw: ["idubu", "iduβu"],
+    rw: ["idubu", "idubu"],
     sn: ["bheya", "bʱeja"],
     pag: ["oso", "ˈʔoso"],
     hil: ["oso", "ˈʔoso"],
@@ -1953,7 +1955,7 @@ WORDS.bear = {
     ban: ["beruang", "bəruaŋ"],
     ceb: ["oso", "ˈʔoso"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
     war: ["uso", "ˈʔuso"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
-    bik: ["oso", "ˈoso"],
+    bik: ["oso", "ˈʔoso"],
     pam: ["osu", "ˈosu"],
     ami: ["tomay", "tomaj"],
     tay: ["ngarux", "ŋarux"],

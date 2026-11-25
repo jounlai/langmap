@@ -945,7 +945,7 @@ WORDS.pineapple = {
     rtm: ["pạinapa", "pɔinapa"],  // wordlist; also ponapa
     ho: ["painapol", "painapol"],  // "pineapple: painapol"
     meu: ["painapo", "painapo"],  // Lawes "Pineapple, Painapo. (Introduced.)"
-    gil: ["bainabora", "bainabora"],  // Bingham "Bainabora, n. (Eng.) a pineapple"
+    gil: ["bainabora", "bainaboɾa"],  // Bingham "Bainabora, n. (Eng.) a pineapple"
     nij: ["kanas", "kanas"],  // Hardeland: "KANAS, Ananas"; also example under HILA; both scans
     nci: ["matzahtli", "maˈtsaʔtɬi"],  // Molina's 1555 vocabulary glosses piña 'pineapple' as matzatli; no origin is recorded. A word of its own, unrelated to Tupi naná and to the pine-cone names.
     vo: ["nanad", "naˈnad"],  // No origin is recorded; it matches ananas in the languages around it.

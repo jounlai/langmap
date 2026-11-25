@@ -335,7 +335,7 @@ WORDS.fart = {
     km: ["ផោម", "pʰaom"],  // Native Khmer word.
     fi: ["pieru", "ˈpieru"],  // Native Finnic word.
     hu: ["fing", "fiŋɡ"],  // Onomatopoeic word.
-    el: ["πορδή", "porˈði"],  // Inherited from Ancient Greek πορδή.
+    el: ["πορδή", "poɾˈði"],  // Inherited from Ancient Greek πορδή.
     nl: ["scheet", "sxeːt"],
     pl: ["bąk", "bɔŋk"],  // bąk, also 'horsefly, bumblebee'.
     sv: ["fis", "fiːs"],  // Inherited from Old Norse fīs.
@@ -345,7 +345,7 @@ WORDS.fart = {
     cy: ["rhech", "r̥eːχ"],  // From Proto-Celtic *ɸrikkā, PIE *perd- (Wiktionary).
     hy: ["տեռ", "ter"],  // Wiktionary Armenian տեռ '(vulgar) fart, flatus (loud)'; probably onomatopoeic, cf. Kurmanji tirr (Ačaṙean 1913:1024b). Synonym թիս 'quiet fart'.
     hyw: ["թիս", "tʰis"],  // Wiktionary Armenian թիս '(vulgar) quiet fart', with Western Armenian audio; probably onomatopoeic.
-    nv: ["tłʼid", "tɬʼɪt"],  // Native Navajo word.
+    nv: ["tłʼid", "tɬʼìt"],  // Native Navajo word.
     mi: ["pīhau", "piːhau"],  // Native Māori word.
     qu: ["supi", "ˈsupi"],  // Native Quechua word.
     jv: ["entut", "əntut"],  // Native Javanese word.
@@ -360,7 +360,7 @@ WORDS.fart = {
     ml: ["വളി", "ʋaɭi"],  // Native Malayalam word.
     ku: ["fis", "fɪs"],  // Wiktionary Northern Kurdish fis (f.) 'fart' (rhymes -ɪs); synonyms kuş, piv, tirr.
     ps: ["تیز", "tiːz"],  // Raverty Pukhto Dict.: 'تیز tīz, s.m. (2nd) a fart. Pl. تیزونه'
-    az: ["osturaq", "ostuˈrɑχ"],  // osturmaq 'to fart' + -aq, deverbal noun (from Proto-Turkic *osur-); Wiktionary osturaq '(informal) fart, flatulence', IPA [ost(u)ˈrɑχ]
+    az: ["osturaq", "ostuˈɾɑχ"],  // osturmaq 'to fart' + -aq, deverbal noun (from Proto-Turkic *osur-); Wiktionary osturaq '(informal) fart, flatulence', IPA [ost(u)ˈrɑχ]
     ar_ma: ["حزقة", "ħazqa"],  // Noun from the verb ḥzaq "to fart".
     mt: ["bassa", "ˈbasːa"],  // Maltese noun related to the verb bass "to fart".
     ha: ["tusa", "tuːsaː"],  // Native Hausa noun.
@@ -395,9 +395,9 @@ WORDS.fart = {
     or: ["ପାଡ଼", "paːɽɔ"],  // Praharaj: 'ପାଡ଼ Pāṛa ... (ସଂ. ପର୍ଦ୍ଦନ) ... fart; wind passed through the anus'; inherited from Sanskrit parda (CDIAL 7931 'Or. pāṛa')
     en_south: ["fart", "fɑɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_app: ["fart", "fɑɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
-    en_in: ["fart", "faːrt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
+    en_in: ["fart", "faːrʈ"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_ie: ["fart", "fɑːɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
-    en_sco: ["fart", "fart"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
+    en_sco: ["fart", "faɹt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_yk: ["fart", "faːt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_ck: ["fart", "fɑːt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.
     en_scouse: ["fart", "faːt"],  // Inherited from Middle English fart, from Old English *feortan, Proto-Germanic *fertaną.

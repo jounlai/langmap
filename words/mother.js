@@ -1545,7 +1545,7 @@ WORDS.mother = {
     yiz: ["amo", "a˧˧mo˨˨"],
     hni: ["aqma", "a˧˩ma˧˧"],
     th_isan: ["แม่", "mɛː˦"],
-    th_n: ["แม่", "mɛː˥˩"],
+    th_n: ["แม่", "mɛː˦˩"],
     th_s: ["แม่", "mɛː˥˩"],
     za: {
       form: "𫱆",
@@ -2133,7 +2133,7 @@ WORDS.mother = {
     nso: ["mma", "mːa"],
     fan: ["nyia", "ɲia"],
     naq: ["ǁgûs", "ǁɡũːs"],
-    hts: ["ama", "ama"],
+    hts: ["ama", "ʔama"],
     nmn: ["qáe", "qae"],
     kr: ["ya", "ja"],
     men: ["nje", "ndʒe"],

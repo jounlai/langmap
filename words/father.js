@@ -1551,7 +1551,7 @@ WORDS.father = {
     yiz: ["atɪ", "a˧˧tɪ˨˨"],
     hni: ["aqda", "a˧˩da˧˧"],
     th_isan: ["พ่อ", "pʰɔː˦"],
-    th_n: ["พ่อ", "pʰɔː˥˩"],
+    th_n: ["ป้อ", "pɔː˥˥˨"],
     th_s: ["พ่อ", "pʰɔː˥˩"],
     za: {
       form: "佈",
@@ -2150,7 +2150,7 @@ WORDS.father = {
     nso: ["tate", "tate"],
     fan: ["tara", "tara"],
     naq: ["ǁgûb", "ǁɡũːb"],
-    hts: ["aba", "aba"],
+    hts: ["aba", "ʔaba"],
     nmn: ["a̰a", "a̰a"],
     kr: ["bawa", "bawa"],
     men: ["kɛkɛ", "kɛkɛ"],

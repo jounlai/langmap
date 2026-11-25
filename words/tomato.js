@@ -427,7 +427,7 @@ WORDS.tomato = {
     rue: "apple",
     lez: "apple",
     tzh: "nahuatl",
-    yua: "unknown",
+    yua: "other",
     cbk: "nahuatl",
     mt: "apple",
     szl: "nahuatl",

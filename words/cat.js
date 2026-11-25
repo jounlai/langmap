@@ -457,7 +457,7 @@ WORDS.cat = {
     bah: "kattuz",
     bzj: "plain",
     pap: "plain",
-    kea: "plain",
+    kea: "cattus",
     rom: "plain",
     rmy: "plain",
     rmf: "plain",

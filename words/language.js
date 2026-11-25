@@ -73,6 +73,9 @@ WORDS.language = {
     sw: "Lugha — lugha fulani, kama katika \"lugha ya Kijapani\". Lugha nyingi huiita kwa jina la ulimi au la kusema. Kifaransa langue, Kirusi язык, Kituruki dil na Kiajemi zabān maana yake ni ulimi, na Kiingereza language pia kinatoka Kifaransa cha kale langue. Kijerumani Sprache, Kiholanzi taal na Kisanskriti bhāṣā maana yake ni usemi, na bhāṣā ilifika hadi Kihindi, Kithai na Kiindonesia bahasa. Kichina 语言 na Kijapani 言語 ni \"usemi\" + \"maneno\". Kisomali af maana yake ni mdomo, Kiebrania שפה mdomo wa juu au chini, Kivietinamu tiếng sauti. Neno la Kiswahili lugha limetoka Kiarabu.",
   },
   family: {
+    jya: "plain",
+    pmi: "plain",
+    duu: "plain",
     lb: "speech",
     com: "plain",
     cic: "plain",
@@ -971,6 +974,9 @@ WORDS.language = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    jya: ["tə-rjo", "tərjo"],  // From naganorgyalrongic rGyalrong (Maerkang Soman): tə-rjo.
+    pmi: ["ɬiɛ55", "ɬiɛ˥˥"],  // From suntb Pumi (Taoba): ɬiɛ⁵⁵.
+    duu: ["kɑt", "kɑt"],  // From suntb Trung [Dulong]: kɑ̆t⁵⁵.
     lb: ["Sprooch", "ʃpʀoːχ"],
     com: ["tekwapʉ", "tekʷapɨ"],
     cic: ["anompa", "anompa"],
@@ -982,7 +988,7 @@ WORDS.language = {
     vi: ["tiếng", "tiəŋ˧˥"],  // Also 'sound, voice'; ultimately from Chinese 聲 'sound', likely through a Tai language.
     th: ["ภาษา", "pʰaː˧saː˩˩˦"],  // Borrowed from Pali bhāsā, from Sanskrit bhāṣā 'speech, language'.
     id: ["bahasa", "baˈhasa"],  // From Malay bahasa, from Sanskrit bhāṣā 'speech, language'.
-    ms: ["bahasa", "bahəsa"],  // Borrowed from Sanskrit bhāṣā 'speech, language'.
+    ms: ["bahasa", "bahasa"],  // Borrowed from Sanskrit bhāṣā 'speech, language'.
     hi: ["भाषा", "bʱaːʂaː"],  // Borrowed from Sanskrit bhāṣā 'speech, language', from bhāṣ 'to speak'.
     sa: ["भाषा", "bʱaːʂaː"],
     bn: ["ভাষা", "bʱaʃa"],
@@ -1048,7 +1054,7 @@ WORDS.language = {
     te: ["భాష", "bʱaːʂa"],
     kn: ["ಭಾಷೆ", "bʱaːʂe"],
     ml: ["ഭാഷ", "bʱaːʂɐ"],
-    tg: ["забон", "zabon"],
+    tg: ["забон", "zaˈbon"],
     ku: ["ziman", "zɪˈmɑːn"],
     ckb: ["زمان", "zɪmaːn"],
     ps: ["ژبه", "ˈʒəba"],
@@ -1068,7 +1074,7 @@ WORDS.language = {
     xh: ["ulwimi", "ulwiːmi"],
     af: ["taal", "tɑːl"],  // From Dutch taal; related to English tale and tell.
     bar: ["Språch", "ʃb̥rɔːx"],
-    yi: ["שפּראַך", "ʃpʁaχ"],  // Cognate with German Sprache.
+    yi: ["שפּראַך", "ʃpraχ"],  // Cognate with German Sprache.
     is: ["mál", "mauːl"],  // From Old Norse mál 'language, speech, matter'.
     gd: ["cànan", "ˈkʰãːnan"],  // Derived from cainnt 'speech'.
     br: ["yezh", "jeːs"],
@@ -1092,7 +1098,7 @@ WORDS.language = {
     pap: ["idioma", "idioma"],  // From Spanish idioma, from Greek ἰδίωμα 'peculiarity'.
     rom: ["ćhib", "tʃʰip"],
     rmf: ["tšimb", "tʃimp"],
-    se: ["giella", "ˈkie̯lla"],
+    se: ["giella", "ˈkie̯lːa"],
     sma: ["gïele", "ˈkɨɛlɛ"],
     sjd: ["кӣлл", "kiːlː"],
     yrl: ["nheenga", "ɲeˈʔẽɡa"],
@@ -1142,7 +1148,7 @@ WORDS.language = {
     ace: ["basa", "basa"],
     aa: ["af", "af"],  // Also 'mouth'.
     ks: ["زبان", "zabaːn"],
-    kok: ["भास", "bʰaːs"],
+    kok: ["भास", "bʱaːs"],
     rue: ["язык", "jaˈzɨk"],
     fur: ["lenghe", "ˈlɛŋɡe"],
     ast: ["llingua", "ˈʎiŋɡwa"],
@@ -1191,7 +1197,7 @@ WORDS.language = {
     tcy: ["ಬಾಸೆ", "baːse"],
     tyz: ["tiểng", "tiəŋ˨˩˧"],
     hne: ["भाखा", "bʱaːkʰaː"],
-    wym: ["śpröch", "ɕprøːç"],
+    wym: ["śpröch", "ʃprøːx"],
     ani: ["мицӏцӏи", "mitsʼːi"],
     huz: ["мыц", "mɨts"],
     khv: ["мец", "mets"],
@@ -1255,7 +1261,7 @@ WORDS.language = {
     en_aave: ["language", "ˈlæŋɡwɪdʒ"],
     en_au: ["language", "ˈlæŋɡwɪdʒ"],
     rmy: ["ćhib", "tʃʰip"],
-    smj: ["giella", "ˈkie̯lla"],
+    smj: ["giella", "ˈkie̯lːa"],
     en_south: ["language", "ˈlæŋɡwɪdʒ"],
     en_app: ["language", "ˈlæŋɡwɪdʒ"],
     en_in: ["language", "ˈlæŋɡʋɪɖʒ"],

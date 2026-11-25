@@ -618,7 +618,7 @@ WORDS.butterfly = {
     frr: "plain",
     an: "plain",
     abq: "plain",
-    tcs: "plain",
+    tcs: "butorfleoge",
     rar: "bebe",
     wba: "plain",
     arp: "plain",
@@ -1043,7 +1043,7 @@ WORDS.butterfly = {
     gu: ["પતંગિયું", "ˈpətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
     hil: ["alibangbang", "ʔaliˈbaŋbaŋ"],  // reduplicated -bangbang, from Proto-Malayo-Polynesian *baŋbaŋ; the same word names the Bauhinia tree, for its butterfly-shaped leaves
     kg: ["lumbembambemba", "lumbembambemba"],  // reduplicated stem -bemba-bemba with class 10 lu- prefix
-    ki: ["kĩĩhuruta", "keːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
+    ki: ["kĩĩhuruta", "keːhuɾuːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
     kwk: ["ha̱mumu", "həmumu"],  // reduplicative in shape (ha̱-mu-mu)
     lo: ["ແມງກະເບື້ອ", "mɛːŋ˧˥ ka˧˥ bɯːə̯˥˨"],  // compound of ແມງ 'insect' + ກະເບື້ອ, which on its own means 'moth'; the whole word covers butterflies and moths
     luo: ["oguyo", "oɡujo"],  // Odaga gives oguyo for 'moth' and defines 'larva' as an insect that grows and turns into an oguyo; no separate butterfly word is listed
@@ -1167,7 +1167,7 @@ WORDS.butterfly = {
     ceb: ["alibangbang", "ʔalibaŋˈbaŋ"],  // Reduplicated -bang-bang. ACD transcribes it alibaŋbáŋ; respelled here in the row's standard Cebuano orthography (ŋ = ng), as in the row's own langgam.
     ace: ["bangbang", "baŋbaŋ"],  // a reduplication, ACD's PWMP *baŋbaŋ set (cf. Cebuano alibangbang); variant bambang; covers moths too (bangbang sutra 'silk moth')
     iba: ["kelelaway", "kələlawaj"],
-    fj: ["bēbē", "ᵐbeːᵐbeː"],  // Reduplicated bē-bē — the Oceanic *bebe root.
+    fj: ["bēbē", "mbeːmbeː"],  // Reduplicated bē-bē — the Oceanic *bebe root.
     sm: ["pepe", "pepe"],  // Reduplicated pe-pe; POLLEX reconstructs *pepe 'butterfly' to Proto-Oceanic.
     to: ["pepe", "pepe"],  // Reduplicated pe-pe; POLLEX reconstructs *pepe 'butterfly' to Proto-Oceanic.
     tvl: ["pepe", "pepe"],  // Reduplicated pe-pe; POLLEX reconstructs *pepe 'butterfly' to Proto-Oceanic.
@@ -1300,7 +1300,7 @@ WORDS.butterfly = {
     quc: ["pepe", "pepe"],  // reduplication, from proto-Mayan *pehpen; the ALMG vocabulary lists penpen as a second reduplicated variant
     cak: ["palamax", "palamaʃ"],  // Kaqchikel has dropped the pan-Mayan *pehpen word (Kaufman's PMED still records pepe for the Itzapa variety); variants malax / amalax
     nci: ["pāpālōtl", "paːˈpaːloːtɬ"],  // borrowed into Mexican Spanish as papalote
-    tar: ["nakarópari", "nakaropari"],  // the dictionary spells it nacarópari in SIL orthography; respelled c→k, hu→w to match this row (cf. its ca'huara → kaʼwá, ba'hui → bawí)
+    tar: ["nakarópari", "nakaɾopaɾi"],  // the dictionary spells it nacarópari in SIL orthography; respelled c→k, hu→w to match this row (cf. its ca'huara → kaʼwá, ba'hui → bawí)
     hch: ["kɨpí", "kɨˈpi"],  // McIntosh & Grimes's c is /k/ (their ciye 'tree' = this row's kiyé) and their ɨ is this row's ï; the second vowel is legible only through OCR, hence the low confidence
     nv: ["kʼaalógii", "kʼɑ̀ːlókìː"],  // the Analytical Lexicon gives no etymology for it
     acu: ["shimpiampu", "ʃimpiampu"],  // The database also records wámpang, glossed 'giant blue butterfly'.
@@ -1310,7 +1310,7 @@ WORDS.butterfly = {
     kwa: ["mem", "mem"],
     quy: ["pillpintu", "piʎpintu"],  // The same Central Andean word as Aymara pilpintu; reduplicative pil-pin-.
     wmt: ["pirrpirntipirnti", "pirpiɳʈipiɳʈi"],  // Reduplicated pirrpirnti-pirnti.
-    com: ["ueyahkorooʼ", "uejahkoɾo"],  // The database gives the form in a Spanish-influenced orthography.
+    com: ["ueyahkorooʼ", "uejahkoɾoːʔ"],  // The database gives the form in a Spanish-influenced orthography.
     mcf: ["podochued", "podotʃued"],  // The database also records tucudu.
     nij: ["kakupu", "kakupu"],  // Reduplicative ka-kupu — the same kupu root that Javanese and Indonesian reduplicate as kupu-kupu.
     dtp: ["kuhibambang", "kuhibambaŋ"],  // Contains the reduplicative bam-bang also seen in Acehnese bambang. Smith writes kuhibambaŋ; respelled ng, as in the row's own tombolog/bohuang orthography.
@@ -1687,7 +1687,7 @@ WORDS.butterfly = {
     wym: ["mulkiadrymuł", "ˈmulkiadrɨmuw"],
     mhy: ["laluŋ", "laluŋ"],
     ale: ["аг̆лак̆иидах̆", "aɣlaqiːðaχ"],
-    th_n: ["ก่ำเบ้อ", "kam˨˩bɤː˥˩"],
+    th_n: ["ก่ำเบ้อ", "kam˨˩bɤː˥˥˨"],
     zh_tj: ["蝴蝶", "fu˦˥ tie˦˥"],
     zh_cq: ["蝴蝶", "fu˨˩ tie˨˩"],
     kim: ["үзүдэк", "yzydek"],

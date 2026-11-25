@@ -67,6 +67,10 @@ WORDS.wife = {
     sw: "Mke — mwanamke katika ndoa. Lugha nyingi zaidi zina neno lake, nyingine husema tu “mwanamke”, na chache hutumia neno moja kwa wanandoa wote.",
   },
   family: {
+    rim: "unknown",
+    myx: "unknown",
+    jqr: "unknown",
+    aae: "unknown",
     ab: "woman",
     af: "woman",
     ain: "own",
@@ -458,7 +462,7 @@ WORDS.wife = {
     ket: "woman",
     egl: "mulier",
     mag: "woman",
-    mni: "unknown",
+    mni: "own",
     dv: "own",
     lus: "own",
     kok: "woman",
@@ -468,7 +472,7 @@ WORDS.wife = {
     nag: "woman",
     khw: "vadhu",
     eve: "woman",
-    sd: "unknown",
+    sd: "own",
     xkz: "own",
     txg: "own",
     ett: "unknown",
@@ -490,7 +494,7 @@ WORDS.wife = {
     mfa: "binahi",
     gd: "woman",
     shn: "mia",
-    zza: "unknown",
+    zza: "own",
     mch: "own",
     gmh: "woman",
     prs: "woman",
@@ -1003,9 +1007,13 @@ WORDS.wife = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    rim: ["mukhema", "mukʰema"],  // From grollemundbantu, tls Nyaturu mukhema.
+    myx: ["umukhasi", "umukʰasi"],  // From grollemundbantu, tls Lumasaaba umukhasi.
+    jqr: ["warmi", "waɾmi"],  // From crossandean Jaqaru warmi.
+    aae: ["grua", "ˈɡɾua"],  // From iecor Arbëresh grua.
     ab: ["аԥҳәыс", "apʰħʷəs"],
     af: ["vrou", "frœu̯"],
-    ain: ["マチ", "matʃi"],
+    ain: ["マチ", "matɕi"],
     ak: ["ɔyere", "ɔjere"],
     sq: ["grua", "ˈɡɾua"],
     am: ["ሚስት", "mist"],
@@ -1015,7 +1023,7 @@ WORDS.wife = {
     av: ["лъади", "ɬːadi"],
     az: ["arvad", "ɑɾˈvɑd"],
     ba: ["ҡатын", "qɑˈtɯ̞n"],
-    eu: ["emazte", "emaste"],
+    eu: ["emazte", "emas̻te"],
     bbl: ["ფსტუ", "pstʼu"],
     be: ["жонка", "ˈʐonka"],
     bn: ["বউ", "bou̯"],  // The everyday word, which also means bride and daughter-in-law; বেগম is an honorific for a Muslim lady.
@@ -1025,7 +1033,7 @@ WORDS.wife = {
     bxr: ["һамган", "hamɡan"],
     ca: ["dona", "ˈdonə"],
     ceb: ["asawa", "ʔaˈsawa"],
-    ce: ["зуда", "zuudə"],
+    ce: ["зуда", "zuːdə"],
     cic: ["imihoo", "imihoː"],
     kw: ["gwreg", "ɡwrɛɡ"],
     cs: ["manželka", "ˈmanʒɛlka"],
@@ -1050,7 +1058,7 @@ WORDS.wife = {
     myv: ["ни", "ɲi"],
     udm: ["кышно", "kɨʃˈno"],
     koi: ["инь", "iɲ"],
-    kpv: ["инь", "iɲ"],
+    kpv: ["гӧтыр", "ˈɡɘtɨr"],
     hu: ["feleség", "ˈfɛlɛʃeːɡ"],
     kca: ["ими", "ˈimi"],
     hi: ["बीवी", "biːʋiː"],
@@ -1067,7 +1075,7 @@ WORDS.wife = {
     ru: ["жена", "ʐɨˈna"],
     lt: ["žmona", "ʒmoˈna"],
     lv: ["sieva", "ˈsiɛva"],
-    is: ["eiginkona", "ˈɛijɪŋ̥kɔna"],  // A compound of kona 'woman'.
+    is: ["eiginkona", "ˈeijɪnˌkʰɔːna"],  // A compound of kona 'woman'.
     nn: ["hustru", "ˈhʉstrʉː"],
     no: ["hustru", "ˈhʉstrʉː"],
     sv: ["hustru", "ˈhɵsːtrɵ"],
@@ -1096,7 +1104,7 @@ WORDS.wife = {
     kn: ["ಹೆಂಡತಿ", "heŋɖət̪i"],
     ml: ["ഭാര്യ", "bʰaːɾja"],
     ta: ["மனைவி", "manaiʋi"],
-    te: ["భార్య", "bʰaːrja"],
+    te: ["భార్య", "bʱaːɾja"],
     ka: ["ცოლი", "tsʰoli"],
     ady: ["шъуз", "ʂʷəz"],
     lez: ["паб", "pab"],
@@ -1377,7 +1385,7 @@ WORDS.wife = {
     lij: ["mogê", "muˈdʒeː"],  // From Latin mulierem; the word for woman is dònna.
     orh: ["atɪrkan", "atɪrkan"],  // The word for woman is aʃɪ.
     ofs: ["wīf", "wiːf"],  // The same word means woman; from Proto-Germanic wībą.
-    lb: ["Fra", "fraː"],  // The same word means woman; from Old High German frouwa.
+    lb: ["Fra", "fʁaː"],  // The same word means woman; from Old High German frouwa.
     rw: ["umugore", "umuɡoɾe"],  // The same word means woman.
     ln: ["mwǎsí", "mwǎsí"],  // The same word means woman.
     nlc: ["gel", "ɡel"],  // The same word means woman.
@@ -1386,7 +1394,7 @@ WORDS.wife = {
     gor: ["binggele", "biŋɡele"],  // Wiktionary gives taa bua for woman, a different word.
     tar: ["upí", "upi"],  // Hilton's Tarahumara dictionary gives muqui for woman and cuna for husband.
     dlg: ["дьактар", "dʲaktar"],  // The same word means woman; cognate with Yakut дьахтар.
-    bej: ["hiyu", "ˈhiju"],  // The same word means husband.
+    bej: ["hiyu", "hiju"],  // The same word means husband.
     bgc: ["बीर", "biːr"],  // The same word means woman.
     ny: ["mkazi", "m̩ˈkazi"],  // The same word means woman; from Proto-Bantu mʊ̀kádí.
     xmr: ["𐦱𐦨", "səma"],  // The word for woman is a different one, 𐦲𐦷𐦢 (Wiktionary).
@@ -1394,7 +1402,7 @@ WORDS.wife = {
     ket: ["ӄим", "qʲim"],  // One word for woman and wife, inherited from Proto-Yeniseian *qim 'woman'.
     egl: ["mujêr", "muˈjeːr"],  // From Latin mulier; the word for woman is dòna (Wiktionary).
     mag: ["मेहरारू", "meːhraːruː"],  // One word for woman and wife.
-    mni: ["ꯇꯥꯂꯣꯏ", "taloi"],  // The source gives this one word for wife; no word for woman is beside it, so the route is unknown.
+    mni: ["ꯇꯥꯂꯣꯏ", "taloi"],  // Woman is ꯅꯨꯄꯤ (Wiktionary).
     dv: ["އަނބި", "aᵐbi"],  // Inherited from Sanskrit ambā; the word for woman is އަންހެނާ anhenā (Wiktionary).
     lus: ["nupui", "nupui"],  // Nu 'mother' + -pui, an augmentative suffix; the word for woman is hmeichhia (Wiktionary).
     kok: ["बायल", "baːjl"],  // One word for woman and wife.
@@ -1404,7 +1412,7 @@ WORDS.wife = {
     nag: ["maiki", "maiki"],  // One word for woman and wife, from Assamese মাইকী.
     khw: ["بؤوک", "bɔˈʊk"],  // From Sanskrit vadhūkkā 'bride'; the word for woman is کمیری kimeri (Wiktionary).
     eve: ["аси", "asi"],  // One word for woman and wife, from Proto-Tungusic *asī.
-    sd: ["جوءِ", "dʒoːi"],  // Inherited from Prakrit juvaï, from Sanskrit युवति yuvatí 'young woman'; the entry gives no word for woman beside it.
+    sd: ["جوءِ", "dʒoːi"],  // Inherited from Prakrit juvaï, from Sanskrit युवति yuvatí 'young woman'; woman is عورت or زال (Wiktionary).
     xkz: ["’nêsang", "néːsaŋ"],  // Hyslop's Kurtöp grammar gives nésaŋ for wife and 'ama or moja for woman.
     txg: ["𗪰", "ɡji˧˥"],  // A word of its own; the word for woman is 𗶈 *dẹ¹.
     ett: ["puia", "ˈpuia"],  // Perhaps related somehow to Ancient Greek ὀπυίω 'to marry'; no Etruscan word for woman stands beside it.

@@ -73,6 +73,7 @@ WORDS.window = {
     sw: "Dirisha — tundu ukutani linaloingiza mwanga na hewa. Window ya Kiingereza ni “jicho la upepo” la Kinorsi cha Kale, na okno ya Kislavoni inatoka neno la jicho. Fenestra ya Kilatini ilienea Ulaya yote. Janela ya Kireno ni “mlango mdogo”, na ilisafiri hadi Indonesia.",
   },
   family: {
+    jiu: "plain",
     ab: "panjara",
     agx: "plain",
     ani: "plain",
@@ -828,6 +829,7 @@ WORDS.window = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    jiu: ["a33pho35", "a˧˧pʰo˧˥"],  // From suntb Jinuo: a³³pho³⁵.
     ab: ["аԥенџьыр", "apʰendʒɨr"],
     agx: ["дакІар", "dakʼar"],
     ani: ["ингур", "inɡur"],
@@ -894,7 +896,7 @@ WORDS.window = {
     ug: ["دېرىزە", "derize"],
     vro: ["akõn", "akɤn"],  // Route by resemblance to the neighbouring forms (et); no etymology of its own.
     wo: ["palanteer", "palanteːr"],
-    yo: ["fèrèsé", "fèrèsé"],
+    yo: ["fèrèsé", "fèɾèsé"],
     zu: ["ifasitela", "ifasitela"],  // Route by resemblance to the neighbouring forms (af); no etymology of its own.
     zza: ["teqa", "teqa"],
     zh: ["窗户", "ʈʂʰwɑŋ˥ xu˥˩"],
@@ -929,9 +931,9 @@ WORDS.window = {
     sv: ["fönster", "ˈfœnstɛr"],
     uk: ["вікно", "ʋikˈnɔ"],
     xal: ["терз", "tertse"],
-    mn: ["гэгээвч", "ɡeɡeːwtʃ"],
+    mn: ["гэгээвч", "ɡeɡeːwtʃʰ"],
     koi: ["ӧшын", "ɘʃɨn"],
-    kpv: ["ӧшын", "ɘʃɨn"],
+    kpv: ["ӧшинь", "ˈɘʃiɲ"],
     hr: ["prozor", "prǒːzor"],
     sq: ["dritare", "dɾiˈtaɾɛ"],  // From dritë 'light'.
     aa: ["taagat", "taːɡat"],
@@ -1040,7 +1042,7 @@ WORDS.window = {
     cy: ["ffenestr", "ˈfɛnɛstr"],
     xh: ["ifestile", "ifestiːle"],
     sah: ["түннүк", "tynːyk"],
-    yi: ["פענצטער", "ˈfɛntstəʁ"],  // Route by resemblance to the neighbouring forms (nap,fy,sv); no etymology of its own.
+    yi: ["פענצטער", "ˈfɛntstər"],  // Route by resemblance to the neighbouring forms (nap,fy,sv); no etymology of its own.
     fkv: ["ikkuna", "ˈikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
     olo: ["ikkun", "ˈikːun"],  // Route by resemblance to the neighbouring forms (fi,krl,fkv); no etymology of its own.
     liv: ["lä’b", "læˀb"],
@@ -1187,7 +1189,7 @@ WORDS.window = {
     mtq: ["vỏng", "vɔŋ"],  // No image is recorded for it, so it counts as a word of its own.
     sjo: ["ᡫᠠ", "fɑ"],  // Inherited from Manchu ᡶᠠ fa, from Proto-Tungusic *page.
     nag: ["kidki", "kidki"],  // From Assamese খিৰিকী khiriki 'window'.
-    tig: ["ሽባክ", "ʃɨbbak"],  // From Arabic شباك šubbāk.
+    tig: ["ሽባክ", "ʃəbbak"],  // From Arabic شباك šubbāk.
     ain: ["プヤㇻ", "pujaɾ"],  // No image is recorded for it, so it counts as a word of its own.
     frp: ["fenétra", "fəˈnetra"],  // Inherited from Latin fenestra.
     mzn: ["آبشکه", "ɒbəʃkɐ"],  // Compare Nishaburi Persian آغشکه âġəška 'window'. No image is recorded for it, so it counts as a word of its own.

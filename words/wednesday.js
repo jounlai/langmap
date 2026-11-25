@@ -834,7 +834,7 @@ WORDS.wednesday = {
     sl: ["sreda", "ˈsreːda"],
     bg: ["сряда", "ˈsrʲa̟dɐ"],
     lv: ["trešdiena", "ˈtrɛʒdiɛna"],
-    sq: ["e mërkurë", "ɛmərˈkurə"],
+    sq: ["e mërkurë", "ɛməɾˈkuɾə"],
     et: ["kolmapäev", "ˈkolmɑˌbæev"],
     ht: ["mèkredi", "mɛkɣedi"],
     pap: ["djarason", "dʒarason"],  // dia 'day' + ração 'ration'.
@@ -862,7 +862,7 @@ WORDS.wednesday = {
     ak: ["Wukuada", "wukuada"],
     mk: ["среда", "ˈsrɛda"],
     kl: ["pingasunngorneq", "piŋasuŋːoɴeq"],
-    ce: ["кхаара", "qxaʔara"],
+    ce: ["кхаара", "qaʔara"],
     inh: ["кхаьра", "qχæːra"],
     av: ["арбагӏ", "arbaʕ"],
     lez: ["арбе", "arbe"],
@@ -886,7 +886,7 @@ WORDS.wednesday = {
     fax: ["mérculis", "ˈmeɾkulis"],
     wa: ["mierkidi", "mjɛʀkiˈdi"],
     kpv: ["середа", "ˈɕereda"],
-    udm: ["вирнунал", "ʋirnuˈnäl"],
+    udm: ["вирнунал", "virnuˈnäl"],
     mhr: ["вӱргече", "vyrˈɡetɕe"],  // вӱр 'blood' + кече 'day', a calque of Tatar.
     mrj: ["вӹрчегӹ", "vɯrtʃeɣɯ"],
     myv: ["серёда", "sʲerʲoda"],
@@ -896,7 +896,7 @@ WORDS.wednesday = {
     tt: ["чәршәмбе", "tʃærʃæmbe"],
     ba: ["шаршамбы", "ʃɑrˈʃɑmbɯ̞"],
     pwo: ["ပူၬတပၠါ", "pouʔ tə pja"],
-    shn: ["ပုၵ်ႈတႁူး", "puk̚˧˧˨ta˨˦huː˥"],
+    shn: ["ပုၵ်ႈတႁူး", "puk˧˨ta˨˦huː˥"],
     ee: ["Kuɖagbe", "kuɖaɡbe"],
     ess: ["среда", "srjɛda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     lmo: ["mercoldí", "merkurˈdi"],
@@ -966,7 +966,7 @@ WORDS.wednesday = {
     en_aave: ["Wednesday", "ˈwɛnzdeɪ"],
     en_au: ["Wednesday", "ˈwenzdæɪ"],
     de_at: ["Mittwoch", "ˈmɪtvɔx"],
-    smj: ["gaskavahkku", "ˈkasːkaˌvahːkuː"],
+    smj: ["gasskavahkko", "ˈɡɑsːkɑˌvɑhːkuɔ"],
     en_south: ["Wednesday", "ˈwɛnzdæɪ"],
     en_app: ["Wednesday", "ˈwɛnzdeɪ"],
     en_in: ["Wednesday", "ˈʋɛnzɖeː"],
@@ -1057,7 +1057,7 @@ WORDS.wednesday = {
     ami: ["sananoman", "sananoman"],  // From nanom 'water', as Japanese 水曜日.
     wo: ["àllarba", "alːarba"],  // From Arabic الأربعاء 'the fourth'.
     crs: ["merkredi", "mɛrkredi"],  // From French mercredi.
-    krl: ["kolmaspäivy", "ˈkolmɑspæivy"],  // 'Third day'.
+    krl: ["kolmasarki", "ˈkolmɑsɑrki"],  // 'Third weekday'.
     ty: ["Mahana toru", "mahana toɾu"],  // mahana 'day' + toru 'three'.
     st: ["Laboraro", "laboraro"],  // Contraction of letsatsi la boraro 'the third day'.
     rup: ["Njercuri", "ˈɲerkuri"],
@@ -1222,7 +1222,7 @@ WORDS.wednesday = {
     nd: ["Lwesithathu", "lwesitʰatʰu"],
     swb: ["mufumotsano", "mufumotsano"],
     toi: ["Bwatatu", "bwatatu"],
-    ts: ["Ravunharhu", "ravunʱarʱu"],
+    ts: ["Ravunharhu", "raβunʱarʱu"],
     umb: ["Votatu", "votatu"],
     vmw: ["Namararu", "namaɾaɾu"],
     aae: ["e mërkurja", "e məɾˈkuɾja"],

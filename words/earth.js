@@ -417,7 +417,7 @@ WORDS.earth = {
     quc: "plain",
     ht: "terra",
     gcr: "plain",
-    acf: "plain",
+    acf: "terra",
     gcf: "plain",
     mfe: "terra",
     rcf: "plain",

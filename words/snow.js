@@ -67,7 +67,7 @@ WORDS.snow = {
     pt_mo: "sneygw",
     lb: "sneygw",
     gcr: "plain",
-    acf: "plain",
+    acf: "sneygw",
     gan_yc: "xue",
     gan_ja: "xue",
     gan_fz: "xue",
@@ -1165,7 +1165,7 @@ WORDS.snow = {
     trm: ["źim", "dzim"],
     sw: ["theluji", "θeˈludʒi"],
     tl: ["niyebe", "niˈjebe"],
-    mn: ["цас", "tsas"],
+    mn: ["цас", "tsʰas"],
     sah: ["хаар", "xaːr"],
     tyv: ["хар", "xar"],
     kjh: ["хар", "xar"],
@@ -1278,7 +1278,7 @@ WORDS.snow = {
     ky: ["кар", "qɑr"],
     uz: ["qor", "qɒɾ"],
     tk: ["gar", "ɡaːɾ"],
-    mn_cn: ["ᠴᠠᠰᠤ", "tsas"],
+    mn_cn: ["ᠴᠠᠰᠤ", "tʃʰas"],
     mnc: ["ᠨᡳᠮᠠᠩᡤᡳ", "nimaŋɡi"],
     sjo: ["ᠨᡞᠮᠠᡢᡤᡞ", "nimɑŋ"],
     ar_eg: ["تلج", "talɡ"],
@@ -1768,8 +1768,8 @@ WORDS.snow = {
     rmt: ["xiif", "xiːf"],
     dv: ["ސްނޯ", "snoː"], // English loan — Dhivehi has no inherited term (E-D/D-E Dictionary 2005)
     tcy: ["ಹಿಮ", "ˈhima"], // Sanskrit tatsama; Männer 1886 glosses snow, hoar-frost, dew
-    nag: ["borop", "bɔɾɔp"], // Persian barf via Assamese বৰফ
-    khb: ["ᦵᦖᧀᦉᦏᦱᧇ", "mɤj satʰaːp"], // Hanna, Dai Lue-English Dictionary — kept distinct from frost
+    nag: ["borop", "bɔrɔp"], // Persian barf via Assamese বৰফ
+    khb: ["ᦵᦖᧀᦉᦏᦱᧇ", "mɤj˥ satʰaːp˧˥"], // Hanna, Dai Lue-English Dictionary — kept distinct from frost
     nan_hai: ["雪", "te˥˥"],
     kho: ["𑀩𑁅𑀭", "baura"], // Bailey, Dictionary of Khotan Saka 305-306
     txg: ["𗎆", "wji˧"], // Li Fanwen 4091
@@ -1823,7 +1823,7 @@ WORDS.snow = {
     nch: ["sital set", "sital set"], // lit. star-ice; contrasted with tesihuit hail at Job 38:22
     nhw: ["sitlal setl", "sitɬal setɬ"], // lit. star-ice; contrasted with tesihuitl hail
     gun: ["yroʼy apĩgue", "ɨɾoʔɨ apĩŋɡʷe"], // Dooley, Léxico Guarani Mbyá — Neve, granizo fino
-    gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo,
+    gn: ["yrypyʼa veve", "ɨɾɨpɨʔa ʋeʋe"], // neologism, lit. flying ice; yrypyʼa alone is hielo,
     nmf: ["horam", "horam"],
     orh: ["ɪmana", "ɪmana"],
     swi: ["ʔnui1", "ʔnui˩˩"],

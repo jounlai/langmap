@@ -67,6 +67,8 @@ WORDS.earthquake = {
     sw: "Tetemeko la ardhi — ardhi inapotikisika. Lugha nyingi husema hivyo hasa: Kijerumani Erdbeben, Kihispania terremoto, Kihindi भूकंप, Kichina 地震 na Kivietinamu động đất vyote ni “ardhi” pamoja na “tikisa”. Neno la Kiarabu zalzala lilienea katika ulimwengu wa Kiislamu, hadi Kiajemi زلزله, Kiurdu زلزلہ na Kiuzbeki zilzila, huku Ufilipino ikiwa na maneno yake kama linog.",
   },
   family: {
+    ha: "plain",
+    itb: "plain",
     acn: "plain",
     af: "earth",
     aii: "shake",
@@ -701,6 +703,8 @@ WORDS.earthquake = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    ha: ["girgizar ƙasa", "ɡiɽɡizaɽ kʼasaː"],  // From ids girgizar kˀasa.
+    itb: ["ninih", "ninih"],  // From ACD Itbayaten: ninih.
     acn: ["in31san35", "in˧˩san˧˥"],
     af: ["aardbewing", "ˈɑːrtbeːvəŋ"],  // Built on the word for earth or land.
     aii: ["ܪܥܘܕܢܐ", "rʕoːðaːnaː"],
@@ -805,7 +809,7 @@ WORDS.earthquake = {
     roo: ["ravurike", "ɾaβuɾike"],
     rtm: ["rue", "rue"],
     ru: ["землетрясение", "zʲɪmlʲɪtrʲɪˈsʲenʲɪjə"],  // Built on the word for earth or land.
-    rw: ["umutingito", "umutinɡito"],
+    rw: ["umutingito", "umutiŋɡito"],
     sa: ["भूकम्प", "bʱuːkɐmpɐ"],  // Built on the word for earth or land.
     scn: ["tirrimotu", "tirriˈmɔtu"],  // Built on the word for earth or land.
     sd: ["زلزلو", "zəlzəloː"],  // From Arabic زلزلة zalzala.
@@ -838,7 +842,7 @@ WORDS.earthquake = {
     uz: ["zilzila", "zilzila"],  // From Arabic زلزلة zalzala.
     vi: ["động đất", "ɗəwŋ˧˨ʔ ɗət˧˥"],  // Built on the word for earth or land.
     vo: ["taladrem", "talaˈdrem"],
-    vro: ["maavärrin", "mɑɑværrin"],  // Built on the word for earth or land.
+    vro: ["maavärrin", "mɑːværːin"],  // Built on the word for earth or land.
     war: ["linog", "ˈlinoɡ"],
     xal: ["һазр догдллһн", "ɣazrdoɡdllɣn"],  // Built on the word for earth or land.
     yue: ["地震", "tei˨ tsɐn˧"],  // Built on the word for earth or land.

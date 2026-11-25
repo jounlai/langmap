@@ -552,7 +552,7 @@ WORDS.monday = {
     aja: "unknown",
     nij: "count",
     hwc: "moon",
-    tly: "unknown",
+    tly: "count",
     bxr: "moon",
     lij: "moon",
     pdt: "moon",
@@ -628,7 +628,7 @@ WORDS.monday = {
     jup: "count",
     tob: "moon",
     afb: "count",
-    zdj: "unknown",
+    zdj: "count",
     tzm: "unknown",
     osa: "other",
     djr: "moon",
@@ -894,7 +894,7 @@ WORDS.monday = {
     ur: ["پیر", "piːɾ"],  // The same word as pīr "elder; Sufi saint", from Persian; somvār "moon day" is chiefly Indian.
     ta: ["திங்கட்கிழமை", "t̪iŋɡaʈkiɻamai"],  // tiṅkaḷ "moon" + kiḻamai "day".
     sw: ["Jumatatu", "dʒumaˈtatu"],  // juma "week" + tatu "three": day three of the week.
-    zu: ["uMsombuluko", "umsombuluɠo"],  // From sombuluka, "to unroll, unravel".
+    zu: ["uMsombuluko", "umsombuluko"],  // From sombuluka, "to unroll, unravel".
     yo: ["ọjọ́ Ajé", "ɔdʒɔ́ adʒé"],  // ọjọ́ "day" + Ajé, wealth: "the day of wealth" (Wikipedia, Yoruba calendar).
     cic: ["Nittak Ammoʼnaʼ", "nitːak amːoʔnaʔ"],  // "The day that is first": nittak "day" + ammoʼna "to be first".
     sd: ["سومر", "suːmərʊ"],  // Probably from Sanskrit somavāra, "moon day".
@@ -928,7 +928,7 @@ WORDS.monday = {
     af: ["Maandag", "ˈmɑːndəχ"],  // From Dutch maandag, maan "moon" + dag "day".
     pdc: ["Mundaag", "mʊndaːk"],  // Inherited "moon-day", Muhn "moon" + Daag "day".
     yi: ["מאָנטיק", "ˈmɔntɪk"],  // Inherited from Middle High German mōntac, "moon's day".
-    is: ["mánudagur", "ˈmauːnʏtaɣʏr"],  // From Old Norse mánadagr, "moon's day", a calque of Latin diēs Lūnae.
+    is: ["mánudagur", "ˈmauːnʏˌtaːɣʏr"],  // From Old Norse mánadagr, "moon's day", a calque of Latin diēs Lūnae.
     gd: ["Diluain", "tʲəˈl̪ˠũə̃ɲ"],  // A calque of Latin diēs Lūnae, "day of the Moon".
     br: ["Lun", "lỹn"],  // The same word as Lun "the Moon", from Latin lūna.
     scn: ["luni", "ˈluni"],  // From Latin Lūnae diēs, "day of the Moon".
@@ -1237,7 +1237,7 @@ WORDS.monday = {
     nds: ["Maandag", "ˈmaːndax"],  // From Middle Low German mânendach, 'day of the moon', a calque of Latin diēs Lūnae.
     nap: ["lunnerì", "lunnəˈri"],  // From Latin lunae dies, 'day of the Moon' (Neapolitan Wikipedia); lunnedì is also written.
     min: ["Sinayan", "sinajan"],  // Also written senayan; the source gives no etymology, though it resembles Indonesian Senin and Malay Isnin, from Arabic al-ithnayn 'the two'. Route by resemblance to the neighbouring forms (Banjar Sanayan); no etymology of its own.
-    gn: ["arakõi", "arakõĩ"],  // ára 'day' + mokõi 'two': the second day; Wiktionary labels it a neologism of the standardised language.
+    gn: ["arakõi", "aɾakõĩ"],  // ára 'day' + mokõi 'two': the second day; Wiktionary labels it a neologism of the standardised language.
     ff: ["aaɓnde", "aːɓnde"],  // The Pular name of Monday, also aaɓunde; tenen, from Arabic al-ithnayn, is a synonym.
     bm: ["ntɛnɛn", "ntɛ̀nɛn"],  // From Arabic al-ithnayn 'the two', the second day counting from Sunday; ntɛnɛ is a variant.
     kab: ["letnayen", "lətnajən"],  // The everyday name; the newer Berber coinage Arim is used in writing and in CLDR, and the source gives no etymology for letnayen. Route by resemblance to the neighbouring forms (Egyptian Arabic الاتنين, Tarifit ⵔⴻⵜⵏⴰⵢⴻⵏ); no etymology of its own.

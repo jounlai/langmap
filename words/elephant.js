@@ -75,6 +75,10 @@ WORDS.elephant = {
     sw: "Tembo — mnyama mkubwa zaidi wa nchi kavu. Ulaya ilikopa Kigiriki ἐλέφας kupitia Kilatini; Kiajemi pīl kilienea pamoja na Kiarabu فيل hadi Kituruki fil; lugha za Kislavoni husema слон; Kisanskriti hastin kilizaa Kihindi हाथी na gaja kilizaa Kimalei gajah; Kichina 象 kilifika Kijapani, Kithai ช้าง na Kimongolia заан. Lugha za Kibantu na za Kidravidi zina maneno yao, kama ndovu na tembo, na Kikorea 코끼리 ni \"mwenye pua ndefu\".",
   },
   family: {
+    toi: "bantu",
+    myx: "bantu",
+    tsj: "glang",
+    njo: "plain",
     aa: "plain",
     ace: "gaja",
     ady: "pil",
@@ -89,7 +93,7 @@ WORDS.elephant = {
     ar: "pil",
     as: "hasti",
     ast: "elephas",
-    asu: "plain",
+    asu: "bantu",
     av: "pil",
     az: "pil",
     ba: "pil",
@@ -764,21 +768,25 @@ WORDS.elephant = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    toi: ["muzovu", "muzovu"],  // From sawkatokaleya muzovu.
+    myx: ["inzofu", "inzofu"],  // From grollemundbantu, tls Lumasaaba inzofu.
+    tsj: ["langpoche", "laŋpotɕʰe"],  // From suntb Tsangla (Motuo): laŋpotɕhe.
+    njo: ["shiti", "ʃiti"],  // From marrisonnaga Ao Chungli: shi◦ti.
     aa: ["dakanu", "dakanu"],
-    ace: ["gajah", "ɡadʒah"],  // From Sanskrit gaja.
+    ace: ["gajah", "ɡaɟah"],  // From Sanskrit gaja.
     ady: ["пыл", "pəl"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     af: ["olifant", "ˈʊə̯liˌfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     agx: ["фил", "fil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     aii: ["ܦܝܠܐ", "piːlɑː"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     ak: ["ɔsono", "ɔsono"],
-    alt: ["јаан", "dʒaːn"],  // From Chinese 象.
+    alt: ["јаан", "dʲaːn"],  // From Chinese 象.
     am: ["ዝሆን", "zɨhon"],
     an: ["elefant", "eleˈfan"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     ang: ["elpend", "ˈelpend"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     ar: ["فيل", "fiːl"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     as: ["হাতী", "ɦati"],  // From Sanskrit hastin, the animal "with a hand" (the trunk), through Prakrit.
     ast: ["elefante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
-    asu: ["dagba", "daɡba"],
+    asu: ["nzovu", "nzovu"],
     av: ["пил", "pil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     az: ["fil", "fil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     ba: ["фил", "fʲil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
@@ -873,7 +881,7 @@ WORDS.elephant = {
     kk: ["піл", "pɘl"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     kl: ["nagguaatsoq", "naɣɣuaatsoq"],
     km: ["ដំរី", "ɗɑmrəj"],  // An infixed form of ត្រី "to wiggle, to swing", the "wiggler", for the trunk.
-    kn: ["ಆನೆ", "aːn̪e"],  // From Proto-Dravidian *yānay.
+    kn: ["ಆನೆ", "aːne"],  // From Proto-Dravidian *yānay.
     ko: ["코끼리", "kʰok͈iɾi"],  // Literally "long-noser": 코 "nose" + 길- "long".
     koi: ["слӧн", "slɘn"],  // Slavic slon.
     kpv: ["слӧн", "slɘn"],  // Slavic slon.
@@ -963,11 +971,11 @@ WORDS.elephant = {
     sm: ["ʻelefane", "ʔelefane"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     sn: ["nzou", "nzou"],  // From Proto-Bantu *njògù.
     snk: ["tuure", "tuːre"],
-    so: ["maroodi", "maroodi"],
+    so: ["maroodi", "maroːdi"],
     sq: ["elefant", "ɛlɛˈfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     sr: ["слон", "slôn"],  // Serbian also uses фил.
     srn: ["asaw", "aˈsau"],  // From Kongo nzau, from Proto-Bantu *njògù.
-    ssw: ["indlovu", "indlovu"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
+    ssw: ["indlovu", "indɮovu"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     st: ["tlou", "tlou"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     stq: ["Elefant", "ˌeːləˈfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     su: ["gajah", "ɡadʒah"],  // From Sanskrit gaja.
@@ -999,7 +1007,7 @@ WORDS.elephant = {
     udm: ["слон", "slon"],  // Slavic slon.
     ug: ["پىل", "pil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     uk: ["слон", "sɫɔn"],  // Slavic slon.
-    umb: ["onjamba", "onjamba"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
+    umb: ["onjamba", "ondʒamba"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     ur: ["ہاتھی", "ɦaːtʰiː"],  // From Sanskrit hastin, the animal "with a hand" (the trunk), through Prakrit.
     urh: ["eni", "eni"],  // From Proto-Edoid *E-ni.
     uz: ["fil", "fil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.

@@ -71,6 +71,8 @@ WORDS.tuesday = {
     sw: "Jumanne — siku baada ya Jumatatu. Roma iliiweka wakfu kwa Mars, mungu wa vita na sayari ya Mihiri (mardi, martes), na unajimu wa India kwa sayari hiyo hiyo (मंगलवार), hadi Kithai อังคาร na, kama \"sayari ya moto\", Kijapani 火曜日. Wajerumani wa kale walimweka mungu wao wa vita: Kiingereza Tuesday ni siku ya Tiw, Kiswidi tisdag ya Tyr, na Kijerumani Dienstag huenda ni ya Thingsus. Wiki zinazohesabiwa huifanya \"ya pili\" (Kirusi вторник, Kihungari kedd) au \"ya tatu\" (Kigiriki Τρίτη, Kireno terça-feira, Kiarabu الثلاثاء, Kiajemi سه‌شنبه).",
   },
   family: {
+    huz: "count",
+    bdk: "count",
     lb: "god",
     na: "plain",
     acw: "count",
@@ -725,6 +727,8 @@ WORDS.tuesday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    huz: ["талат", "talat"],  // From ids Hunzib талат.
+    bdk: ["талат", "talat"],  // From ids Budukh талат.
     lb: ["Dënschdeg", "ˈdənʃdəɕ"],
     na: ["Dintak", "dintak"],
     acw: ["الثلثا", "attulata"],
@@ -876,7 +880,7 @@ WORDS.tuesday = {
     fax: ["martis", "ˈmaɾtis"],
     an: ["martes", "ˈmaɾtes"],
     wa: ["mårdi", "mɔːʀˈdi"],
-    kpv: ["воторник", "ˈʋotorɲik"],
+    kpv: ["воторник", "ˈvotorɲik"],
     udm: ["пуксён", "pukˈɕon"],
     mhr: ["кушкыжмо", "ˈkuʃkəʒmo"],
     mrj: ["кышкыжмы", "kəʃkəʒmə"],
@@ -902,7 +906,7 @@ WORDS.tuesday = {
     xal: ["мигмр өдр", "miɡmr ødr"],  // 'Day of Mars' (мигмр, the planet, + өдр 'day'), as with Monday сарң өдр; NorthEuraLex records the Russian loan вторник instead.
     gmh: ["ziestac", "ˈtsiə̯stak"],
     sga: ["Máirt", "ˈmaːrʲtʲ"],
-    bsk: ["aṅáro", "aṅˈarɔ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    bsk: ["aṅáro", "aŋˈarɔ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     srn: ["tudewroko", "tudewroko"],
     tkl: ["Aho Lua", "aho lua"],
     pam: ["Martis", "ˈmaɾtis"],
@@ -953,7 +957,7 @@ WORDS.tuesday = {
     en_aave: ["Tuesday", "ˈtuːzdeɪ"],
     en_au: ["Tuesday", "ˈtjʉːzdæɪ"],
     de_at: ["Dienstag", "ˈdiːnstaːk"],
-    smj: ["disdat", "ˈtisːtaht"],
+    smj: ["dijstahka", "ˈdijstɑhkɑ"],
     en_south: ["Tuesday", "ˈtuːzdæɪ"],
     en_app: ["Tuesday", "ˈtuːzdeɪ"],
     en_in: ["Tuesday", "ˈʈjuːzɖeː"],
@@ -1052,7 +1056,7 @@ WORDS.tuesday = {
     wo: ["talaata", "talaːta"],  // From Arabic ثلاثاء 'the third'.
     lmo: ["martedí", "marteˈdi"],
     crs: ["mardi", "mardi"],  // From French mardi.
-    krl: ["toinargi", "ˈtoinɑrɡi"],  // 'Second weekday'.
+    krl: ["toiniarki", "ˈtoiniɑrki"],  // 'Second weekday'.
     ty: ["Mahana piti", "mahana piti"],  // mahana 'day' + piti 'two'.
     st: ["Labobedi", "labobedi"],  // Contraction of letsatsi la bobedi 'the second day'.
     rup: ["Martsã", "ˈmartsə"],
@@ -1223,7 +1227,7 @@ WORDS.tuesday = {
     nd: ["Lwesibili", "lwesiɓili"],  // prefix dropped as in the row's Mvulo (JW: UMvulo)
     swb: ["mufumonne", "mufumonːe"],
     toi: ["Bwabili", "bwabili"],
-    ts: ["Ravumbirhi", "ravumbirʱi"],
+    ts: ["Ravumbirhi", "raβumbirʱi"],
     umb: ["Vovali", "vovali"],
     vmw: ["Namanli", "namanli"],
     aae: ["e martja", "e ˈmaɾtja"],

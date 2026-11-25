@@ -61,6 +61,7 @@ WORDS.poop = {
     sw: "Kinyesi — neno la kawaida la kila siku kwa mavi; si neno la kitaalamu.",
   },
   family: {
+    com: "plain",
     es_cr: "caco",
     es_hn: "caco",
     es_ni: "caco",
@@ -248,7 +249,7 @@ WORDS.poop = {
     lv: "kakka",
     sq: "plain",
     et: "plain",
-    ht: "plain",
+    ht: "caco",
     pap: "plain",
     tpi: "plain",
     pis: "plain",
@@ -737,7 +738,7 @@ WORDS.poop = {
     clk: "kloy",
     wrh: "kuna",
     de_lu: "kacke",
-    acf: "plain",
+    acf: "caco",
     pqm: "plain",
     ket: "plain",
     jio: "plain",
@@ -1009,6 +1010,7 @@ WORDS.poop = {
     plain: {"color":"#94a3b8","emoji":"🔤","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    com: ["kwitapʉ", "kwitapɨ"],  // From huntergatherer Comanche kwitapy (y=ʉ).
     es_cr: ["caca", "ˈkaka"],
     es_hn: ["caca", "ˈkaka"],
     es_ni: ["caca", "ˈkaka"],

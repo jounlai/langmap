@@ -421,7 +421,7 @@ WORDS.week = {
     bbl: "unknown",
     bsk: "plain",
     stq: "turn",
-    mos: "unknown",
+    mos: "seven",
     tiw: "other",
     sgs: "sunday",
     pam: "sunday",
@@ -883,7 +883,7 @@ WORDS.week = {
     ja: ["週", "ɕɯː"],
     xal: ["долан хонг", "doˈlan xoˈnək"],
     kn: ["ವಾರ", "ʋaːɾa"],  // From Sanskrit vāra 'turn, day'.
-    krl: ["nedäli", "ˈnedæli"],
+    krl: ["netäli", "ˈnetæli"],
     ks: ["ہفتہٕ", "haftɨ"],  // Route by resemblance to the neighbouring forms (dv,lez,tg); no etymology of its own.
     csb: ["tidzéń", "ˈtidzeɲ"],
     kk: ["жұма", "ʒʊmɑ"],  // Also 'Friday'.
@@ -972,7 +972,7 @@ WORDS.week = {
     mrj: ["ӓрня", "ˈærnja"],  // No opened source supports the route.
     mhr: ["арня", "arˈɲa"],  // Route by resemblance to the neighbouring forms (udm); no etymology of its own.
     koi: ["неделя", "ɲeɟeʎa"],
-    kpv: ["неделя", "ɲeɟeʎa"],
+    kpv: ["вежон", "ˈveʒon"],  // Clipped from вежалун 'Sunday' (Wiktionary).
     kca: ["ӆапат", "ˈɬapat"],  // No opened source supports the route.
     mns: ["са̄т", "saːt"],
     ku: ["heftî", "hɛfˈti"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
@@ -1106,7 +1106,7 @@ WORDS.week = {
     rup: ["siptãmãnã", "siptəˈmɨnə"],  // From Late Latin septimāna, from septimus 'seventh'.
     frr: ["waag", "vaːx"],  // From Old Frisian wike, the Germanic week word; Föhr-Amrum says weg.
     io: ["semano", "seˈmano"],  // From French semaine, Italian settimana and Spanish semana, from Late Latin septimāna.
-    zdj: ["mfumo", "ᵐfumo"],  // No image is recorded for it, so it counts as a word of its own.
+    zdj: ["mfumo", "mfumo"],  // No image is recorded for it, so it counts as a word of its own.
     yai: ["hafta", "hafta"],  // Borrowed from Tajik ҳафта.
     pa: ["ਹਫ਼ਤਾ", "ˈɦəftaː"],  // Borrowed from Classical Persian هفته, from هفت 'seven'.
     sga: ["sechtmain", "ˈsʲextβ̃ənʲ"],  // Borrowed from Late Latin septimāna, from septimus 'seventh'.
@@ -1168,13 +1168,13 @@ WORDS.week = {
     ch: ["semåna", "seˈmɑna"],  // Borrowed from Spanish semana, from Latin septimāna.
     mak: ["diminggu", "diˈmiŋɡu"],  // Borrowed from Portuguese domingo 'Sunday'.
     bm: ["dɔgɔkun", "dɔɡɔkun"],  // No image is recorded for it, so it counts as a word of its own.
-    lzz: ["ხაჶთა", "xafta"],  // Borrowed from Turkish hafta, from Persian هفته.
+    lzz: ["ხაჶთა", "xaftʰa"],  // Borrowed from Turkish hafta, from Persian هفته.
     shi: ["ⵙⵙⵉⵎⴰⵏⴰ", "sːimana"],  // Borrowed from Moroccan Arabic سيمانة, from Spanish semana and Latin septimana 'seven days'.
     xag: ["šambaṭ", "ʃambatʼ"],  // From Parthian šambat 'Sabbath, Saturday'; the same word is the row's Saturday.
     bbl: ["გებს", "ɡebs"],  // Borrowed from Old Georgian მსგეფსი.
     bsk: ["altaaṅuc", "altaːŋuts"],  // The source gives no etymology.
     stq: ["Wíek", "viːk"],  // From Old Frisian wike, like German Woche.
-    mos: ["rasem a yopoe", "rasem a jopoe"],  // Cognate with Farefare dasʋm ayopɔɩ; the source does not analyse it.
+    mos: ["rasem a yopoe", "rasem a jopoe"],  // Cognate with Farefare dasʋm ayopɔɩ; yopoe is 'seven' (Omniglot).
     tiw: ["jurra", "dʒuɾa"],  // The same word means book, paper, letter and church or mass.
     sgs: ["nedielė", "nʲɛdʲieːlʲeː"],  // Borrowed from Old East Slavic недѣлꙗ 'Sunday, week'; the row's Monday panedielis is the day after it.
     pam: ["paruminggu", "pəɾʊˈmiŋɡu"],  // Built from pa- and Duminggu 'Sunday'.

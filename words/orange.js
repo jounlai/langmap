@@ -1142,7 +1142,7 @@ WORDS.orange = {
     fr_ht: ["orange", "ɔʁɑ̃ʒ"],
     pt_mz: ["laranja", "lɐˈɾɐ̃ʒɐ"],
     pt_cv: ["laranja", "lɐˈɾɐ̃ʒɐ"],
-    nl_be: ["sinaasappel", "ˈsinɑsɑpəl"],
+    nl_be: ["sinaasappel", "ˈsinaːsɑpəl"],
     en_us: ["orange", "ˈɔɹɪndʒ"],
     en_ca: ["orange", "ˈɔɹɪndʒ"],
     en_za: ["orange", "ˈɒɹɪndʒ"], // was ["orange", "ˈɔːɹɪndʒ"] (vi dialect rules 2026-10-06)
@@ -1214,7 +1214,7 @@ WORDS.orange = {
     fi: ["appelsiini", "ˈɑpːelsiːni"],
     hu: ["narancs", "ˈnɒrɒntʃ"],
     el: ["πορτοκάλι", "poɾtoˈkali"],
-    nl: ["sinaasappel", "ˈsinɑsɑpəl"],
+    nl: ["sinaasappel", "ˈsinaːsɑpəl"],
     pl: ["pomarańcza", "pɔmaˈraɲtʂa"],
     szl: ["pōmerańcza", "pomɛˈraɲtʂa"], // was ["pōmerańcza", "pɔmɛˈraɲtʂa"] (vi dialect rules 2026-10-06)
     uk: ["апельсин", "ɐpelʲˈsɪn"],
@@ -1232,7 +1232,7 @@ WORDS.orange = {
     zh_db: ["橙", "tʂʰɤŋ˧˥"],
     zh_sc: ["橙", "tsʰən˨˩"],
     th_isan: ["ส้ม", "som˨"],
-    th_n: ["ส้ม", "som˥˩"],
+    th_n: ["ส้ม", "som˥˥˨"],
     th_s: ["ส้ม", "som˥˩"],
     jv: ["jeruk", "dʒəruʔ"], // was ["jeruk", "dʒəruk"] (vi dialect rules 2026-10-06)
     su: ["jeruk", "dʒəruk"],
@@ -1247,7 +1247,7 @@ WORDS.orange = {
     mr: ["संत्रे", "sənˈtɾe"],
     gu: ["નારંગી", "naːˈɾəŋɡiː"],
     si: ["දොඩම්", "doɖam"],
-    dv: ["އޮރެންޖު", "orendʒu"],
+    dv: ["އޮރެންޖު", "oɾendʒu"],
     te: ["నారింజ", "naːɾiɲdʒa"], // was ["నారింజ", "naːɾindʒa"] (vi dialect rules 2026-10-06)
     kn: ["ಕಿತ್ತಳೆ", "kitːaɭe"],
     ml: ["ഓറഞ്ച്", "oːraɲdʒɨ"], // was ["ഓറഞ്ച്", "oːɾaɲdʒɨ"] (vi dialect rules 2026-10-06)

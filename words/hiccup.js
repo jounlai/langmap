@@ -62,6 +62,7 @@ WORDS.hiccup = {
     sw: "Kwikwi — mshtuko wa ghafla wa kiwambo na sauti ndogo inayoambatana nao. Lugha nyingi huiga tu sauti hiyo: Kiingereza hiccup, Kihispania hipo, Kiholanzi hik, Kikorea 딸꾹질 (딸꾹 ni sauti ya \"hik\"), Kihindi हिचकी. Kituruki hıçkırık na Kiitaliano singhiozzo, kutoka Kilatini singultus, humaanisha pia \"kwikwi ya kulia\". Kijerumani Schluckauf ni \"kumeza-juu\", na Kialbania lemzë kinatokana na neno la kubweka.",
   },
   family: {
+    haw: "plain",
     en: "imitative",
     hi: "imitative",
     ur: "imitative",
@@ -494,6 +495,7 @@ WORDS.hiccup = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    haw: ["mauliʻawa", "mauliʔawa"],  // From wold Hawaiian: mauli`awa.
     en: ["hiccup", "ˈhɪkʌp"],  // From earlier hicket, hickop: the imitative hic plus a diminutive ending; the spelling hiccough is a false link with cough.
     hi: ["हिचकी", "ɦɪtʃkiː"],  // The Hindi Shabdasagar derives it from an imitation of the sound hich, or from Sanskrit hikkā, itself from an onomatopoeic root.
     ur: ["ہچکی", "ɦɪtʃkiː"],  // The same Hindustani word as Hindi हिचकी, explained as an imitation of the sound hich or a descendant of Sanskrit hikkā; Platts calls hikkā the learned and hićkī the popular form.
@@ -514,7 +516,7 @@ WORDS.hiccup = {
     es: ["hipo", "ˈipo"],  // An imitative word.
     pl: ["czkawka", "ˈtʂkafka"],  // From czkać 'to hiccup'. Czkać imitates the sound.
     uk: ["гикавка", "ˈɦɪkɐu̯kɐ"],  // Also spelled ікавка, икавка. Like Russian икота, built on the sound ik.
-    nl: ["hik", "hɪk"],  // An imitative word.
+    nl: ["hik", "ɦɪk"],  // An imitative word.
     sv: ["hicka", "ˈhɪkːa"],  // Attested since the 15th century as Old Swedish hikka; hickning is a synonym. Route by resemblance to the neighbouring forms (or(ହିକ୍କା) nl(hik)); no etymology of its own.
     da: ["hikke", "ˈheɡ̊ə"],  // From Old Danish hikkæn; a single hiccup is et hik. Like English hiccup, an imitation of the sound.
     fi: ["hikka", "ˈhikːɑ"],  // Borrowed from Swedish hicka; nikotus and nikka are synonyms. Route by resemblance to the neighbouring forms (or(ହିକ୍କା) nl(hik)); no etymology of its own.
@@ -782,7 +784,7 @@ WORDS.hiccup = {
     meu: ["baturo", "batuɾo"],  // Lawes "Baturo, hiccough"
     rap: ["korereki", "koɾeɾeki"],  // Churchill "hiccough korereki"
     khb: ["ᦵᦁᦲᧉ", "ʔɤː˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔə:.4.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
-    gil: ["marei", "marei"],  // Bingham "Marei, v.i. to hiccough"
+    gil: ["marei", "maɾei"],  // Bingham "Marei, v.i. to hiccough"
     bzh: ["ġaboseḳ", "ᶰɢaᵐbotʃəq"],  // "gabosek noun hiccup"; IPA from its bracket; row letters
     roo: ["repoo", "ɾepoː"],  // "repoo vRO. hiccup"
     swi: ["ʔək7", "ʔək˥˥"],  // IDS Sui ʔək.7, beside ʔnam.3. Tone letters from the row's pairs.

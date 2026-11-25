@@ -907,7 +907,7 @@ WORDS.bat = {
     tl: ["paniki", "paˈniki"],  // Inherited from Proto-Austronesian *paniki 'fruit bat', a root shared across the Philippines and Madagascar.
     mn: ["сарьсан багваахай", "sarʲsam baɡwaːxɛː"],  // The standard two-word name. Hangin's Modern Mongolian-English Dictionary glosses сарьс(ан) 'membrane, skin; rawhide, leather' and багваахай alone 'bat', so it is the 'membrane bat' or 'leather bat', the image of Lithuanian šikšnosparnis 'leather-wing' and Ossetian хӕлынбыттыр.
     sah: ["сарыы кынат", "sarɯː kɯnat"],  // Literally 'suede wing' or 'membrane wing'.
-    alt: ["јарганат", "dʒarɡanat"],  // An old Turkic bat word *yar- joined to *kānat 'wing'.
+    alt: ["јарганат", "dʲarɡanat"],  // An old Turkic bat word *yar- joined to *kānat 'wing'.
     my: ["လင်းနို့", "lɪ́ɴno̰"],  // The origin of both syllables is unclear; one proposal links the first to an old word for 'python'.
     km: ["ប្រចៀវ", "prɑciəw"],  // The everyday word; the formal synonym អដ្ឋិចម្មសត្វ is a learned compound. Unrelated to កណ្ដុរ 'mouse' and បក្សី 'bird'.
     lo: ["ເຈຍ", "tɕiːə̯˩˧"],  // The same word also means 'saltpetre'.
@@ -942,7 +942,7 @@ WORDS.bat = {
     fj: ["beka", "mbeka"],  // Inherited from Proto-Oceanic *bʷeka 'flying fox'; by extension it also names a boil in the armpit.
     sm: ["peʻa", "peʔa"],  // Inherited from Proto-Polynesian *peka; a homonym peʻa means the traditional male tattoo.
     to: ["peka", "peka"],  // Inherited from Proto-Polynesian *peka; in Tonga it is above all the flying fox, the islands' familiar bat.
-    mr: ["वटवाघूळ", "ʋəʈʋaːɡʰuːɭ"],  // The everyday Marathi word for bat.
+    mr: ["वटवाघूळ", "ʋəʈʋaːɡʱuːɭ"],  // The everyday Marathi word for bat.
     gu: ["ચામાચીડિયું", "tʃaːmaːtʃiːɖijũ"],  // Probably from Sanskrit carmacaṭaka 'leather-sparrow', though the derivation is not confirmed. Caṭaka is 'sparrow', so the word is a 'leather-sparrow'.
     te: ["గబ్బిలం", "ɡabːilam"],  // The everyday Telugu word for bat; గబ్బిలము is the fuller literary spelling. Unrelated to ఎలుక 'rat' and పక్షి 'bird'.
     ml: ["വവ്വാൽ", "ʋaʋːaːl"],  // A Dravidian word shared with Tamil vavvāl; നരിച്ചീർ is a synonym.
@@ -1071,7 +1071,7 @@ WORDS.bat = {
     pcc: ["waauz", "waːu˩˩"],  // Related to the second syllable of Zhuang vumzvauz and Thai ค้างคาว. Wiktionary gives only the Zhuang cognate vumzvauz, and Thai ค้างคาว is coloured as a word of its own. No image is recorded for it, so it counts as a word of its own.
     tyz: ["ca cào", "kaː˧˧ kaːw˧˨"],  // Its second part is related to Bouyei waauz and Thai ค้างคาว; the word also names the flying fox. Route by resemblance to the neighbouring forms (th(ค้างคาว)); no etymology of its own.
     hy_grab: ["չիղջ", "tʃʰiʁdʒ"],  // The Bible word for the bat (Leviticus 11:19), probably an ideophone; modern Armenian adds the diminutive to get չղջիկ. Wiktionary calls its origin uncertain; it is unrelated to մուկն 'mouse' and թռչուն 'bird', and the modern word built on it is coloured as a word of its own.
-    mfe: ["sovsouri", "sovsuri"],  // From French chauve-souris, literally 'bald mouse'.
+    mfe: ["sovsouri", "sovsuʁi"],  // From French chauve-souris, literally 'bald mouse'.
     ban: ["lawah", "lawah"],  // The same word as Javanese lawa 'bat', from an older Austronesian name for the flying squirrel.
     it_dan: ["vispistrello", "vispisˈtrɛllo"],  // Dante's form of pipistrello (Inferno XXXIV), from Latin vespertilio, the 'evening creature'.
     de_lut: ["Fledermaus", "ˈfleːdərmaʊs"],  // Luther's word for the bat (Isaiah 2:20), a 'flutter-mouse' from Old High German fledarmūs.
@@ -1088,7 +1088,7 @@ WORDS.bat = {
     mrj: ["цӓрӓгек", "tsæræɡek"],  // Ends in кек 'bird'; the variant цӓрӓгаля is also recorded.
     mhr: ["водывычыраҥге", "vodəvətʃəraŋɡe"],  // The Meadow Mari word; several other names are also recorded.
     pms: ["ratavolòira", "ratavuˈlɔjra"],  // The Piedmontese word; local forms include Rataràura and Ratavera. Rata 'rat' plus volòira 'flying'.
-    wa: ["tchawe-sori", "tʃawsɔri"],  // The second part is sori 'mouse', as in French chauve-souris; Walloon also says sori volante 'flying mouse'.
+    wa: ["tchawe-sori", "tʃawsɔʁi"],  // The second part is sori 'mouse', as in French chauve-souris; Walloon also says sori volante 'flying mouse'.
     ltg: ["plykspuorņs", "ˈplɨkspuorɲs"],  // The Latgalian word for the bat. Plyks 'bare' + spuorns 'wing', like Latvian sikspārnis.
     io: ["vespertilio", "vesperˈtilio"],  // The Latin 'evening creature', taken over unchanged.
     mad: ["bhâbbhuru", "bʱɤbbʱuru"],  // The Madurese word for the bat. No image is recorded for it, so it counts as a word of its own.
@@ -1213,7 +1213,7 @@ WORDS.bat = {
     kxc: ["shipinshipirraata", "ʃipinʃipirːaːta"],  // The Konso word for the bat, plural shipinshipirrawwa.
     tet: ["niki", "niki"],  // Inherited from Proto-Malayo-Polynesian *paniki 'fruit bat', the same word as Tagalog paniki.
     new: ["चिकंलापा", "tɕikə̃lapa"],  // The Newar word for both large and small bats.
-    lez: ["кьаркьулув", "qʼarqʼuluv"],  // The common Lezgian word for the bat; some villages say хъархъаба instead.
+    lez: ["кьаркьулув", "qʼarqʼuluw"],  // The common Lezgian word for the bat; some villages say хъархъаба instead.
     szl: ["gacopjyrz", "ɡaˈtsɔpjɪʂ"],  // The Silesian word, related to dialectal Polish gacopierz. Polish dialect gacopierz is a blend of gacek and nietoperz (Wiktionary, which compares Silesian). Route by resemblance to the neighbouring forms (pl(nietoperz) csb(szãtopiérz)); no etymology of its own.
     fy: ["flearmûs", "ˈfliərmuːs"],  // Literally 'flutter-mouse', like Dutch vleermuis and German Fledermaus.
     ses: ["atafirfir", "atafirfir"],  // The Koyraboro Senni word for the bat.
@@ -1368,7 +1368,7 @@ WORDS.bat = {
     ers: ["jisui", "ji˥˥sui˥˥"],  // The Ersu word for the bat, as recorded by Sun Hongkai. No image is recorded for it, so it counts as a word of its own.
     liv: ["īeīr", "ˈiːeiːr"],  // Literally 'night mouse': īe 'night' plus īr 'mouse'.
     vot: ["nahkatiiru", "ˈnahkatiːru"],  // The Votic word for the bat, glossed Estonian nahkhiir by the Votic dictionary of the Institute of the Estonian Language (Vadja keele sõnaraamat), which also records the form nahkaiiri: nahka 'skin, leather' + iiri 'mouse', the 'leather mouse' like Estonian nahkhiir.
-    ssf: ["baprak", "baprak"],  // The Thao word for the bat, as in isa hulus a tanaraus ianan baprak latata 'there is a bat under the clothes'. Wiktionary gives no etymology; it is unrelated to mashmash 'rat' and rumfaz 'bird' (ABVD). No image is recorded for it, so it counts as a word of its own.
+    ssf: ["baprak", "bapɾak"],  // The Thao word for the bat, as in isa hulus a tanaraus ianan baprak latata 'there is a bat under the clothes'. Wiktionary gives no etymology; it is unrelated to mashmash 'rat' and rumfaz 'bird' (ABVD). No image is recorded for it, so it counts as a word of its own.
     smn: ["nähkisuájá", "ˈnæhkisuaja"],  // Literally 'skin wing': nähki 'skin, leather' plus suájá 'wing'.
     tsi: ["dza̱g̱a̱da̱xtxaaył", "dzʌɢʌdʌχtχaːjɬ"],  // The Sm'algyax word for the bat, from Dunn's Practical Dictionary of Coast Tsimshian; g̱a̱ba̱laas is also recorded.
     kwk: ["baḵ̕wa̱lawi", "baqʼʷəlawi"],  // The Kwak'wala word for the bat, recorded by Lorraine Hunt. No image is recorded for it, so it counts as a word of its own.

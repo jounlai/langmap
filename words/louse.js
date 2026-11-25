@@ -64,6 +64,151 @@ WORDS.louse = {
     sw: "chawa — chawa wa kichwani na mwilini, mmoja wa wadudu wa zamani zaidi walioandamana na binadamu. Lugha nyingi zimerithi jina lake kutoka lugha-mama yao: Kijerumani asilia *lūs (louse, Laus, lus), Kilatini pēdiculus (piojo, pou, pidocchio), Kislavoni asilia *vъšь (вошь, wesz), Kituruki asilia *bit, Kiurali asilia *täje (täi, tetű), Kisemiti qaml (قملة), Kisanskriti yūkā (जूँ), Kidravidi asilia *pēn (பேன்), Kiaustronesia asilia *kuCux (kutu, ʻuku) na Kichina 蝨.",
   },
   family: {
+    com: "plain",
+    wa: "pediculus",
+    gsw: "lus",
+    ltg: "plain",
+    aae: "plain",
+    aln: "plain",
+    jqr: "plain",
+    mzh: "plain",
+    mbc: "plain",
+    shp: "plain",
+    car: "plain",
+    gun: "plain",
+    mcf: "plain",
+    kgp: "plain",
+    nhx: "plain",
+    ppl: "plain",
+    tar: "plain",
+    hch: "plain",
+    hop: "plain",
+    crs: "pediculus",
+    kek: "plain",
+    mg: "kutu",
+    ha: "plain",
+    sbp: "plain",
+    tum: "plain",
+    xog: "plain",
+    nd: "plain",
+    ng: "plain",
+    kj: "plain",
+    her: "plain",
+    sn: "plain",
+    yao: "plain",
+    rim: "plain",
+    mer: "plain",
+    kam: "plain",
+    ebu: "plain",
+    asu: "plain",
+    loz: "plain",
+    suk: "plain",
+    rn: "plain",
+    ttj: "plain",
+    cgg: "plain",
+    nyn: "plain",
+    agr: "plain",
+    acu: "plain",
+    bdk: "plain",
+    rut: "plain",
+    tkr: "plain",
+    kaa: "bit",
+    crh: "bit",
+    orh: "plain",
+    vro: "taje",
+    jiv: "plain",
+    kl: "plain",
+    olo: "taje",
+    sms: "plain",
+    smn: "plain",
+    sma: "plain",
+    smj: "plain",
+    se: "plain",
+    sjd: "plain",
+    ykg: "plain",
+    xal: "bogesun",
+    sel: "plain",
+    nio: "plain",
+    mrj: "taje",
+    mns: "plain",
+    kca: "plain",
+    evn: "plain",
+    ckt: "plain",
+    ady: "plain",
+    tsj: "plain",
+    njo: "plain",
+    ers: "plain",
+    qxs: "plain",
+    jya: "plain",
+    clk: "plain",
+    nuf: "plain",
+    jiu: "plain",
+    bxd: "plain",
+    acn: "plain",
+    pmi: "plain",
+    bca: "srik",
+    adx: "srik",
+    bo: "srik",
+    cnh: "srik",
+    grt: "srik",
+    nzm: "srik",
+    nmf: "srik",
+    twm: "srik",
+    duu: "srik",
+    hmn: "plain",
+    shx: "plain",
+    lic: "plain",
+    swi: "plain",
+    kmc: "plain",
+    pll: "plain",
+    kjg: "plain",
+    mra: "plain",
+    wbt: "plain",
+    mpj: "plain",
+    kpf: "plain",
+    nlc: "plain",
+    mpt: "plain",
+    fai: "plain",
+    enq: "plain",
+    trv: "plain",
+    tay: "plain",
+    pon: "plain",
+    na: "plain",
+    yap: "plain",
+    cia: "kutu",
+    dtp_kzj: "kutu",
+    itb: "kutu",
+    ivv: "kutu",
+    agt: "kutu",
+    bik: "kutu",
+    hil: "kutu",
+    ceb: "kutu",
+    ban: "kutu",
+    bbc: "kutu",
+    akb: "kutu",
+    ljp: "kutu",
+    max: "kutu",
+    abs: "kutu",
+    iba: "kutu",
+    bjn: "kutu",
+    gay: "kutu",
+    min: "kutu",
+    sas: "kutu",
+    aoz: "kutu",
+    nia: "kutu",
+    meu: "kutu",
+    kos: "kutu",
+    pau: "kutu",
+    woe: "kutu",
+    gil: "kutu",
+    rtm: "kutu",
+    wls: "kutu",
+    mrq: "kutu",
+    rar: "kutu",
+    tvl: "kutu",
+    to: "kutu",
+    sm: "kutu",
+    pmt: "kutu",
     es_cr: "pediculus",
     es_hn: "pediculus",
     es_ni: "pediculus",
@@ -457,10 +602,155 @@ WORDS.louse = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    es_cr: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
-    es_hn: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
-    es_ni: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
-    es_sv: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
+    com: ["pusiʼa", "pusiʔa"],  // From utoaztecan pusia.
+    wa: ["piou", "pju"],  // From iecor Walloon piou pju.
+    gsw: ["Luus", "luːs"],  // From iecor Swiss German Luus luːs.
+    ltg: ["vuts", "vutsʲ"],  // From iecor Latgalian vuts vutsʲ.
+    aae: ["morr", "mor"],  // From iecor Arbëresh morr.
+    aln: ["morr", "mor"],  // From iecor Gheg morr.
+    jqr: ["napʼa", "napʼa"],  // From crossandean Jaqaru nap'a.
+    mzh: ["lhaʼ", "ɬaʔ"],  // From ids Wichí ɬaʔ.
+    mbc: ["ayan", "ajan"],  // From ids Macushi ayan.
+    shp: ["ia", "ia"],  // From ids Shipibo ia.
+    car: ["omy", "omɨ"],  // From wold Kaliña omɨ.
+    gun: ["ky", "kɨ"],  // From chacolanguages Mbyá ky.
+    mcf: ["matish", "matiʃ"],  // From amazonianvoices matiʃ.
+    kgp: ["ga", "ŋa"],  // From ids Kaingáng ŋa.
+    nhx: ["atimiꞌ", "atimiʔ"],  // From davletshinaztecan Mecayapan atimiʔ.
+    ppl: ["atimet", "aˈtimet"],  // From davletshinaztecan atime-t.
+    tar: ["te", "te"],  // From lionnetyotonahua té.
+    hch: ["ate", "ate"],  // From pharaocoracholaztecan ate.
+    hop: ["atu", "atɨ"],  // From utoaztecan átɨ.
+    crs: ["lipou", "lipu"],  // From wold Seychelles Creole lipou.
+    kek: ["ukʼ", "ukʼ"],  // From wold Qʼeqchiʼ uk’.
+    mg: ["hao", "ˈhau"],  // From wold Malagasy hào.
+    ha: ["kwarkwata", "kʷaɽkʷataː"],  // From ids Hausa kˀwarkˀwata, kraftchadic kwârkwatā̀.
+    sbp: ["isosolo", "isosolo"],  // From grollemundbantu, tls Sangu isosolo.
+    tum: ["nyinda", "ɲinda"],  // From grollemundbantu N21 ɲinda.
+    xog: ["nsekerere", "nsekerere"],  // From grollemundbantu JE16, tls Lusoga nsekerere.
+    nd: ["intwala", "intʷala"],  // From grollemundbantu S44 in-twala.
+    ng: ["ona", "ona"],  // From grollemundbantu R22 ona.
+    kj: ["ona", "ona"],  // From grollemundbantu R21 ona.
+    her: ["ona", "ona"],  // From grollemundbantu R31 ona.
+    sn: ["inda", "inda"],  // From grollemundbantu Shona in-da.
+    yao: ["njipi", "ndʒipi"],  // From grollemundbantu P21, tls Yao njipi.
+    rim: ["ndaa", "ndaː"],  // From grollemundbantu F32, tls Nyaturu ndaa.
+    mer: ["ndaa", "ndaː"],  // From grollemundbantu E53 Merutig, Meruimenti ndaa.
+    kam: ["ndaa", "ndaː"],  // From grollemundbantu E55, tls Kamba ndaa.
+    ebu: ["ndaa", "ndaː"],  // From grollemundbantu E52, tls Embu ndaa.
+    asu: ["nda", "nda"],  // From grollemundbantu G22A, G22B nda.
+    loz: ["nda", "nda"],  // From grollemundbantu K21, sawkatokaleya Lozi nda.
+    suk: ["nda", "nda"],  // From grollemundbantu F21, tls Sukuma nda.
+    rn: ["inda", "inda"],  // From grollemundbantu, tls Rundi inda.
+    ttj: ["enda", "enda"],  // From grollemundbantu JE12, tls Rutooro enda.
+    cgg: ["enda", "enda"],  // From grollemundbantu JE14, tls Rukiga enda.
+    nyn: ["enda", "enda"],  // From grollemundbantu JE13, tls Runyankore enda.
+    agr: ["tema", "tɨma"],  // From ids tɨma.
+    acu: ["tema", "tɨma"],  // From northeuralex téma tɨma.
+    bdk: ["лиш", "liʃ"],  // From ids bdk лиш.
+    rut: ["лихь", "lix"],  // From ids rut лихь.
+    tkr: ["вихь", "wix"],  // From ids tkr вихь.
+    kaa: ["bit", "bit"],  // From cals Karakalpak bit (4 sites).
+    crh: ["bit", "bit"],  // From savelyevturkic Crimean Tatar bit.
+    orh: ["kumkə", "kumkə"],  // From wold Oroqen kumkə.
+    vro: ["täi", "tæi"],  // From uralex Võro täi.
+    jiv: ["tema", "tɨma"],  // From northeuralex jiv.
+    kl: ["kumak", "kumak"],  // From northeuralex kl.
+    olo: ["täi", "ˈtæi"],  // From northeuralex olo.
+    sms: ["teʹǩǩ", "ˈtɛccçʲɘ"],  // From northeuralex sms.
+    smn: ["tikke", "ˈtikːe"],  // From northeuralex smn.
+    sma: ["dihkie", "ˈtihkiɛ"],  // From northeuralex sma.
+    smj: ["dihkke", "ˈdihkːɛ"],  // From northeuralex smj.
+    se: ["dihkki", "ˈtihkːi"],  // From northeuralex se.
+    sjd: ["тыһкь", "tɨhkʲ"],  // From northeuralex sjd.
+    ykg: ["пимэ", "pime"],  // From northeuralex ykg.
+    xal: ["бөөсн", "bøːsn̩"],  // From northeuralex xal.
+    sel: ["унты", "untɨ"],  // From northeuralex sel.
+    nio: ["ӈомту", "ŋomtu"],  // From northeuralex nio.
+    mrj: ["ти", "ti"],  // From northeuralex mrj.
+    mns: ["та̄кым", "ˈtaːkɪm"],  // From northeuralex mns.
+    kca: ["тэвтам", "ˈtɛwtam"],  // From northeuralex kca.
+    evn: ["кумкэ", "kumkə"],  // From northeuralex evn.
+    ckt: ["мымыԓ", "məməɬ"],  // From northeuralex ckt.
+    ady: ["цӏэ", "tsʼa"],  // From northeuralex ady.
+    tsj: ["shing", "ɕiŋ"],  // From sagartst Bodic_Tshangla: ɕiŋ.
+    njo: ["atsük", "atsək"],  // From marrisonnaga Ao Chungli: a◦tsük.
+    ers: ["ʂɛ", "ʂɛ˧˧"],  // From peirosst Ersu: ṣɛ³³.
+    qxs: ["χtʂi", "χtʂi˧˧"],  // From peirosst S-Qiangqin: χc̣i³³.
+    jya: ["sor", "sor"],  // From naganorgyalrongic rGyalrong (Maerkang Soman): sor.
+    clk: ["tshu53", "tsʰu˥˧"],  // From peirosst Idu: chu⁴.
+    nuf: ["ʂɑʴ55", "ʂɑʴ˥˥"],  // From peirosst Nusu: ʃɛr⁵⁵.
+    jiu: ["ɕɛ33phɹo33", "ɕɛ˧˧pʰɹo˧˧"],  // From peirosst Jinuo: ʃi⁴⁴_phru⁴⁴.
+    bxd: ["ʃɔn35", "ʃɔn˧˥"],  // From peirosst Bola: ʃiŋ³⁵.
+    acn: ["ʂan31", "ʂan˧˩"],  // From peirosst Achang: ṣan³¹.
+    pmi: ["ɕi53", "ɕi˥˧"],  // From peirosst Pumi1: śi⁵³.
+    bca: ["ɕi", "ɕi˦˦"],  // From allenbai Jianchuan: ɕi⁴⁴.
+    adx: ["ཤིག", "ɕək"],  // From peirosst Xiaxe Tibetan: śhəχ.
+    bo: ["ཤིག", "ɕiʔ˥˧"],  // From peirosst Written Tibetan: śig.
+    cnh: ["hrik", "r̥ik"],  // From sagartst Chin_Hakha: hrik.
+    grt: ["tik", "tik"],  // From peirosst Garo: tik.
+    nzm: ["herikpui", "herikpui"],  // From marrisonnaga Zeme: herikpui.
+    nmf: ["rik", "rik"],  // From marrisonnaga Tangkhul: rik.
+    twm: ["ɕeʔ53", "ɕeʔ˥˧"],  // From peirosst Cuona-M: śeʔ⁵³.
+    duu: ["ɕiʔ", "ɕiʔ"],  // From peirosst Dulong: śiʔ⁵⁵.
+    hmn: ["ntshauv", "ⁿtsʰau˨˦"],  // From abvd Hmong, White: ntʃhau 3.
+    shx: ["taŋ44", "taŋ˦˦"],  // From abvd She (Lianhua): taŋ3.
+    lic: ["fou1", "fou˥˧"],  // From abvd Hlai (Baoding): fou1.
+    swi: ["tu1", "tu˩˩"],  // From abvd Sui: tu1.
+    kmc: ["tau55", "tau˥˥"],  // From abvd Dong, Southern: tau55.
+    pll: ["si", "si"],  // From nagarajakhasian Palaung: si.
+    kjg: ["seʔ", "seʔ"],  // From nagarajakhasian Khmu: seʔ.
+    mra: ["seʔ", "seʔ"],  // From peirosaustroasiatic Mlabri: seʔ.
+    wbt: ["wirnka", "wiɳka"],  // From bowernpny Warnman: wirnka.
+    mpj: ["wirnka", "wiɳka"],  // From bowernpny Martu Wangka: wirnka.
+    kpf: ["imen", "imen"],  // From mcelhanonhuon Komba: imen.
+    nlc: ["amnya", "amnja"],  // From papuanvoices Mek W.: Nalca: amɲa.
+    mpt: ["kim", "kim"],  // From transnewguineaorg Mian: kim.
+    fai: ["kim", "kim"],  // From transnewguineaorg Faiwol (Kauwol Dialect): kim.
+    enq: ["lema", "lema"],  // From abvd Enga: léma.
+    trv: ["quhing", "quhiŋ"],  // From abvd Seediq F69 (Sakura): qúheŋ.
+    tay: ["kuhing", "kuhiŋ"],  // From abvd Atayal - Squliq F69: kuhiŋ.
+    pon: ["likarak", "likarak"],  // From abvd Ponapean: likarak.
+    na: ["iwi", "iwi"],  // From abvd Nauru: iwi.
+    yap: ["thiil", "θiːl"],  // From abvd Yapese: thiil.
+    cia: ["cucu", "tʃutʃu"],  // From abvd Wasambua dialect of Cia-Cia: ʧuʧu.
+    dtp_kzj: ["kutu", "ˈkutu"],  // From abvd Bundu Dusun (Central Dusun): kutu.
+    itb: ["koto", "koto"],  // From abvd Itbayaten: kutuʔ.
+    ivv: ["koto", "koto"],  // From abvd Ivatan, Basco Dialect: kotoʔ.
+    agt: ["kutu", "kutu"],  // From abvd Agta: kutu.
+    bik: ["kuto", "ˈkuto"],  // From abvd Bikol (Naga City): kuto.
+    hil: ["kuto", "ˈkuto"],  // From abvd Ilonggo: kuto.
+    ceb: ["kuto", "ˈkuto"],  // From abvd Cebuano: kúto.
+    ban: ["kutu", "kutu"],  // From abvd Balinese: kutu.
+    bbc: ["hutu", "hutu"],  // From abvd Toba Batak: hutu.
+    akb: ["hutu", "hutu"],  // From abvd Angkola: hutu.
+    ljp: ["kutu", "kutu"],  // From abvd Lampung: kutəw.
+    max: ["kutu", "kutu"],  // From abvd Ternate (Pasar-Lingua franca): kutu.
+    abs: ["kutu", "kutu"],  // From abvd Melayu Ambon: kutu.
+    iba: ["kutu", "kutu"],  // From abvd Iban: kutu.
+    bjn: ["kutu", "kutu"],  // From abvd Banjarese Malay: kutu.
+    gay: ["kutu", "kutu"],  // From abvd Gayo: kutu.
+    min: ["kutu", "kutu"],  // From abvd Minangkabau: kutu.
+    sas: ["gutu", "ɡutu"],  // From abvd Sasak: gutu.
+    aoz: ["hutu", "hutu"],  // From abvd Atoni: hutu.
+    nia: ["utu", "utu"],  // From abvd Nias: utu.
+    meu: ["utu", "utu"],  // From abvd Motu: utu.
+    kos: ["kut", "kut"],  // From abvd Kusaie: kut.
+    pau: ["kud", "kuð"],  // From abvd Palauan: kud.
+    woe: ["giusiu", "ɡʉsʉ"],  // From abvd Woleai: giusɪʊ.
+    gil: ["uti", "ˈusi"],  // From abvd Kiribati: úti.
+    rtm: ["ʻufu", "ʔufu"],  // From abvd Rotuman: ʔufu.
+    wls: ["kutu", "kutu"],  // From abvd Uvea, East: kutu.
+    mrq: ["kutu", "kutu"],  // From abvd Marquesan: kutu.
+    rar: ["kutu", "kutu"],  // From abvd Rarotongan: kutu.
+    tvl: ["kutu", "kutu"],  // From abvd Tuvalu: kutu.
+    to: ["kutu", "kutu"],  // From abvd Tongan: kutu.
+    sm: ["ʻutu", "ʔutu"],  // From abvd Samoan: ʔutu.
+    pmt: ["kutu", "kutu"],  // From abvd Tuamotu: kutu.
+    es_cr: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
+    es_hn: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
+    es_ni: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
+    es_sv: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
     ar_jo: ["قملة", "ˈʔamle"],  // Inherited from Arabic قَمْل (qaml); South Levantine Arabic singulative of collective قمل ʔaml 'lice, louse' (urban ʔamle; Bedouin gamle). Wiktionary South Levantine Arabic (Jordan/Palestine).
     ar_ps: ["قملة", "ˈʔamle"],  // Inherited from Arabic قَمْل (qaml); South Levantine Arabic singulative قملة ʔamle of collective قمل 'lice, louse'; Ramallah audio on Wiktionary.
     fr_lu: ["pou", "pu"],  // Inherited from Latin *pēduculus.
@@ -483,7 +773,7 @@ WORDS.louse = {
     cjs: ["пит", "pit"],  // Inherited from Proto-Turkic *bit.
     es_pr: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
     es_do: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
-    es_gt: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
+    es_gt: ["piojo", "ˈpjoho"],  // Inherited from Latin *pēduculus.
     es_ec: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
     es_uy: ["piojo", "ˈpjoxo"],  // Inherited from Latin *pēduculus.
     en_wls: ["louse", "ləʊs"],  // Inherited from Old English lūs, from Proto-Germanic *lūs.
@@ -535,7 +825,7 @@ WORDS.louse = {
     fa: ["شپش", "ʃeˈpeʃ"],  // Inherited from Middle Persian.
     sw: ["chawa", "ˈtʃawa"],  // Native Bantu word.
     tl: ["kuto", "ˈkuto"],  // Inherited from Proto-Austronesian *kutu.
-    mn: ["бөөс", "bøːs"],  // Inherited from Proto-Mongolic *bögesün.
+    mn: ["бөөс", "bɵːs"],  // Inherited from Proto-Mongolic *bögesün.
     sah: ["быт", "bɯt"],  // Inherited from Proto-Turkic *bit.
     tyv: ["быт", "bɯt"],  // Inherited from Proto-Turkic *bɨt 'louse'; Wiktionary *bït descendants: Tuvan быт; Starling: 'Tuva: bɨ't'
     alt: ["бийт", "bijt"],  // Inherited from Proto-Turkic *bɨt 'louse'; Wiktionary *bït descendants: Southern Altai бийт; Starling: 'Oyrat: bijt'
@@ -562,15 +852,15 @@ WORDS.louse = {
     ka: ["ტილი", "tʼili"],  // Native Georgian word.
     lzz: ["მტი", "mtʼi"],  // Native Kartvelian word.
     sva: ["ტიშ", "tʼiʃ"],  // Native Kartvelian word.
-    hy: ["ոջիլ", "vodʒil"],  // Native Armenian word.
+    hy: ["ոջիլ", "voˈtʃʰil"],  // Native Armenian word.
     hyw: ["ոջիլ", "votʃʰil"],  // Wiktionary Armenian ոջիլ 'louse', Western Armenian IPA [vot͡ʃʰíl]; from Old Armenian ոջիլ (oǰil).
-    nv: ["yaaʼ", "jaːʔ"],  // Native Navajo word.
+    nv: ["yaaʼ", "jɑ̀ːʔ"],  // Native Navajo word.
     haw: ["ʻuku", "ʔuku"],  // Inherited from Proto-Polynesian *kutu.
     mi: ["kutu", "kutu"],  // Inherited from Proto-Polynesian *kutu.
     qu: ["usa", "ˈusa"],  // Native Quechua word.
     za: ["naenz", "nan˧˩"],  // Native Tai word.
     jv: ["tuma", "tumɔ"],  // Inherited from Proto-Malayo-Polynesian *tuma.
-    su: ["otét", "otɛt"],  // Native Sundanese word.
+    su: ["otét", "otet"],  // Native Sundanese word.
     ilo: ["kuto", "ˈkuto"],  // Inherited from Proto-Austronesian *kutu.
     fj: ["kutu", "kutu"],  // Inherited from Proto-Austronesian *kutu.
     sd: ["جُون", "dʒũː"],  // Mewaram: 'جۇن، جُنَئ or جۇنَئيِ n. (pl. جۇنئۇن or جۇن) A louse'; inherited from Sanskrit yū́kā (CDIAL 10512 'S. jũa, jū̃ f.')
@@ -660,7 +950,7 @@ WORDS.louse = {
     fr_be: ["pou", "pu"],  // Inherited from Latin pēdiculus.
     fr_ch: ["pou", "pu"],  // Inherited from Latin pēdiculus.
     es_co: ["piojo", "ˈpjoxo"],  // Inherited from Vulgar Latin *peduculus.
-    es_cl: ["piojo", "ˈpjoxo"],  // Inherited from Vulgar Latin *peduculus.
+    es_cl: ["piojo", "ˈpjoho"],  // Inherited from Vulgar Latin *peduculus.
     es_ar: ["piojo", "ˈpjoxo"],  // Inherited from Vulgar Latin *peduculus.
     es_cu: ["piojo", "ˈpjoho"],  // Inherited from Vulgar Latin *peduculus.
     es_pe: ["piojo", "ˈpjoxo"],  // Inherited from Vulgar Latin *peduculus.
@@ -722,7 +1012,7 @@ WORDS.louse = {
     ch: ["hutu", "hutu"],  // Inherited from Proto-Austronesian *kutu via Pre-Chamorro *xutu.
     tet: ["utu", "utu"],  // Inherited from Proto-Austronesian *kutu.
     bi: ["nakutu", "nakutu"],  // From a Vanuatu vernacular form with na- + kutu (Proto-Austronesian *kutu).
-    aer: ["arreme", "arəmə"],  // Native Arrernte word.
+    aer: ["arreme", "aɾəmə"],  // Native Arrernte word.
     new: ["सि", "si"],  // Manandhar: 'सि si, n. body louse; ku—, n. a flea; sa—, n. the egg of a louse'
     lus: ["hrik", "r̥ik"],  // Inherited from Proto-Kuki-Chin *hrik, from Proto-Sino-Tibetan *srik.
     xsr: ["ཤིག", "ɕik"],  // Inherited from Proto-Sino-Tibetan *srik.
@@ -778,7 +1068,7 @@ WORDS.louse = {
     it_dan: ["pidocchio", "piˈdɔkkjo"],  // Inherited from Late Latin peduclus < Latin pēdīculus.
     goh: ["lūs", "luːs"],  // Inherited from Proto-Germanic *lūs.
     xct_litpr: ["ཤིག", "ɕiʔ"],  // Native Tibetan word, from Proto-Sino-Tibetan *srik.
-    xct: ["ཤིག", "ɕiɡ"],  // Native Tibetan word, from Proto-Sino-Tibetan *srik.
+    xct: ["ཤིག", "ɕik"],  // Native Tibetan word, from Proto-Sino-Tibetan *srik.
     de_lut: ["Laus", "laʊs"],  // Inherited from MHG lūs < Proto-Germanic *lūs.
     gmh: ["lūs", "luːs"],  // Inherited from Old High German lūs < Proto-Germanic *lūs.
     es_sgl: ["piojo", "piˈoʒo"],  // Inherited from Old Spanish piojo < Late Latin peduclus.
@@ -810,7 +1100,7 @@ WORDS.louse = {
     hak_tw: ["蝨嫲", "set˨ ma˩˩"],  // louse + female suffix 嫲.
     nan_qz: ["蝨母", "sat˥ bu˥˥˦"],  // louse + mother suffix 母.
     dtp: ["kutu", "kutu"],  // Inherited from PAN *kuCux.
-    cak: ["ükʼ", "ʔʊkʼ"],  // Inherited from Proto-Mayan *ʔukʼ.
+    cak: ["ükʼ", "ʊkʼ"],  // Inherited from Proto-Mayan *ʔukʼ.
     nij: ["guti", "ɡuti"],  // Irregular reflex compared with PAN *kuCux.
     mhy: ["kutu", "kutu"],  // Inherited from PAN *kuCux.
     sda: ["kutu", "kutu"],  // Inherited from PAN *kuCux.

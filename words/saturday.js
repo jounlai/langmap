@@ -71,6 +71,7 @@ WORDS.saturday = {
     sw: "Jumamosi — siku kabla ya Jumapili. Lugha nyingine huiita kwa jina la Zohali, nyingi kwa sabato ya Kiyahudi, nyingine huhesabu tu, na watu wa Kaskazini waliiita siku ya kuoga.",
   },
   family: {
+    huz: "sabbath",
     ab: "plain",
     aa: "sabbath",
     af: "saturn",
@@ -221,7 +222,7 @@ WORDS.saturday = {
     mhr: "plain",
     mdf: "other",
     koi: "wash",
-    kpv: "wash",
+    kpv: "sabbath",
     kca: "plain",
     mns: "sabbath",
     ku: "sabbath",
@@ -741,6 +742,7 @@ WORDS.saturday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    huz: ["шамат", "ʃamat"],  // From ids Hunzib шамат.
     ab: ["асабша", "asabʂa"],  // No opened source supports the route.
     aa: ["sábti", "sabti"],
     af: ["Saterdag", "ˈsɑːtərdəχ"],
@@ -891,7 +893,7 @@ WORDS.saturday = {
     mhr: ["шуматкече", "ʃumatketʃe"],  // No opened source supports the route.
     mdf: ["ёткши", "ˈjotkʃi"],
     koi: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
-    kpv: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
+    kpv: ["субӧта", "subɘta"],  // From Russian суббота.
     kca: ["ӆапат хутмет хатӆ", "ɬapat xutmet xatɬ"],  // No opened source supports the route.
     mns: ["суббота", "ˈsubbota"],
     ku: ["şemî", "ʃɛmi"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
@@ -1060,7 +1062,7 @@ WORDS.saturday = {
     min: ["Satu", "satu"],  // Borrowed from Javanese Setu, ultimately from Arabic as-sabt, the Sabbath.
     got: ["𐍃𐌰𐌱𐌱𐌰𐍄𐍉", "ˈsabbatoː"],  // Borrowed from Greek σάββατον, from Hebrew, the Sabbath.
     su: ["Saptu", "saptu"],  // From Arabic as-sabt, the Sabbath.
-    ve: ["Mugivhela", "muɡiβela"],  // The Venda name for Saturday; the source gives no etymology. Route by resemblance to the neighbouring forms (nso(Mokibelo) zu(uMgqibelo)); no etymology of its own.
+    ve: ["Mugivhela", "muɡivʱela"],  // The Venda name for Saturday; the source gives no etymology. Route by resemblance to the neighbouring forms (nso(Mokibelo) zu(uMgqibelo)); no etymology of its own.
     pam: ["Sabadu", "ˈsabədu"],  // Borrowed from Spanish sábado, the Sabbath.
     dv: ["ހޮނިހިރު", "honihiɾu"],  // From Sanskrit śanivāra, 'Saturn's day'.
     tum: ["Cisulo", "tʃisulo"],  // From -sula 'rest': in colonial times workers were let off early on that day.

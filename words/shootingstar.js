@@ -610,7 +610,7 @@ WORDS.shootingstar = {
     khb: ["ᦡᦱᧁᦟᦳᧂ", "daːw˥ luŋ˥˩"],  // Literally "falling star": ᦡᦱᧁ "star" + ᦟᦳᧂ "go down".
     nxq: ["ssaq", "zɑ˨˩"],  // A word of its own, listed as common to all dialects; another dialect says geeqqer, literally 'star dung'.
     nhe: ["tlixihuitl", "tɬiˈʃiwitɬ"],  // Built from tlitl 'fire' and xihuitl; the IDIEZ dictionary of Huasteca Nahuatl glosses it 'comet, shooting star'.
-    ctu: ["taʼ ekʼ", "taʔ ʔekʼ"],  // Literally 'star excrement', like Korean 별똥별.
+    ctu: ["taʼ ekʼ", "taʔ ekʼ"],  // Literally 'star excrement', like Korean 별똥별.
     arn: ["lefkechi wangüḻen", "lefketʃi waŋɨl̪en"],  // Literally 'running star' (lef 'fast, running' + adverbial -kechi); on seeing one people say Lefi wangüḻen 'a star ran'.
     dv: ["ގިނިހިލަ", "ɡinihila"],  // Literally 'spark rock': ގިނި 'spark' + ހިލަ 'rock'.
     wa: ["schitante sitoele", "ʃitãt sitwɛl"],  // Built on schiter, which the Walloon Wiktionary glosses both 'to have the runs' and 'to spill, slip, run off'; Walloon also says sitoele ki schite and the learned meteyorite.
@@ -681,7 +681,7 @@ WORDS.shootingstar = {
     ain: ["マッコイワㇰノチウ", "matkoiwaknotɕiw"],  // Literally 'star that goes courting a wife'.
     ko_jeju: ["벨장게", "peʎdʑaŋɡe"],
     h_tagalog: ["ᜊᜓᜎᜎᜃᜏ᜔", "bulaˈlakaw"],
-    h_vedic: ["उल्का", "ulkaː"],
+    h_vedic: ["उल्का", "ulkáː"],
     pi_edu: ["ukkā", "ukːaː"],
     sa_edu: ["उल्का", "ulkaː"],
     zh_yuan: ["流星", "liəu siəŋ"],

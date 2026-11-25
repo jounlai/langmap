@@ -73,6 +73,8 @@ WORDS.east = {
     sw: "Mashariki — upande wa jua kuchomoza. Karibu kila lugha inalitazama jua. Kiingereza east na Kijerumani Osten vinahusiana na neno la kale la alfajiri, na Kifaransa kilikikopa kutoka Kiingereza kama est, kisha Kihispania este. Kilatini oriēns, Kigiriki ἀνατολή na Kirusi восток maana yake ni \"kuchomoza\", Kithai ตะวันออก ni \"jua linatoka\", na Kiarabu مشرق, kilichokopwa na Kiajemi na Kiswahili (mashariki), ni mahali jua linapochomoza. Ukilielekea jua linalochomoza, mashariki iko mbele: Kisanskriti pūrva \"mbele\" kilizaa Kihindi पूर्व. Kichina 東 kikawa Kikorea 동 na Kivietinamu đông, na Kitamil கிழக்கு ni \"chini\".",
   },
   family: {
+    jiu: "plain",
+    tsj: "rising",
     lb: "dawn",
     acw: "rising",
     ja: "rising",
@@ -305,7 +307,7 @@ WORDS.east = {
     en_nz: "dawn",
     en_au: "dawn",
     de_at: "dawn",
-    smj: "nuortte",
+    smj: "plain",
     en_south: "dawn",
     en_app: "dawn",
     en_in: "dawn",
@@ -836,6 +838,8 @@ WORDS.east = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    jiu: ["a33mø33", "a˧˧mø˧˧"],  // From suntb Jinuo: a³³mø³³.
+    tsj: ["shar", "ɕar"],  // From suntb Tsangla (Motuo): ɕar.
     lb: ["Osten", "ˈostən"],
     acw: ["شرق", "ʃarɡ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ja: ["東", "hiɡaɕi"],  // From Old Japanese *pi₁mukasi, 日 'sun' + 向か 'facing' (Wiktionary), the 'facing the sun' of the ja_heian row; now the standard word for east.
@@ -879,8 +883,8 @@ WORDS.east = {
     my: ["အရှေ့", "ʔəʃḛ"],  // အ- + ရှေ့ 'front'.
     lo: ["ທິດຕາເວັນອອກ", "tʰit˧ taː˩˧ ʋen˧˥ ʔɔːk˧˩"],  // ທິດ + ຕາເວັນອອກ 'sun comes out'.
     yo: ["gabasi", "ɡàbasì"],
-    zu: ["impumalanga", "impumalaːnɡa"],  // From -phuma 'to rise' + ilanga 'sun'.
-    ain: ["チュㇷ゚カ", "tʃupka"],  // 'sun' + 'on, above'.
+    zu: ["impumalanga", "impumalaːŋɡa"],  // From -phuma 'to rise' + ilanga 'sun'.
+    ain: ["チュㇷ゚カ", "tɕupka"],  // 'sun' + 'on, above'.
     fi: ["itä", "ˈitæ"],  // From Proto-Uralic *itä- 'to appear'.
     hu: ["kelet", "ˈkɛlɛt"],  // Short for napkelet 'sunrise'.
     el: ["ανατολή", "anatoˈli"],  // From Ancient Greek ἀνατολή 'sunrise'.
@@ -927,7 +931,7 @@ WORDS.east = {
     om: ["baha", "bɐhɐ"],
     xh: ["impumalanga", "iᵐpumaːlaᵑɡa"],  // From -phuma 'to rise' + ilanga 'sun'.
     sco: ["aist", "est"],
-    yi: ["מזרח", "ˈmɪzʁəχ"],
+    yi: ["מזרח", "ˈmɪzrəχ"],
     is: ["austur", "ˈœistʏr"],
     br: ["reter", "ˈreːtɛr"],
     co: ["este", "ˈɛste"],
@@ -950,7 +954,7 @@ WORDS.east = {
     or: ["ପୂରୁବ", "puɾubɔ"],
     nn: ["aust", "œʊst"],
     fo: ["eystur", "ˈɛstʊɹ"],
-    la: ["oriēns", "ˈoriens"],  // Present participle of orior 'to rise'; also 'sunrise'.
+    la: ["oriēns", "ˈorieːns"],  // Present participle of orior 'to rise'; also 'sunrise'.
     enm: ["est", "ɛːst"],
     ang: ["east", "æɑːst"],
     got: ["𐌿𐍂𐍂𐌿𐌽𐍃", "ˈurˌruns"],  // Also 'rise (of a celestial body)'.
@@ -982,7 +986,7 @@ WORDS.east = {
     csb: ["óst", "ost"],
     ast: ["este", "ˈeste"],
     fax: ["esti", "ˈesti"],
-    kpv: ["асыввыв", "ˈasɯʋʋɯʋ"],
+    kpv: ["асыввыв", "ˈasɯvvɯv"],
     udm: ["ӵукпал", "tʃ̺ukˈpäl"],
     mhr: ["эрвел", "ervel"],
     mrj: ["ирвел", "irvel"],
@@ -1068,7 +1072,7 @@ WORDS.east = {
     en_nz: ["east", "iːst"],
     en_au: ["east", "iːst"],
     de_at: ["Osten", "ˈɔstən"],
-    smj: ["nuorta", "ˈnuɔ̯rːta"],
+    smj: ["lulle", "ˈlʊlːɛ"],
     en_south: ["east", "iːst"],
     en_app: ["east", "iːst"],
     en_in: ["east", "iːsʈ"],
@@ -1121,7 +1125,7 @@ WORDS.east = {
     kaw: ["ꦠꦶꦩꦸꦂ", "timur"],  // From Proto-Austronesian *timuʀ.
     hbo: ["מזרח", "mizˈrɔːħ"],  // From zāraḥ "to rise, shine".
     he_mis: ["מזרח", "mizˈraħ"],  // From zāraḥ "to rise, shine".
-    hy_grab: ["արեւելք", "arewelkʰ"],  // arew "sun" + elkʻ "going out"; an Iranian calque.
+    hy_grab: ["արեւելք", "aɾewelkʰ"],  // arew "sun" + elkʻ "going out"; an Iranian calque.
     sukh: ["ตะวันออก", "tawanʔɔːk"],  // Sun comes out; Ram Khamhaeng inscription "เบื้องตะวันออก".
     qwc: ["anti", "anti"],  // As in Antisuyu, the eastern quarter of the Inca state.
     sa_edu: ["प्राची", "pɾaːtɕiː"],  // Feminine of prāñc "turned forward".
@@ -1308,7 +1312,7 @@ WORDS.east = {
     gez: ["ምሥራቅ", "məsraːq"],
     myz: ["ࡌࡀࡃࡍࡀ", "madna"],
     uga: ["𐎖𐎄𐎎", "qidmu"],
-    xpr: ["xwarāsān", "xwaraːsaːn"],
+    xpr: ["hwarāsān", "hwaraːsaːn"],
     xto: ["𑀓𑁄𑀁𑀧𑀭𑁆𑀓𑀦𑁆𑀢𑁆", "kompərkənt"],
     ja_oki: ["東", "ʔaɡaɾi"],
     jam: ["iis", "iːs"],

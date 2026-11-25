@@ -820,7 +820,7 @@ WORDS.monkey = {
     bs: ["majmun", "majmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
     bsk: ["śadi", "ɕadi"],
     ca: ["mico", "ˈmiku"],  // Borrowed from Spanish mico.
-    ceb: ["amo", "amo"],
+    ceb: ["amo", "ʔamo"],
     cgg: ["enkima", "enkima"],
     chy: ["mákohe", "mákohe"],
     cic: ["hattak shawiʼ", "hattak ʃawiʔ"],  // hattak "person" + shawiꞌ "raccoon".
@@ -862,7 +862,7 @@ WORDS.monkey = {
     haw: ["keko", "keko"],
     he: ["קוף", "kof"],  // Likely borrowed from the east, related to Middle Persian kabīg.
     hi: ["बंदर", "bəndəɾ"],  // From Sanskrit vānara through Prakrit; the -d- was added between n and r.
-    hil: ["amo", "amo"],  // From Greater Central Proto-Philippine *amúʔ.
+    hil: ["amo", "ʔamo"],  // From Greater Central Proto-Philippine *amúʔ.
     hr: ["majmun", "mǎjmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
     ht: ["makak", "maˈkak"],  // From Portuguese macaco, itself thought to come from a Bantu language.
     hu: ["majom", "ˈmɒjom"],  // From Arabic maymūn, directly or through Turkish or Persian.
@@ -908,7 +908,7 @@ WORDS.monkey = {
     mi: ["hako", "hako"],
     mk: ["мајмун", "ˈmajmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
     ml: ["കുരങ്ങ്", "kuɾaŋŋɨ"],  // From Proto-Dravidian *korVnk-.
-    mn: ["сармагчин", "sarmaɡtʃiŋ"],
+    mn: ["сармагчин", "sarmaɡtʃʰiŋ"],
     mnc: ["ᠪᠣᠨᡳᠣ", "pɔniɔ"],
     mni: ["ꯌꯣꯡ", "joŋ"],
     mnw: ["ကၞုဲ", "kanui"],

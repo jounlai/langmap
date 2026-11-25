@@ -647,7 +647,7 @@ WORDS.daughter = {
     kqn: "plain",
     lua: "yana",
     ff: "plain",
-    crs: "plain",
+    crs: "filia",
     srm: "plain",
     ett: "plain",
     pbb: "plain",
@@ -1002,7 +1002,7 @@ WORDS.daughter = {
     wuu_nb: "noe",
     sas: "anak",
     max: "plain",
-    gcf: "plain",
+    gcf: "filia",
     ja_oki: "plain",
     sgw: "plain",
     bi: "plain",
@@ -1492,10 +1492,10 @@ WORDS.daughter = {
     // --- Berber — daughter is only ever "my daughter" --------------------
     // Berber kin terms are obligatorily possessed; the citation form is the
     // 1sg, exactly as this atlas's Berber rows already cite "yemma" and "baba".
-    kab: ["yelli", "jəlli"],
+    kab: ["yelli", "jəlːi"],
     shy: ["yelli", "jəlli"],
     tzm: ["ⵢⵍⵍⵉ", "jəlːi"],
-    zgh: ["ⵢⵍⵍⵉ", "jəlli"],
+    zgh: ["ⵢⵍⵍⵉ", "jəlːi"],
     shi: ["ⵉⵍⵍⵉ", "ilːi"],
 
     // --- Iranian — *dugdar held east of the Zagros -----------------------
@@ -1613,7 +1613,7 @@ WORDS.daughter = {
     bew: ["anak perempuan", "anak pərəmpuan"],
     pmy: ["anak prempuan", "anak prempuan"],
     ceb: ["anak nga babaye", "ʔaˈnak ŋa baˈbaje"],
-    hil: ["anak nga babayi", "anak ŋa babaji"],
+    hil: ["anak nga babayi", "ʔanak ŋa babaji"],
     war: ["anak nga babaye", "anak ŋa babaje"],
     bik: ["aki na babayi", "ˈʔakiʔ na baˈbaji"],
     ilo: ["anak a babai", "ʔaˈnak a baˈbaʔi"],
@@ -2096,7 +2096,7 @@ WORDS.daughter = {
     ppl: ["nusiwapiltzin", "nusiwaˈpiltsin"],
     mixtec: ["seʼe siʼi", "seʔe siʔi"],
     mxv: ["seʼe ñaʼa", "seʔe ɲaʔa"],
-    zap: ["xiñi dxaapa", "ʃiɲi dʒaːpa"],
+    zap: ["xiñi dxaapa", "ʒiɲi dʒaːpa"],
     zts: ["zhinyzhyap", "ʒiɲʒjap"],
     maz: ["xuntʼi", "ʃuntʼi"],
     ote: ["tʼixu", "tʼiʃu"],

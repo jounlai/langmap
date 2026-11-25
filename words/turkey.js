@@ -151,7 +151,7 @@ WORDS.turkey = {
     ca: "india",
     gl: "pavo",
     cs: "local",
-    sk: "unknown",
+    sk: "local",
     sl: "unknown",
     sr: "local",
     bg: "local",
@@ -188,7 +188,7 @@ WORDS.turkey = {
     oj: "local",
     cho: "local",
     wa: "india",
-    sq: "unknown",
+    sq: "local",
     oc: "unknown",
     tt: "kurka",
     sc: "india",
@@ -311,7 +311,7 @@ WORDS.turkey = {
     ne: "turkey",
     si: "india",
     azb: "india",
-    bar: "unknown",
+    bar: "local",
     ug: "kurka",
     rw: "india",
     sn: "india",
@@ -507,7 +507,7 @@ WORDS.turkey = {
     ar_lev: ["ديك حبش", "diːk ħabaʃ"],  // Literally "Abyssinian (Ethiopian) rooster"; Wiktionary also lists North Levantine حبشة ḥabše.
     he: ["תרנגול הודו", "taʁneɡol hodu"],  // Literally "rooster of India" (הודו = India).
     tr: ["hindi", "hinˈdi"],  // Literally "Indian", named after India.
-    fa: ["بوقلمون", "buːʁælæˈmuːn"],  // Originally the name of a colour-changing Byzantine fabric, applied to the bird for its shifting feather colours; also means "chameleon".
+    fa: ["بوقلمون", "buːɢælæˈmuːn"],  // Originally the name of a colour-changing Byzantine fabric, applied to the bird for its shifting feather colours; also means "chameleon".
     prs: ["بوقلمون", "buːqalamuːn"],  // Originally the name of a colour-changing Byzantine fabric, applied to the bird for its shifting colours.
     es: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the new bird.
     es_mx: ["guajolote", "ɡwaxoˈlote"],  // Borrowed from Nahuatl huehxōlōtl, the Aztec name of the bird.
@@ -570,7 +570,7 @@ WORDS.turkey = {
     sw: ["bata mzinga", "bata mzinɡa"],  // Literally "duck" + mzinga "beehive; cannon" (Wiktionary glosses of the parts).
     yo: ["tòlótòló", "tòlótòló"],  // Borrowed from Hausa tàlotàlo; similar names run across Nigerian languages.
     zu: ["ikalikuni", "ikaliˈkuːni"],  // From Afrikaans kalkoen, after Calicut in India.
-    xh: ["ikarukwini", "ikaxuˈkʷiːni"],  // From Afrikaans kalkoen, after Calicut in India.
+    xh: ["ikarukwini", "ikaruˈkʷiːni"],  // From Afrikaans kalkoen, after Calicut in India.
     ny: ["nkhukundembo", "ŋkʰukuˈndembo"],  // Literally "vulture chicken".
     mg: ["vorontsiloza", "vurunˈtsiluza"],  // Literally "bird that is not angry" (vorona "bird" + tsy "not" + loza), per Wiktionary.
     nv: ["tązhii", "tʰɑ̃̀ʒìː"],  // A native Navajo word, from a root meaning "to peck with a beak".
@@ -627,7 +627,7 @@ WORDS.turkey = {
     dsb: ["truta", "ˈtruta"],  // Lower Sorbian truta is the turkey hen (also trutawa). Route by resemblance to the neighbouring forms (de_ch(Trute)); no etymology of its own.
     or: ["ପେରୁ", "peɾu"],  // Named after Peru, like Portuguese peru (Praharaj's Odia dictionary).
     as: ["পেৰু চৰাই", "peɹu sɔɹai"],  // Literally "Peru bird".
-    es_cu: ["guanajo", "ɡwaˈnaxo"],  // A Cuban word borrowed from Arawak wanasu; most of the Spanish-speaking world says pavo.
+    es_cu: ["guanajo", "ɡwaˈnaho"],  // A Cuban word borrowed from Arawak wanasu; most of the Spanish-speaking world says pavo.
     es_cl: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey.
     es_ar: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey.
     es_pe: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey.
@@ -902,7 +902,7 @@ WORDS.turkey = {
     itz: ["kutz", "kuts"],
     prk: ["ia sang", "ʔia saŋ"],  // Literally 'elephant chicken'.
     bm: ["kulokulo", "kulokulo"],
-    ace: ["manok gajah", "manɔʔ ɡadʒah"],  // Literally 'elephant chicken': manok is chicken and gajah elephant.
+    ace: ["manok gajah", "manɔʔ ɡaɟah"],  // Literally 'elephant chicken': manok is chicken and gajah elephant.
     pag: ["pabo", "ˈpabo"],
     mus: ["penwv", "pínwə"],  // A native word; no foreign place is named in it.
     win: ["ziizike", "ziːzike"],

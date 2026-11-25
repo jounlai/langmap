@@ -183,7 +183,7 @@ WORDS.island = {
     la: "insula",
     lb: "insula",
     lij: "insula",
-    liv: "sala",
+    liv: "plain",
     ln: "canga",
     lo: "tkoo",
     lt: "sala",
@@ -891,7 +891,7 @@ WORDS.island = {
     eo: ["insulo", "inˈsulo"],  // From Latin īnsula, directly or through a later language.
     es: ["isla", "ˈisla"],  // From Latin īnsula, directly or through a later language.
     ess: ["ӄиӽӄаӄ", "qiχqaq"],
-    et: ["saar", "sɑɑr"],
+    et: ["saar", "sɑːr"],
     eu: ["irla", "irla"],  // From Latin īnsula, directly or through a later language.
     fa: ["جزیره", "dʒæziːˈɾe"],  // From Arabic jazīra.
     fi: ["saari", "ˈsɑːri"],
@@ -943,7 +943,7 @@ WORDS.island = {
     la: ["insula", "ˈiːnsula"],  // Wiktionary leaves its relation to Greek νῆσος and Celtic *enistī open.
     lb: ["Insel", "ˈinzel"],
     lij: ["îzoa", "ˈiːzua"],  // From Latin īnsula, directly or through a later language.
-    liv: ["sala", "ˈsɑlɑ"],
+    liv: ["kǭla", "ˈkɔːlɑ"],
     ln: ["esanga", "esaŋɡa"],
     lo: ["ເກາະ", "kɔʔ˧˥"],
     lt: ["sala", "sɐˈlɐ"],
@@ -1116,7 +1116,7 @@ WORDS.island = {
     en_aave: ["island", "ˈaɪlənd"],
     en_au: ["island", "ˈɑɪlənd"],
     rmy: ["dvip", "dvip"],
-    smj: ["suolu", "ˈsuɔ̯luː"],
+    smj: ["suoloj", "ˈsʊuɔluɔj"],
     en_south: ["island", "ˈaɪlənd"],
     en_in: ["island", "ˈaɪlənɖ"],
     en_ie: ["island", "ˈaɪlənd"],
@@ -1275,7 +1275,7 @@ WORDS.island = {
     ar_jo: ["جزيرة", "ʒaziːre"],  // Arabic jazīra; the same word across the dialects.
     ar_ps: ["جزيرة", "ʒaziːre"],  // Arabic jazīra; the same word across the dialects.
     ar_lev: ["جزيرة", "ʒaziːɾe"],  // Arabic jazīra; the same word across the dialects.
-    ar_sy: ["جزيرة", "ʒaziːɾe"],  // Arabic jazīra; the same word across the dialects.
+    ar_sy: ["جزيرة", "ʒaziːre"],  // Arabic jazīra; the same word across the dialects.
     ar_lb: ["جزيرة", "ʒaziːɾe"],  // Arabic jazīra; the same word across the dialects.
     el_koi: ["νῆσος", "ˈne̝sos"],
     la_late: ["insula", "ˈinsola"],

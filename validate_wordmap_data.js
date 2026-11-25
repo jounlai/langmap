@@ -1036,9 +1036,9 @@ for (const code of codes) {
                 ain: new Set(['wheel']),   // r106: wrong cell removed; no sourced form found
                 tus: new Set(['tree', 'star', 'mother', 'moon', 'drink', 'eat', 'hello']),   // r106: wrong cell removed; no sourced form found
                 ter: new Set(['hello']),   // r106: wrong cell removed; no sourced form found
-                fai: new Set(['eat', 'love', 'thanks', 'hello']),   // r106: wrong cell removed; no sourced form found
+                fai: new Set(['thanks', 'hello']),   // r106: wrong cell removed; no sourced form found
                 ssf: new Set(['hello']),   // r106: wrong cell removed; no sourced form found
-                trv: new Set(['milk', 'computer']),   // r105: wrong cell removed; no sourced form found
+                trv: new Set(['milk']),   // r105: wrong cell removed; no sourced form found
                 bzh: new Set(['chocolate']),   // r105: wrong cell removed; no sourced form found
                 xul: new Set(['eat', 'drink']),   // r105: wrong cell removed; no sourced form found
                 aer: new Set(['love']),   // review 494: mwerre is 'good', not 'love'; no sourced form found
@@ -1058,32 +1058,22 @@ for (const code of codes) {
                 rgn: new Set(['thanks']),   // r94: wrong cell removed; no sourced form found
                 bdq: new Set(['cuckoo']),   // r94: wrong cell removed; no sourced form found
                 ik: new Set(['wine']),   // r91: wrong cell removed; no sourced form found
-                ono: new Set(['dog']),   // r91: wrong cell removed; no sourced form found
                 ktz: new Set(['love', 'thanks']),   // r90: wrong cell removed; no sourced form found
-                ibb: new Set(['cat']),   // r87: wrong cell removed; no sourced form found
                 yle: new Set(['thanks']),   // r86: wrong cell removed; no sourced form found
                 gej: new Set(['cat']),   // r86: wrong cell removed; no sourced form found
-                urh: new Set(['butterfly', 'thanks']),   // r86: wrong cell removed; no sourced form found
+                urh: new Set(['thanks']),   // r86: wrong cell removed; no sourced form found
                 mic: new Set(['wheel']),   // r86: wrong cell removed; no sourced form found
-                kpy: new Set(['love']),   // r86: wrong cell removed; no sourced form found
                 czh: new Set(['ear']),   // r85: wrong cell removed; no sourced form found
-                mnw: new Set(['hello']),   // r85: wrong cell removed; no sourced form found
                 sjo: new Set(['tree', 'love', 'hello']),   // r85: wrong cell removed; no sourced form found
                 hni: new Set(['cuckoo']),   // r85: wrong cell removed; no sourced form found
                 nys: new Set(['cat']),   // r83: wrong cell removed; no sourced form found
                 olk: new Set(['love', 'house', 'drink']),   // r83: wrong cell removed; no sourced form found
                 wbt: new Set(['love', 'thanks']),   // r83: wrong cell removed; no sourced form found
                 tlh: new Set(['rice', 'sugar']),   // r83: wrong cell removed; no sourced form found
-                abe: new Set(['love']),   // r83: wrong cell removed; no sourced form found
                 adt: new Set(['cat', 'thanks']),   // r83: wrong cell removed; no sourced form found
-                kgp: new Set(['iron']),   // r83: wrong cell removed; no sourced form found
-                blc: new Set(['iron', 'hundred']),   // r83: wrong cell removed; no sourced form found
                 kxv: new Set(['fire']),   // r83: wrong cell removed; no sourced form found
-                mcf: new Set(['three', 'name', 'heart']),   // r83: wrong cell removed; no sourced form found
                 bbl: new Set(['star', 'good', 'love']),   // r83: wrong cell removed; no sourced form found
                 yao: new Set(['thanks']),   // r80: wrong cell removed; no sourced form found
-                srr: new Set(['sun']),   // r80: wrong cell removed; no sourced form found
-                tmh: new Set(['night']),   // r80: wrong cell removed; no sourced form found
                 pll: new Set(['wheel', 'hello', 'thanks']),   // r80: wrong cell removed; no sourced form found
                 bfa: new Set(['wheel']),   // r80: wrong cell removed; no sourced form found
                 nv: new Set(['cuckoo']),   // r80: wrong cell removed; no sourced form found
@@ -1100,24 +1090,20 @@ for (const code of codes) {
                 wuu_wz: new Set(['ear', 'mother']),   // r74: wrong cell removed; no sourced form found
                 hak_tw: new Set(['chocolate']),   // r74: wrong cell removed; no sourced form found
                 mey: new Set(['wheel']),   // r74: wrong cell removed; no sourced form found
-                rap: new Set(['wheel']),   // r74: wrong cell removed; no sourced form found
                 fia: new Set(['hello', 'thanks']),   // r74: wrong cell removed; no sourced form found
-                lb: new Set(['atsign']),   // r73: wrong cell removed; no sourced form found
-                lt: new Set(['wifi']),   // r73: wrong cell removed; no sourced form found
                 se: new Set(['atsign']),   // r73: wrong cell removed; no sourced form found
-                kjp: new Set(['house', 'cat', 'thanks', 'hello']),   // r73: wrong cell removed; no sourced form found
+                kjp: new Set(['cat', 'thanks', 'hello']),   // r73: wrong cell removed; no sourced form found
                 brx: new Set(['thanks']),   // r73: wrong cell removed; no sourced form found
-                mra: new Set(['honey']),   // r73: wrong cell removed; no sourced form found
                 srb: new Set(['mother']),   // r73: wrong cell removed; no sourced form found
                 hsn_yz: new Set(['tongue', 'bone', 'poop', 'tree', 'we']),   // r73: wrong cell removed; no sourced form found
                 dng: new Set(['cuckoo']),   // r73: wrong cell removed; no sourced form found
-                ja_mvi: new Set(['love', 'hello', 'good']),   // r73: wrong cell removed; no sourced form found
+                ja_mvi: new Set(['love', 'hello']),   // r73: wrong cell removed; no sourced form found
                 tiw: new Set(['hello']),   // r73: wrong cell removed; no sourced form found
                 myp: new Set(['star', 'heart', 'love', 'hello']),   // r73: wrong cell removed; no sourced form found
                 bsk: new Set(['sea', 'book', 'hello', 'thanks']),   // r73: wrong cell removed; no sourced form found
                 fvr: new Set(['snow', 'cat']),   // r73: wrong cell removed; no sourced form found
                 tyz: new Set(['hello']),   // r73: wrong cell removed; no sourced form found
-                lun: new Set(['hello', 'snow']),   // r73: wrong cell removed; no sourced form found
+                lun: new Set(['hello']),   // r73: wrong cell removed; no sourced form found
                 pt_gw: new Set(['poop']),   // r73: wrong cell removed; no sourced form found
                 one: new Set(['father', 'eat', 'drink']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
                 com: new Set(['blood', 'love']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
@@ -1125,38 +1111,33 @@ for (const code of codes) {
                 bor: new Set(['love']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
                 ers: new Set(['bone']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
                 chk: new Set(['poop']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
-                sva: new Set(['love']),   // r58: ხოჩა was the row's 'good'; no Svan noun 'love' found
-                pwo: new Set(['name']),   // r58: မဲ was S'gaw 'tooth'; Pwo မံၩ့ found (MAT 1:21) but no IPA source
                 guc: new Set(['wheel']),   // r58: ooʼui copied from foot; Wayuu dictionary behind a bot wall
                 wbl: new Set(['snow', 'red']),   // r58: варф/сур Persian-Tajik; Wakhi zəm/səkr sourced only in Latin
                 ebu: new Set(['thanks']),   // r54: nĩ baba not a thanks formula; no Embu source
                 deg: new Set(['love', 'hello', 'thanks']),   // r54: row audited against Kari's lexicon; no Degema source for these
                 blk: new Set(['good', 'love', 'hello', 'snow', 'night']),   // r48 B: wrong-language cells removed, no right-language source yet
                 yuy: new Set(['love', 'hello', 'thanks', 'cat']),   // r48 B: wrong-language cells removed, no right-language source yet
-                mjg: new Set(['star', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet
                 ake: new Set(['house', 'love']),   // r47: enna was 'nose' (Webonary akawaio)
-                jiu: new Set(['bone', 'hello', 'thanks']),
+                jiu: new Set(['hello', 'thanks']),
                 pmi: new Set(['hello', 'thanks']),
-                twm: new Set(['bone', 'hello', 'thanks']),
+                twm: new Set(['hello', 'thanks']),
                 nuf: new Set(['bone', 'hello', 'thanks']),
                 clk: new Set(['bone', 'hello', 'thanks']),
-                blr: new Set(['love', 'cat', 'three', 'hello', 'thanks', 'stone']),
-                rbb: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'good', 'red', 'hello', 'thanks']),
+                blr: new Set(['three', 'hello', 'thanks']),
+                rbb: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'hello', 'thanks']),
                 srh: new Set(['we', 'love', 'cat', 'hello', 'thanks']),
                 dta: new Set(['cat', 'love', 'hello', 'thanks']),
-                lic: new Set(['cat', 'love', 'hello', 'thanks']),
-                swi: new Set(['cat', 'love', 'hello', 'thanks']),
-                mmd: new Set(['cat', 'love', 'hello', 'thanks']),
-                mlm: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
-                kmc: new Set(['cat', 'love', 'hello', 'thanks']),
-                gqu: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree', 'sun']),
+                lic: new Set(['hello', 'thanks']),
+                swi: new Set(['hello', 'thanks']),
+                mmd: new Set(['hello', 'thanks']),
+                mlm: new Set(['hello', 'thanks']),
+                kmc: new Set(['hello', 'thanks']),
+                gqu: new Set(['hello', 'thanks']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree', 'butterfly']),
                 peh: new Set(['cat', 'love', 'hello', 'thanks']),
-                orh: new Set(['cat', 'love', 'hello', 'thanks']),
-                acn: new Set(['cat', 'love', 'hello', 'thanks']),
-                ivv: new Set(['cat']),
+                orh: new Set(['hello', 'thanks']),
+                acn: new Set(['hello', 'thanks']),
                 itb: new Set(['cat', 'love', 'hello', 'thanks']),
-                dds: new Set(['fish']),
                 agq: new Set(['we']),
                 mgo: new Set(['we', 'hello']),
                 koy: new Set(['we', 'hello']),
@@ -1170,7 +1151,7 @@ for (const code of codes) {
                 // no general Blin word (greetings are by time of day) and thanks
                 // ቀንየለይ was Tigrinya/Tigre.
                 ksb: new Set(['hello']),
-                aiw: new Set(['love', 'cat', 'house', 'eat', 'drink', 'hello', 'thanks', 'blood']),
+                aiw: new Set(['love', 'cat', 'house', 'hello', 'thanks']),
                 mlq: new Set(['hello', 'thanks']),  // fire/fish filled from the Kéniéba texts on 2026-10-01
                 byn: new Set(['hello', 'thanks']),
                 // 2026-10-02 flag round r25flags: wrong cells removed, no sourced
@@ -1178,8 +1159,8 @@ for (const code of codes) {
                 // four. yux star: no Cyrillic spelling found (the old form was
                 // invented). yiz/kmh love: no sourced citation form (kmh's kn- is
                 // 'lie down'). nlc heart: 'ngal' is in neither Nalca source.
-                sel: new Set(['earth']), yux: new Set(['star']),
-                kmh: new Set(['love', 'hello']), nlc: new Set(['heart']),
+                 yux: new Set(['star']),
+                kmh: new Set(['love', 'hello']),
                 // 2026-10-02 flag round r31: blt and jio rows re-cut from their
                 // sources (Gedney/ABVD Pittayaporn; Liu 2008) — the old greeting and
                 // love cells did not spell their own IPA and no source gives them.
@@ -1197,7 +1178,7 @@ for (const code of codes) {
                 // 2026-10-02 flag round r35: atb re-spelled from the Zaiwa NT + Sun 1991;
                 // cat has a Sun form but no attested spelling, hello/thanks no source.
                 // gum star kualøm is 'day' in the Misak NT (REV 8:12, MAT 4:2).
-                atb: new Set(['cat', 'hello', 'thanks']), gum: new Set(['star']),
+                atb: new Set(['cat', 'hello', 'thanks']),
                 // 2026-10-03 flag round r39: yue_gz rebuilt on MCPDict 化州 (Huazhou Yue);
                 // the table lacks 頭 手 心 狗 三 你 飲 脷 紅 and no greeting/thanks source, so
                 // the old Guangzhou readings are withdrawn. mvf hello 'amur sain' was
@@ -1213,7 +1194,7 @@ for (const code of codes) {
                 zag: new Set(['hello', 'love']),   // love: the entry's bracket gives another word (tagarì 'able')
                 // gha (Ghadamès, 2026-10-23, Lanfry 1973 glossary): fish has only ụlisma
                 // 'poisson de sable' (a skink); no thanking formula is recorded.
-                gha: new Set(['fish', 'thanks']),
+                gha: new Set(['thanks']),
                 // auj (Awjila, 2026-10-23, van Putten 2013): fish, tree and thanks are
                 // absent from the lexicon and texts; star is attested only as the
                 // plural nžùm, name only with a clitic (əsməyyət=ənnəs).
@@ -1226,7 +1207,7 @@ for (const code of codes) {
                 bxd: new Set(['cat', 'hello', 'night']),
                 // zh_jiao (Qingdao, 2026-10-25): no Qingdao source for these six (Wiktionary dial-syn has no
                 // Qingdao line or no module; 名兒 is erhua with no sourced reading).
-                zh_jiao: new Set(['heart', 'hello', 'love', 'thanks', 'night', 'name']),
+                zh_jiao: new Set(['heart', 'hello', 'love', 'night', 'name']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

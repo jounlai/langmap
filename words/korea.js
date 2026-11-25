@@ -612,7 +612,7 @@ WORDS.korea = {
     min: ["Korea", "korea"],  // Korea in Minangkabau; South Korea is Korea Salatan. Route by resemblance to the neighbouring forms (id(Korea) de(Korea)); no etymology of its own.
     hr: ["Koreja", "korěːja"],  // Korea in Croatian; South Korea is Južna Koreja. Route by resemblance to the neighbouring forms (uk(Корея) ro(Coreea)); no etymology of its own.
     sk: ["Kórea", "ˈkoːrea"],  // Ultimately from Goryeo 高麗; South Korea is Južná Kórea.
-    mn: ["Солонгос", "ˈsʰɔlɔŋɢʊs"],  // Solongos, a Mongolic name for Korea already used in the Middle Mongol period; South Korea is Өмнөд Солонгос.
+    mn: ["Солонгос", "ˈsɔlɔŋɢʊs"],  // Solongos, a Mongolic name for Korea already used in the Middle Mongol period; South Korea is Өмнөд Солонгос.
     be: ["Карэя", "kaˈrɛja"],  // Korea in Belarusian; South Korea is Паўднёвая Карэя. Route by resemblance to the neighbouring forms (ru(Корея) uk(Корея)); no etymology of its own.
     tpi: ["Koria", "koria"],  // From Goryeo 高麗, via English Korea; South Korea is Saut Koria.
     ka: ["კორეა", "kʼorea"],  // Korea in Georgian; South Korea is formally სამხრეთი კორეა. Route by resemblance to the neighbouring forms (id(Korea) de(Korea)); no etymology of its own.
@@ -623,7 +623,7 @@ WORDS.korea = {
     mk: ["Кореја", "kɔˈrɛja"],  // Korea in Macedonian; South Korea is Јужна Кореја. Route by resemblance to the neighbouring forms (uk(Корея) ro(Coreea)); no etymology of its own.
     sco: ["Korea", "kəˈriə"],  // From the name of the old kingdom Goguryeo, via Goryeo; South Korea is Sooth Korea.
     ba: ["Корея", "koreˈja"],  // Borrowed from Russian Корея, ultimately from 고려 Goryeo.
-    et: ["Korea", "ˈkorea"],  // The name comes from the Goryeo (Korjö) dynasty; South Korea is Lõuna-Korea.
+    et: ["Korea", "ˈkoreɑ"],  // The name comes from the Goryeo (Korjö) dynasty; South Korea is Lõuna-Korea.
     cy: ["Corea", "kɔˈreːa"],  // From English Corea/Korea, ultimately from 고려 Goryeo; South Korea is De Corea.
     eu: ["Korea", "korea"],  // Korea in Basque; South Korea is Hego Korea. Route by resemblance to the neighbouring forms (id(Korea) de(Korea)); no etymology of its own.
     rue: ["Корея", "koˈreja"],  // Korea in Rusyn; South Korea is Южна Корея. Route by resemblance to the neighbouring forms (uk(Корея) ro(Coreea)); no etymology of its own.
@@ -656,7 +656,7 @@ WORDS.korea = {
     ban: ["Koréa", "koreə"],  // Korea in Balinese; South Korea is formally Républik Koréa. Route by resemblance to the neighbouring forms (fr(Corée) id(Korea)); no etymology of its own.
     jam: ["Koria", "koria"],  // Korea in Jamaican Patois; South Korea is Sout Koria. Route by resemblance to the neighbouring forms (bn(কোরিয়া) tpi(Koria)); no etymology of its own.
     acw: ["كوريا", "ˈkuːrja"],  // The international name Korea, ultimately from 고려 Goryeo; informally it means South Korea.
-    dv: ["ކޮރެއާ", "koreaː"],  // Korea in Dhivehi; South Korea is ދެކުނު ކޮރެއާ. Route by resemblance to the neighbouring forms (id(Korea) de(Korea)); no etymology of its own.
+    dv: ["ކޮރެއާ", "koɾeaː"],  // Korea in Dhivehi; South Korea is ދެކުނު ކޮރެއާ. Route by resemblance to the neighbouring forms (id(Korea) de(Korea)); no etymology of its own.
     nv: ["Binááʼádaałtsʼózí Dineʼé Bikéyah Yázhí", "pìnɑ́ːʔɑ́tɑ̀ːɬtsʼózí tìnèʔé pìkʰéjɑ̀h jɑ́ʒí"],  // A native descriptive name built on the Navajo name for Japan, 'land of the narrow-eyed people', plus yázhí.
     es_cr: ["Corea", "koˈɾea"],  // The Spanish name, from Goryeo 高麗 via European Corea; South Korea is Corea del Sur.
     es_hn: ["Corea", "koˈɾea"],  // The Spanish name, from Goryeo 高麗 via European Corea; South Korea is Corea del Sur.
@@ -775,7 +775,7 @@ WORDS.korea = {
     zh_hf: ["韩国", "xɐ̃˦˥ kuɐʔ˦"],  // Literally 'Han country', short for 大韓民國, South Korea's official name.
     lt: ["Korėja", "kɔˈrʲeːjɛ"],  // Lithuanian Korėja is the international name from Goryeo 高麗, with the stress on the long ė; South Korea is Pietų Korėja.
     bs: ["Koreja", "koˈrɛːja"],  // Bosnian Koreja, with a long rising accent on the e, is the international name from Goryeo 高麗; South Korea is Južna Koreja.
-    kok: ["कोरिया", "koːrijaː"],  // Konkani कोरिया is the international name from Goryeo 高麗; South Korea is दक्षिण कोरिया.
+    kok: ["कोरिया", "koːɾijaː"],  // Konkani कोरिया is the international name from Goryeo 高麗; South Korea is दक्षिण कोरिया.
     ssw: ["iKhoriya", "ikʰorija"],  // siSwati iKhoriya adapts the international name Korea, from Goryeo 高麗; South Korea is iKhoriya leseNingizimu, 'Korea of the south'.
     shn: ["ၵၢဝ်းလီ", "kaːw˥ liː˨˦"],  // Shan ၵၢဝ်းလီ is the shared element of South Korea ၵၢဝ်းလီၸၢၼ်း and North Korea ၵၢဝ်းလီႁွင်ႇ, usually preceded by မိူင်း 'country'.
     cpx: ["韩国", "haŋ˩˧ kɒʔ˨˩"],  // Putian reading of 韓國, 'Han country', the Chinese name for South Korea.
@@ -788,7 +788,7 @@ WORDS.korea = {
     li: ["Korea", "koˈrɛːjaː"],  // Korea in Limburgish; South Korea is Zuud-Korea (Limburgish Wiktionary).
     sc: ["Corea", "koˈrɛa"],  // Korea in Sardinian, also written Corèa; South Korea is Corea de su Sud.
     iba: ["Korea", "korea"],  // The Iban Wikipedia's name for Korea; South Korea is Korea Selatan.
-    quz: ["Kurya", "ˈkurja"],  // The Quechua Wikipedia's name for Korea, which it glosses with 고려 Goryeo; South Korea is Urin Kurya.
+    quz: ["Kurya", "ˈkuɾja"],  // The Quechua Wikipedia's name for Korea, which it glosses with 고려 Goryeo; South Korea is Urin Kurya.
     gor: ["Korea", "koˈrea"],  // Korea in Gorontalo, as in Korea Selatan 'South Korea' and Korea Utara 'North Korea' (Gorontalo Wikipedia).
     kbp: ["Kooree", "koːreː"],  // The Kabiye Wikipedia's name for Korea; South Korea is Kooree Hadɛ Kiŋ.
     cv: ["Корей", "koˈrej"],  // Korea in Chuvash, which drops the Russian ending as in Япони 'Japan'; South Korea is Кӑнтӑр Корей (Chuvash Wikipedia).
@@ -813,7 +813,7 @@ WORDS.korea = {
     lue: ["Korea", "korea"],  // Korea in Luvale, as in the JW article title Vyuma Vinalumuka muKorea; South Korea is written South Korea.
     rcf: ["Koré", "kore"],  // Koré, the Réunion Creole name for Korea, as in JW publications (in frèr péi la Koré "a brother from Korea").
     gcf: ["Koré", "kore"],  // Koré in Guadeloupean Creole; South Korea is Koré di Sid, as in JW publications.
-    urh: ["Korea", "korea"],  // Korea in Urhobo, as in JW publications (iniọvo ri Korea "the brothers of Korea"); South Korea is written South Korea.
+    urh: ["Korea", "koɾea"],  // Korea in Urhobo, as in JW publications (iniọvo ri Korea "the brothers of Korea"); South Korea is written South Korea.
     tzo: ["Corea", "korea"],  // Tzotzil uses the Spanish name Corea, as in JW publications; South Korea is Corea del Sur.
     zap: ["Corea", "koɾea"],  // Isthmus Zapotec uses the Spanish name Corea, as in JW publications (guidxi Corea "the country of Korea").
     mixtec: ["Corea", "korea"],  // Mixtec uses the Spanish name Corea, as in Guerrero Mixtec JW publications (ñuu Corea del Sur "the land of South Korea").

@@ -1076,7 +1076,7 @@ WORDS.coffee = {
     quc: ["kape", "kape"],
     khb: ["ᦆᦱᧈᦵᦝᧀᧈ", "xaː˧ fɤj˧"],
     cic: ["kafiʼ", "kafiʔ"],
-    th_n: ["กาแฟ", "kaː˧ fɛː˥"],
+    th_n: ["ก๋าแฟ้", "kaː˩˧ fɛː˦˥"],
     shn: ["ၵႃႇၽီႇ", "kaː˩ pʰiː˩"],
     moh: ["káwhe", "káwhe"], // was ["káwhe", "ˈkawhe"] (vi dialect rules 2026-10-06) // was ["káwhe", "káwhe"] (vi dialect rules 2026-10-06)
     cho: ["kafi", "kafi"],

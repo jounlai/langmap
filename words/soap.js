@@ -816,7 +816,7 @@ WORDS.soap = {
     sc: ["sabone", "saˈbone"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     gd: ["siabann", "ˈʃiəpən̪ˠ"],
     crs: ["savon", "savɔ̃"],
-    shn: ["သပ်ႉပျႃႇ", "sʰap˦˨ pjaː˩"],
+    shn: ["သပ်ႉပျႃႇ", "sʰap˦˨ˀ pjaː˩"],
     cjs: ["сабын", "sabɯn"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     scn: ["sapuni", "saˈpuni"],
     si: ["සබන්", "saban"],  // From Portuguese.

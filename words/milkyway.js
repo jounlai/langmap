@@ -203,7 +203,7 @@ WORDS.milkyway = {
     ckb: "milk",
     sq: "milk",
     ht: "milk",
-    zu: "unknown",
+    zu: "road",
     xh: "other",
     qu: "river",
     no: "milk",

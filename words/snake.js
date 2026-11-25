@@ -75,6 +75,11 @@ WORDS.snake = {
     sw: "Nyoka — mtambaazi asiye na miguu. Lugha nyingi humwita mtambaaji: Kilatini serpēns na Kisanskriti sarpa vina mzizi mmoja wa \"kutambaa\", Kituruki yılan nacho ni \"kutambaa\", na Kiingereza snake ni \"mteleza\". Kislavoni змея kimetokana na neno la ardhi, Kinorsi orm na Kifinlandi käärme pia ni \"mdudu\", na Kilithuania gyvatė ni \"kiumbe hai\". Lugha nyingi zina neno lao la kale: 蛇, ular, nyoka, งู.",
   },
   family: {
+    myx: "plain",
+    aln: "crawl",
+    gsw: "slang",
+    smj: "plain",
+    bdk: "plain",
     aau: "plain",
     ab: "plain",
     abe: "plain",
@@ -1093,6 +1098,11 @@ WORDS.snake = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    myx: ["indemu", "indemu"],  // From grollemundbantu JE31, tls Lumasaaba indemu.
+    aln: ["gjarpën", "ɟarpən"],  // From iecor Gheg gjarpën.
+    gsw: ["Schlange", "ˈʃlaŋə"],  // From iecor Schlange ʃlaŋŋə.
+    smj: ["germaj", "ˈɡɛrmɑj"],  // From northeuralex smj germaj.
+    bdk: ["йер", "jer"],  // From ids Budukh йер.
     aau: ["sok", "sok"],
     ab: ["ахьӡымҳәа", "aχʲdzəmχʷa"],
     abe: ["skog", "skoɡ"],
@@ -1234,7 +1244,7 @@ WORDS.snake = {
     ka: ["გველი", "ɡveli"],
     kaa: ["ʒɯlan", "ʒɯlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     kbd: ["блэ", "bɮa"],
-    kea: ["kóbra", "ˈkɔbrɐ"],  // From Latin colubra, through Vulgar Latin *colŏbra.
+    kea: ["kóbra", "ˈkɔbɾɐ"],  // From Latin colubra, through Vulgar Latin *colŏbra.
     kfr: ["સપ", "səp"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     kg: ["nioka", "njoka"],
     kgg: ["tu", "tu"],
@@ -1396,10 +1406,10 @@ WORDS.snake = {
     sq: ["gjarpër", "ˈɟaɾpəɾ"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     sr: ["змија", "zmǐja"],  // From Proto-Slavic *zmьja, derived from the Indo-European word for earth.
     srn: ["sneki", "ˈsneki"],  // From English snake.
-    ssw: ["inyoka", "injoka"],
+    ssw: ["inyoka", "iɲoka"],
     st: ["noha", "nɔha"],
     stq: ["Sloange", "ˈslɔːŋə"],
-    su: ["ula", "ula"],
+    su: ["oray", "oraj"],
     suk: ["nzoka", "nzoka"],
     sv: ["orm", "ˈʊrm"],  // The same old word as "worm".
     sw: ["nyoka", "ˈɲoka"],
@@ -1466,7 +1476,7 @@ WORDS.snake = {
     ket: ["тиг", "tik͉˧"],  // From Proto-Yeniseian *tɬigʌ 'wriggling creature'.
     nv: ["tłʼiish", "tɬʼìːʃ"],
     cng: ["bbixxi", "biʑi"],
-    ii: ["ꁮꏂ", "bʉ˧˧ ʂɿ˧˧"],  // ꁮ 'worm' + ꏂ 'snake'.
+    ii: ["ꁮꏂ", "bu˧˧ʂɿ˧˧"],  // ꁮ 'worm' + ꏂ 'snake'.
     lic: ["dzax", "za˥˥"],
     yua: ["kaan", "kaːn"],
     tzo: ["chon", "tʃon"],

@@ -72,6 +72,8 @@ WORDS.husband = {
     sw: "Mume — mwanamume aliyeoa, akitazamwa kutoka upande wa ndoa. Kwa Kijerumani, Kiholanzi na Kifinlandi yeye ni 'mwanamume' tu, kama Kiswahili mume, kifupi cha mwanamume; kwa Kihindi, Kithai na Kiebrania neno hili pia lina maana ya 'bwana, mmiliki'; Kiingereza husband kilikuwa 'bwana wa nyumba'; na Kihispania marido na Kirusi муж ni maneno yao wenyewe.",
   },
   family: {
+    enf: "unknown",
+    rut: "unknown",
     lb: "man",
     cic: "man",
     bin: "own",
@@ -141,7 +143,7 @@ WORDS.husband = {
     orh: "own",
     ceb: "bana",
     ilo: "spouse",
-    sd: "unknown",
+    sd: "own",
     pa: "lord",
     mr: "own",
     gu: "lord",
@@ -230,7 +232,7 @@ WORDS.husband = {
     ady: "own",
     kbd: "man",
     os: "own",
-    mni: "unknown",
+    mni: "own",
     new: "bhartr",
     mdr: "own",
     war: "bana",
@@ -257,7 +259,7 @@ WORDS.husband = {
     tt: "man",
     ba: "man",
     ksw: "own",
-    ee: "unknown",
+    ee: "own",
     kr: "man",
     ess: "uyi",
     dsb: "own",
@@ -1020,6 +1022,8 @@ WORDS.husband = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
+    enf: ["busi", "busi"],  // From northeuralex enf буси (row romanisation).
+    rut: ["выгӏыл", "wɨʕɨl"],  // From ids Rutul выгІыл (two dialects).
     lb: ["Mann", "mɑn"],
     cic: ["i̱hattak", "ĩːhattak"],  // i- 'his/her' + hattak 'man, person' (Wiktionary).
     bin: ["ọdafẹn", "ɔdafɛ̃"],  // The word for man is okpia (Melzian's Bini dictionary, which gives odafe for husband).
@@ -1143,7 +1147,7 @@ WORDS.husband = {
     smn: ["kääḷis", "ˈkæːlis"],
     sms: ["kuõjj", "ˈkuəʝːɐ"],
     sjd: ["кӯйй", "kuːjː"],
-    vro: ["mees", "mees"],  // The same word means man (Wiktionary: miiś 'man; husband').
+    vro: ["mees", "meːs"],  // The same word means man (Wiktionary: miiś 'man; husband').
     gn: ["ména", "mena"],  // The word for man is kuimba'e or ava (Ñe'ẽryru dictionary).
     yrl: ["mena", "ˈmẽna"],  // The word for man is apigawa (Wiktionary).
     as: ["স্বামী", "sɑmi"],
@@ -1221,7 +1225,7 @@ WORDS.husband = {
     hr: ["muž", "mûːʒ"],
     bs: ["muž", "muːʒ"],
     osp: ["marido", "maˈɾido"],  // Inherited from Latin marītus.
-    mfe: ["mari", "mari"],
+    mfe: ["mari", "maʁi"],
     crs: ["mari", "mari"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     gcf: ["mahwi", "mahwi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     mnk: ["kee", "keː"],  // The same word means man: Macbrair's Mandingo grammar lists keo for both man and husband, as muso is woman and wife.

@@ -1128,6 +1128,8 @@ WORDS.daughter = {
     gwc: "dhugh2ter",
     hac: "kanya",
     btx: "anak",
+    srb: "plain",
+    iru: "plain",
   },
   routes: {
     dhugh2ter: {"color":"#2563eb","emoji":"👧","en":"Proto-Indo-European *dʰugh₂tḗr (daughter, дочь, دختر)","ja":"印欧祖語 *dʰugh₂tḗr (daughter, дочь, دختر)","ko":"인도유럽 조어 *dʰugh₂tḗr (daughter, дочь, دختر)","zh":"原始印欧语 *dʰugh₂tḗr (daughter, дочь, دختر)","yue":"原始印歐語 *dʰugh₂tḗr (daughter, дочь, دختر)","vi":"tiếng Ấn-Âu nguyên thủy *dʰugh₂tḗr (daughter, дочь, دختر)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *dʰugh₂tḗr (daughter, дочь, دختر)","id":"Proto-Indo-Eropa *dʰugh₂tḗr (daughter, дочь, دختر)","hi":"आदि-भारोपीय *dʰugh₂tḗr (daughter, дочь, دختر)","de":"urindogermanisch *dʰugh₂tḗr (daughter, дочь, دختر)","fr":"le proto-indo-européen *dʰugh₂tḗr (daughter, дочь, دختر)","it":"il protoindoeuropeo *dʰugh₂tḗr (daughter, дочь, دختر)","es":"el protoindoeuropeo *dʰugh₂tḗr (daughter, дочь, دختر)","pt":"o proto-indo-europeu *dʰugh₂tḗr (daughter, дочь, دختر)","ru":"праиндоевропейское *dʰugh₂tḗr (daughter, дочь, دختر)","uk":"праіндоєвропейське *dʰugh₂tḗr (daughter, дочь, دختر)","ar":"الهندو-أوروبية الأم *dʰugh₂tḗr (daughter، дочь، دختر)","he":"הפרוטו-הודו-אירופית *dʰugh₂tḗr (daughter, дочь, دختر)","sw":"Kihindi-Kiulaya asilia *dʰugh₂tḗr (daughter, дочь, دختر)"},
@@ -2316,5 +2318,7 @@ WORDS.daughter = {
     gwc: ["دوئی", "duːj"],
     hac: ["kinaçê", "kɪnaːtʃeː"],  // Also 'girl'; printed kinaCê in the electronic edition, cf. kinaçeza 'daughter's child'
     btx: ["anak diberu", "anak dibəru"],
+    srb: ["on-selo", "onselo"],  // LSI (lexibank lsi), Savara.
+    iru: ["pompūlle", "pompuːlːe"],  // LSI (lexibank lsi), Irula.
   },
 };

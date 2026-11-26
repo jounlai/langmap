@@ -1235,6 +1235,7 @@ WORDS.star = {
     btx: "bituqen",
     mqy: "plain",
     sxn: "bituqen",
+    jra: "bituqen",
   },
   routes: {
     hster: {"color":"#2563eb","emoji":"⭐","en":"Proto-Indo-European *h₂stḗr (star, Stern, ἀστήρ)","ja":"印欧祖語 *h₂stḗr (star, Stern, ἀστήρ)","ko":"인도유럽 조어 *h₂stḗr (star, Stern, ἀστήρ)","zh":"原始印欧语 *h₂stḗr (star, Stern, ἀστήρ)","yue":"原始印歐語 *h₂stḗr (star, Stern, ἀστήρ)","vi":"tiếng Ấn-Âu nguyên thủy *h₂stḗr (star, Stern, ἀστήρ)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₂stḗr (star, Stern, ἀστήρ)","id":"Proto-Indo-Eropa *h₂stḗr (star, Stern, ἀστήρ)","hi":"आदि-भारोपीय *h₂stḗr (star, Stern, ἀστήρ)","de":"urindogermanisch *h₂stḗr (star, Stern, ἀστήρ)","fr":"le proto-indo-européen *h₂stḗr (star, Stern, ἀστήρ)","it":"il protoindoeuropeo *h₂stḗr (star, Stern, ἀστήρ)","es":"el protoindoeuropeo *h₂stḗr (star, Stern, ἀστήρ)","pt":"o proto-indo-europeu *h₂stḗr (star, Stern, ἀστήρ)","ru":"праиндоевропейское *h₂stḗr (star, Stern, ἀστήρ)","uk":"праіндоєвропейське *h₂stḗr (star, Stern, ἀστήρ)","ar":"الهندو-أوروبية الأم *h₂stḗr (star، Stern، ἀστήρ)","he":"הפרוטו-הודו-אירופית *h₂stḗr (star, Stern, ἀστήρ)","sw":"Kihindi-Kiulaya asilia *h₂stḗr (star, Stern, ἀστήρ)"},
@@ -2487,6 +2488,6 @@ WORDS.star = {
     btx: ["bintang", "bintaŋ"],
     mqy: ["ntala", "ⁿtala"],
     sxn: ["bituing", "bituiŋ"],
-    jra: ["—", "—"],
+    jra: ["pơtŭ", "pətuʔ"],  // ABVD Jarai.
   },
 };

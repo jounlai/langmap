@@ -574,6 +574,19 @@ WORDS.chili = {
     shu: "plain",
     btx: "plain",
     mqy: "plain",
+    gqu: "plain",
+    nuf: "plain",
+    rtm: "plain",
+    bg: "pepper",
+    ff: "plain",
+    ame: "plain",
+    car: "plain",
+    mni: "plain",
+    nmf: "plain",
+    guc: "plain",
+    khv: "plain",
+    bbl: "plain",
+    kry: "plain",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -1088,5 +1101,18 @@ WORDS.chili = {
     shu: ["شتة", "ʃette"],
     btx: ["lacina", "latʃina"],  // also cina
     mqy: ["nggurus", "ᵑɡurus"],
+    gqu: ["tɕi13", "tɕi˩˧"],  // IDS (Qau Kelao).
+    nuf: ["xe55dza̱31", "xe˥˥dza˧˩"],  // Sun 1991 TB (suntb).
+    rtm: ["ʻại sunu", "ʔɔi sunu"],  // IDS (Rotuman).
+    bg: ["лют червен пипер", "ʎut tʃɛrˈvɛn piˈpɛr"],  // IDS + en.wiktionary chili translations.
+    ff: ["citta", "tʃitːa"],  // Gravina Chadic (gravinachadic).
+    ame: ["chots", "tʃots"],  // Amazonian Voices (amazonianvoices).
+    car: ["pomyi", "pomɨi"],  // WOLD (Kali'na) + Hunter-Gatherer DB.
+    mni: ["ꯃꯣꯔꯣꯛ", "morok"],  // Marrison Naga lists (marrisonnaga).
+    nmf: ["kasathei", "kasatʰei"],  // Marrison Naga lists (marrisonnaga).
+    guc: ["jashi", "haʃi"],  // IDS + Huber/Chacón Colombian lists.
+    khv: ["мекъу истибат", "meqʼu istibat"],  // IDS (Khwarshi dialect).
+    bbl: ["წიწაკ", "tsʼitsʼakʼ"],  // IDS (Tsova-Tush).
+    kry: ["pimpil", "pimpil"],  // IDS (Kryz).
   },
 };

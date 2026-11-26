@@ -698,6 +698,19 @@ WORDS.earthquake = {
     btx: "linur",
     mqy: "plain",
     sxn: "linur",
+    ga: "earth",
+    gqu: "plain",
+    jiu: "plain",
+    car: "plain",
+    aqc: "plain",
+    tkr: "earth",
+    nmf: "plain",
+    lhu: "plain",
+    lis: "plain",
+    dsb: "earth",
+    shp: "plain",
+    ani: "plain",
+    rut: "plain",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -1342,5 +1355,18 @@ WORDS.earthquake = {
     btx: ["linur", "linur"],
     mqy: ["nupung", "nupuŋ"],
     sxn: ["linuhě", "linuhəʔ"],
+    ga: ["crith talún", "cɾʲih t̪ˠəˈl̪ˠuːn̪ˠ"],  // IDS; en.wiktionary.
+    gqu: ["paŋ35 ʔe42 taŋ42 ȵi35", "paŋ˧˥ ʔe˦˨ taŋ˦˨ ȵi˧˥"],  // IDS.
+    jiu: ["tə44ɔ44", "tə˦˦ɔ˦˦"],  // lamanisoic (CLDF).
+    car: ["tytyty", "tɨtɨtɨ"],  // WOLD.
+    aqc: ["дунил хирих-кумул", "dunil χiriχkumul"],  // WOLD; IDS.
+    tkr: ["чиебы икыри", "tʃiebɨ ikɨri"],  // IDS.
+    nmf: ["neina-kakhanak", "neinakakʰanak"],  // Marrison Naga (CLDF).
+    lhu: ["lɔ-tā", "lɔtȁ"],  // lamanisoic (CLDF).
+    lis: ["lo-nyae", "lo˥˥ɲɛ˧˥"],  // lamanisoic (CLDF).
+    dsb: ["zemjerdžanje", "ˈzɛmʲɛrdʒaɲɛ"],  // WOLD; en.wiktionary.
+    shp: ["niwã", "niwã"],  // IDS.
+    ani: ["дунйал бергъар", "dunjal berʁar"],  // IDS.
+    rut: ["лыкьын сипӏин", "lɨqʼɨn sipʼin"],  // IDS.
   },
 };

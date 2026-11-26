@@ -660,6 +660,12 @@ WORDS.potato = {
     gwc: "alu",
     btx: "kentang",
     mqy: "kentang",
+    ket: "truffle",
+    swi: "yangyu",
+    rmy: "earth",
+    shp: "other",
+    ote: "other",
+    tar: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quéchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kikechua papa · Kitaino batata"},
@@ -1306,5 +1312,11 @@ WORDS.potato = {
     gwc: ["اٞلُو", "aluː"],
     btx: ["kentang", "kəntaŋ"],
     mqy: ["kentang", "kəⁿtaŋ"],
+    ket: ["калтокса", "kaltɔksa"],  // WOLD.
+    swi: ["jooŋ4 wi1", "joːŋ˥˩ wi˩˩"],  // IDS.
+    rmy: ["kolompiri", "kolompiri"],  // IDS.
+    shp: ["poa", "poa"],  // IDS.
+    ote: ["ʼrokʼa", "ʔrokʼa"],  // WOLD; SABOR.
+    tar: ["rerówi", "ɾeɾowi"],  // Lionnet Yuto-Nahua (lexibank).
   },
 };

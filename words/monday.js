@@ -805,6 +805,13 @@ WORDS.monday = {
     izh: "count",
     gwc: "count",
     mqy: "count",
+    enf: "count",
+    ain: "moon",
+    pbb: "moon",
+    gez: "count",
+    srm: "count",
+    shp: "moon",
+    kjj: "unknown",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1552,5 +1559,12 @@ WORDS.monday = {
     izh: ["esmessarki", "ˈesmesˌsɑrki"],
     gwc: ["دُو شمہ", "duː ɕɑmɑ"],
     mqy: ["senéng", "səneŋ"],  // also leso senéng
+    enf: ["seu deri orte deri", "sæu dʲɛri ɔrtɛ dʲɛri"],  // NorthEuraLex.
+    ain: ["クンネチュㇷ゚エトホ", "kunnetɕupetoho"],  // NorthEuraLex.
+    pbb: ["lunxis", "lunʲis"],  // IDS.
+    gez: ["ሰኑይ", "sanuj"],  // Feleke, Ethiosemitic lexicon (felekesemitic).
+    srm: ["fö́dáka", "fɔ́dáka"],  // WOLD.
+    shp: ["ronis nete", "ɻonis nɨtɨ"],  // IDS.
+    kjj: ["каьхкьаь", "kʰæχqʼæ"],  // IDS.
   },
 };

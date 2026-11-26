@@ -977,6 +977,11 @@ WORDS.language = {
     btx: "speech",
     mqy: "speech",
     sxn: "speech",
+    enf: "plain",
+    cng: "plain",
+    swi: "plain",
+    ame: "plain",
+    ale: "plain",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1893,5 +1898,10 @@ WORDS.language = {
     btx: ["cakap", "tʃakap"],  // lit. 'speech'
     mqy: ["tombo", "toᵐbo"],  // lit. 'talk'; tombo Manggarai is the name of the language
     sxn: ["bahasa", "bahasa"],
+    enf: ["baza", "baza"],  // NorthEuraLex (Forest Enets); Wiktionary translation.
+    cng: ["dʒə βɑ", "dʒə βɑ"],  // lexibank suntb (Qiang, Mawo).
+    swi: ["lam1 fan2", "lam˩˩ fan˧˩"],  // IDS (Sui).
+    ame: ["ñoñets", "ɲoɲets"],  // lexibank amazonianvoices (Yanesha).
+    ale: ["tunux̂", "tunuχ"],  // NorthEuraLex (Aleut).
   },
 };

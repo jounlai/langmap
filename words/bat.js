@@ -826,6 +826,13 @@ WORDS.bat = {
     btx: "plain",
     mqy: "plain",
     sxn: "paniki",
+    wbp: "plain",
+    pjt: "plain",
+    koi: "plain",
+    krl: "other",
+    bbl: "other",
+    wmt: "plain",
+    bbc: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1615,5 +1622,12 @@ WORDS.bat = {
     btx: ["arip", "arip"],  // KI: a small kind of bat
     mqy: ["wér", "ver"],  // also niki
     sxn: ["paniki", "paniki"],
+    wbp: ["yanjipiri", "jaɲɟipiɻi"],  // Bowern Pama-Nyungan (lexibank bowernpny).
+    pjt: ["patupiri", "ˈpatupiri"],  // Bowern Pama-Nyungan (lexibank bowernpny).
+    koi: ["кушборд", "kuʃbord"],  // UraLex (lexibank uralex).
+    krl: ["nahkasiipi", "ˈnɑhkɑsiːpi"],  // UraLex (lexibank uralex); en.wiktionary nahkasiipi (Ingrian: compound nahka skin + siipi wing).
+    bbl: ["ღამურ", "ɣaːmur"],  // IDS (lexibank ids), Tsova-Tush.
+    wmt: ["pinyjirrmyi", "piɲɟirmji"],  // Hunter-Gatherer DB (lexibank huntergatherer).
+    bbc: ["arip-arip", "aripˈarip"],  // DiACL (lexibank diacl).
   },
 };

@@ -742,6 +742,15 @@ WORDS.saturday = {
     shu: "sabbath",
     btx: "sabbath",
     mqy: "sabbath",
+    enf: "count",
+    ykg: "sabbath",
+    gqu: "count",
+    lic: "count",
+    rtm: "plain",
+    tkr: "plain",
+    nog: "after",
+    rap: "wash",
+    ale: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1426,5 +1435,14 @@ WORDS.saturday = {
     shu: ["سبت", "sabit"],
     btx: ["Sabtu", "sabtu"],
     mqy: ["Sapatu", "sapatu"],
+    enf: ["motude deri", "mɔtudɛ dʲɛri"],  // NorthEuraLex.
+    ykg: ["субуотэ", "subuote"],  // NorthEuraLex.
+    gqu: ["ɕin33 tɕi33 ȵaŋ31", "ɕin˧˧ tɕi˧˧ ȵaŋ˧˩"],  // IDS.
+    lic: ["tsheŋ2 khi3 lak7", "tsʰeŋ˥˥ kʰi˩˩ lak˥˥"],  // IDS.
+    rtm: ["terän ʻaʻita", "teræn ʔaʔita"],  // IDS.
+    tkr: ["сифтйин", "siftjin"],  // IDS.
+    nog: ["йума сонъы", "juma soŋɯ"],  // IDS.
+    rap: ["mahana hopu", "mahana hopu"],  // IDS; en.wiktionary.
+    ale: ["Subuutax̂", "subuːtaχ"],  // NorthEuraLex.
   },
 };

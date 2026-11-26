@@ -1138,6 +1138,7 @@ WORDS.milk = {
     shu: "laban",
     btx: "plain",
     mqy: "susu",
+    oar: "halib",
   },
   routes: {
     meluks: {"color":"#2563eb","emoji":"🥛","en":"Proto-Germanic *meluks (milk, Milch, mjölk)","ja":"ゲルマン祖語 *meluks (milk, Milch, mjölk)","ko":"게르만 조어 *meluks (milk, Milch, mjölk)","zh":"原始日耳曼语 *meluks (milk, Milch, mjölk)","yue":"原始日耳曼語 *meluks (milk, Milch, mjölk)","vi":"tiếng German nguyên thủy *meluks (milk, Milch, mjölk)","th":"ภาษาเจอร์แมนิกดั้งเดิม *meluks (milk, Milch, mjölk)","id":"Proto-Jermanik *meluks (milk, Milch, mjölk)","hi":"आदि-जर्मेनिक *meluks (milk, Milch, mjölk)","de":"urgermanisch *meluks (milk, Milch, mjölk)","fr":"le proto-germanique *meluks (milk, Milch, mjölk)","it":"il protogermanico *meluks (milk, Milch, mjölk)","es":"el protogermánico *meluks (milk, Milch, mjölk)","pt":"o protogermânico *meluks (milk, Milch, mjölk)","ru":"прагерманское *meluks (milk, Milch, mjölk)","uk":"прагерманське *meluks (milk, Milch, mjölk)","ar":"الجرمانية الأم *meluks (milk، Milch، mjölk)","he":"הפרוטו-גרמאנית *meluks (milk, Milch, mjölk)","sw":"Kijerumani asilia *meluks (milk, Milch, mjölk)"},
@@ -2327,5 +2328,6 @@ WORDS.milk = {
     shu: ["لبن", "laban"],
     btx: ["dadih", "dadih"],  // KI also susu
     mqy: ["susu", "susu"],
+    oar: ["חלבא", "ħelbaː"],  // IDS (lexibank ids).
   },
 };

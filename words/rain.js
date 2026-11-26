@@ -1212,6 +1212,9 @@ WORDS.rain = {
     btx: "quzan",
     mqy: "quzan",
     sxn: "plain",
+    jra: "quzan",
+    khq: "plain",
+    mpj: "plain",
   },
   routes: {
     regna: {"color":"#2563eb","emoji":"☔","en":"Proto-Germanic *regną (rain, Regen, regn)","ja":"ゲルマン祖語 *regną (rain, Regen, regn)","ko":"게르만 조어 *regną (rain, Regen, regn)","zh":"原始日耳曼语 *regną (rain, Regen, regn)","yue":"原始日耳曼語 *regną (rain, Regen, regn)","vi":"tiếng German nguyên thủy *regną (rain, Regen, regn)","th":"ภาษาเจอร์แมนิกดั้งเดิม *regną (rain, Regen, regn)","id":"Proto-Jermanik *regną (rain, Regen, regn)","hi":"आदि-जर्मेनिक *regną (rain, Regen, regn)","de":"urgermanisch *regną (rain, Regen, regn)","fr":"le proto-germanique *regną (rain, Regen, regn)","it":"il protogermanico *regną (rain, Regen, regn)","es":"el protogermánico *regną (rain, Regen, regn)","pt":"o protogermânico *regną (rain, Regen, regn)","ru":"прагерманское *regną (rain, Regen, regn)","uk":"прагерманське *regną (rain, Regen, regn)","ar":"الجرمانية الأم *regną (rain، Regen، regn)","he":"הפרוטו-גרמאנית *regną (rain, Regen, regn)","sw":"Kijerumani asilia *regną (rain, Regen, regn)"},
@@ -2410,5 +2413,8 @@ WORDS.rain = {
     btx: ["udan", "udan"],
     mqy: ["usang", "usaŋ"],
     sxn: ["tahiti", "tahiti"],
+    jra: ["hơjan", "hədʒaːn"],  // ABVD (Jarai).
+    khq: ["bana", "bana"],  // ASJP + Polyglotta Africana (Timbuktu).
+    mpj: ["karlkawarta", "kaɭkawaʈa"],  // Bowern Pama-Nyungan (bowernpny).
   },
 };

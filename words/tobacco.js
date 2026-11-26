@@ -642,6 +642,26 @@ WORDS.tobacco = {
     btx: "tanbaku",
     mqy: "tanbaku",
     sxn: "tabaco",
+    suk: "tanbaku",
+    rim: "tanbaku",
+    yrk: "plain",
+    sel: "plain",
+    kca: "plain",
+    mns: "plain",
+    gqu: "plain",
+    nuf: "plain",
+    yao: "plain",
+    rmy: "plain",
+    ho: "plain",
+    myx: "plain",
+    gum: "plain",
+    nha: "plain",
+    adt: "plain",
+    hui: "plain",
+    xog: "tabaco",
+    mpj: "plain",
+    djr: "plain",
+    tsj: "tanbaku",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -1259,5 +1279,25 @@ WORDS.tobacco = {
     btx: ["mbako", "mbako"],
     mqy: ["mbako", "ᵐbako"],
     sxn: ["tabako", "tabako"],
+    suk: ["itumbati", "itumbati"],  // lexibank TLS (Sukuma).
+    rim: ["itumbatu", "itumbatu"],  // lexibank TLS (Nyaturu).
+    yrk: ["сяр", "sʲar"],  // IDS (Nenets).
+    sel: ["чопы", "tʃopɨ"],  // IDS (Selkup).
+    kca: ["шар", "ʃar"],  // IDS (Khanty).
+    mns: ["сар", "sar"],  // IDS (Mansi).
+    gqu: ["ti31 ke35", "ti˧˩ ke˧˥"],  // IDS (Qau Kelao).
+    nuf: ["iɑ31", "iɑ˧˩"],  // lexibank suntb (Nusu, Bijiang).
+    yao: ["soona", "soːna"],  // lexibank TLS (Yao).
+    rmy: ["duhano", "duhano"],  // IDS (Romani).
+    ho: ["kuku", "kuku"],  // transnewguinea.org (Hiri Motu).
+    myx: ["irabaa", "irabaː"],  // lexibank TLS (Lumasaaba).
+    gum: ["køntsø", "kəntsə"],  // lexibank hubercolumbian + chaconcolumbian (Guambiano).
+    nha: ["ajajadi", "aɟaɟadi"],  // Bowern PNY (Nhanta).
+    adt: ["vaka", "vaka"],  // Bowern PNY (Adnyamathanha).
+    hui: ["mundu", "mundu"],  // transnewguinea.org (Huli).
+    xog: ["tabba", "tabːa"],  // lexibank TLS (Lusoga).
+    mpj: ["janyungu", "caɲuŋu"],  // Bowern PNY (Martu Wangka).
+    djr: ["ŋaraliʼ", "ŋaɻaliʔ"],  // Bowern PNY (Djambarrpuyngu).
+    tsj: ["thamaʔ", "tʰamaʔ"],  // lexibank suntb (Tsangla, Motuo).
   },
 };

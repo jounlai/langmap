@@ -611,6 +611,13 @@ WORDS.tomato = {
     gwc: "nahuatl",
     shu: "nahuatl",
     btx: "nahuatl",
+    nym: "nyaanya",
+    rim: "nyaanya",
+    ksb: "nyaanya",
+    jmc: "nyaanya",
+    sbp: "nyaanya",
+    myx: "nyaanya",
+    ttj: "nyaanya",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวาตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -1207,5 +1214,12 @@ WORDS.tomato = {
     gwc: ["ٹماٞٹٞر", "ʈamaːʈar"],
     shu: ["طماطم", "tamaːtim"],  // Collective
     btx: ["tomat", "tomat"],
+    nym: ["lunyanya", "lʊɲaɲa"],  // TLS (lexibank tls).
+    rim: ["nyanye", "ɲaɲe"],  // TLS (lexibank tls).
+    ksb: ["nyanya", "ɲaɲa"],  // TLS (lexibank tls).
+    jmc: ["nyaanya", "ɲaːɲa"],  // TLS (lexibank tls).
+    sbp: ["inyanya", "iɲaɲa"],  // TLS (lexibank tls).
+    myx: ["inyanye", "iɲaɲe"],  // TLS (lexibank tls).
+    ttj: ["enyanya", "eɲaɲa"],  // TLS (lexibank tls).
   },
 };

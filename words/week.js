@@ -819,6 +819,12 @@ WORDS.week = {
     shu: "turn",
     btx: "sunday",
     mqy: "sunday",
+    enf: "seven",
+    aqc: "seven",
+    rtm: "plain",
+    dds: "plain",
+    pbb: "plain",
+    oar: "sabbath",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1583,5 +1589,11 @@ WORDS.week = {
     shu: ["دورة", "doːra"],  // سبوع subuuʼ is also listed
     btx: ["minggu", "miŋɡu"],
     mqy: ["minggu", "miᵑɡu"],
+    enf: ["seu deri", "sæu dʲɛri"],  // NorthEuraLex (lexibank).
+    aqc: ["викь", "wikɬ"],  // WOLD + IDS (lexibank).
+    rtm: ["gasava", "ŋasava"],  // IDS (lexibank ids).
+    dds: ["jugu", "dʒuɡu"],  // BAF2 (lexibank baf2).
+    pbb: ["kiʼsu", "kiʔsu"],  // IDS (lexibank ids).
+    oar: ["שבתא", "ʃabbtaː"],  // IDS (lexibank ids).
   },
 };

@@ -1270,6 +1270,10 @@ WORDS.mouth = {
     btx: "baqbaq",
     mqy: "plain",
     sxn: "plain",
+    jra: "baqbaq",
+    xto: "plain",
+    obr: "plain",
+    kfr: "mukha",
   },
   routes: {
     ohs: {"color":"#2563eb","emoji":"👄","en":"Proto-Indo-European *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","ja":"印欧祖語 *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","ko":"인도유럽 조어 *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","zh":"原始印欧语 *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","yue":"原始印歐語 *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","vi":"tiếng Ấn-Âu nguyên thủy *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","id":"Proto-Indo-Eropa *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","hi":"आदि-भारोपीय *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","de":"urindogermanisch *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","fr":"le proto-indo-européen *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","it":"il protoindoeuropeo *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","es":"el protoindoeuropeo *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","pt":"o proto-indo-europeu *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","ru":"праиндоевропейское *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","uk":"праіндоєвропейське *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","ar":"الهندو-أوروبية الأم *h₁óh₃s (ōs، 𒀀𒄿𒅖، ٲس)","he":"הפרוטו-הודו-אירופית *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)","sw":"Kihindi-Kiulaya asilia *h₁óh₃s (ōs, 𒀀𒄿𒅖, ٲس)"},
@@ -2479,5 +2483,9 @@ WORDS.mouth = {
     btx: ["babah", "babah"],
     mqy: ["mu'u", "muʔu"],
     sxn: ["mohong", "mohoŋ"],
+    jra: ["bơ̆băh", "bəbah"],  // ABVD (Jarai).
+    xto: ["𑀓𑁄", "ko"],  // IDS + IE-CoR.
+    obr: ["နှုတ်", "n̥ut"],  // Sagart ST + Lai Gyalrong + Wu.
+    kfr: ["મોં", "mõː"],  // LSI (Kachchhi).
   }
 };

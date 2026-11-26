@@ -832,6 +832,17 @@ WORDS.mirror = {
     hac: "plain",
     shu: "look",
     mqy: "cermin",
+    nio: "plain",
+    kca: "look",
+    cng: "plain",
+    swi: "other",
+    nuf: "plain",
+    ale: "plain",
+    tue: "plain",
+    elx: "plain",
+    sga: "shadow",
+    shp: "speculum",
+    bbl: "plain",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -1609,5 +1620,16 @@ WORDS.mirror = {
     hac: ["cam", "dʒaːm"],
     shu: ["أم شوافة", "amʃawwaːfa"],  // From شاف 'to see'
     mqy: ["sereméng", "sərəmeŋ"],
+    nio: ["хорә ӈәтәубса", "xorə ŋətəubsɐ"],  // NorthEuraLex.
+    kca: ["веш ватты ох", "wʲeʃ ˈwattɪ oχ"],  // NorthEuraLex.
+    cng: ["ɕil", "ɕil"],  // Sun TB (suntb).
+    swi: ["nam3 ʔdaaŋ1", "nam˧˧ ʔdaːŋ˩˩"],  // IDS.
+    nuf: ["phɹɑ̃55ɹu31khʴue35ɑ55", "pʰɹɑ̃˥˥ɹu˧˩kʰ˞ue˧˥ɑ˥˥"],  // Sun TB (suntb).
+    ale: ["укуулух̆", "ukuːluχ"],  // NorthEuraLex.
+    tue: ["ẽyõrõ", "ẽjõˈɾõ"],  // IDS.
+    elx: ["𒋗𒄩", "ʃuha"],  // IDS (EW 1175).
+    sga: ["scáthán", "ˈskaːθaːn"],  // IDS.
+    shp: ["ispiko", "ispiko"],  // IDS.
+    bbl: ["მიჭრიტაჼ", "mitʃʼritʼã"],  // IDS.
   },
 };

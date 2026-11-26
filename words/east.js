@@ -836,6 +836,18 @@ WORDS.east = {
     btx: "timur",
     mqy: "plain",
     sxn: "plain",
+    enf: "rising",
+    gqu: "plain",
+    nuf: "plain",
+    dbq: "plain",
+    rmy: "rising",
+    car: "plain",
+    tab: "rising",
+    aqc: "rising",
+    nys: "plain",
+    mni: "plain",
+    nmf: "plain",
+    kac: "plain",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1613,5 +1625,17 @@ WORDS.east = {
     btx: ["timur", "timur"],  // Wiktionary has the older compass word purba
     mqy: ["awo", "avo"],
     sxn: ["daki", "daki"],
+    enf: ["kaya ozima nee", "kaja ɔzima nɛː"],  // NorthEuraLex (Forest Enets).
+    gqu: ["ta42 ji13 chu42", "ta˦˨ ji˩˧ cʰu˦˨"],  // IDS (Qau Kelao).
+    nuf: ["ȵi31tsɑʴ35u55", "ɲi˧˩tsɑ˞˧˥u˥˥"],  // Sun 1991 TB (suntb).
+    dbq: ["akələ̀ypic", "akələ̀jpitʃ"],  // Kraft Chadic (kraftchadic).
+    rmy: ["khamesko iklipe", "kʰamesko iklipe"],  // IDS (Romani).
+    car: ["unty", "untɨ"],  // WOLD (Kali'na).
+    tab: ["ригъ гьудубчӏвру тереф", "riʁ hudubtʃʼʷru teref"],  // IDS (Tabasaran, Northern Khanag).
+    aqc: ["машрикъ", "maʃriqʼ"],  // IDS (Archi variety 1).
+    nys: ["kakarr", "kakar"],  // Bowern Pama-Nyungan (bowernpny).
+    mni: ["ꯅꯣꯡꯄꯣꯛ", "noŋpok"],  // Marrison Naga lists (marrisonnaga).
+    nmf: ["zimikshoshong", "zimikʃoʃoŋ"],  // Marrison Naga lists (marrisonnaga).
+    kac: ["sinpraw", "sin˧˩pʒoʔ˥˥"],  // Marrison + Sun 1991 (suntb).
   },
 };

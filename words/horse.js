@@ -1187,6 +1187,11 @@ WORDS.horse = {
     btx: "plain",
     mqy: "jaran",
     sxn: "caballo_es",
+    srh: "plain",
+    hit: "ekwos",
+    hno: "ghotaka",
+    wbl: "ekwos",
+    kfr: "ghotaka",
   },
   routes: {
     ekwos: {"color":"#2563eb","emoji":"🏇","en":"Proto-Indo-European *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ja":"印欧祖語 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ko":"인도유럽 조어 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","zh":"原始印欧语 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","yue":"原始印歐語 *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","vi":"tiếng Ấn-Âu nguyên thủy *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","id":"Proto-Indo-Eropa *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","hi":"आदि-भारोपीय *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","de":"urindogermanisch *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","fr":"le proto-indo-européen *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","it":"il protoindoeuropeo *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","es":"el protoindoeuropeo *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","pt":"o proto-indo-europeu *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ru":"праиндоевропейское *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","uk":"праіндоєвропейське *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","ar":"الهندو-أوروبية الأم *h₁éḱwos (equus، ἵππος، अश्वः، اسب)","he":"הפרוטו-הודו-אירופית *h₁éḱwos (equus, ἵππος, अश्वः, اسب)","sw":"Kihindi-Kiulaya asilia *h₁éḱwos (equus, ἵππος, अश्वः, اسب)"},
@@ -2354,5 +2359,10 @@ WORDS.horse = {
     btx: ["kuda", "kuda"],
     mqy: ["jarang", "dʒaraŋ"],
     sxn: ["kawaḷo", "kawaɭo"],
+    srh: ["vurj", "vuɾdʒ"],  // LSI (CLDF).
+    hit: ["𒀲𒆳𒊏𒍑", "ekːus"],  // en.wiktionary; DiACL.
+    hno: ["گھوڑا", "ɡʱoːɽaː"],  // LSI (CLDF).
+    wbl: ["йаш", "jaʃ"],  // LSI (CLDF).
+    kfr: ["ઘોડો", "ɡʱoːɖoː"],  // LSI (CLDF).
   }
 };

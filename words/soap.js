@@ -655,6 +655,15 @@ WORDS.soap = {
     shu: "sabun",
     btx: "sabun",
     mqy: "sabun",
+    gqu: "plain",
+    lic: "plain",
+    jiu: "plain",
+    clk: "sabun",
+    rmy: "sapo",
+    snk: "sabun",
+    dds: "plain",
+    rap: "plain",
+    chb: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1316,5 +1325,14 @@ WORDS.soap = {
     shu: ["صابون", "saːbuːn"],
     btx: ["sabun", "sabun"],
     mqy: ["sabung", "sabuŋ"],
+    gqu: ["so42 sai42 zəi13", "so˦˨ sai˦˨ zəi˩˧"],  // IDS.
+    lic: ["ke:n1", "keːn˥˧"],  // IDS.
+    jiu: ["tshɔ33pjɔ33", "tsʰɔ˧˧pjɔ˧˧"],  // Sun 1991 (lexibank suntb).
+    clk: ["ɕɑ55bu55ȵi55", "ɕɑ˥˥bu˥˥ȵi˥˥"],  // Sun 1991 (lexibank suntb).
+    rmy: ["sapui", "sapui"],  // IDS.
+    snk: ["saabune", "saːbune"],  // BAF2; Polyglotta Africana.
+    dds: ["samminɛ", "samːinɛ"],  // BAF2.
+    rap: ["tope", "tope"],  // IDS.
+    chb: ["foaba", "foaba"],  // IDS.
   },
 };

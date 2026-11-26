@@ -729,6 +729,13 @@ WORDS.tuesday = {
     gwc: "count",
     btx: "count",
     mqy: "count",
+    ain: "mars",
+    gqu: "count",
+    lic: "count",
+    rtm: "count",
+    pbb: "mars",
+    ale: "count",
+    kjj: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मैनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -1397,5 +1404,12 @@ WORDS.tuesday = {
     gwc: ["سی شمہ", "seː ɕɑmɑ"],
     btx: ["Selasa", "səlasa"],
     mqy: ["Slasa", "slasa"],
+    ain: ["アペエトホ", "apeetoho"],  // NorthEuraLex (Hokkaido Ainu).
+    gqu: ["ɕin33 tɕi33 sa42 fe35", "ɕin˧˧ tɕi˧˧ sa˦˨ fe˧˥"],  // IDS (Qau Kelao).
+    lic: ["tsheŋ2 khi3 zi2", "tsʰeŋ˥˥ kʰi˩˩ zi˥˥"],  // IDS (Hlai, Baoting variety).
+    rtm: ["Rän rua", "ræn rua"],  // IDS (Rotuman).
+    pbb: ["maltxis", "maltʲis"],  // IDS (Páez).
+    ale: ["Uvtuurnikax̂", "uvtuːrnikaχ"],  // NorthEuraLex (Aleut).
+    kjj: ["кӏувшкаьхкьаь", "kʼuvʃkʰæχqʼæ"],  // IDS (Khinalug).
   },
 };

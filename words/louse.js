@@ -709,6 +709,9 @@ WORDS.louse = {
     wbl: "spis",
     pal: "spis",
     lmo: "pediculus",
+    ets: "plain",
+    mfa: "kutu",
+    vmf: "lus",
   },
   routes: {
     lus: {"color":"#2563eb","emoji":"🌲","en":"Germanic *lūs (louse, Laus, lus)","ja":"ゲルマン祖語 *lūs (louse, Laus, lus)","ko":"게르만 조어 *lūs (louse, Laus, lus)","zh":"原始日耳曼语 *lūs (louse, Laus, lus)","yue":"原始日耳曼語 *lūs (louse, Laus, lus)","vi":"tiếng German nguyên thủy *lūs (louse, Laus, lus)","th":"ภาษาเจอร์แมนิกดั้งเดิม *lūs (louse, Laus, lus)","id":"Proto-Jermanik *lūs (louse, Laus, lus)","hi":"आदि-जर्मनिक *lūs (louse, Laus, lus)","de":"urgermanisch *lūs (louse, Laus, lus)","fr":"le proto-germanique *lūs (louse, Laus, lus)","it":"il protogermanico *lūs (louse, Laus, lus)","es":"el protogermánico *lūs (louse, Laus, lus)","pt":"o protogermânico *lūs (louse, Laus, lus)","ru":"прагерманское *lūs (louse, Laus, lus)","uk":"прагерманське *lūs (louse, Laus, lus)","ar":"الجرمانية الأم *lūs (louse, Laus, lus)","he":"הפרוטו-גרמאנית *lūs (louse, Laus, lus)","sw":"Kijerumani asilia *lūs (louse, Laus, lus)"},
@@ -1380,5 +1383,8 @@ WORDS.louse = {
     wbl: ["шиш", "ʃiʃ"],  // IE-CoR; DiACL.
     pal: ["𐭮𐭯𐭩𐭱", "spiʃ"],  // Wiktionary (Persian شپش etymology); DiACL.
     lmo: ["piöcc", "pjøtʃ"],  // IE-CoR (Milanese); ASJP.
+    ets: ["aru", "aɾu"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    mfa: ["kutu", "kutu"],  // English Wiktionary, Pattani Malay entry کوتو (tr. kutu).
+    vmf: ["Laus", "laʊs"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

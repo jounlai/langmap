@@ -1209,6 +1209,8 @@ WORDS.bird = {
     bhb: "pakshin",
     txb: "plain",
     psi: "parande",
+    fia: "plain",
+    luz: "plain",
   },
   routes: {
     bird: {"color":"#2563eb","emoji":"🐦","en":"English bird (bird, brid, birdo)","ja":"英語 bird (bird, brid, birdo)","ko":"영어 bird (bird, brid, birdo)","zh":"英语 bird (bird, brid, birdo)","yue":"英語 bird (bird, brid, birdo)","vi":"tiếng Anh bird (bird, brid, birdo)","th":"ภาษาอังกฤษ bird (bird, brid, birdo)","id":"bahasa Inggris bird (bird, brid, birdo)","hi":"अंग्रेज़ी bird (bird, brid, birdo)","de":"englisch bird (bird, brid, birdo)","fr":"l'anglais bird (bird, brid, birdo)","it":"l'inglese bird (bird, brid, birdo)","es":"el inglés bird (bird, brid, birdo)","pt":"o inglês bird (bird, brid, birdo)","ru":"английское bird (bird, brid, birdo)","uk":"англійське bird (bird, brid, birdo)","ar":"الإنجليزية bird (bird، brid، birdo)","he":"האנגלית bird (bird, brid, birdo)","sw":"Kiingereza bird (bird, brid, birdo)"},
@@ -2448,5 +2450,7 @@ WORDS.bird = {
     bhb: ["पखी", "pəkʰiː"],  // LSI (Grierson), Bhili.
     txb: ["𑀱𑀮𑀫𑁄 𑀮𑀼𑀯𑁄", "ʂalamo luwo"],  // IDS + IE-CoR (Tocharian B).
     psi: ["پرنده", "parinda"],  // LSI (Grierson), Eastern Pashai.
+    fia: ["kawarti", "kawarti"],  // Lepsius 1880, Nubische Grammatik, Deutsch-Nubisches Wörterbuch (archive.org nubischegrammati00leps_0, djvu OCR; M. = Mah.
+    luz: ["bâhenda", "bɑːhenˈda"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی).
   },
 };

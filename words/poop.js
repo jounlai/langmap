@@ -985,6 +985,9 @@ WORDS.poop = {
     car: "plain",
     lif: "plain",
     tdd: "taqi",
+    bah: "plain",
+    ets: "plain",
+    luz: "gutha",
   },
   routes: {
     caqi: {"color":"#2563eb","emoji":"🌴","en":"Proto-Austronesian *Caqi (tahi, tae, tai)","ja":"オーストロネシア祖語 *Caqi (tahi, tae, tai)","ko":"오스트로네시아 조어 *Caqi (tahi, tae, tai)","zh":"原始南岛语 *Caqi (tahi, tae, tai)","yue":"原始南島語 *Caqi (tahi, tae, tai)","vi":"tiếng Nam Đảo nguyên thủy *Caqi (tahi, tae, tai)","th":"ภาษาออสโตรนีเซียนดั้งเดิม *Caqi (tahi, tae, tai)","id":"Proto-Austronesia *Caqi (tahi, tae, tai)","hi":"आदि-ऑस्ट्रोनेशियाई *Caqi (tahi, tae, tai)","de":"uraustronesisch *Caqi (tahi, tae, tai)","fr":"le proto-austronésien *Caqi (tahi, tae, tai)","it":"il protoaustronesiano *Caqi (tahi, tae, tai)","es":"el protoaustronesio *Caqi (tahi, tae, tai)","pt":"o proto-austronésio *Caqi (tahi, tae, tai)","ru":"праавстронезийское *Caqi (tahi, tae, tai)","uk":"праавстронезійське *Caqi (tahi, tae, tai)","ar":"الأسترونيزية الأم *Caqi (tahi، tae، tai)","he":"הפרוטו-אוסטרונזית *Caqi (tahi, tae, tai)","sw":"Kiaustronesia asilia *Caqi (tahi, tae, tai)"},
@@ -1967,5 +1970,8 @@ WORDS.poop = {
     car: ["wety", "wetɨ"],  // Hunter-Gatherer DB (lexibank huntergatherer).
     lif: ["ᤜᤡ", "hi"],  // Sagart ST + Wust (lexibank sagartst, wustphylogenies).
     tdd: ["ᥑᥤᥲ", "xi˧˩"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
+    bah: ["nanny", "nani"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    ets: ["itọ", "itɔ"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    luz: ["gi", "ɡi"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی); Loeffler & Windfuhr, 'Boi.
   },
 };

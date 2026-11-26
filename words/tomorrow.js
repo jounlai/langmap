@@ -1064,6 +1064,11 @@ WORDS.tomorrow = {
     oar: "mahar",
     wmt: "plain",
     jra: "plain",
+    bah: "morning",
+    ets: "plain",
+    fia: "plain",
+    mfa: "morning",
+    vmf: "morning",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -2083,5 +2088,10 @@ WORDS.tomorrow = {
     oar: ["מחר", "mħaːr"],  // IDS.
     wmt: ["kumanta", "kumanta"],  // Bowern PNY (CLDF).
     jra: ["pơgi", "pəɡiː"],  // Glosbe + Jarai Bible (hrơi pơgi, four verses); Rade mgi.
+    bah: ["tomorrow", "təmɔɹoʊ"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    ets: ["akhwẹ", "axwɛ"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    fia: ["wallo", "walːo"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
+    mfa: ["esok", "ɛsɔʔ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967; UCLA Phonetics Archive mfa word .
+    vmf: ["morng", "ˈmɔrŋ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

@@ -488,6 +488,8 @@ WORDS.cockroach = {
     hsn_hy: "oil",
     zh_wenyan_edu: "plain",
     sxn: "unknown",
+    bah: "cucaracha",
+    dyo: "plain",
   },
   routes: {
     cucaracha: {"color":"#d97706","emoji":"🇪🇸","en":"from Spanish cucaracha (cockroach)","ja":"スペイン語 cucaracha から (cockroach)","ko":"스페인어 cucaracha에서 (cockroach)","zh":"来自西班牙语 cucaracha (cockroach)","yue":"嚟自西班牙文 cucaracha (cockroach)","vi":"từ tiếng Tây Ban Nha cucaracha (cockroach)","th":"จากภาษาสเปน cucaracha (cockroach)","id":"dari cucaracha Spanyol (cockroach)","hi":"स्पेनी cucaracha से (cockroach)","de":"aus spanisch cucaracha (cockroach)","fr":"de l'espagnol cucaracha (cockroach)","it":"dallo spagnolo cucaracha (cockroach)","es":"del español cucaracha (cockroach)","pt":"do espanhol cucaracha (cockroach)","ru":"от испанского cucaracha (cockroach)","uk":"від іспанського cucaracha (cockroach)","ar":"من الإسبانية cucaracha (cockroach)","he":"מהספרדית cucaracha (cockroach)","sw":"kutoka Kihispania cucaracha (cockroach)"},
@@ -929,5 +931,7 @@ WORDS.cockroach = {
     hsn_hy: ["油炸婆", "iu˩˩˨ tsa˧˨˦ po˩˩˨"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + MCPDict 衡陽.tsv (油 iu2, 炸 tsa5, 婆 po2).
     zh_wenyan_edu: ["蜚蠊", "fei˧˥ liːm˨˩"],  // Wiktionary Module:dialect synonyms/zh/蟑螂 + Wiktionary 蜚蠊 (literary/formal 'cockroach'; Cantonese fei2 lim4 /fei̯³⁵ liːm².
     sxn: ["leka", "leka"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
+    bah: ["cockaroach", "kɔkaɹoʊtʃ"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    dyo: ["kafofor", "kafofor"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
   },
 };

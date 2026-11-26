@@ -947,6 +947,11 @@ WORDS.yellow = {
     kfa: "turmeric",
     wrh: "plain",
     hay: "fruit",
+    bah: "ghel",
+    dyo: "plain",
+    fia: "plain",
+    mfa: "turmeric",
+    vmf: "ghel",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1848,5 +1853,10 @@ WORDS.yellow = {
     kfa: ["ಮಂಜ", "mandʒa"],  // DravLex; ASJP.
     wrh: ["guunang-guunang", "ˈɡuːnaŋɡuːnaŋ"],  // Bowern Pama-Nyungan.
     hay: ["elangi ya kiyiise", "elaŋɡi ja kijiːse"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    bah: ["yaller", "jalə"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    dyo: ["majilayet", "maɟilajet"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
+    fia: ["barúm", "barúm"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
+    mfa: ["kuning", "kuniŋ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["gelb", "ɡɛlb"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

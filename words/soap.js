@@ -665,6 +665,9 @@ WORDS.soap = {
     rap: "plain",
     chb: "plain",
     hay: "sabun",
+    bah: "sapo",
+    fia: "sabun",
+    vmf: "sapo",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -1336,5 +1339,8 @@ WORDS.soap = {
     rap: ["tope", "tope"],  // IDS.
     chb: ["foaba", "foaba"],  // IDS.
     hay: ["esaabundi", "esaːbundi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    bah: ["soap", "soʊp"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    fia: ["sààbúún", "sàːbúːn"],  // en.wikipedia 'Nobiin' (examples from Werner 1987); Lepsius 1880, Nubische Grammatik, Deutsch-Nubisches Wörterbuch (archi.
+    vmf: ["Saafe", "ˈsaːfə"],  // Wiktionary (en) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

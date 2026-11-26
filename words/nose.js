@@ -1191,6 +1191,7 @@ WORDS.nose = {
     btx: "ijun",
     mqy: "ijun",
     sxn: "ijun",
+    vmf: "naso",
   },
   routes: {
     nehs: {"color":"#2563eb","emoji":"👃","en":"Proto-Indo-European *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ja":"印欧祖語 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ko":"인도유럽 조어 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","zh":"原始印欧语 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","yue":"原始印歐語 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","vi":"tiếng Ấn-Âu nguyên thủy *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","id":"Proto-Indo-Eropa *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","hi":"आदि-भारोपीय *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","de":"urindogermanisch *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","fr":"le proto-indo-européen *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","it":"il protoindoeuropeo *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","es":"el protoindoeuropeo *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","pt":"o proto-indo-europeu *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ru":"праиндоевропейское *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","uk":"праіндоєвропейське *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ar":"الهندو-أوروبية الأم *néh₂s (nosis، नासा، 𐎴𐎠𐏃𐎶)","he":"הפרוטו-הודו-אירופית *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","sw":"Kihindi-Kiulaya asilia *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)"},
@@ -2405,5 +2406,6 @@ WORDS.nose = {
     btx: ["igung", "iɡuŋ"],
     mqy: ["isung", "isuŋ"],
     sxn: ["irung", "iruŋ"],
+    vmf: ["Nosn", "ˈnoːsn̩"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online + Wiktionary (en).
   },
 };

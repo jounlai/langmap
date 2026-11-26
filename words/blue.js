@@ -1017,6 +1017,9 @@ WORDS.blue = {
     mqy: "grue",
     akl: "borrowed",
     hay: "borrowed",
+    kjp: "distinct",
+    mfa: "distinct",
+    vmf: "distinct",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🔵", "en": "blue has its own word", "ja": "青に専用の語", "ko": "파랑에 고유한 낱말", "zh": "蓝有专词", "yue": "藍有專詞", "vi": "lam có từ riêng", "th": "น้ำเงินมีคำเฉพาะ", "id": "biru punya katanya sendiri", "hi": "नीले का अपना शब्द", "de": "eigenes Wort für Blau", "fr": "le bleu a son mot", "it": "il blu ha una parola propria", "es": "el azul tiene palabra propia", "pt": "o azul tem palavra própria", "ru": "у синего своё слово", "uk": "синій має власне слово", "ar": "للأزرق كلمته الخاصة", "he": "לכחול מילה משלו", "sw": "buluu lina neno lake"},
@@ -1992,5 +1995,8 @@ WORDS.blue = {
     mqy: ["ta'a", "taʔa"],  // same word as green
     akl: ["asul", "ʔaˈsul"],  // Salas Reyes, Zorc et al. 1969, Aklanon Dictionary (ERIC ED145704), entries kat--- and tag---.
     hay: ["obululu", "obululu"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    kjp: ["လာ့", "lâ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp rainbow article.
+    mfa: ["bighu", "biɣu"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["blau", "blaʊ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

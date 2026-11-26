@@ -802,6 +802,9 @@ WORDS.sunday = {
     tkr: "plain",
     ale: "resurrection",
     hay: "plain",
+    fia: "plain",
+    mfa: "count",
+    vmf: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1544,5 +1547,8 @@ WORDS.sunday = {
     tkr: ["ваджар", "vadʒar"],  // IDS.
     ale: ["Vaskrisiiniyax̂", "vaskrisiːnijaχ"],  // NorthEuraLex.
     hay: ["eilimansi", "eilimansi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    fia: ["kilagée", "kilaɡéː"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
+    mfa: ["Ahad", "ahat"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["Sundich", "ˈsʊndɪç"],  // Wiktionary (en) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

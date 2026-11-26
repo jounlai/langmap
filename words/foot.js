@@ -1236,6 +1236,8 @@ WORDS.foot = {
     btx: "leg+foot",
     mqy: "leg+foot",
     sxn: "leg+foot",
+    bah: "leg+foot",
+    dyo: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -2433,5 +2435,7 @@ WORDS.foot = {
     btx: ["nahe", "nahe"],  // foot and leg
     mqy: ["wa'i", "vaʔi"],  // foot and leg
     sxn: ["laedě", "laedəʔ"],  // leg/foot
+    bah: ["foot", "fʊt"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    dyo: ["kajaam", "kaɟaːm"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
   },
 };

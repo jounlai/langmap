@@ -752,6 +752,9 @@ WORDS.saturday = {
     rap: "wash",
     ale: "sabbath",
     hay: "count",
+    fia: "plain",
+    mfa: "sabbath",
+    vmf: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1446,5 +1449,8 @@ WORDS.saturday = {
     rap: ["mahana hopu", "mahana hopu"],  // IDS; en.wiktionary.
     ale: ["Subuutax̂", "subuːtaχ"],  // NorthEuraLex.
     hay: ["olwaamukaaga", "olwaːmukaːɡa"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    fia: ["saantée", "saːntéː"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
+    mfa: ["Sabtu", "sabtu"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["Samsdi", "ˈsamsdɪ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

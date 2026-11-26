@@ -838,6 +838,9 @@ WORDS.grandmother = {
     hac: "one",
     shu: "one",
     btx: "one",
+    bah: "one",
+    kjp: "one",
+    luz: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1620,5 +1623,8 @@ WORDS.grandmother = {
     hac: ["mama", "maːmaː"],
     shu: ["إية", "ija"],
     btx: ["nini tudung", "nini tuduŋ"],  // eastern (Kabanjahe) term; one term for both sides
+    bah: ["gran", "ɡɹan"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    kjp: ["ဖီ့", "pʰî"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp.
+    luz: ["nana", "naˈna"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی).
   },
 };

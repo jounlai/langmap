@@ -1180,6 +1180,7 @@ WORDS.egg = {
     yux: "plain",
     jra: "plain",
     chb: "plain",
+    luz: "hawyam",
   },
   routes: {
     owyom: {"color":"#2563eb","emoji":"🥚","en":"Proto-Indo-European *h₂ōwyóm (αυγό, ձու, vezë)","ja":"印欧祖語 *h₂ōwyóm (αυγό, ձու, vezë)","ko":"인도유럽 조어 *h₂ōwyóm (αυγό, ձու, vezë)","zh":"原始印欧语 *h₂ōwyóm (αυγό, ձու, vezë)","yue":"原始印歐語 *h₂ōwyóm (αυγό, ձու, vezë)","vi":"tiếng Ấn-Âu nguyên thủy *h₂ōwyóm (αυγό, ձու, vezë)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₂ōwyóm (αυγό, ձու, vezë)","id":"Proto-Indo-Eropa *h₂ōwyóm (αυγό, ձու, vezë)","hi":"आदि-भारोपीय *h₂ōwyóm (αυγό, ձու, vezë)","de":"urindogermanisch *h₂ōwyóm (αυγό, ձու, vezë)","fr":"le proto-indo-européen *h₂ōwyóm (αυγό, ձու, vezë)","it":"il protoindoeuropeo *h₂ōwyóm (αυγό, ձու, vezë)","es":"el protoindoeuropeo *h₂ōwyóm (αυγό, ձու, vezë)","pt":"o proto-indo-europeu *h₂ōwyóm (αυγό, ձու, vezë)","ru":"праиндоевропейское *h₂ōwyóm (αυγό, ձու, vezë)","uk":"праіндоєвропейське *h₂ōwyóm (αυγό, ձու, vezë)","ar":"الهندو-أوروبية الأم *h₂ōwyóm (αυγό، ձու، vezë)","he":"הפרוטו-הודו-אירופית *h₂ōwyóm (αυγό, ձու, vezë)","sw":"Kihindi-Kiulaya asilia *h₂ōwyóm (αυγό, ձու, vezë)"},
@@ -2371,5 +2372,6 @@ WORDS.egg = {
     yux: ["аиль", "aiʎ"],  // NorthEuraLex.
     jra: ["boh", "bɔːh"],  // ABVD.
     chb: ["bgye", "bɡɨe"],  // Hunter-Gatherer DB (Muisca).
+    luz: ["xâg", "xɑːɡ"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی).
   },
 };

@@ -1222,6 +1222,8 @@ WORDS.black = {
     btx: "plain",
     mqy: "qitem",
     sxn: "qitem",
+    mfa: "qitem",
+    vmf: "swartaz",
   },
   routes: {
     swartaz: {"color":"#2563eb","emoji":"🌲","en":"Proto-Germanic *swartaz (schwarz, zwart, svart)","ja":"ゲルマン祖語 *swartaz (schwarz, zwart, svart)","ko":"게르만 조어 *swartaz (schwarz, zwart, svart)","zh":"原始日耳曼语 *swartaz (schwarz, zwart, svart)","yue":"原始日耳曼語 *swartaz (schwarz, zwart, svart)","vi":"tiếng German nguyên thủy *swartaz (schwarz, zwart, svart)","th":"ภาษาเจอร์แมนิกดั้งเดิม *swartaz (schwarz, zwart, svart)","id":"Proto-Jermanik *swartaz (schwarz, zwart, svart)","hi":"आदि-जर्मेनिक *swartaz (schwarz, zwart, svart)","de":"urgermanisch *swartaz (schwarz, zwart, svart)","fr":"le proto-germanique *swartaz (schwarz, zwart, svart)","it":"il protogermanico *swartaz (schwarz, zwart, svart)","es":"el protogermánico *swartaz (schwarz, zwart, svart)","pt":"o protogermânico *swartaz (schwarz, zwart, svart)","ru":"прагерманское *swartaz (schwarz, zwart, svart)","uk":"прагерманське *swartaz (schwarz, zwart, svart)","ar":"الجرمانية الأم *swartaz (schwarz، zwart، svart)","he":"הפרוטו-גרמאנית *swartaz (schwarz, zwart, svart)","sw":"Kijerumani asilia *swartaz (schwarz, zwart, svart)"},
@@ -2517,5 +2519,7 @@ WORDS.black = {
     btx: ["mbiring", "mbiriŋ"],
     mqy: ["miteng", "mitəŋ"],
     sxn: ["maitung", "maituŋ"],
+    mfa: ["hitae", "hitɛ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["schwarz", "ʃvarts"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

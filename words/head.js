@@ -1219,6 +1219,9 @@ WORDS.head = {
     iru: "talay",
     ibg: "quluh",
     kfr: "mastaka",
+    bah: "kaput",
+    hno: "kerh",
+    vmf: "kuppaz",
   },
   routes: {
     kaput: {"color":"#2563eb","emoji":"🧠","en":"Proto-Indo-European *káput (head, hoofd, cabeza)","ja":"印欧祖語 *káput (head, hoofd, cabeza)","ko":"인도유럽 조어 *káput (head, hoofd, cabeza)","zh":"原始印欧语 *káput (head, hoofd, cabeza)","yue":"原始印歐語 *káput (head, hoofd, cabeza)","vi":"tiếng Ấn-Âu nguyên thủy *káput (head, hoofd, cabeza)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *káput (head, hoofd, cabeza)","id":"Proto-Indo-Eropa *káput (head, hoofd, cabeza)","hi":"आदि-भारोपीय *káput (head, hoofd, cabeza)","de":"urindogermanisch *káput (head, hoofd, cabeza)","fr":"le proto-indo-européen *káput (head, hoofd, cabeza)","it":"il protoindoeuropeo *káput (head, hoofd, cabeza)","es":"el protoindoeuropeo *káput (head, hoofd, cabeza)","pt":"o proto-indo-europeu *káput (head, hoofd, cabeza)","ru":"праиндоевропейское *káput (head, hoofd, cabeza)","uk":"праіндоєвропейське *káput (head, hoofd, cabeza)","ar":"الهندو-أوروبية الأم *káput (head، hoofd، cabeza)","he":"הפרוטו-הודו-אירופית *káput (head, hoofd, cabeza)","sw":"Kihindi-Kiulaya asilia *káput (head, hoofd, cabeza)"},
@@ -2455,5 +2458,8 @@ WORDS.head = {
     iru: ["tēlē", "teːleː"],  // LSI (Irula).
     ibg: ["ulu", "ʔulu"],  // ABVD + ABVD Philippines.
     kfr: ["મથો", "mətʰoː"],  // LSI + ASJP (Kachchhi).
+    bah: ["head", "hɛd"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    hno: ["سر", "sɪr"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
+    vmf: ["Kopf", "kɔpf"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

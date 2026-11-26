@@ -1150,6 +1150,11 @@ WORDS.hundred = {
     sxn: "racus",
     kfr: "kmtom",
     ibg: "racus",
+    dyo: "plain",
+    fia: "plain",
+    hno: "kmtom",
+    mfa: "racus",
+    vmf: "kmtom",
   },
   routes: {
     kmtom: {"color":"#2563eb","emoji":"🐺","en":"Proto-Indo-European *ḱm̥tóm (hundred, cent, сто)","ja":"インド・ヨーロッパ祖語 *ḱm̥tóm (hundred, cent, сто)","ko":"인도유럽 조어 *ḱm̥tóm (hundred, cent, сто)","zh":"原始印欧语 *ḱm̥tóm (hundred, cent, сто)","yue":"原始印歐語 *ḱm̥tóm (hundred, cent, сто)","vi":"tiếng Ấn-Âu nguyên thủy *ḱm̥tóm (hundred, cent, сто)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ḱm̥tóm (hundred, cent, сто)","id":"Proto-Indo-Eropa *ḱm̥tóm (hundred, cent, сто)","hi":"आदि-हिन्द-यूरोपीय *ḱm̥tóm (hundred, cent, сто)","de":"urindogermanisch *ḱm̥tóm (hundred, cent, сто)","fr":"le proto-indo-européen *ḱm̥tóm (hundred, cent, сто)","it":"il protoindoeuropeo *ḱm̥tóm (hundred, cent, сто)","es":"el protoindoeuropeo *ḱm̥tóm (hundred, cent, сто)","pt":"o proto-indo-europeu *ḱm̥tóm (hundred, cent, сто)","ru":"праиндоевропейское *ḱm̥tóm (hundred, cent, сто)","uk":"праіндоєвропейське *ḱm̥tóm (hundred, cent, сто)","ar":"الهندية الأوروبية الأم *ḱm̥tóm (hundred، cent، сто)","he":"הפרוטו-הודו-אירופית *ḱm̥tóm (hundred, cent, сто)","sw":"Kihindi-Kiulaya asilia *ḱm̥tóm (hundred, cent, сто)"},
@@ -2343,5 +2348,10 @@ WORDS.hundred = {
     sxn: ["mahasụ", "mahasuʔ"],  // ABVD (lexibank abvd, abvdphilippines).
     kfr: ["સો", "soː"],  // LSI (lexibank lsi), Kachchhi.
     ibg: ["magatu'", "maɡatuʔ"],  // McFarland 1977 via Austronesian Comparative Dictionary (lexibank/acd CLDF) + ABVD + English Wiktionary.
+    dyo: ["ceme", "ceme"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
+    fia: ["imil", "imil"],  // Lepsius 1880, Nubische Grammatik, Deutsch-Nubisches Wörterbuch (archive.org nubischegrammati00leps_0, djvu OCR; M. = Mah.
+    hno: ["سو", "soː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
+    mfa: ["seghatoh", "səɣatoh"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["hundert", "ˈhʊndɐt"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

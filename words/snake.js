@@ -1102,6 +1102,10 @@ WORDS.snake = {
     lld: "plain",
     mpj: "plain",
     wrh: "plain",
+    dyo: "plain",
+    fvr: "plain",
+    hno: "crawl",
+    vmf: "slang",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -2164,5 +2168,9 @@ WORDS.snake = {
     lld: ["bisca", "ˈbiska"],  // IE-CoR.
     mpj: ["jila", "cila"],  // Bowern Pama-Nyungan.
     wrh: ["gadhi", "ˈɡad̪i"],  // Bowern Pama-Nyungan.
+    dyo: ["ewela", "ewela"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
+    fvr: ["nʉ́ʉ́m", "nʊ́ːm"],  // en.wikipedia 'Fur language' (after Kutsch Lojenga & Waag 2004); Starostin GLD Fur (Jakobi 1990: 89).
+    hno: ["سپ", "sapː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
+    vmf: ["Schlanga", "ˈʃlaŋɐ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

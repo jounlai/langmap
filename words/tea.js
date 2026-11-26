@@ -830,6 +830,9 @@ WORDS.tea = {
     mqy: "te",
     hay: "cha",
     tdd: "leaf",
+    luz: "cha",
+    mfa: "te",
+    vmf: "te",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1680,5 +1683,8 @@ WORDS.tea = {
     mqy: ["té", "te"],
     hay: ["ekyaai", "ekjaːi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     tdd: ["ᥘᥥᥒᥲ", "leŋ˧˩"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
+    luz: ["chey", "tʃej"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی); English Wiktionary 茶.
+    mfa: ["te", "te"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["Tee", "teː"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

@@ -1189,6 +1189,9 @@ WORDS.salt = {
     mqy: "qasira",
     sxn: "qasin",
     wbl: "namak",
+    kjp: "plain",
+    luz: "namak",
+    vmf: "sehl",
   },
   routes: {
     sehl: {"color":"#2563eb","emoji":"🧂","en":"Proto-Indo-European *séh₂ls (salt, sel, соль)","ja":"印欧祖語 *séh₂ls (salt, sel, соль)","ko":"인도유럽 조어 *séh₂ls (salt, sel, соль)","zh":"原始印欧语 *séh₂ls (salt, sel, соль)","yue":"原始印歐語 *séh₂ls (salt, sel, соль)","vi":"tiếng Ấn-Âu nguyên thủy *séh₂ls (salt, sel, соль)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *séh₂ls (salt, sel, соль)","id":"Proto-Indo-Eropa *séh₂ls (salt, sel, соль)","hi":"आदि-भारोपीय *séh₂ls (salt, sel, соль)","de":"urindogermanisch *séh₂ls (salt, sel, соль)","fr":"le proto-indo-européen *séh₂ls (salt, sel, соль)","it":"il protoindoeuropeo *séh₂ls (salt, sel, соль)","es":"el protoindoeuropeo *séh₂ls (salt, sel, соль)","pt":"o proto-indo-europeu *séh₂ls (salt, sel, соль)","ru":"праиндоевропейское *séh₂ls (salt, sel, соль)","uk":"праіндоєвропейське *séh₂ls (salt, sel, соль)","ar":"الهندو-أوروبية الأم *séh₂ls (salt، sel، соль)","he":"הפרוטו-הודו-אירופית *séh₂ls (salt, sel, соль)","sw":"Kihindi-Kiulaya asilia *séh₂ls (salt, sel, соль)"},
@@ -2485,5 +2488,8 @@ WORDS.salt = {
     mqy: ["ci'é", "tʃiʔe"],
     sxn: ["asing", "asiŋ"],
     wbl: ["намук", "namuk"],  // IE-CoR (lexibank iecor).
+    kjp: ["ထီ့လး", "tʰîlá"],  // Kato 2009 (AALL 4:169-218) Hp column; Wikipedia Incubator Wp/kjp article 'ထီ့လး'.
+    luz: ["nemek", "nemek"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی).
+    vmf: ["Salz", "salts"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

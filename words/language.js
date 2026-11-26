@@ -982,6 +982,8 @@ WORDS.language = {
     swi: "plain",
     ame: "plain",
     ale: "plain",
+    hno: "tongue",
+    kjp: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1903,5 +1905,7 @@ WORDS.language = {
     swi: ["lam1 fan2", "lam˩˩ fan˧˩"],  // IDS (Sui).
     ame: ["ñoñets", "ɲoɲets"],  // lexibank amazonianvoices (Yanesha).
     ale: ["tunux̂", "tunuχ"],  // NorthEuraLex (Aleut).
+    hno: ["زبان", "zəbaːn"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
+    kjp: ["ဆ်ုခၠါင်", "tɕʰəkʰlàiɴ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp.
   },
 };

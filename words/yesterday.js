@@ -1028,6 +1028,13 @@ WORDS.yesterday = {
     srh: "unknown",
     oar: "distinct",
     krj: "distinct",
+    bah: "distinct",
+    dyo: "distinct",
+    ets: "distinct",
+    fia: "distinct",
+    hno: "same",
+    mfa: "distinct",
+    vmf: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -2001,5 +2008,12 @@ WORDS.yesterday = {
     srh: ["kheb", "xeb"],  // IE-CoR.
     oar: ["אתמל", "ʔetmaːl"],  // IDS (Ancient Aramaic).
     krj: ["kahapon", "kahapon"],  // Marayum Kinaray-a–English Dictionary (UP Diliman/DOST), https://marayum.ph/kinaray-a-english/ , entry 2017.
+    bah: ["yesterday", "jɛstədeɪ"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    dyo: ["fucen", "fucen"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
+    ets: ["ẹnodẹ", "ɛnodɛ"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    fia: ["wiil", "wiːl"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
+    hno: ["کل", "kəl"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
+    mfa: ["kemagheng", "kəmaɣeŋ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    vmf: ["gestern", "ˈɡɛstɐn"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

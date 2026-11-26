@@ -908,6 +908,7 @@ WORDS.wheel = {
     akl: "plain",
     guz: "plain",
     rad: "plain",
+    vmf: "rathan",
   },
   routes: {
     kwekwlos: {"color":"#2563eb","emoji":"🎡","en":"Proto-Indo-European *kʷékʷlos (wheel, चक्र, چرخ)","ja":"インド・ヨーロッパ祖語 *kʷékʷlos (wheel, चक्र, چرخ)","ko":"인도유럽 조어 *kʷékʷlos (wheel, चक्र, چرخ)","zh":"原始印欧语 *kʷékʷlos (wheel, चक्र, چرخ)","yue":"原始印歐語 *kʷékʷlos (wheel, चक्र, چرخ)","vi":"tiếng Ấn-Âu nguyên thủy *kʷékʷlos (wheel, चक्र, چرخ)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *kʷékʷlos (wheel, चक्र, چرخ)","id":"Proto-Indo-Eropa *kʷékʷlos (wheel, चक्र, چرخ)","hi":"आदि-भारोपीय *kʷékʷlos (wheel, चक्र, چرخ)","de":"urindogermanisch *kʷékʷlos (wheel, चक्र, چرخ)","fr":"le proto-indo-européen *kʷékʷlos (wheel, चक्र, چرخ)","it":"il protoindoeuropeo *kʷékʷlos (wheel, चक्र, چرخ)","es":"el protoindoeuropeo *kʷékʷlos (wheel, चक्र, چرخ)","pt":"o proto-indo-europeu *kʷékʷlos (wheel, चक्र, چرخ)","ru":"праиндоевропейское *kʷékʷlos (wheel, चक्र, چرخ)","uk":"праіндоєвропейське *kʷékʷlos (wheel, चक्र, چرخ)","ar":"الهندية الأوروبية الأم *kʷékʷlos (wheel، चक्र، چرخ)","he":"הפרוטו-הודו-אירופית *kʷékʷlos (wheel, चक्र, چرخ)","sw":"Kiindo-Ulaya asilia *kʷékʷlos (wheel, चक्र, چرخ)"},
@@ -1883,5 +1884,6 @@ WORDS.wheel = {
     akl: ["kariton", "kaɾiˈton"],  // Salas Reyes, Zorc et al. 1969 (ERIC ED145704); de la Cruz & Zorc 1968 grammar (ERIC ED145705).
     guz: ["ritachero", "ɾitatʃeɾo"],  // Ekegusii Encyclopedia Project dictionary (2012, Lexique Pro), Ekegusii–English lexicon (archived 2016).
     rad: ["pông", "poːŋ"],  // Tharp & Buon-ya 1980, A Rhade-English dictionary (PL C-58), https://openresearch-repository.anu.edu.au/bitstream/1885/14.
+    vmf: ["Rad", "raːd"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   }
 };

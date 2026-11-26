@@ -994,6 +994,10 @@ WORDS.wife = {
     shu: "woman",
     btx: "own",
     mqy: "woman",
+    bah: "wib",
+    ets: "plain",
+    kjp: "own",
+    vmf: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1950,5 +1954,9 @@ WORDS.wife = {
     shu: ["مرة", "mara"],  // 'woman'; used for wife as in neighbouring Arabic
     btx: ["ndehara", "ndəhara"],
     mqy: ["wina", "vina"],  // also 'woman'
+    bah: ["wife", "waɪf"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
+    ets: ["isomi", "isomi"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    kjp: ["မာ့", "mâ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp AIDS article.
+    vmf: ["Fraa", "fraː"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

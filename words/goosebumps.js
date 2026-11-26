@@ -286,6 +286,7 @@ WORDS.goosebumps = {
     lv: "bird",
     krl: "other",
     wuu_sz: "other",
+    vmf: "bird",
   },
   family2: {
     ko: "bird",
@@ -522,5 +523,6 @@ WORDS.goosebumps = {
     lv: ["zosāda", "ˈzuɔsaːda"],  // en.wiktionary zosāda (ref. SDTV).
     krl: ["hipiehiiri", "ˈhipie̯ˌhiːri"],  // en.wiktionary hipiehiiri (ref. KKS).
     wuu_sz: ["寒毛痱子", "ɦɵ˨˨˧ mɐ˨˨˧ bᴇ˨˧˩ tsɿ˥˩"],  // en.wiktionary Module:dialect synonyms/zh/雞皮疙瘩; MCPDict 蘇州.
+    vmf: ["Gänshaut", "ˈɡɛnshaʊt"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
   },
 };

@@ -397,6 +397,18 @@ WORDS.octopus = {
     liv: "eight",
     rm: "eight",
     akl: "kurita",
+    wuu_wz: "zhangyu",
+    ba: "eight",
+    kum: "eight",
+    xal: "unknown",
+    vec: "many",
+    eve: "plain",
+    chk: "kurita",
+    tvl: "feke",
+    pmt: "feke",
+    mrq: "feke",
+    ch: "plain",
+    yle: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -745,5 +757,17 @@ WORDS.octopus = {
     liv: ["kǭ’dõksjaļgi", "ˈkɔːˀdəksˌjɑʎɡi"],
     rm: ["octopus", "ˈɔktopus"],  // From Greek 'eight-footed', as English octopus.
     akl: ["kugita", "kuˈɡita"],
+    wuu_wz: ["章鱼", "tɕi˧˧ ŋøy˧˩"],  // Wiktionary dial-syn 章魚 + MCPDict 溫州.
+    ba: ["һигеҙаяҡ", "hiɡeðɑˈjɑq"],  // ru.wiktionary һигеҙаяҡ.
+    kum: ["сегизаякъ", "seɡizaˈjaq"],  // ru.wiktionary сегизаякъ.
+    xal: ["нәәмлҗн", "næːmldʒn̩"],  // ru.wiktionary нәәмлҗн.
+    vec: ["folpo", "ˈfolpo"],  // ru.wiktionary folpo.
+    eve: ["кавилӈа", "kavilŋa"],  // ru.wiktionary кавилӈа.
+    chk: ["kúús", "kɨːs"],  // ACD (Blust & Trussel), PAN *guRiCa, citing Goodenough & Sugita 1980.
+    tvl: ["feke", "feke"],  // POLLEX-Online PN *feke.
+    pmt: ["feketue", "feketue"],  // POLLEX-Online PN *feke.
+    mrq: ["heke", "heke"],  // POLLEX-Online PN *feke (Lechat).
+    ch: ["gåmson", "ˈɡɑmson"],  // Pale' Eric CHamoru blog; fr.wiktionary poulpe; UOG seafood poster.
+    yle: ["kpé", "k͡pe"],  // English Wiktionary kpé (Levinson 2022 Yélî Dnye dictionary p.557).
   },
 };

@@ -265,6 +265,100 @@ WORDS.fart = {
     izh: "plain",
     btx: "plain",
     mqy: "plain",
+    gan_yc: "pi",
+    cjy_lv: "pi",
+    cjy_xz: "pi",
+    hsn_hy: "pi",
+    czh_wy: "pi",
+    cnp: "pi",
+    zh_db: "pi",
+    zh_tj: "pi",
+    zh_lz: "pi",
+    zh_jiao: "pi",
+    nan_pn: "pi",
+    wuu_nb: "pi",
+    yue_gz: "pi",
+    wuu_sz: "pi",
+    wuu_wz: "pi",
+    nan_hai: "pi",
+    zh_wh: "pi",
+    zh_zz: "pi",
+    wuu_hz: "pi",
+    yue_dg: "pi",
+    yue_nn: "pi",
+    zh_cq: "pi",
+    zh_jn: "pi",
+    zh_km: "pi",
+    zh_xa: "pi",
+    wuu_jh: "pi",
+    wuu_jx: "pi",
+    yue_zs: "pi",
+    zh_hf: "pi",
+    zh_kf: "pi",
+    zh_nj: "pi",
+    yue: "pi",
+    yue_ts: "pi",
+    gan: "pi",
+    hak_cn: "pi",
+    cjy: "pi",
+    mnp: "pi",
+    cdo: "pi",
+    cpx: "pi",
+    nan: "pi",
+    nan_te: "pi",
+    wuu: "pi",
+    hsn: "pi",
+    zh_sc: "pi",
+    lb: "perd",
+    goh: "perd",
+    bar: "perd",
+    kok: "perd",
+    sr: "perd",
+    bs: "perd",
+    ast: "peditum",
+    lld: "peditum",
+    csb: "plain",
+    gd: "plain",
+    xmf: "plain",
+    aa: "plain",
+    xqa: "plain",
+    my: "plain",
+    bo: "plain",
+    xct: "plain",
+    ja_heian: "plain",
+    ko_mid: "plain",
+    duu: "plain",
+    ers: "plain",
+    clk: "plain",
+    jiu: "plain",
+    tsj: "plain",
+    nuf: "plain",
+    cng: "plain",
+    qxs: "plain",
+    bca: "plain",
+    jya: "plain",
+    pmi: "plain",
+    cic: "plain",
+    ceb: "qetut",
+    war: "qetut",
+    bik: "qetut",
+    tao: "qetut",
+    mrw: "qetut",
+    tsg: "qetut",
+    pam: "qetut",
+    nia: "qetut",
+    cbk: "qetut",
+    su: "plain",
+    szy: "plain",
+    tpi: "plain",
+    ht: "peditum",
+    io: "plain",
+    nci: "plain",
+    om: "plain",
+    xh: "plain",
+    ig: "plain",
+    ak: "plain",
+    wrh: "plain",
   },
   routes: {
     perd: {"color":"#2563eb","emoji":"🌍","en":"Indo-European *perd- (fart, Furz, πορδή, पाद)","ja":"印欧祖語 *perd- (fart, Furz, πορδή, पाद)","ko":"인도유럽 조어 *perd- (fart, Furz, πορδή, पाद)","zh":"原始印欧语 *perd- (fart, Furz, πορδή, पाद)","yue":"原始印歐語 *perd- (fart, Furz, πορδή, पाद)","vi":"tiếng Ấn-Âu nguyên thủy *perd- (fart, Furz, πορδή, पाद)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *perd- (fart, Furz, πορδή, पाद)","id":"Proto-Indo-Eropa *perd- (fart, Furz, πορδή, पाद)","hi":"आदि-भारोपीय *perd- (fart, Furz, πορδή, पाद)","de":"indogermanisch *perd- (fart, Furz, πορδή, पाद)","fr":"l'indo-européen *perd- (fart, Furz, πορδή, पाद)","it":"l'indoeuropeo *perd- (fart, Furz, πορδή, पाद)","es":"el indoeuropeo *perd- (fart, Furz, πορδή, पाद)","pt":"o indo-europeu *perd- (fart, Furz, πορδή, पाद)","ru":"индоевропейское *perd- (fart, Furz, πορδή, पाद)","uk":"індоєвропейське *perd- (fart, Furz, πορδή, पाद)","ar":"الهندية الأوروبية الأم *perd- (fart، Furz، πορδή، पाद)","he":"ההודו-אירופית *perd- (fart, Furz, πορδή, पाद)","sw":"Kihindi-Kiulaya asilia *perd- (fart, Furz, πορδή, पाद)"},
@@ -478,5 +572,99 @@ WORDS.fart = {
     izh: ["peeru", "ˈpeːru"],
     btx: ["kesut", "kəsut"],
     mqy: ["pecu", "pətʃu"],  // ACD pecut 'to break wind'
+    gan_yc: ["屁", "pʰi˧˧"],  // MCPDict 宜春.tsv.
+    cjy_lv: ["屁", "pʰɿ˥˨"],  // MCPDict 離石.tsv.
+    cjy_xz: ["屁", "pʰi˥˨"],  // MCPDict 忻州.tsv.
+    hsn_hy: ["屁", "pʰi˧˨˦"],  // MCPDict 衡陽.tsv.
+    czh_wy: ["屁", "pʰi˧˥"],  // MCPDict 婺源.tsv.
+    cnp: ["屁", "pʰi˥˥"],  // MCPDict 南寧亭子.tsv.
+    zh_db: ["屁", "pʰi˥˧"],  // MCPDict 哈爾濱.tsv.
+    zh_tj: ["屁", "pʰi˥˧"],  // MCPDict 天津.tsv.
+    zh_lz: ["屁", "pʰi˩˧"],  // MCPDict 蘭州.tsv.
+    zh_jiao: ["屁", "pʰi˦˨"],  // MCPDict 青島.tsv.
+    nan_pn: ["屁", "pʰui˨˩"],  // MCPDict 檳城閩南話.tsv.
+    wuu_nb: ["屁", "pʰi˥˥"],  // MCPDict 寧波.tsv.
+    yue_gz: ["屁", "pʰɛj˧˧"],  // MCPDict 化州.tsv.
+    wuu_sz: ["屁", "pʰi˥˩˧"],  // MCPDict 蘇州.tsv.
+    wuu_wz: ["屁", "pʰei˦˨"],  // MCPDict 溫州.tsv.
+    nan_hai: ["屁", "fui˧˥"],  // MCPDict 海口.tsv.
+    zh_wh: ["屁", "pʰi˧˥"],  // MCPDict 武漢.tsv.
+    zh_zz: ["屁", "pʰi˧˩˨"],  // MCPDict 鄭州.tsv.
+    wuu_hz: ["屁", "pʰi˦˦˥"],  // MCPDict 杭州.tsv.
+    yue_dg: ["屁", "pʰɐi˦˦˧"],  // MCPDict 東莞.tsv.
+    yue_nn: ["屁", "pʰi˧˧"],  // MCPDict 南寧.tsv.
+    zh_cq: ["屁", "pʰi˨˩˧"],  // MCPDict 重慶.tsv.
+    zh_jn: ["屁", "pʰi˨˩"],  // MCPDict 濟南.tsv.
+    zh_km: ["屁", "pʰi˨˩˨"],  // MCPDict 昆明.tsv.
+    zh_xa: ["屁", "pʰi˥˥"],  // MCPDict 西安.tsv.
+    wuu_jh: ["屁", "pʰi˥˥"],  // MCPDict 金華.tsv.
+    wuu_jx: ["屁", "pʰi˧˥"],  // MCPDict 嘉興.tsv.
+    yue_zs: ["屁", "pʰi˧˧"],  // MCPDict 中山.tsv.
+    zh_hf: ["屁", "pʰɿ˥˩"],  // MCPDict 合肥.tsv.
+    zh_kf: ["屁", "pʰi˧˩˨"],  // MCPDict 開封.tsv.
+    zh_nj: ["屁", "pʰi˦"],  // MCPDict 南京.tsv.
+    yue: ["屁", "pʰei˧"],  // en.wiktionary 屁 (zh-pron).
+    yue_ts: ["屁", "pʰei˧˧"],  // en.wiktionary 屁 (zh-pron).
+    gan: ["屁", "pʰi˨˩˧"],  // en.wiktionary 屁 (zh-pron).
+    hak_cn: ["屁", "pʰi˥˧"],  // en.wiktionary 屁 (zh-pron).
+    cjy: ["屁", "pʰi˦˥"],  // en.wiktionary 屁 (zh-pron).
+    mnp: ["屁", "pʰy˧˧"],  // en.wiktionary 屁 (zh-pron).
+    cdo: ["屁", "pʰui˨˩˧"],  // en.wiktionary 屁 (zh-pron).
+    cpx: ["屁", "pʰui˦˨"],  // en.wiktionary 屁 (zh-pron).
+    nan: ["屁", "pʰui˩˩"],  // en.wiktionary 屁 (zh-pron).
+    nan_te: ["屁", "pʰui˨˩˧"],  // en.wiktionary 屁 (zh-pron).
+    wuu: ["屁", "pʰi˧˥"],  // en.wiktionary 屁 (zh-pron).
+    hsn: ["屁", "pʰi˦˥"],  // en.wiktionary 屁 (zh-pron).
+    zh_sc: ["屁", "pʰi˨˩˧"],  // en.wiktionary 屁 (zh-pron).
+    lb: ["Fuerz", "fuəts"],  // en.wiktionary Fuerz.
+    goh: ["furz", "furts"],  // en.wiktionary furz.
+    bar: ["Pfurz", "pfʊɐts"],  // en.wiktionary Pfurz.
+    kok: ["पाद", "paːd"],  // en.wiktionary पाद.
+    sr: ["прдеж", "pr̩̂deʒ"],  // en.wiktionary prdež / прдеж.
+    bs: ["prdež", "ˈpr̩deʒ"],  // en.wiktionary prdež.
+    ast: ["peu", "ˈpeu"],  // en.wiktionary peu.
+    lld: ["pët", "pət"],  // en.wiktionary pët.
+    csb: ["bąk", "bɔ̃k"],  // en.wiktionary bąk.
+    gd: ["braim", "pɾɤim"],  // en.wiktionary braim.
+    xmf: ["ბუზინი", "buzini"],  // en.wiktionary ბუზინი.
+    aa: ["buuxa", "buːˈɖa"],  // en.wiktionary buuxa.
+    xqa: ["osruq", "osruq"],  // en.wiktionary اسرق.
+    my: ["အီး", "ʔí"],  // en.wiktionary အီး; STEDT via lexibank suntb.
+    bo: ["རྟུག་དྲི", "tuʔʈʂʰi˥"],  // en.wiktionary རྟུག་དྲི.
+    xct: ["རྟུག་དྲི", "rtukdri"],  // lexibank suntb; en.wiktionary རྟུག་དྲི.
+    ja_heian: ["屁", "ɸe"],  // en.wiktionary 屁 (Japanese).
+    ko_mid: [":바ᇰ·긔", "paŋkɨj"],  // en.wiktionary 방귀.
+    duu: ["pi", "pi"],  // STEDT (lexibank suntb).
+    ers: ["htʃotʂɛ", "htʃo˧˧tʂɛ˥˥"],  // STEDT (lexibank suntb).
+    clk: ["khɹi55pɹi55", "kʰɹi˥˥pɹi˥˥"],  // STEDT (lexibank suntb).
+    jiu: ["ji33khɔ33", "ji˧˧kʰɔ˧˧"],  // STEDT (lexibank suntb).
+    tsj: ["phi", "pʰi"],  // STEDT (lexibank suntb).
+    nuf: ["vi55", "vi˥˥"],  // STEDT (lexibank suntb).
+    cng: ["qhʂə məs", "qʰʂə məs"],  // STEDT (lexibank suntb).
+    qxs: ["χpe", "χpe˥˥"],  // STEDT (lexibank suntb).
+    bca: ["fu", "fu˧˩"],  // STEDT (lexibank suntb).
+    jya: ["tə-pʰʃɛ rbo", "təpʰʃɛrbo"],  // STEDT (lexibank suntb).
+    pmi: ["kiɛ55ʂã53", "kiɛ˥˥ʂã˥˧"],  // STEDT (lexibank suntb).
+    cic: ["hollonksoʼ", "holːoŋksoʔ"],  // en.wiktionary.
+    ceb: ["utot", "ʔuˈtot"],  // en.wiktionary.
+    war: ["utot", "ʔuˈtot"],  // en.wiktionary.
+    bik: ["atot", "ʔaˈtot"],  // en.wiktionary.
+    tao: ["atot", "atot"],  // en.wiktionary.
+    mrw: ["tot", "tot"],  // en.wiktionary.
+    tsg: ["utut", "ʔutut"],  // en.wiktionary.
+    pam: ["atut", "ʔatut"],  // en.wiktionary.
+    nia: ["hötu", "hɤtu"],  // en.wiktionary.
+    cbk: ["utot", "uˈtot"],  // en.wiktionary.
+    su: ["bekok", "bəkok"],  // en.wiktionary.
+    szy: ["esus", "əsus"],  // en.wiktionary.
+    tpi: ["puinga", "puiŋa"],  // en.wiktionary.
+    ht: ["pèpèt", "pɛpɛt"],  // en.wiktionary.
+    io: ["flatuo", "flaˈtuo"],  // en.wiktionary.
+    nci: ["iyelli", "iˈjelːi"],  // en.wiktionary.
+    om: ["dhuufuu", "ɗuːfuː"],  // en.wiktionary.
+    xh: ["umsuzo", "umsuzo"],  // en.wiktionary.
+    ig: ["ahụ", "áhʊ̀"],  // en.wiktionary.
+    ak: ["ɛta", "ɛta"],  // en.wiktionary.
+    wrh: ["buurray", "ˈbuːraj"],  // en.wiktionary.
   },
 };

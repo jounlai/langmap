@@ -330,6 +330,12 @@ WORDS.jellyfish = {
     sco: "other",
     akl: "plain",
     izh: "medusa",
+    ku: "medusa",
+    haw: "plain",
+    mrq: "plain",
+    fud: "plain",
+    ik: "plain",
+    pau: "plain",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -613,5 +619,11 @@ WORDS.jellyfish = {
     sco: ["scalder", "ˈskɑldər"],  // From scald, for its sting.
     akl: ["bukya", "ˈbukja"],  // a stinging jellyfish
     izh: ["meduza", "ˈmeduːzɑ"],
+    ku: ["medûsa", "mɛduːˈsɑː"],  // Kurdish Wiktionary (Wikiferheng) medûsa.
+    haw: ["pololia", "pololia"],  // Pukui & Elbert 1986 / Māmaka Kaiao (Wehewehe Wikiwiki).
+    mrq: ["pakipaki", "pakipaki"],  // POLLEX (Charpentier & François; Dordillon).
+    fud: ["kalu-ʻi-tai", "kaluʔitai"],  // POLLEX (Moyse-Faurie, East Futunan).
+    ik: ["nuvayulġiq", "nuvajulʁiq"],  // SIKU wildlife profile 'Jellyfish'; North Slope Borough Wildlife Management.
+    pau: ["bidabd", "biðabð"],  // tekinged.com Palauan-English Dictionary (Palau Language Commission).
   },
 };

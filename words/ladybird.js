@@ -295,6 +295,14 @@ WORDS.ladybird = {
     wa: "holy",
     rsk: "holy",
     izh: "holy",
+    wuu_nb: "piaochong",
+    wuu_sz: "other",
+    nan_qz: "other",
+    hak_tw: "other",
+    haw: "other",
+    pap: "other",
+    atj: "other",
+    chr: "other",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -536,5 +544,13 @@ WORDS.ladybird = {
     wa: ["biesse å Bon Diu", "bjɛs ɔː bɔ̃ ˈdjy"],  // 'The Good Lord's creature'.
     rsk: ["божа катичка", "ˈbɔʒa kaˈtitʃka"],
     izh: ["jumalanlehmä", "ˈjumɑːlɑnˌlehmæ"],
+    wuu_nb: ["瓢虫", "biɔ˧˩˧ dzoŋ˧˩˧"],  // Wiktionary dial-syn 瓢蟲 + MCPDict 寧波.
+    wuu_sz: ["花姑娘", "ho˦˦ kəu˦˦ ȵiã˨˨˧"],  // Wiktionary 花姑娘 (+ dial-syn 瓢蟲).
+    nan_qz: ["乌龟仔", "ɔ˧˧ ku˧˧ a˥˥˦"],  // Wiktionary 烏龜仔 (+ dial-syn 瓢蟲).
+    hak_tw: ["花蛄仔", "fa˨˦ ku˨˦ e˧˩"],  // Wiktionary 花蛄仔 (+ dial-syn 瓢蟲).
+    haw: ["ponumomi", "ponumomi"],  // Māmaka Kaiao (2003+), via Wehewehe Wikiwiki.
+    pap: ["bákatòr", "ˈbakatɔr"],  // Papiamentu Wikipedia 'Bákatòr'; StoryWeaver/Book Dash 'Lara e Bacator Geel' (Aruba, 2016).
+    atj: ["emikwanisis", "emikwanisis"],  // French Wiktionary 'emikwanisis' (atj).
+    chr: ["ᏄᎾ ᎦᎵᏙᎯ", "nuna ɡalidohi"],  // Cherokee Language Consortium Word List, via cherokeedictionary.net.
   },
 };

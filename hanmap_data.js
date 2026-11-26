@@ -23358,6 +23358,8 @@ const HAN_DATA = {
   },
   "百": {
     "surface": {
+      "yue_gz": "bak3",
+      "bfs": "pɛ7",
       "gan_yc": "peʔ⁴",
       "gan_ja": "pa³³⁴",
       "gan_fz": "peʔ³²",
@@ -23452,6 +23454,8 @@ const HAN_DATA = {
       "za_sd": "bak"
     },
     "ipa": {
+      "yue_gz": "ɓak̚˧˧",
+      "bfs": "pɛ˦",
       "gan_yc": "peʔ˦",
       "gan_ja": "pa˧˧˦",
       "gan_fz": "peʔ˧˨",
@@ -23784,6 +23788,8 @@ const HAN_DATA = {
   },
   "萬": {
     "surface": {
+      "yue_gz": "maan6",
+      "bfs": "ŋv̩5",
       "gan_yc": "uan²¹³",
       "gan_ja": "uan²¹⁴",
       "gan_fz": "uan¹²",
@@ -23878,6 +23884,8 @@ const HAN_DATA = {
       "za_sd": "fanh"
     },
     "ipa": {
+      "yue_gz": "maːn˨˩",
+      "bfs": "ŋv̩˦˨",
       "gan_yc": "uan˨˩˧",
       "gan_ja": "uan˨˩˦",
       "gan_fz": "uan˩˨",
@@ -23996,6 +24004,8 @@ const HAN_DATA = {
   },
   "鼠": {
     "surface": {
+      "yue_gz": "si2",
+      "bfs": "sv̩3",
       "ko_mid": ":sye",
       "gan_yc": "ʃy²¹",
       "gan_ja": "ɕy⁵³",
@@ -24088,6 +24098,8 @@ const HAN_DATA = {
       "za_sd": "nou"
     },
     "ipa": {
+      "yue_gz": "si˧˥",
+      "bfs": "sv̩˧",
       "ko_mid": "sjə˩˥",
       "gan_yc": "ʃy˨˩",
       "gan_ja": "ɕy˥˧",
@@ -24203,6 +24215,7 @@ const HAN_DATA = {
   },
   "兔": {
     "surface": {
+      "yue_gz": "tuou3",
       "ko_mid": "·thwo",
       "gan_ja": "tʰu¹¹",
       "gan_fz": "tʰu⁴¹",
@@ -24295,6 +24308,7 @@ const HAN_DATA = {
       "za_sd": "doq"
     },
     "ipa": {
+      "yue_gz": "tʰu̯ɔw˧˧",
       "ko_mid": "tʰo˥",
       "gan_ja": "tʰu˩˩",
       "gan_fz": "tʰu˦˩",
@@ -24411,6 +24425,7 @@ const HAN_DATA = {
   },
   "猴": {
     "surface": {
+      "bfs": "ou2",
       "ko_mid": "hhwuw",
       "gan_yc": "xeu³³",
       "gan_ja": "hɛu¹¹",
@@ -24498,6 +24513,7 @@ const HAN_DATA = {
       "za_sd": "lingz"
     },
     "ipa": {
+      "bfs": "ou˨˩",
       "ko_mid": "ɣuw˩",
       "gan_yc": "xeu˧˧",
       "gan_ja": "hɛu˩˩",
@@ -24607,6 +24623,7 @@ const HAN_DATA = {
   },
   "骨": {
     "surface": {
+      "bfs": "kua7",
       "gan_yc": "kuiʔ⁴",
       "gan_ja": "ku³³⁴",
       "gan_fz": "kut³²",
@@ -24704,6 +24721,7 @@ const HAN_DATA = {
       "za_sd": "ndok"
     },
     "ipa": {
+      "bfs": "kua˦",
       "gan_yc": "kuiʔ˦",
       "gan_ja": "ku˧˧˦",
       "gan_fz": "kut̚˧˨",
@@ -25458,6 +25476,7 @@ const HAN_DATA = {
   },
   "父": {
     "surface": {
+      "yue_gz": "fu6",
       "gan_yc": "fu²¹³",
       "gan_fz": "fu¹²",
       "gan_yt": "fu⁵³",
@@ -25550,6 +25569,7 @@ const HAN_DATA = {
       "za_sd": "boh"
     },
     "ipa": {
+      "yue_gz": "fʋ̩˨˩",
       "gan_yc": "fu˨˩˧",
       "gan_fz": "fu˩˨",
       "gan_yt": "fu˥˧",
@@ -25666,6 +25686,7 @@ const HAN_DATA = {
   },
   "母": {
     "surface": {
+      "bfs": "mo4",
       "gan_yc": "mu²¹",
       "gan_fz": "mu⁴⁵",
       "gan_yt": "mu³⁵",
@@ -25758,6 +25779,7 @@ const HAN_DATA = {
       "za_sd": "meh"
     },
     "ipa": {
+      "bfs": "mo˧",
       "gan_yc": "mu˨˩",
       "gan_fz": "mu˦˥",
       "gan_yt": "mu˧˥",
@@ -25874,6 +25896,7 @@ const HAN_DATA = {
   },
   "紫": {
     "surface": {
+      "zh_km": "zi⁵³",
       "gan_yc": "tsɿ²¹",
       "gan_fz": "tsɿ⁴⁵",
       "gan_yt": "tsɿ³⁵",
@@ -25959,6 +25982,7 @@ const HAN_DATA = {
       "za": "tɕi⁴⁵"
     },
     "ipa": {
+      "zh_km": "tsɿ˥˧",
       "gan_yc": "tsɿ˨˩",
       "gan_fz": "tsɿ˦˥",
       "gan_yt": "tsɿ˧˥",
@@ -26065,6 +26089,7 @@ const HAN_DATA = {
   },
   "金": {
     "surface": {
+      "bfs": "tɕe1",
       "gan_yc": "tʃɪn³⁵",
       "gan_ja": "tɕin³³⁴",
       "gan_fz": "tɕim³¹",
@@ -26159,6 +26184,7 @@ const HAN_DATA = {
       "za_sd": "gim"
     },
     "ipa": {
+      "bfs": "tɕe˥",
       "gan_yc": "tʃɪn˧˥",
       "gan_ja": "tɕin˧˧˦",
       "gan_fz": "tɕim˧˩",
@@ -26484,6 +26510,8 @@ const HAN_DATA = {
   },
   "新": {
     "surface": {
+      "yue_gz": "slan1",
+      "bfs": "ɕi1",
       "ko_mid": "sin",
       "gan_yc": "sin³⁵",
       "gan_ja": "ɕin³³⁴",
@@ -26579,6 +26607,8 @@ const HAN_DATA = {
       "za_sd": "moq"
     },
     "ipa": {
+      "yue_gz": "ɬɐn˥˨",
+      "bfs": "ɕi˥",
       "ko_mid": "sin˩",
       "gan_yc": "sin˧˥",
       "gan_ja": "ɕin˧˧˦",
@@ -26904,6 +26934,7 @@ const HAN_DATA = {
   },
   "少": {
     "surface": {
+      "bfs": "ɕou3",
       "ko_mid": ":syow",
       "gan_yc": "ʃeu²¹",
       "gan_fz": "sau⁴⁵",
@@ -26993,6 +27024,7 @@ const HAN_DATA = {
       "za_sd": "noix"
     },
     "ipa": {
+      "bfs": "ɕou˧",
       "ko_mid": "sjow˩˥",
       "gan_yc": "ʃeu˨˩",
       "gan_fz": "sau˦˥",
@@ -27303,6 +27335,7 @@ const HAN_DATA = {
   },
   "後": {
     "surface": {
+      "bfs": "ɣɯ4",
       "gan_yc": "xeu²¹³",
       "gan_ja": "hɛu²¹⁴",
       "gan_fz": "hɛːu¹²",
@@ -27393,6 +27426,7 @@ const HAN_DATA = {
       "za": "hɐu²¹"
     },
     "ipa": {
+      "bfs": "ɣɯ˧",
       "gan_yc": "xeu˨˩˧",
       "gan_ja": "hɛu˨˩˦",
       "gan_fz": "hɛːu˩˨",
@@ -27922,6 +27956,7 @@ const HAN_DATA = {
   },
   "夏": {
     "surface": {
+      "yue_gz": "haa6",
       "gan_yc": "xa²¹",
       "gan_fz": "ha¹²",
       "gan_yt": "ha⁵³",
@@ -28012,6 +28047,7 @@ const HAN_DATA = {
       "za": "juɑ²¹"
     },
     "ipa": {
+      "yue_gz": "haː˨˩",
       "gan_yc": "xa˨˩",
       "gan_fz": "ha˩˨",
       "gan_yt": "ha˥˧",
@@ -28331,6 +28367,7 @@ const HAN_DATA = {
   },
   "冬": {
     "surface": {
+      "yue_gz": "dung1",
       "gan_yc": "tɤŋ³⁵",
       "gan_ja": "tuŋ³³⁴",
       "gan_fz": "tuŋ³¹",
@@ -28426,6 +28463,7 @@ const HAN_DATA = {
       "za_sd": "doeng"
     },
     "ipa": {
+      "yue_gz": "ɗuŋʷ˥˨",
       "gan_yc": "tɤŋ˧˥",
       "gan_ja": "tuŋ˧˧˦",
       "gan_fz": "tuŋ˧˩",
@@ -28746,6 +28784,8 @@ const HAN_DATA = {
   },
   "夜": {
     "surface": {
+      "yue_gz": "je6",
+      "bfs": "jo6",
       "gan_yc": "ia²¹³",
       "gan_ja": "ia²¹⁴",
       "gan_fz": "ia¹²",
@@ -28843,6 +28883,8 @@ const HAN_DATA = {
       "za_sd": "hwnz"
     },
     "ipa": {
+      "yue_gz": "jɛ˨˩",
+      "bfs": "jo˧˩",
       "gan_yc": "ia˨˩˧",
       "gan_ja": "ia˨˩˦",
       "gan_fz": "ia˩˨",
@@ -29161,6 +29203,7 @@ const HAN_DATA = {
   },
   "時": {
     "surface": {
+      "yue_gz": "si4",
       "gan_yc": "ʃɪ³³",
       "gan_ja": "sɿ¹¹",
       "gan_fz": "si²⁴",
@@ -29257,6 +29300,7 @@ const HAN_DATA = {
       "za_sd": "raq"
     },
     "ipa": {
+      "yue_gz": "si˨˩˦",
       "gan_yc": "ʃɪ˧˧",
       "gan_ja": "sɿ˩˩",
       "gan_fz": "si˨˦",

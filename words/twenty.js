@@ -909,6 +909,50 @@ WORDS.twenty = {
     btx: "tens",
     mqy: "tens",
     sxn: "tens",
+    srb: "base",
+    iru: "fused",
+    enf: "fused",
+    sel: "other",
+    niv: "fused",
+    bft: "fused",
+    lbj: "fused",
+    srh: "fused",
+    gqu: "tens",
+    kfx: "fused",
+    lmn: "fused",
+    dbq: "tens",
+    hot: "plain",
+    nlc: "other",
+    awa: "fused",
+    bra: "fused",
+    kru: "plain",
+    dds: "tens",
+    khq: "plain",
+    xsr: "fused",
+    bto: "loan",
+    ctg: "plain",
+    mag: "fused",
+    hno: "fused",
+    bhb: "fused",
+    brh: "loan",
+    max: "tens",
+    gbm: "fused",
+    kfy: "fused",
+    xnr: "fused",
+    enq: "other",
+    pcc: "tens",
+    mgo: "tens",
+    obr: "tens",
+    ahk: "tens",
+    mnw: "tens",
+    wbm: "base",
+    kgg: "loan",
+    oar: "plural",
+    bzg: "tens",
+    kfa: "fused",
+    kfr: "fused",
+    kry: "base",
+    guc: "other",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1211,7 +1255,7 @@ WORDS.twenty = {
     zh_cd: ["二十", "ɚ˨˩˧ sɿ˨˩"],
     zh_hf: ["二十", "ʔa˥˧ ʂəʔ˦"],
     zh_kf: ["二十", "ɚ˧˩˨ ʂʅ˥˧"],
-    zh_nj: ["二十", "ər˦˦ ʂʅʔ˥"],
+    zh_nj: ["二十", "ɚ˦ ʂʅʔ˥"],
     es_cr: ["veinte", "ˈbeinte"],
     es_hn: ["veinte", "ˈbeinte"],
     es_ni: ["veinte", "ˈbeinte"],
@@ -1757,5 +1801,49 @@ WORDS.twenty = {
     btx: ["dua pulu", "dua pulu"],
     mqy: ["suampulu", "suaᵐpulu"],
     sxn: ["duampuḷo", "duampuɭo"],
+    srb: ["bo koḍi", "bo koɖi"],  // LSI (lexibank lsi).
+    iru: ["irvadu", "iɾvadu"],  // LSI (lexibank lsi).
+    enf: ["ɕiziu", "ɕiziu"],  // NorthEuraLex.
+    sel: ["щитсар", "ɕitsar"],  // NorthEuraLex + IDS.
+    niv: ["меӻоӄр̌", "meʁoqr̥"],  // NorthEuraLex.
+    bft: ["ཉི་ཤུ", "ɲiɕu"],  // Backstrom N. Pakistan (lexibank) + LSI.
+    lbj: ["ཉི་ཤུ", "ɲiʃu"],  // LSI (lexibank lsi).
+    srh: ["vist", "vist"],  // LSI (lexibank lsi).
+    gqu: ["sa35 pe42 laŋ35", "sa˧˥ pe˦˨ laŋ˧˥"],  // IDS (Qau Kelao).
+    kfx: ["बीह", "biːh"],  // LSI (lexibank lsi).
+    lmn: ["वीस", "ʋiːs"],  // LSI (lexibank lsi).
+    dbq: ["gup gup sɨ̀rə̀y", "ɡup ɡup sɨ̀rə̀j"],  // Kraft Chadic (lexibank).
+    hot: ["buŋ", "buŋ"],  // ABVD (Muzzey dictionary).
+    nlc: ["sakodarubadya", "sakodaɾubadja"],  // Papuan Voices (lexibank).
+    awa: ["बीस", "biːs"],  // LSI (lexibank lsi).
+    bra: ["बीस", "biːs"],  // LSI (lexibank lsi).
+    kru: ["कूरी", "kuːɾiː"],  // LSI (lexibank lsi).
+    dds: ["pee-ney", "peːnej"],  // BAF2 Dogon (Heath, lexibank).
+    khq: ["waranka", "waranka"],  // Hantgan Bangime + Polyglotta Africana.
+    xsr: ["ཉི་ཤུ", "ɲiɕu"],  // Dhakal SW Tibetic + LSI.
+    bto: ["baynte", "ˈbajnte"],  // ABVD (Rinconada Bikol).
+    ctg: ["কুড়ি", "kuɽi"],  // LSI (lexibank lsi).
+    mag: ["बीस", "biːs"],  // LSI (lexibank lsi).
+    hno: ["ویہہ", "ʋiːh"],  // LSI (lexibank lsi).
+    bhb: ["वी", "ʋiː"],  // LSI (lexibank lsi).
+    brh: ["بیست", "biːst"],  // LSI (lexibank lsi).
+    max: ["dua puluh", "dua puluh"],  // ABVD.
+    gbm: ["बीस", "biːs"],  // LSI (lexibank lsi).
+    kfy: ["बीस", "biːs"],  // LSI (lexibank lsi).
+    xnr: ["बीह", "biːh"],  // LSI (lexibank lsi).
+    enq: ["akalita lapo", "akalita lapo"],  // ABVD + TransNewGuinea.org.
+    pcc: ["ngih xib", "ŋi˧ ɕip˧"],  // ABVD (Bouyei Wangmo).
+    mgo: ["wúm bé", "wúm bé"],  // Williamson Benue-Congo (lexibank).
+    obr: ["နှစ်ဆယ်", "n̥ac tsʰaj"],  // Sagart ST + Lai Gyalrong (lexibank).
+    ahk: ["nyi tse", "ɲi˨˩tsʰe˥"],  // LSI (lexibank lsi).
+    mnw: ["ၜါစှော်", "ɓa cɔh"],  // en.wiktionary ၜါစှော် (Mon) + LSI.
+    wbm: ["nga", "ŋa"],  // LSI (lexibank lsi).
+    kgg: ["biːs", "biːs"],  // Wust phylogenies (lexibank).
+    oar: ["עשרין", "ʕesriːn"],  // IDS (Ancient Aramaic).
+    bzg: ["naroa tsihit", "naroa tsihit"],  // ABVD (Babuza Ts82).
+    kfa: ["ಇರುವದ್", "iruvadɨ"],  // LSI (lexibank lsi).
+    kfr: ["વી", "ʋiː"],  // LSI (lexibank lsi).
+    kry: ["qʼar", "qʼar"],  // IDS (Kryz).
+    guc: ["piama shikii", "piama ʃikiː"],  // IDS + Johansson.
   },
 };

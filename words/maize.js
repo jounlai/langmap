@@ -678,6 +678,25 @@ WORDS.maize = {
     shu: "unknown",
     btx: "plain",
     mqy: "plain",
+    khg: "plain",
+    kmc: "plain",
+    gqu: "plain",
+    shx: "plain",
+    orh: "plain",
+    rtm: "plain",
+    yao: "plain",
+    myx: "plain",
+    dds: "plain",
+    khq: "plain",
+    pbb: "plain",
+    nmf: "plain",
+    meu: "plain",
+    bbc: "grain",
+    mrw: "mahiz",
+    khb: "grain",
+    xog: "plain",
+    bnn: "plain",
+    rim: "plain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -1331,5 +1350,24 @@ WORDS.maize = {
     shu: ["مسر", "masar"],
     btx: ["jaung", "dʒauŋ"],  // eastern form; west jong
     mqy: ["latung", "latuŋ"],
+    khg: ["མ་རྨོས་ལོ་ཏོག", "ma˩˧men˥˥lo˩˧toʔ˥˧"],  // suntb (Sun 1991).
+    kmc: ["waŋ212 tɕi53", "waŋ˨˩˨ tɕi˥˧"],  // IDS.
+    gqu: ["tɕhi35", "tɕʰi˧˥"],  // IDS.
+    shx: ["sju31 pɔ35", "sju˧˩ pɔ˧˥"],  // chenhmongmien (Chen 2012).
+    orh: ["ʃʊʃaamʊ", "ʃʊʃaamʊ"],  // WOLD (Oroqen).
+    rtm: ["kono", "kono"],  // IDS + DiACL.
+    yao: ["chimanga", "tʃimaŋɡa"],  // TLS + BantuBVD + Koelle.
+    myx: ["nasimya", "nasimja"],  // TLS.
+    dds: ["samɛmmɛ", "samɛmːɛ"],  // BAF2 (Dogon).
+    khq: ["malaŋ hambo", "malaŋ hambo"],  // Hantgan Bangime/Songhai list.
+    pbb: ["kutxh", "kutʲʰ"],  // IDS + Huber/Reed + Chacon.
+    nmf: ["khamathei", "kʰamatʰei"],  // Marrison Naga.
+    meu: ["koni", "koni"],  // DiACL.
+    bbc: ["jagung", "dʒaɡuŋ"],  // DiACL.
+    mrw: ["kamais", "kamaʔis"],  // DiACL.
+    khb: ["ᦃᧁᧉᦷᦡᧂ", "xaw˩˧ doŋ˥"],  // IDS + en.wiktionary.
+    xog: ["duuma", "duːma"],  // TLS.
+    bnn: ["tibul", "tibul"],  // DiACL.
+    rim: ["wagimpukwi", "waɡimpukwi"],  // TLS.
   },
 };

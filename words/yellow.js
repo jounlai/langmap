@@ -898,6 +898,54 @@ WORDS.yellow = {
     btx: "plain",
     mqy: "plain",
     sxn: "plain",
+    srb: "plain",
+    trm: "plain",
+    enf: "plain",
+    rad: "plain",
+    jra: "plain",
+    krj: "plain",
+    sjo: "plain",
+    aae: "galbinus",
+    hot: "plain",
+    nlc: "plain",
+    dds: "plain",
+    huv: "plain",
+    jqr: "plain",
+    cni: "plain",
+    gym: "plain",
+    ch: "bitter",
+    piu: "other",
+    adt: "plain",
+    wbt: "other",
+    nmf: "plain",
+    nia: "plain",
+    rue: "ghel",
+    ruq: "galbinus",
+    mzn: "ghel",
+    glk: "ghel",
+    lhu: "gold",
+    mag: "pita",
+    ess: "plain",
+    brh: "plain",
+    tiw: "plain",
+    kky: "plain",
+    mch: "plain",
+    mrw: "turmeric",
+    kfy: "pita",
+    pal: "ghel",
+    yai: "ghel",
+    kwk: "plain",
+    sad: "turmeric",
+    cab: "bitter",
+    wbl: "ghel",
+    obr: "plain",
+    kac: "plain",
+    pll: "plain",
+    cuk: "plain",
+    wmt: "other",
+    bbl: "plain",
+    kfa: "turmeric",
+    wrh: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1750,5 +1798,53 @@ WORDS.yellow = {
     btx: ["megersing", "məɡərsiŋ"],
     mqy: ["leros", "ləros"],  // also té'é
     sxn: ["maririhě", "maririhəʔ"],
+    srb: ["sangsang", "saŋsaŋ"],  // Peiros Austroasiatic (lexibank).
+    trm: ["aridå", "aridɔː"],  // DiACL.
+    enf: ["tasey", "tasʲɛj"],  // NorthEuraLex.
+    rad: ["kñĭ", "kɲiʔ"],  // ABVD.
+    jra: ["kơnhĭ", "kəɲiʔ"],  // ABVD.
+    krj: ["darag", "daɾaɡ"],  // ABVD / ABVD-Philippines.
+    sjo: ["ᠰᡠᠸᠠᠶᠠᠨ", "sujɑn"],  // Oskolskaya Tungusic; Robbeets Triangulation; Wiktionary (Manchu ᠰᡠᠸᠠᠶᠠᠨ 'yellow').
+    aae: ["xhallu", "dʒaɫu"],  // IE-CoR.
+    hot: ["mavay", "mavaj"],  // ABVD / ABVD-Oceanic.
+    nlc: ["kamenggei", "kameŋɡei"],  // Papuan Voices.
+    dds: ["purugu", "puruɡu"],  // BAF2.
+    huv: ["maril", "maɾil"],  // Johansson sound-symbolic; ASJP.
+    jqr: ["tyuyu", "cuju"],  // Cross-Andean.
+    cni: ["kiteriri", "kiteɾiɾi"],  // Walker Arawakan.
+    gym: ["sübrüre", "sɨbɾɨɾe"],  // Constenla Chibchan; Pache Chibchan.
+    ch: ["amariyu", "amaˈɾidzu"],  // ABVD; ASJP.
+    piu: ["kantawarra", "kantawaɾa"],  // Bowern Pama-Nyungan.
+    adt: ["yaliwarrunha", "jaliwarun̪a"],  // Bowern Pama-Nyungan; ASJP.
+    wbt: ["karntawarra", "kaɳʈawara"],  // Bowern Pama-Nyungan; ASJP.
+    nmf: ["yaingang", "jaiŋaŋ"],  // Marrison Naga.
+    nia: ["undre", "undre"],  // ABVD; Wiktionary translation table.
+    rue: ["жовтый", "ˈʒou̯tɨj"],  // IE-CoR.
+    ruq: ["galbin", "ˈɡalbin"],  // IE-CoR; Saenko Romance.
+    mzn: ["زرد", "zæɾd"],  // IE-CoR.
+    glk: ["زرد", "zəɾd"],  // DiACL.
+    lhu: ["ši", "ʃi"],  // Lamani Soic; ASJP.
+    mag: ["पियर", "pijər"],  // IE-CoR; ASJP (Verma 2003).
+    ess: ["кависягнилӈуӄ", "kavisjaɡnilŋuq"],  // NorthEuraLex; ASJP.
+    brh: ["پوشکن", "puːʃkun"],  // DravLex; ASJP.
+    tiw: ["yalawu", "jalawu"],  // Johansson sound-symbolic.
+    kky: ["barga", "baɻɡa"],  // Bowern Pama-Nyungan.
+    mch: ["künota", "kɨnota"],  // IDS; Hunter-Gatherer (from IDS).
+    mrw: ["dolaw", "dolaw"],  // ABVD / ABVD-Philippines.
+    kfy: ["पीहालो", "piːɦaːlo"],  // DiACL.
+    pal: ["𐭦𐭫𐭲", "zard"],  // DiACL.
+    yai: ["zard", "zard"],  // CALS; IE-CoR.
+    kwk: ["lema̱nʼstu", "lemənʔstu"],  // Wiktionary translation table; Johansson sound-symbolic.
+    sad: ["manjano", "manɟano"],  // Johansson sound-symbolic.
+    cab: ["amaríyu", "amaˈɾiju"],  // Walker Arawakan.
+    wbl: ["зарт", "zart"],  // IE-CoR.
+    obr: ["ဝါ", "waː"],  // Sagart ST; Lai Gyalrong; Wust.
+    kac: ["htoi", "tʰoi˧˩"],  // Sun Tibeto-Burman; DiACL.
+    pll: ["teŋ", "teŋ"],  // Nagaraja Khasian.
+    cuk: ["koroguad", "koɾoɡwad"],  // Wiktionary translation table; Constenla Chibchan.
+    wmt: ["karntawarra", "kaɳʈawara"],  // Hunter-Gatherer DB.
+    bbl: ["კაპრაშ", "kʼaːpʼraʃ"],  // IDS; DiACL.
+    kfa: ["ಮಂಜ", "mandʒa"],  // DravLex; ASJP.
+    wrh: ["guunang-guunang", "ˈɡuːnaŋɡuːnaŋ"],  // Bowern Pama-Nyungan.
   },
 };

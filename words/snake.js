@@ -1079,6 +1079,29 @@ WORDS.snake = {
     btx: "plain",
     mqy: "sular",
     sxn: "plain",
+    ude: "plain",
+    yrk: "plain",
+    kca: "plain",
+    shx: "plain",
+    ets: "plain",
+    dbq: "plain",
+    aae: "crawl",
+    nlc: "plain",
+    yrl: "plain",
+    dds: "plain",
+    khq: "plain",
+    nzm: "plain",
+    tem: "plain",
+    kio: "plain",
+    xto: "plain",
+    ygr: "plain",
+    wbl: "plain",
+    xog: "plain",
+    ewo: "nyoka",
+    agq: "plain",
+    lld: "plain",
+    mpj: "plain",
+    wrh: "plain",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -2118,5 +2141,28 @@ WORDS.snake = {
     btx: ["nipe", "nipe"],
     mqy: ["ular", "ular"],  // ACD: rat snake; diacl nepa
     sxn: ["těmpu", "təmpu"],
+    ude: ["кулиға", "kuliɣa"],  // oskolskayatungusic + robbeetstriangulation (CLDF).
+    yrk: ["ямп апэ̄й", "jamp apeːj"],  // NorthEuraLex.
+    kca: ["емаӈ вой", "jemaŋ woj"],  // NorthEuraLex + IDS.
+    shx: ["tɔ54 uan31", "tɔ˥˦ uan˧˩"],  // starostinhmongmien + ABVD (She, Lianhua).
+    ets: ["ẹnye", "ɛɲe"],  // Polyglotta Africana (Koelle 1854).
+    dbq: ["wun", "wun"],  // Kraft Chadic word lists.
+    aae: ["gjarpri", "ˈɟarpri"],  // IE-CoR.
+    nlc: ["baga", "baɡa"],  // Papuan Voices (CLDF).
+    yrl: ["buya", "buja"],  // Hunter-Gatherer DB + TuLeD + Gerardi Tupi.
+    dds: ["yuguru", "juɡuru"],  // BAF2 (Dogon).
+    khq: ["gondi", "ɡondi"],  // Hantgan Bangime (CLDF).
+    nzm: ["heneu", "heneu"],  // Marrison Naga + Peiros ST.
+    tem: ["abok", "abok"],  // Polyglotta Africana (Koelle 1854).
+    kio: ["są̀:né", "sã̀ːné"],  // Uto-Aztecan/Kiowa-Tanoan CLDF (utoaztecan).
+    xto: ["𑀆𑀭𑁆𑀱𑀮𑁆", "aːrʂal"],  // IE-CoR + IDS + DiACL.
+    ygr: ["bakisave", "bakisave"],  // TransNewGuinea.org.
+    wbl: ["фукс", "fuks"],  // IE-CoR.
+    xog: ["ziryamirye", "zirjamirje"],  // Grollemund Bantu + TLS.
+    ewo: ["nyo", "ɲo"],  // Grollemund Bantu.
+    agq: ["zúghó", "zúɣó"],  // Grollemund Bantu.
+    lld: ["bisca", "ˈbiska"],  // IE-CoR.
+    mpj: ["jila", "cila"],  // Bowern Pama-Nyungan.
+    wrh: ["gadhi", "ˈɡad̪i"],  // Bowern Pama-Nyungan.
   },
 };

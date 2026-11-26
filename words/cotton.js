@@ -621,6 +621,17 @@ WORDS.cotton = {
     shu: "qutn",
     btx: "karpasa",
     mqy: "karpasa",
+    yrk: "plain",
+    khg: "other",
+    mmd: "mian",
+    gqu: "plain",
+    shx: "plain",
+    rmy: "pambak",
+    yrl: "plain",
+    mhr: "pambak",
+    bbl: "pambak",
+    mcf: "plain",
+    khq: "plain",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -1230,5 +1241,16 @@ WORDS.cotton = {
     shu: ["قطن", "ɡutun"],  // Collective
     btx: ["kapas", "kapas"],
     mqy: ["kampas", "kaᵐpas"],
+    yrk: ["тохоˮ", "toxoʔ"],  // IDS.
+    khg: ["སྲིན་བལ", "sin˥˥pe˥˥"],  // suntb (Sun 1991).
+    mmd: ["mian3", "mian˥˩"],  // IDS.
+    gqu: ["həŋ42", "həŋ˦˨"],  // IDS.
+    shx: ["mi31 pʰun31", "mi˧˩ pʰun˧˩"],  // chenhmongmien (Chen 2012).
+    rmy: ["bumbako", "bumbako"],  // IDS.
+    yrl: ["amaniú", "amanĩˈjũ"],  // Hunter-Gatherer DB + TuLeD + Gerardi Tupi.
+    mhr: ["мамык", "ˈmamək"],  // IDS.
+    bbl: ["ბამბაჸ", "bambaʔ"],  // IDS.
+    mcf: ["sedquid", "sedkid"],  // Hunter-Gatherer DB.
+    khq: ["haabu", "haːbu"],  // Hantgan Songhai list + Koelle 1854.
   },
 };

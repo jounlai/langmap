@@ -598,6 +598,117 @@ WORDS.louse = {
     btx: "kutu",
     mqy: "kutu",
     sxn: "kutu",
+    kdt: "plain",
+    srb: "plain",
+    trm: "plain",
+    nym: "nda",
+    ksb: "nda",
+    jmc: "nda",
+    mvf: "bogesun",
+    ude: "plain",
+    yrk: "plain",
+    yux: "plain",
+    lo: "plain",
+    cdo: "srik",
+    khg: "srik",
+    cng: "srik",
+    yiz: "plain",
+    mmd: "plain",
+    gqu: "plain",
+    peh: "bogesun",
+    dta: "bogesun",
+    srh: "plain",
+    ne: "yuka",
+    sjo: "plain",
+    dbq: "plain",
+    vec: "pediculus",
+    rmy: "yuka",
+    rmf: "yuka",
+    rm: "pediculus",
+    emi: "plain",
+    hot: "plain",
+    kmh: "plain",
+    nej: "plain",
+    yrl: "plain",
+    kru: "pen",
+    myx: "plain",
+    ki: "nda",
+    tn: "nda",
+    ts: "plain",
+    ve: "nda",
+    bem: "nda",
+    kqn: "plain",
+    tll: "plain",
+    kde: "plain",
+    bm: "plain",
+    dds: "plain",
+    snk: "plain",
+    khq: "plain",
+    cni: "plain",
+    ame: "plain",
+    pjt: "plain",
+    piu: "plain",
+    nha: "plain",
+    adt: "plain",
+    xul: "plain",
+    mni: "srik",
+    lif: "srik",
+    ksh: "lus",
+    chr: "plain",
+    nch: "ati",
+    cbk: "kutu",
+    ak: "plain",
+    yua: "plain",
+    yur: "plain",
+    rw: "nda",
+    ket: "plain",
+    krc: "bit",
+    nxq: "plain",
+    khb: "plain",
+    tyz: "plain",
+    kac: "srik",
+    mtq: "cii",
+    kxm: "cii",
+    mnw: "cii",
+    kha: "cii",
+    bdq: "cii",
+    unr: "plain",
+    chk: "kutu",
+    pkp: "kutu",
+    bzg: "kutu",
+    dru: "kutu",
+    fan: "plain",
+    ewo: "plain",
+    umb: "nda",
+    kmb: "plain",
+    lun: "plain",
+    vmw: "plain",
+    ale: "plain",
+    kw: "plain",
+    tiw: "plain",
+    mch: "plain",
+    wba: "plain",
+    roo: "plain",
+    srm: "lus",
+    kwk: "plain",
+    tsi: "plain",
+    tcy: "pen",
+    kfa: "pen",
+    gez: "qaml",
+    ote: "plain",
+    qwc: "plain",
+    chb: "plain",
+    juc: "plain",
+    kgg: "plain",
+    huz: "nats",
+    kry: "plain",
+    tpn: "plain",
+    djr: "plain",
+    bsk: "plain",
+    yai: "spis",
+    wbl: "plain",
+    pal: "spis",
+    lmo: "pediculus",
   },
   routes: {
     lus: {"color":"#2563eb","emoji":"🌲","en":"Germanic *lūs (louse, Laus, lus)","ja":"ゲルマン祖語 *lūs (louse, Laus, lus)","ko":"게르만 조어 *lūs (louse, Laus, lus)","zh":"原始日耳曼语 *lūs (louse, Laus, lus)","yue":"原始日耳曼語 *lūs (louse, Laus, lus)","vi":"tiếng German nguyên thủy *lūs (louse, Laus, lus)","th":"ภาษาเจอร์แมนิกดั้งเดิม *lūs (louse, Laus, lus)","id":"Proto-Jermanik *lūs (louse, Laus, lus)","hi":"आदि-जर्मनिक *lūs (louse, Laus, lus)","de":"urgermanisch *lūs (louse, Laus, lus)","fr":"le proto-germanique *lūs (louse, Laus, lus)","it":"il protogermanico *lūs (louse, Laus, lus)","es":"el protogermánico *lūs (louse, Laus, lus)","pt":"o protogermânico *lūs (louse, Laus, lus)","ru":"прагерманское *lūs (louse, Laus, lus)","uk":"прагерманське *lūs (louse, Laus, lus)","ar":"الجرمانية الأم *lūs (louse, Laus, lus)","he":"הפרוטו-גרמאנית *lūs (louse, Laus, lus)","sw":"Kijerumani asilia *lūs (louse, Laus, lus)"},
@@ -1158,5 +1269,116 @@ WORDS.louse = {
     btx: ["kutu", "kutu"],
     mqy: ["hutu", "hutu"],  // ABVD utu
     sxn: ["kutu", "kutu"],
+    kdt: ["ncɛ", "ncɛ"],  // Peiros Austroasiatic (lexibank).
+    srb: ["iʼi", "iʔi"],  // Peiros Austroasiatic (lexibank).
+    trm: ["wū", "wuː"],  // DIACL + CDIAL.
+    nym: ["nda", "nda"],  // Grollemund Bantu / TLS / BantuBVD.
+    ksb: ["da", "da"],  // Grollemund Bantu / TLS.
+    jmc: ["nda", "nda"],  // Grollemund Bantu.
+    mvf: ["boosi", "boosə"],  // ABVD / Robbeets Triangulation.
+    ude: ["кумуғэ", "kumuɣə"],  // Oskolskaya Tungusic / Robbeets.
+    yrk: ["пӑнзеˮэ̆", "pənzʲeːʔæ"],  // NorthEuraLex / IDS.
+    yux: ["пэмэ", "peme"],  // NorthEuraLex.
+    lo: ["ເຫົາ", "haw˩˧"],  // ABVD / Wiktionary translations.
+    cdo: ["虱母", "saiʔ˨˦ mo˧˧"],  // Wiktionary 蝨母 / dial-syn 蝨子; Peiros ST.
+    khg: ["ཤིག", "xiʔ˥˧"],  // Sun TB / Sagart ST / Peiros ST.
+    cng: ["xtʂə", "xtʂə"],  // Sun TB / Peiros ST.
+    yiz: ["ɕɪ", "ɕɪ˨˨"],  // Lama Nisoic (lexibank).
+    mmd: ["tu1", "tu˦˨"],  // ABVD / IDS.
+    gqu: ["mo42 ce31", "mo˦˨ ce˧˩"],  // IDS.
+    peh: ["bosuŋ", "bosuŋ"],  // ABVD.
+    dta: ["bo:s", "boːs"],  // Robbeets Triangulation.
+    srh: ["spal", "spal"],  // IE-CoR.
+    ne: ["जुम्रो", "dzumro"],  // IE-CoR + CDIAL.
+    sjo: ["ᠴᡞᡥᡝ", "ʨiɣɘ"],  // Oskolskaya Tungusic / Robbeets.
+    dbq: ["mbɨ̀rguc", "mbɨ̀rɡuc"],  // Kraft Chadic.
+    vec: ["peòcio", "peˈɔtʃo"],  // Saenko Romance.
+    rmy: ["žuv", "ʒuv"],  // IDS + CDIAL.
+    rmf: ["džuu", "dʒuː"],  // DIACL + CDIAL.
+    rm: ["plugl", "pluʎ"],  // DIACL.
+    emi: ["lisa", "lisa"],  // ABVD / ABVD Oceanic.
+    hot: ["lum", "lum"],  // ABVD / ABVD Oceanic.
+    kmh: ["yman", "jman"],  // TransNewGuinea.org.
+    nej: ["imiŋ", "imiŋ"],  // TransNewGuinea.org.
+    yrl: ["kiwa", "kɨwa"],  // TuLeD / Gerardi Tupi / HunterGatherer.
+    kru: ["पेन", "peːn"],  // DravLex.
+    myx: ["khukaala", "kʰukaːla"],  // Grollemund Bantu / TLS.
+    ki: ["ndaa", "ndaː"],  // Wiktionary + Grollemund / TLS.
+    tn: ["nta", "nta"],  // Grollemund Bantu / BantuBVD.
+    ts: ["nhwala", "nʱwala"],  // Grollemund Bantu.
+    ve: ["nnda", "nnda"],  // Grollemund Bantu.
+    bem: ["inda", "inda"],  // Grollemund Bantu / BantuBVD.
+    kqn: ["lukuso", "lukuso"],  // Grollemund Bantu.
+    tll: ["loshidi", "loʃidi"],  // Grollemund Bantu.
+    kde: ["imboko", "imboko"],  // Grollemund Bantu / TLS.
+    bm: ["ɲimi", "ɲimi"],  // BAF2 (lexibank).
+    dds: ["sɛmɛ", "sɛmɛ"],  // BAF2 (lexibank).
+    snk: ["duuñe", "duːɲe"],  // BAF2 (lexibank).
+    khq: ["gaani", "ɡaːni"],  // Hantgan Bangime (lexibank).
+    cni: ["netsi", "netsi"],  // Walker Arawakan / Amazonian Voices.
+    ame: ["oll", "oʎ"],  // Walker Arawakan / NorthPeruLex.
+    pjt: ["tjiṯu", "ciʈu"],  // Bowern PNY.
+    piu: ["pultaki", "pultaki"],  // Bowern PNY.
+    nha: ["wulhu", "wul̪u"],  // Bowern PNY.
+    adt: ["irda", "iɖa"],  // Bowern PNY.
+    xul: ["gunggal", "ɡuŋɡal"],  // Bowern PNY.
+    mni: ["ꯍꯤꯛ", "hik"],  // Wiktionary + Peiros ST / Marrison.
+    lif: ["ᤛᤡ᤹", "siʔ"],  // Sagart ST / Peiros ST / Wust.
+    ksh: ["Luus", "luːs"],  // Wiktionary Luus (Central Franconian).
+    chr: ["ᏘᎾ", "tina"],  // Wiktionary ᏘᎾ.
+    nch: ["atimitl", "aˈtimitɬ"],  // Wiktionary atimitl (Central Huasteca Nahuatl).
+    cbk: ["kuto", "ˈkuto"],  // Wiktionary kuto (Chavacano).
+    ak: ["edwie", "edʑʷie"],  // Wiktionary edwie (Akan).
+    yua: ["ukʼ", "ukʼ"],  // Wiktionary ukʼ (Yucatec Maya).
+    yur: ["mohkoh", "mɔhkɔh"],  // Wiktionary mohkoh (Yurok).
+    rw: ["inda", "inda"],  // Wiktionary inda (Rwanda-Rundi).
+    ket: ["ък", "ʌk"],  // Wiktionary ък (Ket) + WOLD.
+    krc: ["бит", "bit"],  // Savelyev Turkic; Robbeets triangulation.
+    nxq: ["shu", "ʂu˧"],  // Lama Nisoic (lamanisoic); Peiros ST.
+    khb: ["ᦠᧁ", "haw˥"],  // IDS (Tai Lü); Wiktionary translation.
+    tyz: ["thâu", "tʰəw˧˧"],  // ABVD (Tày Cao Bằng).
+    kac: ["tsi", "tsiʔ˥˥"],  // Peiros ST; Marrison Naga; Sagart et al. 2019 cognate set.
+    mtq: ["chỉ", "ciː"],  // Sidwell Vietic; Barker Muong.
+    kxm: ["ចៃ", "caj"],  // Peiros Austroasiatic.
+    mnw: ["စဲ", "coa"],  // Wiktionary (Mon စဲ); ABVD; Peiros.
+    kha: ["ksi", "ksi"],  // Wiktionary (Khasi ksi); Nagaraja Khasian; Peiros.
+    bdq: ["si", "siː"],  // Sidwell Bahnaric; Peiros; Wiktionary cognate lists.
+    unr: ["siku", "siku"],  // Peiros Austroasiatic.
+    chk: ["kúú", "kɨː"],  // ABVD (Chuukese, cognate set 1 = *kutu).
+    pkp: ["wutu", "wutu"],  // Wiktionary (Pukapukan wutu); ABVD.
+    bzg: ["ocho", "otʃo"],  // ABVD (Babuza Ts82, Favorlang F69; cognate set 1).
+    dru: ["koco", "kotso"],  // ABVD Philippines/Formosan; Wiktionary PAN *kuCux.
+    fan: ["nyin", "ɲin"],  // Grollemund Bantu.
+    ewo: ["nyǐn", "ɲǐn"],  // Grollemund Bantu.
+    umb: ["ona", "ona"],  // Grollemund Bantu (Schadeberg 1990).
+    kmb: ["ina", "ina"],  // Grollemund Bantu.
+    lun: ["yina", "jina"],  // Grollemund Bantu.
+    vmw: ["ithupo", "itʰupo"],  // Grollemund Bantu (CBOLD).
+    ale: ["китух̆", "kituχ"],  // NorthEuraLex.
+    kw: ["lowen", "ˈlɔwɛn"],  // Wiktionary (Cornish lowen, low); IE-CoR.
+    tiw: ["mimpini", "mimpini"],  // Johansson et al. sound-symbolism data; ASJP.
+    mch: ["daamö", "daːmə"],  // IDS (De'kwana); Hunter-Gatherer DB.
+    wba: ["ami", "ami"],  // Wiktionary (Warao ami); Johansson.
+    roo: ["iirui", "iːɾui"],  // Johansson; ASJP.
+    srm: ["lósu", "lósu"],  // WOLD (Saramaccan).
+    kwk: ["g̱in", "ɢin"],  // Johansson; ASJP.
+    tsi: ["tsʼaskw", "tsʼaskʷ"],  // IDS (Tsimshian); Johansson.
+    tcy: ["ಪೇನ್", "peːnɯ"],  // DravLex.
+    kfa: ["ಪೇನ್", "peːnɨ"],  // DravLex.
+    gez: ["ቍማል", "qʷəmaːl"],  // Kitchen et al. Semitic; Feleke Semitic.
+    ote: ["tʼo", "tʼo"],  // WOLD (Otomi).
+    qwc: ["usa", "usa"],  // Cross-Andean (Santo Tomás 1560).
+    chb: ["cue", "kue"],  // IDS (Muisca); Hunter-Gatherer DB.
+    juc: ["tihe", "tixə"],  // Oskolskaya Tungusic; Robbeets triangulation.
+    kgg: ["ki", "ki"],  // ABVD; Wu ST phylogenies.
+    huz: ["на̇цә", "nɑtsə"],  // Wiktionary (Proto-Tsezian *nɔcʰǝ); IDS.
+    kry: ["liş", "liʃ"],  // IDS (Kryz).
+    tpn: ["kyba", "ˈkɨβa"],  // TuLeD; Gerardi Tupí; Lundgren Omagua.
+    djr: ["ḏilmurr", "ɖilmur"],  // Bowern Pama-Nyungan.
+    bsk: ["kharúu", "kʰaˈruː"],  // Wiktionary (Burushaski کھرو); NorthEuraLex.
+    yai: ["šupuš", "ʃuˈpuʃ"],  // IE-CoR; CALS; DiACL.
+    wbl: ["шиш", "ʃiʃ"],  // IE-CoR; DiACL.
+    pal: ["𐭮𐭯𐭩𐭱", "spiʃ"],  // Wiktionary (Persian شپش etymology); DiACL.
+    lmo: ["piöcc", "pjøtʃ"],  // IE-CoR (Milanese); ASJP.
   },
 };

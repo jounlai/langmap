@@ -926,6 +926,40 @@ WORDS.right = {
     btx: "plain",
     mqy: "wanan",
     sxn: "wanan",
+    rim: "plain",
+    mvf: "plain",
+    ude: "plain",
+    enf: "plain",
+    lzz: "plain",
+    dbq: "plain",
+    nap: "dexter",
+    prg: "plain",
+    aae: "dexter",
+    rmy: "plain",
+    nlc: "plain",
+    bho: "dexter",
+    myx: "plain",
+    snk: "plain",
+    adt: "plain",
+    rue: "straight",
+    ruq: "straight",
+    nyn: "dio",
+    cgg: "dio",
+    nyo: "dio",
+    ale: "plain",
+    lmo: "dexter",
+    pnt: "dexter",
+    kky: "plain",
+    mch: "plain",
+    xto: "eat",
+    juc: "plain",
+    ojp: "plain",
+    tsu: "plain",
+    lld: "straight",
+    mpj: "plain",
+    oar: "yamin",
+    xog: "plain",
+    wbl: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1125,7 +1159,7 @@ WORDS.right = {
     zh_sc: ["右", "iəu˨˩˧"],
     zh_cd: ["右", "iəu˨˩˧"],
     zh_xa: ["右", "iɤu˥˥"],
-    zh_nj: ["右", "iou˦˦"],
+    zh_nj: ["右", "iou˦"],
     yue: ["右", "jɐu˨"],
     yue_dg: ["右", "zau˧˨"],
     yue_ts: ["右", "jiu˧˨"],
@@ -1802,5 +1836,39 @@ WORDS.right = {
     btx: ["kemuhen", "kəmuhən"],  // ABVD spells kemuhun
     mqy: ["wanang", "vanaŋ"],
     sxn: ["koaneng", "koaneŋ"],
+    rim: ["gililo", "ɡililo"],  // TLS (lexibank tls).
+    mvf: ["warang", "varaŋ"],  // ABVD Tuzu + Robbeets triangulation.
+    ude: ["аяӈаӡа", "ajaŋadʒa"],  // Oskolskaya Tungusic + Robbeets triangulation.
+    enf: ["mahane", "mahanɛ"],  // NorthEuraLex.
+    lzz: ["მარძგვანი", "mardzɡvani"],  // DiACL.
+    dbq: ["ðə̀ɓəy", "ðə̀ɓəj"],  // Kraft Chadic.
+    nap: ["destro", "ˈdɛstrə"],  // IE-CoR.
+    prg: ["tickrōmien", "tikˈroːmjen"],  // IE-CoR.
+    aae: ["deshra", "ˈdɛʃɾa"],  // IE-CoR.
+    rmy: ["čačo", "ˈtʃatʃo"],  // IDS.
+    nlc: ["sirip", "siɾip"],  // Papuan Voices.
+    bho: ["दहिना", "dəɦinaː"],  // IE-CoR.
+    myx: ["kumulayi", "kumulaji"],  // TLS.
+    snk: ["taye", "taje"],  // BAF2.
+    adt: ["warru wartanha", "waru waʈan̪a"],  // Bowern PNY.
+    rue: ["правый", "ˈpravɨj"],  // IE-CoR.
+    ruq: ["direptu", "diˈreptu"],  // IE-CoR.
+    nyn: ["buryo", "burjo"],  // TLS.
+    cgg: ["buryo", "burjo"],  // TLS.
+    nyo: ["omukono gwaburyo", "omukono ɡwaburjo"],  // TLS.
+    ale: ["chaagamaguuǵix", "tʃaːɡamaɡuːɣiχ"],  // NorthEuraLex.
+    lmo: ["destra", "ˈdɛstra"],  // IE-CoR.
+    pnt: ["δεξιός", "ðeˈkʃøs"],  // IE-CoR.
+    kky: ["mala", "mala"],  // Bowern PNY.
+    mch: ["ömuʼdemhünü", "əmuʔdemʰɨnɨ"],  // IDS + Hunter-Gatherer DB.
+    xto: ["𑀰𑀸𑀮𑁆𑀬𑀺", "ɕaːʎi"],  // IE-CoR + IDS.
+    juc: ["iti", "iti"],  // Oskolskaya Tungusic + Robbeets.
+    ojp: ["右", "miɡi"],  // Robbeets triangulation.
+    tsu: ["vhona", "vhona"],  // ABVD.
+    lld: ["dret", "drɛt"],  // IE-CoR.
+    mpj: ["junga", "cuŋa"],  // Bowern PNY.
+    oar: ["ימינא", "jammiːnaː"],  // IDS.
+    xog: ["omukono omusadha", "omukono omusad̪a"],  // TLS.
+    wbl: ["вурзг", "wurzɡ"],  // IE-CoR.
   },
 };

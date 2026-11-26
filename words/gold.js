@@ -945,6 +945,32 @@ WORDS.gold = {
     btx: "emas",
     mqy: "emas",
     sxn: "bulawan",
+    srb: "plain",
+    enf: "yellow",
+    bft: "gser",
+    lbj: "gser",
+    gqu: "plain",
+    nuf: "plain",
+    clk: "plain",
+    kfx: "suvarna",
+    lmn: "suvarna",
+    awa: "suvarna",
+    kru: "suvarna",
+    uby: "plain",
+    rap: "plain",
+    ch: "aurum",
+    nmf: "plain",
+    xsr: "gser",
+    ctg: "suvarna",
+    gbm: "suvarna",
+    kfy: "suvarna",
+    xnr: "suvarna",
+    elx: "plain",
+    bsk: "altun",
+    bnn: "jin",
+    tao: "bulawan",
+    bbl: "plain",
+    kfr: "suvarna",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -1841,5 +1867,31 @@ WORDS.gold = {
     btx: ["emas", "əmas"],
     mqy: ["emas", "əmas"],
     sxn: ["buḷaeng", "buɭaeŋ"],
+    srb: ["rana", "rana"],  // LSI (Grierson).
+    enf: ["zolota", "zɔɫɔta"],  // NorthEuraLex.
+    bft: ["གསེར", "xser"],  // Backstrom N. Pakistan; LSI.
+    lbj: ["གསེར", "ser"],  // LSI.
+    gqu: ["ɲe35", "ɲe˧˥"],  // IDS.
+    nuf: ["tɕi35ɑ55", "tɕi˧˥ɑ˥˥"],  // Sun Tibeto-Burman; Lamani Soic.
+    clk: ["tiɑ55lɑ55dɯi55", "tiɑ˥˥lɑ˥˥dɯi˥˥"],  // Sun Tibeto-Burman.
+    kfx: ["सुना", "sunaː"],  // LSI.
+    lmn: ["सोनो", "soːno"],  // LSI.
+    awa: ["सोन", "soːn"],  // LSI.
+    kru: ["सोना", "soːnaː"],  // LSI.
+    uby: ["tʰwatʰwa", "tʰwatʰwa"],  // DiACL.
+    rap: ["piru", "piɾu"],  // DiACL.
+    ch: ["oro", "ˈoɾo"],  // DiACL.
+    nmf: ["sina", "sina"],  // Marrison Naga; LSI.
+    xsr: ["གསེར", "ser"],  // LSI; Dhakal SW Tibetic.
+    ctg: ["সোনা", "sona"],  // LSI.
+    gbm: ["सोनो", "soːno"],  // LSI.
+    kfy: ["सुन", "sun"],  // LSI.
+    xnr: ["सुन्ना", "sunːaː"],  // LSI.
+    elx: ["𒆷𒀭𒋛𒋾𒂊", "lansitie"],  // IDS (EW 803).
+    bsk: ["altún", "alˈtun"],  // NorthEuraLex.
+    bnn: ["kim", "kim"],  // DiACL.
+    tao: ["voawan", "voawan"],  // DiACL.
+    bbl: ["ოქრო̆", "okro"],  // Wiktionary translation table; IDS; DiACL.
+    kfr: ["સોના", "soːna"],  // LSI.
   },
 };

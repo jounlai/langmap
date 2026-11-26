@@ -778,6 +778,20 @@ WORDS.monkey = {
     shu: "plain",
     mqy: "plain",
     sxn: "plain",
+    gqu: "plain",
+    shx: "plain",
+    dbq: "plain",
+    rmy: "maymun",
+    cu: "other",
+    pbb: "other",
+    arn: "plain",
+    ty: "other",
+    bug: "plain",
+    guc: "plain",
+    mch: "plain",
+    chk: "monkey",
+    shp: "plain",
+    oar: "qof",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -1511,5 +1525,19 @@ WORDS.monkey = {
     shu: ["بوبو", "buːbu"],
     mqy: ["kodé", "kode"],
     sxn: ["baha", "baha"],  // Holle 203 w(b)aha, uba
+    gqu: ["mo42 to42", "mo˦˨ to˦˨"],  // IDS (Qau Kelao).
+    shx: ["nɔ22 ku22 tʰi53", "nɔ˨˨ ku˨˨ tʰi˥˧"],  // Chen Hmong-Mien (lexibank).
+    dbq: ["gèmèði", "ɡèmèði"],  // Kraft Chadic (lexibank).
+    rmy: ["majmuni", "majmuni"],  // IDS (Romani).
+    cu: ["питикъ", "pitikŭ"],  // IDS (Old Church Slavonic).
+    pbb: ["miku", "miku"],  // IDS (Páez).
+    arn: ["malchin", "maltʃin"],  // IDS (Mapudungun).
+    ty: ["ʻurī taʻata", "ʔuɾiː taʔata"],  // DiACL (lexibank).
+    bug: ["lanceng", "lantʃəŋ"],  // DiACL (lexibank).
+    guc: ["juchi", "hutʃi"],  // IDS (Goajiro).
+    mch: ["yadaakadu", "jaɾ̠aːkaɾ̠u"],  // IDS (De'kwana).
+    chk: ["monki", "monki"],  // DiACL (lexibank).
+    shp: ["shoni", "ʃoni"],  // IDS (Shipibo-Conibo).
+    oar: ["קופא", "qoːpaː"],  // IDS (Ancient Aramaic).
   },
 };

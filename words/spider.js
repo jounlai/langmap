@@ -881,6 +881,25 @@ WORDS.spider = {
     shu: "plain",
     btx: "lawa",
     sxn: "plain",
+    rim: "plain",
+    yux: "plain",
+    lic: "plain",
+    mqy: "plain",
+    nuf: "plain",
+    shx: "plain",
+    dbq: "plain",
+    yao: "plain",
+    nlc: "plain",
+    myx: "plain",
+    rap: "plain",
+    piu: "plain",
+    olk: "plain",
+    new: "plain",
+    mrq: "plain",
+    akb: "plain",
+    chk: "plain",
+    ale: "plain",
+    obr: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -1716,5 +1735,24 @@ WORDS.spider = {
     shu: ["أبن شبش", "abunʃabaʃ"],
     btx: ["lawah-lawah", "lawah lawah"],
     sxn: ["kaḷuangkang", "kaɭuaŋkaŋ"],
+    rim: ["saghundi-dughwa", "saɣundi-duɣwa"],  // lexibank tls (Tanzania Language Survey).
+    yux: ["атахии", "ataqiː"],  // NorthEuraLex.
+    lic: ["tshop7 tshei1", "tsʰop˥˥ tsʰei˥˧"],  // IDS (Hlai, Baoting); ABVD.
+    mqy: ["sawa ndao", "sava ⁿdao"],  // ABVD.
+    nuf: ["lɑ55bɑ̱53ɑ31", "lɑ˥˥bɑ̱˥˧ɑ˧˩"],  // lexibank suntb (Sun 1991).
+    shx: ["lɔk22 kʰɤ35", "lɔk˨˨ kʰɤ˧˥"],  // ABVD She (Haifeng).
+    dbq: ["slìrbɨŋ", "ɬìrbɨŋ"],  // Kraft Chadic wordlists.
+    yao: ["nyangata", "ɲaŋɡata"],  // TLS + Bantu BVD.
+    nlc: ["keisa", "keisa"],  // lexibank papuanvoices.
+    myx: ["nabuubi", "nabuːbi"],  // lexibank tls.
+    rap: ["honu", "honu"],  // IDS; ABVD; Walworth.
+    piu: ["wankawanka", "wankawanka"],  // Bowern Pama-Nyungan.
+    olk: ["angadh", "aŋad̪"],  // UT Austin Hunter-Gatherer DB.
+    new: ["माकःचा", "makəːtɕa"],  // Liu Newari; Hale Nepal.
+    mrq: ["pukaveʻeveʻe", "pukaveʔeveʔe"],  // ABVD / ABVD-Oceanic; Walworth.
+    akb: ["rambang", "rambaŋ"],  // ABVD.
+    chk: ["nittopwuráán", "nitːopʷuraːn"],  // ABVD.
+    ale: ["кинках̆", "kinkaχ"],  // NorthEuraLex.
+    obr: ["ပင့်ကူ", "paŋʔkuː"],  // Sagart et al. ST; Lai Gyalrong.
   },
 };

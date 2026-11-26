@@ -963,6 +963,14 @@ WORDS.thunder = {
     shu: "raad",
     btx: "plain",
     mqy: "plain",
+    shx: "plain",
+    sxn: "plain",
+    ibg: "plain",
+    rmy: "plain",
+    pjt: "plain",
+    wbp: "plain",
+    nmf: "plain",
+    oar: "raam",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1369,7 +1377,7 @@ WORDS.thunder = {
     nij: ["nyaho", "ɲaho"],  // Kept apart from kilat, the lightning; the older ABVD wordlist writes it nyahu. No image is recorded for it, so it counts as a word of its own.
     ami: ["kakeleng", "kakələŋ"],  // Kept apart from kalapiyat, the lightning; the 2019 Amis Bible spells it kakleng. No image is recorded for it, so it counts as a word of its own.
     lus: ["khawpui", "kʰawpui"],  // Thunder 'sounds' (ri) in Mizo: khawpui a ri; lightning is kâwlphe. Lorrain & Savidge 1898: khaw-pui ri 'thunder'; khawpui also means city, capital.
-    kac: ["mu", "muʔ˥"],  // Hanson's Kachin dictionary glosses mu as 'the sky, the heavens; the spirit of the sky; thunder or lightning', so thunder bears the sky's name; it 'sounds' (ngoi) in mu ngoi 'to thunder', and lightning is myihprap.
+    kac: ["mu", "muʔ˥˥"],  // Hanson's Kachin dictionary glosses mu as 'the sky, the heavens; the spirit of the sky; thunder or lightning', so thunder bears the sky's name; it 'sounds' (ngoi) in mu ngoi 'to thunder', and lightning is myihprap.
     sda: ["guntuʼ", "ɡuntuʔ"],  // Kept apart from kila', the lightning; galugu is the rumbling. Route by resemblance to the neighbouring forms (pmy(guntur)); no etymology of its own.
     dtp: ["tinggoron", "tiŋɡoron"],  // Used in the Kadazandusun Bible for the thunder the crowd heard in John 12:29. No image is recorded for it, so it counts as a word of its own.
     aoz: ["lotos", "lotos"],  // Kept apart from limat, the lightning. No image is recorded for it, so it counts as a word of its own.
@@ -1893,5 +1901,13 @@ WORDS.thunder = {
     shu: ["رعد", "raʔad"],
     btx: ["lenggur", "ləŋɡur"],
     mqy: ["bo", "bo"],
+    shx: ["pe44 hɤ11", "pe˦˦ hɤ˩˩"],  // ABVD She (Haifeng).
+    sxn: ["děllụ", "dəlːuʔ"],  // ABVD Sangir.
+    ibg: ["addug", "adːuɡ"],  // ABVD Ibanag.
+    rmy: ["rondžeto", "ronˈdʒeto"],  // IDS (Romani).
+    pjt: ["tuuṉi", "ˈtuːɳi"],  // Bowern Pama-Nyungan (lexibank).
+    wbp: ["kurluru-kurluru", "kuɭuɻukuɭuɻu"],  // Bowern Pama-Nyungan (lexibank).
+    nmf: ["langpar", "laŋpar"],  // Marrison Naga (lexibank).
+    oar: ["רעמא", "raʕmaː"],  // IDS + Wiktionary.
   },
 };

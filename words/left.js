@@ -945,6 +945,38 @@ WORDS.left = {
     btx: "plain",
     mqy: "plain",
     sxn: "wiri",
+    ude: "plain",
+    enf: "plain",
+    yux: "plain",
+    lzz: "plain",
+    sdh: "bad",
+    dbq: "plain",
+    aae: "loan",
+    nlc: "plain",
+    myx: "plain",
+    dds: "plain",
+    snk: "plain",
+    ame: "plain",
+    gym: "plain",
+    adt: "plain",
+    rue: "levu",
+    fur: "plain",
+    shn: "loan",
+    nyn: "moco",
+    nyo: "moco",
+    ale: "plain",
+    lmo: "sinister",
+    kky: "plain",
+    xto: "plain",
+    xlu: "plain",
+    ium: "plain",
+    wbl: "bad",
+    xog: "plain",
+    kaa: "plain",
+    juc: "plain",
+    tsu: "wiri",
+    lld: "plain",
+    aln: "other",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -1845,5 +1877,37 @@ WORDS.left = {
     btx: ["kawes", "kawəs"],
     mqy: ["léo", "leo"],
     sxn: ["kaihi", "kaihi"],
+    ude: ["ӡиэӈэӡэ", "dʒiəŋədʒə"],  // Oskolskaya Tungusic + Robbeets triangulation.
+    enf: ["setane", "sætanɛ"],  // NorthEuraLex.
+    yux: ["тулугу-", "tuluɡu"],  // NorthEuraLex + Johansson.
+    lzz: ["კვაზალი", "kʼvazali"],  // DiACL.
+    sdh: ["چەپ", "tʃæp"],  // IE-CoR.
+    dbq: ["lðɨ̀rzim", "lðɨ̀rzim"],  // Kraft Chadic.
+    aae: ["manka", "ˈmanka"],  // IE-CoR.
+    nlc: ["waneng", "waneŋ"],  // Papuan Voices.
+    myx: ["kumukota", "kumukota"],  // TLS.
+    dds: ["naanda", "naːnda"],  // BAF2.
+    snk: ["nooge", "noːɡe"],  // BAF2.
+    ame: ["echcot̃", "etʃkotʲ"],  // NorthPeruLex.
+    gym: ["ngeberi", "ŋebeɾi"],  // Pache Chibchan.
+    adt: ["yanggu wartanha", "jaŋɡu waʈan̪a"],  // Bowern PNY.
+    rue: ["лївый", "ˈlʲivɨj"],  // IE-CoR.
+    fur: ["çamp", "tʃamp"],  // IE-CoR.
+    shn: ["သၢႆႉ", "saːj˦˨ˀ"],  // IDS + ABVD.
+    nyn: ["emosho", "emoʃo"],  // TLS.
+    nyo: ["omukono gwemoso", "omukono ɡwemoso"],  // TLS.
+    ale: ["angiqiiǵix̂", "aŋiqiːɣiχ"],  // NorthEuraLex.
+    lmo: ["sinistra", "siˈnistra"],  // IE-CoR.
+    kky: ["dhagu", "d̪aɡu"],  // Bowern PNY.
+    xto: ["𑀧𑀸𑀘𑀺", "paːtsi"],  // IE-CoR + IDS.
+    xlu: ["ipala/i-", "ˈipala"],  // IE-CoR.
+    ium: ["zaaix", "tsaːi˨˧"],  // ABVD + Chen Hmong-Mien.
+    wbl: ["чап", "tʃap"],  // IE-CoR.
+    xog: ["omukono omuggoda", "omukono omuɡːoda"],  // TLS.
+    kaa: ["shep", "ʃep"],  // CALS (Central Asian Linguistic Survey).
+    juc: ["hasu", "xasu"],  // Oskolskaya Tungusic + Robbeets.
+    tsu: ["vrina", "vrina"],  // ABVD.
+    lld: ["cianch", "tʃaŋk"],  // IE-CoR.
+    aln: ["mâjtë", "ˈmãjtə"],  // IE-CoR.
   },
 };

@@ -898,7 +898,7 @@ WORDS.yellow = {
     btx: "plain",
     mqy: "plain",
     sxn: "plain",
-    srb: "plain",
+    srb: "turmeric",
     trm: "plain",
     enf: "plain",
     rad: "plain",

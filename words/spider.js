@@ -895,7 +895,7 @@ WORDS.spider = {
     piu: "plain",
     olk: "plain",
     new: "plain",
-    mrq: "plain",
+    mrq: "lewelewe",
     akb: "plain",
     chk: "plain",
     ale: "plain",

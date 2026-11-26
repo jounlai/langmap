@@ -954,7 +954,7 @@ WORDS.right = {
     xto: "eat",
     juc: "plain",
     ojp: "plain",
-    tsu: "plain",
+    tsu: "wanan",
     lld: "straight",
     mpj: "plain",
     oar: "yamin",

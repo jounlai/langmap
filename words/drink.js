@@ -1235,6 +1235,7 @@ WORDS.drink = {
     btx: "inum",
     mqy: "inum",
     sxn: "inum",
+    hac: "hwar",
   },
   routes: {
     peh: {"color":"#2563eb","emoji":"🍷","en":"Proto-Indo-European *peh₃- (beber, пить, पीना)","ja":"印欧祖語 *peh₃- (beber, пить, पीना)","ko":"인도유럽 조어 *peh₃- (beber, пить, पीना)","zh":"原始印欧语 *peh₃- (beber, пить, पीना)","yue":"原始印歐語 *peh₃- (beber, пить, पीना)","vi":"tiếng Ấn-Âu nguyên thủy *peh₃- (beber, пить, पीना)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *peh₃- (beber, пить, पीना)","id":"Proto-Indo-Eropa *peh₃- (beber, пить, पीना)","hi":"आदि-हिंद-यूरोपीय *peh₃- (beber, пить, पीना)","de":"urindogermanisch *peh₃- (beber, пить, पीना)","fr":"le proto-indo-européen *peh₃- (beber, пить, पीना)","it":"il protoindoeuropeo *peh₃- (beber, пить, पीना)","es":"el protoindoeuropeo *peh₃- (beber, пить, पीना)","pt":"o proto-indo-europeu *peh₃- (beber, пить, पीना)","ru":"праиндоевропейское *peh₃- (beber, пить, पीना)","uk":"праіндоєвропейське *peh₃- (beber, пить, पीना)","ar":"الهندية الأوروبية الأم *peh₃- (beber، пить، पीना)","he":"הפרוטו-הודו-אירופית *peh₃- (beber, пить, पीना)","sw":"Kihindi-Kiulaya asilia *peh₃- (beber, пить, पीना)"},
@@ -2496,6 +2497,6 @@ WORDS.drink = {
     btx: ["minem", "minəm"],
     mqy: ["inung", "inuŋ"],
     sxn: ["manginung", "maŋinuŋ"],  // root inung
-    hac: ["—", "—"],
+    hac: ["eweward̂ey", "awawaːɾðaj"],  // MacKenzie 1966, The Dialect of Awroman (Hawrāmān-ī Luhōn), page scans: archive.org/details/The_Dialect_of_Awroman.
   }
 };

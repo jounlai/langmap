@@ -960,6 +960,7 @@ WORDS.right = {
     oar: "yamin",
     xog: "plain",
     wbl: "plain",
+    hac: "straight",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1870,5 +1871,6 @@ WORDS.right = {
     oar: ["ימינא", "jammiːnaː"],  // IDS.
     xog: ["omukono omusadha", "omukono omusad̪a"],  // TLS.
     wbl: ["вурзг", "wurzɡ"],  // IE-CoR.
+    hac: ["řas", "raːs"],  // MacKenzie 1966, The Dialect of Awroman (Hawrāmān-ī Luhōn), page scans: archive.org/details/The_Dialect_of_Awroman; Kurdi.
   },
 };

@@ -801,6 +801,7 @@ WORDS.sunday = {
     ain: "sun",
     tkr: "plain",
     ale: "resurrection",
+    hay: "plain",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1542,5 +1543,6 @@ WORDS.sunday = {
     ain: ["トカㇷ゚チュㇷ゚エトホ", "tokaptɕupetoho"],  // NorthEuraLex.
     tkr: ["ваджар", "vadʒar"],  // IDS.
     ale: ["Vaskrisiiniyax̂", "vaskrisiːnijaχ"],  // NorthEuraLex.
+    hay: ["eilimansi", "eilimansi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
   },
 };

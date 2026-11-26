@@ -977,6 +977,8 @@ WORDS.butterfly = {
     mqy: "plain",
     sxn: "bangbang",
     bbl: "perper",
+    hay: "plain",
+    krj: "bangbang",
   },
   routes: {
     fifalda: {"color":"#2563eb","emoji":"🦋","en":"Proto-Germanic *fifaldǭ (fiðrildi, fjäril, fifaltra)","ja":"ゲルマン祖語 *fifaldǭ (fiðrildi, fjäril, fifaltra)","ko":"게르만 조어 *fifaldǭ (fiðrildi, fjäril, fifaltra)","zh":"原始日耳曼语 *fifaldǭ (fiðrildi, fjäril, fifaltra)","yue":"原始日耳曼語 *fifaldǭ (fiðrildi, fjäril, fifaltra)","vi":"tiếng German nguyên thủy *fifaldǭ (fiðrildi, fjäril, fifaltra)","th":"ภาษาเจอร์แมนิกดั้งเดิม *fifaldǭ (fiðrildi, fjäril, fifaltra)","id":"Proto-Jermanik *fifaldǭ (fiðrildi, fjäril, fifaltra)","hi":"आदि-जर्मनिक *fifaldǭ (fiðrildi, fjäril, fifaltra)","de":"urgermanisch *fifaldǭ (fiðrildi, fjäril, fifaltra)","fr":"le proto-germanique *fifaldǭ (fiðrildi, fjäril, fifaltra)","it":"il protogermanico *fifaldǭ (fiðrildi, fjäril, fifaltra)","es":"el protogermánico *fifaldǭ (fiðrildi, fjäril, fifaltra)","pt":"o protogermânico *fifaldǭ (fiðrildi, fjäril, fifaltra)","ru":"прагерманское *fifaldǭ (fiðrildi, fjäril, fifaltra)","uk":"прагерманське *fifaldǭ (fiðrildi, fjäril, fifaltra)","ar":"الجرمانية الأم *fifaldǭ (fiðrildi، fjäril، fifaltra)","he":"הפרוטו-גרמאנית *fifaldǭ (fiðrildi, fjäril, fifaltra)","sw":"Kijerumani asilia *fifaldǭ (fiðrildi, fjäril, fifaltra)"},
@@ -1931,5 +1933,7 @@ WORDS.butterfly = {
     mqy: ["kékal", "kekal"],
     sxn: ["kaḷiwembang", "kaɭiwembaŋ"],
     bbl: ["პეპლი", "pʼeːpʼli"],  // IDS.
+    hay: ["ekiwoiwo", "ekiwoiwo"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    krj: ["alibangbang", "ʔalibaŋbaŋ"],  // Marayum Kinaray-a–English Dictionary (UP Diliman/DOST), https://marayum.ph/kinaray-a-english/ , entry 2091.
   },
 };

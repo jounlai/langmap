@@ -1193,6 +1193,7 @@ WORDS.person = {
     mqy: "plain",
     sxn: "taumata",
     bxd: "plain",
+    hac: "adamar",
   },
   routes: {
     ghmo: {"color":"#2563eb","emoji":"🌍","en":"Proto-Indo-European *ǵʰmṓ (homo, žmogus, om)","ja":"印欧祖語 *ǵʰmṓ (homo, žmogus, om)","ko":"인도유럽 조어 *ǵʰmṓ (homo, žmogus, om)","zh":"原始印欧语 *ǵʰmṓ (homo, žmogus, om)","yue":"原始印歐語 *ǵʰmṓ (homo, žmogus, om)","vi":"tiếng Ấn-Âu nguyên thủy *ǵʰmṓ (homo, žmogus, om)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ǵʰmṓ (homo, žmogus, om)","id":"Proto-Indo-Eropa *ǵʰmṓ (homo, žmogus, om)","hi":"आदि-भारोपीय *ǵʰmṓ (homo, žmogus, om)","de":"urindogermanisch *ǵʰmṓ (homo, žmogus, om)","fr":"le proto-indo-européen *ǵʰmṓ (homo, žmogus, om)","it":"il protoindoeuropeo *ǵʰmṓ (homo, žmogus, om)","es":"el protoindoeuropeo *ǵʰmṓ (homo, žmogus, om)","pt":"o proto-indo-europeu *ǵʰmṓ (homo, žmogus, om)","ru":"праиндоевропейское *ǵʰmṓ (homo, žmogus, om)","uk":"праіндоєвропейське *ǵʰmṓ (homo, žmogus, om)","ar":"الهندو-أوروبية الأم *ǵʰmṓ (homo، žmogus، om)","he":"הפרוטו-הודו-אירופית *ǵʰmṓ (homo, žmogus, om)","sw":"Kihindi-Kiulaya asilia *ǵʰmṓ (homo, žmogus, om)"},
@@ -2376,5 +2377,6 @@ WORDS.person = {
     mqy: ["ata", "ata"],
     sxn: ["taumata", "taumata"],
     bxd: ["pju55", "pju˥˥"],  // Peiros Sino-Tibetan (lexibank peirosst) Bola; ASJP PELA.
+    hac: ["ad̂emîzad̂", "aːðamiːzaːð"],  // MacKenzie 1966, The Dialect of Awroman (Hawrāmān-ī Luhōn), page scans: archive.org/details/The_Dialect_of_Awroman; Kurdi.
   }
 };

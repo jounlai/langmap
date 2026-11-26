@@ -587,6 +587,8 @@ WORDS.chili = {
     khv: "plain",
     bbl: "plain",
     kry: "plain",
+    hay: "plain",
+    sxn: "unknown",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -1114,5 +1116,7 @@ WORDS.chili = {
     khv: ["мекъу истибат", "meqʼu istibat"],  // IDS (Khwarshi dialect).
     bbl: ["წიწაკ", "tsʼitsʼakʼ"],  // IDS (Tsova-Tush).
     kry: ["pimpil", "pimpil"],  // IDS (Kryz).
+    hay: ["akaguruma", "akaɡuruma"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    sxn: ["hisa", "hisa"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
   },
 };

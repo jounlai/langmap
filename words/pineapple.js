@@ -533,6 +533,8 @@ WORDS.pineapple = {
     quc: "other",
     ixl: "matzahtli",
     kjb: "matzahtli",
+    hay: "nanas",
+    tdd: "other",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -1046,5 +1048,7 @@ WORDS.pineapple = {
     quc: ["chʼop", "tʃʼop"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
     ixl: ["matzaatiʼ", "matsaːtiʔ"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
     kjb: ["matzaj", "matsax"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
+    hay: ["enanaazi", "enanaːzi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    tdd: ["ᥛᥣᥐᥱᥐᥥᥒ", "maːk˩keŋ˧"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
   },
 };

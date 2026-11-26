@@ -1128,6 +1128,7 @@ WORDS.iron = {
     srh: "hacwa",
     wbl: "plain",
     kfr: "loha",
+    gwc: "plain",
   },
   routes: {
     isarna: {"color":"#2563eb","emoji":"⚔️","en":"Proto-Germanic *īsarną (iron, Eisen, ijzer)","ja":"ゲルマン祖語 *īsarną (iron, Eisen, ijzer)","ko":"게르만 조어 *īsarną (iron, Eisen, ijzer)","zh":"原始日耳曼语 *īsarną (iron, Eisen, ijzer)","yue":"原始日耳曼語 *īsarną (iron, Eisen, ijzer)","vi":"tiếng German nguyên thủy *īsarną (iron, Eisen, ijzer)","th":"ภาษาเจอร์แมนิกดั้งเดิม *īsarną (iron, Eisen, ijzer)","id":"Proto-Jermanik *īsarną (iron, Eisen, ijzer)","hi":"आदि-जर्मेनिक *īsarną (iron, Eisen, ijzer)","de":"urgermanisch *īsarną (iron, Eisen, ijzer)","fr":"le proto-germanique *īsarną (iron, Eisen, ijzer)","it":"il protogermanico *īsarną (iron, Eisen, ijzer)","es":"el protogermánico *īsarną (iron, Eisen, ijzer)","pt":"o protogermânico *īsarną (iron, Eisen, ijzer)","ru":"прагерманское *īsarną (iron, Eisen, ijzer)","uk":"прагерманське *īsarną (iron, Eisen, ijzer)","ar":"الجرمانية الأم *īsarną (iron، Eisen، ijzer)","he":"הפרוטו-גרמאנית *īsarną (iron, Eisen, ijzer)","sw":"Kijerumani asilia *īsarną (iron, Eisen, ijzer)"},
@@ -2322,5 +2323,6 @@ WORDS.iron = {
     srh: ["spin", "spin"],  // LSI (Grierson), Sarikoli.
     wbl: ["ишн", "iʃn"],  // LSI (Grierson), Wakhi.
     kfr: ["લો", "loː"],  // LSI (Grierson), Kachchhi.
+    gwc: ["چومر", "tɕumar"],  // Baart 1997, The Sounds and Tones of Kalam Kohistani, p.84 (via English Wiktionary, Kalami entry چومر).
   },
 };

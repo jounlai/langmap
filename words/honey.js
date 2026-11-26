@@ -1103,6 +1103,7 @@ WORDS.honey = {
     shu: "asal",
     mqy: "plain",
     khq: "plain",
+    btx: "plain",
   },
   routes: {
     melit: {"color":"#2563eb","emoji":"🍯","en":"Proto-Indo-European *mélit (mel, miel, μέλι)","ja":"印欧祖語 *mélit (mel, miel, μέλι)","ko":"인도유럽 조어 *mélit (mel, miel, μέλι)","zh":"原始印欧语 *mélit (mel, miel, μέλι)","yue":"原始印歐語 *mélit (mel, miel, μέλι)","vi":"tiếng Ấn-Âu nguyên thủy *mélit (mel, miel, μέλι)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *mélit (mel, miel, μέλι)","id":"Proto-Indo-Eropa *mélit (mel, miel, μέλι)","hi":"आदि-भारोपीय *mélit (mel, miel, μέλι)","de":"urindogermanisch *mélit (mel, miel, μέλι)","fr":"le proto-indo-européen *mélit (mel, miel, μέλι)","it":"il protoindoeuropeo *mélit (mel, miel, μέλι)","es":"el protoindoeuropeo *mélit (mel, miel, μέλι)","pt":"o proto-indo-europeu *mélit (mel, miel, μέλι)","ru":"праиндоевропейское *mélit (mel, miel, μέλι)","uk":"праіндоєвропейське *mélit (mel, miel, μέλι)","ar":"الهندو-أوروبية الأم *mélit (mel، miel، μέλι)","he":"הפרוטו-הודו-אירופית *mélit (mel, miel, μέλι)","sw":"Kihindi-Kiulaya asilia *mélit (mel, miel, μέλι)"},
@@ -2260,5 +2261,6 @@ WORDS.honey = {
     shu: ["عسل", "asal"],
     mqy: ["waé wani", "vae vani"],  // lit. 'bee water'
     khq: ["yuwoo", "juwoː"],  // Heath via hantganbangime (+ Koelle, Polyglotta Africana).
+    btx: ["tengguli", "təŋɡuli"],  // Kamus Karo Online (kamuskaro.com, Indonesian–Karo); Siregar et al. 2001 Kamus Bahasa Karo–Indonesia; Kamus Bahasa Indone.
   },
 };

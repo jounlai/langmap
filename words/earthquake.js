@@ -711,6 +711,9 @@ WORDS.earthquake = {
     shp: "plain",
     ani: "plain",
     rut: "plain",
+    guz: "shake",
+    hay: "plain",
+    rsk: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -1368,5 +1371,8 @@ WORDS.earthquake = {
     shp: ["niwã", "niwã"],  // IDS.
     ani: ["дунйал бергъар", "dunjal berʁar"],  // IDS.
     rut: ["лыкьын сипӏин", "lɨqʼɨn sipʼin"],  // IDS.
+    guz: ["omotengecho", "ɔmɔtɛŋɡɛtʃɔ"],  // Ekegusii Encyclopedia Project dictionary (2012, Lexique Pro), Ekegusii–English lexicon (archived 2016).
+    hay: ["omusisi", "omusisi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    rsk: ["трешенє жеми", "trɛˈʃɛɲɛ ˈʒɛmi"],  // Руске слово (ruskeslovo.com), Pannonian Rusyn newspaper, news headlines.
   },
 };

@@ -1236,6 +1236,8 @@ WORDS.tree = {
     btx: "kasiw",
     mqy: "kasiw",
     sxn: "kasiw",
+    ibg: "kasiw",
+    krj: "kasiw",
   },
   routes: {
     doru: {"color":"#2563eb","emoji":"🌳","en":"Proto-Indo-European *dóru (tree, дерево, δέντρο)","ja":"印欧祖語 *dóru (tree, дерево, δέντρο)","ko":"인도유럽 조어 *dóru (tree, дерево, δέντρο)","zh":"原始印欧语 *dóru (tree, дерево, δέντρο)","yue":"原始印歐語 *dóru (tree, дерево, δέντρο)","vi":"tiếng Ấn-Âu nguyên thủy *dóru (tree, дерево, δέντρο)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *dóru (tree, дерево, δέντρο)","id":"Proto-Indo-Eropa *dóru (tree, дерево, δέντρο)","hi":"आदि-भारोपीय *dóru (tree, дерево, δέντρο)","de":"urindogermanisch *dóru (tree, дерево, δέντρο)","fr":"le proto-indo-européen *dóru (tree, дерево, δέντρο)","it":"il protoindoeuropeo *dóru (tree, дерево, δέντρο)","es":"el protoindoeuropeo *dóru (tree, дерево, δέντρο)","pt":"o proto-indo-europeu *dóru (tree, дерево, δέντρο)","ru":"праиндоевропейское *dóru (tree, дерево, δέντρο)","uk":"праіндоєвропейське *dóru (tree, дерево, δέντρο)","ar":"الهندو-أوروبية الأم *dóru (tree، дерево، δέντρο)","he":"הפרוטו-הודו-אירופית *dóru (tree, дерево, δέντρο)","sw":"Kihindi-Kiulaya asilia *dóru (tree, дерево, δέντρο)"},
@@ -2508,7 +2510,7 @@ WORDS.tree = {
     btx: ["batang kayu", "bataŋ kaju"],
     mqy: ["haju", "hadʒu"],  // also 'wood'
     sxn: ["kalu", "kalu"],  // also 'wood'
-    ibg: ["—", "—"],
-    krj: ["—", "—"],
+    ibg: ["kayu", "kaju"],  // Wiktionary Appendix:Austronesian Swadesh lists + Verstraelen 1973 'Analysis of Ibanag' (Philippine Quarterly of Culture .
+    krj: ["kahoy", "kahoj"],  // Marayum Kinaray-a–English Dictionary (UP Diliman/DOST), https://marayum.ph/kinaray-a-english/ , entry 2064.
   },
 };

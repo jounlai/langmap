@@ -350,6 +350,9 @@ WORDS.adamsapple = {
     emp: "plain",
     iba: "plain",
     mhy: "plain",
+    btx: "plain",
+    mqy: "other",
+    tdd: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -648,5 +651,8 @@ WORDS.adamsapple = {
     emp: ["opõpõ", "opõpõ"],  // Huber & Reed (hubercolumbian).
     iba: ["tekang garam", "təkaŋ ɡaram"],  // Smith, Borneo word lists (smithborneo).
     mhy: ["guguruŋan", "ɡuɡuruŋan"],  // Smith, Borneo word lists (smithborneo).
+    btx: ["bergeng", "bərɡəŋ"],  // Kamus Karo Online (kamuskaro.com, Indonesian–Karo).
+    mqy: ["wua bokak", "vua bokak"],  // Lon et al. 2018 Kamus.
+    tdd: ["ᥑᥨᥝᥰᥞᥩᥭᥴ", "xo˥hɔj˧˥"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
   },
 };

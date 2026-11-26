@@ -1016,6 +1016,7 @@ WORDS.snow = {
     shp: "plain",
     wbl: "gheyom",
     obr: "plain",
+    btx: "talg",
   },
   routes: {
     sneygw: {"color":"#2563eb","emoji":"❄️","en":"Proto-Indo-European *sneygʷʰ- (snow, снег, nieve)","ja":"印欧祖語 *sneygʷʰ- (snow, снег, nieve)","ko":"인도유럽 조어 *sneygʷʰ- (snow, снег, nieve)","zh":"原始印欧语 *sneygʷʰ- (snow, снег, nieve)","yue":"原始印歐語 *sneygʷʰ- (snow, снег, nieve)","vi":"tiếng Ấn-Âu nguyên thủy *sneygʷʰ- (snow, снег, nieve)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *sneygʷʰ- (snow, снег, nieve)","id":"Proto-Indo-Eropa *sneygʷʰ- (snow, снег, nieve)","hi":"आदि-हिंद-यूरोपीय *sneygʷʰ- (snow, снег, nieve)","de":"urindogermanisch *sneygʷʰ- (snow, снег, nieve)","fr":"le proto-indo-européen *sneygʷʰ- (snow, снег, nieve)","it":"il protoindoeuropeo *sneygʷʰ- (snow, снег, nieve)","es":"el protoindoeuropeo *sneygʷʰ- (snow, снег, nieve)","pt":"o proto-indo-europeu *sneygʷʰ- (snow, снег, nieve)","ru":"праиндоевропейское *sneygʷʰ- (snow, снег, nieve)","uk":"праіндоєвропейське *sneygʷʰ- (snow, снег, nieve)","ar":"الهندية الأوروبية الأم *sneygʷʰ- (snow، снег، nieve)","he":"הפרוטו-הודו-אירופית *sneygʷʰ- (snow, снег, nieve)","sw":"Kihindi-Kiulaya asilia *sneygʷʰ- (snow, снег, nieve)"},
@@ -2020,5 +2021,6 @@ WORDS.snow = {
     shp: ["oixewa", "oiʂɨwa"],  // IDS (Shipibo-Conibo).
     wbl: ["зәм", "zəm"],  // IE-CoR (Wakhi).
     obr: ["နှင်း", "n̥aŋh"],  // lexibank sagartst / lairgyalrong / wustphylogenies (Old Burmese).
+    btx: ["salju", "saldʒu"],  // Kamus Bahasa Indonesia–Karo (Pusat Bahasa 1998/99); Alkitab Karo (LAI), alkitab.mobi/karo.
   }
 };

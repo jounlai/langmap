@@ -1256,6 +1256,7 @@ WORDS.i = {
     btx: "aku",
     mqy: "aku",
     sxn: "aku",
+    hac: "h1me",
   },
   routes: {
     egh2: {"color":"#2563eb","emoji":"🌍","en":"Proto-Indo-European *éǵh₂ (I, yo, अहम्)","ja":"印欧祖語 *éǵh₂ (I, yo, अहम्)","ko":"인도유럽 조어 *éǵh₂ (I, yo, अहम्)","zh":"原始印欧语 *éǵh₂ (I, yo, अहम्)","yue":"原始印歐語 *éǵh₂ (I, yo, अहम्)","vi":"tiếng Ấn-Âu nguyên thủy *éǵh₂ (I, yo, अहम्)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *éǵh₂ (I, yo, अहम्)","id":"Proto-Indo-Eropa *éǵh₂ (I, yo, अहम्)","hi":"आदि-भारोपीय *éǵh₂ (I, yo, अहम्)","de":"urindogermanisch *éǵh₂ (I, yo, अहम्)","fr":"le proto-indo-européen *éǵh₂ (I, yo, अहम्)","it":"il protoindoeuropeo *éǵh₂ (I, yo, अहम्)","es":"el protoindoeuropeo *éǵh₂ (I, yo, अहम्)","pt":"o proto-indo-europeu *éǵh₂ (I, yo, अहम्)","ru":"праиндоевропейское *éǵh₂ (I, yo, अहम्)","uk":"праіндоєвропейське *éǵh₂ (I, yo, अहम्)","ar":"الهندو-أوروبية الأم *éǵh₂ (I، yo، अहम्)","he":"הפרוטו-הודו-אירופית *éǵh₂ (I, yo, अहम्)","sw":"Kihindi-Kiulaya asilia *éǵh₂ (I, yo, अहम्)"},
@@ -2516,6 +2517,6 @@ WORDS.i = {
     btx: ["aku", "aku"],
     mqy: ["aku", "aku"],
     sxn: ["iạ", "iaʔ"],
-    hac: ["—", "—"],
+    hac: ["min", "mɪn"],  // MacKenzie 1966, The Dialect of Awroman (Hawrāmān-ī Luhōn), page scans: archive.org/details/The_Dialect_of_Awroman.
   },
 };

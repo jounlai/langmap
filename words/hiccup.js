@@ -506,6 +506,8 @@ WORDS.hiccup = {
     ote: "plain",
     car: "plain",
     mhy: "plain",
+    btx: "plain",
+    mqy: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -964,5 +966,7 @@ WORDS.hiccup = {
     ote: ["nkʼu̲tsʼi", "nkʼɨtsʼi"],  // WOLD Otomi (Mezquital).
     car: ["sykywa", "sɨkɨwa"],  // WOLD Kali'na.
     mhy: ["ñeguʔ", "ɲeɡuʔ"],  // lexibank smithborneo (Maanyan).
+    btx: ["selket", "səlkət"],  // Woollams 1996, A Grammar of Karo Batak; Kamus Karo Online (kamuskaro.com, Indonesian–Karo).
+    mqy: ["jegok", "dʒəɡok"],  // Lon et al. 2018 Kamus (two entries).
   },
 };

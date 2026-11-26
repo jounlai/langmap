@@ -1252,6 +1252,7 @@ WORDS.blood = {
     btx: "daraq",
     mqy: "daraq",
     sxn: "daraq",
+    krj: "zuruq",
   },
   routes: {
     esh2r: {"color":"#2563eb","emoji":"🩸","en":"Proto-Indo-European *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","ja":"印欧祖語 *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","ko":"인도유럽 조어 *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","zh":"原始印欧语 *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","yue":"原始印歐語 *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","vi":"tiếng Ấn-Âu nguyên thủy *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","id":"Proto-Indo-Eropa *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","hi":"आदि-भारोपीय *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","de":"urindogermanisch *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","fr":"le proto-indo-européen *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","it":"il protoindoeuropeo *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","es":"el protoindoeuropeo *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","pt":"o proto-indo-europeu *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","ru":"праиндоевропейское *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","uk":"праіндоєвропейське *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","ar":"الهندو-أوروبية الأم *h₁ésh₂r̥ (𒂊𒌍𒄯، asinis، արյուն)","he":"הפרוטו-הודו-אירופית *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)","sw":"Kihindi-Kiulaya asilia *h₁ésh₂r̥ (𒂊𒌍𒄯, asinis, արյուն)"},
@@ -2519,6 +2520,6 @@ WORDS.blood = {
     btx: ["dareh", "darəh"],
     mqy: ["dara", "dara"],
     sxn: ["daha", "daha"],
-    krj: ["—", "—"],
+    krj: ["dugo", "duɡoʔ"],  // Marayum Kinaray-a–English Dictionary (UP Diliman/DOST), https://marayum.ph/kinaray-a-english/ , entry 1790.
   },
 };

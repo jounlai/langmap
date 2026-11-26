@@ -828,6 +828,8 @@ WORDS.tea = {
     hac: "cha",
     shu: "cha",
     mqy: "te",
+    hay: "cha",
+    tdd: "leaf",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1676,5 +1678,7 @@ WORDS.tea = {
     hac: ["çay", "tʃaːj"],
     shu: ["شاهي", "ʃaːhi"],
     mqy: ["té", "te"],
+    hay: ["ekyaai", "ekjaːi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
+    tdd: ["ᥘᥥᥒᥲ", "leŋ˧˩"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
   },
 };

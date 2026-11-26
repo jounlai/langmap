@@ -575,6 +575,7 @@ WORDS.germany = {
     jra: "deutsch",
     rsk: "nemets",
     izh: "saxon",
+    tdd: "germania",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -1090,5 +1091,6 @@ WORDS.germany = {
     jra: ["čar Đư̆k", "tʃaːɾ ɗɯk"],  // from Vietnamese Đức
     rsk: ["Нємецка", "ɲɛˈmɛtska"],
     izh: ["Saksa", "ˈsɑksɑ"],
+    tdd: ["ᥓᥛᥱᥛᥣᥱᥘᥤ", "tsam˩maː˩li˧"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
   },
 };

@@ -468,6 +468,9 @@ WORDS.milkyway = {
     xmf: "road",
     rsk: "milk",
     izh: "road",
+    btx: "other",
+    shu: "road",
+    tdd: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -880,5 +883,8 @@ WORDS.milkyway = {
     xmf: ["მეშხურეშ შარა", "meʃxureʃ ʃara"],  // Literally 'the shepherd's road'.
     rsk: ["Млєчна драга", "ˈmʎɛtʃna ˈdraɦa"],
     izh: ["Tähtirata", "ˈtæhtiˌrɑtɑ"],  // "star path"
+    btx: ["serese", "sərəsə"],  // Kamus Karo Online (kamuskaro.com, Indonesian–Karo).
+    shu: ["مرحال", "murhaːl"],  // SIL lexicon (Heath & Mahadi 2021, p.126).
+    tdd: ["ᥑᥨᥢᥴᥖᥣᥒᥰᥚᥤᥴ", "xon˧˥taːŋ˥pʰi˧˥"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
   },
 };

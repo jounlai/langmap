@@ -872,6 +872,7 @@ WORDS.silk = {
     cu: "sericum",
     txb: "plain",
     bbl: "plain",
+    btx: "sutra",
   },
   routes: {
     seta: {"color":"#2563eb","emoji":"🏛️","en":"Latin sēta (seda, soie, seta)","ja":"ラテン語 sēta (seda, soie, seta)","ko":"라틴어 sēta (seda, soie, seta)","zh":"拉丁语 sēta (seda, soie, seta)","yue":"拉丁語 sēta (seda, soie, seta)","vi":"tiếng Latinh sēta (seda, soie, seta)","th":"ภาษาละติน sēta (seda, soie, seta)","id":"bahasa Latin sēta (seda, soie, seta)","hi":"लातिन sēta (seda, soie, seta)","de":"lateinisch sēta (seda, soie, seta)","fr":"le latin sēta (seda, soie, seta)","it":"il latino sēta (seda, soie, seta)","es":"el latín sēta (seda, soie, seta)","pt":"o latim sēta (seda, soie, seta)","ru":"латинское sēta (seda, soie, seta)","uk":"латинське sēta (seda, soie, seta)","ar":"اللاتينية sēta (seda، soie، seta)","he":"הלטינית sēta (seda, soie, seta)","sw":"Kilatini sēta (seda, soie, seta)"},
@@ -1709,5 +1710,6 @@ WORDS.silk = {
     cu: ["шелкъ", "ʃelkŭ"],  // IDS (Old Church Slavonic).
     txb: ["𑀢𑁄𑀦𑁄", "tono"],  // IDS (Tocharian B).
     bbl: ["აფშრულ", "apʃrul"],  // IDS (Tsova-Tush).
+    btx: ["sutera", "sutəra"],  // Kamus Karo Online (kamuskaro.com, Indonesian–Karo); Siregar et al. 2001 Kamus Bahasa Karo–Indonesia; Alkitab Karo (LAI),.
   }
 };

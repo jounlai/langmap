@@ -736,6 +736,7 @@ WORDS.wednesday = {
     rtm: "count",
     ale: "middle",
     gez: "count",
+    hay: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"🐦‍⬛","en":"Woden's day (Wednesday, woensdag, onsdag)","ja":"ウォーデンの日（Wednesday, woensdag, onsdag）","ko":"보탄의 날 (Wednesday, woensdag, onsdag)","zh":"沃登之日（Wednesday、woensdag、onsdag）","yue":"沃登嘅日（Wednesday、woensdag、onsdag）","vi":"ngày của thần Woden (Wednesday, woensdag, onsdag)","th":"วันของเทพโวเดน (Wednesday, woensdag, onsdag)","id":"hari Dewa Woden (Wednesday, woensdag, onsdag)","hi":"वोडेन का दिन (Wednesday, woensdag, onsdag)","de":"Wodans Tag (Wednesday, woensdag, onsdag)","fr":"jour de Wotan (Wednesday, woensdag, onsdag)","it":"giorno di Wotan (Wednesday, woensdag, onsdag)","es":"día de Wotan (Wednesday, woensdag, onsdag)","pt":"dia de Wotan (Wednesday, woensdag, onsdag)","ru":"день Вотана (Wednesday, woensdag, onsdag)","uk":"день Вотана (Wednesday, woensdag, onsdag)","ar":"يوم وودن (Wednesday, woensdag, onsdag)","he":"יומו של וודן (Wednesday, woensdag, onsdag)","sw":"siku ya Woden (Wednesday, woensdag, onsdag)"},
@@ -1410,5 +1411,6 @@ WORDS.wednesday = {
     rtm: ["Rän folu", "ræn folu"],  // IDS.
     ale: ["Siridax̂", "siridaχ"],  // NorthEuraLex.
     gez: ["ረቡዕ", "rəbuʕ"],  // Feleke Semitic (lexibank felekesemitic).
+    hay: ["olwaakashatu", "olwaːkaʃatu"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
   },
 };

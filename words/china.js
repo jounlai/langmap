@@ -609,6 +609,8 @@ WORDS.china = {
     izh: "khitan",
     btx: "cina",
     mqy: "cina",
+    akl: "cina",
+    tdd: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -1164,5 +1166,7 @@ WORDS.china = {
     izh: ["Kitaja", "ˈkitɑːjɑ"],
     btx: ["Cina", "tʃina"],
     mqy: ["Cina", "tʃina"],
+    akl: ["Tsina", "ˈtʃina"],  // Salas Reyes, Zorc et al. 1969 (ERIC ED145704).
+    tdd: ["ᥛᥫᥒᥰᥔᥣᥒᥰᥗᥩᥭᥰ", "məŋ˥saːŋ˥tʰɔj˥"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
   },
 };

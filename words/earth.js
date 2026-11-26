@@ -1229,6 +1229,7 @@ WORDS.earth = {
     btx: "taneq",
     mqy: "taneq",
     sxn: "taneq",
+    hac: "dheghom",
   },
   routes: {
     dheghom: {"color":"#2563eb","emoji":"🌍","en":"Proto-Indo-European *dʰéǵʰōm (земля, žemė, dhe)","ja":"インド・ヨーロッパ祖語 *dʰéǵʰōm (земля, žemė, dhe)","ko":"인도유럽 조어 *dʰéǵʰōm (земля, žemė, dhe)","zh":"原始印欧语 *dʰéǵʰōm (земля, žemė, dhe)","yue":"原始印歐語 *dʰéǵʰōm (земля, žemė, dhe)","vi":"tiếng Ấn-Âu nguyên thủy *dʰéǵʰōm (земля, žemė, dhe)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *dʰéǵʰōm (земля, žemė, dhe)","id":"Proto-Indo-Eropa *dʰéǵʰōm (земля, žemė, dhe)","hi":"आदि-भारोपीय *dʰéǵʰōm (земля, žemė, dhe)","de":"urindogermanisch *dʰéǵʰōm (земля, žemė, dhe)","fr":"le proto-indo-européen *dʰéǵʰōm (земля, žemė, dhe)","it":"il protoindoeuropeo *dʰéǵʰōm (земля, žemė, dhe)","es":"el protoindoeuropeo *dʰéǵʰōm (земля, žemė, dhe)","pt":"o proto-indo-europeu *dʰéǵʰōm (земля, žemė, dhe)","ru":"праиндоевропейское *dʰéǵʰōm (земля, žemė, dhe)","uk":"праіндоєвропейське *dʰéǵʰōm (земля, žemė, dhe)","ar":"الهندية الأوروبية الأم *dʰéǵʰōm (земля، žemė، dhe)","he":"הפרוטו-הודו-אירופית *dʰéǵʰōm (земля, žemė, dhe)","sw":"Kihindi-Ulaya asilia *dʰéǵʰōm (земля, žemė, dhe)"},
@@ -2469,5 +2470,6 @@ WORDS.earth = {
     btx: ["taneh", "tanəh"],
     mqy: ["tana", "tana"],
     sxn: ["ěntana", "əntana"],
+    hac: ["zemîn", "zamiːn"],  // MacKenzie 1966, The Dialect of Awroman (Hawrāmān-ī Luhōn), page scans: archive.org/details/The_Dialect_of_Awroman; Kurdi.
   }
 };

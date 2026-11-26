@@ -819,6 +819,7 @@ WORDS.n99 = {
     bnn: "dec",
     gor: "mult",
     cr: "sub",
+    izh: "mult",
   },
   routes: {
     dec: {
@@ -1651,5 +1652,6 @@ WORDS.n99 = {
     bnn: ["masivaun han siva", "masivaun han siva"],
     gor: ["tio lopulaa tio", "tio lopulaː tio"],
     cr: ["ᑫᑳᐨ ᒥᑖᑕᐦᑐᒥᑕᓇᐤ", "keːkaːtʃ mitaːtahtomitanaw"],  // Literally 'almost a hundred'.
+    izh: ["yheksänkymment yheksän", "ˈyheksænˌkymːeːnt ˈyheksæn"],  // V. Chernyavsky, Ižoran keel (Ittseopastaja) / Ижорский язык (Самоучитель), 'Kardinaalit 20-99' (archived http://lingvist.
   }
 };

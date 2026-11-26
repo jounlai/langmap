@@ -1069,6 +1069,8 @@ WORDS.hello = {
     izh: "terve",
     btx: "plain",
     mqy: "plain",
+    akl: "kumusta",
+    shu: "salam",
   },
   routes: {
     salam: {"color":"#2563eb","emoji":"🕊️","en":"Semitic root š-l-m 'peace, wholeness' (سلام, שלום, ሰላም)","ja":"セム語根 š-l-m「平安・無事」 (سلام, שלום, ሰላም)","ko":"셈어 어근 š-l-m ‘평안’ (سلام, שלום, ሰላም)","zh":"闪米特词根 š-l-m“平安” (سلام, שלום, ሰላም)","yue":"閃米特詞根 š-l-m「平安」 (سلام, שלום, ሰላም)","vi":"gốc Semit š-l-m 'bình an' (سلام, שלום, ሰላም)","th":"รากศัพท์เซมิติก š-l-m 'สันติ ความสมบูรณ์' (سلام, שלום, ሰላም)","id":"akar Semit š-l-m 'damai, selamat' (سلام, שלום, ሰላም)","hi":"सामी धातु š-l-m 'शांति, कुशल' (سلام, שלום, ሰላም)","de":"semitische Wurzel š-l-m „Frieden, Heil“ (سلام, שלום, ሰላም)","fr":"la racine sémitique š-l-m « paix, intégrité » (سلام, שלום, ሰላም)","it":"la radice semitica š-l-m 'pace, integrità' (سلام, שלום, ሰላም)","es":"la raíz semítica š-l-m 'paz, integridad' (سلام, שלום, ሰላም)","pt":"a raiz semítica š-l-m 'paz, integridade' (سلام, שלום, ሰላም)","ru":"семитский корень š-l-m «мир, целость» (سلام, שלום, ሰላም)","uk":"семітський корінь š-l-m «мир, цілість» (سلام, שלום, ሰላም)","ar":"الجذر السامي š-l-m «السلام» (سلام، שלום، ሰላም)","he":"השורש השמי ש-ל-ם 'שלום, שלמות' (سلام, שלום, ሰላም)","sw":"mzizi wa Kisemiti š-l-m 'amani, uzima' (سلام, שלום, ሰላም)"},
@@ -2307,14 +2309,14 @@ WORDS.hello = {
     btx: ["mejuah-juah", "mədʒuah dʒuah"],  // a wish of well-being used as the greeting
     mqy: ["tabé", "tabe"],
     sxn: ["—", "—"],
-    shu: ["—", "—"],
     hac: ["—", "—"],
     gwc: ["—", "—"],
     rad: ["—", "—"],
     ibg: ["—", "—"],
     krj: ["—", "—"],
-    akl: ["—", "—"],
     hay: ["—", "—"],
     tdd: ["—", "—"],
+    akl: ["kamusta", "kaˈmusta"],  // Salas Reyes, Zorc et al. 1969 (ERIC ED145704).
+    shu: ["السلام عليكم", "as-salaːm aleːkum"],  // Chadian Arabic Bible (bible.com/bible/502) + Peace Corps, Spoken Chad Arabic 1966.
   }
 };

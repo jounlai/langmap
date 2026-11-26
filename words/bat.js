@@ -833,6 +833,7 @@ WORDS.bat = {
     bbl: "other",
     wmt: "plain",
     bbc: "plain",
+    rad: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1629,5 +1630,6 @@ WORDS.bat = {
     bbl: ["ღამურ", "ɣaːmur"],  // IDS (lexibank ids), Tsova-Tush.
     wmt: ["pinyjirrmyi", "piɲɟirmji"],  // Hunter-Gatherer DB (lexibank huntergatherer).
     bbc: ["arip-arip", "aripˈarip"],  // DiACL (lexibank diacl).
+    rad: ["rit", "rit"],  // Tharp & Buon-ya 1980, A Rhade-English dictionary (PL C-58), https://openresearch-repository.anu.edu.au/bitstream/1885/14.
   },
 };

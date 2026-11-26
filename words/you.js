@@ -1248,6 +1248,7 @@ WORDS.you = {
     btx: "kasu",
     mqy: "kasu",
     sxn: "kasu",
+    hac: "tuh",
   },
   routes: {
     tuh: {"color":"#2563eb","emoji":"🌍","en":"Proto-Indo-European *túh₂ (tū, ты, त्वम्)","ja":"印欧祖語 *túh₂ (tū, ты, त्वम्)","ko":"인도유럽 조어 *túh₂ (tū, ты, त्वम्)","zh":"原始印欧语 *túh₂ (tū, ты, त्वम्)","yue":"原始印歐語 *túh₂ (tū, ты, त्वम्)","vi":"tiếng Ấn-Âu nguyên thủy *túh₂ (tū, ты, त्वम्)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *túh₂ (tū, ты, त्वम्)","id":"Proto-Indo-Eropa *túh₂ (tū, ты, त्वम्)","hi":"आदि-हिन्द-यूरोपीय *túh₂ (tū, ты, त्वम्)","de":"urindogermanisch *túh₂ (tū, ты, त्वम्)","fr":"le proto-indo-européen *túh₂ (tū, ты, त्वम्)","it":"il protoindoeuropeo *túh₂ (tū, ты, त्वम्)","es":"el protoindoeuropeo *túh₂ (tū, ты, त्वम्)","pt":"o proto-indo-europeu *túh₂ (tū, ты, त्वम्)","ru":"праиндоевропейское *túh₂ (tū, ты, त्वम्)","uk":"праіндоєвропейське *túh₂ (tū, ты, त्वम्)","ar":"الهندية الأوروبية الأم *túh₂ (tū، ты، त्वम्)","he":"הפרוטו-הודו-אירופית *túh₂ (tū, ты, त्वम्)","sw":"Kihindi-Kiulaya asilia *túh₂ (tū, ты, त्वम्)"},
@@ -2510,6 +2511,6 @@ WORDS.you = {
     btx: ["engko", "əŋko"],  // familiar; polite kam
     mqy: ["hau", "hau"],
     sxn: ["kau", "kau"],
-    hac: ["—", "—"],
+    hac: ["to", "toː"],  // MacKenzie 1966, The Dialect of Awroman (Hawrāmān-ī Luhōn), page scans: archive.org/details/The_Dialect_of_Awroman.
   },
 };

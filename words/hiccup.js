@@ -488,6 +488,24 @@ WORDS.hiccup = {
     krj: "sinok",
     rad: "unknown",
     izh: "imitative",
+    ar_ps: "other",
+    ar_iq: "other",
+    ks: "imitative",
+    fa_clas: "imitative",
+    sah: "plain",
+    tt: "plain",
+    mhr: "plain",
+    koi: "plain",
+    fo: "imitative",
+    ko_bus: "imitative",
+    ko_jl: "imitative",
+    ko_hg: "plain",
+    ko_jeju: "plain",
+    jam: "imitative",
+    ket: "plain",
+    ote: "plain",
+    car: "plain",
+    mhy: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -928,5 +946,23 @@ WORDS.hiccup = {
     krj: ["sid-o", "sidʔo"],
     rad: ["tơ̆k mnao", "tək mnaːw"],  // verb
     izh: ["nikko", "ˈnikːoi"],
+    ar_ps: ["حازوقة", "ħaːˈzuːʔa"],  // Living Arabic Project, Levantine Arabic-English dictionary (examples tagged [P] = Palestinian).
+    ar_iq: ["شهيقة", "ʃihˈhajɡa"],  // Living Arabic Project, Iraqi Arabic dictionary.
+    ks: ["ہیُٛک", "hʲuk"],  // Turner CDIAL 14075 + Grierson, A Dictionary of the Kashmiri Language (DSAL).
+    fa_clas: ["سکسکه", "saksaka"],  // Steingass, A Comprehensive Persian-English Dictionary (1892), p.689 (DSAL).
+    sah: ["бөтүү", "bøˈtyː"],  // SakhaTyla.Ru (Yakut explanatory + Russian-Yakut dictionaries).
+    tt: ["очкылык", "otɕqɯˈlɯq"],  // ru.wiktionary очкылык (Tatar) + en.wiktionary hiccup translations.
+    mhr: ["ӱгынчыш", "ˈyɡəntʃəʃ"],  // Akusanat (Mhr:ӱгынчыш).
+    koi: ["витшык", "ˈvitʃɨk"],  // Akusanat (Koi:витшык).
+    fo: ["histi", "ˈhɪstɪ"],  // Sprotin, Føroysk-føroysk orðabók.
+    ko_bus: ["깔딱질", "k͈alt͈ak̚t͈ɕil"],  // 우리말샘.
+    ko_jl: ["포깍질", "pʰok͈ak̚t͈ɕil"],  // 우리말샘.
+    ko_hg: ["패기", "pʰɛɡi"],  // 우리말샘.
+    ko_jeju: ["탈고지", "tʰalɡodʑi"],  // 우리말샘.
+    jam: ["ikop", "ikɔp"],  // IDS (Jamaican Creole, Limonese Creole dialect).
+    ket: ["элай", "ɛlaj"],  // WOLD Ket.
+    ote: ["nkʼu̲tsʼi", "nkʼɨtsʼi"],  // WOLD Otomi (Mezquital).
+    car: ["sykywa", "sɨkɨwa"],  // WOLD Kali'na.
+    mhy: ["ñeguʔ", "ɲeɡuʔ"],  // lexibank smithborneo (Maanyan).
   },
 };

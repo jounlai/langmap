@@ -419,6 +419,14 @@ WORDS.sunflower = {
     jra: "sun",
     rsk: "sun",
     izh: "other",
+    inh: "plain",
+    nog: "turn",
+    ar_ma: "sun",
+    arq: "other",
+    haw: "turn",
+    nch: "other",
+    nhe: "other",
+    quz: "sun",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -785,5 +793,13 @@ WORDS.sunflower = {
     jra: ["bơnga yang hrơi", "bəŋaː jaːŋ hɾəːj"],
     rsk: ["слунечнїк", "sluˈnɛtʃɲik"],
     izh: ["seemecka", "ˈseːmetʃkɑ"],  // from Russian семечко "seed"
+    inh: ["гидуарг", "ɡiduarɡ"],  // ru.wiktionary гидуарг (Ingush).
+    nog: ["куьнайлан", "kynajˈlan"],  // ru.wiktionary куьнайлан (Nogai).
+    ar_ma: ["نوار الشمش", "nuwwaːrˤ ʃʃəmʃ"],  // de.wiktionary Sonnenblume, citing Moscoso García, Diccionario español–árabe marroquí (2005) s.v. Girasol p.141.
+    arq: ["دارة الشمس", "daːrət ʃʃəms"],  // de.wiktionary Sonnenblume, citing Ben Sedira, Dictionnaire français-arabe de la langue parlée en Algérie (1910) p.633.
+    haw: ["nānālā", "naːnaːlaː"],  // English Wiktionary (nānā; sunflower translations).
+    nch: ["chimalxochitl", "tʃimalˈʃotʃitɬ"],  // Spanish Wiktionary (chimalxochitl).
+    nhe: ["chimalxochitl", "tʃimalˈʃotʃitɬ"],  // Spanish Wiktionary (chimalxochitl).
+    quz: ["inti tʼika", "ˈinti ˈtʼika"],  // Spanish Wiktionary (inti t'ika).
   },
 };

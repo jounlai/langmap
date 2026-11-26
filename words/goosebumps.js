@@ -280,6 +280,12 @@ WORDS.goosebumps = {
     guz: "plain",
     rsk: "other",
     izh: "other",
+    ga: "other",
+    pdt: "bird",
+    mk: "plain",
+    lv: "bird",
+    krl: "other",
+    wuu_sz: "other",
   },
   family2: {
     ko: "bird",
@@ -510,5 +516,11 @@ WORDS.goosebumps = {
     guz: ["ebinyomba", "eβiɲomba"],
     rsk: ["мраз", "mras"],  // also frost
     izh: ["kylmäsuurima", "ˈkylmæˌsuːrimɑ"],  // singular; literally "cold groat"
+    ga: ["cáithníní", "ˈkaːhnʲiːnʲiː"],  // en.wiktionary cáithnín.
+    pdt: ["Gaunsefleesch", "ˈɡaʊnzəfleːʃ"],  // en.wiktionary Gaunsefleesch.
+    mk: ["се наежи", "sɛ ˈnaɛʒi"],  // en.wiktionary се наежи.
+    lv: ["zosāda", "ˈzuɔsaːda"],  // en.wiktionary zosāda (ref. SDTV).
+    krl: ["hipiehiiri", "ˈhipie̯ˌhiːri"],  // en.wiktionary hipiehiiri (ref. KKS).
+    wuu_sz: ["寒毛痱子", "ɦɵ˨˨˧ mɐ˨˨˧ bᴇ˨˧˩ tsɿ˥˩"],  // en.wiktionary Module:dialect synonyms/zh/雞皮疙瘩; MCPDict 蘇州.
   },
 };

@@ -377,7 +377,7 @@ WORDS.pineapple = {
     wa: "nanas",
     tet: "nanas",
     tzo: "other",
-    mam: "other",
+    mam: "matzahtli",
     nhw: "matzahtli",
     sah: "nanas",
     kum: "nanas",
@@ -519,6 +519,20 @@ WORDS.pineapple = {
     btx: "nanas",
     mqy: "pandan",
     sxn: "nanas",
+    fo: "nanas",
+    vec: "nanas",
+    krc: "nanas",
+    nog: "nanas",
+    abq: "nanas",
+    wym: "nanas",
+    sma: "nanas",
+    wuu_wz: "boluo",
+    sg: "nanas",
+    agr: "pine",
+    toj: "other",
+    quc: "other",
+    ixl: "matzahtli",
+    kjb: "matzahtli",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -1018,5 +1032,19 @@ WORDS.pineapple = {
     btx: ["kenas", "kənas"],
     mqy: ["pandang", "paⁿdaŋ"],
     sxn: ["nanasi", "nanasi"],
+    fo: ["ananas", "ˈɛaːnanas"],  // English Wiktionary 'ananas' (Faroese), ref. sprotin.fo.
+    vec: ["ànanas", "ˈananas"],  // Venetian Wiktionary 'ànanas' (ref. Boerio p.33).
+    krc: ["ананас", "anaˈnas"],  // Russian Wiktionary 'ананас' (Karachay-Balkar section).
+    nog: ["ананас", "anaˈnas"],  // Russian Wiktionary 'ананас' (Nogai section).
+    abq: ["ананас", "ananas"],  // Russian Wiktionary 'ананас' (Abaza section).
+    wym: ["ȧnȧnȧs", "ˈananas"],  // Polish Wiktionary 'ȧnȧnȧs' (język wilamowski).
+    sma: ["aananase", "ˈɑːnanasɛ"],  // Swedish Wiktionary 'aananase' (Sydsamiska); sv 'ananas' translation table.
+    wuu_wz: ["菠萝", "pu˧˧ lɤu˧˩"],  // English Wiktionary dial-syn for 菠蘿 (Wenzhou); MCPDict 溫州 readings.
+    sg: ["ananäa", "anana"],  // fr.wiktionary ananäa (ref. SIL Sango 1995).
+    agr: ["pina", "pina"],  // lexibank huntergatherer (CLDF), param 231_pineapple (Overall 2007; Wipiu 1996).
+    toj: ["pajakʼ", "pahakʼ"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
+    quc: ["chʼop", "tʃʼop"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
+    ixl: ["matzaatiʼ", "matsaːtiʔ"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
+    kjb: ["matzaj", "matsax"],  // Kaufman, Preliminary Mayan Etymological Dictionary (2003), PINEAPPLE p.1164-65.
   },
 };

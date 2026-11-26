@@ -500,6 +500,24 @@ WORDS.dragonfly = {
     rad: "plain",
     izh: "creature",
     btx: "plain",
+    ko_hg: "jamjari",
+    ko_jl: "jamjari",
+    ko_yb: "plain",
+    sco: "creature",
+    haw: "plain",
+    mrq: "plain",
+    ty: "plain",
+    tvl: "plain",
+    pkp: "plain",
+    fj: "plain",
+    chk: "plain",
+    shp: "plain",
+    atj: "plain",
+    iu: "plain",
+    ses: "plain",
+    kea: "creature",
+    djr: "plain",
+    chy: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -955,5 +973,23 @@ WORDS.dragonfly = {
     rad: ["tăng măng", "taŋ maŋ"],
     izh: ["suenkorenta", "ˈsuenˌkorentɑ"],  // literally "wolf's yoke"
     btx: ["siri-siri", "siri siri"],  // KI also keser-keser 'a kind of dragonfly'
+    ko_hg: ["잼자리", "tɕɛmdʑaɾi"],  // 우리말샘 (opendict.korean.go.kr).
+    ko_jl: ["자마리", "tɕamaɾi"],  // 우리말샘 (opendict.korean.go.kr).
+    ko_yb: ["소곰재", "soɡomdʑɛ"],  // 우리말샘 (opendict.korean.go.kr).
+    sco: ["etherbell", "ˈɛðərbɛl"],  // Scottish National Dictionary (DSL), Ether n.2.
+    haw: ["pīnao", "piːnao"],  // POLLEX + en.wiktionary translation table.
+    mrq: ["pinaʻo", "pinaʔo"],  // POLLEX-Online (pollex.org.nz), reflex search 'dragonfly'/'libellule'.
+    ty: ["pīʻao", "piːʔao"],  // POLLEX-Online (pollex.org.nz), reflex search 'dragonfly'/'libellule'.
+    tvl: ["fakamuu", "fakamuː"],  // POLLEX-Online (pollex.org.nz), reflex search 'dragonfly'/'libellule'.
+    pkp: ["pepe", "pepe"],  // POLLEX-Online (pollex.org.nz), reflex search 'dragonfly'/'libellule'.
+    fj: ["caicaiwai", "ðaiðaiwai"],  // POLLEX-Online (pollex.org.nz), reflex search 'dragonfly'/'libellule'.
+    chk: ["wochááp", "wotʃaːp"],  // Micronesian Comparative Dictionary (lexibank mcd).
+    shp: ["santen", "santɨn"],  // Amazonian Voices (lexibank amazonianvoices).
+    atj: ["tciekanakacic", "tʃiekanakaʃiʃ"],  // fr.wiktionary.
+    iu: ["ᑭᑦᑐᓯᖅ", "kitːusiq"],  // fr.wiktionary; SIKU wildlife profile.
+    ses: ["abba-hanša-hanša", "abːahanʃahanʃa"],  // fr.wiktionary.
+    kea: ["kabálu-fitisera", "kaˈbalu fitiˈseɾɐ"],  // pt.wiktionary.
+    djr: ["ḏikarr", "ɖikar"],  // Yolŋu Matha Dictionary (CDU); en.wiktionary Dhuwal.
+    chy: ["hevovetāso", "hevovetaso"],  // Cheyenne Dictionary (cheyennelanguage.org).
   },
 };

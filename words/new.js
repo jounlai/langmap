@@ -1197,6 +1197,8 @@ WORDS.new = {
     sxn: "baqeruh",
     hno: "newos",
     vmf: "newos",
+    mwk: "plain",
+    adi: "plain",
   },
   routes: {
     newos: {"color":"#2563eb","emoji":"🆕","en":"Proto-Indo-European *néwos / *néwyos (new, नया, новый)","ja":"印欧祖語 *néwos / *néwyos (new, नया, новый)","ko":"인도유럽 조어 *néwos / *néwyos (new, नया, новый)","zh":"原始印欧语 *néwos / *néwyos (new, नया, новый)","yue":"原始印歐語 *néwos / *néwyos (new, नया, новый)","vi":"tiếng Ấn-Âu nguyên thủy *néwos / *néwyos (new, नया, новый)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *néwos / *néwyos (new, नया, новый)","id":"Proto-Indo-Eropa *néwos / *néwyos (new, नया, новый)","hi":"आदि-भारोपीय *néwos / *néwyos (new, नया, новый)","de":"urindogermanisch *néwos / *néwyos (new, नया, новый)","fr":"le proto-indo-européen *néwos / *néwyos (new, नया, новый)","it":"il protoindoeuropeo *néwos / *néwyos (new, नया, новый)","es":"el protoindoeuropeo *néwos / *néwyos (new, नया, новый)","pt":"o proto-indo-europeu *néwos / *néwyos (new, नया, новый)","ru":"праиндоевропейское *néwos / *néwyos (new, नया, новый)","uk":"праіндоєвропейське *néwos / *néwyos (new, नया, новый)","ar":"الهندية الأوروبية الأم *néwos / *néwyos (new، नया، новый)","he":"הפרוטו-הודו-אירופית *néwos / *néwyos (new, नया, новый)","sw":"Kihindi-Ulaya asilia *néwos / *néwyos (new, नया, новый)"},
@@ -2403,5 +2405,7 @@ WORDS.new = {
     sxn: ["buhu", "buhu"],
     hno: ["نواں", "nəʋãː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     vmf: ["nei", "naɪ"],  // Wiktionary (en) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    mwk: ["kuda", "kuda"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["ani", "ani"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
   }
 };

@@ -1860,7 +1860,7 @@ WORDS.cat = {
     emk: ["ɲaari", "ɲaːɾi"],
     kao: ["jakuma", "dʒakuma"],
     snk: ["muusine", "muːsine"],
-    mwk: ["ñaakuma", "ɲaːkuma"],
+    mwk: ["jankuma", "dʒankuma"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["ɲaaro", "ɲaːɾo"],
     mev: ["poso", "poso"],
     dnj: ["gwa̋n", "ɡwã̋"],

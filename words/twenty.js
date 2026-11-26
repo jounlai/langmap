@@ -958,6 +958,13 @@ WORDS.twenty = {
     fvr: "tens",
     haj: "fused",
     mfa: "tens",
+    psi: "fused",
+    mwk: "plain",
+    adi: "tens",
+    aiw: "plain",
+    ker: "tens",
+    mkz: "tens",
+    squ: "plain",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1855,5 +1862,12 @@ WORDS.twenty = {
     fvr: ["wèyèŋa òù", "wèjèŋa òù"],  // Jakobi (1989) Fur numerals in Chan, Numeral Systems of the World's Languages.
     haj: ["bis", "bis"],  // Omniglot, Numbers in Hajong (https://www.omniglot.com/language/numbers/hajong.htm) + English Wiktionary, বিশ (Hajong sec.
     mfa: ["duo-puloh", "duɔ puloh"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
+    psi: ["وېست", "west"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["mukan", "mukan"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["iying anyi", "ijiŋ aɲi"],  // Lalrempuii, C. (2005) Morphology of the Adi Language of Arunachal Pradesh. PhD thesis, NEHU (https://dspace.nehu.ac.in/s.
+    aiw: ["bonda", "bonda"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    ker: ["hor hor ɓasi", "hòɾ hòɾ ɓásí"],  // Chan, Eugene S.L. Numeral Systems of the World's Languages: Kera (data Hainaut 1994, Pearce 2008).
+    mkz: ["ruulola’e", "ruːlolaʔe"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    squ: ["wetlʼch", "wətɬʼtʃ"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
   },
 };

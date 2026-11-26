@@ -1197,6 +1197,7 @@ WORDS.sleep = {
     sxn: "plain",
     fan: "plain",
     nlc: "plain",
+    mwk: "plain",
   },
   routes: {
     swep: {"color":"#2563eb","emoji":"😴","en":"Proto-Indo-European *swep- (sova, спать, सोना)","ja":"印欧祖語 *swep- (sova, спать, सोना)","ko":"인도유럽 조어 *swep- (sova, спать, सोना)","zh":"原始印欧语 *swep- (sova, спать, सोना)","yue":"原始印歐語 *swep- (sova, спать, सोना)","vi":"tiếng Ấn-Âu nguyên thủy *swep- (sova, спать, सोना)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *swep- (sova, спать, सोना)","id":"Proto-Indo-Eropa *swep- (sova, спать, सोना)","hi":"आदि-भारोपीय *swep- (sova, спать, सोना)","de":"urindogermanisch *swep- (sova, спать, सोना)","fr":"le proto-indo-européen *swep- (sova, спать, सोना)","it":"il protoindoeuropeo *swep- (sova, спать, सोना)","es":"el protoindoeuropeo *swep- (sova, спать, सोना)","pt":"o proto-indo-europeu *swep- (sova, спать, सोना)","ru":"праиндоевропейское *swep- (sova, спать, सोना)","uk":"праіндоєвропейське *swep- (sova, спать, सोना)","ar":"الهندو-أوروبية الأم *swep- (sova، спать، सोना)","he":"הפרוטו-הודו-אירופית *swep- (sova, спать, सोना)","sw":"Kihindi-Kiulaya asilia *swep- (sova, спать, सोना)"},
@@ -2440,5 +2441,6 @@ WORDS.sleep = {
     sxn: ["mětikị", "mətikiʔ"],
     fan: ["oyo", "ojo"],  // Grollemund Bantu (lexibank grollemundbantu).
     nlc: ["hung mab", "huŋ mab"],  // TransNewGuinea.org + ASJP (lexibank).
+    mwk: ["sinoko", "sinoko"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
   },
 };

@@ -1886,7 +1886,7 @@ WORDS.red = {
     emk: ["wulen", "wulen"],
     kao: ["wuleŋ", "wuleŋ"],
     snk: ["dunbe", "dumbe"],
-    mwk: ["bilen", "bilen"],
+    mwk: ["wule", "wule"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["wulen", "wulẽ"],
     mev: ["zóló", "zóló"],
     dnj: ["tɛ̋ɛn", "tɛ̃̋ː"],

@@ -605,6 +605,9 @@ WORDS.littlefinger = {
     hay: "other",
     sxn: "unknown",
     tdd: "plain",
+    adi: "plain",
+    aiw: "plain",
+    squ: "child",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1161,5 +1164,8 @@ WORDS.littlefinger = {
     hay: ["akaala keeleela", "akaːla keːleːla"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     sxn: ["kěnungtemang", "kənuŋtemaŋ"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
     tdd: ["ᥟᥤᥒᥱᥟᥩᥭᥲ", "ʔiŋ˩ʔɔj˧˩"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
+    adi: ["keeyi", "keːji"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
+    aiw: ["fiiset", "fiːset"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    squ: ["saw̓tḵwúy̓ach", "sawʔtqʷujʔatʃ"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
   },
 };

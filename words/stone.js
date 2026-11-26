@@ -1232,6 +1232,9 @@ WORDS.stone = {
     mqy: "batux",
     sxn: "batux",
     vmf: "stainaz",
+    psi: "plain",
+    mwk: "plain",
+    adi: "plain",
   },
   routes: {
     akmo: {"color":"#2563eb","emoji":"🗿","en":"Proto-Indo-European *h₂éḱmō (akmuo, камень, kamień)","ja":"印欧祖語 *h₂éḱmō (akmuo, камень, kamień)","ko":"인도유럽 조어 *h₂éḱmō (akmuo, камень, kamień)","zh":"原始印欧语 *h₂éḱmō (akmuo, камень, kamień)","yue":"原始印歐語 *h₂éḱmō (akmuo, камень, kamień)","vi":"tiếng Ấn-Âu nguyên thủy *h₂éḱmō (akmuo, камень, kamień)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₂éḱmō (akmuo, камень, kamień)","id":"Proto-Indo-Eropa *h₂éḱmō (akmuo, камень, kamień)","hi":"आदि-भारोपीय *h₂éḱmō (akmuo, камень, kamień)","de":"urindogermanisch *h₂éḱmō (akmuo, камень, kamień)","fr":"le proto-indo-européen *h₂éḱmō (akmuo, камень, kamień)","it":"il protoindoeuropeo *h₂éḱmō (akmuo, камень, kamień)","es":"el protoindoeuropeo *h₂éḱmō (akmuo, камень, kamień)","pt":"o proto-indo-europeu *h₂éḱmō (akmuo, камень, kamień)","ru":"праиндоевропейское *h₂éḱmō (akmuo, камень, kamień)","uk":"праіндоєвропейське *h₂éḱmō (akmuo, камень, kamień)","ar":"الهندو-أوروبية الأم *h₂éḱmō (akmuo، камень، kamień)","he":"הפרוטו-הודו-אירופית *h₂éḱmō (akmuo, камень, kamień)","sw":"Kihindi-Kiulaya asilia *h₂éḱmō (akmuo, камень, kamień)"},
@@ -2458,5 +2461,8 @@ WORDS.stone = {
     mqy: ["watu", "vatu"],
     sxn: ["batu", "batu"],
     vmf: ["Staa", "ʃtaː"],  // de.wikipedia Ostfränkische Dialekte (vowel table) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["واړ", "waːɽ"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["kuru", "kuɾu"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["eling", "eliŋ"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
   },
 };

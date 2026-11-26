@@ -701,6 +701,9 @@ WORDS.maize = {
     bah: "grain",
     dyo: "place",
     ets: "plain",
+    agq: "plain",
+    aiw: "plain",
+    mkz: "plain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -1377,5 +1380,8 @@ WORDS.maize = {
     bah: ["corn", "kɔːn"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
     dyo: ["bakontibaab", "bakontibaːb"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
     ets: ["ọka", "ɔka"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    agq: ["ésɔ́", "ésɔ́"],  // Attia, Lilian Mbi (2004) Borrowing and Standardization in Aghem, Maîtrise dissertation, University of Yaoundé I (MPI Lan.
+    aiw: ["patri", "patri"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    mkz: ["teli", "teli"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

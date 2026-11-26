@@ -1950,7 +1950,7 @@ WORDS.heart = {
     emk: ["jusu", "dʒusu"],
     kao: ["dusu", "dusu"],
     snk: ["sondonme", "sondonme"],
-    mwk: ["dusu", "dusu"],
+    mwk: ["son", "son"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["jusukunŋo", "dʒusukũŋo"],
     mev: ["zò", "zo˩"],
     dnj: ["zūʌ̋", "zūʌ̋"],

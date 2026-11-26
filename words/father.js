@@ -1971,7 +1971,7 @@ WORDS.father = {
     emk: ["fa", "fa"],
     kao: ["fa", "fa"],
     snk: ["baaba", "baːba"],
-    mwk: ["fa", "fa"],
+    mwk: ["ha", "ha"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["ha", "ha"],
     mev: ["dàa", "dàː"],
     dnj: ["dʌ̄", "dʌ̄"],

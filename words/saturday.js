@@ -755,6 +755,10 @@ WORDS.saturday = {
     fia: "plain",
     mfa: "sabbath",
     vmf: "sabbath",
+    psi: "other",
+    agq: "unknown",
+    khq: "sabbath",
+    mkz: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1452,5 +1456,9 @@ WORDS.saturday = {
     fia: ["saantée", "saːntéː"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     mfa: ["Sabtu", "sabtu"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["Samsdi", "ˈsamsdɪ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["خالی", "xaːli"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    agq: ["tsuʔndzɨkɔʔɔ", "tsuʔndzɨkɔʔɔ"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
+    khq: ["Assabdu", "asːabdu"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
+    mkz: ["watu-sabadu", "watu sabadu"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

@@ -1069,6 +1069,13 @@ WORDS.tomorrow = {
     fia: "plain",
     mfa: "morning",
     vmf: "morning",
+    psi: "morning",
+    mwk: "sini",
+    agq: "plain",
+    aiw: "plain",
+    ker: "plain",
+    khq: "plain",
+    mkz: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -2093,5 +2100,12 @@ WORDS.tomorrow = {
     fia: ["wallo", "walːo"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     mfa: ["esok", "ɛsɔʔ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967; UCLA Phonetics Archive mfa word .
     vmf: ["morng", "ˈmɔrŋ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["سبا", "sabaː"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["sinin", "sinin"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    agq: ["tsʉtsʉ", "tsʉtsʉ"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
+    aiw: ["shenak", "ʃenak"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    ker: ["dibiini", "dìbììnì"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
+    khq: ["suba", "suba"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
+    mkz: ["usamale", "usamale"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

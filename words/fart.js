@@ -363,6 +363,8 @@ WORDS.fart = {
     sxn: "qetut",
     luz: "plain",
     vmf: "perd",
+    adi: "plain",
+    aiw: "plain",
   },
   routes: {
     perd: {"color":"#2563eb","emoji":"🌍","en":"Indo-European *perd- (fart, Furz, πορδή, पाद)","ja":"印欧祖語 *perd- (fart, Furz, πορδή, पाद)","ko":"인도유럽 조어 *perd- (fart, Furz, πορδή, पाद)","zh":"原始印欧语 *perd- (fart, Furz, πορδή, पाद)","yue":"原始印歐語 *perd- (fart, Furz, πορδή, पाद)","vi":"tiếng Ấn-Âu nguyên thủy *perd- (fart, Furz, πορδή, पाद)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *perd- (fart, Furz, πορδή, पाद)","id":"Proto-Indo-Eropa *perd- (fart, Furz, πορδή, पाद)","hi":"आदि-भारोपीय *perd- (fart, Furz, πορδή, पाद)","de":"indogermanisch *perd- (fart, Furz, πορδή, पाद)","fr":"l'indo-européen *perd- (fart, Furz, πορδή, पाद)","it":"l'indoeuropeo *perd- (fart, Furz, πορδή, पाद)","es":"el indoeuropeo *perd- (fart, Furz, πορδή, पाद)","pt":"o indo-europeu *perd- (fart, Furz, πορδή, पाद)","ru":"индоевропейское *perd- (fart, Furz, πορδή, पाद)","uk":"індоєвропейське *perd- (fart, Furz, πορδή, पाद)","ar":"الهندية الأوروبية الأم *perd- (fart، Furz، πορδή، पाद)","he":"ההודו-אירופית *perd- (fart, Furz, πορδή, पाद)","sw":"Kihindi-Kiulaya asilia *perd- (fart, Furz, πορδή, पाद)"},
@@ -674,5 +676,7 @@ WORDS.fart = {
     sxn: ["ětụ", "ətuʔ"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
     luz: ["tos", "tos"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی).
     vmf: ["Furz", "fʊrts"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    adi: ["epe", "epe"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
+    aiw: ["pus", "pus"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
   },
 };

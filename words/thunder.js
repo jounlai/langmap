@@ -972,6 +972,8 @@ WORDS.thunder = {
     nmf: "plain",
     oar: "raam",
     ets: "sky",
+    adi: "plain",
+    aiw: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1911,5 +1913,7 @@ WORDS.thunder = {
     nmf: ["langpar", "laŋpar"],  // Marrison Naga (lexibank).
     oar: ["רעמא", "raʕmaː"],  // IDS + Wiktionary.
     ets: ["avokhwili", "avoxwili"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    adi: ["doomir", "doːmir"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
+    aiw: ["guugin", "ɡuːɡin"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
   },
 };

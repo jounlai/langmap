@@ -957,6 +957,9 @@ WORDS.rainbow = {
     hay: "unknown",
     mqy: "plain",
     sxn: "unknown",
+    psi: "unknown",
+    aiw: "plain",
+    mkz: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1871,5 +1874,8 @@ WORDS.rainbow = {
     hay: ["omuhangazima", "omuaŋɡazima"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     mqy: ["toso-dimar", "toso dimar"],  // Manggarai NT 2013 + Lon et al. 2018 Kamus.
     sxn: ["děndipahě", "dəndipahəʔ"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
+    psi: ["سورکاڼ", "sorkaːɳ"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    aiw: ["zul", "zul"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    mkz: ["sawara’e", "sawaraʔe"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

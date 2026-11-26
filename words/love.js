@@ -1160,6 +1160,7 @@ WORDS.love = {
     shu: "hubb",
     btx: "plain",
     mqy: "plain",
+    aiw: "plain",
   },
   routes: {
     lewbh: {"color":"#2563eb","emoji":"❤️","en":"Proto-Indo-European *lewbʰ- (love, Liebe, любовь)","ja":"インド・ヨーロッパ祖語 *lewbʰ- (love, Liebe, любовь)","ko":"인도유럽 조어 *lewbʰ- (love, Liebe, любовь)","zh":"原始印欧语 *lewbʰ- (love, Liebe, любовь)","yue":"原始印歐語 *lewbʰ- (love, Liebe, любовь)","vi":"tiếng Ấn-Âu nguyên thủy *lewbʰ- (love, Liebe, любовь)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *lewbʰ- (love, Liebe, любовь)","id":"Proto-Indo-Eropa *lewbʰ- (love, Liebe, любовь)","hi":"आदि-भारोपीय *lewbʰ- (love, Liebe, любовь)","de":"urindogermanisch *lewbʰ- (love, Liebe, любовь)","fr":"le proto-indo-européen *lewbʰ- (love, Liebe, любовь)","it":"il protoindoeuropeo *lewbʰ- (love, Liebe, любовь)","es":"el protoindoeuropeo *lewbʰ- (love, Liebe, любовь)","pt":"o proto-indo-europeu *lewbʰ- (love, Liebe, любовь)","ru":"праиндоевропейское *lewbʰ- (love, Liebe, любовь)","uk":"праіндоєвропейське *lewbʰ- (love, Liebe, любовь)","ar":"الهندية الأوروبية الأم *lewbʰ- (love، Liebe، любовь)","he":"הפרוטו-הודו-אירופית *lewbʰ- (love, Liebe, любовь)","sw":"Kihindi-Ulaya asilia *lewbʰ- (love, Liebe, любовь)"},
@@ -2387,7 +2388,7 @@ WORDS.love = {
     mhy: ["sinta", "sinta"],
     gsw_als: ["Lieb", "liəp"],
     nan_ph: ["愛", "ai˦˩"],
-    aiw: ["—", "—"],
+    aiw: ["nash", "naʃ"],  // Tsuge, Yoichi (1996) On the Consonant Correspondences of South Omotic Languages, Senri Ethnological Studies 43:163-188, .
     dzg: ["nagi", "nàɡɪ́"],  // Noun 'love, desire' and verb 'love, want'.
     zag: ["—", "—"],
     ttq: ["tara", "tara"],  // The noun of əru 'to love, want'.

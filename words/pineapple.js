@@ -537,6 +537,7 @@ WORDS.pineapple = {
     tdd: "other",
     bah: "pine",
     dyo: "nanas",
+    mkz: "unknown",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -1054,5 +1055,6 @@ WORDS.pineapple = {
     tdd: ["ᥛᥣᥐᥱᥐᥥᥒ", "maːk˩keŋ˧"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
     bah: ["pine", "paɪn"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
     dyo: ["ananaas", "ananaːs"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
+    mkz: ["dei-malae", "dei malae"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

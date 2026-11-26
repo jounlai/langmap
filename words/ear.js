@@ -1233,6 +1233,7 @@ WORDS.ear = {
     mqy: "plain",
     sxn: "plain",
     kjp: "plain",
+    squ: "plain",
   },
   routes: {
     hows: {"color":"#2563eb","emoji":"👂","en":"Proto-Indo-European *h₂ṓws (ausis, αυτί, vesh)","ja":"印欧祖語 *h₂ṓws (ausis, αυτί, vesh)","ko":"인도유럽 조어 *h₂ṓws (ausis, αυτί, vesh)","zh":"原始印欧语 *h₂ṓws (ausis, αυτί, vesh)","yue":"原始印歐語 *h₂ṓws (ausis, αυτί, vesh)","vi":"tiếng Ấn-Âu nguyên thủy *h₂ṓws (ausis, αυτί, vesh)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₂ṓws (ausis, αυτί, vesh)","id":"Proto-Indo-Eropa *h₂ṓws (ausis, αυτί, vesh)","hi":"आदि-भारोपीय *h₂ṓws (ausis, αυτί, vesh)","de":"urindogermanisch *h₂ṓws (ausis, αυτί, vesh)","fr":"le proto-indo-européen *h₂ṓws (ausis, αυτί, vesh)","it":"il protoindoeuropeo *h₂ṓws (ausis, αυτί, vesh)","es":"el protoindoeuropeo *h₂ṓws (ausis, αυτί, vesh)","pt":"o proto-indo-europeu *h₂ṓws (ausis, αυτί, vesh)","ru":"праиндоевропейское *h₂ṓws (ausis, αυτί, vesh)","uk":"праіндоєвропейське *h₂ṓws (ausis, αυτί, vesh)","ar":"الهندو-أوروبية الأم *h₂ṓws (ausis، αυτί، vesh)","he":"הפרוטו-הודו-אירופית *h₂ṓws (ausis, αυτί, vesh)","sw":"Kihindi-Kiulaya asilia *h₂ṓws (ausis, αυτί, vesh)"},
@@ -2456,5 +2457,6 @@ WORDS.ear = {
     mqy: ["tilu", "tilu"],
     sxn: ["tuḷi", "tuɭi"],
     kjp: ["ၮာႋ", "nā"],  // LSI Pwo (Maulmein); Luangthongkum Karen (Southern Pwo); en.wiktionary.
+    squ: ["ḵwʼéla7en", "qʷʼelaʔən"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
   },
 };

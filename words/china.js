@@ -611,6 +611,9 @@ WORDS.china = {
     mqy: "cina",
     akl: "cina",
     tdd: "other",
+    agq: "cina",
+    khq: "cina",
+    mkz: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1168,5 +1171,8 @@ WORDS.china = {
     mqy: ["Cina", "tʃina"],
     akl: ["Tsina", "ˈtʃina"],  // Salas Reyes, Zorc et al. 1969 (ERIC ED145704).
     tdd: ["ᥛᥫᥒᥰᥔᥣᥒᥰᥗᥩᥭᥰ", "məŋ˥saːŋ˥tʰɔj˥"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
+    agq: ["Chaenà", "tʃaenà"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
+    khq: ["Šiin", "ʃiːn"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
+    mkz: ["Sina", "sina"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

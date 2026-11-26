@@ -1952,7 +1952,6 @@ WORDS.name = {
       emk: ["tɔɔ", "tɔː"],
       kao: ["toxo", "toxo"],
       snk: ["toxo", "toxo"],
-      mwk: ["tɔɔ", "tɔː"],
       mlq: ["toxo", "toxo"],
       mev: ["tɔ́", "tɔ́"],
       dnj: ["tɔ́", "tɔ́"],
@@ -2500,5 +2499,6 @@ WORDS.name = {
     btx: ["gelar", "ɡəlar"],
     mqy: ["ngasang", "ŋasaŋ"],
     sxn: ["areng", "areŋ"],
+    mwk: ["toko", "toko"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
   },
 };

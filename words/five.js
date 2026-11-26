@@ -1745,7 +1745,7 @@ WORDS.five = {
     bm: ["duuru", "duːru"],
     emk: ["loolu", "loːlu"],
     snk: ["karago", "karaɡo"],
-    mwk: ["loolu", "lóːlu"],
+    mwk: ["lulu", "lulu"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["luulu", "luːlu"],
     ses: ["guu", "ɡuː"],
     khq: ["guu", "ɡuː"],

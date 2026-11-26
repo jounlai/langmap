@@ -1106,6 +1106,11 @@ WORDS.snake = {
     fvr: "plain",
     hno: "crawl",
     vmf: "slang",
+    psi: "plain",
+    mwk: "plain",
+    adi: "plain",
+    aiw: "plain",
+    ker: "plain",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -2172,5 +2177,10 @@ WORDS.snake = {
     fvr: ["nʉ́ʉ́m", "nʊ́ːm"],  // en.wikipedia 'Fur language' (after Kutsch Lojenga & Waag 2004); Starostin GLD Fur (Jakobi 1990: 89).
     hno: ["سپ", "sapː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     vmf: ["Schlanga", "ˈʃlaŋɐ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["جن", "dʒan"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["sa", "sa"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["tabi", "tabi"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
+    aiw: ["guni", "ɡuni"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    ker: ["tooma", "tɔ́ːmá"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
   },
 };

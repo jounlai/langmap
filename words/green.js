@@ -1111,6 +1111,7 @@ WORDS.green = {
     dyo: "plain",
     kjp: "plain",
     vmf: "groniz",
+    aiw: "plain",
   },
   routes: {
     groniz: {"color":"#2563eb","emoji":"🌾","en":"Proto-Germanic *grōniz (green, grün, grøn)","ja":"ゲルマン祖語 *grōniz (green, grün, grøn)","ko":"게르만 조어 *grōniz (green, grün, grøn)","zh":"原始日耳曼语 *grōniz (green, grün, grøn)","yue":"原始日耳曼語 *grōniz (green, grün, grøn)","vi":"tiếng German nguyên thủy *grōniz (green, grün, grøn)","th":"ภาษาเจอร์แมนิกดั้งเดิม *grōniz (green, grün, grøn)","id":"Proto-Jermanik *grōniz (green, grün, grøn)","hi":"आदि-जर्मेनिक *grōniz (green, grün, grøn)","de":"urgermanisch *grōniz (green, grün, grøn)","fr":"le proto-germanique *grōniz (green, grün, grøn)","it":"il protogermanico *grōniz (green, grün, grøn)","es":"el protogermánico *grōniz (green, grün, grøn)","pt":"o proto-germânico *grōniz (green, grün, grøn)","ru":"прагерманское *grōniz (green, grün, grøn)","uk":"прагерманське *grōniz (green, grün, grøn)","ar":"الجرمانية الأم *grōniz (green، grün، grøn)","he":"הפרוטו-גרמאנית *grōniz (green, grün, grøn)","sw":"Kijerumani asilia *grōniz (green, grün, grøn)"},
@@ -2203,5 +2204,6 @@ WORDS.green = {
     dyo: ["maceekur", "maceːkur"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
     kjp: ["ယေဝ့်", "jɪ̂"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp rainbow article.
     vmf: ["grün", "ɡryːn"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    aiw: ["qalʼabish", "kʼalʔabiʃ"],  // Tsuge, Yoichi (1996) On the Consonant Correspondences of South Omotic Languages, Senri Ethnological Studies 43:163-188, .
   }
 };

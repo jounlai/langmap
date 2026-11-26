@@ -805,6 +805,12 @@ WORDS.sunday = {
     fia: "plain",
     mfa: "count",
     vmf: "sun",
+    psi: "count",
+    agq: "unknown",
+    aiw: "unknown",
+    khq: "count",
+    mkz: "lord",
+    squ: "plain",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1550,5 +1556,11 @@ WORDS.sunday = {
     fia: ["kilagée", "kilaɡéː"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     mfa: ["Ahad", "ahat"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["Sundich", "ˈsʊndɪç"],  // Wiktionary (en) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["یک شمبی", "jak ʃambe"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    agq: ["tsuʔntsɨ", "tsuʔntsɨ"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
+    aiw: ["ogenk", "oɡenk"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    khq: ["Alhadi", "alhadi"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
+    mkz: ["watu-dumingu", "watu dumiŋɡu"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    squ: ["Sx̱ex̱elhnát", "sχəχəɬnat"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
   },
 };

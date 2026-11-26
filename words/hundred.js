@@ -1155,6 +1155,8 @@ WORDS.hundred = {
     hno: "kmtom",
     mfa: "racus",
     vmf: "kmtom",
+    mwk: "plain",
+    adi: "plain",
   },
   routes: {
     kmtom: {"color":"#2563eb","emoji":"🐺","en":"Proto-Indo-European *ḱm̥tóm (hundred, cent, сто)","ja":"インド・ヨーロッパ祖語 *ḱm̥tóm (hundred, cent, сто)","ko":"인도유럽 조어 *ḱm̥tóm (hundred, cent, сто)","zh":"原始印欧语 *ḱm̥tóm (hundred, cent, сто)","yue":"原始印歐語 *ḱm̥tóm (hundred, cent, сто)","vi":"tiếng Ấn-Âu nguyên thủy *ḱm̥tóm (hundred, cent, сто)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ḱm̥tóm (hundred, cent, сто)","id":"Proto-Indo-Eropa *ḱm̥tóm (hundred, cent, сто)","hi":"आदि-हिन्द-यूरोपीय *ḱm̥tóm (hundred, cent, сто)","de":"urindogermanisch *ḱm̥tóm (hundred, cent, сто)","fr":"le proto-indo-européen *ḱm̥tóm (hundred, cent, сто)","it":"il protoindoeuropeo *ḱm̥tóm (hundred, cent, сто)","es":"el protoindoeuropeo *ḱm̥tóm (hundred, cent, сто)","pt":"o proto-indo-europeu *ḱm̥tóm (hundred, cent, сто)","ru":"праиндоевропейское *ḱm̥tóm (hundred, cent, сто)","uk":"праіндоєвропейське *ḱm̥tóm (hundred, cent, сто)","ar":"الهندية الأوروبية الأم *ḱm̥tóm (hundred، cent، сто)","he":"הפרוטו-הודו-אירופית *ḱm̥tóm (hundred, cent, сто)","sw":"Kihindi-Kiulaya asilia *ḱm̥tóm (hundred, cent, сто)"},
@@ -2353,5 +2355,7 @@ WORDS.hundred = {
     hno: ["سو", "soː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     mfa: ["seghatoh", "səɣatoh"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["hundert", "ˈhʊndɐt"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    mwk: ["keme", "keme"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["lingko", "liŋko"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
   },
 };

@@ -521,6 +521,10 @@ WORDS.dragonfly = {
     rsk: "other",
     tdd: "unknown",
     vmf: "libellula",
+    aiw: "plain",
+    ker: "plain",
+    mez: "plain",
+    mkz: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -997,5 +1001,9 @@ WORDS.dragonfly = {
     rsk: ["шитар", "ˈʃitar"],  // Pannonian Rusyn Wikipedia, article text 'Шитар'.
     tdd: ["ᥛᥦᥒᥰᥛᥤᥲ", "mɛŋ˥mi˧˩"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
     vmf: ["Libelln", "liˈbɛln̩"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    aiw: ["saada", "saːda"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    ker: ["abiiɗiwbiiɗiw", "ábììɗíwbììɗíw"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
+    mez: ["pihtanwan", "pihtanwan"],  // Menominee Language program, menomineelanguage.com Teacher Resources (Nomenclature posters / flashcards).
+    mkz: ["lae-lae", "lae lae"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

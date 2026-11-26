@@ -900,6 +900,8 @@ WORDS.spider = {
     chk: "plain",
     ale: "plain",
     obr: "plain",
+    aiw: "plain",
+    mez: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -1754,5 +1756,7 @@ WORDS.spider = {
     chk: ["nittopwuráán", "nitːopʷuraːn"],  // ABVD.
     ale: ["кинках̆", "kinkaχ"],  // NorthEuraLex.
     obr: ["ပင့်ကူ", "paŋʔkuː"],  // Sagart et al. ST; Lai Gyalrong.
+    aiw: ["shanga", "ʃaŋɡa"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    mez: ["otāqnapihkenaew", "otaːʔnapihkenæw"],  // Menominee Language program, menomineelanguage.com Teacher Resources (Nomenclature posters / flashcards).
   },
 };

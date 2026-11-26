@@ -833,6 +833,8 @@ WORDS.tea = {
     luz: "cha",
     mfa: "te",
     vmf: "te",
+    psi: "cha",
+    mkz: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1686,5 +1688,7 @@ WORDS.tea = {
     luz: ["chey", "tʃej"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی); English Wiktionary 茶.
     mfa: ["te", "te"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["Tee", "teː"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["چای", "tʃaːi"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mkz: ["sa", "sa"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

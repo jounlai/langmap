@@ -805,6 +805,8 @@ WORDS.coffee = {
     bah: "qahwa",
     mfa: "qahwa",
     vmf: "qahwa",
+    agq: "qahwa",
+    mkz: "qahwa",
   },
   routes: {
     qahwa: { color: "#78350f", emoji: "☕", en: "Arabic qahwa, and no split at all", ja: "アラビア語 qahwa・分岐なし", ko: "아랍어 qahwa, 갈라짐 없이", zh: "阿拉伯语 qahwa，全无分歧", yue: "阿拉伯文 qahwa，完全冇分歧", vi: "tiếng Ả Rập qahwa, không hề chia đôi", th: "ภาษาอาหรับ qahwa ไม่แยกสายเลย", id: "bahasa Arab qahwa, tanpa percabangan", hi: "अरबी qahwa, कोई विभाजन नहीं", de: "arabisch qahwa, ganz ohne Spaltung", fr: "arabe qahwa, sans aucune scission", it: "arabo qahwa, senza alcuna scissione", es: "árabe qahwa, sin escisión alguna", pt: "árabe qahwa, sem cisão alguma", ru: "араб. qahwa, без всякого раздвоения", uk: "араб. qahwa, без жодного роздвоєння", ar: "العربية قهوة، دون أي انقسام", he: "ערבית qahwa, ללא שום פיצול", sw: "Kiarabu qahwa, bila mgawanyiko wowote" },
@@ -1531,5 +1533,7 @@ WORDS.coffee = {
     bah: ["coffee-tea", "kɔfi tiː"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
     mfa: ["kopi", "kopi"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["Kaffee", "ˈkafeː"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    agq: ["kòfí", "kòfí"],  // Attia, Lilian Mbi (2004) Borrowing and Standardization in Aghem, Maîtrise dissertation, University of Yaoundé I (MPI Lan.
+    mkz: ["kafe", "kafe"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

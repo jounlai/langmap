@@ -1008,6 +1008,10 @@ WORDS.husband = {
     ets: "own",
     kjp: "own",
     luz: "mrtas",
+    psi: "unknown",
+    mwk: "man",
+    adi: "man",
+    aiw: "unknown",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1978,5 +1982,9 @@ WORDS.husband = {
     ets: ["ọdọ", "ɔdɔ"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
     kjp: ["ဝါ", "wà"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp AIDS article.
     luz: ["mira", "miˈɾa"],  // Dadras, Izadi & Rezaei, Middle Persian words in the Boir-Ahmadi dialect, J. Contemporary Philology (https://journals.uki.
+    psi: ["پانج", "paːndʒ"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["ke", "ke"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["milo", "milo"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
+    aiw: ["kiʼi", "kiʔi"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
   },
 };

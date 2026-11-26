@@ -1735,7 +1735,7 @@ WORDS.salt = {
     dyu: ["kɔgɔ", "kɔɡɔ"],
     emk: ["kɔɔ", "kɔː"],
     mlq: ["xooxo", "xoːxo"],
-    mwk: ["kɔgɔ", "kɔɡɔ"],
+    mwk: ["koko", "koko"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     kao: ["kɔgɔ", "kɔɡɔ"],
     wo: ["xorom", "xɔrɔm"],
     rn: ["umunyu", "umuɲu"],

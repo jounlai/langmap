@@ -1222,6 +1222,7 @@ WORDS.wind = {
     mqy: "plain",
     sxn: "hangin",
     ets: "plain",
+    squ: "plain",
   },
   routes: {
     hwehnts: {"color":"#2563eb","emoji":"🌬️","en":"Proto-Indo-European *h₂wéh₁n̥ts (wind, viento, باد)","ja":"印欧祖語 *h₂wéh₁n̥ts (wind, viento, باد)","ko":"인도유럽 조어 *h₂wéh₁n̥ts (wind, viento, باد)","zh":"原始印欧语 *h₂wéh₁n̥ts (wind, viento, باد)","yue":"原始印歐語 *h₂wéh₁n̥ts (wind, viento, باد)","vi":"tiếng Ấn-Âu nguyên thủy *h₂wéh₁n̥ts (wind, viento, باد)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *h₂wéh₁n̥ts (wind, viento, باد)","id":"Proto-Indo-Eropa *h₂wéh₁n̥ts (wind, viento, باد)","hi":"आदि-भारोपीय *h₂wéh₁n̥ts (wind, viento, باد)","de":"urindogermanisch *h₂wéh₁n̥ts (wind, viento, باد)","fr":"le proto-indo-européen *h₂wéh₁n̥ts (wind, viento, باد)","it":"il protoindoeuropeo *h₂wéh₁n̥ts (wind, viento, باد)","es":"el protoindoeuropeo *h₂wéh₁n̥ts (wind, viento, باد)","pt":"o proto-indo-europeu *h₂wéh₁n̥ts (wind, viento, باد)","ru":"праиндоевропейское *h₂wéh₁n̥ts (wind, viento, باد)","uk":"праіндоєвропейське *h₂wéh₁n̥ts (wind, viento, باد)","ar":"الهندو-أوروبية الأم *h₂wéh₁n̥ts (wind، viento، باد)","he":"הפרוטו-הודו-אירופית *h₂wéh₁n̥ts (wind, viento, باد)","sw":"Kihindi-Kiulaya asilia *h₂wéh₁n̥ts (wind, viento, باد)"},
@@ -1990,7 +1991,7 @@ WORDS.wind = {
     fon: ["jɔhɔn", "dʒɔhɔ̃"],
     dyu: ["fɔɲɔ", "fɔɲɔ"],
     emk: ["fɔɲɔ", "fɔɲɔ"],
-    mwk: ["fɔɲɔ", "fɔɲɔ"],
+    mwk: ["hoño", "hoɲo"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mnk: ["foñoo", "foɲoː"],
     dag: ["pɔhim", "pɔhim"],
     jqr: ["wawya", "wawja"],
@@ -2430,5 +2431,6 @@ WORDS.wind = {
     mqy: ["buru", "buru"],
     sxn: ["anging", "aŋiŋ"],
     ets: ["afofo", "afofo"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    squ: ["spáhim̓", "spahimʔ"],  // Guerrero, Norman (2024) How to Gloss the Squamish Language into English from our Squamish Legends, MA project, Simon Fra.
   },
 };

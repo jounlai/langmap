@@ -1020,6 +1020,7 @@ WORDS.blue = {
     kjp: "distinct",
     mfa: "distinct",
     vmf: "distinct",
+    aiw: "distinct",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🔵", "en": "blue has its own word", "ja": "青に専用の語", "ko": "파랑에 고유한 낱말", "zh": "蓝有专词", "yue": "藍有專詞", "vi": "lam có từ riêng", "th": "น้ำเงินมีคำเฉพาะ", "id": "biru punya katanya sendiri", "hi": "नीले का अपना शब्द", "de": "eigenes Wort für Blau", "fr": "le bleu a son mot", "it": "il blu ha una parola propria", "es": "el azul tiene palabra propia", "pt": "o azul tem palavra própria", "ru": "у синего своё слово", "uk": "синій має власне слово", "ar": "للأزرق كلمته الخاصة", "he": "לכחול מילה משלו", "sw": "buluu lina neno lake"},
@@ -1998,5 +1999,6 @@ WORDS.blue = {
     kjp: ["လာ့", "lâ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp rainbow article.
     mfa: ["bighu", "biɣu"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["blau", "blaʊ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    aiw: ["chʼila", "tʃʼila"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
   },
 };

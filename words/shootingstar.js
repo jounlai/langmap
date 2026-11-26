@@ -391,6 +391,8 @@ WORDS.shootingstar = {
     akl: "plain",
     rsk: "plain",
     btx: "plain",
+    adi: "plain",
+    aiw: "plain",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -727,5 +729,7 @@ WORDS.shootingstar = {
     akl: ["dulis", "ˈdulis"],
     rsk: ["метеор", "mɛˈtɛɔr"],
     btx: ["pendawisen", "pəndawisən"],  // Kamus Karo Online (kamuskaro.com, Indonesian–Karo).
+    adi: ["karsol", "karsol"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
+    aiw: ["sulinsuk", "sulinsuk"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
   },
 };

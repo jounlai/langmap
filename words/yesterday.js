@@ -1035,6 +1035,14 @@ WORDS.yesterday = {
     hno: "same",
     mfa: "distinct",
     vmf: "distinct",
+    psi: "distinct",
+    mwk: "distinct",
+    agq: "distinct",
+    aiw: "distinct",
+    iru: "distinct",
+    ker: "distinct",
+    khq: "distinct",
+    mkz: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -2015,5 +2023,13 @@ WORDS.yesterday = {
     hno: ["کل", "kəl"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     mfa: ["kemagheng", "kəmaɣeŋ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["gestern", "ˈɡɛstɐn"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["دوو", "dwo"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["kunun", "kunun"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    agq: ["ā zūɛɛ", "ā zūɛː"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
+    aiw: ["nii", "niː"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    iru: ["nagaṯṯu", "naɡatːu"],  // Burrow & Emeneau, DEDR 3758 (DSAL) ; Varghese, Bijumon (2015) The Tribes of Palakkad, Kerala: A Sociolinguistic Profile,.
+    ker: ["deegn", "dèɛɡn̩"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
+    khq: ["bi", "bi"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
+    mkz: ["esere’e", "esereʔe"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

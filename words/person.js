@@ -1197,6 +1197,7 @@ WORDS.person = {
     ets: "plain",
     hno: "plain",
     vmf: "mennisk",
+    mwk: "plain",
   },
   routes: {
     ghmo: {"color":"#2563eb","emoji":"🌍","en":"Proto-Indo-European *ǵʰmṓ (homo, žmogus, om)","ja":"印欧祖語 *ǵʰmṓ (homo, žmogus, om)","ko":"인도유럽 조어 *ǵʰmṓ (homo, žmogus, om)","zh":"原始印欧语 *ǵʰmṓ (homo, žmogus, om)","yue":"原始印歐語 *ǵʰmṓ (homo, žmogus, om)","vi":"tiếng Ấn-Âu nguyên thủy *ǵʰmṓ (homo, žmogus, om)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ǵʰmṓ (homo, žmogus, om)","id":"Proto-Indo-Eropa *ǵʰmṓ (homo, žmogus, om)","hi":"आदि-भारोपीय *ǵʰmṓ (homo, žmogus, om)","de":"urindogermanisch *ǵʰmṓ (homo, žmogus, om)","fr":"le proto-indo-européen *ǵʰmṓ (homo, žmogus, om)","it":"il protoindoeuropeo *ǵʰmṓ (homo, žmogus, om)","es":"el protoindoeuropeo *ǵʰmṓ (homo, žmogus, om)","pt":"o proto-indo-europeu *ǵʰmṓ (homo, žmogus, om)","ru":"праиндоевропейское *ǵʰmṓ (homo, žmogus, om)","uk":"праіндоєвропейське *ǵʰmṓ (homo, žmogus, om)","ar":"الهندو-أوروبية الأم *ǵʰmṓ (homo، žmogus، om)","he":"הפרוטו-הודו-אירופית *ǵʰmṓ (homo, žmogus, om)","sw":"Kihindi-Kiulaya asilia *ǵʰmṓ (homo, žmogus, om)"},
@@ -2384,5 +2385,6 @@ WORDS.person = {
     ets: ["ọghya", "ɔɣja"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
     hno: ["بندا", "bəndaː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     vmf: ["Mensch", "mɛnʃ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    mwk: ["moko", "moko"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
   }
 };

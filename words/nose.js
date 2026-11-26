@@ -1192,6 +1192,9 @@ WORDS.nose = {
     mqy: "ijun",
     sxn: "ijun",
     vmf: "naso",
+    psi: "nehs",
+    agq: "plain",
+    squ: "plain",
   },
   routes: {
     nehs: {"color":"#2563eb","emoji":"👃","en":"Proto-Indo-European *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ja":"印欧祖語 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ko":"인도유럽 조어 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","zh":"原始印欧语 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","yue":"原始印歐語 *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","vi":"tiếng Ấn-Âu nguyên thủy *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","id":"Proto-Indo-Eropa *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","hi":"आदि-भारोपीय *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","de":"urindogermanisch *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","fr":"le proto-indo-européen *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","it":"il protoindoeuropeo *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","es":"el protoindoeuropeo *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","pt":"o proto-indo-europeu *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ru":"праиндоевропейское *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","uk":"праіндоєвропейське *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","ar":"الهندو-أوروبية الأم *néh₂s (nosis، नासा، 𐎴𐎠𐏃𐎶)","he":"הפרוטו-הודו-אירופית *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)","sw":"Kihindi-Kiulaya asilia *néh₂s (nosis, नासा, 𐎴𐎠𐏃𐎶)"},
@@ -2407,5 +2410,8 @@ WORDS.nose = {
     mqy: ["isung", "isuŋ"],
     sxn: ["irung", "iruŋ"],
     vmf: ["Nosn", "ˈnoːsn̩"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online + Wiktionary (en).
+    psi: ["ناس", "naːs"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    agq: ["éwí", "éwí"],  // Attia, Lilian Mbi (2004) Borrowing and Standardization in Aghem, Maîtrise dissertation, University of Yaoundé I (MPI Lan.
+    squ: ["méḵsen", "meqsən"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
   },
 };

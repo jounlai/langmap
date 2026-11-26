@@ -1144,6 +1144,7 @@ WORDS.milk = {
     sxn: "susu",
     dyo: "plain",
     vmf: "meluks",
+    aiw: "plain",
   },
   routes: {
     meluks: {"color":"#2563eb","emoji":"🥛","en":"Proto-Germanic *meluks (milk, Milch, mjölk)","ja":"ゲルマン祖語 *meluks (milk, Milch, mjölk)","ko":"게르만 조어 *meluks (milk, Milch, mjölk)","zh":"原始日耳曼语 *meluks (milk, Milch, mjölk)","yue":"原始日耳曼語 *meluks (milk, Milch, mjölk)","vi":"tiếng German nguyên thủy *meluks (milk, Milch, mjölk)","th":"ภาษาเจอร์แมนิกดั้งเดิม *meluks (milk, Milch, mjölk)","id":"Proto-Jermanik *meluks (milk, Milch, mjölk)","hi":"आदि-जर्मेनिक *meluks (milk, Milch, mjölk)","de":"urgermanisch *meluks (milk, Milch, mjölk)","fr":"le proto-germanique *meluks (milk, Milch, mjölk)","it":"il protogermanico *meluks (milk, Milch, mjölk)","es":"el protogermánico *meluks (milk, Milch, mjölk)","pt":"o protogermânico *meluks (milk, Milch, mjölk)","ru":"прагерманское *meluks (milk, Milch, mjölk)","uk":"прагерманське *meluks (milk, Milch, mjölk)","ar":"الجرمانية الأم *meluks (milk، Milch، mjölk)","he":"הפרוטו-גרמאנית *meluks (milk, Milch, mjölk)","sw":"Kijerumani asilia *meluks (milk, Milch, mjölk)"},
@@ -1599,7 +1600,7 @@ WORDS.milk = {
     bm: ["nɔnɔ", "nɔnɔ"],
     dyu: ["nɔnɔ", "nɔnɔ"],
     emk: ["nɔnɔ", "nɔnɔ"],
-    mwk: ["nɔnɔ", "nɔnɔ"],
+    mwk: ["nono", "nono"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["nono", "nono"],
     kao: ["nɔnɔ", "nɔnɔ"],
     mnk: ["nonoo", "nonoː"],
@@ -2339,5 +2340,6 @@ WORDS.milk = {
     sxn: ["susu", "susu"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
     dyo: ["miil", "miːl"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
     vmf: ["Milch", "mɪlç"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    aiw: ["raatsʼi", "raːtsʼi"],  // Tsuge, Yoichi (1996) On the Consonant Correspondences of South Omotic Languages, Senri Ethnological Studies 43:163-188, .
   },
 };

@@ -726,6 +726,7 @@ WORDS.computer = {
     xpr: "plain",
     arp: "plain",
     rsk: "english",
+    aiw: "english",
   },
   routes: {
     english: {"color":"#2563eb","emoji":"💻","en":"English computer (Computer, компьютер, コンピューター)","ja":"英語 computer (Computer, компьютер, コンピューター)","ko":"영어 computer (Computer, компьютер, コンピューター)","zh":"英语 computer (Computer, компьютер, コンピューター)","yue":"英語 computer (Computer, компьютер, コンピューター)","vi":"tiếng Anh computer (Computer, компьютер, コンピューター)","th":"ภาษาอังกฤษ computer (Computer, компьютер, コンピューター)","id":"Inggris computer (Computer, компьютер, コンピューター)","hi":"अंग्रेज़ी computer (Computer, компьютер, コンピューター)","de":"englisch computer (Computer, компьютер, コンピューター)","fr":"l'anglais computer (Computer, компьютер, コンピューター)","it":"l'inglese computer (Computer, компьютер, コンピューター)","es":"el inglés computer (Computer, компьютер, コンピューター)","pt":"o inglês computer (Computer, компьютер, コンピューター)","ru":"английское computer (Computer, компьютер, コンピューター)","uk":"англійське computer (Computer, компьютер, コンピューター)","ar":"الإنجليزية computer (Computer، компьютер، コンピューター)","he":"האנגלית computer (Computer, компьютер, コンピューター)","sw":"Kiingereza computer (Computer, компьютер, コンピューター)"},
@@ -1429,5 +1430,6 @@ WORDS.computer = {
     xpr: ["ʾḥmrkr", "ahmaːrkar"],  // There were no computers; an ahmārkar was the accountant who did the reckoning.
     arp: ["koonohʼeʼínoʼ", "koːnohʔeʔínoʔ"],
     rsk: ["компютер", "kɔmˈpjutɛr"],
+    aiw: ["kompter", "kompter"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
   },
 };

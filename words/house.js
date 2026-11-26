@@ -1244,6 +1244,7 @@ WORDS.house = {
     btx: "rumaq",
     mqy: "plain",
     sxn: "balay",
+    aiw: "plain",
   },
   routes: {
     dom: {"color":"#2563eb","emoji":"🏛️","en":"Proto-Indo-European *dṓm (domus, дом, տուն)","ja":"印欧祖語 *dṓm (domus, дом, տուն)","ko":"인도유럽 조어 *dṓm (domus, дом, տուն)","zh":"原始印欧语 *dṓm (domus, дом, տուն)","yue":"原始印歐語 *dṓm (domus, дом, տուն)","vi":"tiếng Ấn-Âu nguyên thủy *dṓm (domus, дом, տուն)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *dṓm (domus, дом, տուն)","id":"Proto-Indo-Eropa *dṓm (domus, дом, տուն)","hi":"आदि-भारोपीय *dṓm (domus, дом, տուն)","de":"urindogermanisch *dṓm (domus, дом, տուն)","fr":"le proto-indo-européen *dṓm (domus, дом, տուն)","it":"il protoindoeuropeo *dṓm (domus, дом, տուն)","es":"el protoindoeuropeo *dṓm (domus, дом, տուն)","pt":"o proto-indo-europeu *dṓm (domus, дом, տուն)","ru":"праиндоевропейское *dṓm (domus, дом, տուն)","uk":"праіндоєвропейське *dṓm (domus, дом, տուն)","ar":"الهندو-أوروبية الأم *dṓm (domus، дом، տուն)","he":"הפרוטו-הודו-אירופית *dṓm (domus, дом, տուն)","sw":"Kihindi-Kiulaya asilia *dṓm (domus, дом, տուն)"},
@@ -1954,7 +1955,7 @@ WORDS.house = {
     emk: ["bon", "bon"],
     kao: ["so", "so"],
     snk: ["kaa", "kaː"],
-    mwk: ["so", "so"],
+    mwk: ["bun", "bun"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["bunŋo", "bũŋo"],
     mev: ["kpɛ", "kpɛ"],
     dnj: ["kɔ́", "kɔ́"],
@@ -2482,7 +2483,7 @@ WORDS.house = {
     mhy: ["lewuʔ", "lewuʔ"],
     gsw_als: ["Hüs", "hyːs"],
     nan_ph: ["厝", "tsʰu˦˩"],
-    aiw: ["—", "—"],
+    aiw: ["eya", "eja"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     dzg: ["yege", "jɛ́ɡɛ̀"],  // 'House, tent'; also 'household, home'.
     zag: ["bîye", "bije"],  // Also 'wrapping'.
     ttq: ["ehan", "ehæn"],  // First 'tent', the traditional home.

@@ -1930,7 +1930,7 @@ WORDS.rain = {
     kri: ["ren", "ren"],
     kln: ["ropta", "ropta"],
     emk: ["sanji", "sandʒi"],
-    mwk: ["sanji", "sandʒi"],
+    mwk: ["san", "san"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["sanjiyo", "sandʒijo"],
     afb: ["مطر", "ˈmʊtˤər"],
     abv: ["مطر", "mətˤar"],

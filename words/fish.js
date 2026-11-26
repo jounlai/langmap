@@ -1891,7 +1891,7 @@ WORDS.fish = {
     emk: ["jɛɛ", "dʒɛː"],
     kao: ["ɲege", "ɲeɡe"],
     snk: ["ñexe", "ɲexe"],
-    mwk: ["yɛgɛ", "jɛɡɛ"],
+    mwk: ["yeke", "jeke"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mev: ["kpã̀ã́", "kpã̀ã́"],
     dnj: ["yúɤ̏ɤ", "júɤ̏ː"],
     ses: ["hamiisa", "hamiːsa"],

@@ -409,6 +409,7 @@ WORDS.octopus = {
     mrq: "feke",
     ch: "plain",
     yle: "plain",
+    mkz: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -769,5 +770,6 @@ WORDS.octopus = {
     mrq: ["heke", "heke"],  // POLLEX-Online PN *feke (Lechat).
     ch: ["gåmson", "ˈɡɑmson"],  // Pale' Eric CHamoru blog; fr.wiktionary poulpe; UOG seafood poster.
     yle: ["kpé", "k͡pe"],  // English Wiktionary kpé (Levinson 2022 Yélî Dnye dictionary p.557).
+    mkz: ["taladau", "taladau"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
   },
 };

@@ -952,6 +952,8 @@ WORDS.yellow = {
     fia: "plain",
     mfa: "turmeric",
     vmf: "ghel",
+    aiw: "plain",
+    ker: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1858,5 +1860,7 @@ WORDS.yellow = {
     fia: ["barúm", "barúm"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     mfa: ["kuning", "kuniŋ"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["gelb", "ɡɛlb"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    aiw: ["shearma", "ʃearma"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    ker: ["boɓofi", "bɔ̀ɓɔ̀fì"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
   },
 };

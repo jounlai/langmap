@@ -1203,6 +1203,9 @@ WORDS.mountain = {
     kjp: "plain",
     luz: "kawfs",
     vmf: "bergaz",
+    psi: "plain",
+    mwk: "plain",
+    adi: "plain",
   },
   routes: {
     men: {"color":"#2563eb","emoji":"⛰️","en":"Proto-Indo-European *men- (montagne, mountain, mynydd)","ja":"印欧祖語 *men- (montagne, mountain, mynydd)","ko":"인도유럽 조어 *men- (montagne, mountain, mynydd)","zh":"原始印欧语 *men- (montagne, mountain, mynydd)","yue":"原始印歐語 *men- (montagne, mountain, mynydd)","vi":"tiếng Ấn-Âu nguyên thủy *men- (montagne, mountain, mynydd)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *men- (montagne, mountain, mynydd)","id":"Proto-Indo-Eropa *men- (montagne, mountain, mynydd)","hi":"आदि-भारोपीय *men- (montagne, mountain, mynydd)","de":"urindogermanisch *men- (montagne, mountain, mynydd)","fr":"le proto-indo-européen *men- (montagne, mountain, mynydd)","it":"il protoindoeuropeo *men- (montagne, mountain, mynydd)","es":"el protoindoeuropeo *men- (montagne, mountain, mynydd)","pt":"o proto-indo-europeu *men- (montagne, mountain, mynydd)","ru":"праиндоевропейское *men- (montagne, mountain, mynydd)","uk":"праіндоєвропейське *men- (montagne, mountain, mynydd)","ar":"الهندو-أوروبية الأم *men- (montagne، mountain، mynydd)","he":"הפרוטו-הודו-אירופית *men- (montagne, mountain, mynydd)","sw":"Kihindi-Kiulaya asilia *men- (montagne, mountain, mynydd)"},
@@ -2385,5 +2388,8 @@ WORDS.mountain = {
     kjp: ["ခေါဟ်လံင်", "kʰʊ́lòɴ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp.
     luz: ["koh", "koh"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی).
     vmf: ["Bärch", "bɛrç"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
+    psi: ["دار", "daːr"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    mwk: ["kuru", "kuɾu"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    adi: ["diite", "diːte"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
   }
 };

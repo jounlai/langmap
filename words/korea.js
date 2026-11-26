@@ -521,6 +521,8 @@ WORDS.korea = {
     scn: "goryeo",
     rsk: "goryeo",
     tdd: "goryeo",
+    agq: "goryeo",
+    khq: "goryeo",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरियो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -981,5 +983,7 @@ WORDS.korea = {
     scn: ["Corea", "koˈrɛa"],
     rsk: ["Корея", "kɔˈrɛja"],
     tdd: ["ᥐᥣᥝᥘᥤᥲ", "kaːw˧li˧˩"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
+    agq: ["Kùulîa", "kùːlîa"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
+    khq: ["Kooree", "koːreː"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
   },
 };

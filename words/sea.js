@@ -1149,6 +1149,7 @@ WORDS.sea = {
     wbl: "samudra",
     oar: "wamm",
     ets: "plain",
+    squ: "plain",
   },
   routes: {
     mori: {"color":"#2563eb","emoji":"🌊","en":"Proto-Indo-European *móri (Meer, mare, море)","ja":"印欧祖語 *móri (Meer, mare, море)","ko":"인도유럽 조어 *móri (Meer, mare, море)","zh":"原始印欧语 *móri (Meer, mare, море)","yue":"原始印歐語 *móri (Meer, mare, море)","vi":"tiếng Ấn-Âu nguyên thủy *móri (Meer, mare, море)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *móri (Meer, mare, море)","id":"Proto-Indo-Eropa *móri (Meer, mare, море)","hi":"आदि-भारोपीय *móri (Meer, mare, море)","de":"urindogermanisch *móri (Meer, mare, море)","fr":"le proto-indo-européen *móri (Meer, mare, море)","it":"il protoindoeuropeo *móri (Meer, mare, море)","es":"el protoindoeuropeo *móri (Meer, mare, море)","pt":"o proto-indo-europeu *móri (Meer, mare, море)","ru":"праиндоевропейское *móri (Meer, mare, море)","uk":"праіндоєвропейське *móri (Meer, mare, море)","ar":"الهندو-أوروبية الأم *móri (Meer، mare، море)","he":"הפרוטו-הודו-אירופית *móri (Meer, mare, море)","sw":"Kihindi-Kiulaya asilia *móri (Meer, mare, море)"},
@@ -2269,5 +2270,6 @@ WORDS.sea = {
     wbl: ["смандар", "smandar"],  // IE-CoR.
     oar: ["ימא", "jammaː"],  // IDS; en.wiktionary.
     ets: ["ọku", "ɔku"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
+    squ: ["kwʼutlʼkw", "kʷʼutɬʼkʷ"],  // Guerrero, Norman (2024) How to Gloss the Squamish Language into English from our Squamish Legends, MA project, Simon Fra.
   }
 };

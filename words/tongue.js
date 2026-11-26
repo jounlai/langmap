@@ -1909,7 +1909,7 @@ WORDS.tongue = {
     emk: ["nɛn", "nɛn"],
     kao: ["nɛn", "nɛn"],
     snk: ["nene", "nene"],
-    mwk: ["nɛn", "nɛn"],
+    mwk: ["nen", "nen"],  // Creissels (2009) Le malinké de Kita, via EvoLex Mande (Vydrin); replaces an unsourced Bambara-like form.
     mlq: ["nenŋo", "nẽŋo"],
     mev: ["nanà", "nanà"],
     dnj: ["dhɛ́ɛ̏n", "nɛ̃́ɛ̃̏"],

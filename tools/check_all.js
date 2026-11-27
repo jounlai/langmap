@@ -233,6 +233,12 @@ s = run('script_declaration_check.js --check');
 line('script declared matches data', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' overstated') : '');
 
+// The Script filter chip reads meta.scriptTags; it must name the script the
+// map shows and no script the row's meta gives no basis for (Kusunda sat
+// under Brahmic while unwritten and romanized, owner 2026-11-27).
+s = run('script_filter_tags_check.js --check');
+line('script filter matches the map', num(s, /violations: (\d+)/));
+
 s = run('source_link_check.js --check');
 line('citations point at the row', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' rows with no sources') : '');

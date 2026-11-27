@@ -858,7 +858,7 @@ WORDS.smoke = {
     inh: ["кӏур", "kʼur"],  // Wiktionary.
     is: ["reykur", "ˈreiːkʏr"],  // Wiktionary; NorthEuraLex; IE-CoR.
     it: ["fumo", "ˈfuːmo"],  // Wiktionary; NorthEuraLex; IDS.
-    itl: ["т’ит’им", "tʔitʔim"],  // NorthEuraLex.
+    itl: ["тʼитʼим", "tʔitʔim"],  // NorthEuraLex.
     iu: ["ᐃᓯᖅ", "isiq"],  // Wiktionary (en) translation table.
     ivv: ["ahob", "ahob"],  // ABVD (lexibank abvd).
     izh: ["savvu", "ˈsɑʋːu"],  // lexibank uralex.
@@ -1111,7 +1111,7 @@ WORDS.smoke = {
     tab: ["кум", "kum"],  // Wiktionary.
     tao: ["ahob", "ahob"],  // ABVD (lexibank abvd).
     tay: ["hiluq", "hiluq"],  // ABVD (lexibank abvd).
-    tdd: ["ᥑᥩᥢᥰ", "xɔn˥˥"],  // Wiktionary.
+    tdd: ["ᥑᥩᥢᥰ", "xɔn˥"],  // Wiktionary.
     te: ["పొగ", "poɡa"],  // Wiktionary + NorthEuraLex.
     tg: ["дуд", "dud"],  // Wiktionary; CALS.
     th: ["ควัน", "kʰwan˧"],  // Wiktionary.

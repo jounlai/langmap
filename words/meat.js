@@ -701,7 +701,7 @@ WORDS.meat = {
     blr: ["pɔn55", "pɔn˥˥"],  // Peiros Austroasiatic (lexibank/peirosaustroasiatic).
     bm: ["sogo", "soɡo"],  // lexibank hantganbangime.
     bn: ["মাংস", "maŋʃo"],  // Wiktionary; NorthEuraLex.
-    bo: ["ཤ", "ɕa˥˥"],  // Wiktionary.
+    bo: ["ཤ", "ɕa˥"],  // Wiktionary.
     br: ["kig", "kiːk"],  // Wiktionary (+lexibank).
     brh: ["سو", "suː"],  // Wiktionary + DravLex.
     brx: ["बेदर", "bedɔr"],  // Wiktionary + lexibank peirosst.

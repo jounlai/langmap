@@ -645,7 +645,7 @@ WORDS.child = {
     bjn: ["anak", "anak"],  // ABVD (lexibank abvd); ACD (Blust & Trussel, lexibank acd).
     blt: ["ꪩꪴꪀ", "luʔ˦"],  // Wiktionary.
     bn: ["বাচ্চা", "battʃa"],  // Wiktionary; NorthEuraLex.
-    bo: ["ཕྲུ་གུ", "ʈʂʰu˥˥ ku"],  // Wiktionary.
+    bo: ["ཕྲུ་གུ", "ʈʂʰu˥ ku"],  // Wiktionary.
     br: ["bugel", "ˈbyːɡɛl"],  // Wiktionary (+lexibank).
     brh: ["چنا", "tʃunaː"],  // Wiktionary (Bray).
     brx: ["गथ", "ɡɔtʰɔ"],  // Wiktionary.
@@ -764,7 +764,7 @@ WORDS.child = {
     fy: ["bern", "bɛːn"],  // Wiktionary.
     ga: ["páiste", "ˈpˠaːʃtʲə"],  // Wiktionary; NorthEuraLex; IDS.
     gag: ["uşak", "uˈʃak"],  // Wiktionary entry (kaikki.org).
-    gan: ["细人子", "ɕi˦˥ ȵin˨ tsɿ˩"],  // Wiktionary 細人子 (Nanchang) + dial-syn.
+    gan: ["细人子", "ɕi˦˥ ȵin˨ tsɿ˩˩"],  // Wiktionary 細人子 (Nanchang) + dial-syn.
     gay: ["anak", "anak"],  // ABVD (lexibank abvd); ACD (Blust & Trussel, lexibank acd).
     gd: ["pàiste", "ˈpʰaːʃtʲə"],  // Wiktionary.
     gez: ["ሕፃን", "ħətsʼan"],  // Wiktionary.
@@ -798,7 +798,7 @@ WORDS.child = {
     hot: ["amena", "amena"],  // ABVD (lexibank abvd).
     hr: ["dijete", "djěːte"],  // Wiktionary.
     hsb: ["dźěćo", "ˈdʒɪjtʃɔ"],  // Wiktionary.
-    hsn: ["细伢子", "si˦˥ ŋa˩˧ tsɿ˧"],  // Wiktionary 細伢子 (Changsha) + dial-syn.
+    hsn: ["细伢子", "si˦˥ ŋa˩˧ tsɿ˧˧"],  // Wiktionary 細伢子 (Changsha) + dial-syn.
     ht: ["timoun", "timun"],  // Wiktionary.
     hu: ["gyerek", "ˈɟɛrɛk"],  // Wiktionary entry (kaikki.org) + Wiktionary (en) translation table + NorthEuraLex.
     huz: ["къәра", "qʼəra"],  // lexibank IDS.
@@ -857,7 +857,7 @@ WORDS.child = {
     krj: ["bata", "bata"],  // lexibank ABVD.
     krl: ["lapsi", "ˈlɑpsi"],  // NorthEuraLex + UraLex.
     ks: ["شُر", "ʃur"],  // Wiktionary.
-    ktz: ["da'àmà", "daʔàmà"],  // Wiktionary.
+    ktz: ["daʼàmà", "daʔàmà"],  // Wiktionary.
     ku: ["zarok", "zɑːˈroːk"],  // Wiktionary; NorthEuraLex.
     kum: ["яш", "jaʃ"],  // Wiktionary + IDS.
     kw: ["flogh", "flɔːx"],  // Wiktionary.
@@ -948,7 +948,7 @@ WORDS.child = {
     nso: ["ngwana", "ŋwana"],  // Bantu Swadesh lists.
     nuf: ["zɑ55ŋe35", "zɑ˥˥ŋe˧˥"],  // lexibank suntb.
     ny: ["mwana", "ˈmwana"],  // en.wiktionary mwana (Chichewa); Bantu Swadesh; sawkatokaleya.
-    nym: ["ng'wana", "ŋwana"],  // lexibank tls Nyamwezi; grollemundbantu F22.
+    nym: ["ngʼwana", "ŋwana"],  // lexibank tls Nyamwezi; grollemundbantu F22.
     nyn: ["omuto", "omuto"],  // lexibank grollemundbantu JE13; tls.
     nyo: ["omwaana", "omwaːna"],  // lexibank grollemundbantu JE11; tls.
     nys: ["goolanggurra", "ɡoːlaŋɡura"],  // Bowern Pama-Nyungan (lexibank bowernpny).

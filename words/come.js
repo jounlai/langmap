@@ -870,7 +870,7 @@ WORDS.come = {
     mi: ["haere mai", "haere mai"],  // ABVD (lexibank abvd); IDS (lexibank ids).
     min: ["datang", "dataŋ"],  // en.wiktionary translation table; ABVD (lexibank abvd).
     mk: ["доаѓа", "ˈdɔaɟa"],  // Wiktionary.
-    mkz: ["ma'u", "maʔu"],  // Wiktionary.
+    mkz: ["ma’u", "maʔu"],  // Wiktionary.
     ml: ["വരുക", "ʋaɾuɡa"],  // Wiktionary; NorthEuraLex; DravLex.
     mlm: ["taŋ1", "taŋ˦˨"],  // ABVD (lexibank/abvd CLDF).
     mmd: ["taŋ1", "taŋ˦˨"],  // ABVD (lexibank/abvd CLDF).

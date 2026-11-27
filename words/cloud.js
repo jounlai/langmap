@@ -723,7 +723,7 @@ WORDS.cloud = {
     blc: ["skʼinwas", "scʼinwas"],  // Wiktionary + lexibank IDS.
     blr: ["mhut33", "m̥ut˧˧"],  // Peiros Austroasiatic (lexibank/peirosaustroasiatic).
     bn: ["মেঘ", "meɡʱ"],  // Wiktionary; NorthEuraLex; IE-CoR.
-    bo: ["སྤྲིན་པ", "ʈʂĩ˥˥ pə˥˥"],  // Wiktionary.
+    bo: ["སྤྲིན་པ", "ʈʂĩ˥ pə˥"],  // Wiktionary.
     br: ["koumoulenn", "kuˈmulɛ̃n"],  // Wiktionary (+lexibank).
     bra: ["बादर", "baːdər"],  // Wiktionary.
     brh: ["جمر", "dʒamːaɾ"],  // Wiktionary + DravLex.
@@ -1159,7 +1159,7 @@ WORDS.cloud = {
     tab: ["жиф", "ʒif"],  // IDS.
     tao: ["cinalab", "tsinalab"],  // en.wiktionary translation table; ABVD (lexibank abvd).
     tar: ["norí", "noɾi"],  // lexibank utoaztecan + wheeler.
-    tdd: ["ᥛᥩᥐᥱ", "mɔk˩˩"],  // Wiktionary.
+    tdd: ["ᥛᥩᥐᥱ", "mɔk˩"],  // Wiktionary.
     te: ["మేఘము", "meːɡʱamu"],  // Wiktionary + NorthEuraLex.
     tet: ["kalohan", "kalohan"],  // en.wiktionary translation table; ABVD (lexibank abvd).
     tg: ["абр", "abr"],  // Wiktionary; CALS.

@@ -699,7 +699,7 @@ WORDS.man = {
     blr: ["ka31 meʔ31", "ka˧˩ meʔ˧˩"],  // Peiros Austroasiatic (lexibank/peirosaustroasiatic).
     bm: ["cɛ", "tʃɛ"],  // Wiktionary.
     bn: ["পুরুষ", "puruʃ"],  // Wiktionary.
-    bo: ["ཕོ", "pʰo˥˥"],  // Wiktionary.
+    bo: ["ཕོ", "pʰo˥"],  // Wiktionary.
     bqi: ["پیا", "pijɒː"],  // Wiktionary; IE-CoR.
     br: ["gwaz", "ɡwaːs"],  // Wiktionary (+lexibank).
     brx: ["हौवा", "hɯwa"],  // Wiktionary + lexibank peirosst.

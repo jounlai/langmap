@@ -32,4 +32,7 @@ Main routes:
 - cloud: Latin nūbēs, Old Chinese 雲, Old English clūd
 - smoke: PIE *dʰuh₂mós, Old Chinese 煙, PGmc *smukô
 
+## Follow-up
+- ptrk husband *ēr → *ǟr. Wiktionary glosses *ēr as "early" (the adverb behind ertir, ертең) and *ǟr as "man". Fixed in words/husband.js.
+
 CLOSED.

@@ -1400,7 +1400,7 @@ WORDS.husband = {
     gmh: ["man", "man"],  // Also "man".
     ofs: ["man", "man"],  // Also "man".
     osx: ["mann", "man"],  // Also "man".
-    ptrk: ["*ēr", "eːr"],  // Also "man".
+    ptrk: ["*ǟr", "æːr"],  // Wiktionary Reconstruction:Proto-Turkic/ǟr "man" (Old Turkic er "man, husband"). Was *ēr, which Wiktionary glosses "early" (review 860).
     pmng: ["*ere", "ere"],  // Also "man".
     zh_yuan: ["夫", "fu"],
     zh_wenyan_edu: ["夫", "fuː˥"],

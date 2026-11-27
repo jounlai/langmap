@@ -177,7 +177,7 @@ WORDS.cockroach = {
     nv: "plain",
     orh: "tarakan",
     jv: "plain",
-    ceb: "sipes",
+    ceb: "plain",
     ilo: "sipes",
     fj: "cucaracha",
     pa: "cucaracha",
@@ -626,7 +626,7 @@ WORDS.cockroach = {
     nv: ["chʼoshtsoh", "tʃʼòʃtsʰòh"],  // chʼosh 'bug' + -tsoh 'big', compound.
     orh: ["tarakan", "tarakan"],  // Borrowed from Russian таракан.
     jv: ["coro", "tʃɔrɔ"],  // Native Javanese word.
-    ceb: ["ipos", "ˈʔipos"],  // Native Philippine word.
+    ceb: ["uk-ok", "ˈʔukʔok"],  // Wiktionary uk-ok (Cebuano) "cockroach", syn. ipos; ceb-IPA uk7ok, stress úk-ok. Readers (2026-11-28): "ok-ok" is the everyday word, ipos is rare/old (Negros). Was ipos (< PAN *Sipəs).
     ilo: ["ipes", "ˈʔipɛs"],  // Native Philippine word.
     fj: ["kokoroti", "kokoroti"],  // Borrowed from English cockroach.
     pa: ["ਕਾਕਰੋਚ", "kaːkɾoːtʃ"],  // Borrowed from English cockroach.

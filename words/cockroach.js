@@ -630,7 +630,7 @@ WORDS.cockroach = {
     ilo: ["ipes", "ˈʔipɛs"],  // Native Philippine word.
     fj: ["kokoroti", "kokoroti"],  // Borrowed from English cockroach.
     pa: ["ਕਾਕਰੋਚ", "kaːkɾoːtʃ"],  // Borrowed from English cockroach.
-    ne: ["झिङुर", "dzʱiŋur"],  // Turner Nepali Dict.: 'झिङुर् jhiṅur, or jhĩgur, s. A cockroach'; from *jhiṅgura (CDIAL 5387 '*jhiṅgura cockroach ... N. jhiṅur cockroach')
+    ne: ["साँग्लो", "sãɡlo"],  // IndoWordNet Nepali synset 6002 "cockroach, roach": साँग्लो "एक प्रकारको किरो"; Nepali Wikipedia article साङ्ला (= Blattodea) captions "सामान्य घरमा पाईने साँग्लो". Reader comment 2026-11-27 (Sangla). Was झिङुर (Turner 1931 jhiṅur "a cockroach"), the older dictionary word.
     mr: ["झुरळ", "dʒʱuɾəɭ"],  // Native Marathi word.
     gu: ["વંદો", "ʋəndo"],  // Native Gujarati word.
     si: ["කැරපොත්තා", "kærapotːaː"],  // Carter Sinhalese-English Dict.: 'කැරපොත්තා kærapottā, n cockroach'

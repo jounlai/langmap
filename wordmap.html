@@ -620,6 +620,13 @@
         #word-select-label .wt-text { min-width: 0; overflow-wrap: break-word; }
         #word-select-label .wt-en { display: block; font-size: .36em; font-weight: 600; letter-spacing: 0; line-height: 1.25; color: #444; }
         body.chrome-hidden #map .lang-label.under-title { visibility: hidden; }
+        /* Simple display shows no Language Master badges (owner 2026-11-27):
+           the panel medal, the invitation card and the medal after a mastered
+           word on the map. The map medal is absolutely placed, so hiding it
+           leaves each label's box as it is. */
+        body.chrome-hidden .lm-master-pill,
+        body.chrome-hidden .lm-master-try,
+        body.chrome-hidden .lm-map-medal { display: none !important; }
         /* Era switch and filter FAB share one horizontal row so the
            filter doesn't claim a separate vertical slot under the
            search field. lang-filter.js's FAB is moved into this row by
@@ -4075,7 +4082,7 @@
     </script>
     <script src="wordmap_data.js?v=374"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="word_manifest.js?v=1858"></script>
+    <script src="word_manifest.js?v=1859"></script>
     <script src="word_labels.js?v=158"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -4104,8 +4111,8 @@
             meta:     494,
             trivia:   126,
             triviaI18n: 158,
-            words:      1858,
-            langWords:    1473,
+            words:      1859,
+            langWords:    1474,
             labels:      158,
             metaI18nCoverage: 17,
             metaI18nCoverage2: 6,

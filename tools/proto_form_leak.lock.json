@@ -1108,5 +1108,29 @@
     "proto": "p_jpn",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|feather": {
+    "form": "pane",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|neck": {
+    "form": "kubi",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ota|sand": {
+    "form": "kum",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish kum is the attested descendant of Proto-Turkic *kum (Wiktionary descendants list); the word simply did not change."
+  },
+  "xqa|hair": {
+    "form": "sač",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Karakhanid sač (Kāšġarī) is an attested reflex of Proto-Turkic *sāč; the form did not change."
   }
 }

@@ -1396,17 +1396,17 @@ WORDS.drink = {
       es_ve: ["beber", "beˈβeɾ"],
       ca_va: ["beure", "ˈbewɾe"],
     ja: ["飲む", "nomɯ"],
-    ja_osa: ["飲んで", "nonde"],
-    ja_aom: ["飲んで", "nonde"],
+    ja_osa: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲んで", "nonde".
+    ja_aom: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲んで", "nonde".
     ja_oki: ["ぬぬん", "nunuɴ"],
-    ja_hak: ["飲んで", "nonde"],
-    ja_kyo: ["飲んで", "nonde"],
-    ja_hir: ["飲んで", "nonde"],
+    ja_hak: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲んで", "nonde".
+    ja_kyo: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲んで", "nonde".
+    ja_hir: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲んで", "nonde".
     ja_mvi: ["飲み", "num"],
     ja_rys: ["飲み", "numi"],
     ko: ["마시다", "maɕida"],
     ko_kp: ["마시다", "maɕida"],
-    ko_bus: ["마셔", "maɕjʌ"],
+    ko_bus: ["마시다", "maɕida"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "마셔", "maɕjʌ".
     ko_jeju: ["마시다", "maɕida"],
     ko_yb: ["마시다", "maɕida"],
     zh: ["喝", "xɤ˥"],
@@ -2316,10 +2316,10 @@ WORDS.drink = {
     cnh: ["din", "din"],
     kxm: ["ផឹក", "pʰɤʔ"],
     xng: ["ᠤᠭᠤ", "uu"],
-    ja_kg: ["飲うで", "noːde"],
-    ja_sd: ["飲んで", "nonde"],
-    ko_hg: ["마셔", "maɕjʌ"],
-    ko_jl: ["마셔", "maɕjə"],
+    ja_kg: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲うで", "noːde".
+    ja_sd: ["飲む", "nomɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "飲んで", "nonde".
+    ko_hg: ["마시다", "maɕida"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "마셔", "maɕjʌ".
+    ko_jl: ["마시다", "maɕida"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "마셔", "maɕjə".
     nan_pn: ["啉", "lim˧˧"],
     mra: ["wək", "wək"],
     wuu_nb: ["吃", "tɕʰyoʔ˥˥"],

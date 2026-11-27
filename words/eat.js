@@ -1401,17 +1401,17 @@ WORDS.eat = {
       es_ve: ["comer", "koˈmeɾ"],
       ca_va: ["menjar", "meɲˈdʒaɾ"],
     ja: ["食べる", "tabeɾɯ"],
-    ja_osa: ["食べて", "tabete"],
-    ja_aom: ["食って", "kɯtte"],
+    ja_osa: ["食べる", "tabeɾɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食べて", "tabete".
+    ja_aom: ["食う", "kɯː"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食って", "kɯtte".
     ja_oki: ["かぬん", "kanuɴ"],
-    ja_hak: ["食うて", "kɯːte"],
-    ja_kyo: ["食べて", "tabete"],
-    ja_hir: ["食べて", "tabete"],
+    ja_hak: ["食う", "kɯː"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食うて", "kɯːte".
+    ja_kyo: ["食べる", "tabeɾɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食べて", "tabete".
+    ja_hir: ["食べる", "tabeɾɯ"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食べて", "tabete".
     ja_mvi: ["食ー", "foː"],
     ja_rys: ["食い", "ɸai"],
     ko: ["먹다", "mʌk̚t͈a"],
     ko_kp: ["먹다", "mʌk̚t͈a"],
-    ko_bus: ["묵어", "muɡʌ"],
+    ko_bus: ["묵다", "muk̚t͈a"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "묵어", "muɡʌ".
     ko_jeju: ["먹다", "mʌk̚t͈a"],
     ko_yb: ["먹다", "mʌk̚t͈a"],
     zh: ["吃", "ʈʂʰɨ˥"],
@@ -2321,10 +2321,10 @@ WORDS.eat = {
     cnh: ["ei", "ei"],
     kxm: ["ស៊ី", "siː"],
     xng: ["ᠢᠳᠡ", "ide"],
-    ja_kg: ["食うて", "kɯːte"],
-    ja_sd: ["食って", "kɯtte"],
-    ko_hg: ["먹어", "mʌɡʌ"],
-    ko_jl: ["묵어", "muɡə"],
+    ja_kg: ["食う", "kɯː"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食うて", "kɯːte".
+    ja_sd: ["食う", "kɯː"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "食って", "kɯtte".
+    ko_hg: ["먹다", "mʌk̚t͈a"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "먹어", "mʌɡʌ".
+    ko_jl: ["묵다", "muk̚t͈a"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "묵어", "muɡə".
     nan_pn: ["食", "tsiaʔ˦"],
     mra: ["ʔə", "ʔə"],
     wuu_nb: ["吃", "tɕʰyoʔ˥˥"],

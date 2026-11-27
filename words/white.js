@@ -1381,7 +1381,7 @@ WORDS.white = {
     ja_hir: ["白い", "ɕiɾoi"],
     ko: ["하얗다", "hajatʰa"],
     ko_kp: ["하얗다", "hajatʰa"],
-    ko_bus: ["하얀", "hajan"],
+    ko_bus: ["하얗다", "hajatʰa"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "하얀", "hajan".
     ko_jeju: ["허영ᄒᆞ다", "hʌjʌŋhʌda"],
     ko_yb: ["하얗다", "hajatʰa"],
     zh: ["白", "pai˧˥"],

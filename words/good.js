@@ -1405,7 +1405,7 @@ WORDS.good = {
       ca_va: ["bo", "bɔ"],
     ja: ["良い", "joi"],
     ja_osa: ["ええ", "eː"],
-    ja_aom: ["良くて", "jokɯte"],
+    ja_aom: ["良い", "joi"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "良くて", "jokɯte".
     ja_oki: ["ゆたしゃん", "jutaɕaɴ"],
     ja_hak: ["よか", "joka"],
     ja_kyo: ["ええ", "eː"],
@@ -1414,7 +1414,7 @@ WORDS.good = {
     ja_rys: ["かいしゃーん", "kaiɕaːɴ"],
     ko: ["좋다", "tɕotʰa"],
     ko_kp: ["좋다", "tɕotʰa"],
-    ko_bus: ["좋아", "tɕoa"],
+    ko_bus: ["좋다", "tɕotʰa"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "좋아", "tɕoa".
     ko_jeju: ["좋다", "tɕotʰa"],
     ko_yb: ["좋다", "tɕotʰa"],
     zh: ["好", "xaʊ̯˧˩˧"],
@@ -2326,9 +2326,9 @@ WORDS.good = {
     kxm: ["ល្អ", "lʔɑː"],
     xng: ["ᠰᠠᠶᠢᠨ", "sajin"],
     ja_kg: ["よか", "joka"],
-    ja_sd: ["良くて", "jokɯte"],
-    ko_hg: ["좋아", "tɕoa"],
-    ko_jl: ["좋어", "tɕoə"],
+    ja_sd: ["良い", "joi"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "良くて", "jokɯte".
+    ko_hg: ["좋다", "tɕotʰa"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "좋아", "tɕoa".
+    ko_jl: ["좋다", "tɕotʰa"],  // Dictionary form (owner 2026-11-27: Japanese and Korean dialect verbs and adjectives are given in their base form). Was "좋어", "tɕoə".
     nan_pn: ["好", "ho˦˦˥"],
     mra: ["pja kle", "pja kle"],
     wuu_nb: ["好", "hɔ˧˨˥"],

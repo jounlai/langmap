@@ -11,6 +11,12 @@
     "ruling": "circular",
     "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
   },
+  "cmg|gold": {
+    "form": "altan",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
   "cmg|good": {
     "form": "sajin",
     "proto": "pmng",
@@ -23,8 +29,26 @@
     "ruling": "circular",
     "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
   },
+  "cmg|husband": {
+    "form": "ere",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
   "cmg|i": {
     "form": "bi",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|island": {
+    "form": "aral",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|mirror": {
+    "form": "toli",
     "proto": "pmng",
     "ruling": "circular",
     "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
@@ -149,6 +173,12 @@
     "ruling": "inherited",
     "note": "ama, ina, isa are ordinary Tagalog, unchanged from Proto-Austronesian *ama, *ina, *esa; nothing here needs a proto row to explain it."
   },
+  "juc|dragon": {
+    "form": "muduri",
+    "proto": "p_tun",
+    "ruling": "inherited",
+    "note": "Jurchen müh-tu-rh 'Drache' (Grube 1896, entry 135) is attested in the Sino-Jurchen glossary; it matches Manchu muduri, and Proto-Tungusic *muduri is reconstructed partly from these."
+  },
   "juc|father": {
     "form": "ama",
     "proto": "p_tun",
@@ -196,6 +226,24 @@
     "proto": "paus",
     "ruling": "inherited",
     "note": "Kawi / Old Javanese is attested in a large inscriptional and literary corpus; manuk, asu, lima, aku are its ordinary words. Row-level ruling."
+  },
+  "kaw|olderbrother": {
+    "form": "kaka",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Javanese kaka 'elder sibling' is attested (Zoetmulder); it continues Proto-Austronesian *kaka unchanged."
+  },
+  "obr|black": {
+    "form": "nak",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
+  },
+  "obr|egg": {
+    "form": "ʔu",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
   },
   "obr|hand": {
     "form": "lak",
@@ -347,6 +395,24 @@
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
+  "ojp|island": {
+    "form": "sima",
+    "proto": "p_jpk,p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|leaf": {
+    "form": "pa",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese 葉 pa (Man'yōshū) is part of the basis of the Proto-Japonic reconstruction *pa. Review 853."
+  },
+  "ojp|left": {
+    "form": "pidari",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
   "ojp|milk": {
     "form": "ti",
     "proto": "p_jpn",
@@ -412,6 +478,18 @@
     "proto": "p_jpn",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|tear": {
+    "form": "namita",
+    "proto": "p_jpk p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese namita 'tear' (Man'yōshū); Proto-Japonic *namita is reconstructed with it and Ryukyuan. Gap rally A10, 2026-11-18."
+  },
+  "ojp|thousand": {
+    "form": "ti",
+    "proto": "p_jpk p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese ti 'thousand' kept the Proto-Japonic form. Gap rally A10, 2026-11-18."
   },
   "ojp|tongue": {
     "form": "sita",
@@ -659,6 +737,12 @@
     "ruling": "inherited",
     "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
   },
+  "sukh|olderbrother": {
+    "form": "biː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "พี่ 'elder sibling' is attested in the Sukhothai inscriptions; it continues Proto-Tai *biː unchanged."
+  },
   "sukh|one": {
     "form": "nɯːŋ",
     "proto": "ptai",
@@ -725,8 +809,20 @@
     "ruling": "circular",
     "note": "Classical Tibetan མིང ming; PST *r-miŋ rests on Tibetan among others."
   },
+  "xng|butterfly": {
+    "form": "herbekei",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
   "xng|five": {
     "form": "tabun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|gold": {
+    "form": "altan",
     "proto": "pmng",
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
@@ -737,8 +833,38 @@
     "ruling": "inherited",
     "note": "Middle Mongol sayin 'good' continues the atlas's Proto-Mongolic good. Ruled 2026-10-13 (r94)."
   },
+  "xng|honey": {
+    "form": "bal",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|husband": {
+    "form": "ere",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
   "xng|i": {
     "form": "bi",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|island": {
+    "form": "aral",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|language": {
+    "form": "kelen",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|mirror": {
+    "form": "toli",
     "proto": "pmng",
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
@@ -791,6 +917,12 @@
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
   },
+  "xng|thumb": {
+    "form": "herekei",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol is the basis of the Proto-Mongolic reconstruction (row-level ruling as xng|language). Gap rally A10, 2026-11-18."
+  },
   "xng|tongue": {
     "form": "kelen",
     "proto": "pmng",
@@ -809,6 +941,12 @@
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
   },
+  "xng|wine": {
+    "form": "darasun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Attested hapax in Phags-pa script (d-r-sun) per Wiktionary; Middle Mongol is a basis of the Proto-Mongolic reconstruction."
+  },
   "xqa|bone": {
     "form": "süŋük",
     "proto": "ptrk",
@@ -820,6 +958,12 @@
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Kashgari (Dankoff & Kelly) attests bitig 'book, writing' in Karakhanid; Proto-Turkic *bitig is reconstructed from forms like it. Attested, not a copy (r49, 2026-10-04)."
+  },
+  "xqa|bread": {
+    "form": "etmek",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
   },
   "xqa|earth": {
     "form": "jer",
@@ -862,6 +1006,12 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|language": {
+    "form": "til",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Attested Karakhanid til 'tongue, language' (Kāšġarī, Clauson); Turkic kept the Proto-Turkic form."
   },
   "xqa|mother": {
     "form": "ana",
@@ -934,149 +1084,5 @@
     "proto": "p_sit",
     "ruling": "inherited",
     "note": "我 in Pulleyblank's Early Middle Chinese (ytenx 蒲立本 column) is ŋa; Proto-Sino-Tibetan *ŋa is its ancestor. A real inheritance, not a copy (zh_tang rebuild 2026-10-04)."
-  },
-  "kaw|olderbrother": {
-    "form": "kaka",
-    "proto": "paus",
-    "ruling": "inherited",
-    "note": "Old Javanese kaka 'elder sibling' is attested (Zoetmulder); it continues Proto-Austronesian *kaka unchanged."
-  },
-  "sukh|olderbrother": {
-    "form": "biː",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "พี่ 'elder sibling' is attested in the Sukhothai inscriptions; it continues Proto-Tai *biː unchanged."
-  },
-  "xng|wine": {
-    "form": "darasun",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Attested hapax in Phags-pa script (d-r-sun) per Wiktionary; Middle Mongol is a basis of the Proto-Mongolic reconstruction."
-  },
-  "cmg|gold": {
-    "form": "altan",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "cmg|mirror": {
-    "form": "toli",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "ojp|island": {
-    "form": "sima",
-    "proto": "p_jpk,p_jpn,p_ryu",
-    "ruling": "circular",
-    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
-  },
-  "ojp|left": {
-    "form": "pidari",
-    "proto": "p_ryu",
-    "ruling": "circular",
-    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
-  },
-  "xng|gold": {
-    "form": "altan",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
-  },
-  "xng|mirror": {
-    "form": "toli",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
-  },
-  "xqa|bread": {
-    "form": "etmek",
-    "proto": "ptrk",
-    "ruling": "circular",
-    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
-  },
-  "obr|black": {
-    "form": "nak",
-    "proto": "p_sit",
-    "ruling": "inherited",
-    "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
-  },
-  "obr|egg": {
-    "form": "ʔu",
-    "proto": "p_sit",
-    "ruling": "inherited",
-    "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
-  },
-  "cmg|husband": {
-    "form": "ere",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "cmg|island": {
-    "form": "aral",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "xng|butterfly": {
-    "form": "herbekei",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "xng|honey": {
-    "form": "bal",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "xng|husband": {
-    "form": "ere",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "xng|island": {
-    "form": "aral",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "xng|language": {
-    "form": "kelen",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
-  },
-  "xqa|language": {
-    "form": "til",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Attested Karakhanid til 'tongue, language' (Kāšġarī, Clauson); Turkic kept the Proto-Turkic form."
-  },
-  "ojp|tear": {
-    "form": "namita",
-    "proto": "p_jpk p_jpn",
-    "ruling": "inherited",
-    "note": "Old Japanese namita 'tear' (Man'yōshū); Proto-Japonic *namita is reconstructed with it and Ryukyuan. Gap rally A10, 2026-11-18."
-  },
-  "ojp|thousand": {
-    "form": "ti",
-    "proto": "p_jpk p_jpn",
-    "ruling": "inherited",
-    "note": "Old Japanese ti 'thousand' kept the Proto-Japonic form. Gap rally A10, 2026-11-18."
-  },
-  "xng|thumb": {
-    "form": "herekei",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol is the basis of the Proto-Mongolic reconstruction (row-level ruling as xng|language). Gap rally A10, 2026-11-18."
-  },
-  "juc|dragon": {
-    "form": "muduri",
-    "proto": "p_tun",
-    "ruling": "inherited",
-    "note": "Jurchen müh-tu-rh 'Drache' (Grube 1896, entry 135) is attested in the Sino-Jurchen glossary; it matches Manchu muduri, and Proto-Tungusic *muduri is reconstructed partly from these."
   }
 }

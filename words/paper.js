@@ -173,7 +173,7 @@ WORDS.paper = {
     as: "kaghaz",
     ckb: "kaghaz",
     alt: "kaghaz",
-    ace: "leaf",
+    ace: "charta",
     ak: "charta",
     ban: "charta",
     su: "charta",
@@ -935,7 +935,7 @@ WORDS.paper = {
     as: ["কাগজ", "kaɡɔz"],
     ckb: ["کاغەز", "kaːɣəz"],
     alt: ["кагас", "kaɡas"],  // Route by resemblance to the neighbouring forms (kk); no etymology of its own.
-    ace: ["ôn", "on"],
+    ace: ["keureutah", "kɯrɯtaih"],  // DiACL (paper) [kɯrɯtaih]; Acehnese Wikipedia "pabrék keureutah". Was ôn, which is the leaf (Wiktionary).
     ak: ["kraataa", "kraːtaː"],  // Route by resemblance to the neighbouring forms (sw); no etymology of its own.
     ban: ["kertas", "kərtas"],
     su: ["kertas", "kərtas"],

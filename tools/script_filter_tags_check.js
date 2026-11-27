@@ -9,12 +9,19 @@
  * Arabic and Pa'O were tagged Latin only while the map shows Arabic and Burmese
  * script (owner report 2026-11-27; 31 rows fixed).
  *
+ * The chip means "the script you will see on the map", not every script the
+ * language has ever been written in — that history stays in meta.script, on
+ * the language card (owner 2026-11-27: Malay under Arabic, Old Malay under
+ * Brahmic, Serbian under Latin all showed something else on the map; 153 more
+ * rows aligned).
+ *
  * Two rules:
  *   SHOWN   a script used in >=25% of a row's cells must be one of its tags
  *           (Latin is exempt on 'None / reconstructed' rows; GREEK_TRANSLIT rows
  *           write β γ δ θ inside a Latin transliteration).
- *   BASIS   a tag must be shown in the cells or named in meta.script; tags for a
- *           real script the meta text leaves out are listed in ATTESTED.
+ *   ONLY    every tag must be on the map: a detectable script in >=5% (or 3) of
+ *           the cells; a script the detector cannot see (Gothic, Avestan…) only
+ *           while the cells are not mostly Latin transliteration.
  *
  * Usage: node tools/script_filter_tags_check.js [--check]
  */
@@ -106,31 +113,32 @@ const W=wc.WORDS;
 }
 
 
-const T={Latin:/[A-Za-z\u00C0-\u024F]/u,Han:/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF\u{20000}-\u{3134F}]/u,Kana:/[\u3040-\u30FF\u31F0-\u31FF]/u,Hangul:/[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uD7B0-\uD7FF]/u,Cyrillic:/[\u0400-\u052F\u1C80-\u1C8F\uA640-\uA69F]/u,'Arabic-derived':/[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/u,Hebrew:/[\u0590-\u05FF]/u,Syriac:/[\u0700-\u074F]/u,Brahmic:/[\u0900-\u0DFF\u0E00-\u0EFF\u1000-\u109F\u1700-\u17FF\u1900-\u1AFF\u1B00-\u1BFF\u1C00-\u1C4F\uA800-\uA9FF\uAA00-\uAAFF\uABC0-\uABFF\u{11000}-\u{11FFF}]/u,Tibetan:/[\u0F00-\u0FFF]/u,Greek:/[\u0370-\u03FF\u1F00-\u1FFF]/u,Armenian:/[\u0530-\u058F]/u,Georgian:/[\u10A0-\u10FF\u1C90-\u1CBF\u2D00-\u2D2F]/u,Ethiopic:/[\u1200-\u139F\u2D80-\u2DDF]/u,Tifinagh:/[\u2D30-\u2D7F]/u,Yi:/[\uA000-\uA4CF]/u,'Mongolian-derived':/[\u1800-\u18AF\u{11660}-\u{1167F}]/u,Cuneiform:/[\u{12000}-\u{1254F}\u{10380}-\u{103DF}]/u,Hieroglyphs:/[\u{13000}-\u{1345F}]/u,Tangut:/[\u{17000}-\u{18AFF}]/u,"N'Ko":/[\u07C0-\u07FF]/u,Coptic:/[\u2C80-\u2CFF]/u,Cherokee:/[\u13A0-\u13FF]/u,'Canadian Aboriginal Syllabics':/[\u1400-\u167F]/u};
+const T={Latin:/[A-Za-z\u00C0-\u024F]/u,Han:/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF\u{20000}-\u{3134F}]/u,Kana:/[\u3040-\u30FF\u31F0-\u31FF]/u,Hangul:/[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uD7B0-\uD7FF]/u,Cyrillic:/[\u0400-\u052F\u1C80-\u1C8F\uA640-\uA69F]/u,'Arabic-derived':/[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/u,Hebrew:/[\u0590-\u05FF]/u,Syriac:/[\u0700-\u074F]/u,Brahmic:/[\u0900-\u0DFF\u0E00-\u0EFF\u1000-\u109F\u1700-\u17FF\u1900-\u1AFF\u1B00-\u1BFF\u1C00-\u1C4F\uA800-\uA9FF\uAA00-\uAAFF\uABC0-\uABFF\u{11000}-\u{11FFF}]/u,Tibetan:/[\u0F00-\u0FFF]/u,Greek:/[\u0370-\u03FF\u1F00-\u1FFF]/u,Armenian:/[\u0530-\u058F]/u,Georgian:/[\u10A0-\u10FF\u1C90-\u1CBF\u2D00-\u2D2F]/u,Ethiopic:/[\u1200-\u139F\u2D80-\u2DDF]/u,Tifinagh:/[\u2D30-\u2D7F]/u,Yi:/[\uA000-\uA4CF]/u,'Mongolian-derived':/[\u1800-\u18AF\u{11660}-\u{1167F}]/u,Cuneiform:/[\u{12000}-\u{1254F}\u{10380}-\u{103DF}]/u,Hieroglyphs:/[\u{13000}-\u{1345F}\u{14400}-\u{1467F}\u{10980}-\u{109FF}]/u,'Old Turkic':/[\u{10C00}-\u{10C4F}]/u,Tangut:/[\u{17000}-\u{18AFF}]/u,"N'Ko":/[\u07C0-\u07FF]/u,Coptic:/[\u2C80-\u2CFF]/u,Cherokee:/[\u13A0-\u13FF]/u,'Canadian Aboriginal Syllabics':/[\u1400-\u167F]/u};
 
-const GREEK_TRANSLIT=new Set(['sog','xve','cop']);
-// Tag for a script the language really uses (or used) that meta.script does not name.
-const ATTESTED={
-  sw:'Arabic-derived — Swahili Ajami manuscripts', mg:'Arabic-derived — Sorabe', wo:'Arabic-derived — Wolofal',
-  ff:'Arabic-derived — Fula Ajami', tg:'Arabic-derived — Persian script before 1928', tl:'Brahmic — Baybayin',
-  bft:'Arabic-derived — Perso-Arabic Balti in Pakistan', lbj:'Latin', udi:'Latin', tru:'Latin', bbl:'Latin', yug:'Latin',
-  ttq:'Tifinagh', nci:'Hieroglyphs — Aztec pictography', nan_xm:'Latin — POJ', nan_zz:'Latin — POJ',
-};
-const v=[];const seenA=new Set();
+const GREEK_TRANSLIT=new Set(['sog','xve','xpr','cop']);
+// Tags for scripts the detector above cannot see (Gothic, Avestan, Linear B,
+// Ol Chiki…) are only allowed while the row's cells are not mostly Latin.
+const NAMED_ONLY=new Set(['Other historical','Other','Jurchen','Aramaic-derived','Khitan','Mayan','Aegean syllabary','Old Turkic']);
+const v=[];
 for(const c of Object.keys(LD)){const m=LD[c].meta;if(!m)continue;
- const decl=Array.isArray(m.scriptTags)&&m.scriptTags.length?m.scriptTags:null;const det=detectScript(m.script);const tags=decl||det;
+ const decl=Array.isArray(m.scriptTags)&&m.scriptTags.length?m.scriptTags:null;const tags=decl||detectScript(m.script);
  const cnt={};let n=0;
  for(const id in W){const e=(W[id].data||{})[c];if(!Array.isArray(e))continue;const s=e[0];if(!s||/^[\s—–-]*$/.test(s))continue;n++;
   for(const[k,re] of Object.entries(T)) if(re.test(s)) cnt[k]=(cnt[k]||0)+1;}
  if(!n)continue;
+ if(GREEK_TRANSLIT.has(c)) delete cnt.Greek;
+ const shown=k=>cnt[k]&&(cnt[k]/n>=0.05||cnt[k]>=3);
+ const latin=(cnt.Latin||0)/n;
  for(const[k,x] of Object.entries(cnt)){ if(x/n<0.25||tags.includes(k))continue;
-  if(k==='Latin'&&tags.includes('None / reconstructed'))continue; if(k==='Greek'&&GREEK_TRANSLIT.has(c))continue;
+  if(k==='Latin'&&tags.includes('None / reconstructed'))continue;
   v.push(`${c}: map shows ${k} in ${Math.round(100*x/n)}% of cells, but the Script filter tags are [${tags.join(', ')}]`);}
- for(const t of tags){ if(!T[t]||cnt[t]>0||det.includes(t)||(t==='Brahmic'&&tags.includes('Tibetan')))continue;
-  if(ATTESTED[c]){seenA.add(c);continue;}
-  v.push(`${c}: tagged ${t}, but no cell is in ${t} and meta.script says "${String(m.script||'').slice(0,50)}"`);}
+ for(const t of tags){
+  if(T[t]){ if(shown(t)||(t==='Brahmic'&&shown('Tibetan')))continue;
+   v.push(`${c}: tagged ${t}, but the map shows no ${t} (cells: ${Object.entries(cnt).map(([k,x])=>k+' '+Math.round(100*x/n)+'%').join(', ')||'unrecognised script'})`);}
+  else if(NAMED_ONLY.has(t)&&latin>=0.5) v.push(`${c}: tagged ${t}, but ${Math.round(100*latin)}% of its cells are Latin transliteration`);
+ }
 }
-const stale=Object.keys(ATTESTED).filter(k=>!seenA.has(k));
+const stale=[];
 if(CHECK){console.log(`violations: ${v.length}`);v.forEach(x=>console.log('  '+x));stale.forEach(k=>console.log(`  note: ATTESTED '${k}' no longer needed`));process.exit(0);}
 console.log('script filter tags — the chip a row sits under must match the map\n');
 if(!v.length)console.log('clean — every row\'s Script tags match its cells and its meta.');

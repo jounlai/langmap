@@ -614,6 +614,7 @@ WORDS.china = {
     agq: "cina",
     khq: "cina",
     mkz: "cina",
+    vai: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1174,5 +1175,6 @@ WORDS.china = {
     agq: ["Chaenà", "tʃaenà"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
     khq: ["Šiin", "ʃiːn"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["Sina", "sina"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    vai: ["ꕦꔤꕯ", "tʃaina"],  // CLDR common/main/vai.xml (+ vai_Latn.xml) https://github.com/unicode-org/cldr/blob/main/common/main/vai.xml.
   },
 };

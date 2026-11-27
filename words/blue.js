@@ -923,7 +923,6 @@ WORDS.blue = {
     uk: "distinct",
     ur: "distinct",
     uz: "distinct",
-    vai: "grue",
     ve: "distinct",
     vep: "distinct",
     vi: "grue",
@@ -1902,7 +1901,6 @@ WORDS.blue = {
     uk: ["синій", "ˈsɪnʲii̯"],  // синій vs зелений; Ukrainian also has блакитний for light blue, parallel to Russian голубой. // was ["синій", "ˈsɪnʲij"] (vi dialect rules 2026-10-06)
     ur: ["نیلا", "niːlaː"],  // Urdu نیلا against سبز.
     uz: ["zangori", "zaŋɡɒˈri"],  // Uzbek zangori (a Persian loan, zangār) vs yashil; ko'k survives as 'sky' and in ko'kat 'greens', the old grue term.
-    vai: ["dsiron", "dʒiron"],  // The class is explicitly sourced — Koelle's single gloss is 'blue, green'. What is uncertain is the surface: this is Koelle's 1854 transcription (ds = /dʒ/, trailing hyphen marks a bound stem) and no modern Vai spelling was found to confirm it. Do not publish the form without a modern check.
     ve: ["lutombo", "lutombo"],  // Tshivenda's basic adjectival colour inventory is only -tswuku / -tshena / -tswu; blue and green are class-11/3 nouns. Murphy's lexicon glosses lutombo (cl. 11) as 'cloudless blue sky' and murohwe (cl. 3, < muroho 'vegetables') as 'green color' — two separate words, hence not grue, but the gloss is 'blue sky' rather than 'blue' outright, so the class is an inference. Popular Venda wordlists give lutombo 'blue' vs mudala/ludala 'green', which would still be a blue/green split.
     vep: ["sinine", "ˈsinine"],  // Veps sinine vs vihand.
     vi: ["xanh", "saɲ˧"],  // xanh is one term for the whole cool range and needs a modifier to pick out either end: xanh da trời 'sky xanh' = blue, xanh lá cây 'leaf xanh' = green. WOLD scores xanh as clearly borrowed — it is Chinese 青 — so the word is a loan and the category is grue.

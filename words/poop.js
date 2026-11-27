@@ -989,6 +989,7 @@ WORDS.poop = {
     ets: "plain",
     luz: "gutha",
     mwk: "plain",
+    nmn: "plain",
   },
   routes: {
     caqi: {"color":"#2563eb","emoji":"🌴","en":"Proto-Austronesian *Caqi (tahi, tae, tai)","ja":"オーストロネシア祖語 *Caqi (tahi, tae, tai)","ko":"오스트로네시아 조어 *Caqi (tahi, tae, tai)","zh":"原始南岛语 *Caqi (tahi, tae, tai)","yue":"原始南島語 *Caqi (tahi, tae, tai)","vi":"tiếng Nam Đảo nguyên thủy *Caqi (tahi, tae, tai)","th":"ภาษาออสโตรนีเซียนดั้งเดิม *Caqi (tahi, tae, tai)","id":"Proto-Austronesia *Caqi (tahi, tae, tai)","hi":"आदि-ऑस्ट्रोनेशियाई *Caqi (tahi, tae, tai)","de":"uraustronesisch *Caqi (tahi, tae, tai)","fr":"le proto-austronésien *Caqi (tahi, tae, tai)","it":"il protoaustronesiano *Caqi (tahi, tae, tai)","es":"el protoaustronesio *Caqi (tahi, tae, tai)","pt":"o proto-austronésio *Caqi (tahi, tae, tai)","ru":"праавстронезийское *Caqi (tahi, tae, tai)","uk":"праавстронезійське *Caqi (tahi, tae, tai)","ar":"الأسترونيزية الأم *Caqi (tahi، tae، tai)","he":"הפרוטו-אוסטרונזית *Caqi (tahi, tae, tai)","sw":"Kiaustronesia asilia *Caqi (tahi, tae, tai)"},
@@ -1975,5 +1976,6 @@ WORDS.poop = {
     ets: ["itọ", "itɔ"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
     luz: ["gi", "ɡi"],  // Persian Wikipedia 'گویش لری جنوبی' vocabulary table (https://fa.wikipedia.org/wiki/لری_جنوبی); Loeffler & Windfuhr, 'Boi.
     mwk: ["bu", "bu"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    nmn: ["tshxàã", "tsʰxaã"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

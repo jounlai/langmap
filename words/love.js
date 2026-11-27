@@ -1161,6 +1161,7 @@ WORDS.love = {
     btx: "plain",
     mqy: "plain",
     aiw: "plain",
+    mkz: "plain",
   },
   routes: {
     lewbh: {"color":"#2563eb","emoji":"❤️","en":"Proto-Indo-European *lewbʰ- (love, Liebe, любовь)","ja":"インド・ヨーロッパ祖語 *lewbʰ- (love, Liebe, любовь)","ko":"인도유럽 조어 *lewbʰ- (love, Liebe, любовь)","zh":"原始印欧语 *lewbʰ- (love, Liebe, любовь)","yue":"原始印歐語 *lewbʰ- (love, Liebe, любовь)","vi":"tiếng Ấn-Âu nguyên thủy *lewbʰ- (love, Liebe, любовь)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *lewbʰ- (love, Liebe, любовь)","id":"Proto-Indo-Eropa *lewbʰ- (love, Liebe, любовь)","hi":"आदि-भारोपीय *lewbʰ- (love, Liebe, любовь)","de":"urindogermanisch *lewbʰ- (love, Liebe, любовь)","fr":"le proto-indo-européen *lewbʰ- (love, Liebe, любовь)","it":"il protoindoeuropeo *lewbʰ- (love, Liebe, любовь)","es":"el protoindoeuropeo *lewbʰ- (love, Liebe, любовь)","pt":"o proto-indo-europeu *lewbʰ- (love, Liebe, любовь)","ru":"праиндоевропейское *lewbʰ- (love, Liebe, любовь)","uk":"праіндоєвропейське *lewbʰ- (love, Liebe, любовь)","ar":"الهندية الأوروبية الأم *lewbʰ- (love، Liebe، любовь)","he":"הפרוטו-הודו-אירופית *lewbʰ- (love, Liebe, любовь)","sw":"Kihindi-Ulaya asilia *lewbʰ- (love, Liebe, любовь)"},
@@ -1664,7 +1665,7 @@ WORDS.love = {
     lhm: ['—', '—'],
     lij_t: ['amù', 'aˈmu'],
     mcf: ['—', '—'],
-    mkz: ['—', '—'],
+    mkz: ["ramiaka", "ramiaka"],  // Correia (2011) Describing Makasae, glossary: "ramiaka vt. to love".
     mpj: ['mukulyu', 'mukuʎu'],
     oar: ['רחם', 'raħem'],
     pao: ['suabetɨ', 'suapetɨ'],

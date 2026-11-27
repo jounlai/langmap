@@ -964,6 +964,8 @@ WORDS.right = {
     ets: "plain",
     fia: "plain",
     aiw: "plain",
+    kqz: "plain",
+    nmn: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1878,5 +1880,7 @@ WORDS.right = {
     ets: ["obeθa", "obeθa"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.
     fia: ["ényòn", "éɲòn"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     aiw: ["miza", "miza"],  // Tsuge, Yoichi (1996) On the Consonant Correspondences of South Omotic Languages, Senri Ethnological Studies 43:163-188, .
+    kqz: ["kxʼam", "kxʼam"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    nmn: ["ǂnà̰ũ", "ǂna̰ũ"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

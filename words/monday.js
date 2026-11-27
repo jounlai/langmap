@@ -817,6 +817,8 @@ WORDS.monday = {
     vmf: "moon",
     psi: "count",
     mkz: "count",
+    alq: "unknown",
+    kqz: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1576,5 +1578,7 @@ WORDS.monday = {
     vmf: ["Maadich", "ˈmaːdɪç"],  // Wiktionary (en).
     psi: ["دو شمبی", "do ʃambe"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
     mkz: ["watu-sigunda", "watu siɡunda"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["mètizowinì-gìjigad", "meːtizowiniːɡiːʒiɡad"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["Mandax", "mandax"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

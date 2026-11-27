@@ -1080,6 +1080,7 @@ WORDS.thanks = {
     btx: "plain",
     sxn: "terimakasih",
     jra: "plain",
+    wic: "plain",
   },
   routes: {
     thank: {"color":"#2563eb","emoji":"💡","en":"Germanic *þankaz / *þankōną (thank you, danke, takk)","ja":"ゲルマン祖語 *þankaz / *þankōną (thank you, danke, takk)","ko":"게르만 조어 *þankaz / *þankōną (thank you, danke, takk)","zh":"原始日耳曼语 *þankaz / *þankōną (thank you, danke, takk)","yue":"原始日耳曼語 *þankaz / *þankōną (thank you, danke, takk)","vi":"tiếng German nguyên thủy *þankaz / *þankōną (thank you, danke, takk)","th":"ภาษาเจอร์แมนิกดั้งเดิม *þankaz / *þankōną (thank you, danke, takk)","id":"Proto-Jermanik *þankaz / *þankōną (thank you, danke, takk)","hi":"आदि-जर्मेनिक *þankaz / *þankōną (thank you, danke, takk)","de":"urgermanisch *þankaz / *þankōną (thank you, danke, takk)","fr":"le proto-germanique *þankaz / *þankōną (thank you, danke, takk)","it":"il protogermanico *þankaz / *þankōną (thank you, danke, takk)","es":"el protogermánico *þankaz / *þankōną (thank you, danke, takk)","pt":"o protogermânico *þankaz / *þankōną (thank you, danke, takk)","ru":"прагерманское *þankaz / *þankōną (thank you, danke, takk)","uk":"прагерманське *þankaz / *þankōną (thank you, danke, takk)","ar":"الجرمانية الأم *þankaz / *þankōną (thank you، danke، takk)","he":"הפרוטו-גרמאנית *þankaz / *þankōną (thank you, danke, takk)","sw":"Kijerumaniki asilia *þankaz / *þankōną (thank you, danke, takk)"},
@@ -1548,7 +1549,7 @@ WORDS.thanks = {
     pmy: ["trima kasi", "ˈtrima ˈkasi"],
     pot: ["migwétch", "miɡwetʃ"],
     pzh: ['—', '—'],
-    wic: ['—', '—'],
+    wic: ["soːtiːcʔa", "soːtiːtsʔa"],  // Wichita and Affiliated Tribes, Dept. of Preservation, Language Class Dictionary + 'Simple everyday words, phrases, and c.
     wuu_jh: ["谢谢", "zia˩˦ zia˩˦"],
     wuu_jx: ["谢谢", "ʑiɑ˩˩˦ ʑiɑ˩˩˦"],
     yue_zs: ["多謝", "tɔ˥˥ tsɛ˧˧"],

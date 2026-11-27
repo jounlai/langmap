@@ -851,6 +851,8 @@ WORDS.east = {
     fia: "plain",
     kjp: "rising",
     psi: "plain",
+    alq: "dawn",
+    kqz: "rising",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1643,5 +1645,7 @@ WORDS.east = {
     fia: ["mátto", "mátːo"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     kjp: ["မူႋထင်း", "mɯ̄tʰáɴ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp.
     psi: ["سور آلېک", "sor alek"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
+    alq: ["wàbanong", "waːbanoŋ"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["sorebnaǂoaxaǀxāb", "sorebnaǂoaxaǀxaːb"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

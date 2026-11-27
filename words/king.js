@@ -940,6 +940,8 @@ WORDS.king = {
     hno: "reg",
     mwk: "mansa",
     mkz: "other",
+    alq: "plain",
+    kqz: "plain",
   },
   routes: {
     reg: {"color":"#7c3aed","emoji":"🏛️","en":"the old root of rēx and rājā (roi, rey, राजा, raja)","ja":"rēx・rājā の古い語根（roi, rey, राजा, raja）","ko":"rēx·rājā의 옛 어근 (roi, rey, राजा, raja)","zh":"rēx 与 rājā 的古老词根（roi、rey、राजा、raja）","yue":"rēx 同 rājā 嘅古老詞根（roi、rey、राजा、raja）","vi":"gốc cổ của rēx và rājā (roi, rey, राजा, raja)","th":"รากเก่าของ rēx และ rājā (roi, rey, राजा, raja)","id":"akar kuno rēx dan rājā (roi, rey, राजा, raja)","hi":"rēx और राजा का पुराना मूल (roi, rey, राजा, raja)","de":"die alte Wurzel von rēx und rājā (roi, rey, राजा, raja)","fr":"la vieille racine de rēx et rājā (roi, rey, राजा, raja)","it":"l’antica radice di rēx e rājā (roi, rey, राजा, raja)","es":"la vieja raíz de rēx y rājā (roi, rey, राजा, raja)","pt":"a velha raiz de rēx e rājā (roi, rey, राजा, raja)","ru":"древний корень rēx и rājā (roi, rey, राजा, raja)","uk":"давній корінь rēx і rājā (roi, rey, राजा, raja)","ar":"الجذر القديم لـ rēx وrājā (roi, rey, राजा, raja)","he":"השורש העתיק של rēx ו־rājā (roi, rey, राजा, raja)","sw":"mzizi wa kale wa rēx na rājā (roi, rey, राजा, raja)"},
@@ -1832,5 +1834,7 @@ WORDS.king = {
     hno: ["راجہ", "raːdʒaː"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     mwk: ["mansa", "mansa"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
     mkz: ["liurai", "liurai"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["ogimà", "oɡimaː"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǂnũsab", "ǂnũsab"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

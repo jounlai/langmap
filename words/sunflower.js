@@ -430,6 +430,7 @@ WORDS.sunflower = {
     akl: "sun",
     tdd: "plain",
     aiw: "unknown",
+    alq: "plain",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -807,5 +808,6 @@ WORDS.sunflower = {
     akl: ["sanplawir", "sanˈplawiɾ"],  // Salas Reyes, Zorc et al. 1969 (ERIC ED145704).
     tdd: ["ᥑᥨᥒ", "xoŋ˧"],  // Luo Yongxian 1999, A dictionary of Dehong, Southwest China (Pacific Linguistics C-145), ANU Open Research PDF https://op.
     aiw: ["suufi", "suːfi"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    alq: ["sìndahàgan", "siːndahaːɡan"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
   },
 };

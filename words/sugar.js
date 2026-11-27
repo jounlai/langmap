@@ -940,6 +940,7 @@ WORDS.sugar = {
     vmf: "sharkara",
     psi: "other",
     mkz: "other",
+    nmn: "sharkara",
   },
   routes: {
     sharkara: { color: "#b45309", emoji: "💎", en: "from Sanskrit śarkarā", ja: "サンスクリット śarkarā 由来", ko: "산스크리트 śarkarā 유래", zh: "源自梵语 śarkarā", yue: "源自梵文 śarkarā", vi: "từ tiếng Phạn śarkarā", th: "จากภาษาสันสกฤต śarkarā", id: "dari bahasa Sanskerta śarkarā", hi: "संस्कृत शर्करा से", de: "vom Sanskrit śarkarā", fr: "du sanskrit śarkarā", it: "dal sanscrito śarkarā", es: "del sánscrito śarkarā", pt: "do sânscrito śarkarā", ru: "от санскр. śarkarā", uk: "від санскр. śarkarā", ar: "من السنسكريتية śarkarā", he: "מסנסקריט śarkarā", sw: "kutoka Kisanskriti śarkarā" },
@@ -1867,5 +1868,6 @@ WORDS.sugar = {
     vmf: ["Zucker", "ˈtsʊkɐ"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
     psi: ["بورا", "buraː"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
     mkz: ["gasi-fani", "ɡasi fani"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    nmn: ["sūkulī", "sukuli"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

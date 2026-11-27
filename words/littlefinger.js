@@ -608,6 +608,8 @@ WORDS.littlefinger = {
     adi: "plain",
     aiw: "plain",
     squ: "child",
+    alq: "other",
+    kqz: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1167,5 +1169,7 @@ WORDS.littlefinger = {
     adi: ["keeyi", "keːji"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
     aiw: ["fiiset", "fiːset"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     squ: ["saw̓tḵwúy̓ach", "sawʔtqʷujʔatʃ"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
+    alq: ["ishkwènindjàn", "iʃkweːnindʒaːn"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǀgātseǀxunis", "ᶢǀaːtseǀxunis"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

@@ -525,6 +525,8 @@ WORDS.dragonfly = {
     ker: "plain",
     mez: "plain",
     mkz: "plain",
+    alq: "plain",
+    kqz: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -1005,5 +1007,7 @@ WORDS.dragonfly = {
     ker: ["abiiɗiwbiiɗiw", "ábììɗíwbììɗíw"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
     mez: ["pihtanwan", "pihtanwan"],  // Menominee Language program, menomineelanguage.com Teacher Resources (Nomenclature posters / flashcards).
     mkz: ["lae-lae", "lae lae"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["shìyàweyàgidjìsi", "ʃiːjaːwejaːɡidʒiːsi"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǁamǂxurib", "ǁamǂxurib"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

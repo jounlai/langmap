@@ -660,6 +660,7 @@ WORDS.india = {
     shu: "persian",
     agq: "greek",
     khq: "unknown",
+    vai: "greek",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシャ語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -1261,5 +1262,6 @@ WORDS.india = {
     shu: ["الهند", "al-hind"],  // Chadian Arabic Bible (bible.com/bible/502).
     agq: ["Endìa", "endìa"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
     khq: ["Indu laboo", "indu laboː"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
+    vai: ["ꔤꔺꕩ", "indija"],  // CLDR common/main/vai.xml (+ vai_Latn.xml) https://github.com/unicode-org/cldr/blob/main/common/main/vai.xml.
   },
 };

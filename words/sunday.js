@@ -811,6 +811,8 @@ WORDS.sunday = {
     khq: "count",
     mkz: "lord",
     squ: "plain",
+    alq: "unknown",
+    kqz: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1562,5 +1564,7 @@ WORDS.sunday = {
     khq: ["Alhadi", "alhadi"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["watu-dumingu", "watu dumiŋɡu"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
     squ: ["Sx̱ex̱elhnát", "sχəχəɬnat"],  // Pincott (2022) Lexical suffixes in Sḵwx̱wú7mesh Sníchim, MA thesis, Simon Fraser University (forms cited from the Squami.
+    alq: ["manàdjitàganiwan", "manaːdʒitaːɡaniwan"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["Kxʼaotseb", "kxʼaotseb"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

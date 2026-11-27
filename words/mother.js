@@ -2417,7 +2417,7 @@ WORDS.mother = {
     mfa: ["emak", "əmaʔ"],
     mtq: ["mãng", "maːŋ"],
     tyz: ["mẻ", "mɛ˨˩˧"],
-    kjp: ["မိ", "mʊ̄"],
+    kjp: ["မေါဝ်ႋ", "mʊ̄"],  // Kato 2009 no. 153 Hpa-an m¯U; spelling from the Pwo Wikipedia Incubator (မေါဝ်ႋဍေဖါႋ "mother and father").
     kac: ["nu", "nu˧˩"],
     wbm: ["miex", "mɛʔ"],
     pll: ["ma", "ma"],

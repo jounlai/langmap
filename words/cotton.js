@@ -631,7 +631,6 @@ WORDS.cotton = {
     mhr: "pambak",
     bbl: "pambak",
     mcf: "plain",
-    khq: "plain",
     rsk: "pambak",
     dyo: "plain",
     mwk: "plain",
@@ -1256,7 +1255,6 @@ WORDS.cotton = {
     mhr: ["мамык", "ˈmamək"],  // IDS.
     bbl: ["ბამბაჸ", "bambaʔ"],  // IDS.
     mcf: ["sedquid", "sedkid"],  // Hunter-Gatherer DB.
-    khq: ["haabu", "haːbu"],  // Hantgan Songhai list + Koelle 1854.
     rsk: ["памук", "ˈpamuk"],  // Руске слово (ruskeslovo.com), Pannonian Rusyn newspaper 'Грих у моди' (3 Sep 2026) + Pannonian Rusyn Wikipedia, article .
     dyo: ["eful", "eful"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
     mwk: ["kotondin", "kotondin"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).

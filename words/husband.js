@@ -1012,6 +1012,8 @@ WORDS.husband = {
     mwk: "man",
     adi: "man",
     aiw: "unknown",
+    alq: "spouse",
+    kqz: "unknown",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1986,5 +1988,7 @@ WORDS.husband = {
     mwk: ["ke", "ke"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
     adi: ["milo", "milo"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
     aiw: ["kiʼi", "kiʔi"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    alq: ["wìdigèmàgan", "wiːdiɡeːmaːɡan"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["xaib", "xaib"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
   },
 };

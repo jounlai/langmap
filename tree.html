@@ -91,7 +91,7 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('fonts/NomNaTong-subset.woff2?v=fd330bec4f') format('woff2');
+        src: url('fonts/NomNaTong-subset.woff2?v=72333d3d4c') format('woff2');
         unicode-range:
             
                 U+3575, U+35C2, U+3E65, U+5400, U+6E03, U+20027,
@@ -647,7 +647,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
-    _loadJS('wordmap_meta_lite.js?v=472')
+    _loadJS('wordmap_meta_lite.js?v=474')
         .then(() => Promise.all([
             // Branches from Glottolog (tools/build_tree_paths.js), and their names in this UI.
             _loadJS('tree_paths.js?v=3'),

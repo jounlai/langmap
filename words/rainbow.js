@@ -960,6 +960,9 @@ WORDS.rainbow = {
     psi: "unknown",
     aiw: "plain",
     mkz: "plain",
+    alq: "plain",
+    kqz: "plain",
+    nmn: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1877,5 +1880,8 @@ WORDS.rainbow = {
     psi: ["سورکاڼ", "sorkaːɳ"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
     aiw: ["zul", "zul"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     mkz: ["sawara’e", "sawaraʔe"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["tagwanibìsàn", "taɡwanibiːsaːn"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǀhoāsǃānãb", "ǀʰoaːsǃaːnãb"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    nmn: ["ǁāhla", "ǁa̤la"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

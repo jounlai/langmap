@@ -987,6 +987,8 @@ WORDS.language = {
     mwk: "voice",
     adi: "speech",
     aiw: "mouth",
+    dbl: "plain",
+    yuc: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1913,5 +1915,7 @@ WORDS.language = {
     mwk: ["kan", "kan"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
     adi: ["agom", "aɡom"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
     aiw: ["af", "af"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
+    dbl: ["guwal", "ˈɡuwal"],  // Dixon, R. M. W. (2025) The Anatomy of Avoidance, Data base 2: Complete lexicon of Dyirbal Jalnguy (De Gruyter), col. 6 =.
+    yuc: ["goʼwedene", "ɡoʔwedene"],  // Linn (2001) A Grammar of Euchee (Yuchi).
   },
 };

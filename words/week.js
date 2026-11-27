@@ -830,6 +830,8 @@ WORDS.week = {
     aiw: "plain",
     khq: "market",
     mkz: "seven",
+    kqz: "turn",
+    vai: "turn",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1605,5 +1607,7 @@ WORDS.week = {
     aiw: ["maari", "maːri"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     khq: ["hebu", "hebu"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["semana", "semana"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    kqz: ["vekheb", "vekʰeb"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    vai: ["ꔨꔤꕃ", "wiki"],  // CLDR common/main/vai.xml (+ vai_Latn.xml) https://github.com/unicode-org/cldr/blob/main/common/main/vai.xml.
   },
 };

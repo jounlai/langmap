@@ -835,6 +835,7 @@ WORDS.tea = {
     vmf: "te",
     psi: "cha",
     mkz: "cha",
+    alq: "leaf",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1690,5 +1691,6 @@ WORDS.tea = {
     vmf: ["Tee", "teː"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
     psi: ["چای", "tʃaːi"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
     mkz: ["sa", "sa"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["anìbìshàbò", "aniːbiːʃaːboː"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
   },
 };

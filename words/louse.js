@@ -716,6 +716,10 @@ WORDS.louse = {
     hts: "plain",
     mez: "plain",
     mkz: "plain",
+    alq: "plain",
+    kqz: "plain",
+    rbb: "cii",
+    sad: "plain",
   },
   routes: {
     lus: {"color":"#2563eb","emoji":"🌲","en":"Germanic *lūs (louse, Laus, lus)","ja":"ゲルマン祖語 *lūs (louse, Laus, lus)","ko":"게르만 조어 *lūs (louse, Laus, lus)","zh":"原始日耳曼语 *lūs (louse, Laus, lus)","yue":"原始日耳曼語 *lūs (louse, Laus, lus)","vi":"tiếng German nguyên thủy *lūs (louse, Laus, lus)","th":"ภาษาเจอร์แมนิกดั้งเดิม *lūs (louse, Laus, lus)","id":"Proto-Jermanik *lūs (louse, Laus, lus)","hi":"आदि-जर्मनिक *lūs (louse, Laus, lus)","de":"urgermanisch *lūs (louse, Laus, lus)","fr":"le proto-germanique *lūs (louse, Laus, lus)","it":"il protogermanico *lūs (louse, Laus, lus)","es":"el protogermánico *lūs (louse, Laus, lus)","pt":"o protogermânico *lūs (louse, Laus, lus)","ru":"прагерманское *lūs (louse, Laus, lus)","uk":"прагерманське *lūs (louse, Laus, lus)","ar":"الجرمانية الأم *lūs (louse, Laus, lus)","he":"הפרוטו-גרמאנית *lūs (louse, Laus, lus)","sw":"Kijerumani asilia *lūs (louse, Laus, lus)"},
@@ -1394,5 +1398,9 @@ WORDS.louse = {
     hts: ["ccamazziko", "ᵑǀˀamatsʼiko"],  // English Wiktionary, Hadza entry ccamazziko (Anyawire et al. 2013 orthography) + Glottopedia 'Hadza' (Miller), Wichmann &.
     mez: ["ahkuah", "ahkuah"],  // en.wiktionary.org (Menominee lemmas, from Bloomfield 1975 Menomini Lexicon).
     mkz: ["imi / tumi", "imi / tumi"],  // ABVD Makasae (language id 462), local CLDF lex_A/dl/abvd.
+    alq: ["ikwa", "ikwa"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["kxʼurib", "kxʼurib"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    rbb: ["saiɁ", "saiʔ"],  // Deepadung et al. Palaung survey, doculect Nan Sang (Rumai), via lexibank/deepadungpalaung CLDF — the row's own source; I.
+    sad: ["máːǀʼâ", "máːǀʼâ"],  // G. Starostin, Annotated Swadesh wordlist for Sandawe (starlingdb.org/new100/snd.pdf), citing Eaton & Hunziker 2007 A San.
   },
 };

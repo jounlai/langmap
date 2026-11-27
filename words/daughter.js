@@ -1136,6 +1136,7 @@ WORDS.daughter = {
     sxn: "anak",
     kjp: "plain",
     luz: "dhugh2ter",
+    alq: "tana",
   },
   routes: {
     dhugh2ter: {"color":"#2563eb","emoji":"👧","en":"Proto-Indo-European *dʰugh₂tḗr (daughter, дочь, دختر)","ja":"印欧祖語 *dʰugh₂tḗr (daughter, дочь, دختر)","ko":"인도유럽 조어 *dʰugh₂tḗr (daughter, дочь, دختر)","zh":"原始印欧语 *dʰugh₂tḗr (daughter, дочь, دختر)","yue":"原始印歐語 *dʰugh₂tḗr (daughter, дочь, دختر)","vi":"tiếng Ấn-Âu nguyên thủy *dʰugh₂tḗr (daughter, дочь, دختر)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *dʰugh₂tḗr (daughter, дочь, دختر)","id":"Proto-Indo-Eropa *dʰugh₂tḗr (daughter, дочь, دختر)","hi":"आदि-भारोपीय *dʰugh₂tḗr (daughter, дочь, دختر)","de":"urindogermanisch *dʰugh₂tḗr (daughter, дочь, دختر)","fr":"le proto-indo-européen *dʰugh₂tḗr (daughter, дочь, دختر)","it":"il protoindoeuropeo *dʰugh₂tḗr (daughter, дочь, دختر)","es":"el protoindoeuropeo *dʰugh₂tḗr (daughter, дочь, دختر)","pt":"o proto-indo-europeu *dʰugh₂tḗr (daughter, дочь, دختر)","ru":"праиндоевропейское *dʰugh₂tḗr (daughter, дочь, دختر)","uk":"праіндоєвропейське *dʰugh₂tḗr (daughter, дочь, دختر)","ar":"الهندو-أوروبية الأم *dʰugh₂tḗr (daughter، дочь، دختر)","he":"הפרוטו-הודו-אירופית *dʰugh₂tḗr (daughter, дочь, دختر)","sw":"Kihindi-Kiulaya asilia *dʰugh₂tḗr (daughter, дочь, دختر)"},
@@ -2332,5 +2333,6 @@ WORDS.daughter = {
     sxn: ["anạ bawine", "anaʔ bawine"],  // Holle list 203 (Sangir: Tahuna, 1934) in Stokhof (ed.) 1982, Holle Lists vol. 4, Pacific Linguistics D-51, pp. 92-103 (r.
     kjp: ["ဖေါဟ်မူး", "pʰʊ́mɯ́"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp.
     luz: ["duar", "duˈaɾ"],  // Loeffler & Windfuhr, 'Boir Aḥmadī' (Dialect section), Encyclopaedia Iranica (https://www.iranicaonline.org/articles/boir.
+    alq: ["dʼànis", "daːnis"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
   },
 };

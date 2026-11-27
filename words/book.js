@@ -1131,6 +1131,7 @@ WORDS.book = {
     hno: "kitab",
     vmf: "boks",
     mkz: "liber",
+    nmn: "plain",
   },
   routes: {
     boks: {"color":"#2563eb","emoji":"📕","en":"Proto-Germanic *bōks (book, Buch, bók)","ja":"ゲルマン祖語 *bōks (book, Buch, bók)","ko":"게르만 조어 *bōks (book, Buch, bók)","zh":"原始日耳曼语 *bōks (book, Buch, bók)","yue":"原始日耳曼語 *bōks (book, Buch, bók)","vi":"tiếng German nguyên thủy *bōks (book, Buch, bók)","th":"ภาษาเจอร์แมนิกดั้งเดิม *bōks (book, Buch, bók)","id":"Proto-Jermanik *bōks (book, Buch, bók)","hi":"आदि-जर्मेनिक *bōks (book, Buch, bók)","de":"urgermanisch *bōks (book, Buch, bók)","fr":"le proto-germanique *bōks (book, Buch, bók)","it":"il protogermanico *bōks (book, Buch, bók)","es":"el protogermánico *bōks (book, Buch, bók)","pt":"o protogermânico *bōks (book, Buch, bók)","ru":"прагерманское *bōks (book, Buch, bók)","uk":"прагерманське *bōks (book, Buch, bók)","ar":"الجرمانية الأم *bōks (book، Buch، bók)","he":"הפרוטו-גרמאנית *bōks (book, Buch, bók)","sw":"Kijerumaniki asilia *bōks (book, Buch, bók)"},
@@ -2250,5 +2251,6 @@ WORDS.book = {
     hno: ["کتاب", "kɪtaːb"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     vmf: ["Bouch", "bɔʊx"],  // Wiktionary (en) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
     mkz: ["liburu", "liburu"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    nmn: ["bùu-kù", "buuku"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   }
 };

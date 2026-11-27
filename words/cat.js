@@ -1158,6 +1158,7 @@ WORDS.cat = {
     mqy: "plain",
     aau: "plain",
     sxn: "plain",
+    mkz: "plain",
   },
   routes: {
     cattus: {"color":"#2563eb","emoji":"🐈","en":"Late Latin cattus (gatto, chat, katu)","ja":"後期ラテン語 cattus (gatto, chat, katu)","ko":"후기 라틴어 cattus (gatto, chat, katu)","zh":"晚期拉丁语 cattus (gatto, chat, katu)","yue":"晚期拉丁語 cattus (gatto, chat, katu)","vi":"tiếng Latinh muộn cattus (gatto, chat, katu)","th":"ภาษาละตินยุคหลัง cattus (gatto, chat, katu)","id":"Latin Akhir cattus (gatto, chat, katu)","hi":"उत्तर लैटिन cattus (gatto, chat, katu)","de":"spätlateinisch cattus (gatto, chat, katu)","fr":"le latin tardif cattus (gatto, chat, katu)","it":"il latino tardo cattus (gatto, chat, katu)","es":"el latín tardío cattus (gatto, chat, katu)","pt":"o latim tardio cattus (gatto, chat, katu)","ru":"позднелатинское cattus (gatto, chat, katu)","uk":"пізньолатинське cattus (gatto, chat, katu)","ar":"اللاتينية المتأخرة cattus (gatto، chat، katu)","he":"הלטינית המאוחרת cattus (gatto, chat, katu)","sw":"Kilatini cha baadaye cattus (gatto, chat, katu)"},
@@ -1665,7 +1666,7 @@ WORDS.cat = {
     lhm: ['—', '—'],
     lij_t: ["gattu", "ˈɡatu"],
     mcf: ['—', '—'],
-    mkz: ['—', '—'],
+    mkz: ["bui", "bui"],  // Correia (2011) Describing Makasae, glossary: "bui n. cat".
     mpj: ['—', '—'],
     oar: ['—', '—'],
     pao: ['mosa', 'mosa'],

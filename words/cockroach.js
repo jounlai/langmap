@@ -493,6 +493,9 @@ WORDS.cockroach = {
     agq: "plain",
     aiw: "plain",
     mkz: "plain",
+    vi_c: "plain",
+    vi_s: "plain",
+    vi_nom: "plain",
   },
   routes: {
     cucaracha: {"color":"#d97706","emoji":"🇪🇸","en":"from Spanish cucaracha (cockroach)","ja":"スペイン語 cucaracha から (cockroach)","ko":"스페인어 cucaracha에서 (cockroach)","zh":"来自西班牙语 cucaracha (cockroach)","yue":"嚟自西班牙文 cucaracha (cockroach)","vi":"từ tiếng Tây Ban Nha cucaracha (cockroach)","th":"จากภาษาสเปน cucaracha (cockroach)","id":"dari cucaracha Spanyol (cockroach)","hi":"स्पेनी cucaracha से (cockroach)","de":"aus spanisch cucaracha (cockroach)","fr":"de l'espagnol cucaracha (cockroach)","it":"dallo spagnolo cucaracha (cockroach)","es":"del español cucaracha (cockroach)","pt":"do espanhol cucaracha (cockroach)","ru":"от испанского cucaracha (cockroach)","uk":"від іспанського cucaracha (cockroach)","ar":"من الإسبانية cucaracha (cockroach)","he":"מהספרדית cucaracha (cockroach)","sw":"kutoka Kihispania cucaracha (cockroach)"},
@@ -939,5 +942,8 @@ WORDS.cockroach = {
     agq: ["kífɔ́m", "kífɔ́m"],  // Attia, Lilian Mbi (2004) Borrowing and Standardization in Aghem, Maîtrise dissertation, University of Yaoundé I (MPI Lan.
     aiw: ["inta", "inta"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     mkz: ["futu", "futu"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    vi_c: ["gián", "jaːŋ˨˦"],  // The same word as standard Vietnamese; Wiktionary gián gives Huế [jaːŋ˦˧˥], written with this row's tone letters.
+    vi_s: ["gián", "jaːŋ˧˥"],  // The same word as standard Vietnamese; Wiktionary gián gives Saigon [jaːŋ˦˥], written with this row's tone letters.
+    vi_nom: ["𧍴", "zaːn˧˥"],  // Nôm for gián: Unihan U+27374 kVietnamese "gián", an insect-radical character (suggested by a reader; Wiktionary lists 間 諫 柬 𫋨).
   },
 };

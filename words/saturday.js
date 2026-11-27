@@ -759,6 +759,7 @@ WORDS.saturday = {
     agq: "unknown",
     khq: "sabbath",
     mkz: "sabbath",
+    alq: "unknown",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -1460,5 +1461,6 @@ WORDS.saturday = {
     agq: ["tsuʔndzɨkɔʔɔ", "tsuʔndzɨkɔʔɔ"],  // Unicode CLDR locale data, Aghem (agq), common/main/agq.xml.
     khq: ["Assabdu", "asːabdu"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["watu-sabadu", "watu sabadu"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["mànì-gìjigad", "maːniːɡiːʒiɡad"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
   },
 };

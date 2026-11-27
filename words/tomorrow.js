@@ -1076,6 +1076,8 @@ WORDS.tomorrow = {
     ker: "plain",
     khq: "plain",
     mkz: "plain",
+    alq: "morning",
+    yuc: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -2107,5 +2109,7 @@ WORDS.tomorrow = {
     ker: ["dibiini", "dìbììnì"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
     khq: ["suba", "suba"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["usamale", "usamale"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["wàbang", "waːbaŋ"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    yuc: ["ʼagahe", "ʔaɡahe"],  // Linn (2001) A Grammar of Euchee (Yuchi); Crawford (1973) 'Yuchi Phonology' IJAL 39 (Wiktionary Appendix:Yuchi word list).
   },
 };

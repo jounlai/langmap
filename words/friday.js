@@ -768,6 +768,8 @@ WORDS.friday = {
     iru: "venus",
     khq: "assembly",
     mkz: "count",
+    alq: "unknown",
+    vai: "assembly",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -1475,5 +1477,7 @@ WORDS.friday = {
     iru: ["cukkura", "tʃukːura"],  // Monisha R. (2022) Phonological comparison of select words of the Aalu Kurumba and Irula languages of the Nilgiris, Inter.
     khq: ["Aljuma", "aldʒuma"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["watu-sesta", "watu sesta"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["chìbayàtigo-gìjigad", "tʃiːbajaːtiɡoɡiːʒiɡad"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    vai: ["ꕉꔤꕀꕮ", "aidʒima"],  // CLDR common/main/vai.xml (+ vai_Latn.xml) https://github.com/unicode-org/cldr/blob/main/common/main/vai.xml; en.wiktiona.
   },
 };

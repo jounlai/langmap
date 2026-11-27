@@ -1089,7 +1089,6 @@ WORDS.snake = {
     nlc: "plain",
     yrl: "plain",
     dds: "plain",
-    khq: "plain",
     nzm: "plain",
     tem: "plain",
     kio: "plain",
@@ -1111,6 +1110,12 @@ WORDS.snake = {
     adi: "plain",
     aiw: "plain",
     ker: "plain",
+    alq: "kenepikw",
+    kqz: "plain",
+    myp: "plain",
+    nmn: "plain",
+    sad: "plain",
+    yuc: "plain",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -2160,7 +2165,6 @@ WORDS.snake = {
     nlc: ["baga", "baɡa"],  // Papuan Voices (CLDF).
     yrl: ["buya", "buja"],  // Hunter-Gatherer DB + TuLeD + Gerardi Tupi.
     dds: ["yuguru", "juɡuru"],  // BAF2 (Dogon).
-    khq: ["gondi", "ɡondi"],  // Hantgan Bangime (CLDF).
     nzm: ["heneu", "heneu"],  // Marrison Naga + Peiros ST.
     tem: ["abok", "abok"],  // Polyglotta Africana (Koelle 1854).
     kio: ["są̀:né", "sã̀ːné"],  // Uto-Aztecan/Kiowa-Tanoan CLDF (utoaztecan).
@@ -2182,5 +2186,11 @@ WORDS.snake = {
     adi: ["tabi", "tabi"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
     aiw: ["guni", "ɡuni"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     ker: ["tooma", "tɔ́ːmá"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
+    alq: ["kinèbig", "kineːbiɡ"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǀkxʼaob", "ǀkxʼaob"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    myp: ["tigaiti", "tiɡaiti"],  // UCLA Phonetics Lab Archive, Pirahã word lists 1995 (Ladefoged/Everett recordings), https://archive.phonetics.ucla.edu/La.
+    nmn: ["síʼi-sà", "siʔisa"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
+    sad: ["ǀʼĩ̌ː", "ǀʼĩ̌ː"],  // G. Starostin, Annotated Swadesh wordlist for Sandawe (starlingdb.org/new100/snd.pdf), citing Eaton & Hunziker 2007 A San.
+    yuc: ["sha", "ʃa"],  // Linn (2001) A Grammar of Euchee (Yuchi), Univ. of Kansas diss. (OCR at vdoc.pub).
   },
 };

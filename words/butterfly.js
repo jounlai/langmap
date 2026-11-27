@@ -982,6 +982,8 @@ WORDS.butterfly = {
     psi: "plain",
     aiw: "plain",
     mkz: "plain",
+    alq: "plain",
+    nmn: "plain",
   },
   routes: {
     fifalda: {"color":"#2563eb","emoji":"🦋","en":"Proto-Germanic *fifaldǭ (fiðrildi, fjäril, fifaltra)","ja":"ゲルマン祖語 *fifaldǭ (fiðrildi, fjäril, fifaltra)","ko":"게르만 조어 *fifaldǭ (fiðrildi, fjäril, fifaltra)","zh":"原始日耳曼语 *fifaldǭ (fiðrildi, fjäril, fifaltra)","yue":"原始日耳曼語 *fifaldǭ (fiðrildi, fjäril, fifaltra)","vi":"tiếng German nguyên thủy *fifaldǭ (fiðrildi, fjäril, fifaltra)","th":"ภาษาเจอร์แมนิกดั้งเดิม *fifaldǭ (fiðrildi, fjäril, fifaltra)","id":"Proto-Jermanik *fifaldǭ (fiðrildi, fjäril, fifaltra)","hi":"आदि-जर्मनिक *fifaldǭ (fiðrildi, fjäril, fifaltra)","de":"urgermanisch *fifaldǭ (fiðrildi, fjäril, fifaltra)","fr":"le proto-germanique *fifaldǭ (fiðrildi, fjäril, fifaltra)","it":"il protogermanico *fifaldǭ (fiðrildi, fjäril, fifaltra)","es":"el protogermánico *fifaldǭ (fiðrildi, fjäril, fifaltra)","pt":"o protogermânico *fifaldǭ (fiðrildi, fjäril, fifaltra)","ru":"прагерманское *fifaldǭ (fiðrildi, fjäril, fifaltra)","uk":"прагерманське *fifaldǭ (fiðrildi, fjäril, fifaltra)","ar":"الجرمانية الأم *fifaldǭ (fiðrildi، fjäril، fifaltra)","he":"הפרוטו-גרמאנית *fifaldǭ (fiðrildi, fjäril, fifaltra)","sw":"Kijerumani asilia *fifaldǭ (fiðrildi, fjäril, fifaltra)"},
@@ -1941,5 +1943,7 @@ WORDS.butterfly = {
     psi: ["شوپرېک", "ʃoparek"],  // Yun, Ju-Hong (2005) Pashai simple word list and texts with English and Pashto (SIL Language and Culture Archives; cited .
     aiw: ["damberti", "damberti"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     mkz: ["lilibaka", "lilibaka"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["mèmèngwe", "meːmeːŋɡwe"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    nmn: ["dthábi", "dtʰabi"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

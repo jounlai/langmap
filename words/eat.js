@@ -2180,7 +2180,7 @@ WORDS.eat = {
     pnt: ["τρώγω", "ˈtroɣo"],
     hno: ["کھانڑا", "kʰaːɽ̃aː"],
     bhb: ["खानु", "kʰaːnu"],
-    cja: ["هواء", "hoaʔ"],
+    cja: ["حواء", "hoaʔ"],  // Wiktionary hoak: alternative form حواء, /ho(w)aʔ/ "to eat (rice)".
     cjm: ["ꨨꨶꩀ", "hʊaʔ"],
     meu: ["aniani", "aniani"],
     pon: ["mwenge", "mʷeŋe"],

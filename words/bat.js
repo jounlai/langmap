@@ -839,6 +839,7 @@ WORDS.bat = {
     ker: "plain",
     mez: "plain",
     mkz: "plain",
+    nmn: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1641,5 +1642,6 @@ WORDS.bat = {
     ker: ["giwgiwi", "ɡìwɡìwì"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
     mez: ["wāēnūkānahkwah", "wæːnuːkaːnahkwah"],  // Menominee Language program, menomineelanguage.com Teacher Resources (Nomenclature posters / flashcards).
     mkz: ["siri", "siri"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    nmn: ["dâ̰hn-tê", "da̰̤nte"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

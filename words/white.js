@@ -1229,6 +1229,7 @@ WORDS.white = {
     sxn: "plain",
     jra: "plain",
     mwk: "plain",
+    dbl: "plain",
   },
   routes: {
     hwitaz: {"color":"#2563eb","emoji":"🛡️","en":"Proto-Germanic *hwītaz (white, weiß, hvítur)","ja":"ゲルマン祖語 *hwītaz (white, weiß, hvítur)","ko":"게르만 조어 *hwītaz (white, weiß, hvítur)","zh":"原始日耳曼语 *hwītaz (white, weiß, hvítur)","yue":"原始日耳曼語 *hwītaz (white, weiß, hvítur)","vi":"tiếng German nguyên thủy *hwītaz (white, weiß, hvítur)","th":"ภาษาเจอร์แมนิกดั้งเดิม *hwītaz (white, weiß, hvítur)","id":"Proto-Jermanik *hwītaz (white, weiß, hvítur)","hi":"आदि-जर्मनिक *hwītaz (white, weiß, hvítur)","de":"urgermanisch *hwītaz (white, weiß, hvítur)","fr":"le proto-germanique *hwītaz (white, weiß, hvítur)","it":"il protogermanico *hwītaz (white, weiß, hvítur)","es":"el protogermánico *hwītaz (white, weiß, hvítur)","pt":"o protogermânico *hwītaz (white, weiß, hvítur)","ru":"прагерманское *hwītaz (white, weiß, hvítur)","uk":"прагерманське *hwītaz (white, weiß, hvítur)","ar":"الجرمانية الأم *hwītaz (white، weiß، hvítur)","he":"הפרוטו-גרמאנית *hwītaz (white, weiß, hvítur)","sw":"Kijerumani asilia *hwītaz (white, weiß, hvítur)"},
@@ -2455,5 +2456,6 @@ WORDS.white = {
     sxn: ["mawira", "mawira"],
     jra: ["kô̆", "koʔ"],  // Glosbe + Jarai Bible (Bible.is JRAJBA); ABVD koʔ agrees.
     mwk: ["ge", "ɡe"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
+    dbl: ["burgala", "ˈbuɻɡala"],  // Dixon, R. M. W. (2025) The Anatomy of Avoidance, Data base 2: Complete lexicon of Dyirbal Jalnguy (De Gruyter), col. 6 =.
   },
 };

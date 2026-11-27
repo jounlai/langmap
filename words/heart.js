@@ -1236,6 +1236,7 @@ WORDS.heart = {
     btx: "pusuq",
     mqy: "pusuq",
     sxn: "pusuq",
+    mkz: "plain",
   },
   routes: {
     ker: {"color":"#2563eb","emoji":"🫀","en":"Proto-Indo-European *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","ja":"印欧祖語 *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","ko":"인도유럽 조어 *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","zh":"原始印欧语 *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","yue":"原始印歐語 *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","vi":"tiếng Ấn-Âu nguyên thủy *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","th":"ภาษาอินโด-ยูโรเปียนดั้งเดิม *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","id":"Proto-Indo-Eropa *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","hi":"आदि-भारोपीय *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","de":"urindogermanisch *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","fr":"le proto-indo-européen *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","it":"il protoindoeuropeo *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","es":"el protoindoeuropeo *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","pt":"o proto-indo-europeu *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","ru":"праиндоевропейское *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","uk":"праіндоєвропейське *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","ar":"الهندو-أوروبية الأم *ḱḗr (𒆠𒅕، սիրտ، 𔖪𔖱𔖪)","he":"הפרוטו-הודו-אירופית *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)","sw":"Kihindi-Kiulaya asilia *ḱḗr (𒆠𒅕, սիրտ, 𔖪𔖱𔖪)"},
@@ -1754,7 +1755,7 @@ WORDS.heart = {
     lhm: ["སྙིང་", "ŋiŋ˥"],
     lij_t: ["cö", "kø"],
     mcf: ["uinte", "winte"],
-    mkz: ['—', '—'],
+    mkz: ["waboku", "waboku"],  // Correia (2011) Describing Makasae, glossary: "waboku n. heart" (also gu’uboko).
     mpj: ["kurturtu", "kuʈuʈu"],
     oar: ['לב', 'leb'],
     pao: ['piwi', 'piwi'],

@@ -767,7 +767,6 @@ WORDS.elephant = {
     ets: "plain",
     mer: "bantu",
     lua: "bantu",
-    khq: "plain",
     xsr: "glang",
     vmw: "bantu",
     mgo: "plain",
@@ -778,6 +777,9 @@ WORDS.elephant = {
     mwk: "plain",
     aiw: "plain",
     ker: "plain",
+    alq: "plain",
+    kqz: "plain",
+    nmn: "plain",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -1489,7 +1491,6 @@ WORDS.elephant = {
     ets: ["ini", "ini"],  // Koelle 1854 Polyglotta Africana (lexibank).
     mer: ["njogu", "ndʒɔɡu"],  // Grollemund Bantu.
     lua: ["nzevu", "nzevu"],  // Grollemund Bantu.
-    khq: ["tarkunde", "tarkunde"],  // Hantgan Bangime + Koelle.
     xsr: ["གླང་པུ", "laŋbu"],  // Hale Nepal (lexibank) + Wiktionary translation.
     vmw: ["itthepo", "itʰepo"],  // Grollemund Bantu.
     mgo: ["ɨsən", "ɨsən"],  // Grollemund Bantu.
@@ -1500,5 +1501,8 @@ WORDS.elephant = {
     mwk: ["sama", "sama"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
     aiw: ["donger", "doŋɡer"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     ker: ["baaŋa", "bàːŋà"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
+    alq: ["shègimàk", "ʃeːɡimaːk"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǂxoab", "ǂxoab"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    nmn: ["ǂxūa", "ǂxua"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
   },
 };

@@ -954,6 +954,10 @@ WORDS.yellow = {
     vmf: "ghel",
     aiw: "plain",
     ker: "plain",
+    alq: "wesawi",
+    kqz: "plain",
+    umu: "wesawi",
+    wic: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1862,5 +1866,9 @@ WORDS.yellow = {
     vmf: ["gelb", "ɡɛlb"],  // Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.
     aiw: ["shearma", "ʃearma"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     ker: ["boɓofi", "bɔ̀ɓɔ̀fì"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
+    alq: ["ozàwà", "ozaːwaː"],  // Native Languages of the Americas, Algonquin word lists, http://www.native-languages.org/.
+    kqz: ["ǀhai", "ǀʰai"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    umu: ["wiisaaweew", "wiːsaːweːw"],  // Native Languages of the Americas: Munsee Animate Nouns lesson and Munsee Colors worksheet.
+    wic: ["narisis", "naɾisis"],  // Parks, Douglas R. 1979. The Northern Caddoan Languages: Their Subgrouping and Time Depths. Nebraska History 60:197-213, .
   },
 };

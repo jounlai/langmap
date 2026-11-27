@@ -2193,7 +2193,7 @@ WORDS.water = {
     pnt: ["νερόν", "neˈron"],
     hno: ["پانڑی", "paːɽ̃iː"],
     bhb: ["पाणी", "paːɳi"],
-    cja: ["ايا", "ja"],
+    cja: ["ايا", "aia"],  // Wiktionary aia, Cham Jawi spelling ايا "water"; ABVD 830 ea.
     cjm: ["ꨀꨳꨩ", "ʔiaː"],
     meu: ["ranu", "ɾanu"],
     pon: ["pihl", "piːl"],

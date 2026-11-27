@@ -953,6 +953,7 @@ WORDS.rice = {
     mwk: "plain",
     adi: "plain",
     agq: "plain",
+    alq: "plain",
   },
   routes: {
     oryza: {"color":"#2563eb","emoji":"🏛️","en":"Ancient Greek ὄρυζα (rice, riz, Reis)","ja":"古代ギリシア語 ὄρυζα (rice, riz, Reis)","ko":"고대 그리스어 ὄρυζα (rice, riz, Reis)","zh":"古希腊语 ὄρυζα (rice, riz, Reis)","yue":"古希臘語 ὄρυζα (rice, riz, Reis)","vi":"tiếng Hy Lạp cổ ὄρυζα (rice, riz, Reis)","th":"ภาษากรีกโบราณ ὄρυζα (rice, riz, Reis)","id":"Yunani Kuno ὄρυζα (rice, riz, Reis)","hi":"प्राचीन यूनानी ὄρυζα (rice, riz, Reis)","de":"altgriechisch ὄρυζα (rice, riz, Reis)","fr":"le grec ancien ὄρυζα (rice, riz, Reis)","it":"il greco antico ὄρυζα (rice, riz, Reis)","es":"el griego antiguo ὄρυζα (rice, riz, Reis)","pt":"o grego antigo ὄρυζα (rice, riz, Reis)","ru":"древнегреческое ὄρυζα (rice, riz, Reis)","uk":"давньогрецьке ὄρυζα (rice, riz, Reis)","ar":"اليونانية القديمة ὄρυζα (rice، riz، Reis)","he":"היוונית העתיקה ὄρυζα (rice, riz, Reis)","sw":"Kigiriki cha Kale ὄρυζα (rice, riz, Reis)"},
@@ -1878,5 +1879,6 @@ WORDS.rice = {
     mwk: ["malu", "malu"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).
     adi: ["ambin", "ambin"],  // Pertin, Osik (2009) Adi Dictionary (Gomusune), partial A–M (rogerblench.info; archived https://web.archive.org/web/20150.
     agq: ["ékɔ́é", "ékɔ́é"],  // Attia, Lilian Mbi (2004) Borrowing and Standardization in Aghem, Maîtrise dissertation, University of Yaoundé I (MPI Lan.
+    alq: ["wàbi-manòmin", "waːbimanoːmin"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
   }
 };

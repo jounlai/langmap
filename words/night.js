@@ -2339,7 +2339,7 @@ WORDS.night = {
     mfa: ["malam", "malɛ"],
     mtq: ["hôm", "hom"],
     tyz: ["cừn", "kɨn˧˨"],
-    kjp: ["နၤ", "na˧"],
+    kjp: ["ကေမူႋဏာ", "kəmɯ̄nà"],  // Kato 2009 no. 379 Hpa-an k@m¯Wn`a; spelling from the Pwo Wikipedia Incubator.
     kac: ["shana", "ʃənaʔ˥˥"],
     wbm: ["ponsawm", "ponsɔm"],
     srh: ["khob", "xob"],

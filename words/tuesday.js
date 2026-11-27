@@ -744,6 +744,8 @@ WORDS.tuesday = {
     aiw: "unknown",
     khq: "count",
     mkz: "count",
+    alq: "unknown",
+    vai: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मैनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -1427,5 +1429,7 @@ WORDS.tuesday = {
     aiw: ["shena", "ʃena"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     khq: ["Atalata", "atalata"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["watu-tersa", "watu tersa"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["ànjènì-gìjigad", "aːnʒeːniːɡiːʒiɡad"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    vai: ["ꕚꕞꕚ", "talata"],  // CLDR common/main/vai.xml (+ vai_Latn.xml) https://github.com/unicode-org/cldr/blob/main/common/main/vai.xml; en.wiktiona.
   },
 };

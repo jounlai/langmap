@@ -1043,6 +1043,12 @@ WORDS.yesterday = {
     ker: "distinct",
     khq: "distinct",
     mkz: "distinct",
+    alq: "distinct",
+    kqz: "unknown",
+    ktz: "distinct",
+    nmn: "distinct",
+    sad: "unknown",
+    yuc: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -2031,5 +2037,11 @@ WORDS.yesterday = {
     ker: ["deegn", "dèɛɡn̩"],  // Pearce, Mary (2007) The interaction of tone with voicing and foot structure: evidence from Kera phonetics and phonology..
     khq: ["bi", "bi"],  // Unicode CLDR locale data, Koyra Chiini (khq), common/main/khq.xml.
     mkz: ["esere’e", "esereʔe"],  // Correia, Adérito J. (2011) Describing Makasae: a Trans-New Guinea language of East Timor. PhD thesis, University of West.
+    alq: ["chìnàgo", "tʃiːnaːɡo"],  // McGregor, Ernest. Algonquin Pocket Dictionary (Kitigan Zibi Anishinabeg, 2021 ed. of the Algonquin Lexicon), https://kit.
+    kqz: ["ǁkxʼātsē", "ǁkxʼaːtseː"],  // du Plessis, Menán (2018) Kora: A Lost Khoisan Language of the Early Cape and the Gariep (UNISA Press), ch. 6 Kora-Englis.
+    ktz: ["goàqǂʼàn", "ɡoàˤᵑ̊ǂˀàn"],  // Dickens, Patrick J. (2005) A Concise Grammar of Juǀʼhoan, ed. R. Vossen & M. Biesele, Köln: Köppe, p.25 (as quoted in Wi.
+    nmn: ["qà̰m", "qa̰m"],  // Traill, Anthony (1994) A !Xóõ Dictionary. Köln: Rüdiger Köppe (QKF 9), Part Two English–!Xóõ (scan: archive.org/details/.
+    sad: ["ute", "ute"],  // Kagaya 1993 A Classified Vocabulary of the Sandawe Language, via lexibank johanssonsoundsymbolic (forms.csv, Language Sa.
+    yuc: ["lale", "lale"],  // Linn (2001) A Grammar of Euchee (Yuchi).
   },
 };

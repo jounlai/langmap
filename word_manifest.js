@@ -30,7 +30,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Sky & elements", ja: "空と自然", ko: "하늘과 자연", zh: "天空与自然", yue: "天空同自然", vi: "Trời và thiên nhiên", th: "ท้องฟ้าและธรรมชาติ", id: "Langit & alam", hi: "आकाश और प्रकृति", de: "Himmel & Natur", fr: "Ciel et nature", it: "Cielo e natura", es: "Cielo y naturaleza", pt: "Céu e natureza", ru: "Небо и природа", uk: "Небо і природа", ar: "السماء والطبيعة", he: "שמיים וטבע", sw: "Anga na maumbile"
         },
-        words: ["water", "fire", "sun", "moon", "star", "milkyway", "shootingstar", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "island", "east"],
+        words: ["water", "fire", "smoke", "sun", "moon", "star", "milkyway", "shootingstar", "cloud", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "island", "east"],
     },
     {
         key: "time",
@@ -44,7 +44,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "People", ja: "人", ko: "사람", zh: "人", yue: "人", vi: "Con người", th: "ผู้คน", id: "Orang", hi: "लोग", de: "Menschen", fr: "Personnes", it: "Persone", es: "Personas", pt: "Pessoas", ru: "Люди", uk: "Люди", ar: "الناس", he: "אנשים", sw: "Watu"
         },
-        words: ["i", "you", "we", "person", "mother", "father", "grandmother", "uncle", "olderbrother", "daughter", "husband", "wife", "name", "language", "king"],
+        words: ["i", "you", "we", "person", "woman", "man", "child", "mother", "father", "grandmother", "uncle", "olderbrother", "daughter", "husband", "wife", "name", "language", "king"],
     },
     {
         key: "body",
@@ -65,7 +65,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Home, food & drink", ja: "家と食べもの", ko: "집과 먹거리", zh: "家与饮食", yue: "屋企同飲食", vi: "Nhà cửa và ăn uống", th: "บ้านและอาหาร", id: "Rumah, makanan & minuman", hi: "घर और खान-पान", de: "Haus, Essen & Trinken", fr: "Maison, nourriture et boisson", it: "Casa, cibo e bevande", es: "Casa, comida y bebida", pt: "Casa, comida e bebida", ru: "Дом, еда и питьё", uk: "Дім, їжа і напої", ar: "البيت والطعام والشراب", he: "בית, מאכל ומשקה", sw: "Nyumba, chakula na kinywaji"
         },
-        words: ["house", "road", "window", "mirror", "soap", "rice", "bread", "cheese", "butter", "milk", "honey", "salt", "sugar", "potato", "tomato", "chili", "maize", "orange", "pineapple", "sushi", "chocolate", "cottoncandy", "tea", "bubbletea", "coffee", "wine", "tobacco"],
+        words: ["house", "road", "window", "mirror", "soap", "rice", "bread", "cheese", "butter", "milk", "meat", "honey", "salt", "sugar", "potato", "tomato", "chili", "maize", "orange", "pineapple", "sushi", "chocolate", "cottoncandy", "tea", "bubbletea", "coffee", "wine", "tobacco"],
     },
     {
         key: "made",

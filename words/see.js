@@ -925,7 +925,7 @@ WORDS.see = {
     ota: ["گورمك", "ɡørˈmek"],  // Wiktionary.
     otk: ["𐰚𐰇𐰼-", "kør"],  // Wiktionary (Tekin 1968, Clauson).
     p_dra: ["*kāṇ-", "kaːɳ"],  // Wiktionary (reconstruction).
-    p_ine: ["*weyd-", "weyd"],  // Wiktionary (reconstruction).
+    p_ine: ["*weyd-", "wejd"],  // Wiktionary (reconstruction).
     p_jpn: ["*mi-", "mi"],  // Wiktionary (reconstruction).
     p_ryu: ["*mi-", "mi"],  // Wiktionary (Proto-Ryukyuan).
     p_tun: ["*iče-", "itʃe"],  // Wiktionary (reconstruction).

@@ -1886,7 +1886,7 @@ WORDS.tree = {
     puaz: ["*kut", "kut"],
     pban: ["*-tɪ́", "-tɪ́"],
     p_sit: ["*siŋ", "siŋ"],
-    psem: ["*ʕiṣ́-", "ʕiṣ́"],
+    psem: ["*ʕiṣ́-", "ʕiɬˤ"],
     pura: ["*puwi", "puwi"],
     p_dra: ["*maram", "maram"],
     paus: ["*kaSiw", "kaSiw"],

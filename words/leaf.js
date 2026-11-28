@@ -1043,7 +1043,7 @@ WORDS.leaf = {
     ppl: ["iswat", "ˈiswat"],  // Wiktionary.
     prs: ["برگ", "baɾɡ"],  // Wiktionary (Persian entry).
     ps: ["پاڼه", "pɑˈɳa"],  // Wiktionary.
-    psem: ["*waraḳ-", "waraḳ"],  // Wiktionary (reconstruction).
+    psem: ["*waraḳ-", "waraqʼ"],  // Wiktionary (reconstruction).
     pt: ["folha", "ˈfoʎɐ"],  // Wiktionary; NorthEuraLex/IE-CoR.
     pt_br: ["folha", "ˈfoʎɐ"],  // Wiktionary (Brazil pron.); IE-CoR.
     ptai: ["*ɓaɰ", "ɓaɰ"],  // Wiktionary (reconstruction).

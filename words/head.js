@@ -1265,7 +1265,7 @@ WORDS.head = {
     paus: ["*quluh", "quluh"],
     p_dra: ["*talay", "talaj"],
     pura: ["*päŋe", "pæŋe"],
-    psem: ["*raʔš-", "raʔš"],
+    psem: ["*raʔš-", "raʔʃ"],
     // STEDT #386 prints PTB *m/s-gaw; the alternating prefix is simplified
     // here because no other cell in this row carries a slash. OPEN: check
     // whether other p_sit cells silently simplified the same way. Round 531.

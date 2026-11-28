@@ -1878,7 +1878,7 @@ WORDS.eat = {
     ptai: ["*kɯɲ", "kɯɲ"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],
-    pkar: ["*č̣am-", "č̣am"],
+    pkar: ["*č̣am-", "tʃʼam"],
     pmay: ["*waʔ", "waʔ"],
     puaz: ["*kwaʔa", "kwaʔa"],
     pban: ["*-dɪ́a", "-dɪ́a"],

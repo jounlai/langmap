@@ -1899,7 +1899,7 @@ WORDS.i = {
       puaz: ["*nɨ", "nɨ"],
       pban: ["—", "—"],
       p_sit: ["*ŋa", "ŋa"],
-      psem: ["*ʔanāku", "ʔanāku"],
+      psem: ["*ʔanāku", "ʔanaːku"],
       pura: ["*mun", "mun"],
       p_dra: ["*yān", "jaːn"],
       paus: ["*aku", "aku"],

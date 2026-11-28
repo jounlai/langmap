@@ -1887,7 +1887,7 @@ WORDS.good = {
     puaz: ["—", "—"],
     pban: ["*-jìjá", "-jìjá"],
     p_sit: ["*l(y)a(k/ŋ)", "l(j)a(k/ŋ)"],
-    psem: ["*ṭāb-", "ṭāb"],
+    psem: ["*ṭāb-", "tˤaːb"],
     pura: ["*para", "para"],
     p_dra: ["*nal", "nal"],
     paus: ["—", "—"],

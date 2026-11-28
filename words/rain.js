@@ -1525,7 +1525,7 @@ WORDS.rain = {
     phn: ["𐤌𐤈𐤓", "matˤar"],
     uga: ["𐎎𐎉𐎗", "matˤaru"],
     xpu: ["𐤌𐤈𐤓", "maˈtˤar"],
-    psem: ["*maṭar-", "maṭar"],
+    psem: ["*maṭar-", "matˤar"],
     am: ["ዝናብ", "zɨnab"],
     ti: ["ዝናብ", "zɨnab"],
     gez: ["ዝናም", "zənaːm"],

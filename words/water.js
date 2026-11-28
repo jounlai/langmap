@@ -1896,7 +1896,7 @@ WORDS.water = {
     puaz: ["*paʔ", "paʔ"],
     pban: ["*-jíjɪ̀", "-jíjɪ̀"],
     p_sit: ["*ti(y)", "ti(j)"],
-    psem: ["*māy-", "māy"],
+    psem: ["*māy-", "maːj"],
     pura: ["*wete", "wete"],
     p_dra: ["*nīr", "niːr"],
     paus: ["*daNum", "daNum"],

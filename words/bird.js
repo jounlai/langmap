@@ -1643,7 +1643,7 @@ WORDS.bird = {
     pmay: ["*tzʼikin", "tsʼikin"],
     pban: ["*-njʊ̀nì", "-njʊ̀nì"],
     p_sit: ["*bya", "bja"],
-    psem: ["*ʕuṣṣūr-", "ʕuṣṣūr"],
+    psem: ["*ʕuṣṣūr-", "ʕusˤːuːr"],
     pura: ["*linta", "linta"],
     p_dra: ["*puḷ", "puɭ"],
     paus: ["*manuk", "manuk"],

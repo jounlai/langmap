@@ -1882,7 +1882,7 @@ WORDS.mother = {
     pkar: ["*deda-", "deda"],
     pmay: ["*naʔ", "naʔ"],
     puaz: ["—", "—"],
-    pban: ["*-nyìná", "-nyìná"],
+    pban: ["*-nyìná", "-ɲìná"],
     p_sit: ["*ma", "ma"],
     psem: ["*ʔimm-", "ʔimm"],
     pura: ["*emä", "emæ"],

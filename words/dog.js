@@ -1896,7 +1896,7 @@ WORDS.dog = {
     pmay: ["*tzʼiʔ", "tsʼiʔ"],
     puaz: ["*woci", "woci"],
     pban: ["*-bʊ́à", "-bʊ́à"],
-    p_sit: ["*d-kʷəy", "d-kʷəy"],
+    p_sit: ["*d-kʷəy", "d-kʷəj"],
     psem: ["*kalb-", "kalb"],
     pura: ["*penä", "penæ"],
     p_dra: ["*nāy", "naːj"],

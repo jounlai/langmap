@@ -1888,7 +1888,7 @@ WORDS.one = {
     puaz: ["*sɨmɨ", "sɨmɨ"],
     pban: ["*-mòì", "-mòì"],
     p_sit: ["*tik", "tik"],
-    psem: ["*ʔaḥad-", "ʔaḥad"],
+    psem: ["*ʔaḥad-", "ʔaħad"],
     pura: ["*ükte", "ykte"],
     p_dra: ["*oru", "oru"],
     paus: ["*isa", "isa"],

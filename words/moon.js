@@ -1890,7 +1890,7 @@ WORDS.moon = {
     puaz: ["*mɨcaC", "mɨcaC"],
     pban: ["*-jédì", "-jédì"],
     p_sit: ["*s-la", "s-la"],
-    psem: ["*warḫ-", "warḫ"],
+    psem: ["*warḫ-", "warχ"],
     pura: ["*kuŋe", "kuŋe"],
     p_dra: ["*nilā", "nilaː"],
     paus: ["*bulaN", "bulaN"],

@@ -866,7 +866,7 @@ WORDS.hear = {
     pl: ["słyszeć", "ˈswɨʂɛtɕ"],  // Wiktionary.
     prs: ["شنیدن", "ʃuniːdan"],  // Wiktionary (Persian entry).
     ps: ["اورېدل", "awreːˈdəl"],  // Wiktionary.
-    psem: ["*šamaʕ-", "šamaʕ"],  // Wiktionary (reconstruction).
+    psem: ["*šamaʕ-", "ʃamaʕ"],  // Wiktionary (reconstruction).
     pt: ["ouvir", "oˈviɾ"],  // Wiktionary; NorthEuraLex/IE-CoR.
     pt_br: ["ouvir", "owˈviʁ"],  // Wiktionary (Brazil pron.); IE-CoR.
     pura: ["*kuwle-", "kuwle"],  // Wiktionary (reconstruction).

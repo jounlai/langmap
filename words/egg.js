@@ -1545,7 +1545,7 @@ WORDS.egg = {
     ptai: ["*qraj", "qraj"],
     pban: ["*-gɪ́", "-ɡɪ́"],
     p_sit: ["*ʔu", "ʔu"],
-    psem: ["*bayṣ́at-", "bayṣ́at"],
+    psem: ["*bayṣ́at-", "bajɬˤat"],
     pura: ["*muna", "muna"],
     paus: ["*qiCeluR", "qicəlur"],
     p_viet: ["*k-ləːŋʔ", "k-ləːŋʔ"],

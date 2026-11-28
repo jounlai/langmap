@@ -1054,7 +1054,7 @@ WORDS.meat = {
     prg: ["mensā", "ˈmensaː"],  // Wiktionary.
     prs: ["گوشت", "ɡoːʃt"],  // Wiktionary.
     ps: ["غوښه", "ɣwaxa"],  // Wiktionary; NorthEuraLex.
-    psem: ["*šiʔr-", "šiʔr"],  // Wiktionary (reconstruction).
+    psem: ["*šiʔr-", "ʃiʔr"],  // Wiktionary (reconstruction).
     pt: ["carne", "ˈkaɾnɨ"],  // Wiktionary; NorthEuraLex; IDS; IE-CoR.
     pt_br: ["carne", "ˈkaʁni"],  // Wiktionary (Brazil).
     ptrk: ["*ät", "æt"],  // Wiktionary (reconstruction).

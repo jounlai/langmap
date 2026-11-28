@@ -1882,7 +1882,7 @@ WORDS.name = {
       puaz: ["*tɨnwa", "tɨnwa"],
       pban: ["*-jínà", "-jínà"],
       p_sit: ["*r-miŋ", "r-miŋ"],
-      psem: ["*šim-", "šim"],
+      psem: ["*šim-", "ʃim"],
       pura: ["*nimi", "nimi"],
       p_dra: ["*peyar", "pejar"],
       paus: ["*ŋajan", "ŋajan"],

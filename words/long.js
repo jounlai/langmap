@@ -1029,7 +1029,14 @@ WORDS.long = {
     yue_nn: ["长", "tʃʰœŋ˨˩"],  // Wiktionary + MCPDict.
     yue_ts: ["长", "tsʰiaŋ˨˨"],  // Wiktionary + MCPDict.
     yue_zs: ["長", "tsʰœŋ˥˩"],  // MCPDict.
-    za: ["raez", "ɣai˧˩"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "𬼓",   // Wiktionary raez, {{za-head}} first form for this sense (review 873)
+      ipa:  "ɣai˧˩",
+      alt: [
+        { form: "raez", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𮡙", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𬼓 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["长", "ʈʂʰɑŋ˧˥"],  // Wiktionary + lexibank.
     zh_cd: ["长", "tsʰaŋ˨˩"],  // Wiktionary + MCPDict.
     zh_cq: ["长", "tsʰaŋ˨˩"],  // MCPDict.

@@ -1564,7 +1564,7 @@ WORDS.mother = {
     th_n: ["แม่", "mɛː˦˩"],
     th_s: ["แม่", "mɛː˥˩"],
     za: {
-      form: "姆",   // Wiktionary meh, {{za-head}} 𭑫|姆|… (review 872: 𫱆 is not listed)
+      form: "𫱆",
       ipa:  "me˧",
       alt: [
         { form: "meh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },

@@ -1279,7 +1279,13 @@ WORDS.road = {
     yue_nn: ["路", "lu˨˨"],  // Wiktionary dial-syn 路 + MCPDict 南寧.
     yue_ts: ["路", "lu˧˨"],  // Wiktionary dial-syn 路 + Wiktionary 路 (Taishan).
     yur: ["laas", "laːʂ"],  // Wiktionary.
-    za: ["loh", "lo˧"],  // Wiktionary.
+    za: {
+      form: "垎",   // Wiktionary loh, {{za-head}} first form for this sense (review 873)
+      ipa:  "lo˧",
+      alt: [
+        { form: "loh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     zap: ["neza", "neza"],  // Wiktionary.
     zh: ["路", "lu˥˩"],  // Wiktionary dial-syn 路 + WOLD Mandarin.
     zh_cd: ["路", "nu˨˩˧"],  // Wiktionary dial-syn 路 + Wiktionary 路 (Chengdu).

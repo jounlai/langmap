@@ -1141,7 +1141,13 @@ WORDS.sand = {
     yue_nn: ["沙", "ʃa˥˥"],  // dial-syn + Wiktionary dialectal data + MCPDict.
     yue_zs: ["沙", "sa˥˥"],  // dial-syn + MCPDict 中山.
     yur: ["chaahl", "tʃaːɬ"],  // Wiktionary.
-    za: ["sa", "θa˨˦"],  // Wiktionary.
+    za: {
+      form: "砟",   // Wiktionary sa, {{za-head}} first form for this sense (review 873)
+      ipa:  "θa˨˦",
+      alt: [
+        { form: "sa", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     zap: ["yuxi", "juʃi"],  // Wiktionary.
     zh: ["沙子", "ʂa˥ tsɨ"],  // Wiktionary 沙子 + dial-syn + WOLD.
     zh_cd: ["沙子", "sa˥˥ tsɿ˥˧"],  // Wiktionary 沙子 (Chengdu) + dial-syn.

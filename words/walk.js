@@ -838,7 +838,14 @@ WORDS.walk = {
     yue_nn: ["行", "haŋ˨˩"],  // Wiktionary dial-syn + MCPDict.
     yue_ts: ["行", "haŋ˨˨"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     yur: ["hegookʼ", "heɣɔːkʼ"],  // Wiktionary.
-    za: ["byaij", "pʲaːi˥"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "𨃅",   // Wiktionary byaij, {{za-head}} first form for this sense (review 873)
+      ipa:  "pʲaːi˥",
+      alt: [
+        { form: "byaij", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "䠊 / 𬦱 / 派", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𨃅 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["走", "tsoʊ̯˧˩˧"],  // Wiktionary dial-syn 走/walk + Wiktionary 走 + WOLD.
     zh_cd: ["走", "tsəu˥˧"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     zh_db: ["走", "tsou˨˩˧"],  // Wiktionary dial-syn + Wiktionary + MCPDict.

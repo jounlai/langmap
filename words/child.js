@@ -1114,7 +1114,13 @@ WORDS.child = {
     yue_dg: ["细蚊仔", "ʃɔi˦˦˧ mɐn˨˧ tʃɔi˧˥"],  // dial-syn 小孩 (Dongguan) + MCPDict 東莞.
     yue_nn: ["细鬼", "ɬɐi˧˧ kʷɐi˧˥"],  // dial-syn 小孩 (Nanning) + MCPDict 南寧.
     yue_zs: ["細蚊仔", "sɐi˧˧ mɐn˥˥ tsɐi˨˩˧"],  // dial-syn 小孩 (Zhongshan) + MCPDict 中山.
-    za: ["lwgnyez", "lɯk˧ɲe˧˩"],  // Wiktionary.
+    za: {
+      form: "𭒹𭓍",   // Wiktionary lwgnyez, {{za-head}} first form for this sense (review 873)
+      ipa:  "lɯk˧ɲe˧˩",
+      alt: [
+        { form: "lwgnyez", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     zap: ["baʼduʼ", "baʔduʔ"],  // Wiktionary Swadesh appendix.
     zh: ["小孩", "ɕjɑʊ˨˩˦ xaɪ˧˥"],  // Wiktionary 小孩 + dial-syn + WOLD/NorthEuraLex.
     zh_han: ["兒", "ńe"],  // Starling Chinese characters (Eastern Han).

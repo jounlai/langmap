@@ -774,7 +774,14 @@ WORDS.worm = {
     yrl: ["xibuí", "ʃibuˈwi"],  // Wiktionary + TuLeD.
     yue: ["黃䘆", "wɔːŋ˨˩ hyːn˧˥"],  // Wiktionary dial-syn + Wiktionary.
     yue_ts: ["黄䘆", "ʋɔŋ˨˨ hun˥˥"],  // Wiktionary dial-syn + Wiktionary.
-    za: ["ndwen", "ɗɯːn˨˦"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "蚓",   // Wiktionary ndwen, {{za-head}} first form for this sense (review 873)
+      ipa:  "ɗɯːn˨˦",
+      alt: [
+        { form: "ndwen", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰲫 / 𱿛 / 𧌀", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 蚓 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["蚯蚓", "tɕʰjoʊ̯˥ in˧˩˧"],  // Wiktionary dial-syn + Wiktionary + WOLD.
     zh_cd: ["蚯蚓", "tɕʰiəu˥˥ in˥˧"],  // Wiktionary dial-syn + Wiktionary.
     zh_han: ["蚓", "źǝ́n"],  // Starling bigchina.

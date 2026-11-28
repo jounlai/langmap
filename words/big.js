@@ -1218,7 +1218,14 @@ WORDS.big = {
     yue_nn: ["大", "tai˨˨"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     yue_ts: ["大", "ʔai˧˨"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     yue_zs: ["大", "tai˧˧"],  // Wiktionary dial-syn + MCPDict.
-    za: ["hung", "huŋ˨˦"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "𫯞",   // Wiktionary hung, {{za-head}} first form for this sense (review 873)
+      ipa:  "huŋ˨˦",
+      alt: [
+        { form: "hung", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𪩣 / 𰋚 / 𠒋", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫯞 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["大", "ta˥˩"],  // Wiktionary dial-syn 大 + Wiktionary 大 + WOLD.
     zh_cd: ["大", "ta˨˩˧"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     zh_db: ["大", "ta˥˧"],  // Wiktionary dial-syn + Wiktionary + MCPDict.

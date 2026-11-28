@@ -928,7 +928,13 @@ WORDS.nail = {
     yue: ["手指甲", "sɐu˧˥ tsiː˧˥ kaːp˧"],  // Wiktionary dial-syn + Wiktionary.
     yue_dg: ["手指甲", "ʃau˧˥ tʃi˧˥ ka˧˨"],  // Wiktionary dial-syn + Wiktionary.
     yur: ["ʼwehlketeg", "ʔweɬketeɣ"],  // Wiktionary.
-    za: ["rib", "ɣip˧"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "𭻎",   // Wiktionary rib, {{za-head}} first form for this sense (review 873)
+      ipa:  "ɣip˧",
+      alt: [
+        { form: "rib", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     zag: ["tagur", "taɡʊɾ"],  // Wiktionary.
     zh: ["指甲", "ʈʂɨ˧˩˧ tɕja"],  // Wiktionary dial-syn + Wiktionary + WOLD + NorthEuraLex.
     zh_jh: ["指甲", "tʂʅ˩˩ tɕiaʔ˥˥"],  // Wiktionary dial-syn + Wiktionary.

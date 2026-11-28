@@ -1192,7 +1192,13 @@ WORDS.man = {
     yue_ts: ["男人", "nam˨˨ ŋin˨˨"],  // Wiktionary 男人 (Taishan) + dial-syn.
     yue_zs: ["男人", "nam˥˩ jɐn˥˩"],  // dial-syn 男人 (Zhongshan) + MCPDict 中山.
     yur: ["pegerk", "peɣɚk"],  // Wiktionary.
-    za: ["bouxsai", "pou˦˨θaːi˨˦"],  // Wiktionary.
+    za: {
+      form: "俌𪟞",   // Wiktionary bouxsai, {{za-head}} first form for this sense (review 873)
+      ipa:  "pou˦˨θaːi˨˦",
+      alt: [
+        { form: "bouxsai", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     zag: ["boru", "bɔrʊ"],  // Wiktionary.
     zap: ["nguiiu", "ŋɡiːu"],  // Wiktionary Swadesh appendix.
     zh: ["男人", "nan˧˥ ʐən˧˥"],  // Wiktionary 男人 + dial-syn + WOLD.

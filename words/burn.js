@@ -764,7 +764,14 @@ WORDS.burn = {
     yi: ["ברענען", "ˈbrɛnən"],  // Wiktionary (kaikki) + IDS + DiACL.
     ykg: ["эду-", "edu"],  // NorthEuraLex.
     yrk: ["туць", "tutsʲ"],  // NorthEuraLex.
-    za: ["coemh", "ɕom˧"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "𭴵",   // Wiktionary coemh, {{za-head}} first form for this sense (review 873)
+      ipa:  "ɕom˧",
+      alt: [
+        { form: "coemh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "煰 / 𱬮 / 燖", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭴵 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["烧", "ʂaʊ̯˥"],  // Wiktionary + WOLD + peirosst.
     zu: ["ukusha", "ukuʃa"],  // Wiktionary.
   }

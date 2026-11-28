@@ -1099,7 +1099,14 @@ WORDS.small = {
     yue_nn: ["细", "ɬɐi˧˧"],  // Wiktionary dial-syn + MCPDict.
     yue_ts: ["细", "ɬai˧˧"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     yue_zs: ["細", "sɐi˧˧"],  // Wiktionary dial-syn + MCPDict.
-    za: ["iq", "ʔi˧˥"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "𭕌",   // Wiktionary iq, {{za-head}} first form for this sense (review 873)
+      ipa:  "ʔi˧˥",
+      alt: [
+        { form: "iq", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𭕊 / 𰍫 / 𠲖", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭕌 — Sawndip was never standardised" },
+      ],
+    },
     zag: ["bur", "bʊɾ"],  // Wiktionary.
     zh: ["小", "ɕjaʊ̯˧˩˧"],  // Wiktionary dial-syn 小 + Wiktionary 小 + WOLD.
     zh_cd: ["小", "ɕiau˥˧"],  // Wiktionary dial-syn + Wiktionary + MCPDict.

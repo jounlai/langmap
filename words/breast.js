@@ -1028,7 +1028,14 @@ WORDS.breast = {
     yue_dg: ["奶", "nai˧˦"],  // Wiktionary dial-syn 乳房 + MCPDict 東莞.
     yue_nn: ["奶", "nai˨˦"],  // Wiktionary dial-syn 乳房 + MCPDict 南寧.
     yur: ["newon", "newɔn"],  // Wiktionary.
-    za: ["cij", "ɕi˥"],  // Wiktionary.
+    za: {
+      form: "𭨪",   // Wiktionary cij, {{za-head}} first form for this sense (review 873)
+      ipa:  "ɕi˥",
+      alt: [
+        { form: "cij", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰞀 / 指 / 止", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭨪 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["乳房", "ʐu˧˩˧ fɑŋ˧˥"],  // Wiktionary 乳房 + WOLD Mandarin.
     zh_db: ["奶子", "naɪ˨˩˧ tsɨ"],  // Wiktionary dial-syn 乳房 + MCPDict 哈爾濱.
     zh_han: ["乳", "ńwá"],  // Starling Chinese characters (Eastern Han).

@@ -651,7 +651,14 @@ WORDS.hot = {
     yue_dg: ["热", "jit˧"],  // Wiktionary dial-syn + MCPDict + Wiktionary.
     yue_nn: ["热", "jit˨"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     yue_ts: ["热", "ŋet˧˨"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
-    za: ["ndat", "ɗaːt˧˥"],  // Wiktionary (via kaikki.org).
+    za: {
+      form: "燵",   // Wiktionary ndat, {{za-head}} first form for this sense (review 873)
+      ipa:  "ɗaːt˧˥",
+      alt: [
+        { form: "ndat", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𤇥 / 𭦆 / 𭴴", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 燵 — Sawndip was never standardised" },
+      ],
+    },
     zh: ["热", "ʐɤ˥˩"],  // Wiktionary dial-syn + Wiktionary + WOLD.
     zh_cd: ["热", "ze˨˩"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     zh_han: ["熱", "ńat"],  // Starling bigchina.

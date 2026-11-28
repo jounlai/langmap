@@ -2506,7 +2506,7 @@ WORDS.three = {
     hay: ["ishatu", "iʃatu"],
     akl: ["tatlo", "ˈtatlo"],
     krj: ["tatlo", "tatlo"],
-    ibg: ["tallu", "tallu"],
+    ibg: ["tallu", "talːu"],
     jra: ["klâo", "kləw"],
     rad: ["tlâo", "tləw"],
     rsk: ["три", "tri"],

@@ -2498,7 +2498,7 @@ WORDS.red = {
     hay: ["-tukula", "tukula"],  // stem, cited with a hyphen
     akl: ["puea", "puˈɣa"],
     krj: ["pula", "pula"],
-    ibg: ["uzzin", "ʔuzzin"],
+    ibg: ["uzzin", "ʔuzːin"],
     jra: ["mraih", "mɾajh"],
     rad: ["hrah", "hraːh"],
     rsk: ["червени", "tʃɛrˈvɛni"],

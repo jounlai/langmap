@@ -2317,7 +2317,7 @@ WORDS.thanks = {
     guz: ["imbuya mono", "imbuja mɔnɔ"],  // dictionary: "thank you, please"
     akl: ["saeamat", "saˈɣamat"],
     krj: ["salamat", "salamat"],
-    ibg: ["mabbalo'", "mabbaloʔ"],
+    ibg: ["mabbalo'", "mabːaloʔ"],
     rad: ["lač jăk", "laːc ɟak"],  // lač 'say' + jăk 'good'
     rsk: ["дзекуєм", "dzɛˈkujɛm"],
     izh: ["kiitos", "ˈkiːtos"],

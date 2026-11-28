@@ -2362,7 +2362,7 @@ WORDS.egg = {
     hay: ["eihuli", "eiuli"],  // HG writes eiuli, without the silent h
     akl: ["itlog", "ˈʔitloɡ"],
     krj: ["itlog", "ʔitloɡ"],
-    ibg: ["illuk", "ʔilluk"],  // ABVD and Isabela: illug
+    ibg: ["illuk", "ʔilːuk"],  // ABVD and Isabela: illug
     rad: ["boh mnŭ", "bɔːh mnuʔ"],
     rsk: ["вайцо", "ˈvajtsɔ"],
     izh: ["muna", "ˈmunɑ"],

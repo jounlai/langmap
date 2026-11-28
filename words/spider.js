@@ -1729,7 +1729,7 @@ WORDS.spider = {
     hay: ["olububi", "olububi"],
     akl: ["eawa'", "ˈɣawaʔ"],
     krj: ["damang", "damaŋ"],
-    ibg: ["taggalawa", "taɡɡalawa"],
+    ibg: ["taggalawa", "taɡːalawa"],
     jra: ["wăng wai", "waŋ waːj"],
     rad: ["wăk wai", "wak waːj"],
     rsk: ["павук", "ˈpavuk"],

@@ -2476,7 +2476,7 @@ WORDS.four = {
     hay: ["ina", "ina"],
     akl: ["ap-at", "ˈʔapʔat"],
     krj: ["apat", "ʔapat"],
-    ibg: ["appa'", "ʔappaʔ"],
+    ibg: ["appa'", "ʔapːaʔ"],
     jra: ["pă", "paʔ"],
     rad: ["pă", "paʔ"],
     rsk: ["штири", "ˈʃtiri"],

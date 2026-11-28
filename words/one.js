@@ -2515,7 +2515,7 @@ WORDS.one = {
     hay: ["emo", "emo"],  // TLS GR emoi
     akl: ["isaea", "ʔisaˈɣa"],
     krj: ["isara", "ʔisaɾa"],  // also sara
-    ibg: ["tadday", "taddaj"],
+    ibg: ["tadday", "tadːaj"],
     jra: ["sa", "saː"],
     rad: ["sa", "saː"],
     rsk: ["єден", "ˈjɛdɛn"],

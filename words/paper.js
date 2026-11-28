@@ -944,7 +944,7 @@ WORDS.paper = {
     fy: ["papier", "pəˈpiər"],
     hsb: ["papjera", "ˈpapjɛra"],
     iba: ["keretas", "kərətas"],
-    kl: ["pappiala", "pappiala"],
+    kl: ["pappiala", "papːiala"],
     kok: ["कागद", "kaːɡəd"],
     kw: ["paper", "ˈpapər"],
     liv: ["papīer", "ˈpɑpiːer"],

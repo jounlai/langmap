@@ -735,7 +735,7 @@ WORDS.cheese = {
     mk: ["кашкавал", "ˈkaʃkavaɫ"],  // From Italian caciocavallo, through Ottoman Turkish; сирење is white cheese.
     tzo: ["kexu", "keʃu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     arn: ["kesu", "kesu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    kl: ["immussuaq", "immussuaq"],  // From immuk 'milk' and -suaq 'bad'.
+    kl: ["immussuaq", "imːusːuaq"],  // From immuk 'milk' and -suaq 'bad'.
     ce: ["нехча", "ˈnetʃxa"],
     inh: ["нахча", "ˈnatʃxa"],
     ady: ["къуае", "qʷaːja"],

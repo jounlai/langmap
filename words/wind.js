@@ -2419,7 +2419,7 @@ WORDS.wind = {
     hay: ["omuyaga", "omujaɡa"],
     akl: ["hangin", "ˈhaŋin"],
     krj: ["hangin", "haŋin"],
-    ibg: ["paddag", "paddaɡ"],
+    ibg: ["paddag", "padːaɡ"],
     jra: ["angĭn", "aŋin"],
     rad: ["angĭn", "aŋin"],
     rsk: ["витор", "ˈvitɔr"],

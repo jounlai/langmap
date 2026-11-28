@@ -1076,7 +1076,7 @@ WORDS.small = {
     wuu_nb: ["小", "ɕio˧˨˥"],  // Wiktionary dial-syn + MCPDict.
     wuu_sz: ["小", "siɐ˥˩"],  // Wiktionary dial-syn + Wiktionary + MCPDict.
     wuu_wz: ["小", "ɕiɛ˧˥"],  // Wiktionary dial-syn + MCPDict.
-    wym: ["klin", "klin"],  // Wiktionary (kaikki).
+    wym: ["klīn", "kliːn"],  // Wiktionary klin, head=klīn (review 869: long vowel as in the row).
     xal: ["бичкн", "pitʃʰkɛn"],  // NorthEuraLex + Wiktionary.
     xct: ["ཆུང་ཆུང", "tɕʰuŋtɕʰuŋ"],  // Wiktionary; lexibank suntb.
     xct_litpr: ["ཆུང་ཆུང", "tɕʰỹtɕʰỹ"],  // Wiktionary; lexibank peirosst.

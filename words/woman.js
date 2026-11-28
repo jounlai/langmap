@@ -1119,7 +1119,7 @@ WORDS.woman = {
     moh: ["iakón:kwe", "jakṹːɡwe"],  // Wiktionary Swadesh appendix.
     mos: ["paga", "paɡa"],  // en.wiktionary woman translations; ASJP.
     mpt: ["unáng", "unaŋ"],  // Wiktionary.
-    mqy: ["inéwai", "inevai"],  // Wiktionary.
+    mqy: ["iné-wai", "inevai"],  // Wiktionary iné-wai (review 869: hyphen as in the entry).
     mr: ["बाई", "baːiː"],  // Wiktionary; IE-CoR.
     mra: ["ʔuj", "ʔuj"],  // Peiros Austroasiatic (lexibank/peirosaustroasiatic).
     mrj: ["ӹдӹрӓмӓш", "ɯðɯræmæʃ"],  // NorthEuraLex.

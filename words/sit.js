@@ -871,7 +871,7 @@ WORDS.sit = {
     pon: ["mwohd", "mʷoːd"],  // ABVD.
     pot: ["jibdebe", "tʃiptʌpɛ"],  // Wiktionary.
     pqm: ["opu", "opu"],  // Wiktionary.
-    pt: ["sentar-se", "sẽˈtaɾsɨ"],  // Wiktionary (kaikki) + IDS + ABVD + NorthEuraLex.
+    pt: ["sentar-se", "sẽˈtaɾsɨ"],  // Wiktionary sentar "(reflexive) to sit" (kaikki) + IDS + ABVD; NorthEuraLex has estar sentado.
     puaz: ["*katï", "katɨ"],  // Wiktionary (reconstruction).
     pura: ["*päkkɜ-", "pækkɜ"],  // Wiktionary (reconstruction, kaikki).
     pzh: ["mituku", "mituku"],  // ABVD.

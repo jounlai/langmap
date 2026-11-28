@@ -331,7 +331,6 @@ WORDS.liver = {
     lbe: "plain",
     lez: "plain",
     lhu: "msin",
-    li: "plain",
     lic: "plain",
     liv: "meksa",
     lkt: "plain",
@@ -919,7 +918,6 @@ WORDS.liver = {
     lbe: ["ттиликӏ", "tːilikʼ"],  // lexibank ids.
     lez: ["лекь", "leqʼ"],  // lexibank ids.
     lhu: ["ɔ̀-šɛ̄", "ɔ̀ʃɛ̄"],  // Matisoff (STEDT); Lama Nisoic.
-    li: ["Léëver", "ˈleə̯vəʁ"],  // Wiktionary (kaikki).
     lic: ["ŋa:n1", "ŋaːn˥˧"],  // ABVD (lexibank/abvd CLDF).
     liv: ["maksā", "ˈmɑksɑː"],  // Wiktionary + liver translations.
     lkt: ["phí", "pʰí"],  // Wiktionary Swadesh appendix + lexibank johansson.

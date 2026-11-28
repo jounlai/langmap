@@ -108,8 +108,8 @@
     "hash": "687382022957af9c"
   },
   "progress_data.js": {
-    "version": 856,
-    "hash": "e5341bbf5d31617e"
+    "version": 858,
+    "hash": "edcf37f8e640353a"
   },
   "pwa.js": {
     "version": 4,
@@ -204,12 +204,12 @@
     "hash": "f4d7b18d5b162fbd"
   },
   "word_labels.js": {
-    "version": 159,
-    "hash": "4ef6a2323c5179cd"
+    "version": 160,
+    "hash": "acac3f191908ddf5"
   },
   "word_manifest.js": {
-    "version": 1864,
-    "hash": "3cdcbaf9e84cfcd7"
+    "version": 1868,
+    "hash": "01323998996310e2"
   },
   "wordmap_data.js": {
     "version": 374,

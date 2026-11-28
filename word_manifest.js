@@ -79,7 +79,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Actions", ja: "動作", ko: "동작", zh: "动作", yue: "動作", vi: "Hành động", th: "การกระทำ", id: "Tindakan", hi: "क्रियाएँ", de: "Handlungen", fr: "Actions", it: "Azioni", es: "Acciones", pt: "Ações", ru: "Действия", uk: "Дії", ar: "الأفعال", he: "פעולות", sw: "Vitendo"
         },
-        words: ["eat", "drink", "sleep", "see", "hear", "come", "die", "hiccup"],
+        words: ["eat", "drink", "sleep", "see", "hear", "come", "walk", "give", "say", "know", "die", "hiccup"],
     },
     {
         key: "numbers",
@@ -93,7 +93,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Greetings & quality", ja: "あいさつと性質", ko: "인사와 성질", zh: "问候与性状", yue: "問候同性質", vi: "Chào hỏi và tính chất", th: "คำทักทายและคุณลักษณะ", id: "Sapaan & sifat", hi: "अभिवादन और गुण", de: "Grüße & Eigenschaften", fr: "Salutations et qualités", it: "Saluti e qualità", es: "Saludos y cualidades", pt: "Saudações e qualidades", ru: "Приветствия и качества", uk: "Вітання і якості", ar: "التحيات والصفات", he: "ברכות ותכונות", sw: "Salamu na sifa"
         },
-        words: ["hello", "thanks", "cheers", "blessyou", "good", "new", "full", "lol"],
+        words: ["hello", "thanks", "cheers", "blessyou", "good", "new", "big", "small", "full", "lol"],
     },
     {
         key: "colour",

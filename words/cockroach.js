@@ -712,7 +712,7 @@ WORDS.cockroach = {
     eo: ["blato", "ˈblato"],  // From Latin blatta.
     vo: ["skaraf", "skaˈraf"],  // From Latin scarabaeus.
     ia: ["blatta", "ˈblatta"],  // From Latin blatta.
-    hil: ["tanga", "ˈtaŋa"],  // Native Hiligaynon word.
+    hil: ["tanga", "ˈtaŋa"],  // en.wiktionary tanga (Hiligaynon) "cockroach", from Hokkien 蟲仔 thâng-á "little vermin, bug" — not the Tagalog tangá "stupid" (a different word). Readers (2026-11-28): used for cockroach in some Ilonggo places, for scorpion in others; ok-ok also heard.
     mk: ["лебарка", "ˈlɛbarka"],  // From леб "bread".
     ki: ["nyeje", "ɲeje"],  // Native Kikuyu word.
     mer: ["njenje", "ndʒendʒe"],  // Native Meru word.

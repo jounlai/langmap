@@ -1096,7 +1096,7 @@ WORDS.king = {
     ab: ["акрал", "akʼral"],
     mni: ["ꯅꯤꯡꯊꯧ", "niŋtʰaw"],
     new: ["जुजु", "dʑudʑu"],
-    dz: ["རྒྱལཔོ", "kɛːp˩"],  // Cognate with Tibetan རྒྱལ་པོ, from rgyal 'to be victorious'.
+    dz: ["རྒྱལ་པོ", "kɛːp˩"],  // Cognate with Tibetan རྒྱལ་པོ, from rgyal 'to be victorious'. (review 872)
     ban: ["raja", "radʒə"],
     war: ["hadi", "ˈhadiʔ"],  // Route by resemblance to the neighbouring forms (ceb(hari) tl(hari)); no etymology of its own.
     aa: ["amoyta", "aˈmojta"],

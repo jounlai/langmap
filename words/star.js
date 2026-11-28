@@ -2058,7 +2058,7 @@ WORDS.star = {
       tum: ["nyenyezi", "ɲeɲezi"],
       kde: ["inondwa", "inondwa"],
       seh: ["nyenyezi", "ɲeɲezi"],
-      ngl: ["etheneri", "etʰeneɾi"],
+      ngl: ["etheneeri", "etʰeneːɾi"],  // review 872.
       din: ["kuel", "kwɛl"],
       nus: ["cier", "cier"],
       anu: ["ceer", "tʃeːr"],

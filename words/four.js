@@ -1894,7 +1894,7 @@ WORDS.four = {
     mdr: ["appeq", "apːeʔ"],
     mix: ["kumi", "kùmǐ"],
     mxv: ["kumi", "kumi"],
-    nus: ["ŋuan", "ŋwan"],
+    nus: ["ŋuaan", "ŋwaːn"],  // review 872.
     nxq: ["lu", "lu˧"],
     nzm: ["medai", "medai"],
     psi: ["چار", "tʃaːr"],

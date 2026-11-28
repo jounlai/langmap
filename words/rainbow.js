@@ -1455,7 +1455,7 @@ WORDS.rainbow = {
     yue_zs: ["虹拱", "hʊŋ˥˩ kʊŋ˨˩˧"],  // Literally 'rainbow arch' (虹 'rainbow' + 拱 'arch'), an older Cantonese word that Zhongshan keeps, where Guangzhou now says 彩虹.
     kfa: ["ಮಳೆಬಿಲ್ಲ್", "maɭebillɨ"],  // Literally 'rain bow' (ಮಳೆ 'rain' + ಬಿಲ್ಲ್ 'bow'), built like Kannada ಮಳೆಬಿಲ್ಲು and English rainbow.
     aln: ["ylber", "ylˈbɛɾ"],  // The same word as standard Albanian ylber, whose second half is an old word for 'bow'; the first is either 'forearm' or yll 'star'.
-    dru: ["balrilawlau", "baɭilaulau"],  // The Rukai word for the rainbow in the Rukai Bible (spelled balrilawlaw in Wiktionary); IPA is read from the spelling, lr = ɭ.
+    dru: ["balrilawlaw", "baɭilaulau"],  // The Rukai word for the rainbow in the Rukai Bible (spelled balrilawlaw in Wiktionary); IPA is read from the spelling, lr = ɭ. (review 872)
     plg: ["wosak", "wosak"],  // The Pilagá word for the rainbow, spelled huosac in the Pilagá New Testament; IPA is read from the spelling (hu = w, c = k). No image is recorded for it, so it counts as a word of its own.
     moc: ["qoɲiʔɡe", "qoɲiʔɡe"],  // The Mocoví word for the rainbow, spelled qoñi'gue in the Mocoví Bible; IPA is read from the spelling. No image is recorded for it, so it counts as a word of its own.
     tob: ["qomoʁonalo", "qomoʁonalo"],  // The Toba (Qom) word for the rainbow, spelled qomoxonalo in the Toba Bibles; IPA is read from the spelling (x = ʁ, as in this row's water).
@@ -1800,7 +1800,7 @@ WORDS.rainbow = {
     ndc: ["utawahumbe", "utawahumbe"],
     ngl: ["ekhwiini", "ekʰwiːni"],
     vmw: ["ekhweyi", "ekʰweji"],
-    pms: ["arcansel", "arkanˈsel"],
+    pms: ["arcancel", "arkanˈtʃel"],  // review 872.
     gcr: ["arkansyèl", "aʁkãsjɛl"],
     fit: ["sathenkaari", "ˈsɑthenkɑːri"],
     fkv: ["satheenkaari", "ˈsɑtheːnˌkɑːri"],

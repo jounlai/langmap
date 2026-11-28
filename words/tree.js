@@ -2038,7 +2038,7 @@ WORDS.tree = {
     rar: ["rākau", "ɾaːkau"],
     mh: ["wōjke", "wetʲkej"],
     gil: ["kai", "kai"],
-    ch: ["trongkon", "tɾoŋkon"],
+    ch: ["trongkon håyu", "tɾoŋkon ˈhɑdzu"],  // review 872.
     tet: ["ai", "ai"],
     aoz: ["hau", "hau"],
     bi: ["tri", "tri"],

@@ -1765,7 +1765,7 @@ WORDS.house = {
     oar: ['בית', 'beːt'],
     pao: ['nobi', 'nopi'],
     rut: ['хал', 'χal'],
-    kim: ['өг', 'øɣ'],
+    kim: ["өғ", "øɣ"],  // review 872.
     tpn: ['oka', 'ˈoka'],
     uln: ["haus", "hau̯s"],
     wmt: ["mayaru", "majaɻu"],
@@ -2274,7 +2274,7 @@ WORDS.house = {
     osx: ["hūs", "huːs"],
     mos: ["roogo", "roːɡo"],
     maw: ["yiri", "jiri"],
-    kln: ["koot", "koːt"],
+    kln: ["got", "ɡot"],  // review 872.
     mfe: ["lakaz", "lakaz"],
     rcf: ["kaz", "kaz"],
     crs: ["lakaz", "lakaz"],

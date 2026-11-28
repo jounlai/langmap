@@ -2257,7 +2257,7 @@ WORDS.fish = {
     rki: ["ငါး", "ŋá"],
     cnh: ["nga", "ŋa"],
     kxm: ["ត្រី", "trɛj"],
-    xng: ["ᠵᠢᠭᠠᠰᠤ", "dʒiqasun"],
+    xng: ["ᠵᠢᠭᠠᠰᠤᠨ", "dʒiqasun"],  // review 872.
     ja_kg: ["魚", "sakana"],
     ja_sd: ["さがな", "saɡana"],
     ko_hg: ["물고기", "mulk͈oɡi"],

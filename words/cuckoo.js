@@ -789,7 +789,7 @@ WORDS.cuckoo = {
     bar: ["Kuckuck", "ˈkʊkʊk"],
     vmf: ["Gutzgauch", "ˈɡʊtsɡaʊx"],
     wae: ["Gugger", "ˈɡʊɡər"],
-    nds: ["Kukuk", "ˈkuːkuk"],
+    nds: ["Kuukuuk", "ˈkuːkuːk"],  // review 872.
     pdt: ["Kuckuck", "ˈkʊkʊk"],
     yi: ["קוקאווקע", "kuˈkavkə"],
     is: ["gaukur", "ˈkœiːkʏr"],

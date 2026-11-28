@@ -2382,7 +2382,7 @@ WORDS.three = {
     nij: ["telo", "təlo"],
     sda: ["tallu", "talːu"],
     lld: ["trëi", "ˈtrəi"],
-    stq: ["trjo", "trjɔ"],
+    stq: ["träi", "trɛɪ̯"],  // review 872.
     wym: ["draj", "draj"],
     yuc: ["nǫkæ", "nõkæ"],
     kgg: ["dahat", "dahat"],

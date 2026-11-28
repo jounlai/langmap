@@ -1303,7 +1303,7 @@ WORDS.friday = {
     ie: ["venerdí", "venerˈdi"],
     lad: ["viernes", "ˈvjeɾnes"],
     prg: ["pentinx", "ˈpentniːks"],
-    sjd: ["пе̄тнэц", "peːtnets"],  // From Russian пятница, from 'five'.
+    sjd: ["пе̄тнэһць", "peːtnehtɕ"],  // From Russian пятница, from 'five'. (review 872)
     uby: ["šxa", "ʃxa"],
     kek: ["bʼyers", "ɓjeɾs"],  // From Spanish viernes.
     mix: ["viernix", "βiérniʃ"],  // From Spanish viernes.

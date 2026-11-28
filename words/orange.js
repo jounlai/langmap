@@ -1293,7 +1293,7 @@ WORDS.orange = {
     mt: ["larinġ", "laˈrɪntʃ"], // was ["larinġ", "laˈrɪndʒ"] (vi dialect rules 2026-10-06)
     ig: ["oroma", "òɾòmá"],
     ha: ["lemu", "lèːmúː"],
-    wo: ["soraas", "sɔraːs"], // was ["soraas", "soraːs"] (vi dialect rules 2026-10-06)
+    wo: ["soraans", "sɔraːns"], // was ["soraas", "soraːs"] (vi dialect rules 2026-10-06) (review 872)
     so: ["liin macaan", "liːn maʕaːn"], // was ["liin", "liːn"] (vi dialect rules 2026-10-06)
     rw: ["icunga", "itʃuŋɡa"],
     rn: ["icunga", "itʃuŋɡa"],
@@ -1309,7 +1309,7 @@ WORDS.orange = {
     de_at: ["Orange", "oˈrãːʒə"], // was ["Orange", "oˈraːnʒə"] (vi dialect rules 2026-10-06)
     gsw: ["Orange", "oˈraŋʒə"],
     bar: ["Orange", "oˈraŋʒn"],
-    nds: ["Apelsien", "apəlˈziːn"],
+    nds: ["Appelsien", "apəlˈziːn"],  // review 872.
     yi: ["מאַראַנץ", "maˈrants"], // was ["מאַראַנץ", "marants"] (vi dialect rules 2026-10-06)
     is: ["appelsína", "ˈahpɛlˌsiːna"], // was ["appelsína", "ˈaʰpɛlˌsiːna"] (vi dialect rules 2026-10-06)
     gd: ["orainds", "ˈɔrɪntʲʃ"], // was ["orainds", "ˈɔɾɛntʃ"] (vi dialect rules 2026-10-06)

@@ -1799,7 +1799,7 @@ WORDS.snow = {
     rw: ["shelegi", "ʃeleɡi"], // ult. Arabic thalj via Swahili; urubura is ice
     luo: ["theluji", "θeluʒi"], // Swahili loan; native pe is hail/frost
     ses: ["neeži", "neːʒi"], // French neige
-    ig: ["snoo", "sinoː"], // English loan
+    ig: ["sinoo", "sinoː"], // English loan (review 872)
     ee: ["sno", "sno"], // English loan — Westermann
     kxc: ["fuuttota", "fuːtːota"],
     mg: ["oram-panala", "uramˈpanala"], // orana rain + fanala hoar-frost

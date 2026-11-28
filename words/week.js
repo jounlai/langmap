@@ -1305,7 +1305,7 @@ WORDS.week = {
     ar_jo: ["أسبوع", "ʔusˈbuːʕ"],
     ar_ps: ["أسبوع", "ʔusˈbuːʕ"],
     azb: ["هفته", "hæfˈdæ"],
-    ckb: ["هەفتە", "hafta"],
+    ckb: ["ھەفتە", "hafta"],
     jpr: ["הפתה", "hæfte"],
     kjj: ["гьаьфттаь", "hæftːæ"],
     kry: ["hafta", "hafta"],

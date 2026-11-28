@@ -1076,7 +1076,7 @@ WORDS.island = {
     tr: ["ada", "aˈda"],  // From Proto-Turkic *ātag.
     tsg: ["pūꞌ", "puːʔ"],
     tt: ["утрау", "utraw"],
-    tum: ["cilwa", "tʃilwa"],
+    tum: ["chilwa", "tʃilwa"],  // review 872.
     tvl: ["fenua", "fenua"],
     ty: ["motu", "motu"],  // From Proto-Oceanic *motus "broken off, detached".
     uby: ["ada", "ada"],  // From Proto-Turkic *ātag.

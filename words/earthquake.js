@@ -1146,7 +1146,7 @@ WORDS.earthquake = {
     frr: ["grünbääwern", "ˈɡrʏnbɛːvərn"],  // 'ground-shaking'
     lij: ["tæramòtto", "tɛːraˈmɔttu"],
     lmo: ["terremòtt", "tereˈmɔt"],
-    pms: ["teremòt", "tereˈmɔt"],
+    pms: ["teramòt", "teraˈmɔt"],  // review 872.
     sc: ["terremotu", "terreˈmotu"],
     acf: ["twanblanntè", "twãblãntɛ"],  // From French tremblement de terre 'shaking of the earth'.
     gcr: ["tranblémandétèr", "tʁãblemãdetɛʁ"],

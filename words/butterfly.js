@@ -65,7 +65,6 @@ WORDS.butterfly = {
     sn: "plain",
     st: "plain",
     tn: "plain",
-    ts: "plain",
     ug: "kapalak",
     wo: "plain",
     bem: "plain",
@@ -1023,7 +1022,6 @@ WORDS.butterfly = {
     sn: ["shaveshave", "ʃaveʃave"],  // reduplication of shave; variant shavishavi; the dictionary also lists bembenene, bemha, betepesu, fufura, nharira as synonyms
     st: ["serurubele", "seruruˈbele"],  // class 7, pl. dirurubele; same word as Tswana and Northern Sotho serurubele
     tn: ["serurubele", "seruruˈbele"],  // class 7, pl. dirurubele; also covers moths
-    ts: ["phapharhati", "pʰapʰarʱati"],  // class 5; built on a reduplicated phapha- (cf. Ronga phaphalati 'papillon', Junod 1896, Grammaire ronga); the same dictionary gives xivuva 7 as 'any butterfly, (gen.) moth'
     ug: ["كېپىنەك", "kepinɛk"],  // Schwarz glosses it as Lepidoptera, i.e. it covers moths too; same Turkic root as Kazakh kepelek, Uzbek kapalak, Turkish kelebek
     wo: ["lëpp-lëpp", "ləpləp"],  // a reduplication; the older Holy Ghost Fathers dictionary glosses 'Phalene' (moth) as lepalepa u gudi, literally 'butterfly of the night'
     bem: ["icipelebesha", "itʃipelebeːʃa"],  // class 7 ici-; the dictionary glosses it 'butterfly (gen.)', i.e. the generic term
@@ -1299,7 +1297,7 @@ WORDS.butterfly = {
     sd: ["پوپٽ", "popəʈʊ"],  // masculine noun in -u; Sindhi also uses پتنگ patang for moth-like insects
     zu: ["uvemvane", "uvemˈvaːne"],  // Bryant glosses it 'butterfly; moth, of the larger kinds only', so it covers big moths too
     ig: ["ulukurubụba", "ulukuɾubʊba"],  // tone marks dropped to match the row's other Igbo cells
-    so: ["balanbaallis", "balanbaːlːis"],  // Zorc & Osman list three further synonyms (baalalley, baalleybaro, babbisjinni); baalalley is built on baal 'feather, leaf'
+    so: ["balanbaalis", "balanbaːlis"],  // Zorc & Osman list three further synonyms (baalalley, baalleybaro, babbisjinni); baalalley is built on baal 'feather, leaf' (review 872)
     xh: ["ibhabhathane", "ibʱabʱaˈtʰaːne"],  // Kropf files it immediately under uku-bhabha 'to flutter like a bird in a trap; to fly'; it covers moths as well as butterflies
     km: ["មេអំបៅ", "meː ʔɑmˈɓaw"],  // first element មេ 'mother, female head'; the same dictionary also records a reduplicated synonym ប្ល៉ាក់ប្ល៉ាត plak-plaat
     si: ["සමනලයා", "samanalajaː"],  // the -යා suffix is the animate-noun ending also seen in the row's බල්ලා, පූසා, කුරුල්ලා

@@ -332,7 +332,7 @@ WORDS.chocolate = {
     vec: ["ciocolata", "tʃokoˈlata"],
     lmo: ["cicolat", "tʃikuˈlat"],
     pms: ["cicolata", "tʃikuˈlata"],
-    jam: ["chaklit", "tʃaklɪt"],
+    jam: ["chaaklit", "tʃaːklɪt"],  // review 872.
     tpi: ["soklet", "soklet"],
     srn: ["syokola", "ʃokola"],
     ja_kyo: ["チョコレート", "tɕokoɾeːto"],

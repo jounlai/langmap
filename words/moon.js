@@ -2067,7 +2067,7 @@ WORDS.moon = {
     min: ["bulan", "bulan"],
     nia: ["bawa", "bawa"],
     ban: ["bulan", "bulan"],
-    ace: ["buleun", "bulɯn"],
+    ace: ["buleuën", "bulɯən"],  // review 872.
     gay: ["ulen", "ulən"],
     bug: ["uleng", "uleŋ"],
     mdr: ["bulang", "bulaŋ"],
@@ -2077,7 +2077,7 @@ WORDS.moon = {
     bto: ["bulən", "bulən"],
     tum: ["mwezi", "mwezi"],
     kde: ["mwedi", "mwedi"],
-    seh: ["mwedzi", "mwedzi"],
+    seh: ["mwezi", "mwezi"],  // review 872.
     ngl: ["mweri", "mweɾi"],
     din: ["pɛɛi", "pɛːi"],
     nus: ["pay", "paj"],

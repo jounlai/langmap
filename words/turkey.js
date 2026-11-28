@@ -643,7 +643,7 @@ WORDS.turkey = {
     es_ar: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey.
     es_pe: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey.
     es_an: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey.
-    lad: ["indiano", "indjano"],  // Literally "Indian"; the hen is indiana.
+    lad: ["indiana", "indjana"],  // Literally "Indian"; the hen is indiana. (review 872)
     yua: ["úulum", "uːlum"],  // Yucatec Maya úulum, the domestic turkey. A native word; no foreign place is named in it.
     moh: ["skaweró:wane", "skaweróːwane"],  // Mohawk skaweró:wane is the turkey. A native word; no foreign place is named in it.
     mic: ["apʼtapegiejit", "abədabeɡiedʒit"],  // Mi'kmaq apʼtapegiejit (animate noun) is the turkey. A native word; no foreign place is named in it.

@@ -2495,7 +2495,7 @@ WORDS.name = {
     izh: ["nimi", "ˈnimi"],
     gwc: ["نام", "nɑːm"],
     hac: ["namê", "naːmeː"],
-    shu: ["أسم", "usum"],
+    shu: ["اسم", "usum"],  // review 872.
     btx: ["gelar", "ɡəlar"],
     mqy: ["ngasang", "ŋasaŋ"],
     sxn: ["areng", "areŋ"],

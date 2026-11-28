@@ -1396,7 +1396,7 @@ WORDS.egg = {
     ml: ["മുട്ട", "muʈːa"],
     tg: ["тухм", "tuxm"],
     ku: ["hêk", "heːk"],
-    ckb: ["هێلکە", "heːlka"],
+    ckb: ["ھێلکە", "heːlka"],
     ps: ["هګۍ", "haˈɡəi"],
     az: ["yumurta", "jumuɾˈtɑ"],
     azb: ["یومورتا", "jumuɾˈtɑ"],
@@ -1427,7 +1427,7 @@ WORDS.egg = {
     xh: ["iqanda", "iǃaːnda"],
     sn: ["zai", "zai"],
     mxc: ["zai", "zai"],
-    ln: ["likɛi", "likɛi"],
+    ln: ["likei", "likei"],  // review 872.
     ny: ["dzira", "dziɾa"],
     en_aave: ["egg", "ɛɡ"],
     en_nz: ["egg", "eɡ"],
@@ -1631,7 +1631,7 @@ WORDS.egg = {
     kok: ["तांतें", "ˈtaːntẽ"],
     nan_te: ["卵", "nɯŋ˧˥"],
     hsb: ["jejo", "ˈjɛjɔ"],
-    csb: ["jajo", "ˈjajɔ"],
+    csb: ["jaje", "ˈjajɛ"],  // review 872.
     rue: ["яйце", "ˈjajtse"],
     fur: ["ûf", "uːf"],
     ast: ["güevu", "ˈɡweβu"],

@@ -1571,7 +1571,7 @@ WORDS.sun = {
       form: "日",
       ipa:  "taŋ˨˦ŋon˧˩",
       alt: [
-        { form: "daengzngoenz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "daengngoenz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],
     },
     hmn: ["hnub", "n̥u˥"],
@@ -1773,7 +1773,7 @@ WORDS.sun = {
     uln: ["sonne", "ˈsonɛ"],
     wmt: ["purangu", "puɻaŋu"],
     wuu_hz: ["日头", "zəʔ˨ dei˨˩˧"],
-    xag: ['beɣ', 'beɣ'],
+    xag: ["bˁeɣ", "beˤɣ"],  // review 872.
     xfa: ['—', '—'],
     xib: ['—', '—'],
     xli: ['—', '—'],

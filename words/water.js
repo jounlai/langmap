@@ -1742,7 +1742,7 @@ WORDS.water = {
     zh_nj: ["水", "ʂuəi˨˩˨"],
     bbl: ['ხი', 'xi'],
     bzg: ["to", "to"],
-    dru: ['acilai', 'aˈtsilai'],
+    dru: ["acilay", "aˈtsilai"],  // review 872.
     hup: ["taʼna:n", "taʔnaːn"],
     kfa: ["ನೀರ್", "niːrɨ"],
     kfr: ['પાણી', 'pɑːɳiː'],
@@ -2524,7 +2524,7 @@ WORDS.water = {
     izh: ["vesi", "ˈʋesi"],
     gwc: ["اُو", "uː"],
     hac: ["awî", "aːwiː"],
-    shu: ["ألمي", "almi"],  // Article fused
+    shu: ["المي", "almi"],  // Article fused (review 872)
     btx: ["lau", "lau"],
     mqy: ["waé", "vae"],
     sxn: ["akẹ", "akeʔ"],

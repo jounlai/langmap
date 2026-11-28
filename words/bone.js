@@ -1706,7 +1706,7 @@ WORDS.bone = {
     smj: ["dákte", "ˈdaktɛ"],
     smn: ["tähti", "ˈtæhti"],
     sms: ["täʹhtt", "ˈtaxʲtːʲɘ"],
-    sjd: ["та̄ххт", "taːxːt"],
+    sjd: ["та̄ххьт", "taːxʲːt"],  // review 872.
     vro: ["luu", "luː"],
     gn: ["kangue", "kãŋɡʷe"],
     yrl: ["kãwera", "kãweɾa"],

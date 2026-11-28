@@ -2252,7 +2252,7 @@ WORDS.head = {
     zh_kf: ["头", "tʰou˥˧"],
     kry: ["qʼıl", "qʼɨl"],
     nys: ["kaat", "kaːt"],
-    adt: ["vapardrla", "vapaʈɭa"],
+    adt: ["vapardla", "vapaɖla"],  // review 872.
     nej: ["pit", "pit"],
     tca: ["naẽru", "na˦ẽ˨ɾu˦"],
     blt: ["ꪬꪺ", "huə˨"],

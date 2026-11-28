@@ -1846,7 +1846,7 @@ WORDS.money = {
     suk: ["hela", "hela"],
     teo: ["ikapun", "ikapun"],
     awa: ["पइसा", "pəisaː"],
-    bfq: ["ஹண", "haɳa"],
+    bfq: ["ɦəɳə", "ɦəɳə"],  // Linguistic Survey of India, Tamil Nadu, Badaga chapter p. 136 "ɦəɳə money" (review 874)
     bgc: ["पईसा", "pəisaː"],
     gbm: ["पैसा", "pɛsaː"],
     gum: ["an", "an"],
@@ -1886,7 +1886,7 @@ WORDS.money = {
     gqu: ["piŋ13", "piŋ˩˧"],  // IDS (Qau Kelao).
     shx: ["tsʰin31", "tsʰin˧˩"],  // lexibank chenhmongmien (She).
     dds: ["kɛɛlɛ", "kɛːlɛ"],  // lexibank baf2 (Donno So).
-    ale: ["qichitix̂", "qitʃitiχ"],  // NorthEuraLex (Aleut).
+    ale: ["qichitix̂", "qitʃitiχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 422_money: qichiti-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     hay: ["amahela", "amaela"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     bah: ["money", "mʌni"],  // Holm & Shilling (1982) Dictionary of Bahamian English (archive.org dictionaryofbaha00holm, full-text search).
     blk: ["ရွဉ်", "rə̤n˧˩"],  // English Wiktionary Pa'o Karen lemmas; Luangthongkum Karen (CLDF luangthongkumkaren, Northern Pa-O); LSI Taungthu.

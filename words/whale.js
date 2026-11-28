@@ -952,7 +952,7 @@ WORDS.whale = {
     stq: ["Waalfisk", "ˈvaːlfɪsk"],  // Literally 'whale-fish', with Fisk 'fish', like German Walfisch and Dutch walvis.
     ia: ["balena", "baˈlena"],  // A root word of the Interlingua-English Dictionary, shared with Italian balena.
     nys: ["mamang", "mamaŋ"],  // The Noongar word for the whale, also spelt mamung, mammang or mamong; the whale is a totem of the Wagyl Kaip Southern Noongar. No image is recorded for it, so it counts as a word of its own.
-    ale: ["alax̂", "alaχ"],  // The Aleut word for the whale, recorded in the UCLA Phonetics Lab Archive Eastern Aleut wordlist. No image is recorded for it, so it counts as a word of its own.
+    ale: ["alax̂", "alaχ"],  // UCLA Phonetics Lab Archive Eastern Aleut word list (1996) #71 alax̂ "whale"; en.wiktionary alax̂ /ˈalaχ/ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kwk: ["g̱wa̱ʼya̱m", "ɢʷəʔjəm"],  // The Kwak'wala word for the whale, as in niła̱tłe'yida g̱wa̱'ya̱m 'the whale appeared on the surface of the water'; the killer whale is a separate word, max̱'inux̱. No image is recorded for it, so it counts as a word of its own.
     tsi: ["łbuun", "ɬbuːn"],  // The Sm'algyax word for the whale, as in Wüwaal łbuun da hał awaan 'there is a whale along there'; the killer whale is 'neexł. No image is recorded for it, so it counts as a word of its own.
     vo: ["valüt", "vaˈlyt"],  // The Volapük word for the whale, glossed Walfisch in the Volapük Wiktionary; the Volapük Wikipedia calls the dinosaur Cetiosaurus 'valüt-sümik', whale-like.

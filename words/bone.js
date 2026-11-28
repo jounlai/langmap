@@ -2084,7 +2084,7 @@ WORDS.bone = {
     mus: ["efone", "ifóni"],
     esu: ["eneq", "ənəq"],
     ess: ["наӽӄу̌аӄ", "naχqwaq"],
-    ale: ["к̆агнах̆", "qaɡnaχ"],
+    ale: ["qagnax̂", "qaɣnaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 44_bone: qagna-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["tsʼin", "tsʼin"],
     dak: ["huhú", "huhú"],
     chy: ["heʼko", "heʔko"],

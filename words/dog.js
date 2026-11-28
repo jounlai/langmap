@@ -2182,7 +2182,7 @@ WORDS.dog = {
     mus: ["efv", "ifə"],
     esu: ["qimugta", "qimuɣta"],
     ess: ["ӄикмиӄ", "qikmiq"],
-    ale: ["сабаакаах̆", "sabaːkaːχ"],
+    ale: ["sabaakax̂", "sabaːkaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 139_dog: sabaaka-x́; Wiktionary sabaakax̂ (cites Bergsland 1994:343) (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["góshé", "ɡóʃé"],  // łį́į́ʼ, which stood here, is 'horse': the Athabaskan 'dog' word was transferred to the horse after contact, and a new dog word took its place (as Navajo łį́į́ʼ 'horse' vs łééchąąʼí 'dog'). Surface from Wiktionary's apw entry, corroborated by the Dilzhe'e Apache Dictionary (gosé/goshé). Wiktionary prints [kótʃɛ́]; the IPA here instead follows this row's own mapping, sh→ʃ and g→ɡ, as in shash /ʃaʃ/ and łóg /ɬóɡ/.
     dak: ["šúŋka", "ʃṹka"],
     chy: ["oeškēso", "oeʃkeso"],

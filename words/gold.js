@@ -1705,7 +1705,7 @@ WORDS.gold = {
     yua: ["oro", "oɾo"],
     zap: ["oro", "oɾo"],
     abe: ["wizôwi-môni", "wizɔ̃wimɔ̃ni"],
-    ale: ["зуулутах̆", "zuːlutaχ"],
+    ale: ["suulutax̂", "suːlutaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 186_gold: suuluta-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     chr: ["ᎠᏕᎸ ᏓᎶᏂᎨ", "adelə̃ daloniɡe"],  // 'Yellow money'.
     cic: ["lakna", "lakna"],
     hai: ["gúul", "ɡúːl"],

@@ -1168,7 +1168,7 @@ WORDS.blue = {
     lzz: ["ჯღატა", "dʒɣatʼa"],
     co: ["turchinu", "turˈkinu"],
     nia: ["balau", "balau"],
-    ale: ["chidǵilix", "tʃiðɣilix"],
+    ale: ["chidĝilix", "tʃiðʁilix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 528_blue: chidǵi-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     yrl: ["suikiri", "suikiɾi"],
     tpy: ["tsiauu", "tsiauu"],
     hni: ["peel", "pʰɯ˥˥"],

@@ -1032,7 +1032,7 @@ WORDS.saturday = {
     hil: ["Sábado", "ˈsabado"],  // Borrowed from Spanish sábado, ultimately from Hebrew שַׁבָּת.
     tly: ["şambə", "ʃambə"],  // Cognate with Persian شنبه.
     lus: ["Inrinni", "inrinni"],  // Literally 'preparing day', from inring 'to prepare' and ni 'day'.
-    fj: ["Siga Vakarauwai", "siŋa βakarauwai"],  // Siga is 'day'; the source does not gloss Vakarauwai.
+    fj: ["siga Vakarauwai", "siŋa βakarauwai"],  // Siga is 'day'; the source does not gloss Vakarauwai.
     sd: ["ڇنڇر", "tʃʰəɲtʃʰəru"],  // The same word names the planet Saturn; from Sanskrit *śanaiścara 'slow-moving; Saturn'.
     kbd: ["щэбэт", "ɕabat"],  // Borrowed from Georgian შაბათი, from Hebrew שבת.
     zag: ["sabit", "sabit"],  // From Arabic السبت, ultimately Hebrew שבת.
@@ -1452,7 +1452,7 @@ WORDS.saturday = {
     tkr: ["сифтйин", "siftjin"],  // IDS.
     nog: ["йума сонъы", "juma soŋɯ"],  // IDS.
     rap: ["mahana hopu", "mahana hopu"],  // IDS; en.wiktionary.
-    ale: ["Subuutax̂", "subuːtaχ"],  // NorthEuraLex.
+    ale: ["Subuutax̂", "subuːtaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 479_saturday: Subuuta-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     hay: ["olwaamukaaga", "olwaːmukaːɡa"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     fia: ["saantée", "saːntéː"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     mfa: ["Sabtu", "sabtu"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.

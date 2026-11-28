@@ -2173,7 +2173,7 @@ WORDS.sun = {
     mus: ["hvse", "həsi"],
     esu: ["akerta", "akəʁta"],
     ess: ["сиӄиныӄ", "siqinɨq"],
-    ale: ["агадгих̆", "aɡaðɣiχ"],
+    ale: ["aĝadax̂", "aʁaðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 57_sun: aǵadax́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["yaʼáí", "jaʔáí"],
     dak: ["aŋpétuwí", "ãpétuwí"],
     chy: ["éšeʼhe", "éʃeʔhe"],

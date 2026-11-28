@@ -2065,7 +2065,7 @@ WORDS.stone = {
     ket: ["тыʼсь", "tɨʔɕ"],
     ckt: ["выквын", "wəkwən"],
     eve: ["дёл", "dʲol"],
-    ale: ["нух̆", "nuχ"],
+    ale: ["nux̂", "nuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 64_stone: nux́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     ess: ["уйӷак", "ujɣak"],
     kim: ["даш", "daʃ"],
     ybe: ["tas", "tɑs"],

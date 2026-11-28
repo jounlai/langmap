@@ -2189,7 +2189,7 @@ WORDS.new = {
     kxm: ["ថ្មី", "tʰmɛj"],
     mra: ["hmɛʔ", "hmɛʔ"],
     brh: ["پوسکن", "puːskun"],
-    ale: ["тагадах̆", "taɡaðaχ"],
+    ale: ["tagadax̂", "taɣaðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 564_new: tagada-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     hts: ["zana", "dzana"],
     yle: ["kamî", "kamɨ"],
     zh_kf: ["新", "ɕiən˨˦"],

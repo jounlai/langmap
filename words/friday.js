@@ -1092,7 +1092,7 @@ WORDS.friday = {
     ti: ["ዓርቢ", "ʕarbi"],  // From Ge'ez ዐርብ ʿarb 'eve of the Sabbath', the gez row's word.
     sn: ["Chishanu", "tʃiʃanu"],  // 'Fifth'.
     zza: ["ine", "inɛ"],
-    fj: ["Siga Vakaraubuka", "siŋa βakaraumbuka"],
+    fj: ["siga Vakaraubuka", "siŋa βakaraumbuka"],
     vec: ["vènere", "ˈvɛnere"],
     rm: ["venderdi", "vɛnˈdɛrdi"],
     kum: ["жумагюн", "dʒumaˈɡyn"],
@@ -1467,7 +1467,7 @@ WORDS.friday = {
     smj: ["bierjjedahka", "ˈbiɛrjːɛdɑhkɑ"],  // NorthEuraLex (Lule Sami).
     pbb: ["txhẽʼen", "tʲʰẽʔen"],  // IDS (Páez).
     nog: ["йума", "juˈma"],  // IDS (Nogai).
-    ale: ["Pyaatnichax̂", "pjaːtnitʃaχ"],  // NorthEuraLex (Aleut).
+    ale: ["Pyaatnichax̂", "pjaːtnitʃaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 478_friday: Pyaatnicha-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     hay: ["olwaakataanu", "olwaːkataːnu"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     mfa: ["Jema'at", "ɟəmaʔat"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.
     vmf: ["Freidich", "ˈfraɪdɪç"],  // Wiktionary (en) + Fränkisches Wörterbuch (WBF, BAdW) via Bayerns Dialekte Online.

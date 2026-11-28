@@ -1755,7 +1755,7 @@ WORDS.spider = {
     mrq: ["pukaveʻeveʻe", "pukaveʔeveʔe"],  // ABVD / ABVD-Oceanic; Walworth.
     akb: ["rambang", "rambaŋ"],  // ABVD.
     chk: ["nittopwuráán", "nitːopʷuraːn"],  // ABVD.
-    ale: ["кинках̆", "kinkaχ"],  // NorthEuraLex.
+    ale: ["kinkax̂", "kinkaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 165_spider: kinka-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     obr: ["ပင့်ကူ", "paŋʔkuː"],  // Sagart et al. ST; Lai Gyalrong.
     aiw: ["shanga", "ʃaŋɡa"],  // Aaraph-Amraph-Ingliz Kaps'et Keez, Qasstemissi Shirik (Aari-Amharic-English Vocabulary List, 2nd ed., Kyoto Univ., 2023;.
     mez: ["otāqnapihkenaew", "otaːʔnapihkenæw"],  // Menominee Language program, menomineelanguage.com Teacher Resources (Nomenclature posters / flashcards).

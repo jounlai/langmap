@@ -1725,7 +1725,7 @@ WORDS.bread = {
     car: ["pelele", "pelele"],  // WOLD (lexibank wold), Renault-Lescure 1985.
     rap: ["haraoa", "haraoa"],  // IDS (lexibank ids); en.wiktionary bread translations (Rapa Nui: haraoa).
     nmf: ["khamui", "kʰamui"],  // Marrison Naga (lexibank marrisonnaga).
-    ale: ["хлиимах̆", "xliːmaχ"],  // NorthEuraLex (lexibank northeuralex).
+    ale: ["xliimax̂", "xliːmaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 353_bread: xliima-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     akl: ["tinapay", "tiˈnapaj"],  // Salas Reyes, Zorc et al. 1969 (ERIC ED145704).
     dyo: ["embur", "embur"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.
     ets: ["ukpẹko", "ukpɛko"],  // Elimelech, B. (1976) A Tonal Grammar of Etsako, UCLA Working Papers in Phonetics 35, Appendix A 'A Comparative Wordlist'.

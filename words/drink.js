@@ -2163,7 +2163,7 @@ WORDS.drink = {
     mus: ["eskvketv", "iskəkitə"],
     esu: ["mertuq", "məʁtuq"],
     ess: ["мыӷаӄуӄ", "mɨɣaquq"],
-    ale: ["таӈалих", "taŋalix"],
+    ale: ["taangalix", "taːŋalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 736_drink: taanga-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["yidlą", "jidlã"],
     dak: ["yatkáŋ", "jatkã́"],
     chy: ["mane", "mane"],

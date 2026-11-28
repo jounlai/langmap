@@ -2179,7 +2179,7 @@ WORDS.eye = {
     mus: ["etorwv", "itóɬwə"],
     esu: ["ii", "iː"],
     ess: ["ия", "ija"],
-    ale: ["дах̆", "ðaχ"],
+    ale: ["dax̂", "ðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 1_eye: da-x́; Wiktionary dax̂ /ˈdaχ/; UCLA Phonetics Lab Archive Eastern Aleut word list (1996) #39 dax̂ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["bináá", "bináː"],
     dak: ["ištá", "iʃtá"],
     chy: ["maʼexa", "maʔexa"],

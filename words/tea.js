@@ -992,7 +992,7 @@ WORDS.tea = {
     nd: ["itiye", "itije"],
     kky: ["buurr", "buːr"],
     mic: ["pʼtewei", "pədewej"],
-    ale: ["chaayux́", "tʃaːjuχ"],
+    ale: ["chaayux̂", "tʃaːjuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 362_tea: chaayu-x́; the Wiktionary translation table has a mixed Latin-Cyrillic typo for it (review 875: row rebuilt in Alaskan Latin, Eastern)
     nij: ["teh", "teh"],
     nch: ["té", "te"],
     gn: ["te", "te"],

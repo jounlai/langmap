@@ -1789,7 +1789,7 @@ WORDS.egg = {
     ckt: ["ԓигԓиг", "ɬiɣɬiɣ"],
     itl: ["лвилх", "lβilx"],
     ess: ["маник", "manik"],
-    ale: ["саамлах̆", "saːmlaχ"],
+    ale: ["saamlax̂", "saːmlaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 129_egg: saamla-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     // --- Tungusic — Proto-Tungusic *umu-kta survives right across the family
     evn: ["умукта", "umukta"],
     orh: ["ʊmʊkta", "ʊmʊkta"],

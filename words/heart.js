@@ -2166,7 +2166,7 @@ WORDS.heart = {
     mus: ["fēke", "fiːki"],
     esu: ["ircaquq", "iʁtʃaquq"],
     ess: ["иӽсяӄуӄ", "iχsjaquq"],
-    ale: ["кануух̆", "kanuːχ"],
+    ale: ["kanuux̂", "kanuːχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 46_heart: kanuux́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["bijíí", "bidʒíː"],
     dak: ["čhaŋté", "tʃʰãté"],
     chy: ["hēsta", "hesta"],

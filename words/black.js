@@ -2313,7 +2313,7 @@ WORDS.black = {
     bzg: ["makosum", "makosum"],
     car: ["tykaraije", "tɨkaɾaije"],
     itl: ["ктвэлаҳ", "ktβelaχ"],
-    ale: ["к̆ахчикдалих", "qaxtʃikðalix"],
+    ale: ["qaxchikdalix", "qaxtʃikðalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 524_black: qaxchikda-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     aln: ["i zi", "i zi"],
     glk: ["سیا", "siˈjɒ"],
     ani: ["бечӏедир", "betʃʼedir"],

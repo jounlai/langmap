@@ -2170,7 +2170,7 @@ WORDS.house = {
     mus: ["cuko", "tʃoko"],
     esu: ["ena", "əna"],
     ess: ["мыӈтыӷаӄ", "mɨŋtɨɣaq"],
-    ale: ["улах̆", "ulaχ"],
+    ale: ["ulax̂", "ulaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 307_house: ula-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["kįh", "kĩh"],
     dak: ["thípi", "tʰípi"],
     chy: ["mȧhēōʼo", "maheoʔo"],

@@ -2092,7 +2092,7 @@ WORDS.tomorrow = {
     sxn: ["diọěllo", "dioʔəlːo"],
     shx: ["nai55nɔ22", "nai˥˥nɔ˨˨"],  // Chen Hmong-Mien (CLDF).
     adt: ["wilytya-ardla-nga", "wiʎca-aɖla-ŋa"],  // Bowern PNY (CLDF).
-    ale: ["qilagan", "qelɛɡan"],  // NorthEuraLex.
+    ale: ["qilagan", "qilaɣan"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 592_tomorrow: qilagan (review 875: row rebuilt in Alaskan Latin, Eastern)
     juc: ["timahanenggi", "timaxanəŋɡi"],  // Oskolskaya; Robbeets (CLDF).
     oar: ["מחר", "mħaːr"],  // IDS.
     wmt: ["kumanta", "kumanta"],  // Bowern PNY (CLDF).

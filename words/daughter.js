@@ -2210,7 +2210,7 @@ WORDS.daughter = {
     acf: ["tifi", "tifi"],
     pqm: ["ntus", "ntus"],
     mlm: ["la:k8 ʔja:k7", "laːk˩˩ ʔjaːk˦˨"],
-    ale: ["асхинух̆", "asxinuχ"],
+    ale: ["asxinux̂", "asxinuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 205_daughter: asxinu-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     mmd: ["la:ʔ8 piəʔ8", "laːʔ˨˦ piəʔ˨˦"],
     ja_sd: ["娘", "mɯsɯme"],
     blt: ["ꪩꪴꪀꪑꪲꪉ", "luʔ˦ɲiŋ˥"],

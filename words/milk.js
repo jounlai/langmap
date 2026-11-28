@@ -2180,7 +2180,7 @@ WORDS.milk = {
     swi: ["tiu4", "tiu˥˩"],
     cay: ["onǫ́ʼgwaʼ", "onṍʔɡwaʔ"],
     rtm: ["susu", "susu"],
-    ale: ["мулуках̆", "mulukaχ"],
+    ale: ["mulukax̂", "mulukaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 361_milk: muluka-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kmc: ["nɐm31 məi323", "nɐm˧˩ məi˧˨˧"],
     kjj: ["ал", "al"],
     rim: ["maya", "maja"],

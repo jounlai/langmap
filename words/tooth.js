@@ -2138,7 +2138,7 @@ WORDS.tooth = {
     mus: ["nute", "noti"],
     esu: ["keggun", "kəxun"],
     ess: ["хута", "xuta"],
-    ale: ["агалух̆", "aɡaluχ"],
+    ale: ["agalux̂", "aɣaluχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 5_tooth: agalu-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["ghoʼ", "ɣoʔ"],
     dak: ["hi", "hi"],
     chy: ["véeʼėse", "véːʔese"],

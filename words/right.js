@@ -1862,7 +1862,7 @@ WORDS.right = {
     nyn: ["buryo", "burjo"],  // TLS.
     cgg: ["buryo", "burjo"],  // TLS.
     nyo: ["omukono gwaburyo", "omukono ɡwaburjo"],  // TLS.
-    ale: ["chaagamaguuǵix", "tʃaːɡamaɡuːɣiχ"],  // NorthEuraLex.
+    ale: ["chaagamaguuĝix̂", "tʃaːɣamaɣuːʁiχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 577_right: chaagamaguuǵi-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     lmo: ["destra", "ˈdɛstra"],  // IE-CoR.
     pnt: ["δεξιός", "ðeˈkʃøs"],  // IE-CoR.
     kky: ["mala", "mala"],  // Bowern PNY.

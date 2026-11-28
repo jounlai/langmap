@@ -1219,7 +1219,7 @@ WORDS.soap = {
     tzh: ["xapon", "ʃapon"],
     tzo: ["xavon", "ʃavon"],
     zap: ["xabú", "ʒabu"],
-    ale: ["миилах̆", "miːlaχ"],
+    ale: ["miilax̂", "miːlaχ"],  // en.wiktionary miilax̂ /ˈmiːlaχ/ (cites Bergsland 1994:277); UCLA Eastern word list #55 miilax̂ (review 875: row rebuilt in Alaskan Latin, Eastern)
     arp: ["hehíisíʼohúút", "hehíːsíʔohúːt"],
     chy: ["nėšeʼšévoénestȯtse", "neʃeʔʃévoénestotse"],  // 'Thing for washing the face'.
     cr: ["ᑭᓰᐯᑭᓂᑲᐣ", "kisiːpeːkinikan"],

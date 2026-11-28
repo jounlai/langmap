@@ -2101,7 +2101,7 @@ WORDS.red = {
     mus: ["cate", "tʃati"],
     esu: ["kavirliq", "kaviʁɬiq"],
     ess: ["кавилӈуӄ", "kavilŋuq"],
-    ale: ["улуудалих", "uluːdalix"],
+    ale: ["uluudalix", "uluːðalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 526_red: uluuda-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["łichíí", "ɬitʃíː"],
     dak: ["šá", "ʃá"],
     chy: ["maʼó", "maʔó"],

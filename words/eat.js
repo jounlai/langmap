@@ -2168,7 +2168,7 @@ WORDS.eat = {
     mus: ["hompetv", "hompitə"],
     esu: ["nerʼuq", "nəʁːuq"],
     ess: ["ныӷаӄуӄ", "nɨɣaquq"],
-    ale: ["ках̆тах", "qaχtax"],
+    ale: ["inulix", "inulix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 737_eat: inu-lix; ASJP ALEUT_2 eat inilix (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["yiyąą", "jijãː"],
     dak: ["yúta", "júta"],
     chy: ["mésehe", "mésehe"],

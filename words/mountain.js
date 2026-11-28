@@ -2107,7 +2107,7 @@ WORDS.mountain = {
     swi: ["nu2", "nu˧˩"],
     kxm: ["ភ្នំ", "pʰnom"],
     bzg: ["sjach", "ʃatʃ"],
-    ale: ["кииг̆уусих̆", "kiːɣuːsiχ"],
+    ale: ["kiiĝuusix̂", "kiːʁuːsiχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 96_mountain: kiiǵuusi-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     vls: ["berg", "bɛrx"],
     trm: ["dā", "daː"],
     gsw_w: ["Bäärg", "bæːrɡ"],

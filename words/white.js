@@ -2401,7 +2401,7 @@ WORDS.white = {
     dds: ["pilu", "pilu"],
     gsw_als: ["wiss", "vis"],
     kpe: ["kole", "kole"],
-    ale: ["к̆умалих", "qumalix"],
+    ale: ["qumalix", "qumalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 525_white: quma-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     trm: ["kešera", "keʃera"],
     jio: ["kʰou", "kʰou˥"],
     bxk: ["waanga", "waːŋɡa"],

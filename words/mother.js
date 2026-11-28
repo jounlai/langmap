@@ -2169,7 +2169,7 @@ WORDS.mother = {
     mus: ["ecke", "itʃki"],
     esu: ["aana", "aːna"],
     ess: ["на", "na"],
-    ale: ["анаах̆", "anaːχ"],
+    ale: ["anax̂", "anaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 203_mother: ana-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["shimaa", "ʃimaː"],
     dak: ["iná", "iná"],
     chy: ["náhkoʼéehe", "náhkoʔéːhe"],

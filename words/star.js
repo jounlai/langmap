@@ -2155,7 +2155,7 @@ WORDS.star = {
       mus: ["kocvmpv", "kotʃámpa"],
       esu: ["agyaq", "aɣjaq"],
       ess: ["иӷалыӄытаӄ", "iɣalɨqɨtaq"],
-      ale: ["сдах̆", "sðaχ"],
+      ale: ["sdax̂", "sðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 59_star: sda-x́; Wiktionary sdax̂ (Eastern); UCLA Eastern #99 (review 875: row rebuilt in Alaskan Latin, Eastern)
       apw: ["tsʼiłsǫǫsé", "tsʼiɬsõːsé"],
       dak: ["wičáŋȟpi", "witʃã́χpi"],
       chy: ["hotohke", "hotohke"],

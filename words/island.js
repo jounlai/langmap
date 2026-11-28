@@ -952,7 +952,7 @@ WORDS.island = {
     io: ["insulo", "inˈsulo"],
     is: ["eyja", "ˈeija"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
     it: ["isola", "ˈizola"],  // From Latin īnsula, directly or through a later language.
-    itl: ["°ԓэмч", "ʷɬemtʃ"],
+    itl: ["˚ӆэмч", "ʷɬemtʃ"],
     ja: ["島", "ɕima"],  // Native Japanese shima, possibly related to Korean 섬.
     jv: ["pulo", "pulo"],
     ka: ["კუნძული", "kʼundzuli"],

@@ -1346,7 +1346,7 @@ WORDS.monday = {
     vot: ["esimespäive", "ˈesimespæivæ"],  // From esimein 'first' + päive 'day': Monday is the first day of the week, followed by tõinpäive 'second day' for Tuesday.
     wym: ["möntaog", "ˈmøntaɔk"],  // The moon's day, inherited from Proto-West Germanic *mānini dag like German Montag.
     tlh: ["DaSjaj", "ɖɑʂdʒɑdʒ"],  // DaSjaj, the Klingon name for Monday, ending in jaj 'day'; the source does not explain the first part.
-    ale: ["Pundiilnikax̂", "pundiːlnikaχ"],  // Borrowed from Russian ponedelnik, 'the day after Sunday', as Sunday Vaskrisiiniyax̂ is from Russian voskresenye.
+    ale: ["Pundiilnikax̂", "pundiːlnikaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 474_monday: Pundiilnika-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     cay: ["Awędędáʼǫh", "awɛ̃dɛ̃dáʔõh"],  // A verb, literally 'the day was finished' (day + end); Tuesday to Friday are then counted, dekní: hadǫˀt 'two day' and so on.
     kwk: ["ʼna̱mp̓a̱nxwat̕sa̱nx̱", "ʔnəmpʼənxʷatsʼənχ"],  // Built on ʼna̱m 'one', a numbered day: Tuesday is ma'łp̓a̱nxwat̕sa̱nx̱ (maʼł 'two'), Wednesday yuda̱xwp̓a̱nxwat̕sa̱nx̱ and Thursday mup̓a̱nxwat̕sa̱nx̱.
     tsi: ["Haʼlikʼüül Sah", "haʔlikʼɯːl sah"],  // Literally 'day one': kʼüül 'one' + sah 'day', followed by Haʼligupʼl Sah (gupʼl 'two') for Tuesday and Haʼlikʼwilii Sah for Wednesday.

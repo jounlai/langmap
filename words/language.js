@@ -1909,7 +1909,7 @@ WORDS.language = {
     cng: ["dʒə βɑ", "dʒə βɑ"],  // lexibank suntb (Qiang, Mawo).
     swi: ["lam1 fan2", "lam˩˩ fan˧˩"],  // IDS (Sui).
     ame: ["ñoñets", "ɲoɲets"],  // lexibank amazonianvoices (Yanesha).
-    ale: ["tunux̂", "tunuχ"],  // NorthEuraLex (Aleut).
+    ale: ["tunux̂", "tunuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 233_language: tunu-x́; Wiktionary tunux̂ (word) and Unangam Tunuu (Aleut language) (review 875: row rebuilt in Alaskan Latin, Eastern)
     hno: ["زبان", "zəbaːn"],  // Bashir & Conners (2019) A Descriptive Grammar of Hindko, Panjabi, and Saraiki (archive.org copy).
     kjp: ["ဆ်ုခၠါင်", "tɕʰəkʰlàiɴ"],  // Kato 2009 (AALL 4:169-218) Hp column; Incubator Wp/kjp.
     mwk: ["kan", "kan"],  // Creissels 2009, Le malinké de Kita (via EvoLex Mande comparative dictionary, V. Vydrin).

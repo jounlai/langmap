@@ -1902,7 +1902,7 @@ WORDS.left = {
     shn: ["သၢႆႉ", "saːj˦˨ˀ"],  // IDS + ABVD.
     nyn: ["emosho", "emoʃo"],  // TLS.
     nyo: ["omukono gwemoso", "omukono ɡwemoso"],  // TLS.
-    ale: ["angiqiiǵix̂", "aŋiqiːɣiχ"],  // NorthEuraLex.
+    ale: ["angiqiiĝix̂", "aŋiqiːʁiχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 576_left: angiqiiǵi-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     lmo: ["sinistra", "siˈnistra"],  // IE-CoR.
     kky: ["dhagu", "d̪aɡu"],  // Bowern PNY.
     xto: ["𑀧𑀸𑀘𑀺", "paːtsi"],  // IE-CoR + IDS.

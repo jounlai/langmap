@@ -2173,7 +2173,7 @@ WORDS.one = {
     mus: ["hvmken", "həmkin"],
     esu: ["atauciq", "atautʃiq"],
     ess: ["атасиӄ", "atasiq"],
-    ale: ["атак̆ан", "ataqan"],
+    ale: ["ataqan", "ataqan"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 653_one: ataqa-n; Wiktionary ataqan (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["dáłaʼá", "dáɬaʔá"],
     dak: ["waŋžidaŋ", "wãʒidã"],
     chy: ["nāʼėstse", "naʔestse"],

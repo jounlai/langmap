@@ -1988,7 +1988,7 @@ WORDS.bird = {
     fud: ["manu", "manu"],
 
     // --- Uralic and Siberia — NorthEuraLex orthography, re-read to each row's IPA
-    ale: ["сах̆", "saχ"],
+    ale: ["sax̂", "saχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 148_bird: sa-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     ckt: ["гатԓе", "ɣatɬe"],
     gld: ["гаса", "ɡasa"],
     ket: ["кеӈассель", "kɛŋasːʲɛʎ"],

@@ -2043,7 +2043,7 @@ WORDS.rain = {
     itb: ["timoy", "timoj"],
     ivv: ["timoy", "timoj"],
     agu: ["abʼal", "aɓal"],
-    ale: ["кимдух", "kimdux"],
+    ale: ["kimdux", "kimðux"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 76_rain: kimdux (review 875: row rebuilt in Alaskan Latin, Eastern)
     atb: ["mau", "mau˨˩"],
     ave: ["𐬬𐬁𐬭𐬀", "vaːra"],
     bfq: ["me", "me"],

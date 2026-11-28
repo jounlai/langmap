@@ -1577,7 +1577,7 @@ WORDS.grandmother = {
     itz: ["noolaj", "noːlah"],
     poh: ["kʼeenbʼees", "kʼeːnɓeːs"],
     zap: ["jñaa bida", "xɲaː bida"],
-    ale: ["куках̆", "kukaχ"],
+    ale: ["kukax̂", "kukaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 200_grandmother: kuka-x́; Wiktionary kukax̂ (cites Bergsland 1994:247); UCLA Eastern #22 (review 875: row rebuilt in Alaskan Latin, Eastern)
     arp: ["néiibéheʼ", "néiːbéheʔ"],
     esu: ["maurluq", "mauʁɬuq"],
     hai: ["náan", "nɑ́ːn"],

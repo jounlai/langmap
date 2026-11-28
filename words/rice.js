@@ -1776,7 +1776,7 @@ WORDS.rice = {
     prk: ["mgaox", "ɡauʔ"],
     bew: ["beras", "bəras"],
     one: ["watnʌʼʌ́:kwas", "watnʌ̃ʔʌ̃́ːkwas"],
-    bfq: ["அக்கி", "akːi"],
+    bfq: ["akki", "akːi"],  // Wiktionary அக்கி, Hockings 1992 "akki" p. 4; romanized like the row (review 874)
     bca: ["me", "me˧˧"],
     jya: ["kʰʂi", "kʰʂi"],
     nez: ["seheywéekuʼs", "sehejwéːkuʔs"],
@@ -1810,7 +1810,7 @@ WORDS.rice = {
     sdo: ["sungkoi", "suŋkoi"],
     kio: ["ì:ógûè:", "ìːóɡûèː"],
     hup: ["qo:-nehwa:n", "qoːnehwaːn"],
-    haj: ["চৗল", "tʃɯl"],
+    haj: ["câl", "tʃɯl"],  // Wiktionary চৗল "uncooked rice", tr=câl (review 874)
     mrq: ["karaihi", "kaɾaihi"],
     gay: ["oros", "ɔrɔs"],
     gsw_als: ["Riss", "ris"],

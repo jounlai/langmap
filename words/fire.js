@@ -2172,7 +2172,7 @@ WORDS.fire = {
     mus: ["totkv", "tótkə"],
     esu: ["keneq", "kənəq"],
     ess: ["кыныӄ", "kɨnɨq"],
-    ale: ["к̆игнах̆", "qiɡnaχ"],
+    ale: ["qignax̂", "qiɣnaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 70_fire: qigna-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["kǫʼ", "kṍʔ"],
     dak: ["phéta", "pʰéta"],
     chy: ["hoʼēsta", "hoʔesta"],

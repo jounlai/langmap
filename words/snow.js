@@ -1825,7 +1825,7 @@ WORDS.snow = {
     cay: ["oʼgraʼ", "oʔɡraʔ"], // Dyck, Froman, Keye & Keye 2024
     kio: ["tʼól", "tʼól"], // Poolaw 2023; Harrington 1928 — cp. tʼou to be cold
     pao: ["nɨbabi", "nɨpapi"], // UACV 2075 *nɨpa; the harvested pɨpa-pi was an n/p misreading
-    ale: ["каниих̆", "qaniːχ"], // Comparative Eskimo Dictionary, PE *qaniɣ
+    ale: ["qaniix", "qaniːx"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 77_snow: qaniix (review 875: row rebuilt in Alaskan Latin, Eastern)
     ess: ["анигу", "aniɡu"], // snow on the ground; falling snow is qanik
     quc: ["saq tew", "saq tew"], // ALMG — saq white + tew cold; granizo is saqbʼach
     kjb: ["chew", "tʃew"], // ALMG — Nieve, hielo

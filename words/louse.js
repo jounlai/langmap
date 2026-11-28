@@ -1365,7 +1365,7 @@ WORDS.louse = {
     kmb: ["ina", "ina"],  // Grollemund Bantu.
     lun: ["yina", "jina"],  // Grollemund Bantu.
     vmw: ["ithupo", "itʰupo"],  // Grollemund Bantu (CBOLD).
-    ale: ["китух̆", "kituχ"],  // NorthEuraLex.
+    ale: ["kitux̂", "kituχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 167_louse: kitu-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kw: ["lowen", "ˈlɔwɛn"],  // Wiktionary (Cornish lowen, low); IE-CoR.
     tiw: ["mimpini", "mimpini"],  // Johansson et al. sound-symbolism data; ASJP.
     mch: ["daamö", "daːmə"],  // IDS (De'kwana); Hunter-Gatherer DB.

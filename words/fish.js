@@ -2105,7 +2105,7 @@ WORDS.fish = {
     mus: ["rvro", "ɬaɬo"],
     esu: ["neqa", "nəqa"],
     ess: ["иӄалъюк", "iqaɬjuk"],
-    ale: ["ках̆", "qaχ"],
+    ale: ["qax̂", "qaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 160_fish: qa-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["łóg", "ɬóɡ"],
     dak: ["hoǧáŋ", "hoɣã́"],
     chy: ["nómaʼne", "nómaʔne"],

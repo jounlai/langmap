@@ -1703,7 +1703,7 @@ WORDS.butterfly = {
     cay: ["jiʼdana:wę:", "dʒiʔdanaːwɛ̃ː"],
     wym: ["mulkiadrymuł", "ˈmulkiadrɨmuw"],
     mhy: ["laluŋ", "laluŋ"],
-    ale: ["аг̆лак̆иидах̆", "aɣlaqiːðaχ"],
+    ale: ["aĝlaqiidax̂", "aʁlaqiːðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 170_butterfly: aǵlaqiida-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     th_n: ["ก่ำเบ้อ", "kam˨˩bɤː˥˥˨"],
     zh_tj: ["蝴蝶", "fu˦˥ tie˦˥"],
     zh_cq: ["蝴蝶", "fu˨˩ tie˨˩"],

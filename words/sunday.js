@@ -1553,7 +1553,7 @@ WORDS.sunday = {
     enf: ["seude deri", "sæudɛ dʲɛri"],  // NorthEuraLex.
     ain: ["トカㇷ゚チュㇷ゚エトホ", "tokaptɕupetoho"],  // NorthEuraLex.
     tkr: ["ваджар", "vadʒar"],  // IDS.
-    ale: ["Vaskrisiiniyax̂", "vaskrisiːnijaχ"],  // NorthEuraLex.
+    ale: ["Vaskrisiiniyax̂", "vaskrisiːnijaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 480_sunday: Vaskrisiiniya-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     hay: ["eilimansi", "eilimansi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     fia: ["kilagée", "kilaɡéː"],  // Satzinger 2018, Short Archaeological Wordlist in English, Sudani Arabic and Nobiin (AcrossBorders, web.archive.org copy .
     mfa: ["Ahad", "ahat"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.

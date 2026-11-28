@@ -2101,7 +2101,7 @@ WORDS.night = {
     mus: ["nere", "niɬi"],
     esu: ["unuk", "unuk"],
     ess: ["унук", "unuk"],
-    ale: ["амах", "amax"],
+    ale: ["amax", "amax"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 454_night: amax (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["tłʼéʼ", "tɬʼéʔ"],
     dak: ["haŋyetu", "hãjetu"],
     chy: ["táaʼe", "táːʔe"],

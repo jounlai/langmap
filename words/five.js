@@ -1895,7 +1895,7 @@ WORDS.five = {
     moh: ["wísk", "wísk"],
     cho: ["talhlhapi", "taɬːapi"],
     esu: ["talliman", "taɬiman"],
-    ale: ["chaang", "tʃaːŋ"],
+    ale: ["chaang", "tʃaːŋ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 657_five: chaang; Wiktionary chaang (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["ashdlaʼ", "aʃdlaʔ"],
     dak: ["záptaŋ", "záptã"],
     chy: ["noho", "noho"],

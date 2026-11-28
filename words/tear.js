@@ -1706,7 +1706,7 @@ WORDS.tear = {
     niv: ["них", "nix"],  // NorthEuraLex.
     myx: ["kamasika", "kamasika"],  // TLS (lexibank tls).
     tn: ["keledi", "keledi"],  // BantuBVD.
-    ale: ["тааӈах̆", "taːŋaχ"],  // NorthEuraLex.
+    ale: ["taangax̂", "taːŋaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 51_tear: taanga-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     tue: ["yakooko", "jakooˈko"],  // IDS.
     ave: ["𐬀𐬯𐬭𐬎", "asru"],  // IDS.
     mhy: ["ñirah", "ɲirah"],  // Smith Borneo (lexibank smithborneo).

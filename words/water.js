@@ -2181,7 +2181,7 @@ WORDS.water = {
     mus: ["uewv", "oíwə"],
     esu: ["meq", "məq"],
     ess: ["мыӄ", "mɨq"],
-    ale: ["таӈах̆", "taŋaχ"],
+    ale: ["taangax̂", "taːŋaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 63_water: taanga-x́; Wiktionary taangax̂; UCLA Eastern #5 (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["tú", "tú"],
     dak: ["mní", "mní"],
     chy: ["mahpe", "mahpe"],

@@ -2375,7 +2375,7 @@ WORDS.four = {
     sjd: ["не̄лльй", "ɲeːʎːj"],
     sce: ["jieron", "tɕjəˈron"],
     mjg: ["deeran", "deːran"],
-    ale: ["сичин", "sitʃin"],
+    ale: ["sichin", "sitʃin"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 656_four: sichi-n; Wiktionary sichin (Eastern, Atka) (review 875: row rebuilt in Alaskan Latin, Eastern)
     kjj: ["онгъ", "onʁ"],
     khv: ["укъен", "uqʼen"],
     tca: ["ãgümücü", "ãŋɡɨmɨkɨ"],
@@ -2447,7 +2447,7 @@ WORDS.four = {
     yuc: ["dæthlæ", "dæɬæ"],
     omc: ["nopæt", "nopæt"],
     koy: ["dinkʼee", "dinkʼiː"],
-    haj: ["চৗৰ", "tʃɯɾ"],
+    haj: ["câr", "tʃɯɾ"],  // Omniglot Hajong numbers "4 câr"; Wiktionary চৗৰ tr=câr (review 874)
     myp: ["baágiso", "baáɡiso"],
     wmt: ["kurriny kurriny", "kuriɲ kuriɲ"],
     vls: ["vier", "viːr"],

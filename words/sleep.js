@@ -2280,7 +2280,7 @@ WORDS.sleep = {
     wym: ["śłöfa", "ˈʃwøfa"],
     yiz: ["ʑi", "ʑi˨˩"],
     brh: ["خاچنگ", "xaːtʃinɡ"],
-    ale: ["саг̆алих", "saɣalix"],
+    ale: ["saĝalix", "saʁalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 741_sleep: saǵa-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     gsw_als: ["schlofe", "ʃloːfə"],
     mcf: ["ush-", "uʃ"],
     tsj: ["yip", "jip"],

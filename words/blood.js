@@ -2113,7 +2113,7 @@ WORDS.blood = {
     mus: ["catv", "tʃatə"],
     esu: ["auk", "auk"],
     ess: ["ау̌к", "awk"],
-    ale: ["аамах", "aːmax"],
+    ale: ["aamax", "aːmax"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 41_blood: aamax; Wiktionary aamax (cites Bergsland 1994:63) (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["dił", "diɬ"],
     dak: ["we", "we"],
     chy: ["maʼe", "maʔe"],

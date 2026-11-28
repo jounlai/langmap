@@ -1717,7 +1717,7 @@ WORDS.moon = {
     nej: ["—", "—"],
     alq: ['tibik-kìzis', 'tɪbɪkkiːzɪs'],
     ckv: ['buran', 'buˈran'],
-    haj: ["চান", "tʃan"],
+    haj: ["can", "tʃan"],  // Wiktionary চান, tr=can (review 874)
     dtp_kzj: ['vuhan', 'ˈvuhan'],
     mez: ['tepāhkēsoq', 'tepaːhkeːsoʔ'],
     nan_xm: ["月娘", "ɡeʔ˦ niũ˨˦"],
@@ -2175,7 +2175,7 @@ WORDS.moon = {
     mus: ["hvresse", "həɾisːi"],
     esu: ["iraluq", "iʁaluq"],
     ess: ["танӄиӄ", "tanqiq"],
-    ale: ["тугидах̆", "tuɣiðaχ"],
+    ale: ["tugidax̂", "tuɣiðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 58_moon: tugida-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["tłʼéʼgonaʼáí", "tɬʼéʔɡonaʔáí"],
     dak: ["haŋyétuwí", "hãjétuwí"],
     chy: ["taaʼéešeʼhe", "taːʔéeʃeʔhe"],

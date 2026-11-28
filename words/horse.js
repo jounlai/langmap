@@ -2110,7 +2110,7 @@ WORDS.horse = {
     wym: ["faod", "faɔt"],
     fr_ci: ["cheval", "ʃəval"],
     itl: ["коња", "koɲa"],
-    ale: ["куунух̆", "kuːnuχ"],
+    ale: ["kuunux̂", "kuːnuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 136_horse: kuunu-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kmc: ["ma31", "ma˧˩"],
     ani: ["кӏоту", "kʼotu"],
     kjj: ["пши", "pʃi"],

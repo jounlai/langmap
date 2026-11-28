@@ -2026,7 +2026,7 @@ WORDS.sea = {
     gay: ["lut kolak", "lut kɔlak"],
     wls: ["tai", "tai"],
     itl: ["ӄыҳ", "qiχ"],
-    ale: ["алаг̆ух̆", "alaɣuχ"],
+    ale: ["alaĝux̂", "alaʁuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 106_sea: alaǵu-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     aln: ["det", "dɛt"],
     vls: ["zêe", "zeː"],
     prg: ["iūrin", "ˈjuːrin"],

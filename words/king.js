@@ -1637,7 +1637,7 @@ WORDS.king = {
     tzh: ["mukʼul ajwalil", "mukʼul ahwalil"],  // Lit. 'great lord'.
     usp: ["rey", "rej"],
     zap: ["rey", "rej"],
-    ale: ["тукух̆", "tukuχ"],
+    ale: ["kurulax̂", "kurulaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 432_king: kurula-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     arp: ["béesnéécee", "béːsnéːtʃeː"],
     cay: ["gwa:go:wáh", "ɡwaːɡoːwáh"],
     chr: ["ᎤᎬᏫᏳᎯ", "uɡə̃wijuhi"],

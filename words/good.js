@@ -2172,7 +2172,7 @@ WORDS.good = {
     mus: ["herv", "hiɾə"],
     esu: ["assirtuq", "asiʁtuq"],
     ess: ["пинилӷи", "pinilɣi"],
-    ale: ["игах̆", "iɣaχ"],
+    ale: ["iĝamanalix", "iʁamanalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 558_good: iǵamana-lix; ASJP ALEUT_2 good eXomEnElix (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["nzhǫǫ", "nʒõː"],
     dak: ["wašté", "waʃté"],
     chy: ["pėhévaʼe", "pehévaʔe"],

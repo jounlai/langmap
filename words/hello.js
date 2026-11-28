@@ -1988,7 +1988,7 @@ WORDS.hello = {
     mus: ["hensci", "hinsdʒi"],
     esu: ["waqaa", "waqaː"],
     ess: ["аипак", "aipak"],
-    ale: ["аӈ", "aŋ"],
+    ale: ["aang", "aːŋ"],  // en.wiktionary aang "hi, hello" (interjection) and hello translation table (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["dagotʼee", "daɡotʼeː"],
     dak: ["háu", "háu"],
     chy: ["haáahe", "haáːhe"],

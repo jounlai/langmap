@@ -1099,7 +1099,6 @@ WORDS.iron = {
     peh: "plain",
     yuy: "plain",
     ii: "syam",
-    bfq: "plain",
     xht: "plain",
     kho: "plain",
     xto: "plain",
@@ -2156,7 +2155,7 @@ WORDS.iron = {
     ket: ["е", "jɛ"],
     rut: ["йилаг", "jilaɡ"],
     mlm: ["khat7", "kʰat˥˥"],
-    ale: ["к̆умлих̆ух̆", "qumliχuχ"],
+    ale: ["qumlix̂ux̂", "qumliχuχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 185_iron: qumlix́u-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kmc: ["kwat35", "kwat˧˥"],
     mmd: ["tɕhit7", "tɕʰit˥˥"],
     rom: ["sastri", "sasˈtri"],
@@ -2295,7 +2294,6 @@ WORDS.iron = {
     peh: ["təmər", "təmər"],
     yuy: ["temər", "temər"],
     ii: ["ꎸꅍ", "ʂɯ˧˧du˧˧"],
-    bfq: ["கப்புணி", "kappuɳi"],
     xht: ["ḫapalki", "xapalki"],  // Hittite borrowed this word as ḫapalki, the same form as on the Hittite row.
     kho: ["𑀳𑀻𑀰𑁆𑀰𑀦", "hiːɕana"],
     xto: ["𑀅𑀜𑁆𑀘𑀼", "aɲtsu"],

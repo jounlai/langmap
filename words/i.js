@@ -2184,7 +2184,7 @@ WORDS.i = {
       mus: ["vne", "ani"],
       esu: ["wiinga", "wiːŋa"],
       ess: ["ху̌аӈа", "xwaŋa"],
-      ale: ["тиӈ", "tiŋ"],
+      ale: ["ting", "tiŋ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 640_i: ting (review 875: row rebuilt in Alaskan Latin, Eastern)
       apw: ["shíí", "ʃíː"],
       dak: ["miyé", "mijé"],
       chy: ["nánéehove", "nánéːhove"],

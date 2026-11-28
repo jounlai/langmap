@@ -2076,7 +2076,7 @@ WORDS.love = {
     mus: ["vnokeckv", "ənokitʃkə"],
     esu: ["kenka", "kənka"],
     ess: ["пиниӄаӄа", "piniqaqa"],
-    ale: ["кидук-", "kiðuk-"],
+    ale: ["qumyuxtalix", "qumjuxtalix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 789_love: qumyuxta-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["ayóigóʼíí", "ʔajóiɣóʔíː"],
     dak: ["thečhíȟida", "tʰetʃʰíχida"],
     chy: ["méhósáne", "méhósáne"],

@@ -1307,7 +1307,7 @@ WORDS.foot = {
     akb: ["pat", "pat"],  // The Angkola and Mandailing lists both answer leg/foot with pat, the Toba Batak word whose limb-wide use the ACD shows — route carried over from Toba, so low confidence.
     ake: ["pïta", "pɨta"],  // Akawaio breaks pisi for the legs and washes pʉta for the feet; the row writes ï where the NT writes ʉ, as its own pïra does.
     akk: ["𒄊", "ʃeːpu"],  // CAD Š/2 s.v. šēpu. The pair holds because purīdu is a full lexeme glossed 'leg' with its own logogram PAP.ḪAL, even though CAD's headword gloss for šēpu reads 'foot, leg'. Written with the Sumerian logogram GÌR.
-    ale: ["китах̆", "kitaχ"],  // Bergsland and Dirks give kitax̂ 'foot' against kudux̂ 'leg'; the 1902 Fox Aleut John washes кита́ҥинъ at 13:5 beside ча́киҥъ, this row's own чах̆, so the cell is китах̆.
+    ale: ["kitax̂", "kitaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 34_foot: kita-x́; Wiktionary kitax̂; UCLA Eastern word list #88 kitax̂ (vs kudux̂ leg #90) (review 875: row rebuilt in Alaskan Latin, Eastern)
     aln: ["kâmbë", "kɑ̃mb"],  // As Albanian; Gheg writes the nasal â. // was ["kâmbë", "kamb"] (vi dialect rules 2026-10-06)
     alq: ["ozid", "ozid"],  // Acts 3:7 gives both at once — ozidan acitc okadan, his feet and his legs — so Algonquin keeps the Proto-Algonquian *-sit / *-kaat split the Ojibwe row also keeps.
     alt: ["бут", "but"],  // Both Altai words answer both concepts. IPA is the plain reading of the orthography, following how this row's own hand cell writes кол as kol.

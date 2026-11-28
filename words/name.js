@@ -2166,7 +2166,7 @@ WORDS.name = {
       mus: ["hocefkv", "hotʃífka"],
       esu: ["ateq", "atəq"],
       ess: ["атыӄ", "atɨq"],
-      ale: ["асах", "asax"],
+      ale: ["asaxx̂", "asaxχ"],  // NorthEuraLex (Dellert et al. 2020), Aleut [ale], concept name: asax-x́ — same NEL→Alaskan-Latin mapping as the rest of the row (hyphen dropped, x́ = x̂) (review 875)
       apw: ["-zhiʼ", "ʒiʔ"],
       dak: ["čažé", "tʃaʒé"],
       chy: ["véhestȯtse", "véhestotse"],

@@ -1591,7 +1591,7 @@ WORDS.olderbrother = {
     wbt: ["kupu", "kupu"],  // Warnman has separate words by age: kupu is an older brother and malaju (maɭaŋu) a younger one.
     nys: ["ngoont", "ŋunt"],  // Noongar ngoont is an elder brother, beside ngoon for a brother in general; a younger brother is kardang.
     kgg: ["mom", "mom"],  // Kusunda has separate words by age: mom is an elder brother and bʰəya a younger brother (elder sister bai, younger sister binəi).
-    ale: ["ludax̂", "luðaχ"],  // Eastern Aleut ludax̂ (Atkan luyax̂) is a man's older brother or a woman's older sister; the younger counterpart is kingix̂, and agiitudax̂ is a brother in general.
+    ale: ["ludax̂", "luðaχ"],  // Existing reviewed cell: Bergsland & Dirks, Eastern Aleut ludax̂ (Atkan luyax̂); not re-verified online. Fallback NEL 206_brother agiituda-x́ "brother" (review 875: row rebuilt in Alaskan Latin, Eastern)
     koy: ["boogha", "boːɣa"],  // Literally 'his older brother' (addressed as sooghaa); a younger brother is bikitt'a, addressed kitt'aa.
     non: ["bróðir", "ˈbroːðir"],  // The general word for 'brother', with no separate word for an older one.
     goh: ["bruoder", "ˈbruoðer"],  // The general word for 'brother', with no separate word for an older one.

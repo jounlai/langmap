@@ -1876,7 +1876,7 @@ WORDS.ear = {
     iba: ["pending", "pəndiŋ"],
     tay: ["papak", "paˈpak"],
     esu: ["ciun", "tʃiun"],
-    ale: ["tutusix", "tutusiχ"],
+    ale: ["tutusix̂", "tutusiχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 2_ear: tutusi-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     win: ["nąącawa", "nãːtʃawa"],
     lkt: ["núŋǧe", "nṹɣe"],
     evn: ["се̄н", "seːn"],

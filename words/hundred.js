@@ -2199,7 +2199,7 @@ WORDS.hundred = {
     pau: ["dart", "ðaɾt"],
     dtp_kzj: ["hatus", "hatus"],
     pzh: ["hatel", "hatəl"],
-    ale: ["сисах̆", "sisaχ"],
+    ale: ["sisax̂", "sisaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 673_ahundred: sisa-x́; Wiktionary sisax̂; UCLA Eastern #29 (review 875: row rebuilt in Alaskan Latin, Eastern)
     nrf_gg: ["chent", "ʃɑ̃"],
     ja_mvi: ["百", "mumu"],
     kjj: ["пан", "pʰan"],

@@ -1885,7 +1885,7 @@ WORDS.green = {
     kxm: ["ខៀវ", "kʰiːw"],
     pyu: ["miraat", "miraat"],
     tvl: ["lanu lau niu", "lanu lau niu"],
-    ale: ["чидг̆ааюлих", "tʃiðɣaːjulix"],
+    ale: ["chidĝaayulix", "tʃiðʁaːjulix"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 529_green: chidǵaayu-lix (review 875: row rebuilt in Alaskan Latin, Eastern)
     pnt: ["πράσινον", "ˈprasinon"],
     aln: ["jeshil", "jeˈʃil"],
     kfy: ["हरियो", "ɦərijo"],

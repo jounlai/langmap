@@ -1075,7 +1075,7 @@ WORDS.wednesday = {
     zza: ["çarşeme", "tʃaɾʃɛme"],  // From Persian چهارشنبه 'fourth day'.
     bar: ["Migga", "ˈmɪɡɐ"],
     sco: ["Wadensday", "ˈwɑdənzde"],
-    fj: ["Siga Vukelulu", "siŋa βukelulu"],
+    fj: ["siga Vukelulu", "siŋa βukelulu"],
     vec: ["mèrcore", "ˈmɛrkore"],
     rm: ["mesemna", "mɛˈzɛmna"],
     kum: ["арбагюн", "arbaˈɡyn"],
@@ -1419,7 +1419,7 @@ WORDS.wednesday = {
     ain: ["ウォロエトホ", "woɾoetoho"],  // NorthEuraLex.
     lic: ["tsheŋ2 khi3 ta2", "tsʰeŋ˥˥ kʰi˩˩ ta˥˥"],  // IDS.
     rtm: ["Rän folu", "ræn folu"],  // IDS.
-    ale: ["Siridax̂", "siridaχ"],  // NorthEuraLex.
+    ale: ["Siridax̂", "siridaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 476_wednesday: Sirida-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     gez: ["ረቡዕ", "rəbuʕ"],  // Feleke Semitic (lexibank felekesemitic).
     hay: ["olwaakashatu", "olwaːkaʃatu"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     mfa: ["Rabu", "rabu"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.

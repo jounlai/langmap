@@ -2186,7 +2186,7 @@ WORDS.father = {
     mus: ["erke", "iɾki"],
     esu: ["aata", "aːta"],
     ess: ["ата", "ata"],
-    ale: ["адаах̆", "aðaːχ"],
+    ale: ["adax̂", "aðaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 202_father: ada-x́; Wiktionary adax̂ /aðɑχ/ (cites Bergsland 1994:11) (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["shitaa", "ʃitaː"],
     dak: ["até", "até"],
     chy: ["néhoʼéehe", "néhoʔéːhe"],

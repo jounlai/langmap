@@ -2181,7 +2181,7 @@ WORDS.hand = {
     mus: ["enke", "iŋki"],
     esu: ["unan", "unan"],
     ess: ["иха", "ixa"],
-    ale: ["чах̆", "tʃaχ"],
+    ale: ["chax̂", "tʃaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 28_hand: cha-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["bigan", "biɡan"],
     dak: ["napé", "napé"],
     chy: ["maʼahtse", "maʔahtse"],

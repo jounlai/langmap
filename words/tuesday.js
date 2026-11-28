@@ -1072,7 +1072,7 @@ WORDS.tuesday = {
     sn: ["Chipiri", "tʃipiri"],  // 'Second'.
     zza: ["sêşeme", "seːʃɛme"],  // From Persian سه‌شنبه 'third day'.
     sco: ["Tysday", "ˈtəizde"],
-    fj: ["Siga Tusite", "siŋa tusite"],  // siga 'day' + English Tuesday.
+    fj: ["siga Tusite", "siŋa tusite"],  // siga 'day' + English Tuesday.
     vec: ["marti", "ˈmarti"],
     rm: ["mardi", "ˈmardi"],
     kum: ["талатгюн", "talatˈɡyn"],
@@ -1419,7 +1419,7 @@ WORDS.tuesday = {
     lic: ["tsheŋ2 khi3 zi2", "tsʰeŋ˥˥ kʰi˩˩ zi˥˥"],  // IDS (Hlai, Baoting variety).
     rtm: ["Rän rua", "ræn rua"],  // IDS (Rotuman).
     pbb: ["maltxis", "maltʲis"],  // IDS (Páez).
-    ale: ["Uvtuurnikax̂", "uvtuːrnikaχ"],  // NorthEuraLex (Aleut).
+    ale: ["Uvtuurnikax̂", "uvtuːrnikaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 475_tuesday: Uvtuurnika-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kjj: ["кӏувшкаьхкьаь", "kʼuvʃkʰæχqʼæ"],  // IDS (Khinalug).
     hay: ["olwaakabili", "olwaːkabili"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     mfa: ["Selasa", "səlasa"],  // SEASITE (Northern Illinois Univ.) Pattani Malay lessons, after Fassler 1966 / OMF 1967.

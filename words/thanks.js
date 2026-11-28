@@ -1334,7 +1334,7 @@ WORDS.thanks = {
     kca: ["пумащипа", "ˈpumasʲipa"],
     ckt: ["вэԓынкы", "weɬənkə"],
     kpy: ["ныӈэвыквын", "nɯŋewɯkwɯn"],
-    itl: ["ӄэчʼэԓ", "qetʃʼeɬ"],
+    itl: ["ӄэчʼэӆ", "qetʃʼeɬ"],
     ykg: ["пасиива", "pasiːva"],
     yux: ["пасьпе", "pasʲpe"],
     niv: ["туьмг", "tɯmɡ"],
@@ -1999,7 +1999,7 @@ WORDS.thanks = {
     mus: ["mvto", "məto"],
     esu: ["quyana", "qujana"],
     ess: ["игамсиӄанаӄ", "iɡamsiqanaq"],
-    ale: ["к̆аг̆аасак", "qaɣaːsak"],
+    ale: ["qaĝaalakux̂", "qaʁaːlakuχ"],  // en.wiktionary qaĝaalakux̂ "thank you (Eastern dialect)" and thank you translation table (Atkan qaĝaasakuq) (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["ahíyiʼé", "ʔahíjiʔé"],
     dak: ["pidámayaye", "pidámajaje"],
     chy: ["néáʼeše", "néáʔeʃe"],

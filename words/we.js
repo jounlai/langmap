@@ -2040,7 +2040,7 @@ WORDS.we = {
     mus: ["pome", "pomi"],
     esu: ["wangkuta", "waŋkuta"],
     ess: ["ху̌аӈкута", "xwaŋkuta"], // was ["хвангкута", "xʷaŋkuta"] (vi dialect rules 2026-10-06)
-    ale: ["тимис", "timis"],
+    ale: ["tingin", "tiŋin"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 643_we: tingin; ASJP ALEUT_2 tiNin (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["nohwí", "nohwí"],
     dak: ["uŋkiyepi", "ũkijepi"],
     chy: ["nénéehóvema / nánéehóvéme", "nénéːhóvema / nánéːhóvéme"],

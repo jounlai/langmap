@@ -2012,7 +2012,7 @@ WORDS.book = {
     mlm: ["lɛ2", "lɛ˩˨˩"],
     wym: ["büch", "byx"],
     mdr: ["suraq", "suraʔ"],
-    ale: ["каликах̆", "kalikaχ"],
+    ale: ["kalikax̂", "kalikaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 408_book: kalika-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     kmc: ["le212", "le˨˩˨"],
     mmd: ["lɛ1", "lɛ˦˨"],
     prg: ["laiskas", "ˈlaiskas"],

@@ -2180,7 +2180,7 @@ WORDS.two = {
       mus: ["hokkolen", "hokkoːlin"],
       esu: ["malruk", "maɬʁuk"],
       ess: ["малӷук", "malɣuk"],
-      ale: ["аалах", "aːlax"],
+      ale: ["aalax", "aːlax"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 654_two: aalax; Wiktionary aalax (labelled Eastern); UCLA Eastern #70 (review 875: row rebuilt in Alaskan Latin, Eastern)
       apw: ["naki", "naki"],
       dak: ["núŋpa", "nṹpa"],
       chy: ["neše", "neʃe"],

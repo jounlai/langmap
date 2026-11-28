@@ -2124,7 +2124,7 @@ WORDS.tongue = {
     mus: ["tolaswa", "tolaswa"],
     esu: ["uluq", "uluq"],
     ess: ["улю", "ulju"],
-    ale: ["агнах̆", "aɡnaχ"],
+    ale: ["agnax̂", "aɣnaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 6_tongue: agna-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["bizaad", "bizaːd"],
     dak: ["čeži", "tʃeʒi"],
     chy: ["vétanove", "vétanove"],

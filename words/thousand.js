@@ -1285,7 +1285,7 @@ WORDS.thousand = {
     orh: ["miŋga", "miŋɡa"],  // Shared with other Tungusic languages and Manchu minggan; no image is recorded for it.
     rw: ["igihumbi", "iɡihumbi"],  // No image is recorded for it, so it counts as a word of its own.
     kw: ["mil", "mil"],  // From Proto-Brythonic mil, from Latin mīlia.
-    haj: ["হাজাৰ", "hadʒaɾ"],  // No etymology is given; it is the Persian hazār of Bengali হাজার.
+    haj: ["hajar", "hadʒaɾ"],  // Omniglot "1,000 hajar"; Wiktionary হাজাৰ tr=hajar (review 874)
     ve: ["gidi", "ɡidi"],  // No image is recorded for it, so it counts as a word of its own.
     ude: ["миӈга", "miŋɡa"],
     ii: ["ꄙ", "tu̠˧˧"],  // From Proto-Sino-Tibetan s-toŋ 'thousand'; no image is recorded for it.
@@ -1775,7 +1775,7 @@ WORDS.thousand = {
     ckt: ["таучын", "tawtɕən"],  // NorthEuraLex (Chukchi).
     rmy: ["mia", "mia"],  // IDS (Romani).
     nlc: ["kupnahonop", "kupnahonop"],  // Papuan Voices (Mek W.: Nalca).
-    ale: ["hadim sisax̂", "haðim sisaχ"],  // NorthEuraLex (Aleut).
+    ale: ["hadim sisax̂", "haðim sisaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 674_athousand: hadim sisax́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     chb: ["guehyzca hubchihica", "ɡwehɨzka hubtʃihika"],  // IDS (Muisca).
     hay: ["olukumi", "olukumi"],  // Kaji, S. (1998) Haya Vocabulary (ハヤ語語彙集), ILCAA, Tokyo Univ. of Foreign Studies, https://tufs.repo.nii.ac.jp/record/2001.
     dyo: ["ewili", "ewili"],  // Sapir, J.D. & B. Goudjabi, Kujamaat Jóola–French–English Dictionary (1994–2011), https://uva.theopenscholar.com/kujamaat.

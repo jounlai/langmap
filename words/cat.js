@@ -2075,7 +2075,7 @@ WORDS.cat = {
     mus: ["pose", "pose"],
     esu: ["kuskaq", "kuskaq"],
     ess: ["пуси", "pusi"],
-    ale: ["кошкаах̆", "koʃkaːχ"],
+    ale: ["kuuskax̂", "kuːskaχ"],  // en.wiktionary kuuskax̂ (Eastern, cites Bergsland 1994:250); UCLA Phonetics Lab Archive Eastern Aleut word list (1996) #23 kuuskax̂ (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["gídí", "ɡídí"],
     dak: ["igmúŋ", "iɡmṹ"],
     chy: ["póéso", "póéso"],

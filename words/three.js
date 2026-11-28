@@ -2109,7 +2109,7 @@ WORDS.three = {
     mus: ["tutcenen", "totʃːiːnin"],
     esu: ["pingayun", "piŋajun"],
     ess: ["пиӈают", "piŋajut"],
-    ale: ["к̆аанкун", "qaːnkun"],
+    ale: ["qaankun", "qaːnkun"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 655_three: qaanku-n; Wiktionary qaankun (labelled Eastern) (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["táági", "táːɡi"],
     dak: ["yamni", "jamni"],
     chy: ["naʼhe", "naʔhe"],

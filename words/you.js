@@ -2178,7 +2178,7 @@ WORDS.you = {
       mus: ["cēme", "tʃiːmi"],
       esu: ["elpet", "əɬpət"],
       ess: ["ылъпык", "ɨɬpɨk"],
-      ale: ["тхин", "txin"],
+      ale: ["txin", "txin"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 641_thou: txin (review 875: row rebuilt in Alaskan Latin, Eastern)
       apw: ["ni", "ni"],
       dak: ["niyé", "nijé"],
       chy: ["—", "—"],

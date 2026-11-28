@@ -2253,7 +2253,7 @@ WORDS.mouth = {
     bzg: ["ranied", "ranied"],
     sdo: ["babaʼ", "babaʔ"],
     itl: ["ӄэсҳ", "qesχ"],
-    ale: ["агилг̆их̆", "aɡilɣiχ"],
+    ale: ["agilĝix̂", "aɣilʁiχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 4_mouth: agilǵi-x́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     aln: ["gojë", "ɡoj"],
     vls: ["mound", "mont"],
     trm: ["aš", "aʃ"],

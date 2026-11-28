@@ -2178,7 +2178,7 @@ WORDS.tree = {
     mus: ["eto", "itoː"],
     esu: ["napa", "napa"],
     ess: ["уӄфиӽаӄ", "uqfiχaq"],
-    ale: ["ях̆", "jaχ"],
+    ale: ["hyaagax̂", "çaːɣaχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 112_tree: hyaaga-x́; ASJP ALEUT_2 tree SagoX (review 875: row rebuilt in Alaskan Latin, Eastern)
     apw: ["chʼil", "tʃʼil"],
     dak: ["čháŋ", "tʃʰã́"],
     chy: ["hoohtsėstse", "hoːhtsestse"],

@@ -1631,7 +1631,7 @@ WORDS.mirror = {
     cng: ["ɕil", "ɕil"],  // Sun TB (suntb).
     swi: ["nam3 ʔdaaŋ1", "nam˧˧ ʔdaːŋ˩˩"],  // IDS.
     nuf: ["phɹɑ̃55ɹu31khʴue35ɑ55", "pʰɹɑ̃˥˥ɹu˧˩kʰ˞ue˧˥ɑ˥˥"],  // Sun TB (suntb).
-    ale: ["укуулух̆", "ukuːluχ"],  // NorthEuraLex.
+    ale: ["ukuulux̂", "ukuːluχ"],  // NorthEuraLex (Dellert et al. 2020, lexibank CLDF), Aleut [ale], concept 383_mirror: ukuulux́ (review 875: row rebuilt in Alaskan Latin, Eastern)
     tue: ["ẽyõrõ", "ẽjõˈɾõ"],  // IDS.
     elx: ["𒋗𒄩", "ʃuha"],  // IDS (EW 1175).
     sga: ["scáthán", "ˈskaːθaːn"],  // IDS.

@@ -3504,7 +3504,7 @@
          header doesn't trap it inside the header's stacking context. -->
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
 
-    <!-- Word selector modal: the 12 WORD_CATEGORIES as labelled sections. -->
+    <!-- Word selector modal: the WORD_CATEGORIES as labelled sections. -->
     <div id="word-modal-backdrop" aria-hidden="true"
          style="position:fixed;inset:0;background:rgba(20,25,40,0.55);backdrop-filter:blur(2px);z-index:2000;display:none"></div>
     <div id="word-modal" role="dialog" aria-modal="true" aria-labelledby="word-modal-title"
@@ -3635,7 +3635,7 @@
             <!-- Show only the languages in the comparison list. Disabled while
                  that list is empty, because "only" would then mean "none" and
                  an empty map reads as a bug rather than as a filter. -->
-            <button class="toggle-btn" id="toggle-only-compare" aria-pressed="false" disabled aria-label="Show only the languages in the comparison list"><span class="label">Only</span><span class="onoff">OFF</span></button>
+            <button class="toggle-btn" id="toggle-only-compare" aria-pressed="false" disabled aria-label="Show only the languages in the comparison list"><span class="label">Selected</span><span class="onoff">OFF</span></button>
             <div class="size-slider-wrap">
                 <!-- + on top, − on bottom; the hidden range input keeps the
                      existing JS surface (fontSizeSlider.value, input/change
@@ -4081,10 +4081,10 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=374"></script>
+    <script src="wordmap_data.js?v=376"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="word_manifest.js?v=1876"></script>
-    <script src="word_labels.js?v=162"></script>
+    <script src="word_manifest.js?v=1877"></script>
+    <script src="word_labels.js?v=163"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
            loader below, and not beside assetUrl() where it used to live.
@@ -4105,16 +4105,16 @@
            the order was wrong. */
         const WM_ASSET_VERSION = {
             styles:   174,
-            data:      374,
+            data:      376,
             metaI18n:  20,
             filter:    65,
             names:   237,
             meta:     494,
             trivia:   126,
             triviaI18n: 158,
-            words:      1876,
-            langWords:    1488,
-            labels:      162,
+            words:      1877,
+            langWords:    1489,
+            labels:      163,
             metaI18nCoverage: 17,
             metaI18nCoverage2: 6,
             metaI18nCoverage3: 18,
@@ -5149,6 +5149,7 @@
                 if (typeof updateOnOff === 'function') {
                     updateOnOff(el, el.classList.contains('active'));
                 }
+                if (id === 'toggle-only-compare' && typeof paintCompareBtn === 'function') paintCompareBtn();
             });
             // Localize search input placeholder (Audit i18n gap fix)
             const searchInput = document.getElementById('lang-search');
@@ -5834,10 +5835,38 @@
         // "Only": restrict the map to the comparison list. Off by default, and
         // force-off whenever that list is empty — see syncOnlyCompareBtn.
         let onlyCompare = false;
+        // Third state (owner 2026-11-28): show every language as usual, but the
+        // comparison-list languages are ALWAYS drawn — they win collisions and are
+        // never hidden by the zoom tier (Teochew at a China zoom with fs=250).
+        // The switch cycles off → "always" → "only" → off; URL only=2 / only=1.
+        let pinCompare = false;
         // Single owner of the body class the CSS above keys off, so the amber
         // ring can never be left on after the toggle goes off.
         function applyOnlyCompareClass() {
             document.body.classList.toggle('only-compare', !!onlyCompare);
+        }
+        const CMP_PIN_LBL  = { en:'ALWAYS', ja:'必ず表示', ko:'항상', zh:'必显示', yue:'一定顯示', vi:'LUÔN', th:'แสดงเสมอ', id:'SELALU', hi:'हमेशा', de:'IMMER', fr:'TOUJOURS', it:'SEMPRE', es:'SIEMPRE', pt:'SEMPRE', ru:'ВСЕГДА', uk:'ЗАВЖДИ', ar:'دائمًا', he:'תמיד', sw:'DAIMA' };
+        const CMP_ONLY_LBL = { en:'ONLY', ja:'のみ', ko:'만', zh:'仅此', yue:'淨係', vi:'CHỈ', th:'เท่านั้น', id:'SAJA', hi:'केवल', de:'NUR', fr:'SEULS', it:'SOLO', es:'SOLO', pt:'SÓ', ru:'ТОЛЬКО', uk:'ЛИШЕ', ar:'فقط', he:'רק', sw:'TU' };
+        function compareMode() { return onlyCompare ? 'only' : (pinCompare ? 'pin' : 'off'); }
+        function paintCompareBtn() {
+            const btn = document.getElementById('toggle-only-compare');
+            if (!btn) return;
+            const m = compareMode();
+            btn.classList.toggle('active', m !== 'off');
+            btn.setAttribute('aria-pressed', String(m !== 'off'));
+            btn.dataset.mode = m;
+            const oo = btn.querySelector('.onoff');
+            if (oo) {
+                const ui = (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0];
+                if (m === 'off' && typeof updateOnOff === 'function') updateOnOff(btn, false);
+                else { const t = m === 'pin' ? CMP_PIN_LBL : CMP_ONLY_LBL; oo.textContent = t[ui] || t.en; }
+            }
+        }
+        function setCompareMode(m) {
+            onlyCompare = m === 'only';
+            pinCompare = m === 'pin';
+            applyOnlyCompareClass();
+            paintCompareBtn();
         }
         let showHistorical = false;
         const btnWord = document.getElementById('toggle-word');
@@ -5930,7 +5959,11 @@
         setupToggle(btnWord, () => showWord, v => showWord = v);
         setupToggle(btnIpa, () => showIpa, v => showIpa = v);
         setupToggle(btnName, () => showName, v => showName = v);
-        if (btnOnlyCompare) setupToggle(btnOnlyCompare, () => onlyCompare, v => { onlyCompare = v; applyOnlyCompareClass(); });
+        if (btnOnlyCompare) btnOnlyCompare.addEventListener('click', () => {
+            const next = { off: 'pin', pin: 'only', only: 'off' }[compareMode()];
+            setCompareMode(next);
+            updateMarkers(currentWord);
+        });
         if (btnOnlyCompare) btnOnlyCompare.addEventListener('click', () => updateHash());
         if (btnPins) setupToggle(btnPins, () => showPins, v => showPins = v);
         // Persist the pin toggle in the URL hash (unlike the form/pron/name
@@ -7724,7 +7757,7 @@
                 && _focusedPanel.classList.contains('visible'))
                 ? _focusedPanel.dataset.code : null;
             const _spotlight = (typeof _triviaSpotlight !== 'undefined') ? _triviaSpotlight : null;
-            const _routeForce = new Set(window.__routeForce || []);
+            const _routeForce = new Set((window.__routeForce || []).concat(pinCompare ? (window.__compareList || []) : []));
             // When a filter is active, exclude filtered-out (dimmed) langs
             // from the collision pass: they render at their natural marker
             // position (offsets[code] = (0,0) from earlier — cellGroups
@@ -8310,6 +8343,7 @@
             if (showHistorical) params.set('hist', '1');  // default: off
             if (showPins)       params.set('pin', '1');   // default: off
             if (onlyCompare)    params.set('only', '1');  // default: off
+            else if (pinCompare) params.set('only', '2'); // selected always shown
             if (document.body.classList.contains('chrome-hidden'))
                 params.set('simple', '1');                // default: off
             if (String(fontSizeSlider.value) !== '140') params.set('fs', String(fontSizeSlider.value)); // default: 140
@@ -8484,12 +8518,9 @@
             // with an empty cmp list lands disabled rather than blanking the map.
             const onlyParam = params.get('only');
             if (btnOnlyCompare) {
-                onlyCompare = onlyParam === '1' && (window.__compareList || []).length > 0;
-                btnOnlyCompare.classList.toggle('active', onlyCompare);
-                btnOnlyCompare.setAttribute('aria-pressed', String(onlyCompare));
-                btnOnlyCompare.disabled = (window.__compareList || []).length === 0;
-                if (typeof updateOnOff === 'function') updateOnOff(btnOnlyCompare, onlyCompare);
-                applyOnlyCompareClass();
+                const _hasCmp = (window.__compareList || []).length > 0;
+                setCompareMode(!_hasCmp ? 'off' : onlyParam === '1' ? 'only' : onlyParam === '2' ? 'pin' : 'off');
+                btnOnlyCompare.disabled = !_hasCmp;
             }
             // Simple-display mode. The pre-body FOUC script already applied it
             // on first paint; this is for back/forward and hand-edited URLs.
@@ -10982,7 +11013,7 @@
             try { updateHash(); } catch (e) {}
             // With Only on, the visible set IS the comparison list, so any
             // add/remove has to redraw the map and not just the amber rings.
-            if (typeof onlyCompare !== 'undefined' && onlyCompare) {
+            if (typeof onlyCompare !== 'undefined' && (onlyCompare || pinCompare)) {
                 try { updateMarkers(currentWord); } catch (e) {}
             }
         }
@@ -11026,12 +11057,8 @@
             if (!btn) return;
             const n = (window.__compareList || []).length;
             btn.disabled = n === 0;
-            if (n === 0 && typeof onlyCompare !== 'undefined' && onlyCompare) {
-                onlyCompare = false;
-                btn.classList.remove('active');
-                btn.setAttribute('aria-pressed', 'false');
-                if (typeof updateOnOff === 'function') updateOnOff(btn, false);
-                applyOnlyCompareClass();
+            if (n === 0 && typeof onlyCompare !== 'undefined' && (onlyCompare || pinCompare)) {
+                setCompareMode('off');
                 try { updateMarkers(currentWord); } catch (_) {}
                 try { updateHash(); } catch (_) {}
             }
@@ -11567,13 +11594,10 @@
             if (btn) {
                 const has = (window.__compareList || []).length > 0;
                 btn.disabled = !has;
-                const want = new URLSearchParams(location.hash.slice(1)).get('only') === '1' && has;
-                if (want !== onlyCompare) {
-                    onlyCompare = want;
-                    btn.classList.toggle('active', want);
-                    btn.setAttribute('aria-pressed', String(want));
-                    if (typeof updateOnOff === 'function') updateOnOff(btn, want);
-                    applyOnlyCompareClass();
+                const _o = new URLSearchParams(location.hash.slice(1)).get('only');
+                const want = !has ? 'off' : _o === '1' ? 'only' : _o === '2' ? 'pin' : 'off';
+                if (want !== compareMode()) {
+                    setCompareMode(want);
                     try { updateMarkers(currentWord); } catch (_) {}
                     try { updateNameSwitch(); } catch (_) {}
                 }
